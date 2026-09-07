@@ -103,6 +103,109 @@ four required cases.
 
 ---
 
+## The four required cases
+
+All four are live in the UI under **Required cases**, selected by querying the
+knowledge layer rather than hard-coded — `/api/cases`.
+
+### 1. Corroborated across documents, expressed differently
+
+The Q4 earnings deck reports `₹8,142 Cr`; the annual report reports `₹81,415 Mn`.
+Different documents, different scales, different formatting.
+
+```
+A  8,142 ₹Cr  = 81,420 INR_million   implied range 81,415    – 81,425
+B  81,415 ₹Mn = 81,415 INR_million   implied range 81,414.5  – 81,415.5
+ranges overlap → the 0.006% difference is fully accounted for by rounding
+```
+
+The same mechanism links `₹127 Cr` to `₹1,266 Mn` (EBITDA) and, in the macro
+corpus, the RBI's "6.5 per cent in 2024-25" to the IMF's "6.5 percent in
+FY2024/25" — which requires the period normaliser to recognise those two
+notations as one window.
+
+### 2. A genuine contradiction
+
+The RBI projects **6.5 %** real GDP growth for FY26; the IMF projects **6.6 %**
+for the same year. Both are forward projections, both about India, same period.
+
+```
+A  6.5 %  implied range 6.450 – 6.550
+B  6.6 %  implied range 6.550 – 6.650
+ranges disjoint, and every recorded dimension matches
+→ nothing in either document explains the gap → CONTRADICTS
+```
+
+Note the intervals *touch* at 6.55 and are still called disjoint. That is
+deliberate: treating contact as agreement would merge every adjacent pair of
+one-decimal figures in the corpus.
+
+### 3. An apparent contradiction explained by context
+
+The Economic Survey says **6.4 %** for FY25; the RBI says **6.5 %** for 2024-25 —
+the same window, a 1.54 % gap, intervals disjoint. So the difference is real.
+But the two facts differ on one dimension:
+
+```
+A  basis = first_advance_estimate   (Survey, published Jan 2025)
+B  basis = provisional_estimate     (RBI,    published May 2025)
+→ RECONCILED, explained by `basis`
+```
+
+That is a revision, not a disagreement. The system names the dimension that
+explains it rather than asserting the facts are compatible.
+
+Two other kinds of reconciliation appear in the same corpus, which matters
+because it shows the mechanism is general rather than tuned to vintages:
+**reporting scope** (standalone `74,540.82` vs consolidated `81,415.38`, same
+metric, same year) and **period** (`₹8,142 Cr` for FY24 vs `₹2,076 Cr` for
+Q4 FY24).
+
+### 4. A failure I found, and how it is handled
+
+**Spatial layout carries meaning that linear text extraction destroys.**
+
+On slide 8 of the earnings deck, four charts sit side by side. Extracted to
+text, the page reads:
+
+```
+... 582 663 740  FY22 FY23 FY24  4,191 4,552 5,077  FY22 FY23 FY24
+Express Parcel revenue   PTL freight revenue(2)   1,579 1,101 1,429 ...
+```
+
+The values arrive *before* their own chart title and interleaved with the
+neighbouring chart's. The model handled this correctly in substance — it
+proposed the fact `Express Parcel revenue = 4,191` — but quoted it as
+`"Express Parcel revenue\n4,191\n4,552\n5,077"`, grouping the label with its
+values. That string does not occur on the page, so **the verifier rejected a
+fact that was semantically right**.
+
+That is the honest cost of strict grounding: it trades recall for the guarantee
+that no citation ever points at the wrong ink. I kept the strictness, because a
+fact layer whose evidence is occasionally wrong is worse than one that admits
+what it missed — but the cost is real and it is the largest single contributor
+to the coverage gap reported in **Diagnostics**.
+
+The same failure has a second face inside statutory filings, where a table line
+carries four figures (standalone and consolidated × current and prior year) with
+headers on a different line. There a wrong column binding produces a fact that
+*is* verbatim on the page and therefore passes verification — a false positive
+rather than a false negative. The system catches those downstream, as
+contradictions between two facts from the *same* document, which in a statutory
+filing almost always means a misread table rather than an inconsistent document.
+They are surfaced at reduced confidence with both page spans attached, so a
+reviewer can open each side and settle it in seconds. `scripts/diagnose.py`
+ranks them.
+
+**The fix I would build:** reconstruct the table and chart grid from the word
+geometry that ingestion already captures, and hand the model a cell together
+with its full header path instead of a flattened line. The coordinates are
+already stored on every word; nothing new needs extracting. That single change
+addresses both faces of this failure, and it is why it is first on the
+next-steps list.
+
+---
+
 ## Approach
 
 ### Architecture
