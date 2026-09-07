@@ -1,0 +1,395 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 21,
+    "quote": "Revenue from\ncontract with\ncustomers\n36,465.27\n8,035.88\n(1.84)\n-\n-\n44,501.15",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Revenue from contract with customers",
+    "subject": "Delhivery Limited",
+    "value_raw": "44,501.15",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "year ended March 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated statement of Profit and Loss"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 21,
+    "quote": "Total income\n(I)\n38,382.91\n8,062.77\n(1.84)\n-\n-\n46,445.68",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Total income",
+    "subject": "Delhivery Limited",
+    "value_raw": "46,445.68",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "year ended March 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated statement of Profit and Loss"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 21,
+    "quote": "Loss before tax\n(V= III+IV)\n(4,157.43)\n(310.10)\n-\n(1,530.29)\n(1,530.29)\n(5,997.82)",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Loss before tax",
+    "subject": "Delhivery Limited",
+    "value_raw": "(5,997.82)",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "year ended March 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated statement of Profit and Loss"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "Goodwill\n186.48\n807.15\n-\n11,800.15\n11,800.15\n12,793.78",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Goodwill",
+    "subject": "Delhivery Limited",
+    "value_raw": "12,793.78",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "as at March 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "Total non-current assets\n17,673.00\n2,422.41\n-\n14,729.35\n14,729.35\n34,824.76",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Total non-current assets",
+    "subject": "Delhivery Limited",
+    "value_raw": "34,824.76",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "as at March 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "Total current assets\n28,304.98\n2,745.34\n(2.17)\n4,881.93\n4,881.93\n35,932.25",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Total current assets",
+    "subject": "Delhivery Limited",
+    "value_raw": "35,932.25",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "as at March 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "Total Assets (I+II)\n45,977.98\n5,167.75\n(2.17)\n19,611.28\n19,611.28\n70,757.01",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Total Assets",
+    "subject": "Delhivery Limited",
+    "value_raw": "70,757.01",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "as at March 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 25,
+    "quote": "Total equity\n28,367.97\n486.67\n-\n19,611.28\n19,611.28\n48,465.92",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Total equity",
+    "subject": "Delhivery Limited",
+    "value_raw": "48,465.92",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "as at March 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 25,
+    "quote": "Total non- current\nliabilities\n8,073.69\n2,049.39\n-\n-\n-\n10,123.08",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Total non-current liabilities",
+    "subject": "Delhivery Limited",
+    "value_raw": "10,123.08",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "as at March 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 25,
+    "quote": "Total current\nliabilities\n9,536.32\n2,631.69\n(2.17)\n-\n-\n12,168.01",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Total current liabilities",
+    "subject": "Delhivery Limited",
+    "value_raw": "12,168.01",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "as at March 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 25,
+    "quote": "Total Equity and\nLiabilities (III+IV+V)\n45,977.98\n5,167.75\n(2.17)\n19,611.28\n19,611.28\n70,757.01",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Total Equity and Liabilities",
+    "subject": "Delhivery Limited",
+    "value_raw": "70,757.01",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "as at March 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "Revenue from\ncontract with\ncustomers\n48,105.30\n7,575.11\n(3,973.94)\n(9.92)\n-\n(3,983.86)\n51,696.55",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Revenue from contract with customers",
+    "subject": "Delhivery Limited",
+    "value_raw": "51,696.55",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Statement of Profit and Loss"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "Total income\n(I)\n49,114.06\n7,586.66\n(3,983.99)\n(9.92)\n-\n(3,993.91)\n52,706.81",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Total income",
+    "subject": "Delhivery Limited",
+    "value_raw": "52,706.81",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Statement of Profit and Loss"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "Total\nexpenses (II)\n58,101.51\n7,759.07\n(3,892.93)\n(9.92)\n570.19\n(3,332.66)\n62,527.92",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Total expenses",
+    "subject": "Delhivery Limited",
+    "value_raw": "62,527.92",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Statement of Profit and Loss"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "Loss before\nexceptional\nitem and tax\n(III)\n(8,987.45)\n(172.41)\n(91.06)\n-\n(570.19)\n(661.25)\n(9,821.11)",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Loss before exceptional item and tax",
+    "subject": "Delhivery Limited",
+    "value_raw": "(9,821.11)",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Statement of Profit and Loss"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "Loss before\ntax (V=\nIII+IV)\n(8,987.45)\n(190.39)\n(91.06)\n-\n(570.19)\n(661.25)\n(9,839.09)",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Loss before tax",
+    "subject": "Delhivery Limited",
+    "value_raw": "(9,839.09)",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Statement of Profit and Loss"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "Loss for the\nperiod (III-\nIV)\n(8,911.39)\n(272.65)\n(19.29)\n-\n(406.56)\n(425.85)\n(9,609.89)",
+    "kind": "numeric",
+    "metric": "Proforma Consolidated Loss for the period",
+    "subject": "Delhivery Limited",
+    "value_raw": "(9,609.89)",
+    "unit_raw": "₹ million",
+    "state": null,
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {
+     "statement": "Proforma Consolidated Statement of Profit and Loss"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 29,
+    "quote": "Our Company was incorporated as “SSN Logistics Private Limited”, a private limited company, under the\nCompanies Act, 1956, pursuant to a certificate of incorporation issued by the RoC on June 22, 2011.",
+    "kind": "semantic",
+    "metric": "original name and date of incorporation",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "incorporated as SSN Logistics Private Limited on June 22, 2011",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 29,
+    "quote": "the name of our Company was changed to “Delhivery Private Limited”, pursuant to a fresh certificate of\nincorporation issued by the RoC on December 8, 2015.",
+    "kind": "semantic",
+    "metric": "name change to Delhivery Private Limited",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "changed to Delhivery Private Limited on December 8, 2015",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 29,
+    "quote": "our name was changed to “Delhivery Limited” and a fresh certificate of incorporation dated October 12, 2021 was issued by the RoC.",
+    "kind": "semantic",
+    "metric": "name change to Delhivery Limited",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "changed to Delhivery Limited on October 12, 2021",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 29,
+    "quote": "Corporate Identity Number: U63090DL2011PLC221234",
+    "kind": "semantic",
+    "metric": "Corporate Identity Number",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "U63090DL2011PLC221234",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 29,
+    "quote": "Deepak Kapoor\nChairman and Non-Executive Independent Director",
+    "kind": "semantic",
+    "metric": "designation of Deepak Kapoor",
+    "subject": "Deepak Kapoor",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "Chairman and Non-Executive Independent Director",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 29,
+    "quote": "Sahil Barua\nManaging Director and Chief Executive Officer",
+    "kind": "semantic",
+    "metric": "designation of Sahil Barua",
+    "subject": "Sahil Barua",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "Managing Director and Chief Executive Officer",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 34,
+    "quote": "Registrar to the Offer\nLink Intime India Private Limited",
+    "kind": "semantic",
+    "metric": "Registrar to the Offer",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "Link Intime India Private Limited",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 34,
+    "quote": "Escrow Collection Bank / Public Offer Account Bank / Refund Bank\nAxis Bank Limited",
+    "kind": "semantic",
+    "metric": "Escrow Collection Bank / Public Offer Account Bank / Refund Bank",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "Axis Bank Limited",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 35,
+    "quote": "Statutory Auditors to our Company\nS.R. Batliboi & Associates LLP",
+    "kind": "semantic",
+    "metric": "Statutory Auditors",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "S.R. Batliboi & Associates LLP",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 35,
+    "quote": "There have been no changes in the statutory auditors of our Company during the three years immediately\npreceding the date of this Prospectus.",
+    "kind": "semantic",
+    "metric": "changes in statutory auditors",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "no changes during the three years immediately preceding the date of this Prospectus",
+    "period_raw": "three years immediately preceding the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 21,\n      \"quote\": \"Revenue from\\ncontract with\\ncustomers\\n36,465.27\\n8,035.88\\n(1.84)\\n-\\n-\\n44,501.15\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Revenue from contract with customers\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"44,501.15\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"year ended March 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated statement of Profit and Loss\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 21,\n      \"quote\": \"Total income\\n(I)\\n38,382.91\\n8,062.77\\n(1.84)\\n-\\n-\\n46,445.68\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Total income\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"46,445.68\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"year ended March 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated statement of Profit and Loss\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 21,\n      \"quote\": \"Loss before tax\\n(V= III+IV)\\n(4,157.43)\\n(310.10)\\n-\\n(1,530.29)\\n(1,530.29)\\n(5,997.82)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Loss before tax\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(5,997.82)\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"year ended March 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated statement of Profit and Loss\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"Goodwill\\n186.48\\n807.15\\n-\\n11,800.15\\n11,800.15\\n12,793.78\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Goodwill\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"12,793.78\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"as at March 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"Total non-current assets\\n17,673.00\\n2,422.41\\n-\\n14,729.35\\n14,729.35\\n34,824.76\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Total non-current assets\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"34,824.76\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"as at March 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"Total current assets\\n28,304.98\\n2,745.34\\n(2.17)\\n4,881.93\\n4,881.93\\n35,932.25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Total current assets\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"35,932.25\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"as at March 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"Total Assets (I+II)\\n45,977.98\\n5,167.75\\n(2.17)\\n19,611.28\\n19,611.28\\n70,757.01\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Total Assets\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"70,757.01\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"as at March 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 25,\n      \"quote\": \"Total equity\\n28,367.97\\n486.67\\n-\\n19,611.28\\n19,611.28\\n48,465.92\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Total equity\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"48,465.92\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"as at March 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 25,\n      \"quote\": \"Total non- current\\nliabilities\\n8,073.69\\n2,049.39\\n-\\n-\\n-\\n10,123.08\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Total non-current liabilities\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"10,123.08\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"as at March 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 25,\n      \"quote\": \"Total current\\nliabilities\\n9,536.32\\n2,631.69\\n(2.17)\\n-\\n-\\n12,168.01\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Total current liabilities\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"12,168.01\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"as at March 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 25,\n      \"quote\": \"Total Equity and\\nLiabilities (III+IV+V)\\n45,977.98\\n5,167.75\\n(2.17)\\n19,611.28\\n19,611.28\\n70,757.01\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Total Equity and Liabilities\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"70,757.01\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"as at March 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"Revenue from\\ncontract with\\ncustomers\\n48,105.30\\n7,575.11\\n(3,973.94)\\n(9.92)\\n-\\n(3,983.86)\\n51,696.55\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Revenue from contract with customers\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"51,696.55\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Statement of Profit and Loss\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"Total income\\n(I)\\n49,114.06\\n7,586.66\\n(3,983.99)\\n(9.92)\\n-\\n(3,993.91)\\n52,706.81\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Total income\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"52,706.81\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Statement of Profit and Loss\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"Total\\nexpenses (II)\\n58,101.51\\n7,759.07\\n(3,892.93)\\n(9.92)\\n570.19\\n(3,332.66)\\n62,527.92\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Total expenses\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"62,527.92\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Statement of Profit and Loss\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"Loss before\\nexceptional\\nitem and tax\\n(III)\\n(8,987.45)\\n(172.41)\\n(91.06)\\n-\\n(570.19)\\n(661.25)\\n(9,821.11)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Loss before exceptional item and tax\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(9,821.11)\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Statement of Profit and Loss\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"Loss before\\ntax (V=\\nIII+IV)\\n(8,987.45)\\n(190.39)\\n(91.06)\\n-\\n(570.19)\\n(661.25)\\n(9,839.09)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Loss before tax\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(9,839.09)\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Statement of Profit and Loss\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"Loss for the\\nperiod (III-\\nIV)\\n(8,911.39)\\n(272.65)\\n(19.29)\\n-\\n(406.56)\\n(425.85)\\n(9,609.89)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proforma Consolidated Loss for the period\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(9,609.89)\",\n      \"unit_raw\": \"₹ million\",\n      \"state\": null,\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"statement\": \"Proforma Consolidated Statement of Profit and Loss\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 29,\n      \"quote\": \"Our Company was incorporated as “SSN Logistics Private Limited”, a private limited company, under the\\nCompanies Act, 1956, pursuant to a certificate of incorporation issued by the RoC on June 22, 2011.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"original name and date of incorporation\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"incorporated as SSN Logistics Private Limited on June 22, 2011\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 29,\n      \"quote\": \"the name of our Company was changed to “Delhivery Private Limited”, pursuant to a fresh certificate of\\nincorporation issued by the RoC on December 8, 2015.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"name change to Delhivery Private Limited\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"changed to Delhivery Private Limited on December 8, 2015\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 29,\n      \"quote\": \"our name was changed to “Delhivery Limited” and a fresh certificate of incorporation dated October 12, 2021 was issued by the RoC.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"name change to Delhivery Limited\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"changed to Delhivery Limited on October 12, 2021\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 29,\n      \"quote\": \"Corporate Identity Number: U63090DL2011PLC221234\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Corporate Identity Number\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"U63090DL2011PLC221234\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 29,\n      \"quote\": \"Deepak Kapoor\\nChairman and Non-Executive Independent Director\",\n      \"kind\": \"semantic\",\n      \"metric\": \"designation of Deepak Kapoor\",\n      \"subject\": \"Deepak Kapoor\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"Chairman and Non-Executive Independent Director\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 29,\n      \"quote\": \"Sahil Barua\\nManaging Director and Chief Executive Officer\",\n      \"kind\": \"semantic\",\n      \"metric\": \"designation of Sahil Barua\",\n      \"subject\": \"Sahil Barua\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"Managing Director and Chief Executive Officer\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 34,\n      \"quote\": \"Registrar to the Offer\\nLink Intime India Private Limited\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Registrar to the Offer\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"Link Intime India Private Limited\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 34,\n      \"quote\": \"Escrow Collection Bank / Public Offer Account Bank / Refund Bank\\nAxis Bank Limited\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Escrow Collection Bank / Public Offer Account Bank / Refund Bank\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"Axis Bank Limited\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 35,\n      \"quote\": \"Statutory Auditors to our Company\\nS.R. Batliboi & Associates LLP\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Statutory Auditors\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"S.R. Batliboi & Associates LLP\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 35,\n      \"quote\": \"There have been no changes in the statutory auditors of our Company during the three years immediately\\npreceding the date of this Prospectus.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"changes in statutory auditors\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"no changes during the three years immediately preceding the date of this Prospectus\",\n      \"period_raw\": \"three years immediately preceding the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "extract:01-delhivery-prospectus-2022-excerpt-0d7e71e1:b21"
+}

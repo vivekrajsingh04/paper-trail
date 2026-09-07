@@ -32,8 +32,10 @@ def main() -> int:
     args = ap.parse_args()
 
     cfg = describe()
+    keys = cfg.get("keys", 0)
     print(f"provider={cfg['provider']} model={cfg['model']} "
-          f"credentials={'yes' if cfg['credentials_present'] else 'NO'} "
+          f"credentials={'yes' if cfg['credentials_present'] else 'NO'}"
+          f"{f' ({keys} keys)' if keys else ''} "
           f"cache_entries={cfg['cache']['entries']}")
     if not has_llm_credentials() and cfg["cache"]["entries"] == 0:
         print("\nNo API key and no cache. Set GEMINI_API_KEY in .env "

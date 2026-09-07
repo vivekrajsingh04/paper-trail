@@ -1,0 +1,274 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 39,
+    "quote": "Total\n27,203,946\n13,237.50",
+    "kind": "numeric",
+    "metric": "Total indicative number of Equity Shares to be Underwritten",
+    "subject": "Delhivery Limited",
+    "value_raw": "27,203,946",
+    "unit_raw": null,
+    "period_raw": "May 14, 2022",
+    "qualifiers": {
+     "excluding_qib_portion": "80,313,142 Equity Shares"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 39,
+    "quote": "Total\n27,203,946\n13,237.50",
+    "kind": "numeric",
+    "metric": "Total amount underwritten",
+    "subject": "Delhivery Limited",
+    "value_raw": "13,237.50",
+    "unit_raw": "₹ in million",
+    "period_raw": "May 14, 2022",
+    "qualifiers": {
+     "excluding_qib_portion": "80,313,142 Equity Shares"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "investments in automation infrastructure, such as sorters and other\nequipment, amounted to ₹192.91 million, ₹376.24 million, ₹178.96 million, ₹148.62 million and\n₹1,289.79 million, respectively.",
+    "kind": "numeric",
+    "metric": "investments in automation infrastructure, such as sorters and other equipment",
+    "subject": "Delhivery Limited",
+    "value_raw": "1,289.79",
+    "unit_raw": "₹ million",
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "provide our services in\n17,488 postal index number (“PIN”) codes, as of December 31, 2021.",
+    "kind": "numeric",
+    "metric": "PIN codes serviced",
+    "subject": "Delhivery Limited",
+    "value_raw": "17,488",
+    "unit_raw": "PIN codes",
+    "period_raw": "as of December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "Revenue from contracts\nwith customers (in ₹\nmillion)(2)\n16,538.97\n27,805.75\n36,465.27\n48,105.30",
+    "kind": "numeric",
+    "metric": "Revenue from contracts with customers",
+    "subject": "Delhivery Limited",
+    "value_raw": "48,105.30",
+    "unit_raw": "₹ million",
+    "period_raw": "nine months ended December 31, 2021",
+    "qualifiers": {
+     "includes_spoton_financials_from_august_24_2021": "true"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "Restated loss for the\nperiod/ year (in ₹\nmillion)(2)\n(17,833.04)\n(2,689.26)\n(4,157.43)\n(8,911.39)",
+    "kind": "numeric",
+    "metric": "Restated loss for the period/ year",
+    "subject": "Delhivery Limited",
+    "value_raw": "(8,911.39)",
+    "unit_raw": "₹ million",
+    "period_raw": "nine months ended December 31, 2021",
+    "qualifiers": {
+     "includes_spoton_financials_from_august_24_2021": "true"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 44,
+    "quote": "We acquired Spoton, an express PTL freight service provider in India, in August 2021.",
+    "kind": "semantic",
+    "metric": "Acquisition of Spoton",
+    "subject": "Delhivery Limited",
+    "state": "acquired Spoton",
+    "period_raw": "August 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 44,
+    "quote": "PIN code reach\n12,764\n13,087",
+    "kind": "numeric",
+    "metric": "PIN code reach",
+    "subject": "Spoton",
+    "value_raw": "13,087",
+    "unit_raw": null,
+    "period_raw": "nine months ended December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 44,
+    "quote": "Infrastructure (in million square feet)\n2.62\n2.85",
+    "kind": "numeric",
+    "metric": "Infrastructure",
+    "subject": "Spoton",
+    "value_raw": "2.85",
+    "unit_raw": "million square feet",
+    "period_raw": "nine months ended December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 44,
+    "quote": "Revenue from\nExpress Parcel\nServices\n13,730.73\n83.02%\n19,288.56\n69.37%\n25,505.15\n69.94%\n18,830.38\n71.22%\n29,587.59\n61.51%",
+    "kind": "numeric",
+    "metric": "Revenue from Express Parcel Services",
+    "subject": "Delhivery Limited",
+    "value_raw": "29,587.59",
+    "unit_raw": "₹ in million",
+    "period_raw": "Nine months period ended December 31, 2021",
+    "qualifiers": {
+     "percentage_of_revenue_from_contracts_with_customers": "61.51%",
+     "includes_spoton_financials_from_august_24_2021": "true"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 45,
+    "quote": "Spoton, which we acquired in August 2021 had PTL volume of 758,730 tonnes, 508,026 tonnes and\n683,999 tonnes for Fiscal 2021 and the nine months period ended December 31, 2020 and the nine months period\nended December 31, 2021, respectively.",
+    "kind": "numeric",
+    "metric": "PTL volume",
+    "subject": "Spoton",
+    "value_raw": "758,730",
+    "unit_raw": "tonnes",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 45,
+    "quote": "the Indian logistics market presents a large addressable opportunity, with direct spends on logistics of\napproximately US$216 billion in Fiscal 2020",
+    "kind": "numeric",
+    "metric": "direct spends on logistics",
+    "subject": "Indian logistics market",
+    "value_raw": "216",
+    "unit_raw": "US$ billion",
+    "period_raw": "Fiscal 2020",
+    "qualifiers": {
+     "source": "RedSeer Report"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "We have delivered more than 1.2\nbillion shipments since incorporation.",
+    "kind": "numeric",
+    "metric": "shipments delivered since incorporation",
+    "subject": "Delhivery Limited",
+    "value_raw": "1.2",
+    "unit_raw": "billion",
+    "period_raw": "since incorporation",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "For the nine months period ended December 31, 2021, we delivered 406.51 million shipments.",
+    "kind": "numeric",
+    "metric": "shipments delivered",
+    "subject": "Delhivery Limited",
+    "value_raw": "406.51",
+    "unit_raw": "million",
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "For the nine months period ended December 31, 2021, 20,498 Active Customers\nused our express parcel delivery services.",
+    "kind": "numeric",
+    "metric": "Active Customers using express parcel delivery services",
+    "subject": "Delhivery Limited",
+    "value_raw": "20,498",
+    "unit_raw": "Active Customers",
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 47,
+    "quote": "Our shipment volume has grown by more than six times from 0.85 million\nshipments in Fiscal 2019 to 5.26 million shipments in Fiscal 2021 on an annual basis.",
+    "kind": "numeric",
+    "metric": "heavy goods shipment volume",
+    "subject": "Delhivery Limited",
+    "value_raw": "5.26",
+    "unit_raw": "million shipments",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 47,
+    "quote": "In Fiscal 2021, we delivered 373,854 tonnes of freight",
+    "kind": "numeric",
+    "metric": "PTL freight delivered",
+    "subject": "Delhivery Limited",
+    "value_raw": "373,854",
+    "unit_raw": "tonnes",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "In Fiscal 2021, we had 407 Active Customers availing\nour cross-border shipping services, transacting over 2,050 tonnes of air freight.",
+    "kind": "numeric",
+    "metric": "Active Customers availing cross-border shipping services",
+    "subject": "Delhivery Limited",
+    "value_raw": "407",
+    "unit_raw": "Active Customers",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "Our revenue\nfrom sale of traded goods was nil, ₹57.50 million, ₹110.89 million, ₹88.14 million and ₹1,874.74 million for\nFiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31, 2020 and the nine\nmonths period ended December 31, 2021 respectively",
+    "kind": "numeric",
+    "metric": "revenue from sale of traded goods",
+    "subject": "Delhivery Limited",
+    "value_raw": "1,874.74",
+    "unit_raw": "₹ million",
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 54,
+    "quote": "Our revenue from contracts with customers has grown from ₹16,538.97 million in\nFiscal 2019 to ₹36,465.27 million in Fiscal 2021, or a CAGR of 48.49%.",
+    "kind": "numeric",
+    "metric": "CAGR of revenue from contracts with customers",
+    "subject": "Delhivery Limited",
+    "value_raw": "48.49",
+    "unit_raw": "%",
+    "period_raw": "from Fiscal 2019 to Fiscal 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 54,
+    "quote": "Further our revenue from contracts with customers has improved from ₹26,438.66 million for the nine months\nperiod ended December 31, 2020 to ₹48,105.30 million for the nine months period ended December 31, 2021",
+    "kind": "numeric",
+    "metric": "revenue from contracts with customers",
+    "subject": "Delhivery Limited",
+    "value_raw": "26,438.66",
+    "unit_raw": "million",
+    "period_raw": "nine months period ended December 31, 2020",
+    "qualifiers": {},
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 39,\n      \"quote\": \"Total\\n27,203,946\\n13,237.50\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total indicative number of Equity Shares to be Underwritten\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"27,203,946\",\n      \"unit_raw\": null,\n      \"period_raw\": \"May 14, 2022\",\n      \"qualifiers\": {\n        \"excluding_qib_portion\": \"80,313,142 Equity Shares\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 39,\n      \"quote\": \"Total\\n27,203,946\\n13,237.50\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total amount underwritten\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"13,237.50\",\n      \"unit_raw\": \"₹ in million\",\n      \"period_raw\": \"May 14, 2022\",\n      \"qualifiers\": {\n        \"excluding_qib_portion\": \"80,313,142 Equity Shares\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"investments in automation infrastructure, such as sorters and other\\nequipment, amounted to ₹192.91 million, ₹376.24 million, ₹178.96 million, ₹148.62 million and\\n₹1,289.79 million, respectively.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"investments in automation infrastructure, such as sorters and other equipment\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"1,289.79\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"provide our services in\\n17,488 postal index number (“PIN”) codes, as of December 31, 2021.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"PIN codes serviced\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"17,488\",\n      \"unit_raw\": \"PIN codes\",\n      \"period_raw\": \"as of December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"Revenue from contracts\\nwith customers (in ₹\\nmillion)(2)\\n16,538.97\\n27,805.75\\n36,465.27\\n48,105.30\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from contracts with customers\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"48,105.30\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"nine months ended December 31, 2021\",\n      \"qualifiers\": {\n        \"includes_spoton_financials_from_august_24_2021\": \"true\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"Restated loss for the\\nperiod/ year (in ₹\\nmillion)(2)\\n(17,833.04)\\n(2,689.26)\\n(4,157.43)\\n(8,911.39)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Restated loss for the period/ year\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(8,911.39)\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"nine months ended December 31, 2021\",\n      \"qualifiers\": {\n        \"includes_spoton_financials_from_august_24_2021\": \"true\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 44,\n      \"quote\": \"We acquired Spoton, an express PTL freight service provider in India, in August 2021.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Acquisition of Spoton\",\n      \"subject\": \"Delhivery Limited\",\n      \"state\": \"acquired Spoton\",\n      \"period_raw\": \"August 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 44,\n      \"quote\": \"PIN code reach\\n12,764\\n13,087\",\n      \"kind\": \"numeric\",\n      \"metric\": \"PIN code reach\",\n      \"subject\": \"Spoton\",\n      \"value_raw\": \"13,087\",\n      \"unit_raw\": null,\n      \"period_raw\": \"nine months ended December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 44,\n      \"quote\": \"Infrastructure (in million square feet)\\n2.62\\n2.85\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Infrastructure\",\n      \"subject\": \"Spoton\",\n      \"value_raw\": \"2.85\",\n      \"unit_raw\": \"million square feet\",\n      \"period_raw\": \"nine months ended December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 44,\n      \"quote\": \"Revenue from\\nExpress Parcel\\nServices\\n13,730.73\\n83.02%\\n19,288.56\\n69.37%\\n25,505.15\\n69.94%\\n18,830.38\\n71.22%\\n29,587.59\\n61.51%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from Express Parcel Services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"29,587.59\",\n      \"unit_raw\": \"₹ in million\",\n      \"period_raw\": \"Nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"percentage_of_revenue_from_contracts_with_customers\": \"61.51%\",\n        \"includes_spoton_financials_from_august_24_2021\": \"true\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 45,\n      \"quote\": \"Spoton, which we acquired in August 2021 had PTL volume of 758,730 tonnes, 508,026 tonnes and\\n683,999 tonnes for Fiscal 2021 and the nine months period ended December 31, 2020 and the nine months period\\nended December 31, 2021, respectively.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"PTL volume\",\n      \"subject\": \"Spoton\",\n      \"value_raw\": \"758,730\",\n      \"unit_raw\": \"tonnes\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 45,\n      \"quote\": \"the Indian logistics market presents a large addressable opportunity, with direct spends on logistics of\\napproximately US$216 billion in Fiscal 2020\",\n      \"kind\": \"numeric\",\n      \"metric\": \"direct spends on logistics\",\n      \"subject\": \"Indian logistics market\",\n      \"value_raw\": \"216\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"Fiscal 2020\",\n      \"qualifiers\": {\n        \"source\": \"RedSeer Report\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"We have delivered more than 1.2\\nbillion shipments since incorporation.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"shipments delivered since incorporation\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"1.2\",\n      \"unit_raw\": \"billion\",\n      \"period_raw\": \"since incorporation\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"For the nine months period ended December 31, 2021, we delivered 406.51 million shipments.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"shipments delivered\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"406.51\",\n      \"unit_raw\": \"million\",\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"For the nine months period ended December 31, 2021, 20,498 Active Customers\\nused our express parcel delivery services.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Active Customers using express parcel delivery services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"20,498\",\n      \"unit_raw\": \"Active Customers\",\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"Our shipment volume has grown by more than six times from 0.85 million\\nshipments in Fiscal 2019 to 5.26 million shipments in Fiscal 2021 on an annual basis.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"heavy goods shipment volume\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"5.26\",\n      \"unit_raw\": \"million shipments\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"In Fiscal 2021, we delivered 373,854 tonnes of freight\",\n      \"kind\": \"numeric\",\n      \"metric\": \"PTL freight delivered\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"373,854\",\n      \"unit_raw\": \"tonnes\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 49,\n      \"quote\": \"In Fiscal 2021, we had 407 Active Customers availing\\nour cross-border shipping services, transacting over 2,050 tonnes of air freight.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Active Customers availing cross-border shipping services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"407\",\n      \"unit_raw\": \"Active Customers\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 49,\n      \"quote\": \"Our revenue\\nfrom sale of traded goods was nil, ₹57.50 million, ₹110.89 million, ₹88.14 million and ₹1,874.74 million for\\nFiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine months period ended December 31, 2020 and the nine\\nmonths period ended December 31, 2021 respectively\",\n      \"kind\": \"numeric\",\n      \"metric\": \"revenue from sale of traded goods\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"1,874.74\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 54,\n      \"quote\": \"Our revenue from contracts with customers has grown from ₹16,538.97 million in\\nFiscal 2019 to ₹36,465.27 million in Fiscal 2021, or a CAGR of 48.49%.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"CAGR of revenue from contracts with customers\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"48.49\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"from Fiscal 2019 to Fiscal 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 54,\n      \"quote\": \"Further our revenue from contracts with customers has improved from ₹26,438.66 million for the nine months\\nperiod ended December 31, 2020 to ₹48,105.30 million for the nine months period ended December 31, 2021\",\n      \"kind\": \"numeric\",\n      \"metric\": \"revenue from contracts with customers\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"26,438.66\",\n      \"unit_raw\": \"million\",\n      \"period_raw\": \"nine months period ended December 31, 2020\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "extract:01-delhivery-prospectus-2022-excerpt-0d7e71e1:b39"
+}

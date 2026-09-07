@@ -1,0 +1,279 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 10,
+    "quote": "Last one year\n148.38",
+    "kind": "numeric",
+    "metric": "Weighted Average Cost of Acquisition",
+    "subject": "Delhivery Limited",
+    "value_raw": "148.38",
+    "unit_raw": "₹",
+    "period_raw": "Last one year",
+    "qualifiers": {
+     "certified_by": "B.B. & Associates, Chartered Accountants"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 10,
+    "quote": "Last three years\n162.46",
+    "kind": "numeric",
+    "metric": "Weighted Average Cost of Acquisition",
+    "subject": "Delhivery Limited",
+    "value_raw": "162.46",
+    "unit_raw": "₹",
+    "period_raw": "Last three years",
+    "qualifiers": {
+     "certified_by": "B.B. & Associates, Chartered Accountants"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 10,
+    "quote": "CA Swift Investments\n46,131,800\n139.88",
+    "kind": "numeric",
+    "metric": "Average cost of acquisition per Equity Share",
+    "subject": "CA Swift Investments",
+    "value_raw": "139.88",
+    "unit_raw": "₹",
+    "period_raw": "as at the date of this Prospectus",
+    "qualifiers": {
+     "shareholder_type": "Investor Selling Shareholder",
+     "number_of_equity_shares_acquired": "46,131,800"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 10,
+    "quote": "SVF Doorbell (Cayman) Ltd\n141,593,300\n196.19",
+    "kind": "numeric",
+    "metric": "Average cost of acquisition per Equity Share",
+    "subject": "SVF Doorbell (Cayman) Ltd",
+    "value_raw": "196.19",
+    "unit_raw": "₹",
+    "period_raw": "as at the date of this Prospectus",
+    "qualifiers": {
+     "shareholder_type": "Investor Selling Shareholder",
+     "number_of_equity_shares_acquired": "141,593,300"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 11,
+    "quote": "FedEx Express\nTransportation and\nSupply Chain\nServices (India)\nPrivate Limited\nDecember 8, 2021\n20,914,500\n356.55",
+    "kind": "numeric",
+    "metric": "Acquisition price per equity share",
+    "subject": "FedEx Express Transportation and Supply Chain Services (India) Private Limited",
+    "value_raw": "356.55",
+    "unit_raw": "₹",
+    "period_raw": "December 8, 2021",
+    "qualifiers": {
+     "mode_of_acquisition": "Preferential allotment",
+     "number_of_equity_shares_acquired": "20,914,500"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "Property, plant and\nequipment\n5,516.57",
+    "kind": "numeric",
+    "metric": "Property, plant and equipment",
+    "subject": "Delhivery Limited",
+    "value_raw": "5,516.57",
+    "unit_raw": "₹ million",
+    "period_raw": "As at December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "Goodwill\n13,861.48",
+    "kind": "numeric",
+    "metric": "Goodwill",
+    "subject": "Delhivery Limited",
+    "value_raw": "13,861.48",
+    "unit_raw": "₹ million",
+    "period_raw": "As at December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "Total non- current assets\n40,934.01",
+    "kind": "numeric",
+    "metric": "Total non-current assets",
+    "subject": "Delhivery Limited",
+    "value_raw": "40,934.01",
+    "unit_raw": "₹ million",
+    "period_raw": "As at December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "Total current assets\n43,360.82",
+    "kind": "numeric",
+    "metric": "Total current assets",
+    "subject": "Delhivery Limited",
+    "value_raw": "43,360.82",
+    "unit_raw": "₹ million",
+    "period_raw": "As at December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "Total assets\n84,294.83",
+    "kind": "numeric",
+    "metric": "Total assets",
+    "subject": "Delhivery Limited",
+    "value_raw": "84,294.83",
+    "unit_raw": "₹ million",
+    "period_raw": "As at December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 15,
+    "quote": "Total equity\n59,798.47",
+    "kind": "numeric",
+    "metric": "Total equity",
+    "subject": "Delhivery Limited",
+    "value_raw": "59,798.47",
+    "unit_raw": "₹ million",
+    "period_raw": "As at December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 15,
+    "quote": "Total liabilities\n24,496.36",
+    "kind": "numeric",
+    "metric": "Total liabilities",
+    "subject": "Delhivery Limited",
+    "value_raw": "24,496.36",
+    "unit_raw": "₹ million",
+    "period_raw": "As at December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Balance Sheet"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "Revenue from contract\nwith customers\n48,105.30",
+    "kind": "numeric",
+    "metric": "Revenue from contract with customers",
+    "subject": "Delhivery Limited",
+    "value_raw": "48,105.30",
+    "unit_raw": "₹ million",
+    "period_raw": "For the nine months period ended December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Profit and Loss"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "Total income (I)\n49,114.06",
+    "kind": "numeric",
+    "metric": "Total income",
+    "subject": "Delhivery Limited",
+    "value_raw": "49,114.06",
+    "unit_raw": "₹ million",
+    "period_raw": "For the nine months period ended December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Profit and Loss"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "Restated loss for the\nperiod / year (VII=\nV+VI)\n(8,911.39)",
+    "kind": "numeric",
+    "metric": "Restated loss for the period / year",
+    "subject": "Delhivery Limited",
+    "value_raw": "(8,911.39)",
+    "unit_raw": "₹ million",
+    "period_raw": "For the nine months period ended December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Profit and Loss"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 18,
+    "quote": "Net cash (used in )/ flow from\noperating activities (A)\n(5,090.97)",
+    "kind": "numeric",
+    "metric": "Net cash (used in) / flow from operating activities",
+    "subject": "Delhivery Limited",
+    "value_raw": "(5,090.97)",
+    "unit_raw": "₹ million",
+    "period_raw": "For the nine months period ended December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Cash Flows"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 20,
+    "quote": "Net cash (used in) / flow from\ninvesting activities (B)\n(26,390.70)",
+    "kind": "numeric",
+    "metric": "Net cash (used in) / flow from investing activities",
+    "subject": "Delhivery Limited",
+    "value_raw": "(26,390.70)",
+    "unit_raw": "₹ million",
+    "period_raw": "For the nine months period ended December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Cash Flows"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 20,
+    "quote": "Net cash flow from/ (used in)\nfinancing activities (C)\n31,837.51",
+    "kind": "numeric",
+    "metric": "Net cash flow from/ (used in) financing activities",
+    "subject": "Delhivery Limited",
+    "value_raw": "31,837.51",
+    "unit_raw": "₹ million",
+    "period_raw": "For the nine months period ended December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Cash Flows"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 20,
+    "quote": "Cash and cash equivalents at\nend of the period/ year\n3,114.49",
+    "kind": "numeric",
+    "metric": "Cash and cash equivalents at end of the period/ year",
+    "subject": "Delhivery Limited",
+    "value_raw": "3,114.49",
+    "unit_raw": "₹ million",
+    "period_raw": "For the nine months period ended December 31, 2021",
+    "qualifiers": {
+     "financial_statement_type": "Restated Summary Consolidated Cash Flows"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 10,\n      \"quote\": \"Last one year\\n148.38\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Weighted Average Cost of Acquisition\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"148.38\",\n      \"unit_raw\": \"₹\",\n      \"period_raw\": \"Last one year\",\n      \"qualifiers\": {\n        \"certified_by\": \"B.B. & Associates, Chartered Accountants\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 10,\n      \"quote\": \"Last three years\\n162.46\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Weighted Average Cost of Acquisition\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"162.46\",\n      \"unit_raw\": \"₹\",\n      \"period_raw\": \"Last three years\",\n      \"qualifiers\": {\n        \"certified_by\": \"B.B. & Associates, Chartered Accountants\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 10,\n      \"quote\": \"CA Swift Investments\\n46,131,800\\n139.88\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Average cost of acquisition per Equity Share\",\n      \"subject\": \"CA Swift Investments\",\n      \"value_raw\": \"139.88\",\n      \"unit_raw\": \"₹\",\n      \"period_raw\": \"as at the date of this Prospectus\",\n      \"qualifiers\": {\n        \"shareholder_type\": \"Investor Selling Shareholder\",\n        \"number_of_equity_shares_acquired\": \"46,131,800\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 10,\n      \"quote\": \"SVF Doorbell (Cayman) Ltd\\n141,593,300\\n196.19\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Average cost of acquisition per Equity Share\",\n      \"subject\": \"SVF Doorbell (Cayman) Ltd\",\n      \"value_raw\": \"196.19\",\n      \"unit_raw\": \"₹\",\n      \"period_raw\": \"as at the date of this Prospectus\",\n      \"qualifiers\": {\n        \"shareholder_type\": \"Investor Selling Shareholder\",\n        \"number_of_equity_shares_acquired\": \"141,593,300\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 11,\n      \"quote\": \"FedEx Express\\nTransportation and\\nSupply Chain\\nServices (India)\\nPrivate Limited\\nDecember 8, 2021\\n20,914,500\\n356.55\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Acquisition price per equity share\",\n      \"subject\": \"FedEx Express Transportation and Supply Chain Services (India) Private Limited\",\n      \"value_raw\": \"356.55\",\n      \"unit_raw\": \"₹\",\n      \"period_raw\": \"December 8, 2021\",\n      \"qualifiers\": {\n        \"mode_of_acquisition\": \"Preferential allotment\",\n        \"number_of_equity_shares_acquired\": \"20,914,500\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"Property, plant and\\nequipment\\n5,516.57\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Property, plant and equipment\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"5,516.57\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"As at December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"Goodwill\\n13,861.48\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Goodwill\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"13,861.48\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"As at December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"Total non- current assets\\n40,934.01\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total non-current assets\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"40,934.01\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"As at December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"Total current assets\\n43,360.82\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total current assets\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"43,360.82\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"As at December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"Total assets\\n84,294.83\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total assets\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"84,294.83\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"As at December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 15,\n      \"quote\": \"Total equity\\n59,798.47\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total equity\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"59,798.47\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"As at December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 15,\n      \"quote\": \"Total liabilities\\n24,496.36\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total liabilities\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"24,496.36\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"As at December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Balance Sheet\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"Revenue from contract\\nwith customers\\n48,105.30\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from contract with customers\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"48,105.30\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"For the nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Profit and Loss\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"Total income (I)\\n49,114.06\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total income\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"49,114.06\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"For the nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Profit and Loss\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"Restated loss for the\\nperiod / year (VII=\\nV+VI)\\n(8,911.39)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Restated loss for the period / year\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(8,911.39)\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"For the nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Profit and Loss\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 18,\n      \"quote\": \"Net cash (used in )/ flow from\\noperating activities (A)\\n(5,090.97)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net cash (used in) / flow from operating activities\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(5,090.97)\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"For the nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Cash Flows\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 20,\n      \"quote\": \"Net cash (used in) / flow from\\ninvesting activities (B)\\n(26,390.70)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net cash (used in) / flow from investing activities\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(26,390.70)\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"For the nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Cash Flows\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 20,\n      \"quote\": \"Net cash flow from/ (used in)\\nfinancing activities (C)\\n31,837.51\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net cash flow from/ (used in) financing activities\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"31,837.51\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"For the nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Cash Flows\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 20,\n      \"quote\": \"Cash and cash equivalents at\\nend of the period/ year\\n3,114.49\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Cash and cash equivalents at end of the period/ year\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"3,114.49\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"For the nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"financial_statement_type\": \"Restated Summary Consolidated Cash Flows\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "extract:01-delhivery-prospectus-2022-excerpt-0d7e71e1:b10"
+}

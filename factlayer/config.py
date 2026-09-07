@@ -31,20 +31,30 @@ def load_dotenv(path: Path = ENV_PATH) -> list[str]:
     return loaded
 
 
+# GEMINI_API_KEYS (plural) holds a comma-separated pool; GEMINI_API_KEY is the
+# single-key form. Both count, and omitting the plural here once made a fully
+# configured run report "credentials: NO".
+CREDENTIAL_VARS = (
+    "GEMINI_API_KEYS", "GEMINI_API_KEY", "GOOGLE_API_KEY",
+    "OPENAI_API_KEY", "ANTHROPIC_API_KEY",
+)
+
+
 def has_llm_credentials() -> bool:
-    return any(
-        os.environ.get(k)
-        for k in ("GEMINI_API_KEY", "GOOGLE_API_KEY", "OPENAI_API_KEY", "ANTHROPIC_API_KEY")
-    )
+    return any(os.environ.get(k, "").strip() for k in CREDENTIAL_VARS)
 
 
 def describe() -> dict:
     from .llm import cache_stats, model_name, provider_name
 
+    from .llm import key_pool
+
+    n_keys = len(key_pool()) if provider_name() == "gemini" else 0
     return {
         "provider": provider_name(),
         "model": model_name(),
         "credentials_present": has_llm_credentials(),
+        "keys": n_keys,
         "cache": cache_stats(),
     }
 
