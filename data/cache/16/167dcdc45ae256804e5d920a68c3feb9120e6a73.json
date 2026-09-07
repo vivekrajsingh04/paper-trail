@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures physical real estate area in million square feet for Spoton, while Metric B measures monetary capital investments in automation equipment in Indian rupees for Delhivery Limited."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures physical real estate area in million square feet for Spoton, while Metric B measures monetary capital investments in automation equipment in Indian rupees for Delhivery Limited.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

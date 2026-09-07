@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure different financial concepts: one is Total Equity and Liabilities from the balance sheet, and the other is Total Expenses from the income statement."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure different financial concepts: one is Total Equity and Liabilities from the balance sheet, and the other is Total Expenses from the income statement.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

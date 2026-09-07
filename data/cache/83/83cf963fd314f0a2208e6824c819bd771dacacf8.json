@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Total Assets measures the total financial resources of the company, whereas Loss for the period measures the net financial performance or deficit over a specific timeframe."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Total Assets measures the total financial resources of the company, whereas Loss for the period measures the net financial performance or deficit over a specific timeframe.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

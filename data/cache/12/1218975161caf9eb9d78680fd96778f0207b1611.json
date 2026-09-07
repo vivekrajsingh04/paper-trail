@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "B",
+  "reason": "Proforma consolidated total income includes additional scope or adjustments compared to standalone total income."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Proforma consolidated total income includes additional scope or adjustments compared to standalone total income.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

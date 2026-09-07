@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "B",
+  "reason": "Loss before tax (B) is a broader metric that includes exceptional items, whereas Proforma Consolidated Loss before exceptional item and tax (A) explicitly excludes exceptional items."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Loss before tax (B) is a broader metric that includes exceptional items, whereas Proforma Consolidated Loss before exceptional item and tax (A) explicitly excludes exceptional items.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

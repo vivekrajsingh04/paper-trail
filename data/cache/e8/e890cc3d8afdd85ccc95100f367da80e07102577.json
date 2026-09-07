@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Proforma Consolidated Revenue includes adjustments and a consolidated scope that makes it broader than standard Revenue from contract with customers."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Proforma Consolidated Revenue includes adjustments and a consolidated scope that makes it broader than standard Revenue from contract with customers.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

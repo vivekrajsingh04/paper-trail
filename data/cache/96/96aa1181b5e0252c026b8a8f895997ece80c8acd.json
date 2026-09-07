@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure entirely different financial concepts, with Goodwill being a balance sheet asset and Loss before exceptional item and tax being an income statement item."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure entirely different financial concepts, with Goodwill being a balance sheet asset and Loss before exceptional item and tax being an income statement item.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

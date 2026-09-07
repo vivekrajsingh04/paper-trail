@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A refers to the date or event of incorporation of a specific subsidiary, whereas Metric B refers to the total number of shipments delivered by the parent company since its incorporation."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A refers to the date or event of incorporation of a specific subsidiary, whereas Metric B refers to the total number of shipments delivered by the parent company since its incorporation.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

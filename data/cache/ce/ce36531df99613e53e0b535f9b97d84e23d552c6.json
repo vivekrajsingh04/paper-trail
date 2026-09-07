@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Loss before exceptional item and tax and Loss for the period are distinct financial metrics that differ by the inclusion of exceptional items and tax expenses."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Loss before exceptional item and tax and Loss for the period are distinct financial metrics that differ by the inclusion of exceptional items and tax expenses.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

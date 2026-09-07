@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Total equity is a balance sheet item representing net assets, whereas the other metric refers to the number of shares to be underwritten in an offering."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Total equity is a balance sheet item representing net assets, whereas the other metric refers to the number of shares to be underwritten in an offering.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

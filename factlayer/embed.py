@@ -28,7 +28,7 @@ CACHE_PATH = Path(os.environ.get("FACTLAYER_EMBED_CACHE", "data/embeddings.json"
 _LOCK = threading.Lock()
 
 EMBED_MODELS = {
-    "gemini": "models/text-embedding-004",
+    "gemini": "models/gemini-embedding-001",
     "openai": "text-embedding-3-small",
 }
 
@@ -59,9 +59,18 @@ def _key(provider: str, model: str, text: str) -> str:
 def _embed_gemini(model: str, texts: list[str]) -> list[list[float]]:
     from google import genai
 
-    api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    # Use the same key pool as completions. Reading GEMINI_API_KEY directly
+    # meant a run configured through the plural GEMINI_API_KEYS silently had no
+    # embeddings at all -- and because the caller swallowed the error, the whole
+    # semantic tier disappeared without a word.
+    from .llm import key_pool
+
+    pool = key_pool()
+    api_key = pool.keys[0] if len(pool) else (
+        os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    )
     if not api_key:
-        raise EmbeddingsUnavailable("GEMINI_API_KEY is not set")
+        raise EmbeddingsUnavailable("no Gemini API key configured")
     client = genai.Client(api_key=api_key)
     out: list[list[float]] = []
     for i in range(0, len(texts), 100):
@@ -74,7 +83,7 @@ def _embed_gemini(model: str, texts: list[str]) -> list[list[float]]:
 def _embed_openai(model: str, texts: list[str]) -> list[list[float]]:
     import httpx
 
-    api_key = os.environ.get("OPENAI_API_KEY")
+    api_key = os.environ.get("OPENAI_API_KEY")  # noqa: SIM910
     if not api_key:
         raise EmbeddingsUnavailable("OPENAI_API_KEY is not set")
     base = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1")
@@ -127,20 +136,32 @@ def embed(texts: list[str], provider: str | None = None) -> np.ndarray:
     return mat / norms
 
 
+# Why the last semantic_pairs() call produced nothing, if it produced nothing.
+LAST_ERROR: str | None = None
+
+
 def semantic_pairs(
     keys: list[str], threshold: float = 0.80, top_k: int = 10
 ) -> list[tuple[str, str, float]]:
     """Pairs of metric names that are close in meaning.
 
-    Returns an empty list (not an error) when embeddings are unavailable, so the
-    caller can fall back to lexical candidates alone.
+    Degrades to an empty list when embeddings are unavailable, so the caller can
+    fall back to lexical candidates -- but records *why* in LAST_ERROR. Silently
+    returning nothing once hid a dead semantic tier behind a plausible-looking
+    run, which is the failure mode this module exists to avoid.
     """
+    global LAST_ERROR
+    LAST_ERROR = None
     uniq = sorted(set(k for k in keys if k))
     if len(uniq) < 2:
         return []
     try:
         mat = embed(uniq)
-    except (EmbeddingsUnavailable, Exception):  # noqa: BLE001
+    except EmbeddingsUnavailable as exc:
+        LAST_ERROR = f"unavailable: {exc}"
+        return []
+    except Exception as exc:  # noqa: BLE001
+        LAST_ERROR = f"{type(exc).__name__}: {str(exc)[:160]}"
         return []
 
     sims = mat @ mat.T

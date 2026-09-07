@@ -107,6 +107,8 @@ class MetricResolver:
         generation; if embeddings are unavailable this is a no-op and the
         resolver runs lexical-only.
         """
+        from . import embed as _embed
+
         keys = [normalise_metric(m) for m in metrics if m]
         pairs = semantic_pairs(keys, threshold=self.semantic_threshold)
         with self._lock:
@@ -117,6 +119,7 @@ class MetricResolver:
             "unique_metrics": len(set(keys)),
             "semantic_pairs": len(pairs),
             "embeddings_available": self._sem_ready,
+            "embeddings_error": _embed.LAST_ERROR,
         }
 
     def _semantic_score(self, ka: str, kb: str) -> float:
@@ -159,7 +162,7 @@ class MetricResolver:
         if len(uniq) < 2:
             return []
         pairs: dict[tuple[str, str], float] = {}
-        matches = process.cdist(uniq, uniq, scorer=fuzz.token_set_ratio, workers=-1)
+        matches = process.cdist(uniq, uniq, scorer=fuzz.token_sort_ratio, workers=-1)
         for i, a in enumerate(uniq):
             row = matches[i]
             ranked = sorted(range(len(uniq)), key=lambda j: -row[j])[: limit_per_key + 1]
@@ -190,17 +193,23 @@ class MetricResolver:
             return {"same": True, "relationship": "identical",
                     "reason": "identical normalised metric name", "source": "exact"}
 
-        lex = float(fuzz.token_set_ratio(ka, kb))
-        lex_sort = float(fuzz.token_sort_ratio(ka, kb))
+        # token_sort, not token_set: the latter scores "EBITDA" against
+        # "Adjusted EBITDA" at 100 because it ignores the extra token. Gating on
+        # it admitted five times as many pairs, 96% of which the model then
+        # rejected -- a model call spent per pair, to say no.
+        lex = float(fuzz.token_sort_ratio(ka, kb))
         sem = self._semantic_score(ka, kb)
 
         # Unambiguously the same wording: decide for free.
-        if lex_sort >= self.CERTAIN_LEXICAL:
+        if lex >= self.CERTAIN_LEXICAL:
             return {"same": True, "relationship": "identical",
-                    "reason": f"near-identical wording (token-sort {lex_sort:.0f})",
+                    "reason": f"near-identical wording (token-sort {lex:.0f})",
                     "source": "lexical_high", "lexical": lex, "semantic": sem}
 
-        # Unambiguously unrelated: decide for free.
+        # Unambiguously unrelated: decide for free. Tightening the lexical side
+        # is only safe because the semantic side catches what spelling cannot --
+        # "real GDP growth" and "real gross domestic product growth" score 53
+        # lexically and 0.93 semantically.
         if lex < self.fuzzy_threshold and sem < self.semantic_threshold:
             return {"same": False, "relationship": "different",
                     "reason": f"metric names unrelated (lexical {lex:.0f}, semantic {sem:.2f})",

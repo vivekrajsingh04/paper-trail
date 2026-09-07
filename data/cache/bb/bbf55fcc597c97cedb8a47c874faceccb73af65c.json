@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Total equity represents the residual interest in the assets of the entity after deducting liabilities, whereas total non-current assets represent long-term resources owned by the entity, measuring entirely different financial concepts."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Total equity represents the residual interest in the assets of the entity after deducting liabilities, whereas total non-current assets represent long-term resources owned by the entity, measuring entirely different financial concepts.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

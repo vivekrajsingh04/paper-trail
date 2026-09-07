@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Proforma Consolidated Goodwill measures the value of an intangible asset, whereas Proforma Consolidated Revenue from contract with customers measures total sales revenue."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Proforma Consolidated Goodwill measures the value of an intangible asset, whereas Proforma Consolidated Revenue from contract with customers measures total sales revenue.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

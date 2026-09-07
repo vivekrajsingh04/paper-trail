@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the absolute number of equity shares held by Sahil Barua, whereas Metric B measures the percentage of pre-Offer paid-up equity share capital held by SVF Doorbell (Cayman) Ltd."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the absolute number of equity shares held by Sahil Barua, whereas Metric B measures the percentage of pre-Offer paid-up equity share capital held by SVF Doorbell (Cayman) Ltd.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

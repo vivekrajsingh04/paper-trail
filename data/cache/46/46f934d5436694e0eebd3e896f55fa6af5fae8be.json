@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Total equity measures only the residual interest in the assets after deducting liabilities, whereas Proforma Consolidated Total Equity and Liabilities measures the sum of both equity and liabilities combined."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Total equity measures only the residual interest in the assets after deducting liabilities, whereas Proforma Consolidated Total Equity and Liabilities measures the sum of both equity and liabilities combined.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

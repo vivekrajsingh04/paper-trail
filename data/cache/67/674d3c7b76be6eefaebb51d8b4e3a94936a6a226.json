@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Total liabilities encompasses all liabilities of the entity, whereas Proforma Consolidated Total non-current liabilities represents only a specific subset (non-current liabilities) on a proforma basis."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Total liabilities encompasses all liabilities of the entity, whereas Proforma Consolidated Total non-current liabilities represents only a specific subset (non-current liabilities) on a proforma basis.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

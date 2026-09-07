@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics apply to two different legal entities (Delhivery Singapore and Delhivery USA, LLC) and represent distinct corporate share capital pools."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics apply to two different legal entities (Delhivery Singapore and Delhivery USA, LLC) and represent distinct corporate share capital pools.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

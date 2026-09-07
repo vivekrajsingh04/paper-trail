@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Goodwill is a specific intangible asset, whereas Total non-current assets represents the sum of all non-current assets including goodwill, making them distinct financial metrics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Goodwill is a specific intangible asset, whereas Total non-current assets represents the sum of all non-current assets including goodwill, making them distinct financial metrics.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

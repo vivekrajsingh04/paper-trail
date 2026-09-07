@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the incorporation date of Delhivery Freight Services Private Limited, while Fact B measures the original name and date of incorporation of a different entity, Delhivery Limited (formerly SSN Logistics Private Limited)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the incorporation date of Delhivery Freight Services Private Limited, while Fact B measures the original name and date of incorporation of a different entity, Delhivery Limited (formerly SSN Logistics Private Limited).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

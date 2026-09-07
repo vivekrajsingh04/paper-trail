@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The facts measure the equity shareholding percentage in two entirely different subject entities (Delhivery Freight Services Private Limited versus Delhivery Singapore)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The facts measure the equity shareholding percentage in two entirely different subject entities (Delhivery Freight Services Private Limited versus Delhivery Singapore).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

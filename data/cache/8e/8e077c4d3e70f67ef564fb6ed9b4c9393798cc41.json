@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics both represent the acquisition cost per equity share, but they are measured for different subjects."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics both represent the acquisition cost per equity share, but they are measured for different subjects.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}
