@@ -7,10 +7,9 @@ copied verbatim from the starter documents.
 
 from __future__ import annotations
 
-import pytest
 
 from factlayer.canon import MetricResolver, normalise_metric
-from factlayer.compare import ComparisonEngine, compare_values, dimensions
+from factlayer.compare import ComparisonEngine, compare_values
 from factlayer.models import Evidence, Fact, Quantity, Verdict
 from factlayer.periods import parse_period
 from factlayer.units import build_interval, normalise_unit, parse_number

@@ -15,7 +15,6 @@ point of the project:
 
 from __future__ import annotations
 
-import io
 import shutil
 import tempfile
 import threading

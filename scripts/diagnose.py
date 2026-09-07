@@ -144,7 +144,7 @@ def main() -> int:
     for d in report["same_value_two_metrics"][:5]:
         print(f"  p{d['page']} value={d['value']:,.2f}  metrics={d['metrics']}")
 
-    print(f"\n=== thinnest coverage pages ===")
+    print("\n=== thinnest coverage pages ===")
     for w in report["thin_coverage_pages"][:6]:
         print(f"  {w['doc'][:34]:36s} p{w['page']:<4d} {w['covered']}/{w['detected']} "
               f"({w['ratio']:.0%})")

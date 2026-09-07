@@ -165,7 +165,7 @@ def main() -> int:
 
     from collections import Counter
     print(f"  {len(rels)} relations: {dict(Counter(r.verdict.value for r in rels))}")
-    print(f"\n  run:  uvicorn factlayer.api:app --reload")
+    print("\n  run:  uvicorn factlayer.api:app --reload")
     print(f"  with: FACTLAYER_DB={db}")
     return 0
 

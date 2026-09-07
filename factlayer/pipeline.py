@@ -14,7 +14,7 @@ import time
 from pathlib import Path
 
 from .canon import normalise_metric
-from .candidates import coverage, page_is_interesting, salient
+from .candidates import coverage, page_is_interesting
 from .compare import ComparisonEngine
 from .extract import extract_document, profile_document
 from .ingest import ingest_pdf

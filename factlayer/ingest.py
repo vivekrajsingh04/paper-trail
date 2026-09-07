@@ -93,7 +93,7 @@ def _guess_page_label(page: pymupdf.Page, text: str) -> str | None:
     for b in blocks:
         if len(b) < 5:
             continue
-        x0, y0, x1, y1, content = b[0], b[1], b[2], b[3], str(b[4])
+        y0, y1, content = b[1], b[3], str(b[4])
         stripped = content.strip()
         if not stripped or len(stripped) > 12:
             continue

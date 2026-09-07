@@ -41,7 +41,6 @@ from dataclasses import dataclass, field
 
 from .canon import MetricResolver, normalise_metric, subject_key
 from .models import Fact, Relation, Verdict
-from .periods import parse_period
 from .units import intervals_overlap, relative_gap
 
 # Dimensions that describe *where a fact came from* rather than what it measures.
