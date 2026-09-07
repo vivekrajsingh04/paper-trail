@@ -1,0 +1,326 @@
+{
+ "data": {
+  "facts": [
+   {
+    "quote": "India’s largest integrated logistics platform",
+    "kind": "semantic",
+    "metric": "classification",
+    "subject": "Delhivery Limited",
+    "state": "largest integrated logistics platform",
+    "period_raw": null,
+    "qualifiers": {
+     "country": "India",
+     "basis": "FY21 revenue",
+     "source": "RedSeer report"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "384K Tons",
+    "kind": "numeric",
+    "metric": "PTL freight tonnage",
+    "subject": null,
+    "value_raw": "384K",
+    "unit_raw": "Tons",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "20.8%",
+    "kind": "numeric",
+    "metric": "YoY growth rate of PTL freight tonnage",
+    "subject": null,
+    "value_raw": "20.8",
+    "unit_raw": "%",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "relative_to": "prior year",
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "8.6%",
+    "kind": "numeric",
+    "metric": "QoQ growth rate of PTL freight tonnage",
+    "subject": null,
+    "value_raw": "8.6",
+    "unit_raw": "%",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "relative_to": "prior quarter",
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "₹2,076 Cr",
+    "kind": "numeric",
+    "metric": "revenue from services",
+    "subject": null,
+    "value_raw": "2,076",
+    "unit_raw": "Cr",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "11.6%",
+    "kind": "numeric",
+    "metric": "YoY growth rate of revenue from services",
+    "subject": null,
+    "value_raw": "11.6",
+    "unit_raw": "%",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "relative_to": "prior year",
+     "excluding": "revenue from traded goods",
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "(5.4%)",
+    "kind": "numeric",
+    "metric": "QoQ growth rate of revenue from services",
+    "subject": null,
+    "value_raw": "(5.4)",
+    "unit_raw": "%",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "relative_to": "prior quarter",
+     "excluding": "revenue from traded goods",
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "176 Mn",
+    "kind": "numeric",
+    "metric": "Express parcel shipments",
+    "subject": null,
+    "value_raw": "176",
+    "unit_raw": "Mn",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "(2.2%)",
+    "kind": "numeric",
+    "metric": "YoY growth rate of Express parcel shipments",
+    "subject": null,
+    "value_raw": "(2.2)",
+    "unit_raw": "%",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "relative_to": "prior year",
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "(12.8%)",
+    "kind": "numeric",
+    "metric": "QoQ growth rate of Express parcel shipments",
+    "subject": null,
+    "value_raw": "(12.8)",
+    "unit_raw": "%",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "relative_to": "prior quarter",
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "₹46Cr",
+    "kind": "numeric",
+    "metric": "EBITDA",
+    "subject": null,
+    "value_raw": "46",
+    "unit_raw": "Cr",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "2.2%",
+    "kind": "numeric",
+    "metric": "EBITDA margin",
+    "subject": null,
+    "value_raw": "2.2",
+    "unit_raw": "%",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "₹13 Cr",
+    "kind": "numeric",
+    "metric": "EBITDA",
+    "subject": null,
+    "value_raw": "13",
+    "unit_raw": "Cr",
+    "period_raw": "Q4 FY23",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "0.7%",
+    "kind": "numeric",
+    "metric": "EBITDA margin",
+    "subject": null,
+    "value_raw": "0.7",
+    "unit_raw": "%",
+    "period_raw": "Q4 FY23",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "₹109 Cr",
+    "kind": "numeric",
+    "metric": "EBITDA",
+    "subject": null,
+    "value_raw": "109",
+    "unit_raw": "Cr",
+    "period_raw": "Q3 FY24",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "5.0%",
+    "kind": "numeric",
+    "metric": "EBITDA margin",
+    "subject": null,
+    "value_raw": "5.0",
+    "unit_raw": "%",
+    "period_raw": "Q3 FY24",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "₹21 Cr",
+    "kind": "numeric",
+    "metric": "Adj. EBITDA",
+    "subject": null,
+    "value_raw": "21",
+    "unit_raw": "Cr",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "1.0%",
+    "kind": "numeric",
+    "metric": "Adj. EBITDA margin",
+    "subject": null,
+    "value_raw": "1.0",
+    "unit_raw": "%",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "₹6 Cr",
+    "kind": "numeric",
+    "metric": "Adj. EBITDA",
+    "subject": null,
+    "value_raw": "6",
+    "unit_raw": "Cr",
+    "period_raw": "Q4 FY23",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "0.3%",
+    "kind": "numeric",
+    "metric": "Adj. EBITDA margin",
+    "subject": null,
+    "value_raw": "0.3",
+    "unit_raw": "%",
+    "period_raw": "Q4 FY23",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "₹92 Cr",
+    "kind": "numeric",
+    "metric": "Adj. EBITDA",
+    "subject": null,
+    "value_raw": "92",
+    "unit_raw": "Cr",
+    "period_raw": "Q3 FY24",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "4.2%",
+    "kind": "numeric",
+    "metric": "Adj. EBITDA margin",
+    "subject": null,
+    "value_raw": "4.2",
+    "unit_raw": "%",
+    "period_raw": "Q3 FY24",
+    "qualifiers": {
+     "scope": "standalone and consolidated",
+     "period_type": "quarter and financial year"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"quote\": \"India’s largest integrated logistics platform\",\n      \"kind\": \"semantic\",\n      \"metric\": \"classification\",\n      \"subject\": \"Delhivery Limited\",\n      \"state\": \"largest integrated logistics platform\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"country\": \"India\",\n        \"basis\": \"FY21 revenue\",\n        \"source\": \"RedSeer report\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"384K Tons\",\n      \"kind\": \"numeric\",\n      \"metric\": \"PTL freight tonnage\",\n      \"subject\": null,\n      \"value_raw\": \"384K\",\n      \"unit_raw\": \"Tons\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"20.8%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"YoY growth rate of PTL freight tonnage\",\n      \"subject\": null,\n      \"value_raw\": \"20.8\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"relative_to\": \"prior year\",\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"8.6%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"QoQ growth rate of PTL freight tonnage\",\n      \"subject\": null,\n      \"value_raw\": \"8.6\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"relative_to\": \"prior quarter\",\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"₹2,076 Cr\",\n      \"kind\": \"numeric\",\n      \"metric\": \"revenue from services\",\n      \"subject\": null,\n      \"value_raw\": \"2,076\",\n      \"unit_raw\": \"Cr\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"11.6%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"YoY growth rate of revenue from services\",\n      \"subject\": null,\n      \"value_raw\": \"11.6\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"relative_to\": \"prior year\",\n        \"excluding\": \"revenue from traded goods\",\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"(5.4%)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"QoQ growth rate of revenue from services\",\n      \"subject\": null,\n      \"value_raw\": \"(5.4)\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"relative_to\": \"prior quarter\",\n        \"excluding\": \"revenue from traded goods\",\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"176 Mn\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Express parcel shipments\",\n      \"subject\": null,\n      \"value_raw\": \"176\",\n      \"unit_raw\": \"Mn\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"(2.2%)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"YoY growth rate of Express parcel shipments\",\n      \"subject\": null,\n      \"value_raw\": \"(2.2)\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"relative_to\": \"prior year\",\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"(12.8%)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"QoQ growth rate of Express parcel shipments\",\n      \"subject\": null,\n      \"value_raw\": \"(12.8)\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"relative_to\": \"prior quarter\",\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"₹46Cr\",\n      \"kind\": \"numeric\",\n      \"metric\": \"EBITDA\",\n      \"subject\": null,\n      \"value_raw\": \"46\",\n      \"unit_raw\": \"Cr\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"2.2%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"EBITDA margin\",\n      \"subject\": null,\n      \"value_raw\": \"2.2\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"₹13 Cr\",\n      \"kind\": \"numeric\",\n      \"metric\": \"EBITDA\",\n      \"subject\": null,\n      \"value_raw\": \"13\",\n      \"unit_raw\": \"Cr\",\n      \"period_raw\": \"Q4 FY23\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"0.7%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"EBITDA margin\",\n      \"subject\": null,\n      \"value_raw\": \"0.7\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Q4 FY23\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"₹109 Cr\",\n      \"kind\": \"numeric\",\n      \"metric\": \"EBITDA\",\n      \"subject\": null,\n      \"value_raw\": \"109\",\n      \"unit_raw\": \"Cr\",\n      \"period_raw\": \"Q3 FY24\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"5.0%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"EBITDA margin\",\n      \"subject\": null,\n      \"value_raw\": \"5.0\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Q3 FY24\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"₹21 Cr\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Adj. EBITDA\",\n      \"subject\": null,\n      \"value_raw\": \"21\",\n      \"unit_raw\": \"Cr\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"1.0%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Adj. EBITDA margin\",\n      \"subject\": null,\n      \"value_raw\": \"1.0\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"₹6 Cr\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Adj. EBITDA\",\n      \"subject\": null,\n      \"value_raw\": \"6\",\n      \"unit_raw\": \"Cr\",\n      \"period_raw\": \"Q4 FY23\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"0.3%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Adj. EBITDA margin\",\n      \"subject\": null,\n      \"value_raw\": \"0.3\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Q4 FY23\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"₹92 Cr\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Adj. EBITDA\",\n      \"subject\": null,\n      \"value_raw\": \"92\",\n      \"unit_raw\": \"Cr\",\n      \"period_raw\": \"Q3 FY24\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"4.2%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Adj. EBITDA margin\",\n      \"subject\": null,\n      \"value_raw\": \"4.2\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Q3 FY24\",\n      \"qualifiers\": {\n        \"scope\": \"standalone and consolidated\",\n        \"period_type\": \"quarter and financial year\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-2.5-flash",
+ "provider": "gemini",
+ "tag": "extract:03-delhivery-q4-fy24-earnings-presentation-5ca30708:p6"
+}

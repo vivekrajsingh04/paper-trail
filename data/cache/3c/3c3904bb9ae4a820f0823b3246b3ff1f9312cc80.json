@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A describes general 'growth' for the 'Express Parcel' segment with no unit, while Fact B specifies 'YoY growth rate of Express parcel shipments' for 'Delhivery Limited' with a unit of '%', making them distinct measurements."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A describes general 'growth' for the 'Express Parcel' segment with no unit, while Fact B specifies 'YoY growth rate of Express parcel shipments' for 'Delhivery Limited' with a unit of '%', making them distinct measurements.\"\n}",
+ "model": "gemini-2.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

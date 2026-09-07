@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fact Knowledge Layer</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <div class="brand">Fact Knowledge Layer <span>&mdash; evidence-grounded facts across documents</span></div>
+    <div class="stats" id="stats"></div>
+  </div>
+  <nav>
+    <button data-tab="cases" class="on">Required cases</button>
+    <button data-tab="relations">Relations</button>
+    <button data-tab="facts">Facts</button>
+    <button data-tab="diagnostics">Diagnostics</button>
+    <button data-tab="upload">Upload</button>
+  </nav>
+</header>
+
+<main>
+  <!-- ------------------------------------------------------ cases -->
+  <section id="tab-cases">
+    <p class="muted small" style="margin:0 0 16px">
+      Each case below is selected by querying the current knowledge layer &mdash; not hard-coded.
+      Every verdict is computed from the figures' implied precision and their dimension vectors;
+      click any figure to see it circled on the source page.
+    </p>
+    <div id="cases"></div>
+  </section>
+
+  <!-- ------------------------------------------------------ relations -->
+  <section id="tab-relations" class="hidden">
+    <div class="controls">
+      <select id="rel-verdict">
+        <option value="">All verdicts</option>
+        <option value="contradicts">Contradicts</option>
+        <option value="reconciled">Reconciled by context</option>
+        <option value="corroborates">Corroborates</option>
+      </select>
+      <select id="rel-cross">
+        <option value="">Any documents</option>
+        <option value="true">Cross-document only</option>
+        <option value="false">Within one document</option>
+      </select>
+      <select id="rel-conf">
+        <option value="0">Any confidence</option>
+        <option value="0.5">Confidence &ge; 0.5</option>
+        <option value="0.7">Confidence &ge; 0.7</option>
+      </select>
+      <span id="rel-count" class="muted small"></span>
+    </div>
+    <div id="relations"></div>
+  </section>
+
+  <!-- ------------------------------------------------------ facts -->
+  <section id="tab-facts" class="hidden">
+    <div class="controls">
+      <input type="text" id="fact-q" placeholder="Search metric or quote&hellip;" style="min-width:280px">
+      <select id="fact-doc"><option value="">All documents</option></select>
+      <button class="btn" id="fact-go">Search</button>
+      <span id="fact-count" class="muted small"></span>
+    </div>
+    <div class="card"><div class="table-wrap"><table id="facts-table">
+      <thead><tr>
+        <th>Metric</th><th class="num">Value</th><th>Unit</th><th>Period</th>
+        <th>Dimensions</th><th>Source</th><th class="num">Conf.</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table></div></div>
+  </section>
+
+  <!-- ------------------------------------------------------ diagnostics -->
+  <section id="tab-diagnostics" class="hidden">
+    <p class="muted small" style="margin:0 0 16px">
+      What the system rejected, what it never looked at, and what it learned about its own
+      dimensions. Reported rather than hidden &mdash; a fact layer you cannot audit is not
+      worth trusting.
+    </p>
+    <div id="diagnostics"></div>
+  </section>
+
+  <!-- ------------------------------------------------------ upload -->
+  <section id="tab-upload" class="hidden">
+    <div class="card">
+      <div class="card-head"><h3>Add a PDF to the knowledge layer</h3>
+        <span class="sub">Extracted, then linked against everything already stored &mdash; nothing is rebuilt.</span>
+      </div>
+      <div class="card-body">
+        <div class="controls">
+          <input type="file" id="file" accept="application/pdf">
+          <input type="text" id="corpus" placeholder="corpus label (optional)" style="min-width:190px">
+          <button class="btn primary" id="upload-go">Ingest</button>
+        </div>
+        <div id="upload-status" class="small muted"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-inner">
+    <div class="modal-head">
+      <h3 id="modal-title">Evidence</h3>
+      <span id="modal-sub" class="muted small"></span>
+      <button class="btn" style="margin-left:auto" onclick="closeModal()">Close</button>
+    </div>
+    <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the absolute revenue from services, while Fact B measures the year-over-year growth rate of that revenue, making them distinct types of measurements."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the absolute revenue from services, while Fact B measures the year-over-year growth rate of that revenue, making them distinct types of measurements.\"\n}",
+ "model": "gemini-2.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

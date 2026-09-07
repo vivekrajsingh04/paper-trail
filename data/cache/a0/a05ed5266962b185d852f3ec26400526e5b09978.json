@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure growth rates over different periods: Quarter-over-Quarter (QoQ) versus Year-over-Year (YoY), making them distinct measurements."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure growth rates over different periods: Quarter-over-Quarter (QoQ) versus Year-over-Year (YoY), making them distinct measurements.\"\n}",
+ "model": "gemini-2.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

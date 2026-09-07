@@ -1,0 +1,201 @@
+{
+ "data": {
+  "facts": [
+   {
+    "quote": "Scrip Code: 543529",
+    "kind": "numeric",
+    "metric": "Scrip Code",
+    "subject": "Delhivery Limited",
+    "value_raw": "543529",
+    "unit_raw": null,
+    "state": null,
+    "period_raw": null,
+    "qualifiers": {
+     "exchange": "BSE Limited"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "Symbol: DELHIVERY",
+    "kind": "semantic",
+    "metric": "Symbol",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "DELHIVERY",
+    "period_raw": null,
+    "qualifiers": {
+     "exchange": "National Stock Exchange of India Limited"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "Date: May 17, 2024",
+    "kind": "semantic",
+    "metric": "Document date",
+    "subject": "Investor Presentation",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "May 17, 2024",
+    "period_raw": null,
+    "qualifiers": {
+     "document_type": "Investor Presentation"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "scheduled to be held on May 17, 2024",
+    "kind": "semantic",
+    "metric": "Earnings Audio / Video (AV) Conference Call date",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "May 17, 2024",
+    "period_raw": null,
+    "qualifiers": {
+     "event_type": "Earnings Audio / Video (AV) Conference Call"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "06:00 P.M. (IST)",
+    "kind": "semantic",
+    "metric": "Earnings Audio / Video (AV) Conference Call time",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "06:00 P.M. (IST)",
+    "period_raw": null,
+    "qualifiers": {
+     "event_type": "Earnings Audio / Video (AV) Conference Call",
+     "time_zone": "IST"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "Regulation 30",
+    "kind": "semantic",
+    "metric": "SEBI Regulation",
+    "subject": null,
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "30",
+    "period_raw": null,
+    "qualifiers": {
+     "regulation_act": "SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "kind": "semantic",
+    "metric": "SEBI Regulation",
+    "subject": null,
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "33",
+    "period_raw": null,
+    "qualifiers": {
+     "regulation_act": "SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "Audited Standalone and Consolidated Financial Results",
+    "kind": "semantic",
+    "metric": "Financial results scope",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "Standalone and Consolidated",
+    "period_raw": "quarter and financial year ended March 31, 2024",
+    "qualifiers": {
+     "audit_status": "Audited"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "quarter and financial year ended March 31, 2024",
+    "kind": "semantic",
+    "metric": "Financial results period end",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "March 31, 2024",
+    "period_raw": "quarter and financial year",
+    "qualifiers": {
+     "results_type": "Audited Standalone and Consolidated"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "www.delhivery.com",
+    "kind": "semantic",
+    "metric": "Company website URL",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "www.delhivery.com",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "quote": "Madhulika Rawat",
+    "kind": "semantic",
+    "metric": "Company Secretary name",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "Madhulika Rawat",
+    "period_raw": null,
+    "qualifiers": {
+     "role": "Company Secretary & Compliance Officer"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "Membership No: F8765",
+    "kind": "semantic",
+    "metric": "Company Secretary Membership Number",
+    "subject": "Madhulika Rawat",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "F8765",
+    "period_raw": null,
+    "qualifiers": {
+     "role": "Company Secretary & Compliance Officer"
+    },
+    "confidence": 1.0
+   },
+   {
+    "quote": "Place: Goa",
+    "kind": "semantic",
+    "metric": "Place of signing",
+    "subject": "document",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "Goa",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "quote": "May 11, 2024",
+    "kind": "semantic",
+    "metric": "Earlier communication date",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "May 11, 2024",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"quote\": \"Scrip Code: 543529\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Scrip Code\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"543529\",\n      \"unit_raw\": null,\n      \"state\": null,\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"exchange\": \"BSE Limited\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"Symbol: DELHIVERY\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Symbol\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"DELHIVERY\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"exchange\": \"National Stock Exchange of India Limited\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"Date: May 17, 2024\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Document date\",\n      \"subject\": \"Investor Presentation\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"May 17, 2024\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"document_type\": \"Investor Presentation\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"scheduled to be held on May 17, 2024\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Earnings Audio / Video (AV) Conference Call date\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"May 17, 2024\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"event_type\": \"Earnings Audio / Video (AV) Conference Call\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"06:00 P.M. (IST)\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Earnings Audio / Video (AV) Conference Call time\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"06:00 P.M. (IST)\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"event_type\": \"Earnings Audio / Video (AV) Conference Call\",\n        \"time_zone\": \"IST\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"Regulation 30\",\n      \"kind\": \"semantic\",\n      \"metric\": \"SEBI Regulation\",\n      \"subject\": null,\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"30\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"regulation_act\": \"SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015\",\n      \"kind\": \"semantic\",\n      \"metric\": \"SEBI Regulation\",\n      \"subject\": null,\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"33\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"regulation_act\": \"SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"Audited Standalone and Consolidated Financial Results\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Financial results scope\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"Standalone and Consolidated\",\n      \"period_raw\": \"quarter and financial year ended March 31, 2024\",\n      \"qualifiers\": {\n        \"audit_status\": \"Audited\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"quarter and financial year ended March 31, 2024\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Financial results period end\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"March 31, 2024\",\n      \"period_raw\": \"quarter and financial year\",\n      \"qualifiers\": {\n        \"results_type\": \"Audited Standalone and Consolidated\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"www.delhivery.com\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Company website URL\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"www.delhivery.com\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"Madhulika Rawat\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Company Secretary name\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"Madhulika Rawat\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"role\": \"Company Secretary & Compliance Officer\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"Membership No: F8765\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Company Secretary Membership Number\",\n      \"subject\": \"Madhulika Rawat\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"F8765\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"role\": \"Company Secretary & Compliance Officer\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"Place: Goa\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Place of signing\",\n      \"subject\": \"document\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"Goa\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"quote\": \"May 11, 2024\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Earlier communication date\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"May 11, 2024\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-2.5-flash",
+ "provider": "gemini",
+ "tag": "extract:03-delhivery-q4-fy24-earnings-presentation-5ca30708:p0"
+}

@@ -1,0 +1,180 @@
+# Evaluation set for the fact knowledge layer.
+#
+# Written by hand from the starter documents, and deliberately split by what
+# each suite can prove without a model in the loop:
+#
+#   value_agreement   pure arithmetic over written precision -- no API key needed
+#   period_resolution pure date logic -- no API key needed
+#   relation_verdicts the reasoning engine on hand-built facts -- no API key needed
+#   grounding         invariants checked against whatever is in the database
+#
+# The first three run offline and gate every commit.  The fourth runs against a
+# populated knowledge layer and is the one that catches extraction regressions.
+
+value_agreement:
+  # The case that motivates the whole design: two figures 2% apart that agree,
+  # and two figures 1.5% apart that do not.  No fixed tolerance separates them.
+  - id: revenue-crore-vs-million
+    left:  {value: "8,142",     unit: "Rs. crore"}
+    right: {value: "81,415.38", unit: "Rs. million"}
+    expect: agree
+    why: >-
+      Earnings deck vs annual report. Same figure at different scale; the deck
+      rounded to the nearest crore, which covers the 0.006% gap.
+
+  - id: ebitda-crore-vs-million
+    left:  {value: "127",      unit: "Rs. crore"}
+    right: {value: "1,266.41", unit: "Rs. million"}
+    expect: agree
+    why: FY24 EBITDA, deck vs annual report.
+
+  - id: adjusted-ebitda-crore-vs-million
+    left:  {value: "76",     unit: "Rs. crore"}
+    right: {value: "757.86", unit: "Rs. million"}
+    expect: agree
+    why: FY24 adjusted EBITDA, deck vs annual report.
+
+  - id: tonnage-millions-vs-thousands
+    left:  {value: "1.4",   unit: "tonnes", magnitude: "million"}
+    right: {value: "1,429", unit: "tonnes", magnitude: "thousand"}
+    expect: agree
+    why: >-
+      2.03% apart and still agreement, because "1.4 Mn" only claims precision to
+      the nearest 0.1 Mn. This is the pair that rules out a tight relative
+      tolerance.
+
+  - id: gdp-growth-fy25-vintages
+    left:  {value: "6.4", unit: "per cent"}
+    right: {value: "6.5", unit: "per cent"}
+    expect: disagree
+    why: >-
+      1.54% apart -- narrower than the tonnage pair above, yet a real
+      difference, because one decimal place implies +/-0.05. This is the pair
+      that rules out a loose relative tolerance.
+
+  - id: gdp-growth-fy26-projections
+    left:  {value: "6.5", unit: "per cent"}
+    right: {value: "6.6", unit: "per cent"}
+    expect: disagree
+    why: RBI vs IMF projections for the same year.
+
+  - id: standalone-vs-consolidated-revenue
+    left:  {value: "74,540.82", unit: "Rs. million"}
+    right: {value: "81,415.38", unit: "Rs. million"}
+    expect: disagree
+    why: >-
+      Both stated to two decimals, 8.4% apart. A real difference in value; what
+      explains it is scope, which is the comparison engine's job, not this
+      layer's.
+
+  - id: accounting-negative
+    left:  {value: "(452)", unit: "Rs. crore"}
+    right: {value: "-4,516.08", unit: "Rs. million"}
+    expect: agree
+    why: Parenthesised negatives are the accounting convention for minus.
+
+  - id: revenue-fy23-services-vs-operations
+    left:  {value: "72,253.01", unit: "Rs. million"}
+    right: {value: "72,236.47", unit: "Rs. million"}
+    expect: disagree
+    why: >-
+      Differ by exactly the 16.54 of traded goods. Correctly a value difference;
+      they must never be compared at all, which the metric blocking enforces.
+
+  - id: hedged-figure-widens
+    left:  {value: "~6.5", unit: "per cent"}
+    right: {value: "6.8",  unit: "per cent"}
+    expect: agree
+    why: >-
+      "About 6.5" claims less precision than "6.5" does, so its interval is
+      widened and 6.8 falls inside it.
+
+period_resolution:
+  - {text: "FY24",                      start: "2023-04-01", end: "2024-03-31"}
+  - {text: "FY2024",                    start: "2023-04-01", end: "2024-03-31"}
+  - {text: "FY 2023-24",                start: "2023-04-01", end: "2024-03-31"}
+  - {text: "2023-24",                   start: "2023-04-01", end: "2024-03-31"}
+  - {text: "year ended March 31, 2024", start: "2023-04-01", end: "2024-03-31"}
+  - {text: "FY25",                      start: "2024-04-01", end: "2025-03-31"}
+  - {text: "2024-25",                   start: "2024-04-01", end: "2025-03-31"}
+  - {text: "FY2024/25",                 start: "2024-04-01", end: "2025-03-31"}
+  - {text: "FY26",                      start: "2025-04-01", end: "2026-03-31"}
+  - {text: "FY2025/26",                 start: "2025-04-01", end: "2026-03-31"}
+  - {text: "Q4 FY24",                   start: "2024-01-01", end: "2024-03-31"}
+  - {text: "Q1 FY25",                   start: "2024-04-01", end: "2024-06-30"}
+  - {text: "H1 FY25",                   start: "2024-04-01", end: "2024-09-30"}
+  - {text: "CY2024",                    start: "2024-01-01", end: "2024-12-31"}
+
+# Three documents writing one period three ways. Cross-document corroboration
+# is impossible unless these collapse to the same key.
+period_equivalence:
+  - group: ["FY25", "2024-25", "FY2024/25"]
+    why: Economic Survey, RBI and IMF notation for April 2024 - March 2025.
+  - group: ["FY24", "FY2023-24", "year ended March 31, 2024"]
+    why: Delhivery's three notations across its own filings.
+
+relation_verdicts:
+  - id: corroborate-cross-document
+    left:
+      {metric: "revenue from services", value: "8,142", unit: "Rs. crore",
+       period: "FY24", doc: "deck", qualifiers: {scope: consolidated}}
+    right:
+      {metric: "revenue from services", value: "81,415.38", unit: "Rs. million",
+       period: "FY24", doc: "annual-report", qualifiers: {scope: consolidated}}
+    expect: corroborates
+
+  - id: contradict-rbi-vs-imf
+    left:
+      {metric: "real GDP growth", value: "6.5", unit: "per cent", period: "FY26",
+       subject: India, doc: "rbi", qualifiers: {basis: projection}}
+    right:
+      {metric: "real GDP growth", value: "6.6", unit: "per cent", period: "FY2025/26",
+       subject: India, doc: "imf", qualifiers: {basis: projection}}
+    expect: contradicts
+
+  - id: reconcile-by-vintage
+    left:
+      {metric: "real GDP growth", value: "6.4", unit: "per cent", period: "FY25",
+       subject: India, doc: "survey", qualifiers: {basis: first_advance_estimate}}
+    right:
+      {metric: "real GDP growth", value: "6.5", unit: "per cent", period: "2024-25",
+       subject: India, doc: "rbi", qualifiers: {basis: provisional_estimate}}
+    expect: reconciled
+    explained_by: basis
+
+  - id: reconcile-by-scope
+    left:
+      {metric: "revenue from operations", value: "74,540.82", unit: "Rs. million",
+       period: "FY24", doc: "ar", qualifiers: {scope: standalone}}
+    right:
+      {metric: "revenue from operations", value: "81,415.38", unit: "Rs. million",
+       period: "FY24", doc: "ar", qualifiers: {scope: consolidated}}
+    expect: reconciled
+    explained_by: scope
+
+  - id: reconcile-by-period
+    left:
+      {metric: "revenue from services", value: "8,142", unit: "Rs. crore",
+       period: "FY24", doc: "deck"}
+    right:
+      {metric: "revenue from services", value: "2,076", unit: "Rs. crore",
+       period: "Q4 FY24", doc: "deck"}
+    expect: reconciled
+    explained_by: period
+
+  # Guards: the engine must decline to compare these at all.
+  - id: never-compare-different-metrics
+    left:
+      {metric: "revenue from operations", value: "72,253.01", unit: "Rs. million",
+       period: "FY23", doc: "ar"}
+    right:
+      {metric: "revenue from services", value: "72,236.47", unit: "Rs. million",
+       period: "FY23", doc: "ar"}
+    expect: no_relation
+
+  - id: never-compare-across-unit-families
+    left:
+      {metric: "EBITDA", value: "1,266.41", unit: "Rs. million", period: "FY24", doc: "ar"}
+    right:
+      {metric: "EBITDA", value: "1.6", unit: "per cent", period: "FY24", doc: "ar"}
+    expect: no_relation

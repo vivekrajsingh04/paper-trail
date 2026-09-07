@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Adj. EBITDA is a modified version of EBITDA that includes specific adjustments, making them distinct metrics that are not directly comparable without understanding the nature of the adjustments."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Adj. EBITDA is a modified version of EBITDA that includes specific adjustments, making them distinct metrics that are not directly comparable without understanding the nature of the adjustments.\"\n}",
+ "model": "gemini-2.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

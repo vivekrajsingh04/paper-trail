@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/factlayer.db
+data/uploads/
+*.zip
+.DS_Store
+.pytest_cache/
+data/embeddings.json

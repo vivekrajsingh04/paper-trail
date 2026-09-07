@@ -1,0 +1,18 @@
+# Core
+pymupdf>=1.24          # PDF text + per-word geometry
+pydantic>=2.7          # fact / relation schema
+rapidfuzz>=3.9         # lexical metric matching
+numpy>=1.26            # embedding similarity
+
+# API + UI
+fastapi>=0.111
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+
+# Model providers (only the one you configure is used)
+google-genai>=1.0      # Gemini
+httpx>=0.27            # OpenAI / Anthropic paths
+
+# Tests + evals
+pytest>=8.2
+pyyaml>=6.0

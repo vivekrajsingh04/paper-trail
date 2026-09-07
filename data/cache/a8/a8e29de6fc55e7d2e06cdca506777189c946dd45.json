@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "'PAT' (Profit After Tax) is a general metric that can be positive or negative, while 'PAT loss' specifically refers to the negative value of PAT, making 'PAT' the broader concept."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"'PAT' (Profit After Tax) is a general metric that can be positive or negative, while 'PAT loss' specifically refers to the negative value of PAT, making 'PAT' the broader concept.\"\n}",
+ "model": "gemini-2.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}
