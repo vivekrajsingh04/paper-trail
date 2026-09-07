@@ -76,7 +76,7 @@ def limiter(model: str = "") -> RateLimiter:
     already hit its ceiling, which is how a run ends up stalled rather than
     falling through to the next model.
     """
-    per_model = int(os.environ.get("FACTLAYER_RPM", "10"))
+    per_model = int(os.environ.get("FACTLAYER_RPM", "10")) * max(1, len(key_pool()))
     with _LIMITERS_LOCK:
         if model not in _LIMITERS:
             _LIMITERS[model] = RateLimiter(per_model)
@@ -201,20 +201,17 @@ class KeyPool:
     def __len__(self) -> int:
         return len(self.keys)
 
-    def next_key(self) -> str:
+    def next_key_for(self, model: str) -> str:
+        """Round-robin over the keys that are not cooling down on this model."""
         with self._lock:
-            now = time.monotonic()
-            for _ in range(len(self.keys)):
-                k = self.keys[self._i % len(self.keys)]
+            n = len(self.keys)
+            for _ in range(n):
+                k = self.keys[self._i % n]
                 self._i += 1
-                if self._cooldown.get(k, 0.0) <= now:
+                if _cooling(model, k) <= 0:
                     return k
-            # Every key is cooling down; use the one that frees up soonest.
-            return min(self.keys, key=lambda k: self._cooldown.get(k, 0.0))
-
-    def penalise(self, key: str, seconds: float = 90.0) -> None:
-        with self._lock:
-            self._cooldown[key] = time.monotonic() + seconds
+            # All cooling: take the one that frees up soonest.
+            return min(self.keys, key=lambda k: _cooling(model, k))
 
 
 _POOL: KeyPool | None = None
@@ -240,7 +237,7 @@ def _call_gemini(model: str, prompt: str, temperature: float) -> str:
     pool = key_pool()
     if not len(pool):
         raise LLMUnavailable("GEMINI_API_KEY is not set")
-    api_key = pool.next_key()
+    api_key = pool.next_key_for(model)
     timeout_ms = int(float(os.environ.get("FACTLAYER_TIMEOUT_S", "150")) * 1000)
     client = genai.Client(
         api_key=api_key,
@@ -258,7 +255,7 @@ def _call_gemini(model: str, prompt: str, temperature: float) -> str:
         )
     except Exception as exc:  # noqa: BLE001
         if _is_rate_limit(exc):
-            pool.penalise(api_key)
+            cool_down(model, _retry_delay_from(exc, 0), api_key)
         raise
     return resp.text or ""
 
@@ -344,19 +341,34 @@ _FALLBACK_CHAINS = {
 
 # A rate-limited model is not exhausted for the day -- it is busy for a while.
 # Cooldowns are timestamps, so a model returns to the chain on its own.
-_cooldown: dict[str, float] = {}
+#
+# They are keyed by (model, key), not by model alone. Quotas are metered per
+# project, so when several keys from different projects are configured, one key
+# hitting its ceiling on a model says nothing about the others. Parking the
+# model globally would throw away the capacity the extra keys were added for.
+_cooldown: dict[tuple[str, str], float] = {}
 _exhausted_lock = threading.Lock()
 
 
-def _cooling(model: str) -> float:
-    """Seconds remaining before this model is worth trying again."""
+def _cooling(model: str, api_key: str = "") -> float:
+    """Seconds until this (model, key) pair is worth trying again."""
     with _exhausted_lock:
-        return max(0.0, _cooldown.get(model, 0.0) - time.monotonic())
+        return max(0.0, _cooldown.get((model, api_key), 0.0) - time.monotonic())
 
 
-def cool_down(model: str, seconds: float) -> None:
+def cool_down(model: str, seconds: float, api_key: str = "") -> None:
     with _exhausted_lock:
-        _cooldown[model] = max(_cooldown.get(model, 0.0), time.monotonic() + seconds)
+        cur = _cooldown.get((model, api_key), 0.0)
+        _cooldown[(model, api_key)] = max(cur, time.monotonic() + seconds)
+
+
+def model_cooling(model: str) -> float:
+    """Seconds until *some* configured key could try this model again.
+
+    Zero as soon as any one key is free, which is what the fallback loop needs.
+    """
+    keys = key_pool().keys or [""]
+    return min(_cooling(model, k) for k in keys)
 
 
 def model_chain() -> list[str]:
@@ -375,15 +387,15 @@ def model_name() -> str:
     """The model a call would use right now, skipping any that are cooling."""
     chain = model_chain()
     for m in chain:
-        if _cooling(m) <= 0:
+        if model_cooling(m) <= 0:
             return m
     return chain[0]
 
 
-def exhausted_models() -> list[str]:
-    """Models currently cooling down, with seconds remaining."""
+def exhausted_models() -> list[tuple[str, int]]:
+    """Models with no free key right now, and seconds until one frees up."""
     return sorted(
-        (m, round(_cooling(m))) for m in model_chain() if _cooling(m) > 0
+        (m, round(model_cooling(m))) for m in model_chain() if model_cooling(m) > 0
     )
 
 
@@ -423,7 +435,7 @@ def complete_json(prompt: str, *, temperature: float = 0.0, tag: str = "") -> LL
     # if every model is cooling do we wait, and then for the shortest cooldown.
     for round_no in range(2):
         for candidate in chain:
-            if _cooling(candidate) > 0:
+            if model_cooling(candidate) > 0:
                 continue
             used = candidate
             for attempt in range(attempts):
@@ -434,21 +446,25 @@ def complete_json(prompt: str, *, temperature: float = 0.0, tag: str = "") -> LL
                 except Exception as exc:  # noqa: BLE001
                     last = exc
                     if _is_rate_limit(exc):
-                        # Park this model and move on; do not burn wall-clock here.
-                        cool_down(candidate, _retry_delay_from(exc, attempt))
-                        break
+                        # The provider already parked the (model, key) pair that
+                        # failed. If another key is still free for this model,
+                        # retry it; otherwise fall through to the next model.
+                        if model_cooling(candidate) > 0:
+                            break
+                        continue
                     if not _is_transient(exc):
                         raise
                     if attempt == attempts - 1:
                         cool_down(candidate, 5.0)
                         break
+
                     time.sleep(min(4.0, 1.5 ** attempt) + random.uniform(0.1, 0.5))
             if raw:
                 break
         if raw:
             break
         if round_no == 0:
-            waits = [w for w in (_cooling(m) for m in chain) if w > 0]
+            waits = [w for w in (model_cooling(m) for m in chain) if w > 0]
             if not waits:
                 break
             time.sleep(min(min(waits) + 0.5, 65.0))

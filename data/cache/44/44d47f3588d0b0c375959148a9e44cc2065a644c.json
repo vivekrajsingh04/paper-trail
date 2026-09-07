@@ -1,0 +1,19 @@
+{
+ "data": {
+  "title": "PROSPECTUS",
+  "publisher": "Delhivery Limited",
+  "doc_type": "prospectus",
+  "primary_entity": "Delhivery Limited",
+  "published": "2022-05-14",
+  "as_of": "Fiscal 2021",
+  "default_qualifiers": {
+   "currency": "inr",
+   "scale": "millions"
+  },
+  "notes": "The company is professionally managed and has no identifiable promoter. Financial figures are presented as restated or proforma financial statements."
+ },
+ "raw": "{\n  \"title\": \"PROSPECTUS\",\n  \"publisher\": \"Delhivery Limited\",\n  \"doc_type\": \"prospectus\",\n  \"primary_entity\": \"Delhivery Limited\",\n  \"published\": \"2022-05-14\",\n  \"as_of\": \"Fiscal 2021\",\n  \"default_qualifiers\": {\n    \"currency\": \"inr\",\n    \"scale\": \"millions\"\n  },\n  \"notes\": \"The company is professionally managed and has no identifiable promoter. Financial figures are presented as restated or proforma financial statements.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "profile:01-delhivery-prospectus-2022-excerpt-0d7e71e1"
+}

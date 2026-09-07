@@ -82,15 +82,51 @@ def test_server_supplied_retry_delay_is_honoured():
     assert 17.0 <= delay <= 18.5
 
 
+def _one_key(monkeypatch, *keys):
+    monkeypatch.setattr(llm, "_POOL", llm.KeyPool(list(keys)))
+    monkeypatch.setattr(llm, "_cooldown", {})
+
+
 def test_cooldown_moves_the_chain_to_the_next_model(monkeypatch):
     """A rate-limited model must be skipped, not slept on."""
     monkeypatch.setenv("FACTLAYER_MODEL_CHAIN", "model-a,model-b,model-c")
-    monkeypatch.setattr(llm, "_cooldown", {})
+    _one_key(monkeypatch, "k1")
     assert llm.model_name() == "model-a"
-    llm.cool_down("model-a", 60)
+    llm.cool_down("model-a", 60, "k1")
     assert llm.model_name() == "model-b"
-    llm.cool_down("model-b", 60)
+    llm.cool_down("model-b", 60, "k1")
     assert llm.model_name() == "model-c"
+
+
+def test_one_key_exhausting_does_not_park_the_model_for_the_others(monkeypatch):
+    """Quotas are per project, so keys must be parked independently.
+
+    Parking the model globally on the first 429 would discard exactly the
+    capacity a second key was added to provide.
+    """
+    monkeypatch.setenv("FACTLAYER_MODEL_CHAIN", "model-a,model-b")
+    _one_key(monkeypatch, "k1", "k2")
+
+    llm.cool_down("model-a", 60, "k1")
+    assert llm._cooling("model-a", "k1") > 0
+    assert llm._cooling("model-a", "k2") == 0
+    # Some key is still free, so the model stays in play...
+    assert llm.model_cooling("model-a") == 0
+    assert llm.model_name() == "model-a"
+    # ...and the pool hands out the key that is not cooling.
+    assert llm.key_pool().next_key_for("model-a") == "k2"
+
+    # Only when every key is spent does the chain fall through.
+    llm.cool_down("model-a", 60, "k2")
+    assert llm.model_cooling("model-a") > 0
+    assert llm.model_name() == "model-b"
+
+
+def test_rate_budget_scales_with_key_count(monkeypatch):
+    monkeypatch.setenv("FACTLAYER_RPM", "10")
+    monkeypatch.setattr(llm, "_LIMITERS", {})
+    monkeypatch.setattr(llm, "_POOL", llm.KeyPool(["k1", "k2", "k3"]))
+    assert llm.limiter("model-a").rpm == 30
 
 
 def test_rate_limiter_admits_up_to_its_budget_without_blocking():
