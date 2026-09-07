@@ -8,3 +8,4 @@ data/uploads/
 .DS_Store
 .pytest_cache/
 data/embeddings.json
+data/demo.db

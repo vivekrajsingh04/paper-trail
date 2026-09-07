@@ -19,6 +19,7 @@ counts rather than by re-judging every pair.
 from __future__ import annotations
 
 import json
+import os
 import sqlite3
 import threading
 from pathlib import Path
@@ -27,7 +28,7 @@ from typing import Any, Iterable
 from .compare import ComparisonEngine, salience
 from .models import Document, Fact, Relation
 
-DB_PATH = Path("data/factlayer.db")
+DB_PATH = Path(os.environ.get("FACTLAYER_DB", "data/factlayer.db"))
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS documents (
