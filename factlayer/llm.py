@@ -123,14 +123,17 @@ class LLMResult:
 
 
 def _cache_key(provider: str, model: str, prompt: str) -> str:
-    """Key on the prompt, not the model.
+    """Key on the prompt alone.
 
-    The model that answered is recorded inside the entry for provenance, but it
-    is deliberately excluded from the key: a committed cache has to keep
-    replaying after the default model changes, and it has to stay valid when a
-    run falls back across several models because one hit its quota.
+    Provider and model are recorded inside each entry for provenance, but both
+    are deliberately excluded from the key. A cached answer to an identical
+    prompt is a cached answer whoever produced it, and keying on either one
+    breaks the two things the cache exists for: replaying a committed corpus
+    after the default model changes, and replaying it at all under
+    FACTLAYER_LLM=replay, whose provider name would otherwise never match the
+    "gemini" that wrote the entry.
     """
-    return hashlib.sha1(f"{provider}\x00{prompt}".encode()).hexdigest()
+    return hashlib.sha1(prompt.encode()).hexdigest()
 
 
 def _cache_path(key: str) -> Path:

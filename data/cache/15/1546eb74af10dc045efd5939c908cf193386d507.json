@@ -1,0 +1,9 @@
+{
+ "data": {
+  "replay_probe": 1
+ },
+ "raw": "{\"replay_probe\": 1}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "probe"
+}
