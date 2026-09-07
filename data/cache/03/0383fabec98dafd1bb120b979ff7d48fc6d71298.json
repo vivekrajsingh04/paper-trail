@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Average cost of acquisition per Equity Share is a per-share cost metric, whereas Total equity is a balance sheet item representing total equity value."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Average cost of acquisition per Equity Share is a per-share cost metric, whereas Total equity is a balance sheet item representing total equity value.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

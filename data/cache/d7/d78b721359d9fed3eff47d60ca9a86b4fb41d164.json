@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Both metrics measure the percentage of pre-offer equity share capital held by a shareholder, as 'equity share capital' and 'paid-up equity share capital' refer to the same base in this context."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Both metrics measure the percentage of pre-offer equity share capital held by a shareholder, as 'equity share capital' and 'paid-up equity share capital' refer to the same base in this context.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

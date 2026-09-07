@@ -121,7 +121,7 @@ def ingest_path(
 
     if progress:
         progress({"stage": "linking", "doc_id": doc.doc_id, "facts": len(facts)})
-    relations, compare_stats = store.link_new_facts(facts)
+    relations, compare_stats = store.link_new_facts(facts, progress=progress)
     store.save_relations(relations)
 
     from collections import Counter

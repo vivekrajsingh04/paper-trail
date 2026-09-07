@@ -1,0 +1,422 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 0,
+    "quote": "82,152,503*\nEquity\nShares aggregating to\n₹40,000.00 million",
+    "kind": "numeric",
+    "metric": "Fresh Issue size",
+    "subject": "Delhivery Limited",
+    "value_raw": "40,000.00",
+    "unit_raw": "₹ million",
+    "period_raw": null,
+    "qualifiers": {
+     "issue_type": "Fresh Issue"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 0,
+    "quote": "CA Swift Investments Investor Selling Shareholder 9,324,309# Equity Shares aggregating to ₹4,540 million 139.88",
+    "kind": "numeric",
+    "metric": "Weighted average cost of acquisition per Equity Share",
+    "subject": "CA Swift Investments",
+    "value_raw": "139.88",
+    "unit_raw": "₹",
+    "period_raw": null,
+    "qualifiers": {
+     "scale": 1,
+     "per_share": true
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 0,
+    "quote": "SVF Doorbell (Cayman) Ltd Investor Selling Shareholder 7,496,416# Equity Shares aggregating to ₹3,650 million 196.19",
+    "kind": "numeric",
+    "metric": "Weighted average cost of acquisition per Equity Share",
+    "subject": "SVF Doorbell (Cayman) Ltd",
+    "value_raw": "196.19",
+    "unit_raw": "₹",
+    "period_raw": null,
+    "qualifiers": {
+     "scale": 1,
+     "per_share": true
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 0,
+    "quote": "Times Internet Limited Investor Selling Shareholder 3,388,791# Equity Shares aggregating to ₹1,650 million 3.50",
+    "kind": "numeric",
+    "metric": "Weighted average cost of acquisition per Equity Share",
+    "subject": "Times Internet Limited",
+    "value_raw": "3.50",
+    "unit_raw": "₹",
+    "period_raw": null,
+    "qualifiers": {
+     "scale": 1,
+     "per_share": true
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 0,
+    "quote": "Mohit Tandon Individual Selling Shareholder 821,525# Equity Shares aggregating to ₹400 million 0.10",
+    "kind": "numeric",
+    "metric": "Weighted average cost of acquisition per Equity Share",
+    "subject": "Mohit Tandon",
+    "value_raw": "0.10",
+    "unit_raw": "₹",
+    "period_raw": null,
+    "qualifiers": {
+     "scale": 1,
+     "per_share": true
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 0,
+    "quote": "For the purposes of the Offer, NSE is the Designated Stock Exchange.",
+    "kind": "semantic",
+    "metric": "Designated Stock Exchange",
+    "subject": "NSE",
+    "state": "Designated Stock Exchange",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 2,
+    "quote": "The Indian logistics sector had a direct spend of US$216 billion in Fiscal 2020",
+    "kind": "numeric",
+    "metric": "direct spend",
+    "subject": "Indian logistics sector",
+    "value_raw": "216",
+    "unit_raw": "US$ billion",
+    "period_raw": "Fiscal 2020",
+    "qualifiers": {
+     "currency": "usd",
+     "scale": "billions"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 2,
+    "quote": "expected to grow to US$365 billion by Fiscal 2026",
+    "kind": "numeric",
+    "metric": "expected direct spend",
+    "subject": "Indian logistics sector",
+    "value_raw": "365",
+    "unit_raw": "US$ billion",
+    "period_raw": "Fiscal 2026",
+    "qualifiers": {
+     "currency": "usd",
+     "scale": "billions",
+     "forecast": true
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 2,
+    "quote": "organized players accounting for approximately 3.5% of the market",
+    "kind": "numeric",
+    "metric": "organized players market share",
+    "subject": "Indian logistics sector",
+    "value_raw": "3.5",
+    "unit_raw": "%",
+    "period_raw": "Fiscal 2020",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 2,
+    "quote": "expected to reach 12.5-15.0% in Fiscal 2026",
+    "kind": "numeric",
+    "metric": "expected organized players market share",
+    "subject": "Indian logistics sector",
+    "value_raw": "12.5-15.0",
+    "unit_raw": "%",
+    "period_raw": "Fiscal 2026",
+    "qualifiers": {
+     "forecast": true
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 2,
+    "quote": "implying a CAGR of approximately 35% between Fiscal 2020 and Fiscal 2026",
+    "kind": "numeric",
+    "metric": "organized players market share CAGR",
+    "subject": "Indian logistics sector",
+    "value_raw": "35",
+    "unit_raw": "%",
+    "period_raw": "between Fiscal 2020 and Fiscal 2026",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 2,
+    "quote": "(iii)\nEmployee Reservation Portion(3)\n432,900* Equity Shares aggregating to ₹200 million",
+    "kind": "numeric",
+    "metric": "Employee Reservation Portion size",
+    "subject": "Delhivery Limited",
+    "value_raw": "200",
+    "unit_raw": "₹ million",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 3,
+    "quote": "The Offer and the Net Offer constitute 14.84% and 14.78%, respectively, of the post-Offer paid up Equity Share capital",
+    "kind": "numeric",
+    "metric": "Offer percentage of post-Offer paid up Equity Share capital",
+    "subject": "Delhivery Limited",
+    "value_raw": "14.84",
+    "unit_raw": "%",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 3,
+    "quote": "The Offer and the Net Offer constitute 14.84% and 14.78%, respectively, of the post-Offer paid up Equity Share capital",
+    "kind": "numeric",
+    "metric": "Net Offer percentage of post-Offer paid up Equity Share capital",
+    "subject": "Delhivery Limited",
+    "value_raw": "14.78",
+    "unit_raw": "%",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 3,
+    "quote": "Funding organic growth initiatives\n20,000",
+    "kind": "numeric",
+    "metric": "Net Proceeds allocation for funding organic growth initiatives",
+    "subject": "Delhivery Limited",
+    "value_raw": "20,000",
+    "unit_raw": "₹ million",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 3,
+    "quote": "Funding inorganic growth through acquisitions and other strategic\ninitiatives\n10,000",
+    "kind": "numeric",
+    "metric": "Net Proceeds allocation for funding inorganic growth through acquisitions and other strategic initiatives",
+    "subject": "Delhivery Limited",
+    "value_raw": "10,000",
+    "unit_raw": "₹ million",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 3,
+    "quote": "SVF Doorbell (Cayman) Ltd\n141,593,300\n22.04",
+    "kind": "numeric",
+    "metric": "Percentage of the pre-Offer paid-up Equity Share capital",
+    "subject": "SVF Doorbell (Cayman) Ltd",
+    "value_raw": "22.04",
+    "unit_raw": "%",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 3,
+    "quote": "Times Internet Limited\n31,703,900\n4.94",
+    "kind": "numeric",
+    "metric": "Percentage of the pre-Offer paid-up Equity Share capital",
+    "subject": "Times Internet Limited",
+    "value_raw": "4.94",
+    "unit_raw": "%",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "Net worth*\n59,798.47",
+    "kind": "numeric",
+    "metric": "Net worth",
+    "subject": "Delhivery Limited",
+    "value_raw": "59,798.47",
+    "unit_raw": "₹ million",
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {
+     "restated": true
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "Total income\n49,114.06",
+    "kind": "numeric",
+    "metric": "Total income",
+    "subject": "Delhivery Limited",
+    "value_raw": "49,114.06",
+    "unit_raw": "₹ million",
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {
+     "restated": true
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "Restated loss for the period/\nyear\n(8,911.39)",
+    "kind": "numeric",
+    "metric": "Restated loss for the period/year",
+    "subject": "Delhivery Limited",
+    "value_raw": "(8,911.39)",
+    "unit_raw": "₹ million",
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {
+     "restated": true
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "Total borrowings#\n3,707.81\n3,394.58\n3,013.43\n2,568.15\n936.17",
+    "kind": "numeric",
+    "metric": "Total borrowings",
+    "subject": "Delhivery Limited",
+    "value_raw": "3,707.81",
+    "unit_raw": "₹ million",
+    "period_raw": "As at December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "Total borrowings#\n3,707.81\n3,394.58\n3,013.43\n2,568.15\n936.17",
+    "kind": "numeric",
+    "metric": "Total borrowings",
+    "subject": "Delhivery Limited",
+    "value_raw": "3,013.43",
+    "unit_raw": "₹ million",
+    "period_raw": "As at March 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "Total borrowings#\n3,707.81\n3,394.58\n3,013.43\n2,568.15\n936.17",
+    "kind": "numeric",
+    "metric": "Total borrowings",
+    "subject": "Delhivery Limited",
+    "value_raw": "2,568.15",
+    "unit_raw": "₹ million",
+    "period_raw": "As at March 31, 2020",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "Total borrowings#\n3,707.81\n3,394.58\n3,013.43\n2,568.15\n936.17",
+    "kind": "numeric",
+    "metric": "Total borrowings",
+    "subject": "Delhivery Limited",
+    "value_raw": "936.17",
+    "unit_raw": "₹ million",
+    "period_raw": "As at March 31, 2019",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "Against the Company\n4\n24\n13\nN.A.\n48#\n411.69",
+    "kind": "numeric",
+    "metric": "Number of outstanding Material Civil Litigations against the Company",
+    "subject": "Delhivery Limited",
+    "value_raw": "48",
+    "unit_raw": null,
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "Against the Company\n4\n24\n13\nN.A.\n48#\n411.69",
+    "kind": "numeric",
+    "metric": "Aggregate amount involved in outstanding Material Civil Litigations against the Company",
+    "subject": "Delhivery Limited",
+    "value_raw": "411.69",
+    "unit_raw": "₹ million",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 6,
+    "quote": "Sahil Barua\n353.01",
+    "kind": "numeric",
+    "metric": "Remuneration to key management personnel (Salary and other employee benefits)",
+    "subject": "Sahil Barua",
+    "value_raw": "353.01",
+    "unit_raw": "₹ million",
+    "period_raw": "Nine months period ended December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 6,
+    "quote": "Kapil Bharati\n439.79",
+    "kind": "numeric",
+    "metric": "Remuneration to key management personnel (Salary and other employee benefits)",
+    "subject": "Kapil Bharati",
+    "value_raw": "439.79",
+    "unit_raw": "₹ million",
+    "period_raw": "Nine months period ended December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 6,
+    "quote": "Sandeep Kumar Barasia\n381.21",
+    "kind": "numeric",
+    "metric": "Remuneration to key management personnel (Salary and other employee benefits)",
+    "subject": "Sandeep Kumar Barasia",
+    "value_raw": "381.21",
+    "unit_raw": "₹ million",
+    "period_raw": "Nine months period ended December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 7,
+    "quote": "Spoton Logistics Private\nLimited\nLoan given\n1,626.72",
+    "kind": "numeric",
+    "metric": "Loan given to related party",
+    "subject": "Spoton Logistics Private Limited",
+    "value_raw": "1,626.72",
+    "unit_raw": "₹ million",
+    "period_raw": "Nine months period ended December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 7,
+    "quote": "Delhivery Freight\nServices Private Limited\nInvestment in\nequity\n-\n0.10\n0.10\n-\n-\nLoan given\n240.00",
+    "kind": "numeric",
+    "metric": "Loan given to related party",
+    "subject": "Delhivery Freight Services Private Limited",
+    "value_raw": "240.00",
+    "unit_raw": "₹ million",
+    "period_raw": "Nine months period ended December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 0,\n      \"quote\": \"82,152,503*\\nEquity\\nShares aggregating to\\n₹40,000.00 million\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Fresh Issue size\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"40,000.00\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"issue_type\": \"Fresh Issue\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 0,\n      \"quote\": \"CA Swift Investments Investor Selling Shareholder 9,324,309# Equity Shares aggregating to ₹4,540 million 139.88\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Weighted average cost of acquisition per Equity Share\",\n      \"subject\": \"CA Swift Investments\",\n      \"value_raw\": \"139.88\",\n      \"unit_raw\": \"₹\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"scale\": 1,\n        \"per_share\": true\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 0,\n      \"quote\": \"SVF Doorbell (Cayman) Ltd Investor Selling Shareholder 7,496,416# Equity Shares aggregating to ₹3,650 million 196.19\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Weighted average cost of acquisition per Equity Share\",\n      \"subject\": \"SVF Doorbell (Cayman) Ltd\",\n      \"value_raw\": \"196.19\",\n      \"unit_raw\": \"₹\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"scale\": 1,\n        \"per_share\": true\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 0,\n      \"quote\": \"Times Internet Limited Investor Selling Shareholder 3,388,791# Equity Shares aggregating to ₹1,650 million 3.50\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Weighted average cost of acquisition per Equity Share\",\n      \"subject\": \"Times Internet Limited\",\n      \"value_raw\": \"3.50\",\n      \"unit_raw\": \"₹\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"scale\": 1,\n        \"per_share\": true\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 0,\n      \"quote\": \"Mohit Tandon Individual Selling Shareholder 821,525# Equity Shares aggregating to ₹400 million 0.10\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Weighted average cost of acquisition per Equity Share\",\n      \"subject\": \"Mohit Tandon\",\n      \"value_raw\": \"0.10\",\n      \"unit_raw\": \"₹\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"scale\": 1,\n        \"per_share\": true\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 0,\n      \"quote\": \"For the purposes of the Offer, NSE is the Designated Stock Exchange.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Designated Stock Exchange\",\n      \"subject\": \"NSE\",\n      \"state\": \"Designated Stock Exchange\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 2,\n      \"quote\": \"The Indian logistics sector had a direct spend of US$216 billion in Fiscal 2020\",\n      \"kind\": \"numeric\",\n      \"metric\": \"direct spend\",\n      \"subject\": \"Indian logistics sector\",\n      \"value_raw\": \"216\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"Fiscal 2020\",\n      \"qualifiers\": {\n        \"currency\": \"usd\",\n        \"scale\": \"billions\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 2,\n      \"quote\": \"expected to grow to US$365 billion by Fiscal 2026\",\n      \"kind\": \"numeric\",\n      \"metric\": \"expected direct spend\",\n      \"subject\": \"Indian logistics sector\",\n      \"value_raw\": \"365\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"Fiscal 2026\",\n      \"qualifiers\": {\n        \"currency\": \"usd\",\n        \"scale\": \"billions\",\n        \"forecast\": true\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 2,\n      \"quote\": \"organized players accounting for approximately 3.5% of the market\",\n      \"kind\": \"numeric\",\n      \"metric\": \"organized players market share\",\n      \"subject\": \"Indian logistics sector\",\n      \"value_raw\": \"3.5\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Fiscal 2020\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 2,\n      \"quote\": \"expected to reach 12.5-15.0% in Fiscal 2026\",\n      \"kind\": \"numeric\",\n      \"metric\": \"expected organized players market share\",\n      \"subject\": \"Indian logistics sector\",\n      \"value_raw\": \"12.5-15.0\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Fiscal 2026\",\n      \"qualifiers\": {\n        \"forecast\": true\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 2,\n      \"quote\": \"implying a CAGR of approximately 35% between Fiscal 2020 and Fiscal 2026\",\n      \"kind\": \"numeric\",\n      \"metric\": \"organized players market share CAGR\",\n      \"subject\": \"Indian logistics sector\",\n      \"value_raw\": \"35\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"between Fiscal 2020 and Fiscal 2026\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 2,\n      \"quote\": \"(iii)\\nEmployee Reservation Portion(3)\\n432,900* Equity Shares aggregating to ₹200 million\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Employee Reservation Portion size\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"200\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 3,\n      \"quote\": \"The Offer and the Net Offer constitute 14.84% and 14.78%, respectively, of the post-Offer paid up Equity Share capital\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Offer percentage of post-Offer paid up Equity Share capital\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"14.84\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 3,\n      \"quote\": \"The Offer and the Net Offer constitute 14.84% and 14.78%, respectively, of the post-Offer paid up Equity Share capital\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net Offer percentage of post-Offer paid up Equity Share capital\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"14.78\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 3,\n      \"quote\": \"Funding organic growth initiatives\\n20,000\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net Proceeds allocation for funding organic growth initiatives\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"20,000\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 3,\n      \"quote\": \"Funding inorganic growth through acquisitions and other strategic\\ninitiatives\\n10,000\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net Proceeds allocation for funding inorganic growth through acquisitions and other strategic initiatives\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"10,000\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 3,\n      \"quote\": \"SVF Doorbell (Cayman) Ltd\\n141,593,300\\n22.04\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of the pre-Offer paid-up Equity Share capital\",\n      \"subject\": \"SVF Doorbell (Cayman) Ltd\",\n      \"value_raw\": \"22.04\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 3,\n      \"quote\": \"Times Internet Limited\\n31,703,900\\n4.94\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of the pre-Offer paid-up Equity Share capital\",\n      \"subject\": \"Times Internet Limited\",\n      \"value_raw\": \"4.94\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"Net worth*\\n59,798.47\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net worth\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"59,798.47\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"restated\": true\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"Total income\\n49,114.06\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total income\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"49,114.06\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"restated\": true\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"Restated loss for the period/\\nyear\\n(8,911.39)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Restated loss for the period/year\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(8,911.39)\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"restated\": true\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"Total borrowings#\\n3,707.81\\n3,394.58\\n3,013.43\\n2,568.15\\n936.17\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total borrowings\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"3,707.81\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"As at December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"Total borrowings#\\n3,707.81\\n3,394.58\\n3,013.43\\n2,568.15\\n936.17\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total borrowings\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"3,013.43\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"As at March 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"Total borrowings#\\n3,707.81\\n3,394.58\\n3,013.43\\n2,568.15\\n936.17\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total borrowings\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"2,568.15\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"As at March 31, 2020\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"Total borrowings#\\n3,707.81\\n3,394.58\\n3,013.43\\n2,568.15\\n936.17\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total borrowings\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"936.17\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"As at March 31, 2019\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"Against the Company\\n4\\n24\\n13\\nN.A.\\n48#\\n411.69\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Number of outstanding Material Civil Litigations against the Company\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"48\",\n      \"unit_raw\": null,\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"Against the Company\\n4\\n24\\n13\\nN.A.\\n48#\\n411.69\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Aggregate amount involved in outstanding Material Civil Litigations against the Company\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"411.69\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 6,\n      \"quote\": \"Sahil Barua\\n353.01\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Remuneration to key management personnel (Salary and other employee benefits)\",\n      \"subject\": \"Sahil Barua\",\n      \"value_raw\": \"353.01\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Nine months period ended December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 6,\n      \"quote\": \"Kapil Bharati\\n439.79\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Remuneration to key management personnel (Salary and other employee benefits)\",\n      \"subject\": \"Kapil Bharati\",\n      \"value_raw\": \"439.79\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Nine months period ended December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 6,\n      \"quote\": \"Sandeep Kumar Barasia\\n381.21\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Remuneration to key management personnel (Salary and other employee benefits)\",\n      \"subject\": \"Sandeep Kumar Barasia\",\n      \"value_raw\": \"381.21\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Nine months period ended December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 7,\n      \"quote\": \"Spoton Logistics Private\\nLimited\\nLoan given\\n1,626.72\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Loan given to related party\",\n      \"subject\": \"Spoton Logistics Private Limited\",\n      \"value_raw\": \"1,626.72\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Nine months period ended December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 7,\n      \"quote\": \"Delhivery Freight\\nServices Private Limited\\nInvestment in\\nequity\\n-\\n0.10\\n0.10\\n-\\n-\\nLoan given\\n240.00\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Loan given to related party\",\n      \"subject\": \"Delhivery Freight Services Private Limited\",\n      \"value_raw\": \"240.00\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Nine months period ended December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "extract:01-delhivery-prospectus-2022-excerpt-0d7e71e1:b0"
+}

@@ -53,17 +53,15 @@ def main() -> int:
         corpus = args.corpus or f.parent.name
         print(f"\n[{i}/{len(files)}] {f.name}  (corpus={corpus})")
 
-        last = {"done": -1}
-
         def progress(ev: dict) -> None:
-            if ev.get("stage") == "extracting" and "done" in ev:
-                if ev["done"] != last["done"]:
-                    last["done"] = ev["done"]
-                    pct = 100 * ev["done"] / max(1, ev["total"])
-                    print(f"\r    extracting {ev['done']}/{ev['total']} ({pct:.0f}%)",
-                          end="", flush=True)
+            stage = ev.get("stage")
+            if "done" in ev and "total" in ev:
+                pct = 100 * ev["done"] / max(1, ev["total"])
+                extra = f", {ev['kept']} comparable" if "kept" in ev else ""
+                print(f"\r    {stage} {ev['done']}/{ev['total']} ({pct:.0f}%){extra}      ",
+                      end="", flush=True)
             else:
-                print(f"\r    {ev.get('stage')}...", end="", flush=True)
+                print(f"\r    {stage}...                              ", end="", flush=True)
 
         try:
             res = ingest_path(store, f, corpus=corpus, max_workers=args.workers,

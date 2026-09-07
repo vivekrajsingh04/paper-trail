@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the total equity value of Delhivery Limited in currency, whereas Metric B measures the percentage ownership holding of the company in its subsidiary, Delhivery USA."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the total equity value of Delhivery Limited in currency, whereas Metric B measures the percentage ownership holding of the company in its subsidiary, Delhivery USA.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

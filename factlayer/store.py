@@ -308,7 +308,10 @@ class Store:
 
     # -- incremental linking ---------------------------------------------
     def link_new_facts(
-        self, new_facts: list[Fact], engine: ComparisonEngine | None = None
+        self,
+        new_facts: list[Fact],
+        engine: ComparisonEngine | None = None,
+        progress=None,
     ) -> tuple[list[Relation], dict]:
         """Relate a batch of new facts to each other and to everything stored.
 
@@ -342,10 +345,15 @@ class Store:
         ]
 
         evaluated = []
-        for a, b in pairs:
+        for i, (a, b) in enumerate(pairs):
             ev = engine.evaluate(a, b)
             if ev is not None:
                 evaluated.append(ev)
+            # Adjudicating unfamiliar metric names can mean a model call, so
+            # this loop is slow enough that silence looks like a hang.
+            if progress and (i % 25 == 0 or i == len(pairs) - 1):
+                progress({"stage": "linking", "done": i + 1, "total": len(pairs),
+                          "kept": len(evaluated)})
 
         for ev in evaluated:
             if len(ev["conflicts"]) != 1:

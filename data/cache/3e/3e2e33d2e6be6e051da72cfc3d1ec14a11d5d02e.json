@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure equity shareholding percentages for two different companies (Delhivery Freight Services Private Limited and Delhivery Robotics) held by different entities."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure equity shareholding percentages for two different companies (Delhivery Freight Services Private Limited and Delhivery Robotics) held by different entities.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

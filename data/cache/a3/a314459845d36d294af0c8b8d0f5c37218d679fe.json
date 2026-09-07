@@ -1,0 +1,595 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 55,
+    "quote": "Our total income increased from ₹16,948.74 million in Fiscal 2019 to ₹29,886.29 million in Fiscal 2020",
+    "kind": "numeric",
+    "metric": "total income",
+    "subject": "Delhivery Limited",
+    "value_raw": "16,948.74",
+    "unit_raw": "million",
+    "period_raw": "Fiscal 2019",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "₹29,886.29 million in Fiscal 2020",
+    "kind": "numeric",
+    "metric": "total income",
+    "subject": "Delhivery Limited",
+    "value_raw": "29,886.29",
+    "unit_raw": "million",
+    "period_raw": "Fiscal 2020",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "₹38,382.91 million in Fiscal 2021",
+    "kind": "numeric",
+    "metric": "total income",
+    "subject": "Delhivery Limited",
+    "value_raw": "38,382.91",
+    "unit_raw": "million",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "Our profit/(loss) after tax margin improved from (105.22)% in Fiscal 2019",
+    "kind": "numeric",
+    "metric": "profit/(loss) after tax margin",
+    "subject": "Delhivery Limited",
+    "value_raw": "(105.22)",
+    "unit_raw": "%",
+    "period_raw": "Fiscal 2019",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "to (9.00)% in Fiscal 2020",
+    "kind": "numeric",
+    "metric": "profit/(loss) after tax margin",
+    "subject": "Delhivery Limited",
+    "value_raw": "(9.00)",
+    "unit_raw": "%",
+    "period_raw": "Fiscal 2020",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "to (10.83)% in Fiscal 2021",
+    "kind": "numeric",
+    "metric": "profit/(loss) after tax margin",
+    "subject": "Delhivery Limited",
+    "value_raw": "(10.83)",
+    "unit_raw": "%",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "Our EBITDA margin improved from (8.29)% in Fiscal 2019",
+    "kind": "numeric",
+    "metric": "EBITDA margin",
+    "subject": "Delhivery Limited",
+    "value_raw": "(8.29)",
+    "unit_raw": "%",
+    "period_raw": "Fiscal 2019",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "to (6.19)% in Fiscal 2020",
+    "kind": "numeric",
+    "metric": "EBITDA margin",
+    "subject": "Delhivery Limited",
+    "value_raw": "(6.19)",
+    "unit_raw": "%",
+    "period_raw": "Fiscal 2020",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "to (2.75)% in Fiscal 2021",
+    "kind": "numeric",
+    "metric": "EBITDA margin",
+    "subject": "Delhivery Limited",
+    "value_raw": "(2.75)",
+    "unit_raw": "%",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "Our Adjusted EBITDA margin has improved from (11.35%) in Fiscal 2019",
+    "kind": "numeric",
+    "metric": "Adjusted EBITDA margin",
+    "subject": "Delhivery Limited",
+    "value_raw": "(11.35%)",
+    "unit_raw": "%",
+    "period_raw": "Fiscal 2019",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "to (9.11%) in Fiscal 2020",
+    "kind": "numeric",
+    "metric": "Adjusted EBITDA margin",
+    "subject": "Delhivery Limited",
+    "value_raw": "(9.11%)",
+    "unit_raw": "%",
+    "period_raw": "Fiscal 2020",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "to (6.95%) in Fiscal 2021",
+    "kind": "numeric",
+    "metric": "Adjusted EBITDA margin",
+    "subject": "Delhivery Limited",
+    "value_raw": "(6.95%)",
+    "unit_raw": "%",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "Our team of 505 engineering, data sciences and product professionals (excluding Spoton), as of December 31, 2021",
+    "kind": "numeric",
+    "metric": "number of engineering, data sciences and product professionals",
+    "subject": "Delhivery Limited",
+    "value_raw": "505",
+    "unit_raw": null,
+    "period_raw": "as of December 31, 2021",
+    "qualifiers": {
+     "excluding_spoton": true
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "We served a diverse base of 23,113 Active Customers (excluding those serviced by Spoton) across e-commerce, consumer durables, electronics, lifestyle, FMCG, industrial goods, automotives, healthcare and retail, for the nine months period ended December 31, 2021.",
+    "kind": "numeric",
+    "metric": "Active Customers",
+    "subject": "Delhivery Limited",
+    "value_raw": "23,113",
+    "unit_raw": null,
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {
+     "excluding_spoton": true
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "In addition, Spoton offers PTL freight services to 5,533 Active Customers across industry verticals.",
+    "kind": "numeric",
+    "metric": "Active Customers",
+    "subject": "Spoton Logistics Private Limited",
+    "value_raw": "5,533",
+    "unit_raw": null,
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {
+     "service_type": "PTL freight services"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "with 58.13% of our revenue for the nine months period ended December 31, 2021 coming from customers who had used at least two of our services.",
+    "kind": "numeric",
+    "metric": "percentage of revenue from customers using at least two services",
+    "subject": "Delhivery Limited",
+    "value_raw": "58.13",
+    "unit_raw": "%",
+    "period_raw": "nine months period ended December 31, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "In the first half of Fiscal 2022, 64.97% of our revenues were from customers who have been transacting with us for over three years.",
+    "kind": "numeric",
+    "metric": "percentage of revenues from customers transacting for over three years",
+    "subject": "Delhivery Limited",
+    "value_raw": "64.97",
+    "unit_raw": "%",
+    "period_raw": "first half of Fiscal 2022",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "As of December 31, 2021, excluding Spoton, we operated 14.27 million square ft. of leased infrastructure",
+    "kind": "numeric",
+    "metric": "leased infrastructure area",
+    "subject": "Delhivery Limited",
+    "value_raw": "14.27",
+    "unit_raw": "million square ft.",
+    "period_raw": "as of December 31, 2021",
+    "qualifiers": {
+     "excluding_spoton": true
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "partnered with over 11,000 vendors and network partners who provide pickup, delivery services and truckload capacity.",
+    "kind": "numeric",
+    "metric": "number of vendors and network partners",
+    "subject": "Delhivery Limited",
+    "value_raw": "11,000",
+    "unit_raw": null,
+    "period_raw": "as of December 31, 2021",
+    "qualifiers": {
+     "excluding_spoton": true,
+     "qualifier": "over"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 69,
+    "quote": "We incurred restated losses for the year/period of ₹17,833.04 million, ₹2,689.26 million, ₹4,157.43 million, ₹2,974.92 million and ₹8,911.39 million in Fiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine month periods ended December 31, 2020 and December 31, 2021, respectively.",
+    "kind": "numeric",
+    "metric": "restated losses",
+    "subject": "Delhivery Limited",
+    "value_raw": "17,833.04",
+    "unit_raw": "million",
+    "period_raw": "Fiscal 2019",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 69,
+    "quote": "₹2,689.26 million",
+    "kind": "numeric",
+    "metric": "restated losses",
+    "subject": "Delhivery Limited",
+    "value_raw": "2,689.26",
+    "unit_raw": "million",
+    "period_raw": "Fiscal 2020",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 69,
+    "quote": "₹4,157.43 million",
+    "kind": "numeric",
+    "metric": "restated losses",
+    "subject": "Delhivery Limited",
+    "value_raw": "4,157.43",
+    "unit_raw": "million",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 69,
+    "quote": "₹8,911.39 million",
+    "kind": "numeric",
+    "metric": "restated losses",
+    "subject": "Delhivery Limited",
+    "value_raw": "8,911.39",
+    "unit_raw": "million",
+    "period_raw": "nine month period ended December 31, 2021",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 69,
+    "quote": "We also had unbilled receivables of ₹1,414.26 million, ₹2,748.43 million, ₹3,668.22 million and ₹6,797.75 million as of Fiscal 2019, Fiscal 2020, Fiscal 2021 and December 31, 2021, respectively.",
+    "kind": "numeric",
+    "metric": "unbilled receivables",
+    "subject": "Delhivery Limited",
+    "value_raw": "1,414.26",
+    "unit_raw": "million",
+    "period_raw": "Fiscal 2019",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 69,
+    "quote": "₹6,797.75 million as of Fiscal 2019, Fiscal 2020, Fiscal 2021 and December 31, 2021, respectively.",
+    "kind": "numeric",
+    "metric": "unbilled receivables",
+    "subject": "Delhivery Limited",
+    "value_raw": "6,797.75",
+    "unit_raw": "million",
+    "period_raw": "as of December 31, 2021",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 71,
+    "quote": "Our Company was incorporated as \"SSN Logistics Private Limited\", a private limited company under the Companies Act, 1956, pursuant to a certificate of incorporation issued by the RoC on June 22, 2011.",
+    "kind": "semantic",
+    "metric": "incorporation name",
+    "subject": "Delhivery Limited",
+    "state": "SSN Logistics Private Limited",
+    "period_raw": "June 22, 2011",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 71,
+    "quote": "the name of our Company was changed to \"Delhivery Private Limited\", pursuant to a fresh certificate of incorporation issued by the RoC on December 8, 2015.",
+    "kind": "semantic",
+    "metric": "name change",
+    "subject": "Delhivery Limited",
+    "state": "Delhivery Private Limited",
+    "period_raw": "December 8, 2015",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 71,
+    "quote": "On the conversion of our Company to a public limited company, pursuant to a resolution passed by our Shareholders on September 29, 2021 our name was changed to \"Delhivery Limited\" and a fresh certificate of incorporation was issued by the RoC on October 12, 2021.",
+    "kind": "semantic",
+    "metric": "name change",
+    "subject": "Delhivery Limited",
+    "state": "Delhivery Limited",
+    "period_raw": "October 12, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 71,
+    "quote": "Clause V of the Memorandum of Association was amended to reflect the increase in authorised share capital from ₹100,000 divided into 10,000 equity shares of ₹10 each to ₹6,000,000 divided into 600,000 equity shares of ₹10 each.",
+    "kind": "numeric",
+    "metric": "authorised share capital",
+    "subject": "Delhivery Limited",
+    "value_raw": "6,000,000",
+    "unit_raw": "INR",
+    "period_raw": "November 7, 2011",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 72,
+    "quote": "Clause V of the Memorandum of Association was amended to reflect the increase in authorised share capital from ₹492,535,980 divided into 2,350,228 equity shares of ₹10 each, 300,000 preference shares of ₹10 each and 4,660,337 preference shares of ₹100 each to ₹1,192,535,980 divided into 72,350,228 equity shares of ₹10 each, 300,000 preference shares of ₹10 each and 4,660,337 preference shares of ₹100 each",
+    "kind": "numeric",
+    "metric": "authorised share capital",
+    "subject": "Delhivery Limited",
+    "value_raw": "1,192,535,980",
+    "unit_raw": "INR",
+    "period_raw": "September 27, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 79,
+    "quote": "DFSPL was incorporated as a private limited company on April 21, 2020 under the Companies Act, 2013 with the RoC.",
+    "kind": "semantic",
+    "metric": "incorporation date",
+    "subject": "Delhivery Freight Services Private Limited",
+    "state": "April 21, 2020",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 79,
+    "quote": "Our Company holds 10,000 equity shares of DFSPL (including 1 equity share held by its nominee shareholder, Sahil Barua) aggregating to 100% of the total equity holding of DFSPL.",
+    "kind": "numeric",
+    "metric": "equity shareholding percentage",
+    "subject": "Delhivery Freight Services Private Limited",
+    "value_raw": "100",
+    "unit_raw": "%",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {
+     "held_by": "Delhivery Limited"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 79,
+    "quote": "OSCPL was incorporated as a private limited company on December 6, 2019 under the Companies Act, 2013 with the Deputy Registrar of Companies, Central Registration Centre, Gurugram 122050 Haryana, India.",
+    "kind": "semantic",
+    "metric": "incorporation date",
+    "subject": "Orion Supply Chain Private Limited",
+    "state": "December 6, 2019",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 79,
+    "quote": "Our Company holds 10,000 equity shares of OSCPL (including 1 equity share held by its nominee shareholder, Sahil Barua) aggregating to 100% of the total equity holding of OSCPL.",
+    "kind": "numeric",
+    "metric": "equity shareholding percentage",
+    "subject": "Orion Supply Chain Private Limited",
+    "value_raw": "100",
+    "unit_raw": "%",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {
+     "held_by": "Delhivery Limited"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 79,
+    "quote": "DCBSPL was incorporated as \"Skynet Logistics Private Limited\", a private limited company on December 12, 2015 under the Companies Act, 2013 with the Registrar of Companies, Delhi.",
+    "kind": "semantic",
+    "metric": "incorporation name",
+    "subject": "Delhivery Cross Border Services Private Limited",
+    "state": "Skynet Logistics Private Limited",
+    "period_raw": "December 12, 2015",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 79,
+    "quote": "Pursuant to a fresh certificate of incorporation dated October 21, 2021, the name was changed to \"Delhivery Cross Border Services Private Limited\".",
+    "kind": "semantic",
+    "metric": "name change",
+    "subject": "Delhivery Cross Border Services Private Limited",
+    "state": "Delhivery Cross Border Services Private Limited",
+    "period_raw": "October 21, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "the authorised share capital of DCBSPL is ₹100,000,000 divided into 10,000,000 equity shares of ₹10 each.",
+    "kind": "numeric",
+    "metric": "authorised share capital",
+    "subject": "Delhivery Cross Border Services Private Limited",
+    "value_raw": "100,000,000",
+    "unit_raw": "INR",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "The issued, subscribed and paid-up equity share capital of DCBSPL is ₹55,100,000 divided into 5,510,000 equity shares of ₹10 each.",
+    "kind": "numeric",
+    "metric": "issued, subscribed and paid-up equity share capital",
+    "subject": "Delhivery Cross Border Services Private Limited",
+    "value_raw": "55,100,000",
+    "unit_raw": "INR",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "Spoton was incorporated as Startrek Logistics Private Limited, a private limited company on November 17, 2011 with the Registrar of Companies, Maharashtra at Mumbai.",
+    "kind": "semantic",
+    "metric": "incorporation name",
+    "subject": "Spoton Logistics Private Limited",
+    "state": "Startrek Logistics Private Limited",
+    "period_raw": "November 17, 2011",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "The name of the company was changed to Spoton Logistics Private Limited with effect from May 17, 2016",
+    "kind": "semantic",
+    "metric": "name change",
+    "subject": "Spoton Logistics Private Limited",
+    "state": "Spoton Logistics Private Limited",
+    "period_raw": "May 17, 2016",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "the authorised share capital of Spoton is ₹1,880,000,000 divided into 188,000,000 equity shares of ₹10 each.",
+    "kind": "numeric",
+    "metric": "authorised share capital",
+    "subject": "Spoton Logistics Private Limited",
+    "value_raw": "1,880,000,000",
+    "unit_raw": "INR",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "The issued, subscribed and paid-up equity share capital of Spoton is ₹206,410,940 divided into 20,641,094 equity shares of ₹10 each.",
+    "kind": "numeric",
+    "metric": "issued, subscribed and paid-up equity share capital",
+    "subject": "Spoton Logistics Private Limited",
+    "value_raw": "206,410,940",
+    "unit_raw": "INR",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 81,
+    "quote": "DCL was incorporated as a private limited company on March 17, 2016 under the Companies Act, 2006 of UK with the Registrar of Companies for England and Wales.",
+    "kind": "semantic",
+    "metric": "incorporation date",
+    "subject": "Delhivery Corp Limited",
+    "state": "March 17, 2016",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 81,
+    "quote": "The issued, subscribed and paid-up share capital of DCL is GBP 2,269,165 divided into GBP 2,269,165 ordinary shares of GBP 1 each.",
+    "kind": "numeric",
+    "metric": "issued, subscribed and paid-up share capital",
+    "subject": "Delhivery Corp Limited",
+    "value_raw": "2,269,165",
+    "unit_raw": "GBP",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 81,
+    "quote": "DHPL was incorporated as a private limited company on August 3, 2018 under the Companies Ordinance (Chapter 622 of the Laws of Hong Kong) with the Registrar of Companies, Hong Kong Special Administrative Region.",
+    "kind": "semantic",
+    "metric": "incorporation date",
+    "subject": "Delhivery HK Pte Limited",
+    "state": "August 3, 2018",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 81,
+    "quote": "The issued, subscribed and paid-up share capital of DHPL is 2,209,446 divided into 2,209,446 ordinary shares of HKD 1 each.",
+    "kind": "numeric",
+    "metric": "issued, subscribed and paid-up share capital",
+    "subject": "Delhivery HK Pte Limited",
+    "value_raw": "2,209,446",
+    "unit_raw": "HKD",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 81,
+    "quote": "Delhivery USA was incorporated as a limited liability company on May 23, 2016 under the Florida Limited Liability Company Act with the Secretary of State, State of Florida at Tallahassee, U.S.A.",
+    "kind": "semantic",
+    "metric": "incorporation date",
+    "subject": "Delhivery USA, LLC",
+    "state": "May 23, 2016",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 55,\n      \"quote\": \"Our total income increased from ₹16,948.74 million in Fiscal 2019 to ₹29,886.29 million in Fiscal 2020\",\n      \"kind\": \"numeric\",\n      \"metric\": \"total income\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"16,948.74\",\n      \"unit_raw\": \"million\",\n      \"period_raw\": \"Fiscal 2019\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"₹29,886.29 million in Fiscal 2020\",\n      \"kind\": \"numeric\",\n      \"metric\": \"total income\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"29,886.29\",\n      \"unit_raw\": \"million\",\n      \"period_raw\": \"Fiscal 2020\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"₹38,382.91 million in Fiscal 2021\",\n      \"kind\": \"numeric\",\n      \"metric\": \"total income\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"38,382.91\",\n      \"unit_raw\": \"million\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"Our profit/(loss) after tax margin improved from (105.22)% in Fiscal 2019\",\n      \"kind\": \"numeric\",\n      \"metric\": \"profit/(loss) after tax margin\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(105.22)\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Fiscal 2019\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"to (9.00)% in Fiscal 2020\",\n      \"kind\": \"numeric\",\n      \"metric\": \"profit/(loss) after tax margin\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(9.00)\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Fiscal 2020\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"to (10.83)% in Fiscal 2021\",\n      \"kind\": \"numeric\",\n      \"metric\": \"profit/(loss) after tax margin\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(10.83)\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"Our EBITDA margin improved from (8.29)% in Fiscal 2019\",\n      \"kind\": \"numeric\",\n      \"metric\": \"EBITDA margin\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(8.29)\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Fiscal 2019\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"to (6.19)% in Fiscal 2020\",\n      \"kind\": \"numeric\",\n      \"metric\": \"EBITDA margin\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(6.19)\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Fiscal 2020\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"to (2.75)% in Fiscal 2021\",\n      \"kind\": \"numeric\",\n      \"metric\": \"EBITDA margin\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(2.75)\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"Our Adjusted EBITDA margin has improved from (11.35%) in Fiscal 2019\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Adjusted EBITDA margin\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(11.35%)\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Fiscal 2019\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"to (9.11%) in Fiscal 2020\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Adjusted EBITDA margin\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(9.11%)\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Fiscal 2020\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"to (6.95%) in Fiscal 2021\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Adjusted EBITDA margin\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(6.95%)\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"Our team of 505 engineering, data sciences and product professionals (excluding Spoton), as of December 31, 2021\",\n      \"kind\": \"numeric\",\n      \"metric\": \"number of engineering, data sciences and product professionals\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"505\",\n      \"unit_raw\": null,\n      \"period_raw\": \"as of December 31, 2021\",\n      \"qualifiers\": {\n        \"excluding_spoton\": true\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"We served a diverse base of 23,113 Active Customers (excluding those serviced by Spoton) across e-commerce, consumer durables, electronics, lifestyle, FMCG, industrial goods, automotives, healthcare and retail, for the nine months period ended December 31, 2021.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Active Customers\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"23,113\",\n      \"unit_raw\": null,\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"excluding_spoton\": true\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"In addition, Spoton offers PTL freight services to 5,533 Active Customers across industry verticals.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Active Customers\",\n      \"subject\": \"Spoton Logistics Private Limited\",\n      \"value_raw\": \"5,533\",\n      \"unit_raw\": null,\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"service_type\": \"PTL freight services\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"with 58.13% of our revenue for the nine months period ended December 31, 2021 coming from customers who had used at least two of our services.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"percentage of revenue from customers using at least two services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"58.13\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"nine months period ended December 31, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"In the first half of Fiscal 2022, 64.97% of our revenues were from customers who have been transacting with us for over three years.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"percentage of revenues from customers transacting for over three years\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"64.97\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"first half of Fiscal 2022\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"As of December 31, 2021, excluding Spoton, we operated 14.27 million square ft. of leased infrastructure\",\n      \"kind\": \"numeric\",\n      \"metric\": \"leased infrastructure area\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"14.27\",\n      \"unit_raw\": \"million square ft.\",\n      \"period_raw\": \"as of December 31, 2021\",\n      \"qualifiers\": {\n        \"excluding_spoton\": true\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"partnered with over 11,000 vendors and network partners who provide pickup, delivery services and truckload capacity.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"number of vendors and network partners\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"11,000\",\n      \"unit_raw\": null,\n      \"period_raw\": \"as of December 31, 2021\",\n      \"qualifiers\": {\n        \"excluding_spoton\": true,\n        \"qualifier\": \"over\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 69,\n      \"quote\": \"We incurred restated losses for the year/period of ₹17,833.04 million, ₹2,689.26 million, ₹4,157.43 million, ₹2,974.92 million and ₹8,911.39 million in Fiscal 2019, Fiscal 2020 and Fiscal 2021 and the nine month periods ended December 31, 2020 and December 31, 2021, respectively.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"restated losses\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"17,833.04\",\n      \"unit_raw\": \"million\",\n      \"period_raw\": \"Fiscal 2019\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 69,\n      \"quote\": \"₹2,689.26 million\",\n      \"kind\": \"numeric\",\n      \"metric\": \"restated losses\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"2,689.26\",\n      \"unit_raw\": \"million\",\n      \"period_raw\": \"Fiscal 2020\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 69,\n      \"quote\": \"₹4,157.43 million\",\n      \"kind\": \"numeric\",\n      \"metric\": \"restated losses\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"4,157.43\",\n      \"unit_raw\": \"million\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 69,\n      \"quote\": \"₹8,911.39 million\",\n      \"kind\": \"numeric\",\n      \"metric\": \"restated losses\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"8,911.39\",\n      \"unit_raw\": \"million\",\n      \"period_raw\": \"nine month period ended December 31, 2021\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 69,\n      \"quote\": \"We also had unbilled receivables of ₹1,414.26 million, ₹2,748.43 million, ₹3,668.22 million and ₹6,797.75 million as of Fiscal 2019, Fiscal 2020, Fiscal 2021 and December 31, 2021, respectively.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"unbilled receivables\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"1,414.26\",\n      \"unit_raw\": \"million\",\n      \"period_raw\": \"Fiscal 2019\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 69,\n      \"quote\": \"₹6,797.75 million as of Fiscal 2019, Fiscal 2020, Fiscal 2021 and December 31, 2021, respectively.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"unbilled receivables\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"6,797.75\",\n      \"unit_raw\": \"million\",\n      \"period_raw\": \"as of December 31, 2021\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 71,\n      \"quote\": \"Our Company was incorporated as \\\"SSN Logistics Private Limited\\\", a private limited company under the Companies Act, 1956, pursuant to a certificate of incorporation issued by the RoC on June 22, 2011.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"incorporation name\",\n      \"subject\": \"Delhivery Limited\",\n      \"state\": \"SSN Logistics Private Limited\",\n      \"period_raw\": \"June 22, 2011\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 71,\n      \"quote\": \"the name of our Company was changed to \\\"Delhivery Private Limited\\\", pursuant to a fresh certificate of incorporation issued by the RoC on December 8, 2015.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"name change\",\n      \"subject\": \"Delhivery Limited\",\n      \"state\": \"Delhivery Private Limited\",\n      \"period_raw\": \"December 8, 2015\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 71,\n      \"quote\": \"On the conversion of our Company to a public limited company, pursuant to a resolution passed by our Shareholders on September 29, 2021 our name was changed to \\\"Delhivery Limited\\\" and a fresh certificate of incorporation was issued by the RoC on October 12, 2021.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"name change\",\n      \"subject\": \"Delhivery Limited\",\n      \"state\": \"Delhivery Limited\",\n      \"period_raw\": \"October 12, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 71,\n      \"quote\": \"Clause V of the Memorandum of Association was amended to reflect the increase in authorised share capital from ₹100,000 divided into 10,000 equity shares of ₹10 each to ₹6,000,000 divided into 600,000 equity shares of ₹10 each.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"authorised share capital\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"6,000,000\",\n      \"unit_raw\": \"INR\",\n      \"period_raw\": \"November 7, 2011\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 72,\n      \"quote\": \"Clause V of the Memorandum of Association was amended to reflect the increase in authorised share capital from ₹492,535,980 divided into 2,350,228 equity shares of ₹10 each, 300,000 preference shares of ₹10 each and 4,660,337 preference shares of ₹100 each to ₹1,192,535,980 divided into 72,350,228 equity shares of ₹10 each, 300,000 preference shares of ₹10 each and 4,660,337 preference shares of ₹100 each\",\n      \"kind\": \"numeric\",\n      \"metric\": \"authorised share capital\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"1,192,535,980\",\n      \"unit_raw\": \"INR\",\n      \"period_raw\": \"September 27, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 79,\n      \"quote\": \"DFSPL was incorporated as a private limited company on April 21, 2020 under the Companies Act, 2013 with the RoC.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"incorporation date\",\n      \"subject\": \"Delhivery Freight Services Private Limited\",\n      \"state\": \"April 21, 2020\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 79,\n      \"quote\": \"Our Company holds 10,000 equity shares of DFSPL (including 1 equity share held by its nominee shareholder, Sahil Barua) aggregating to 100% of the total equity holding of DFSPL.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"equity shareholding percentage\",\n      \"subject\": \"Delhivery Freight Services Private Limited\",\n      \"value_raw\": \"100\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {\n        \"held_by\": \"Delhivery Limited\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 79,\n      \"quote\": \"OSCPL was incorporated as a private limited company on December 6, 2019 under the Companies Act, 2013 with the Deputy Registrar of Companies, Central Registration Centre, Gurugram 122050 Haryana, India.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"incorporation date\",\n      \"subject\": \"Orion Supply Chain Private Limited\",\n      \"state\": \"December 6, 2019\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 79,\n      \"quote\": \"Our Company holds 10,000 equity shares of OSCPL (including 1 equity share held by its nominee shareholder, Sahil Barua) aggregating to 100% of the total equity holding of OSCPL.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"equity shareholding percentage\",\n      \"subject\": \"Orion Supply Chain Private Limited\",\n      \"value_raw\": \"100\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {\n        \"held_by\": \"Delhivery Limited\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 79,\n      \"quote\": \"DCBSPL was incorporated as \\\"Skynet Logistics Private Limited\\\", a private limited company on December 12, 2015 under the Companies Act, 2013 with the Registrar of Companies, Delhi.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"incorporation name\",\n      \"subject\": \"Delhivery Cross Border Services Private Limited\",\n      \"state\": \"Skynet Logistics Private Limited\",\n      \"period_raw\": \"December 12, 2015\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 79,\n      \"quote\": \"Pursuant to a fresh certificate of incorporation dated October 21, 2021, the name was changed to \\\"Delhivery Cross Border Services Private Limited\\\".\",\n      \"kind\": \"semantic\",\n      \"metric\": \"name change\",\n      \"subject\": \"Delhivery Cross Border Services Private Limited\",\n      \"state\": \"Delhivery Cross Border Services Private Limited\",\n      \"period_raw\": \"October 21, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"the authorised share capital of DCBSPL is ₹100,000,000 divided into 10,000,000 equity shares of ₹10 each.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"authorised share capital\",\n      \"subject\": \"Delhivery Cross Border Services Private Limited\",\n      \"value_raw\": \"100,000,000\",\n      \"unit_raw\": \"INR\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"The issued, subscribed and paid-up equity share capital of DCBSPL is ₹55,100,000 divided into 5,510,000 equity shares of ₹10 each.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"issued, subscribed and paid-up equity share capital\",\n      \"subject\": \"Delhivery Cross Border Services Private Limited\",\n      \"value_raw\": \"55,100,000\",\n      \"unit_raw\": \"INR\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"Spoton was incorporated as Startrek Logistics Private Limited, a private limited company on November 17, 2011 with the Registrar of Companies, Maharashtra at Mumbai.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"incorporation name\",\n      \"subject\": \"Spoton Logistics Private Limited\",\n      \"state\": \"Startrek Logistics Private Limited\",\n      \"period_raw\": \"November 17, 2011\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"The name of the company was changed to Spoton Logistics Private Limited with effect from May 17, 2016\",\n      \"kind\": \"semantic\",\n      \"metric\": \"name change\",\n      \"subject\": \"Spoton Logistics Private Limited\",\n      \"state\": \"Spoton Logistics Private Limited\",\n      \"period_raw\": \"May 17, 2016\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"the authorised share capital of Spoton is ₹1,880,000,000 divided into 188,000,000 equity shares of ₹10 each.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"authorised share capital\",\n      \"subject\": \"Spoton Logistics Private Limited\",\n      \"value_raw\": \"1,880,000,000\",\n      \"unit_raw\": \"INR\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"The issued, subscribed and paid-up equity share capital of Spoton is ₹206,410,940 divided into 20,641,094 equity shares of ₹10 each.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"issued, subscribed and paid-up equity share capital\",\n      \"subject\": \"Spoton Logistics Private Limited\",\n      \"value_raw\": \"206,410,940\",\n      \"unit_raw\": \"INR\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 81,\n      \"quote\": \"DCL was incorporated as a private limited company on March 17, 2016 under the Companies Act, 2006 of UK with the Registrar of Companies for England and Wales.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"incorporation date\",\n      \"subject\": \"Delhivery Corp Limited\",\n      \"state\": \"March 17, 2016\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 81,\n      \"quote\": \"The issued, subscribed and paid-up share capital of DCL is GBP 2,269,165 divided into GBP 2,269,165 ordinary shares of GBP 1 each.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"issued, subscribed and paid-up share capital\",\n      \"subject\": \"Delhivery Corp Limited\",\n      \"value_raw\": \"2,269,165\",\n      \"unit_raw\": \"GBP\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 81,\n      \"quote\": \"DHPL was incorporated as a private limited company on August 3, 2018 under the Companies Ordinance (Chapter 622 of the Laws of Hong Kong) with the Registrar of Companies, Hong Kong Special Administrative Region.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"incorporation date\",\n      \"subject\": \"Delhivery HK Pte Limited\",\n      ",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "extract:01-delhivery-prospectus-2022-excerpt-0d7e71e1:b55"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the total financial equity of Delhivery Limited in currency, while Metric B measures the percentage of equity shareholding in Delhivery Singapore."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the total financial equity of Delhivery Limited in currency, while Metric B measures the percentage of equity shareholding in Delhivery Singapore.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,553 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 82,
+    "quote": "authorised share capital of Delhivery USA is USD 6,631,060",
+    "kind": "numeric",
+    "metric": "authorised share capital",
+    "subject": "Delhivery USA",
+    "value_raw": "6,631,060",
+    "unit_raw": "USD",
+    "period_raw": "As on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 82,
+    "quote": "paid-up equity share capital of Delhivery USA, LLC is USD 6,631,060",
+    "kind": "numeric",
+    "metric": "issued, subscribed and paid-up equity share capital",
+    "subject": "Delhivery USA, LLC",
+    "value_raw": "6,631,060",
+    "unit_raw": "USD",
+    "period_raw": "As on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 82,
+    "quote": "Our Company holds 6,631,060 equity shares of Delhivery USA aggregating to 100% of the total equity holding",
+    "kind": "numeric",
+    "metric": "equity holding of the Company",
+    "subject": "Delhivery USA",
+    "value_raw": "100",
+    "unit_raw": "%",
+    "period_raw": "As on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 82,
+    "quote": "Delhivery Robotics was incorporated as a limited liability company on August 23, 2021",
+    "kind": "semantic",
+    "metric": "incorporation",
+    "subject": "Delhivery Robotics",
+    "state": "incorporated",
+    "period_raw": "August 23, 2021",
+    "qualifiers": {
+     "legal_form": "limited liability company",
+     "jurisdiction": "Delaware, U.S.A."
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 82,
+    "quote": "authorised share capital of Delhivery Robotics is USD 700,000",
+    "kind": "numeric",
+    "metric": "authorised share capital",
+    "subject": "Delhivery Robotics",
+    "value_raw": "700,000",
+    "unit_raw": "USD",
+    "period_raw": "As on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 82,
+    "quote": "paid-up equity share capital of Delhivery Robotics is USD 700,000",
+    "kind": "numeric",
+    "metric": "issued, subscribed and paid-up equity share capital",
+    "subject": "Delhivery Robotics",
+    "value_raw": "700,000",
+    "unit_raw": "USD",
+    "period_raw": "As on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 82,
+    "quote": "Delhivery Singapore Pte. Ltd. holds 700,000 equity shares aggregating to 100% of the total equity shareholding of Delhivery Robotics",
+    "kind": "numeric",
+    "metric": "equity shareholding of Delhivery Singapore Pte. Ltd.",
+    "subject": "Delhivery Robotics",
+    "value_raw": "100",
+    "unit_raw": "%",
+    "period_raw": "As on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 82,
+    "quote": "Delhivery Singapore was incorporated as a private company limited by Shares on August 2, 2021",
+    "kind": "semantic",
+    "metric": "incorporation",
+    "subject": "Delhivery Singapore",
+    "state": "incorporated",
+    "period_raw": "August 2, 2021",
+    "qualifiers": {
+     "legal_form": "private company limited by Shares",
+     "jurisdiction": "Singapore"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 82,
+    "quote": "issued share capital of Delhivery Singapore is 2,000,000",
+    "kind": "numeric",
+    "metric": "issued share capital",
+    "subject": "Delhivery Singapore",
+    "value_raw": "2,000,000",
+    "unit_raw": "USD",
+    "period_raw": "As on the date of this Prospectus",
+    "qualifiers": {
+     "denomination": "divided into 2,000,000 ordinary shares of USD 1 each"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 82,
+    "quote": "Our Company holds 2,000,000 equity shares aggregating to 100% of the total equity shareholding of Delhivery Singapore",
+    "kind": "numeric",
+    "metric": "equity shareholding of the Company",
+    "subject": "Delhivery Singapore",
+    "value_raw": "100",
+    "unit_raw": "%",
+    "period_raw": "As on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 85,
+    "quote": "Kalpana Jaisingh Morparia\nDesignation: Non-Executive Independent Director\nAddress: A52, Ahuja Tower CHS, Rajabhau Desai Marg,\nBehind ICICI Prudential, Prabhadevi, Mumbai 400025\nMaharashtra, India\nOccupation: Professional\nDate of birth: May 30, 1949\nTerm: Five years with effect from October 13, 2021\nPeriod of Directorship: Since October 13, 2021",
+    "kind": "semantic",
+    "metric": "directorship",
+    "subject": "Kalpana Jaisingh Morparia",
+    "state": "Non-Executive Independent Director",
+    "period_raw": "Since October 13, 2021",
+    "qualifiers": {
+     "term": "Five years with effect from October 13, 2021"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 85,
+    "quote": "Romesh Sobti\nDesignation: Non-Executive Independent Director\nAddress: 10 S/F, Paschim Marg, Vasant Vihar, New Delhi, Delhi\n110057 India\nOccupation: Professional\nDate of birth: March 24, 1950\nTerm: Five years with effect from October 1, 2021\nPeriod of Directorship: Since October 1, 2021",
+    "kind": "semantic",
+    "metric": "directorship",
+    "subject": "Romesh Sobti",
+    "state": "Non-Executive Independent Director",
+    "period_raw": "Since October 1, 2021",
+    "qualifiers": {
+     "term": "Five years with effect from October 1, 2021"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 85,
+    "quote": "Saugata Gupta\nDesignation: Non-Executive Independent Director\nAddress: B-1002, Rustomjee Oriana, MIG Colony, Gandhi\nNagar, Bandra East, Mumbai 400051 Maharashtra, India\nOccupation: Service\nDate of birth: August 10, 1967\nTerm: Five years with effect from October 1, 2021\nPeriod of Directorship: Since October 1, 2021",
+    "kind": "semantic",
+    "metric": "directorship",
+    "subject": "Saugata Gupta",
+    "state": "Non-Executive Independent Director",
+    "period_raw": "Since October 1, 2021",
+    "qualifiers": {
+     "term": "Five years with effect from October 1, 2021"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 88,
+    "quote": "In Fiscal 2021, he received an aggregate compensation of ₹25.13 million",
+    "kind": "numeric",
+    "metric": "aggregate compensation",
+    "subject": "Kapil Bharati",
+    "value_raw": "25.13",
+    "unit_raw": "₹ million",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {
+     "includes": "₹2.87 million accrued as variable pay for the period between October 1, 2018 and December 31, 2019"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 88,
+    "quote": "for the period between January 1, 2020 and March 31, 2021, ₹4.13 million accrued as variable pay",
+    "kind": "numeric",
+    "metric": "accrued variable pay",
+    "subject": "Kapil Bharati",
+    "value_raw": "4.13",
+    "unit_raw": "₹ million",
+    "period_raw": "between January 1, 2020 and March 31, 2021",
+    "qualifiers": {
+     "payment_period": "paid in Fiscal 2022"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 88,
+    "quote": "Deepak Kapoor\n7.50",
+    "kind": "numeric",
+    "metric": "Fixed annual remuneration",
+    "subject": "Deepak Kapoor",
+    "value_raw": "7.50",
+    "unit_raw": "₹ million",
+    "period_raw": "Pursuant to resolutions passed on October 13, 2021",
+    "qualifiers": {
+     "role": "Non-Executive Independent Director"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 88,
+    "quote": "Kalpana Jaisingh Morparia\n6.50",
+    "kind": "numeric",
+    "metric": "Fixed annual remuneration",
+    "subject": "Kalpana Jaisingh Morparia",
+    "value_raw": "6.50",
+    "unit_raw": "₹ million",
+    "period_raw": "Pursuant to resolutions passed on October 13, 2021",
+    "qualifiers": {
+     "role": "Non-Executive Independent Director"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 88,
+    "quote": "Romesh Sobti\n6.50",
+    "kind": "numeric",
+    "metric": "Fixed annual remuneration",
+    "subject": "Romesh Sobti",
+    "value_raw": "6.50",
+    "unit_raw": "₹ million",
+    "period_raw": "Pursuant to resolutions passed on October 13, 2021",
+    "qualifiers": {
+     "role": "Non-Executive Independent Director"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 88,
+    "quote": "Saugata Gupta\n6.50",
+    "kind": "numeric",
+    "metric": "Fixed annual remuneration",
+    "subject": "Saugata Gupta",
+    "value_raw": "6.50",
+    "unit_raw": "₹ million",
+    "period_raw": "Pursuant to resolutions passed on October 13, 2021",
+    "qualifiers": {
+     "role": "Non-Executive Independent Director"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 88,
+    "quote": "Srivatsan Rajan\n6.50",
+    "kind": "numeric",
+    "metric": "Fixed annual remuneration",
+    "subject": "Srivatsan Rajan",
+    "value_raw": "6.50",
+    "unit_raw": "₹ million",
+    "period_raw": "Pursuant to resolutions passed on October 13, 2021",
+    "qualifiers": {
+     "role": "Non-Executive Independent Director"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 88,
+    "quote": "sitting fee of ₹0.10 million",
+    "kind": "numeric",
+    "metric": "sitting fee per meeting",
+    "subject": "Non-Executive Directors",
+    "value_raw": "0.10",
+    "unit_raw": "₹ million",
+    "period_raw": "Pursuant to resolutions passed on October 13, 2021",
+    "qualifiers": {
+     "condition": "for attending each meeting of our Board and the various committees of our Board"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 88,
+    "quote": "Deepak Kapoor\n6.50",
+    "kind": "numeric",
+    "metric": "compensation paid",
+    "subject": "Deepak Kapoor",
+    "value_raw": "6.50",
+    "unit_raw": "₹ million",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {
+     "role": "Non-Executive Director"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 88,
+    "quote": "Srivatsan Rajan\n6.50",
+    "kind": "numeric",
+    "metric": "compensation paid",
+    "subject": "Srivatsan Rajan",
+    "value_raw": "6.50",
+    "unit_raw": "₹ million",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {
+     "role": "Non-Executive Director"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 96,
+    "quote": "Ajith Pai Mangalore is the Chief Operating Officer of our Company. He has been associated with our Company since April 6, 2013.",
+    "kind": "semantic",
+    "metric": "association and role",
+    "subject": "Ajith Pai Mangalore",
+    "state": "Chief Operating Officer",
+    "period_raw": "since April 6, 2013",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 96,
+    "quote": "In Fiscal 2021, he received an aggregate compensation of ₹24.79 million",
+    "kind": "numeric",
+    "metric": "aggregate compensation",
+    "subject": "Ajith Pai Mangalore",
+    "value_raw": "24.79",
+    "unit_raw": "₹ million",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {
+     "includes": "₹2.54 million accrued as variable pay for the period between October 1, 2018 and December 31, 2019"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 96,
+    "quote": "for the period between January 1, 2020 and March 31, 2021, ₹4.13 million accrued as variable pay",
+    "kind": "numeric",
+    "metric": "accrued variable pay",
+    "subject": "Ajith Pai Mangalore",
+    "value_raw": "4.13",
+    "unit_raw": "₹ million",
+    "period_raw": "between January 1, 2020 and March 31, 2021",
+    "qualifiers": {
+     "payment_period": "paid in Fiscal 2022"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 96,
+    "quote": "Amit Agarwal is the Chief Financial Officer of our Company. He has been associated with our Company since August 4, 2012.",
+    "kind": "semantic",
+    "metric": "association and role",
+    "subject": "Amit Agarwal",
+    "state": "Chief Financial Officer",
+    "period_raw": "since August 4, 2012",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 96,
+    "quote": "In Fiscal 2021, he received an aggregate compensation of ₹13.79 million",
+    "kind": "numeric",
+    "metric": "aggregate compensation",
+    "subject": "Amit Agarwal",
+    "value_raw": "13.79",
+    "unit_raw": "₹ million",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {
+     "includes": "₹1.66 million accrued as variable pay for the period between October 1, 2018 and December 31, 2019"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 96,
+    "quote": "for the period between January 1, 2020 and March 31, 2021, ₹2.50 million accrued as variable pay",
+    "kind": "numeric",
+    "metric": "accrued variable pay",
+    "subject": "Amit Agarwal",
+    "value_raw": "2.50",
+    "unit_raw": "₹ million",
+    "period_raw": "between January 1, 2020 and March 31, 2021",
+    "qualifiers": {
+     "payment_period": "paid in Fiscal 2022"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 96,
+    "quote": "Pooja Gupta is the Chief People Officer of our Company. She has been associated with our Company since April 1, 2021.",
+    "kind": "semantic",
+    "metric": "association and role",
+    "subject": "Pooja Gupta",
+    "state": "Chief People Officer",
+    "period_raw": "since April 1, 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "In Fiscal 2020 and Fiscal 2022, we had no attrition of Key Managerial Personnel.",
+    "kind": "semantic",
+    "metric": "attrition of Key Managerial Personnel",
+    "subject": "Delhivery Limited",
+    "state": "no attrition",
+    "period_raw": "Fiscal 2020 and Fiscal 2022",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "in Fiscal 2021, one Key Managerial Personnel resigned from our Company.",
+    "kind": "numeric",
+    "metric": "attrition of Key Managerial Personnel",
+    "subject": "Delhivery Limited",
+    "value_raw": "one",
+    "unit_raw": "Key Managerial Personnel",
+    "period_raw": "Fiscal 2021",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "Abhik Mitra shall receive a gross amount equal to ₹98.05 million",
+    "kind": "numeric",
+    "metric": "termination benefit gross amount",
+    "subject": "Abhik Mitra",
+    "value_raw": "98.05",
+    "unit_raw": "₹ million",
+    "period_raw": "on the date of cessation of employment",
+    "qualifiers": {
+     "condition": "ceases to be an employee prior to one year from August 24, 2021"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "Abhik Mitra shall receive a gross amount equal to ₹49.03 million",
+    "kind": "numeric",
+    "metric": "termination benefit gross amount",
+    "subject": "Abhik Mitra",
+    "value_raw": "49.03",
+    "unit_raw": "₹ million",
+    "period_raw": "on the date of cessation of employment",
+    "qualifiers": {
+     "condition": "ceases to be an employee after one year but prior to two years from August 24, 2021"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "Sahil Barua\n13,407,798",
+    "kind": "numeric",
+    "metric": "No. of Equity Shares",
+    "subject": "Sahil Barua",
+    "value_raw": "13,407,798",
+    "unit_raw": "Equity Shares",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "Sahil Barua\n13,407,798\n8,668,000",
+    "kind": "numeric",
+    "metric": "Granted Options (Not vested)",
+    "subject": "Sahil Barua",
+    "value_raw": "8,668,000",
+    "unit_raw": "Options",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "Sahil Barua\n13,407,798\n8,668,000\nNil\n2.08%",
+    "kind": "numeric",
+    "metric": "% of pre-Offer equity share capital",
+    "subject": "Sahil Barua",
+    "value_raw": "2.08",
+    "unit_raw": "%",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {
+     "base": "calculated against the total share capital of our Company, including vested ESOPs"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "Suraj Saharan\n10,994,300",
+    "kind": "numeric",
+    "metric": "No. of Equity Shares",
+    "subject": "Suraj Saharan",
+    "value_raw": "10,994,300",
+    "unit_raw": "Equity Shares",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "Kapil Bharati\n6,694,800",
+    "kind": "numeric",
+    "metric": "No. of Equity Shares",
+    "subject": "Kapil Bharati",
+    "value_raw": "6,694,800",
+    "unit_raw": "Equity Shares",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "Ajith Pai Mangalore\n5,172,600",
+    "kind": "numeric",
+    "metric": "No. of Equity Shares",
+    "subject": "Ajith Pai Mangalore",
+    "value_raw": "5,172,600",
+    "unit_raw": "Equity Shares",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "Sandeep Kumar\nBarasia\n4,762,700",
+    "kind": "numeric",
+    "metric": "No. of Equity Shares",
+    "subject": "Sandeep Kumar Barasia",
+    "value_raw": "4,762,700",
+    "unit_raw": "Equity Shares",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "Amit Agarwal\n3,041,550",
+    "kind": "numeric",
+    "metric": "No. of Equity Shares",
+    "subject": "Amit Agarwal",
+    "value_raw": "3,041,550",
+    "unit_raw": "Equity Shares",
+    "period_raw": "as on the date of this Prospectus",
+    "qualifiers": {},
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 82,\n      \"quote\": \"authorised share capital of Delhivery USA is USD 6,631,060\",\n      \"kind\": \"numeric\",\n      \"metric\": \"authorised share capital\",\n      \"subject\": \"Delhivery USA\",\n      \"value_raw\": \"6,631,060\",\n      \"unit_raw\": \"USD\",\n      \"period_raw\": \"As on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 82,\n      \"quote\": \"paid-up equity share capital of Delhivery USA, LLC is USD 6,631,060\",\n      \"kind\": \"numeric\",\n      \"metric\": \"issued, subscribed and paid-up equity share capital\",\n      \"subject\": \"Delhivery USA, LLC\",\n      \"value_raw\": \"6,631,060\",\n      \"unit_raw\": \"USD\",\n      \"period_raw\": \"As on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 82,\n      \"quote\": \"Our Company holds 6,631,060 equity shares of Delhivery USA aggregating to 100% of the total equity holding\",\n      \"kind\": \"numeric\",\n      \"metric\": \"equity holding of the Company\",\n      \"subject\": \"Delhivery USA\",\n      \"value_raw\": \"100\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"As on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 82,\n      \"quote\": \"Delhivery Robotics was incorporated as a limited liability company on August 23, 2021\",\n      \"kind\": \"semantic\",\n      \"metric\": \"incorporation\",\n      \"subject\": \"Delhivery Robotics\",\n      \"state\": \"incorporated\",\n      \"period_raw\": \"August 23, 2021\",\n      \"qualifiers\": {\n        \"legal_form\": \"limited liability company\",\n        \"jurisdiction\": \"Delaware, U.S.A.\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 82,\n      \"quote\": \"authorised share capital of Delhivery Robotics is USD 700,000\",\n      \"kind\": \"numeric\",\n      \"metric\": \"authorised share capital\",\n      \"subject\": \"Delhivery Robotics\",\n      \"value_raw\": \"700,000\",\n      \"unit_raw\": \"USD\",\n      \"period_raw\": \"As on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 82,\n      \"quote\": \"paid-up equity share capital of Delhivery Robotics is USD 700,000\",\n      \"kind\": \"numeric\",\n      \"metric\": \"issued, subscribed and paid-up equity share capital\",\n      \"subject\": \"Delhivery Robotics\",\n      \"value_raw\": \"700,000\",\n      \"unit_raw\": \"USD\",\n      \"period_raw\": \"As on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 82,\n      \"quote\": \"Delhivery Singapore Pte. Ltd. holds 700,000 equity shares aggregating to 100% of the total equity shareholding of Delhivery Robotics\",\n      \"kind\": \"numeric\",\n      \"metric\": \"equity shareholding of Delhivery Singapore Pte. Ltd.\",\n      \"subject\": \"Delhivery Robotics\",\n      \"value_raw\": \"100\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"As on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 82,\n      \"quote\": \"Delhivery Singapore was incorporated as a private company limited by Shares on August 2, 2021\",\n      \"kind\": \"semantic\",\n      \"metric\": \"incorporation\",\n      \"subject\": \"Delhivery Singapore\",\n      \"state\": \"incorporated\",\n      \"period_raw\": \"August 2, 2021\",\n      \"qualifiers\": {\n        \"legal_form\": \"private company limited by Shares\",\n        \"jurisdiction\": \"Singapore\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 82,\n      \"quote\": \"issued share capital of Delhivery Singapore is 2,000,000\",\n      \"kind\": \"numeric\",\n      \"metric\": \"issued share capital\",\n      \"subject\": \"Delhivery Singapore\",\n      \"value_raw\": \"2,000,000\",\n      \"unit_raw\": \"USD\",\n      \"period_raw\": \"As on the date of this Prospectus\",\n      \"qualifiers\": {\n        \"denomination\": \"divided into 2,000,000 ordinary shares of USD 1 each\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 82,\n      \"quote\": \"Our Company holds 2,000,000 equity shares aggregating to 100% of the total equity shareholding of Delhivery Singapore\",\n      \"kind\": \"numeric\",\n      \"metric\": \"equity shareholding of the Company\",\n      \"subject\": \"Delhivery Singapore\",\n      \"value_raw\": \"100\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"As on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Kalpana Jaisingh Morparia\\nDesignation: Non-Executive Independent Director\\nAddress: A52, Ahuja Tower CHS, Rajabhau Desai Marg,\\nBehind ICICI Prudential, Prabhadevi, Mumbai 400025\\nMaharashtra, India\\nOccupation: Professional\\nDate of birth: May 30, 1949\\nTerm: Five years with effect from October 13, 2021\\nPeriod of Directorship: Since October 13, 2021\",\n      \"kind\": \"semantic\",\n      \"metric\": \"directorship\",\n      \"subject\": \"Kalpana Jaisingh Morparia\",\n      \"state\": \"Non-Executive Independent Director\",\n      \"period_raw\": \"Since October 13, 2021\",\n      \"qualifiers\": {\n        \"term\": \"Five years with effect from October 13, 2021\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Romesh Sobti\\nDesignation: Non-Executive Independent Director\\nAddress: 10 S/F, Paschim Marg, Vasant Vihar, New Delhi, Delhi\\n110057 India\\nOccupation: Professional\\nDate of birth: March 24, 1950\\nTerm: Five years with effect from October 1, 2021\\nPeriod of Directorship: Since October 1, 2021\",\n      \"kind\": \"semantic\",\n      \"metric\": \"directorship\",\n      \"subject\": \"Romesh Sobti\",\n      \"state\": \"Non-Executive Independent Director\",\n      \"period_raw\": \"Since October 1, 2021\",\n      \"qualifiers\": {\n        \"term\": \"Five years with effect from October 1, 2021\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Saugata Gupta\\nDesignation: Non-Executive Independent Director\\nAddress: B-1002, Rustomjee Oriana, MIG Colony, Gandhi\\nNagar, Bandra East, Mumbai 400051 Maharashtra, India\\nOccupation: Service\\nDate of birth: August 10, 1967\\nTerm: Five years with effect from October 1, 2021\\nPeriod of Directorship: Since October 1, 2021\",\n      \"kind\": \"semantic\",\n      \"metric\": \"directorship\",\n      \"subject\": \"Saugata Gupta\",\n      \"state\": \"Non-Executive Independent Director\",\n      \"period_raw\": \"Since October 1, 2021\",\n      \"qualifiers\": {\n        \"term\": \"Five years with effect from October 1, 2021\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 88,\n      \"quote\": \"In Fiscal 2021, he received an aggregate compensation of ₹25.13 million\",\n      \"kind\": \"numeric\",\n      \"metric\": \"aggregate compensation\",\n      \"subject\": \"Kapil Bharati\",\n      \"value_raw\": \"25.13\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {\n        \"includes\": \"₹2.87 million accrued as variable pay for the period between October 1, 2018 and December 31, 2019\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 88,\n      \"quote\": \"for the period between January 1, 2020 and March 31, 2021, ₹4.13 million accrued as variable pay\",\n      \"kind\": \"numeric\",\n      \"metric\": \"accrued variable pay\",\n      \"subject\": \"Kapil Bharati\",\n      \"value_raw\": \"4.13\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"between January 1, 2020 and March 31, 2021\",\n      \"qualifiers\": {\n        \"payment_period\": \"paid in Fiscal 2022\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 88,\n      \"quote\": \"Deepak Kapoor\\n7.50\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Fixed annual remuneration\",\n      \"subject\": \"Deepak Kapoor\",\n      \"value_raw\": \"7.50\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Pursuant to resolutions passed on October 13, 2021\",\n      \"qualifiers\": {\n        \"role\": \"Non-Executive Independent Director\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 88,\n      \"quote\": \"Kalpana Jaisingh Morparia\\n6.50\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Fixed annual remuneration\",\n      \"subject\": \"Kalpana Jaisingh Morparia\",\n      \"value_raw\": \"6.50\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Pursuant to resolutions passed on October 13, 2021\",\n      \"qualifiers\": {\n        \"role\": \"Non-Executive Independent Director\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 88,\n      \"quote\": \"Romesh Sobti\\n6.50\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Fixed annual remuneration\",\n      \"subject\": \"Romesh Sobti\",\n      \"value_raw\": \"6.50\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Pursuant to resolutions passed on October 13, 2021\",\n      \"qualifiers\": {\n        \"role\": \"Non-Executive Independent Director\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 88,\n      \"quote\": \"Saugata Gupta\\n6.50\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Fixed annual remuneration\",\n      \"subject\": \"Saugata Gupta\",\n      \"value_raw\": \"6.50\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Pursuant to resolutions passed on October 13, 2021\",\n      \"qualifiers\": {\n        \"role\": \"Non-Executive Independent Director\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 88,\n      \"quote\": \"Srivatsan Rajan\\n6.50\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Fixed annual remuneration\",\n      \"subject\": \"Srivatsan Rajan\",\n      \"value_raw\": \"6.50\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Pursuant to resolutions passed on October 13, 2021\",\n      \"qualifiers\": {\n        \"role\": \"Non-Executive Independent Director\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 88,\n      \"quote\": \"sitting fee of ₹0.10 million\",\n      \"kind\": \"numeric\",\n      \"metric\": \"sitting fee per meeting\",\n      \"subject\": \"Non-Executive Directors\",\n      \"value_raw\": \"0.10\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Pursuant to resolutions passed on October 13, 2021\",\n      \"qualifiers\": {\n        \"condition\": \"for attending each meeting of our Board and the various committees of our Board\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 88,\n      \"quote\": \"Deepak Kapoor\\n6.50\",\n      \"kind\": \"numeric\",\n      \"metric\": \"compensation paid\",\n      \"subject\": \"Deepak Kapoor\",\n      \"value_raw\": \"6.50\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {\n        \"role\": \"Non-Executive Director\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 88,\n      \"quote\": \"Srivatsan Rajan\\n6.50\",\n      \"kind\": \"numeric\",\n      \"metric\": \"compensation paid\",\n      \"subject\": \"Srivatsan Rajan\",\n      \"value_raw\": \"6.50\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {\n        \"role\": \"Non-Executive Director\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 96,\n      \"quote\": \"Ajith Pai Mangalore is the Chief Operating Officer of our Company. He has been associated with our Company since April 6, 2013.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"association and role\",\n      \"subject\": \"Ajith Pai Mangalore\",\n      \"state\": \"Chief Operating Officer\",\n      \"period_raw\": \"since April 6, 2013\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 96,\n      \"quote\": \"In Fiscal 2021, he received an aggregate compensation of ₹24.79 million\",\n      \"kind\": \"numeric\",\n      \"metric\": \"aggregate compensation\",\n      \"subject\": \"Ajith Pai Mangalore\",\n      \"value_raw\": \"24.79\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {\n        \"includes\": \"₹2.54 million accrued as variable pay for the period between October 1, 2018 and December 31, 2019\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 96,\n      \"quote\": \"for the period between January 1, 2020 and March 31, 2021, ₹4.13 million accrued as variable pay\",\n      \"kind\": \"numeric\",\n      \"metric\": \"accrued variable pay\",\n      \"subject\": \"Ajith Pai Mangalore\",\n      \"value_raw\": \"4.13\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"between January 1, 2020 and March 31, 2021\",\n      \"qualifiers\": {\n        \"payment_period\": \"paid in Fiscal 2022\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 96,\n      \"quote\": \"Amit Agarwal is the Chief Financial Officer of our Company. He has been associated with our Company since August 4, 2012.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"association and role\",\n      \"subject\": \"Amit Agarwal\",\n      \"state\": \"Chief Financial Officer\",\n      \"period_raw\": \"since August 4, 2012\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 96,\n      \"quote\": \"In Fiscal 2021, he received an aggregate compensation of ₹13.79 million\",\n      \"kind\": \"numeric\",\n      \"metric\": \"aggregate compensation\",\n      \"subject\": \"Amit Agarwal\",\n      \"value_raw\": \"13.79\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {\n        \"includes\": \"₹1.66 million accrued as variable pay for the period between October 1, 2018 and December 31, 2019\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 96,\n      \"quote\": \"for the period between January 1, 2020 and March 31, 2021, ₹2.50 million accrued as variable pay\",\n      \"kind\": \"numeric\",\n      \"metric\": \"accrued variable pay\",\n      \"subject\": \"Amit Agarwal\",\n      \"value_raw\": \"2.50\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"between January 1, 2020 and March 31, 2021\",\n      \"qualifiers\": {\n        \"payment_period\": \"paid in Fiscal 2022\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 96,\n      \"quote\": \"Pooja Gupta is the Chief People Officer of our Company. She has been associated with our Company since April 1, 2021.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"association and role\",\n      \"subject\": \"Pooja Gupta\",\n      \"state\": \"Chief People Officer\",\n      \"period_raw\": \"since April 1, 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"In Fiscal 2020 and Fiscal 2022, we had no attrition of Key Managerial Personnel.\",\n      \"kind\": \"semantic\",\n      \"metric\": \"attrition of Key Managerial Personnel\",\n      \"subject\": \"Delhivery Limited\",\n      \"state\": \"no attrition\",\n      \"period_raw\": \"Fiscal 2020 and Fiscal 2022\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"in Fiscal 2021, one Key Managerial Personnel resigned from our Company.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"attrition of Key Managerial Personnel\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"one\",\n      \"unit_raw\": \"Key Managerial Personnel\",\n      \"period_raw\": \"Fiscal 2021\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"Abhik Mitra shall receive a gross amount equal to ₹98.05 million\",\n      \"kind\": \"numeric\",\n      \"metric\": \"termination benefit gross amount\",\n      \"subject\": \"Abhik Mitra\",\n      \"value_raw\": \"98.05\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"on the date of cessation of employment\",\n      \"qualifiers\": {\n        \"condition\": \"ceases to be an employee prior to one year from August 24, 2021\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"Abhik Mitra shall receive a gross amount equal to ₹49.03 million\",\n      \"kind\": \"numeric\",\n      \"metric\": \"termination benefit gross amount\",\n      \"subject\": \"Abhik Mitra\",\n      \"value_raw\": \"49.03\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"on the date of cessation of employment\",\n      \"qualifiers\": {\n        \"condition\": \"ceases to be an employee after one year but prior to two years from August 24, 2021\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"Sahil Barua\\n13,407,798\",\n      \"kind\": \"numeric\",\n      \"metric\": \"No. of Equity Shares\",\n      \"subject\": \"Sahil Barua\",\n      \"value_raw\": \"13,407,798\",\n      \"unit_raw\": \"Equity Shares\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"Sahil Barua\\n13,407,798\\n8,668,000\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Granted Options (Not vested)\",\n      \"subject\": \"Sahil Barua\",\n      \"value_raw\": \"8,668,000\",\n      \"unit_raw\": \"Options\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"Sahil Barua\\n13,407,798\\n8,668,000\\nNil\\n2.08%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"% of pre-Offer equity share capital\",\n      \"subject\": \"Sahil Barua\",\n      \"value_raw\": \"2.08\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {\n        \"base\": \"calculated against the total share capital of our Company, including vested ESOPs\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"Suraj Saharan\\n10,994,300\",\n      \"kind\": \"numeric\",\n      \"metric\": \"No. of Equity Shares\",\n      \"subject\": \"Suraj Saharan\",\n      \"value_raw\": \"10,994,300\",\n      \"unit_raw\": \"Equity Shares\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"Kapil Bharati\\n6,694,800\",\n      \"kind\": \"numeric\",\n      \"metric\": \"No. of Equity Shares\",\n      \"subject\": \"Kapil Bharati\",\n      \"value_raw\": \"6,694,800\",\n      \"unit_raw\": \"Equity Shares\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"Ajith Pai Mangalore\\n5,172,600\",\n      \"kind\": \"numeric\",\n      \"metric\": \"No. of Equity Shares\",\n      \"subject\": \"Ajith Pai Mangalore\",\n      \"value_raw\": \"5,172,600\",\n      \"unit_raw\": \"Equity Shares\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"Sandeep Kumar\\nBarasia\\n4,762,700\",\n      \"kind\": \"numeric\",\n      \"metric\": \"No. of Equity Shares\",\n      \"subject\": \"Sandeep Kumar Barasia\",\n      \"value_raw\": \"4,762,700\",\n      \"unit_raw\": \"Equity Shares\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"Amit Agarwal\\n3,041,550\",\n      \"kind\": \"numeric\",\n      \"metric\": \"No. of Equity Shares\",\n      \"subject\": \"Amit Agarwal\",\n      \"value_raw\": \"3,041,550\",\n      \"unit_raw\": \"Equity Shares\",\n      \"period_raw\": \"as on the date of this Prospectus\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "extract:01-delhivery-prospectus-2022-excerpt-0d7e71e1:b82"
+}

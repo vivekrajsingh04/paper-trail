@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Total expenses is an income statement metric representing operating costs, whereas goodwill is a balance sheet asset metric."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Total expenses is an income statement metric representing operating costs, whereas goodwill is a balance sheet asset metric.\"\n}",
+ "model": "gemini-3.8-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

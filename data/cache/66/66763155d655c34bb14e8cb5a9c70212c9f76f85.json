@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The measurements refer to different subjects (Kapil Bharati vs. Deepak Kapoor) and potentially different definitions of compensation."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The measurements refer to different subjects (Kapil Bharati vs. Deepak Kapoor) and potentially different definitions of compensation.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}
