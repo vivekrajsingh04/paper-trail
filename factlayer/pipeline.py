@@ -71,6 +71,7 @@ def ingest_path(
     max_workers: int = 8,
     progress=None,
     force: bool = False,
+    max_pages: int | None = None,
 ) -> dict:
     """Ingest one PDF into the knowledge layer, linking it to what is already there."""
     path = Path(path)
@@ -105,7 +106,8 @@ def ingest_path(
             progress({"stage": "extracting", "done": done, "total": total, "doc_id": doc.doc_id})
 
     facts, profile, stats = extract_document(
-        doc, pages, profile=profile, max_workers=max_workers, progress=_page_progress
+        doc, pages, profile=profile, max_workers=max_workers,
+        progress=_page_progress, max_pages=max_pages,
     )
     for f in facts:
         f.metric_key = normalise_metric(f.metric)

@@ -83,6 +83,7 @@ class ExtractionStats:
     rejected_quote_not_found: int = 0
     rejected_value_mismatch: int = 0
     rejected_unparseable: int = 0
+    pages_skipped_by_budget: int = 0
     rejections: list[dict] = field(default_factory=list)
 
     def as_dict(self) -> dict:
@@ -337,6 +338,24 @@ def extract_page(
     return kept
 
 
+def page_value(page: IngestedPage) -> float:
+    """How much citable content a page is likely to hold.
+
+    Used to order work, so that a run cut short by a quota ceiling has still
+    covered the pages a reader would actually cite, rather than whichever pages
+    happened to come first.  Density of salient quantities dominates; state
+    language earns a bonus because those facts are rarer and change over time.
+    """
+    quantities = cand.salient(page.text)
+    score = float(len(quantities))
+    if cand.has_state_language(page.text):
+        score += 6.0
+    # Pages that are almost entirely numbers are usually tables: high value.
+    if page.text and len(quantities) / max(1, len(page.text) / 400) > 3:
+        score *= 1.25
+    return score
+
+
 def _build_batches(pages: list[IngestedPage]) -> list[list[IngestedPage]]:
     """Group consecutive pages into calls, bounded by count and character budget."""
     batches: list[list[IngestedPage]] = []
@@ -515,13 +534,24 @@ def extract_document(
     profile: DocProfile | None = None,
     max_workers: int = 8,
     progress=None,
+    max_pages: int | None = None,
 ) -> tuple[list[Fact], DocProfile, ExtractionStats]:
-    """Extract every interesting page of a document, in parallel."""
+    """Extract the interesting pages of a document, in parallel.
+
+    `max_pages` caps how many pages are sent. When set, the highest-value pages
+    are kept (see `page_value`) but processed in document order, so batches stay
+    contiguous and tables keep their neighbouring context.
+    """
     profile = profile or profile_document(doc, pages)
     stats = ExtractionStats(pages_seen=len(pages))
     lock = threading.Lock()
 
     targets = [p for p in pages if cand.page_is_interesting(p.text)]
+    if max_pages is not None and len(targets) > max_pages:
+        ranked = sorted(targets, key=page_value, reverse=True)[:max_pages]
+        kept_ids = {p.page for p in ranked}
+        stats.pages_skipped_by_budget = len(targets) - len(kept_ids)
+        targets = [p for p in targets if p.page in kept_ids]
     batches = _build_batches(targets)
     facts: list[Fact] = []
 

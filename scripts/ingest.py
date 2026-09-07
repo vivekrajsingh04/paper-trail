@@ -27,6 +27,8 @@ def main() -> int:
     ap.add_argument("--workers", type=int, default=8, help="concurrent extraction calls")
     ap.add_argument("--db", default="data/factlayer.db")
     ap.add_argument("--force", action="store_true", help="re-ingest even if already stored")
+    ap.add_argument("--max-pages", type=int, default=None,
+                    help="cap pages sent per document; the highest-value pages win")
     args = ap.parse_args()
 
     cfg = describe()
@@ -63,7 +65,8 @@ def main() -> int:
 
         try:
             res = ingest_path(store, f, corpus=corpus, max_workers=args.workers,
-                              progress=progress, force=args.force)
+                              progress=progress, force=args.force,
+                              max_pages=args.max_pages)
         except KeyboardInterrupt:
             print("\n  interrupted; progress so far is saved in the cache")
             return 130

@@ -239,11 +239,25 @@ facts and each other, never the whole corpus against itself. The Nth document
 costs O(new × existing), not O(total²). Corpus-level dimension statistics are
 carried in the store and updated as pairs accumulate.
 
-**A rate limiter and key rotation.** The first full run silently lost 18 of 22
-pages to HTTP 429s, which surfaced as "fewer facts" rather than as an error —
-the most dangerous kind of failure. There is now a shared token bucket, retry
-with server-supplied backoff, and optional rotation across several keys
-(`GEMINI_API_KEYS=k1,k2,...`).
+**Degrading gracefully under a quota ceiling.** The first full run silently lost
+18 of 22 pages to HTTP 429s, which surfaced as "fewer facts" rather than as an
+error — the most dangerous shape a bug can take, because the output still looks
+plausible. Four things came out of that:
+
+- a shared token-bucket limiter and retry with server-supplied backoff;
+- retrying transient 5xx as well as 429 (a 503 "model experiencing high demand"
+  killed an entire run on its first document — that is weather, not a bug);
+- a **model fallback chain**: free tiers meter each model separately and
+  generously to none of them, so when one model's daily allowance is spent the
+  run continues on the next rather than stopping;
+- a **page budget** (`--max-pages`). Pages are scored by density of salient
+  quantities, and the highest-value ones are processed first. A run cut short
+  has still covered the pages a reader would cite. On the annual report this
+  correctly puts the consolidated financial-statement notes and the balance
+  sheet at the top, which is exactly where the reconcilable figures live.
+
+The cache key deliberately excludes the model name, so a committed cache keeps
+replaying after the default model changes or a run falls back across several.
 
 ### AI tools used
 

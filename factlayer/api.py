@@ -261,15 +261,13 @@ def cases() -> dict:
     s = store()
 
     def top(verdict: str, cross: bool | None, **kw) -> dict | None:
-        rows = s.list_relations(verdict=verdict, cross_document=cross, limit=40, **kw)
-        for r in rows:
-            if verdict == "reconciled" and kw.get("_dim"):
-                continue
-            return r
-        return None
+        rows = s.list_relations(verdict=verdict, cross_document=cross, limit=1, **kw)
+        return rows[0] if rows else None
 
-    corroborated = top("corroborates", True, min_confidence=0.5)
-    contradiction = top("contradicts", True, min_confidence=0.4)
+    corroborated = (top("corroborates", True, min_confidence=0.5)
+                    or top("corroborates", None, min_confidence=0.5))
+    contradiction = (top("contradicts", True, min_confidence=0.4)
+                     or top("contradicts", None, min_confidence=0.4))
 
     # For the reconciled case prefer one explained by a dimension other than
     # period: a period difference is the least surprising kind of explanation.

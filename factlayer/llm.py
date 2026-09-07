@@ -63,17 +63,24 @@ class RateLimiter:
             time.sleep(max(0.05, wait))
 
 
-_LIMITER: RateLimiter | None = None
+_LIMITERS: dict[str, RateLimiter] = {}
+_LIMITERS_LOCK = threading.Lock()
 
 
-def limiter() -> RateLimiter:
-    """Global pacing budget: per-key RPM multiplied by the number of keys."""
-    global _LIMITER
-    if _LIMITER is None:
-        per_key = int(os.environ.get("FACTLAYER_RPM", "8"))
-        n = max(1, len(key_pool())) if provider_name() == "gemini" else 1
-        _LIMITER = RateLimiter(per_key * n)
-    return _LIMITER
+def limiter(model: str = "") -> RateLimiter:
+    """Pacing budget for one model.
+
+    Buckets are per model, not global.  Providers meter each model separately,
+    so a single shared budget both under-uses the models that are free and --
+    worse -- spends its allowance throttling retries against a model that has
+    already hit its ceiling, which is how a run ends up stalled rather than
+    falling through to the next model.
+    """
+    per_model = int(os.environ.get("FACTLAYER_RPM", "10"))
+    with _LIMITERS_LOCK:
+        if model not in _LIMITERS:
+            _LIMITERS[model] = RateLimiter(per_model)
+        return _LIMITERS[model]
 
 
 def _is_rate_limit(exc: Exception) -> bool:
@@ -116,7 +123,14 @@ class LLMResult:
 
 
 def _cache_key(provider: str, model: str, prompt: str) -> str:
-    return hashlib.sha1(f"{provider}\x00{model}\x00{prompt}".encode()).hexdigest()
+    """Key on the prompt, not the model.
+
+    The model that answered is recorded inside the entry for provenance, but it
+    is deliberately excluded from the key: a committed cache has to keep
+    replaying after the default model changes, and it has to stay valid when a
+    run falls back across several models because one hit its quota.
+    """
+    return hashlib.sha1(f"{provider}\x00{prompt}".encode()).hexdigest()
 
 
 def _cache_path(key: str) -> Path:
@@ -224,7 +238,11 @@ def _call_gemini(model: str, prompt: str, temperature: float) -> str:
     if not len(pool):
         raise LLMUnavailable("GEMINI_API_KEY is not set")
     api_key = pool.next_key()
-    client = genai.Client(api_key=api_key)
+    timeout_ms = int(float(os.environ.get("FACTLAYER_TIMEOUT_S", "150")) * 1000)
+    client = genai.Client(
+        api_key=api_key,
+        http_options=types.HttpOptions(timeout=timeout_ms),
+    )
     try:
         resp = client.models.generate_content(
             model=model,
@@ -302,9 +320,68 @@ def provider_name() -> str:
     return os.environ.get("FACTLAYER_LLM", "gemini").lower()
 
 
-def model_name() -> str:
+# Free tiers meter each model separately and generously to none of them, so a
+# 500-page corpus can exhaust one model's daily allowance mid-run.  Rather than
+# stopping, fall through to the next model in the chain.  Order is by preference;
+# every entry is a capable extraction model.
+_FALLBACK_CHAINS = {
+    # Ordered by measured latency on a trivial prompt, best first. Slow models
+    # are excluded rather than demoted: one that takes 19s on a trivial prompt
+    # takes minutes on a 20k-character extraction, and blocks a worker that
+    # could have used a free model instead.
+    "gemini": [
+        "gemini-3.8-flash",
+        "gemini-3.5-flash",
+        "gemini-flash-lite-latest",
+        "gemini-3.1-flash-lite",
+        "gemini-flash-latest",
+        "gemini-2.5-flash",
+    ],
+}
+
+# A rate-limited model is not exhausted for the day -- it is busy for a while.
+# Cooldowns are timestamps, so a model returns to the chain on its own.
+_cooldown: dict[str, float] = {}
+_exhausted_lock = threading.Lock()
+
+
+def _cooling(model: str) -> float:
+    """Seconds remaining before this model is worth trying again."""
+    with _exhausted_lock:
+        return max(0.0, _cooldown.get(model, 0.0) - time.monotonic())
+
+
+def cool_down(model: str, seconds: float) -> None:
+    with _exhausted_lock:
+        _cooldown[model] = max(_cooldown.get(model, 0.0), time.monotonic() + seconds)
+
+
+def model_chain() -> list[str]:
+    """Models to try, in order. An explicit FACTLAYER_MODEL pins to one."""
     p = provider_name()
-    return os.environ.get("FACTLAYER_MODEL", _DEFAULT_MODELS.get(p, "gemini-2.5-flash"))
+    pinned = os.environ.get("FACTLAYER_MODEL")
+    if pinned:
+        return [pinned]
+    override = os.environ.get("FACTLAYER_MODEL_CHAIN")
+    if override:
+        return [m.strip() for m in override.split(",") if m.strip()]
+    return _FALLBACK_CHAINS.get(p, [_DEFAULT_MODELS.get(p, "gemini-3.8-flash")])
+
+
+def model_name() -> str:
+    """The model a call would use right now, skipping any that are cooling."""
+    chain = model_chain()
+    for m in chain:
+        if _cooling(m) <= 0:
+            return m
+    return chain[0]
+
+
+def exhausted_models() -> list[str]:
+    """Models currently cooling down, with seconds remaining."""
+    return sorted(
+        (m, round(_cooling(m))) for m in model_chain() if _cooling(m) > 0
+    )
 
 
 def complete_json(prompt: str, *, temperature: float = 0.0, tag: str = "") -> LLMResult:
@@ -331,25 +408,55 @@ def complete_json(prompt: str, *, temperature: float = 0.0, tag: str = "") -> LL
     if fn is None:
         raise LLMUnavailable(f"unknown provider {provider!r}")
 
-    attempts = int(os.environ.get("FACTLAYER_RETRIES", "5"))
+    attempts = int(os.environ.get("FACTLAYER_RETRIES", "2"))
+    chain = model_chain()
     last: Exception | None = None
     raw = ""
-    for attempt in range(attempts):
-        limiter().acquire()
-        try:
-            raw = fn(model, prompt, temperature)
+    used = model
+
+    # Two passes. The first tries every model that is not cooling down; a
+    # rate-limited model is skipped immediately rather than slept on, because
+    # the whole point of the chain is that another model is probably free. Only
+    # if every model is cooling do we wait, and then for the shortest cooldown.
+    for round_no in range(2):
+        for candidate in chain:
+            if _cooling(candidate) > 0:
+                continue
+            used = candidate
+            for attempt in range(attempts):
+                limiter(candidate).acquire()
+                try:
+                    raw = fn(candidate, prompt, temperature)
+                    break
+                except Exception as exc:  # noqa: BLE001
+                    last = exc
+                    if _is_rate_limit(exc):
+                        # Park this model and move on; do not burn wall-clock here.
+                        cool_down(candidate, _retry_delay_from(exc, attempt))
+                        break
+                    if not _is_transient(exc):
+                        raise
+                    if attempt == attempts - 1:
+                        cool_down(candidate, 5.0)
+                        break
+                    time.sleep(min(4.0, 1.5 ** attempt) + random.uniform(0.1, 0.5))
+            if raw:
+                break
+        if raw:
             break
-        except Exception as exc:  # noqa: BLE001
-            last = exc
-            if not _is_transient(exc) or attempt == attempts - 1:
-                raise
-            time.sleep(_retry_delay_from(exc, attempt))
-    else:
-        raise last if last else RuntimeError("no response")
+        if round_no == 0:
+            waits = [w for w in (_cooling(m) for m in chain) if w > 0]
+            if not waits:
+                break
+            time.sleep(min(min(waits) + 0.5, 65.0))
+
+    if not raw:
+        raise last if last else RuntimeError("no response from any model in the chain")
 
     data = _extract_json(raw)
-    _write_cache(key, {"data": data, "raw": raw[:20000], "model": model, "provider": provider, "tag": tag})
-    return LLMResult(data=data, raw=raw, cached=False, model=model)
+    _write_cache(key, {"data": data, "raw": raw[:20000], "model": used,
+                       "provider": provider, "tag": tag})
+    return LLMResult(data=data, raw=raw, cached=False, model=used)
 
 
 def cache_stats() -> dict:
