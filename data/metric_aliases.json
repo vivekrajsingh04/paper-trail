@@ -1,0 +1,1145 @@
+{
+ "% employee covered by human right training % worker covered by human right training": {
+  "lexical": 80.48780487804879,
+  "reason": "The terms 'employees' and 'workers' are used interchangeably in this context to measure the percentage of the workforce covered by human rights training.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "% permanent employee covered by accident insurance % permanent employee covered by health insurance": {
+  "lexical": 83.6734693877551,
+  "reason": "Metric A measures accident insurance coverage while metric B measures health insurance coverage, which are two different types of insurance.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "% pre offer equity share capital pre offer paid up equity share capital": {
+  "lexical": 85.71428571428572,
+  "reason": "Both metrics measure the percentage of pre-offer equity share capital held by a shareholder, as 'equity share capital' and 'paid-up equity share capital' refer to the same base in this context.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "adjusted ebitda adjusted ebitda margin": {
+  "lexical": 81.08108108108108,
+  "reason": "Adjusted EBITDA is an absolute monetary amount in currency units, whereas Adjusted EBITDA margin is a relative percentage ratio.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "adjusted r squared gii overall score regression r squared gii overall score regression": {
+  "lexical": 89.41176470588236,
+  "reason": "Adjusted R-squared penalizes the inclusion of unnecessary variables, making it a different and generally narrower or stricter metric than standard R-squared.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "A"
+ },
+ "aggregate involved outstanding material civil litigation against company number outstanding material civil litigation against company": {
+  "lexical": 80.3030303030303,
+  "reason": "Fact A measures the financial aggregate amount involved in the litigations, whereas Fact B measures the count or number of litigations.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "apparel export apparel export share": {
+  "lexical": 82.35294117647058,
+  "reason": "Metric A measures the absolute monetary value in USD billion, whereas Metric B measures the relative percentage share of total exports.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "approved research project approved research project count": {
+  "lexical": 89.28571428571429,
+  "reason": "Fact A measures the financial value of approved research projects in rupees, while Fact B measures the count of approved research projects.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "average cost acquisition per equity share weighted average cost acquisition per equity share": {
+  "lexical": 90.10989010989012,
+  "reason": "The inclusion of 'Weighted' in metric B does not change the underlying financial measurement of the average cost of acquisition per equity share as evidenced by the identical numerical values in the quotes.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "average projected global economic growth rate projected global economic growth rate": {
+  "lexical": 90.2439024390244,
+  "reason": "Both facts describe the projected global economic growth rate measured in per cent for the global economy.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "average tariff rate dutiable item china average tariff rate dutiable item india": {
+  "lexical": 84.61538461538461,
+  "reason": "Although they measure the same economic metric using the same unit, they apply to entirely different countries (China versus India).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "bank credit growth net bank credit growth": {
+  "lexical": 90.0,
+  "reason": "Metric A measures bank credit growth to the commercial sector, whereas Metric B measures net bank credit growth to the government, representing two distinct economic subjects.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "basic loss equity per share diluted loss equity per share": {
+  "lexical": 82.14285714285714,
+  "reason": "Basic Loss per share and Diluted Loss per share measure different aspects of equity earnings by accounting for potential dilution, and their values can differ even for the same period.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "cagr revenue from contract with customer revenue from contract with customer": {
+  "lexical": 93.33333333333333,
+  "reason": "Metric A measures the Compound Annual Growth Rate (CAGR) of revenue, while Metric B measures the absolute revenue amount in currency units.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "capital expenditure capital expenditure growth": {
+  "lexical": 84.44444444444444,
+  "reason": "Fact A measures the absolute capital expenditure of a private company, whereas Fact B measures the percentage growth of capital expenditure for the Union government.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "capital expenditure capital expenditure per gdp": {
+  "lexical": 82.6086956521739,
+  "reason": "Metric A measures absolute capital expenditure for a private company, while Metric B measures capital expenditure as a percentage of GDP for the Union government.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "capital expenditure growth capital expenditure per gdp": {
+  "lexical": 83.01886792452831,
+  "reason": "Capital expenditure growth measures the annual percentage increase in capital expenditure, whereas capital expenditure as a percentage of GDP measures the ratio of capital expenditure to the gross domestic product.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "centre gross fiscal deficit per gdp gross fiscal deficit per gdp": {
+  "lexical": 88.88888888888889,
+  "reason": "Both 'Centre Gross Fiscal Deficit as per cent of GDP' and 'gross fiscal deficit (GFD) as per cent of GDP' for the Union government refer to the exact same fiscal metric expressed as a percentage of GDP.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "centre gross fiscal deficit per gdp gross fiscal deficit target per gdp": {
+  "lexical": 80.0,
+  "reason": "An actual fiscal deficit outcome is different from a targeted fiscal deficit.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "change statutory auditor statutory auditor": {
+  "lexical": 82.92682926829268,
+  "reason": "Metric A measures changes in the statutory auditors over time, while Metric B identifies the name of the current statutory auditors.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "core inflation average food beverage inflation": {
+  "lexical": 80.0,
+  "reason": "Core inflation excludes food prices, whereas food and beverages inflation measures price changes specifically for that category, making them entirely different economic indicators.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "current asset non current asset": {
+  "lexical": 86.66666666666667,
+  "reason": "Total current assets and total non-current assets represent two distinct categories of a company's assets on the balance sheet.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "decline simple average mfn tariff agriculture decline simple average preferential tariff agriculture": {
+  "lexical": 88.88888888888889,
+  "reason": "MFN tariffs and preferential tariffs are distinct trade policy measures that apply different tariff rates.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "economic growth economic growth rate": {
+  "lexical": 85.71428571428572,
+  "reason": "Although both measure economic growth in percentage units, they apply to different geographic and economic subjects ('AEs' versus 'Euro area').",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "economic growth global economic growth": {
+  "lexical": 81.08108108108108,
+  "reason": "Economic growth in Advanced Economies (AEs) measures a specific subset of countries, whereas global economic growth measures the entire world economy.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "economic growth projection global economic growth projection": {
+  "lexical": 88.13559322033898,
+  "reason": "Metric A measures economic growth projection for EMDEs, while Metric B measures it for the global economy, representing two different economic aggregates.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "economic growth rate expected economic growth rate": {
+  "lexical": 81.63265306122449,
+  "reason": "Fact A measures the economic growth rate of the Euro area, whereas Fact B measures the expected economic growth rate of the United States.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "economic growth rate global economic growth rate": {
+  "lexical": 85.1063829787234,
+  "reason": "Metric A measures the economic growth rate of the Euro area, whereas metric B measures the economic growth rate of the global economy, representing two different geographic subjects.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "employee undergoing performance career development review worker undergoing performance career development review": {
+  "lexical": 85.71428571428572,
+  "reason": "The terms 'employees' and 'workers' are used interchangeably in this context to measure the same percentage of personnel undergoing performance and career development reviews.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "equity holding company equity shareholding company": {
+  "lexical": 89.79591836734694,
+  "reason": "The metrics measure the company's equity holding in two different entities, Delhivery USA and Delhivery Singapore, making them not directly comparable.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "equity shareholding equity shareholding company": {
+  "lexical": 82.6086956521739,
+  "reason": "The facts measure the equity shareholding percentage in two entirely different subject entities (Delhivery Freight Services Private Limited versus Delhivery Singapore).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "expected organized player market share organized player market share": {
+  "lexical": 86.56716417910448,
+  "reason": "Metric A measures the expected future market share, whereas Metric B measures the current or historical market share.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "A"
+ },
+ "expected organized player market share organized player market share cagr": {
+  "lexical": 86.11111111111111,
+  "reason": "Metric A measures market share while Metric B measures the Compound Annual Growth Rate (CAGR) of market share.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "export aluminium eu likely be impacted by cbam export cement eu likely be impacted by cbam": {
+  "lexical": 80.89887640449437,
+  "reason": "Metric A measures exports of aluminium while Metric B measures exports of cement, which are completely different commodities.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "export cement eu likely be impacted by cbam export fertiliser eu likely be impacted by cbam": {
+  "lexical": 80.0,
+  "reason": "Metric A measures the export value for cement while Metric B measures the export value for fertilisers, representing two different commodities.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "export cement eu likely be impacted by cbam export iron steel eu likely be impacted by cbam": {
+  "lexical": 80.0,
+  "reason": "Metric A measures exports of cement while Metric B measures exports of iron and steel, which are two different product categories.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "export growth rate export growth rate y o y": {
+  "lexical": 85.71428571428572,
+  "reason": "They measure the exports growth rate for completely different subjects (Engineering goods versus Drugs and pharmaceuticals).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "export growth rate textile export growth": {
+  "lexical": 82.05128205128204,
+  "reason": "Engineering goods exports growth rate and textile exports growth rate measure different economic sectors.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "finished non apparel good export finished non apparel good export share": {
+  "lexical": 91.42857142857143,
+  "reason": "Metric A measures export value in USD billion, whereas Metric B measures export share as a percentage.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "foodgrain production kharif food grain production": {
+  "lexical": 83.33333333333334,
+  "reason": "Fact A measures total foodgrains production for both kharif and rabi seasons, whereas Fact B specifically measures only the Kharif season production.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fruit inflation fuel inflation": {
+  "lexical": 82.75862068965517,
+  "reason": "Fruits inflation and Fuel inflation measure price changes for two entirely different categories of goods.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fuel inflation inflation fuel light": {
+  "lexical": 82.35294117647058,
+  "reason": "Both facts measure the percentage inflation of the exact same subject, 'Fuel and light'.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fy23 ebitda fy24 ebitda": {
+  "lexical": 90.9090909090909,
+  "reason": "Fact A measures EBITDA for FY23 while Fact B measures EBITDA for FY24, which are different time periods.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "general government debt general government debt per gdp": {
+  "lexical": 85.18518518518519,
+  "reason": "Both facts measure general government debt as a percentage of GDP.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "global apparel market share global export market share": {
+  "lexical": 83.01886792452831,
+  "reason": "Metric A measures the global apparel market share while Metric B measures the global exports market share for a completely different sector (Telecommunications, Computer, & Information Services).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "global apparel market share share global market": {
+  "lexical": 82.6086956521739,
+  "reason": "Metric A measures India's share of the global apparel market, whereas Metric B measures India's e-commerce market as a share of the global e-commerce market.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "global economic growth global economic growth projection": {
+  "lexical": 80.0,
+  "reason": "The metrics both measure the same underlying economic growth rate for the global economy, as indicated by the identical source text.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "global economic growth global economic growth rate": {
+  "lexical": 89.79591836734694,
+  "reason": "Global economic growth and global economic growth rate both measure the same underlying economic expansion percentage for the global economy.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "global economic growth projection global economic growth rate": {
+  "lexical": 83.33333333333334,
+  "reason": "Both metrics measure the percentage rate of global economic growth for the global economy.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "global economic growth projection projected global economic growth rate": {
+  "lexical": 85.71428571428572,
+  "reason": "Both facts measure the projected growth rate of the global economy in percentage terms, representing the exact same macroeconomic indicator.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "global economic growth rate projected global economic growth rate": {
+  "lexical": 84.375,
+  "reason": "Metric A measures historical or realized economic growth, whereas Metric B explicitly measures projected or forecasted growth, which refers to a different temporal and epistemological category.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "B"
+ },
+ "global export market share share global export": {
+  "lexical": 84.44444444444444,
+  "reason": "They measure the global export market share for entirely different economic sectors ('Telecommunications, Computer, & Information Services' versus 'Travel').",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "global export market share share global market": {
+  "lexical": 84.44444444444444,
+  "reason": "Metric A measures export market share in a specific service sector, whereas Metric B measures the overall share of India's e-commerce market.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "global export market share share global services export": {
+  "lexical": 81.4814814814815,
+  "reason": "Metric A measures India's share of the global market specifically in Telecommunications, Computer, & Information Services, whereas Metric B measures India's share of total global services exports across all sectors.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "global inflation expectation headline inflation expectation": {
+  "lexical": 82.75862068965517,
+  "reason": "Metric A measures global inflation expectations, whereas Metric B measures headline inflation expectations specifically for the RBI (Reserve Bank of India).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "gross financial saving household per gndi household financial saving per gndi": {
+  "lexical": 92.10526315789474,
+  "reason": "Gross financial saving and net financial saving are conceptually different financial aggregates.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "gross fiscal deficit per gdp gross fiscal deficit target per gdp": {
+  "lexical": 88.88888888888889,
+  "reason": "Fact A measures the actual achieved gross fiscal deficit, whereas Fact B measures a target projection.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "gross investment investment growth": {
+  "lexical": 84.84848484848484,
+  "reason": "Gross investment as a share of GDP measures the total level of investment relative to the economy's size, whereas investment growth measures the annual percentage change in investment.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "headline inflation headline inflation average": {
+  "lexical": 81.81818181818181,
+  "reason": "Headline inflation average typically represents a time-averaged rate, which measures a different aspect than a specific point-in-time headline inflation figure.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "B"
+ },
+ "headline inflation mean cpi headline inflation": {
+  "lexical": 80.0,
+  "reason": "Both metrics refer to headline inflation for India, where 'percent' and '%' are equivalent units.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "headline inflation retail headline inflation": {
+  "lexical": 83.72093023255813,
+  "reason": "Both facts measure headline inflation in India using the Consumer Price Index (CPI), with 'percent' and 'per cent' being spelling variations of the same unit.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "incorporation incorporation date": {
+  "lexical": 83.87096774193549,
+  "reason": "The facts refer to different entities ('Delhivery Robotics' versus 'Delhivery Freight Services Private Limited') and distinct metrics ('incorporation' status/event versus 'incorporation date').",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "incorporation incorporation name": {
+  "lexical": 83.87096774193549,
+  "reason": "Metric A refers to the incorporation event or date, whereas Metric B refers specifically to the name under which the entity was incorporated.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "incorporation name year incorporation": {
+  "lexical": 83.33333333333334,
+  "reason": "The metrics measure the incorporation names of two completely different corporate entities.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "incorporation year incorporation": {
+  "lexical": 83.87096774193549,
+  "reason": "The metrics refer to the incorporation dates of two different legal entities (Delhivery Robotics and Delhivery Limited).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "increase bse midcap index increase bse smallcap index": {
+  "lexical": 88.46153846153845,
+  "reason": "They measure the percentage increase of two different market indices, BSE MidCap and BSE SmallCap.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "inflation projection inflation rate projection": {
+  "lexical": 88.88888888888889,
+  "reason": "Metric A measures consumer price inflation projected by the RBI, while metric B measures the inflation rate projected by the IMF, representing two different forecasting institutions and subjects.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "inflation rate potato inflation": {
+  "lexical": 80.0,
+  "reason": "",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "issued subscribed paid up equity share capital issued subscribed paid up share capital": {
+  "lexical": 91.76470588235294,
+  "reason": "The facts refer to different corporate entities (Delhivery USA, LLC versus Delhivery Corp Limited) and different currencies (USD versus GBP), representing entirely distinct financial measurements.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "key management personnel statu remuneration key management personnel": {
+  "lexical": 80.59701492537313,
+  "reason": "Metric A describes employment status and resignation date, whereas Metric B measures specific financial remuneration for a different individual.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "kharif food grain production growth compared past five year average kharif food grain production growth compared previou year": {
+  "lexical": 82.25806451612902,
+  "reason": "Metric A measures growth compared to the past five years average, whereas Metric B measures growth compared to the previous year.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "lease liabilitie current lease liabilitie non current": {
+  "lexical": 92.3076923076923,
+  "reason": "Metric A measures current lease liabilities while metric B measures non-current lease liabilities, representing distinct timeframes of the same overarching category.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "mean cpi headline inflation retail headline inflation": {
+  "lexical": 80.76923076923077,
+  "reason": "Both facts describe the same retail headline inflation measured by the Consumer Price Index (CPI) percentage change.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "merchandise export growth merchandise export growth yoy": {
+  "lexical": 92.5925925925926,
+  "reason": "Both facts describe the year-over-year growth rate of merchandise exports expressed in per cent, where the context of India in B is just the specific geographic scope of the overall metric in A.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "merchandise export merchandise export growth": {
+  "lexical": 83.72093023255813,
+  "reason": "Fact A measures the total absolute value of merchandise exports in US dollars, whereas Fact B measures the percentage growth rate of merchandise exports.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "merchandise export merchandise import": {
+  "lexical": 88.88888888888889,
+  "reason": "Merchandise exports and merchandise imports are distinct international trade metrics representing outflows and inflows respectively.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "merchandise export share merchandise export": {
+  "lexical": 85.71428571428572,
+  "reason": "Metric A measures the total absolute value of merchandise exports for India, whereas Metric B measures the percentage share of a specific sector within those total exports.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "merchandise import growth merchandise import growth yoy": {
+  "lexical": 92.5925925925926,
+  "reason": "Fact A measures general merchandise imports growth over a period, whereas Fact B specifically measures year-over-year (YoY) merchandise imports growth for India.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "merchandise import merchandise import growth": {
+  "lexical": 83.72093023255813,
+  "reason": "Fact A measures the absolute monetary value of merchandise imports in US dollars, whereas Fact B measures the percentage growth rate of merchandise imports.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "name change delhivery limited name change delhivery private limited": {
+  "lexical": 87.87878787878788,
+  "reason": "They describe name change events to two different legal entity forms occurring on different dates.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net capital inflow net fpi inflow": {
+  "lexical": 81.25,
+  "reason": "Net capital inflows is a broader aggregate that includes Foreign Portfolio Investment (FPI) along with other capital flows like FDI and external debt.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "A"
+ },
+ "net cash flow from financing activitie net cash from financing activitie": {
+  "lexical": 92.95774647887323,
+  "reason": "Both metrics measure the net cash flow from or used in financing activities for the same subject and use equivalent currency units.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net cash flow from investing activitie net cash flow from operating activitie": {
+  "lexical": 81.57894736842105,
+  "reason": "Metric A measures cash flows from investing activities, while Metric B measures cash flows from operating activities, which are distinct categories of a cash flow statement.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net cash flow from operating activitie net cash from operating activitie": {
+  "lexical": 92.95774647887323,
+  "reason": "Both metrics represent the net cash flow from operating activities for the same subject using equivalent terminology and matching units.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net offer post offer paid up equity share capital pre offer paid up equity share capital": {
+  "lexical": 82.75862068965517,
+  "reason": "Metric A measures the net offer percentage of post-offer equity share capital for Delhivery Limited, whereas Metric B measures the percentage of pre-offer equity share capital held by a specific shareholder, SVF Doorbell (Cayman) Ltd.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net tax revenue growth non tax revenue growth": {
+  "lexical": 90.9090909090909,
+  "reason": "Net tax revenue growth and non-tax revenue growth measure two distinct financial streams of the Centre.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "nominal effective exchange rate appreciation real effective exchange rate appreciation": {
+  "lexical": 84.70588235294117,
+  "reason": "Fact A measures nominal effective exchange rate (NEER) appreciation, while Fact B measures real effective exchange rate (REER) appreciation, which are two different economic indicators.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "non petroleum export growth non petroleum export growth yoy": {
+  "lexical": 93.10344827586206,
+  "reason": "Both facts measure the year-over-year percentage growth of India's non-petroleum exports for the same period and value.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "offer post offer paid up equity share capital pre offer paid up equity share capital": {
+  "lexical": 86.74698795180723,
+  "reason": "Metric A measures the offer percentage of post-Offer equity capital for Delhivery Limited, while Metric B measures the percentage of pre-Offer equity capital held by a specific shareholder (SVF Doorbell (Cayman) Ltd).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "organized player market share organized player market share cagr": {
+  "lexical": 92.06349206349206,
+  "reason": "Metric A measures market share at a single point in time, whereas Metric B measures the Compound Annual Growth Rate (CAGR) of that market share over a period.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "overall balance baseline centre overall balance baseline general": {
+  "lexical": 88.88888888888889,
+  "reason": "Fact A measures the overall balance for the Centre, whereas Fact B measures it for the General government, representing different economic entities.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "policy rate real policy rate": {
+  "lexical": 81.4814814814815,
+  "reason": "The policy rate is a nominal rate, whereas the real policy rate is adjusted for inflation, making them distinct measurements.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "A"
+ },
+ "proforma consolidated asset proforma consolidated current asset": {
+  "lexical": 87.09677419354838,
+  "reason": "Proforma Consolidated Total current assets is a component of Proforma Consolidated Total Assets.",
+  "relationship": "component_of",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "A"
+ },
+ "proforma consolidated asset proforma consolidated non current asset": {
+  "lexical": 81.81818181818181,
+  "reason": "Total non-current assets is a component of Total Assets.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "A"
+ },
+ "proforma consolidated current asset proforma consolidated non current asset": {
+  "lexical": 94.5945945945946,
+  "reason": "Total current assets and Total non-current assets represent distinct categories on the balance sheet and are not the same metric.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "proforma consolidated current liabilitie proforma consolidated equity liabilitie": {
+  "lexical": 88.60759493670886,
+  "reason": "Total current liabilities and Total Equity and Liabilities represent distinct financial statement line items with different scopes.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "proforma consolidated equity liabilitie proforma consolidated non current liabilitie": {
+  "lexical": 84.33734939759037,
+  "reason": "Total non-current liabilities is a component of Total Equity and Liabilities.",
+  "relationship": "component_of",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "A"
+ },
+ "proforma consolidated equity proforma consolidated equity liabilitie": {
+  "lexical": 83.5820895522388,
+  "reason": "Total Equity and Liabilities includes total equity as well as liabilities, making metric B broader than metric A.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "B"
+ },
+ "proforma consolidated equity proforma consolidated expense": {
+  "lexical": 80.70175438596492,
+  "reason": "Total equity represents a component of the balance sheet, whereas Total expenses represents an income statement item.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "proforma consolidated equity proforma consolidated income": {
+  "lexical": 82.14285714285714,
+  "reason": "Total equity represents net worth, whereas total income represents revenue and earnings, which are entirely different financial metrics.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "proforma consolidated expense proforma consolidated income": {
+  "lexical": 84.21052631578947,
+  "reason": "Total expenses and total income are distinct financial metrics representing costs and revenues respectively.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "proforma consolidated loss before exceptional item tax proforma consolidated loss before tax": {
+  "lexical": 81.31868131868131,
+  "reason": "Loss before tax (B) is a broader metric that includes exceptional items, whereas Proforma Consolidated Loss before exceptional item and tax (A) explicitly excludes exceptional items.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "B"
+ },
+ "raw material semi finished material export raw material semi finished material export share": {
+  "lexical": 93.33333333333333,
+  "reason": "Fact A measures the absolute export value in USD billion, whereas Fact B measures the relative export share as a percentage.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "regression coefficient gii business sophistication score tfp average growth regression standard error gii business sophistication score tfp average growth": {
+  "lexical": 84.9673202614379,
+  "reason": "Metric A measures the regression coefficient while Metric B measures the regression standard error for the same relationship.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "regression coefficient gii creative output score tfp average growth regression coefficient gii overall score tfp average growth": {
+  "lexical": 84.12698412698413,
+  "reason": "They represent regression coefficients for two entirely different independent variables (GII Creative Outputs Score versus GII Overall Score).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "regression coefficient gii creative output score tfp average growth regression coefficient gii overall score with control tfp average growth": {
+  "lexical": 80.57553956834532,
+  "reason": "Fact A measures the regression coefficient for the GII Creative Outputs Score, whereas Fact B measures the regression coefficient for the GII Overall Score with controls, representing two different explanatory variables.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "regression coefficient gii creative output score tfp average growth regression standard error gii creative output score tfp average growth": {
+  "lexical": 80.2919708029197,
+  "reason": "Fact A measures a regression coefficient, whereas Fact B measures the standard error of that regression.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "regression coefficient gii overall score tfp average growth regression coefficient gii overall score with control tfp average growth": {
+  "lexical": 90.07633587786259,
+  "reason": "Metric A represents the bivariate regression coefficient, while Metric B includes additional control variables, making them measure different statistical relationships.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "A"
+ },
+ "regression coefficient gii overall score tfp average growth regression standard error gii overall score tfp average growth": {
+  "lexical": 80.99173553719008,
+  "reason": "Metric A measures the regression coefficient, whereas Metric B measures the standard error of that regression.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "regression coefficient gii overall score with control tfp average growth regression standard error gii overall score with control tfp average growth": {
+  "lexical": 81.63265306122449,
+  "reason": "Metric A measures the regression coefficient, whereas Metric B measures the standard error of that regression.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "regression standard error gii creative output score tfp average growth regression standard error gii overall score tfp average growth": {
+  "lexical": 84.84848484848484,
+  "reason": "They measure regression standard errors for two different dependent variables (GII Creative Outputs Score versus GII Overall Score).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "regression standard error gii creative output score tfp average growth regression standard error gii overall score with control tfp average growth": {
+  "lexical": 81.37931034482759,
+  "reason": "They measure regression standard errors for different dependent variables (GII Creative Outputs Score versus GII Overall Score with controls).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "regression standard error gii overall score tfp average growth regression standard error gii overall score with control tfp average growth": {
+  "lexical": 90.51094890510949,
+  "reason": "Metric A measures the standard error of a bivariate regression, while Metric B includes additional control variables, making them statistically different models.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "A"
+ },
+ "return over cost production paddy msp return over cost production wheat msp": {
+  "lexical": 83.78378378378379,
+  "reason": "Fact A measures the return over the cost of production for paddy MSP, whereas Fact B measures the same for wheat MSP, which are two different commodities.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "revenue expenditure growth revenue expenditure per gdp": {
+  "lexical": 83.01886792452831,
+  "reason": "Revenue expenditure growth measures the annual percentage change in expenditure, whereas revenue expenditure as a per cent of GDP measures expenditure relative to total economic output.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "revenue from contract with customer revenue from contract with customer sale services": {
+  "lexical": 83.33333333333334,
+  "reason": "Metric A represents total revenue from contracts with customers, while Metric B is a narrower sub-category specifically for the sale of services.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "A"
+ },
+ "rice price inflation wheat price inflation": {
+  "lexical": 82.92682926829268,
+  "reason": "Metric A measures inflation for rice prices while metric B measures inflation for wheat prices, which are two different commodities.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "seasonally adjusted capacity utilisation seasonally adjusted capacity utilisation long term average": {
+  "lexical": 81.63265306122449,
+  "reason": "Fact A measures current capacity utilization, while Fact B measures the long-term average capacity utilization.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": "A"
+ },
+ "share corporate bond a1 bbb rating category share corporate bond aa rating category": {
+  "lexical": 92.6829268292683,
+  "reason": "They measure the share of corporate bonds in different credit rating categories (A1-BBB versus AA).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "share corporate bond a1 bbb rating category share corporate bond aaa rating category": {
+  "lexical": 91.56626506024097,
+  "reason": "Metric A measures the share of corporate bonds in the A1-BBB rating category while metric B measures the share in the AAA rating category, representing two different rating segments.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "share global economy constituted by economie captured by global economic policy uncertainty indice share global output constituted by economie captured by global economic policy uncertainty indice": {
+  "lexical": 92.3076923076923,
+  "reason": "The share of the global economy and the share of global output represent different macroeconomic aggregates and are not strictly identical.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "share global export share global services export": {
+  "lexical": 80.85106382978724,
+  "reason": "Fact A measures Travel's share in global exports, whereas Fact B measures India's share in global services exports.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "spice inflation average tomato price average inflation": {
+  "lexical": 83.01886792452831,
+  "reason": "Spices inflation and Tomato price inflation measure different food commodity categories.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "textile export growth textile item export": {
+  "lexical": 80.0,
+  "reason": "Metric A measures the percentage growth rate of textile exports, whereas Metric B measures the absolute export value in USD billion.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "trade payable outstanding due creditor other than micro small enterprise trade payable outstanding due micro small enterprise": {
+  "lexical": 83.87096774193549,
+  "reason": "Metric A measures trade payables to creditors other than micro and small enterprises, while Metric B measures trade payables to micro and small enterprises, representing two distinct components of total trade payables.",
+  "relationship": "component_of",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "year year growth global merchandise export indice year year growth global merchandise import indice": {
+  "lexical": 85.71428571428572,
+  "reason": "Fact A measures export indices growth while Fact B measures import indices growth, which are distinct economic indicators.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ },
+ "year year growth global services export year year growth global services import": {
+  "lexical": 82.05128205128204,
+  "reason": "Metric A measures growth in global services exports, whereas Metric B measures growth in global services imports, which are two different economic flows.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.0,
+  "source": "llm",
+  "which_broader": null
+ }
+}

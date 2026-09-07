@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Adjusted EBITDA is an absolute monetary amount in currency units, whereas Adjusted EBITDA margin is a relative percentage ratio."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Adjusted EBITDA is an absolute monetary amount in currency units, whereas Adjusted EBITDA margin is a relative percentage ratio.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

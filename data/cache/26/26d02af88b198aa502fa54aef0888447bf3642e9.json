@@ -1,0 +1,184 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 4,
+    "quote": "FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23",
+    "kind": "numeric",
+    "metric": "FY24 EBITDA increase",
+    "subject": "Delhivery Limited",
+    "value_raw": "578",
+    "unit_raw": "Rs. Cr",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "comparison_period": "FY23"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23",
+    "kind": "numeric",
+    "metric": "FY24 EBITDA",
+    "subject": "Delhivery Limited",
+    "value_raw": "127",
+    "unit_raw": "Rs. Cr",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23",
+    "kind": "numeric",
+    "metric": "FY23 EBITDA",
+    "subject": "Delhivery Limited",
+    "value_raw": "(452)",
+    "unit_raw": "Rs. Cr",
+    "period_raw": "FY23",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "PAT loss reduced by Rs. 759 Cr from Rs. (1,008 Cr) in FY23",
+    "kind": "numeric",
+    "metric": "FY23 PAT loss",
+    "subject": "Delhivery Limited",
+    "value_raw": "(1,008)",
+    "unit_raw": "Rs. Cr",
+    "period_raw": "FY23",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 5,
+    "quote": "1.4 Mn Tons\nPTL freight tonnage in FY24",
+    "kind": "numeric",
+    "metric": "PTL freight tonnage",
+    "subject": "Delhivery Limited",
+    "value_raw": "1.4",
+    "unit_raw": "Mn Tons",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 5,
+    "quote": "₹8,142 Cr\nFY24 revenue from services",
+    "kind": "numeric",
+    "metric": "revenue from services",
+    "subject": "Delhivery Limited",
+    "value_raw": "8,142",
+    "unit_raw": "₹ Cr",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "excludes": "revenue from traded goods"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 5,
+    "quote": "740 Mn\nExpress parcel shipments in FY24",
+    "kind": "numeric",
+    "metric": "Express parcel shipments",
+    "subject": "Delhivery Limited",
+    "value_raw": "740",
+    "unit_raw": "Mn",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 5,
+    "quote": "₹127Cr / 1.6%\nEBITDA / EBITDA margin",
+    "kind": "numeric",
+    "metric": "EBITDA",
+    "subject": "Delhivery Limited",
+    "value_raw": "127",
+    "unit_raw": "₹ Cr",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 5,
+    "quote": "₹127Cr / 1.6%\nEBITDA / EBITDA margin",
+    "kind": "numeric",
+    "metric": "EBITDA margin",
+    "subject": "Delhivery Limited",
+    "value_raw": "1.6",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 5,
+    "quote": "₹76Cr / 0.9%\nAdj. EBITDA / Adj. EBITDA margin",
+    "kind": "numeric",
+    "metric": "Adjusted EBITDA",
+    "subject": "Delhivery Limited",
+    "value_raw": "76",
+    "unit_raw": "₹ Cr",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 5,
+    "quote": "₹76Cr / 0.9%\nAdj. EBITDA / Adj. EBITDA margin",
+    "kind": "numeric",
+    "metric": "Adjusted EBITDA margin",
+    "subject": "Delhivery Limited",
+    "value_raw": "0.9",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 6,
+    "quote": "384K Tons\nPTL freight tonnage in Q4 FY24",
+    "kind": "numeric",
+    "metric": "PTL freight tonnage",
+    "subject": "Delhivery Limited",
+    "value_raw": "384",
+    "unit_raw": "K Tons",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 6,
+    "quote": "₹2,076 Cr\nQ4 FY24 revenue from services",
+    "kind": "numeric",
+    "metric": "revenue from services",
+    "subject": "Delhivery Limited",
+    "value_raw": "2,076",
+    "unit_raw": "₹ Cr",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "excludes": "revenue from traded goods"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 6,
+    "quote": "176 Mn\nExpress parcel shipments in Q4 FY24",
+    "kind": "numeric",
+    "metric": "Express parcel shipments",
+    "subject": "Delhivery Limited",
+    "value_raw": "176",
+    "unit_raw": "Mn",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 4,\n      \"quote\": \"FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23\",\n      \"kind\": \"numeric\",\n      \"metric\": \"FY24 EBITDA increase\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"578\",\n      \"unit_raw\": \"Rs. Cr\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"comparison_period\": \"FY23\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23\",\n      \"kind\": \"numeric\",\n      \"metric\": \"FY24 EBITDA\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"127\",\n      \"unit_raw\": \"Rs. Cr\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23\",\n      \"kind\": \"numeric\",\n      \"metric\": \"FY23 EBITDA\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(452)\",\n      \"unit_raw\": \"Rs. Cr\",\n      \"period_raw\": \"FY23\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"PAT loss reduced by Rs. 759 Cr from Rs. (1,008 Cr) in FY23\",\n      \"kind\": \"numeric\",\n      \"metric\": \"FY23 PAT loss\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(1,008)\",\n      \"unit_raw\": \"Rs. Cr\",\n      \"period_raw\": \"FY23\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 5,\n      \"quote\": \"1.4 Mn Tons\\nPTL freight tonnage in FY24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"PTL freight tonnage\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"1.4\",\n      \"unit_raw\": \"Mn Tons\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 5,\n      \"quote\": \"₹8,142 Cr\\nFY24 revenue from services\",\n      \"kind\": \"numeric\",\n      \"metric\": \"revenue from services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"8,142\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"excludes\": \"revenue from traded goods\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 5,\n      \"quote\": \"740 Mn\\nExpress parcel shipments in FY24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Express parcel shipments\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"740\",\n      \"unit_raw\": \"Mn\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 5,\n      \"quote\": \"₹127Cr / 1.6%\\nEBITDA / EBITDA margin\",\n      \"kind\": \"numeric\",\n      \"metric\": \"EBITDA\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"127\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 5,\n      \"quote\": \"₹127Cr / 1.6%\\nEBITDA / EBITDA margin\",\n      \"kind\": \"numeric\",\n      \"metric\": \"EBITDA margin\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"1.6\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 5,\n      \"quote\": \"₹76Cr / 0.9%\\nAdj. EBITDA / Adj. EBITDA margin\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Adjusted EBITDA\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"76\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 5,\n      \"quote\": \"₹76Cr / 0.9%\\nAdj. EBITDA / Adj. EBITDA margin\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Adjusted EBITDA margin\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"0.9\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 6,\n      \"quote\": \"384K Tons\\nPTL freight tonnage in Q4 FY24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"PTL freight tonnage\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"384\",\n      \"unit_raw\": \"K Tons\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 6,\n      \"quote\": \"₹2,076 Cr\\nQ4 FY24 revenue from services\",\n      \"kind\": \"numeric\",\n      \"metric\": \"revenue from services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"2,076\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"excludes\": \"revenue from traded goods\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 6,\n      \"quote\": \"176 Mn\\nExpress parcel shipments in Q4 FY24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Express parcel shipments\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"176\",\n      \"unit_raw\": \"Mn\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:03-delhivery-q4-fy24-earnings-presentation-5ca30708:b0"
+}

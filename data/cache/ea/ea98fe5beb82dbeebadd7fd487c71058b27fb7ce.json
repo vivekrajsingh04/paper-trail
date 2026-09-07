@@ -1,0 +1,212 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 47,
+    "quote": "Revenue\n20.4\n20.1\n20.5\n20.4\n20.2\n20.2",
+    "kind": "numeric",
+    "metric": "Revenue",
+    "subject": "General Government",
+    "value_raw": "20.4",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2021/22",
+    "qualifiers": {
+     "status": "estimate",
+     "sector": "general government operations"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 47,
+    "quote": "Expenditure\n29.9\n29.1\n28.6\n28.3\n27.3\n27.4",
+    "kind": "numeric",
+    "metric": "Expenditure",
+    "subject": "General Government",
+    "value_raw": "29.9",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2021/22",
+    "qualifiers": {
+     "status": "estimate",
+     "sector": "general government operations"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 47,
+    "quote": "Net lending (+)/borrowing (–) (fiscal balance)\n-9.4\n-9.0\n-8.1\n-7.9\n-7.1\n-7.2",
+    "kind": "numeric",
+    "metric": "Net lending (+)/borrowing (–) (fiscal balance)",
+    "subject": "General Government",
+    "value_raw": "-9.4",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2021/22",
+    "qualifiers": {
+     "status": "estimate",
+     "sector": "general government operations"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 47,
+    "quote": "General government debt 3/\n83.5\n82.2\n80.7\n81.6\n81.1\n80.7",
+    "kind": "numeric",
+    "metric": "General government debt",
+    "subject": "General Government",
+    "value_raw": "83.5",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2021/22",
+    "qualifiers": {
+     "status": "estimate",
+     "sector": "general government operations"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 47,
+    "quote": "Nominal GDP in billions of Rupees\n235,974\n268,905\n301,230\n330,682\n358,841\n395,165",
+    "kind": "numeric",
+    "metric": "Nominal GDP",
+    "subject": "India",
+    "value_raw": "235,974",
+    "unit_raw": "billions of Rupees",
+    "period_raw": "2021/22",
+    "qualifiers": {
+     "status": "estimate"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 48,
+    "quote": "Real GDP (at market prices)\n9.7\n7.6\n9.2\n6.5\n6.6\n6.2\n6.4\n6.5\n6.5\n6.5",
+    "kind": "numeric",
+    "metric": "Real GDP growth (at market prices)",
+    "subject": "India",
+    "value_raw": "9.7",
+    "unit_raw": "percent change",
+    "period_raw": "2021/22",
+    "qualifiers": {
+     "status": "estimate"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 48,
+    "quote": "Consumer prices\n5.5\n6.7\n5.4\n4.6\n2.8\n4.0\n4.0\n4.0\n4.0\n4.0",
+    "kind": "numeric",
+    "metric": "Consumer prices inflation (period average)",
+    "subject": "India",
+    "value_raw": "5.5",
+    "unit_raw": "percent change",
+    "period_raw": "2021/22",
+    "qualifiers": {
+     "status": "estimate"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 48,
+    "quote": "Gross saving 2/\n30.9\n31.6\n32.6\n32.3\n31.5\n30.9\n30.8\n30.7\n30.6\n30.5",
+    "kind": "numeric",
+    "metric": "Gross saving",
+    "subject": "India",
+    "value_raw": "30.9",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2021/22",
+    "qualifiers": {
+     "status": "estimate"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 48,
+    "quote": "Gross investment 3/\n32.1\n33.6\n33.4\n32.9\n32.5\n32.4\n32.4\n32.4\n32.4\n32.4",
+    "kind": "numeric",
+    "metric": "Gross investment",
+    "subject": "India",
+    "value_raw": "32.1",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2021/22",
+    "qualifiers": {
+     "status": "estimate"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 51,
+    "quote": "NIIP: -9.6",
+    "kind": "numeric",
+    "metric": "NIIP",
+    "subject": "India",
+    "value_raw": "-9.6",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2024",
+    "qualifiers": {
+     "section": "Foreign Asset and Liability Position and Trajectory"
+    },
+    "confidence": 0.99
+   },
+   {
+    "page": 51,
+    "quote": "Gross Assets: 27.9",
+    "kind": "numeric",
+    "metric": "Gross Foreign Assets",
+    "subject": "India",
+    "value_raw": "27.9",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2024",
+    "qualifiers": {
+     "section": "Foreign Asset and Liability Position and Trajectory"
+    },
+    "confidence": 0.99
+   },
+   {
+    "page": 51,
+    "quote": "Gross Liab.: 37.5",
+    "kind": "numeric",
+    "metric": "Gross Foreign Liabilities",
+    "subject": "India",
+    "value_raw": "37.5",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2024",
+    "qualifiers": {
+     "section": "Foreign Asset and Liability Position and Trajectory"
+    },
+    "confidence": 0.99
+   },
+   {
+    "page": 63,
+    "quote": "Public debt\n81.6\n81.1\n80.7\n79.9\n79.0\n78.0\n76.9\n75.4\n73.9\n72.4\n71.0",
+    "kind": "numeric",
+    "metric": "Public debt",
+    "subject": "India",
+    "value_raw": "81.6",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2024",
+    "qualifiers": {
+     "scenario": "Baseline Scenario",
+     "status": "actual"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 77,
+    "quote": "Among continuously operating firms, a significant share (15 percent) qualifies as zombie firms",
+    "kind": "numeric",
+    "metric": "Share of zombie firms among continuously operating firms",
+    "subject": "India",
+    "value_raw": "15",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "firm_type": "continuously operating firms",
+     "definition": "companies older than 10 years that have an interest coverage ratio (ICR) of less than 1 for at least two consecutive years"
+    },
+    "confidence": 0.95
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 47,\n      \"quote\": \"Revenue\\n20.4\\n20.1\\n20.5\\n20.4\\n20.2\\n20.2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue\",\n      \"subject\": \"General Government\",\n      \"value_raw\": \"20.4\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2021/22\",\n      \"qualifiers\": {\n        \"status\": \"estimate\",\n        \"sector\": \"general government operations\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"Expenditure\\n29.9\\n29.1\\n28.6\\n28.3\\n27.3\\n27.4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Expenditure\",\n      \"subject\": \"General Government\",\n      \"value_raw\": \"29.9\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2021/22\",\n      \"qualifiers\": {\n        \"status\": \"estimate\",\n        \"sector\": \"general government operations\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"Net lending (+)/borrowing (–) (fiscal balance)\\n-9.4\\n-9.0\\n-8.1\\n-7.9\\n-7.1\\n-7.2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net lending (+)/borrowing (–) (fiscal balance)\",\n      \"subject\": \"General Government\",\n      \"value_raw\": \"-9.4\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2021/22\",\n      \"qualifiers\": {\n        \"status\": \"estimate\",\n        \"sector\": \"general government operations\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"General government debt 3/\\n83.5\\n82.2\\n80.7\\n81.6\\n81.1\\n80.7\",\n      \"kind\": \"numeric\",\n      \"metric\": \"General government debt\",\n      \"subject\": \"General Government\",\n      \"value_raw\": \"83.5\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2021/22\",\n      \"qualifiers\": {\n        \"status\": \"estimate\",\n        \"sector\": \"general government operations\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"Nominal GDP in billions of Rupees\\n235,974\\n268,905\\n301,230\\n330,682\\n358,841\\n395,165\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Nominal GDP\",\n      \"subject\": \"India\",\n      \"value_raw\": \"235,974\",\n      \"unit_raw\": \"billions of Rupees\",\n      \"period_raw\": \"2021/22\",\n      \"qualifiers\": {\n        \"status\": \"estimate\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 48,\n      \"quote\": \"Real GDP (at market prices)\\n9.7\\n7.6\\n9.2\\n6.5\\n6.6\\n6.2\\n6.4\\n6.5\\n6.5\\n6.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Real GDP growth (at market prices)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"9.7\",\n      \"unit_raw\": \"percent change\",\n      \"period_raw\": \"2021/22\",\n      \"qualifiers\": {\n        \"status\": \"estimate\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 48,\n      \"quote\": \"Consumer prices\\n5.5\\n6.7\\n5.4\\n4.6\\n2.8\\n4.0\\n4.0\\n4.0\\n4.0\\n4.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Consumer prices inflation (period average)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"5.5\",\n      \"unit_raw\": \"percent change\",\n      \"period_raw\": \"2021/22\",\n      \"qualifiers\": {\n        \"status\": \"estimate\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 48,\n      \"quote\": \"Gross saving 2/\\n30.9\\n31.6\\n32.6\\n32.3\\n31.5\\n30.9\\n30.8\\n30.7\\n30.6\\n30.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Gross saving\",\n      \"subject\": \"India\",\n      \"value_raw\": \"30.9\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2021/22\",\n      \"qualifiers\": {\n        \"status\": \"estimate\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 48,\n      \"quote\": \"Gross investment 3/\\n32.1\\n33.6\\n33.4\\n32.9\\n32.5\\n32.4\\n32.4\\n32.4\\n32.4\\n32.4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Gross investment\",\n      \"subject\": \"India\",\n      \"value_raw\": \"32.1\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2021/22\",\n      \"qualifiers\": {\n        \"status\": \"estimate\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"NIIP: -9.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"NIIP\",\n      \"subject\": \"India\",\n      \"value_raw\": \"-9.6\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"section\": \"Foreign Asset and Liability Position and Trajectory\"\n      },\n      \"confidence\": 0.99\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"Gross Assets: 27.9\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Gross Foreign Assets\",\n      \"subject\": \"India\",\n      \"value_raw\": \"27.9\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"section\": \"Foreign Asset and Liability Position and Trajectory\"\n      },\n      \"confidence\": 0.99\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"Gross Liab.: 37.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Gross Foreign Liabilities\",\n      \"subject\": \"India\",\n      \"value_raw\": \"37.5\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"section\": \"Foreign Asset and Liability Position and Trajectory\"\n      },\n      \"confidence\": 0.99\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"Public debt\\n81.6\\n81.1\\n80.7\\n79.9\\n79.0\\n78.0\\n76.9\\n75.4\\n73.9\\n72.4\\n71.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Public debt\",\n      \"subject\": \"India\",\n      \"value_raw\": \"81.6\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"scenario\": \"Baseline Scenario\",\n        \"status\": \"actual\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 77,\n      \"quote\": \"Among continuously operating firms, a significant share (15 percent) qualifies as zombie firms\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Share of zombie firms among continuously operating firms\",\n      \"subject\": \"India\",\n      \"value_raw\": \"15\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"firm_type\": \"continuously operating firms\",\n        \"definition\": \"companies older than 10 years that have an interest coverage ratio (ICR) of less than 1 for at least two consecutive years\"\n      },\n      \"confidence\": 0.95\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:03-imf-india-2025-article-iv-excerpt-f6d3cfec:b47"
+}

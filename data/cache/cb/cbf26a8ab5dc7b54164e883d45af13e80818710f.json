@@ -1,0 +1,822 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 37,
+    "quote": "a one standard deviation increase in uncertainty correlates with a 0.4 to 1.3 percentage point decrease in output growth.",
+    "kind": "numeric",
+    "metric": "decrease in output growth per one standard deviation increase in uncertainty",
+    "subject": "output growth",
+    "value_raw": "0.4 to 1.3",
+    "unit_raw": "percentage point",
+    "period_raw": null,
+    "qualifiers": {
+     "source": "International Monetary Fund (IMF)",
+     "uncertainty_change": "one standard deviation increase"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 37,
+    "quote": "These indices capture changes occurring in economies constituting about 71 per cent of global output.",
+    "kind": "numeric",
+    "metric": "share of global output constituted by economies captured by global economic policy uncertainty indices",
+    "subject": "global output",
+    "value_raw": "71",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {
+     "basis": "purchasing power parity"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 37,
+    "quote": "If the economies are accounted at market exchange rates the economies constitute roughly 80 per cent of the global economy.",
+    "kind": "numeric",
+    "metric": "share of the global economy constituted by economies captured by global economic policy uncertainty indices",
+    "subject": "global economy",
+    "value_raw": "80",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {
+     "basis": "market exchange rates"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 39,
+    "quote": "as 40 per cent of this trade passes through the Red Sea region.",
+    "kind": "numeric",
+    "metric": "share of trade between Asia and Europe passing through the Red Sea region",
+    "subject": "trade between Asia and Europe",
+    "value_raw": "40",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 39,
+    "quote": "Hormuz Strait, which channels 21 per cent of global petroleum liquid consumption, has disrupted energy trade and increased prices.",
+    "kind": "numeric",
+    "metric": "share of global petroleum liquid consumption channeled through the Hormuz Strait",
+    "subject": "global petroleum liquid consumption",
+    "value_raw": "21",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 39,
+    "quote": "affecting approximately 5 per cent of global maritime trade volumes that transit through it.",
+    "kind": "numeric",
+    "metric": "share of global maritime trade volumes transiting through the Panama Canal",
+    "subject": "global maritime trade volumes",
+    "value_raw": "5",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 39,
+    "quote": "A report by the United Nations Conference on Trade and Development (UNCTAD)18 indicates that technical NTMs impact over 30 per cent of products and nearly 70 per cent of global trade.",
+    "kind": "numeric",
+    "metric": "share of products impacted by technical NTMs",
+    "subject": "products",
+    "value_raw": "30",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {
+     "measure_type": "technical NTMs"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 39,
+    "quote": "A report by the United Nations Conference on Trade and Development (UNCTAD)18 indicates that technical NTMs impact over 30 per cent of products and nearly 70 per cent of global trade.",
+    "kind": "numeric",
+    "metric": "share of global trade impacted by technical NTMs",
+    "subject": "global trade",
+    "value_raw": "70",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {
+     "measure_type": "technical NTMs"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 40,
+    "quote": "The World Trade Organisation (WTO) database shows a year-on-year (YoY) growth of 3.5 per cent and 3 per cent, respectively, in global merchandise export and import indices in Q3 of 2024 (seasonally adjusted, 2005 Q1=100).",
+    "kind": "numeric",
+    "metric": "year-on-year growth in global merchandise export indices",
+    "subject": "global merchandise exports",
+    "value_raw": "3.5",
+    "unit_raw": "per cent",
+    "period_raw": "Q3 2024",
+    "qualifiers": {
+     "seasonally_adjusted": true,
+     "base_period": "2005 Q1=100"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 40,
+    "quote": "The World Trade Organisation (WTO) database shows a year-on-year (YoY) growth of 3.5 per cent and 3 per cent, respectively, in global merchandise export and import indices in Q3 of 2024 (seasonally adjusted, 2005 Q1=100).",
+    "kind": "numeric",
+    "metric": "year-on-year growth in global merchandise import indices",
+    "subject": "global merchandise imports",
+    "value_raw": "3",
+    "unit_raw": "per cent",
+    "period_raw": "Q3 2024",
+    "qualifiers": {
+     "seasonally_adjusted": true,
+     "base_period": "2005 Q1=100"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 40,
+    "quote": "Further, the global services exports and imports grew by 7.9 per cent and 6.7 per cent (YoY) during the same period.",
+    "kind": "numeric",
+    "metric": "year-on-year growth in global services exports",
+    "subject": "global services exports",
+    "value_raw": "7.9",
+    "unit_raw": "per cent",
+    "period_raw": "Q3 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 40,
+    "quote": "Further, the global services exports and imports grew by 7.9 per cent and 6.7 per cent (YoY) during the same period.",
+    "kind": "numeric",
+    "metric": "year-on-year growth in global services imports",
+    "subject": "global services imports",
+    "value_raw": "6.7",
+    "unit_raw": "per cent",
+    "period_raw": "Q3 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 40,
+    "quote": "As a result, global trade is set to exceed its 2022 record, reaching nearly USD 33 trillion in 2024.",
+    "kind": "numeric",
+    "metric": "total global trade value",
+    "subject": "global trade",
+    "value_raw": "33",
+    "unit_raw": "USD trillion",
+    "period_raw": "2024",
+    "qualifiers": {
+     "status": "projection"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 40,
+    "quote": "This record high is likely to be driven by a 7 per cent increase in services trade (YoY), while goods trade is projected to grow by about 2 per cent in 2024 but remain below its 2022 peak.",
+    "kind": "numeric",
+    "metric": "year-on-year increase in services trade",
+    "subject": "services trade",
+    "value_raw": "7",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {
+     "status": "projection"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "The number of regional trade agreements (RTAs) in effect has grown substantially, increasing from 22 in 1990 to 369 as of August 2024.21",
+    "kind": "numeric",
+    "metric": "number of regional trade agreements in effect",
+    "subject": "regional trade agreements",
+    "value_raw": "22",
+    "unit_raw": null,
+    "period_raw": "1990",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "The number of regional trade agreements (RTAs) in effect has grown substantially, increasing from 22 in 1990 to 369 as of August 2024.21",
+    "kind": "numeric",
+    "metric": "number of regional trade agreements in effect",
+    "subject": "regional trade agreements",
+    "value_raw": "369",
+    "unit_raw": null,
+    "period_raw": "August 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "For instance, between 2000 and 2024, the average tariff rates on dutiable items in India decreased from 48.9 per cent to 17.3 per cent",
+    "kind": "numeric",
+    "metric": "average tariff rates on dutiable items in India",
+    "subject": "dutiable items",
+    "value_raw": "48.9",
+    "unit_raw": "per cent",
+    "period_raw": "2000",
+    "qualifiers": {
+     "geography": "india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "For instance, between 2000 and 2024, the average tariff rates on dutiable items in India decreased from 48.9 per cent to 17.3 per cent",
+    "kind": "numeric",
+    "metric": "average tariff rates on dutiable items in India",
+    "subject": "dutiable items",
+    "value_raw": "17.3",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {
+     "geography": "india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "while in China, they fell from 16.4 per cent to 8.3 per cent.22",
+    "kind": "numeric",
+    "metric": "average tariff rates on dutiable items in China",
+    "subject": "dutiable items",
+    "value_raw": "16.4",
+    "unit_raw": "per cent",
+    "period_raw": "2000",
+    "qualifiers": {
+     "geography": "china"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "while in China, they fell from 16.4 per cent to 8.3 per cent.22",
+    "kind": "numeric",
+    "metric": "average tariff rates on dutiable items in China",
+    "subject": "dutiable items",
+    "value_raw": "8.3",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {
+     "geography": "china"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "Globally, the simple average MFN and preferential tariffs for agriculture dropped by approximately 3 per cent and 1.4 per cent, respectively, between 2012 and 2022.",
+    "kind": "numeric",
+    "metric": "decline in simple average MFN tariffs for agriculture",
+    "subject": "agriculture",
+    "value_raw": "3",
+    "unit_raw": "per cent",
+    "period_raw": "2012 to 2022",
+    "qualifiers": {
+     "tariff_type": "simple average MFN",
+     "geography": "global"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "Globally, the simple average MFN and preferential tariffs for agriculture dropped by approximately 3 per cent and 1.4 per cent, respectively, between 2012 and 2022.",
+    "kind": "numeric",
+    "metric": "decline in simple average preferential tariffs for agriculture",
+    "subject": "agriculture",
+    "value_raw": "1.4",
+    "unit_raw": "per cent",
+    "period_raw": "2012 to 2022",
+    "qualifiers": {
+     "tariff_type": "simple average preferential",
+     "geography": "global"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "The simple average preferential tariffs decreased by about 1 per cent in the manufacturing sector.",
+    "kind": "numeric",
+    "metric": "decrease in simple average preferential tariffs in the manufacturing sector",
+    "subject": "manufacturing sector",
+    "value_raw": "1",
+    "unit_raw": "per cent",
+    "period_raw": "2012 to 2022",
+    "qualifiers": {
+     "tariff_type": "simple average preferential",
+     "geography": "global"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "The Global Trade Alert database28 shows that between 2020 and 2024, over 26,000 new restrictions related to trade and investments have been globally imposed.",
+    "kind": "numeric",
+    "metric": "number of new restrictions related to trade and investments globally imposed",
+    "subject": "trade and investments restrictions",
+    "value_raw": "26,000",
+    "unit_raw": null,
+    "period_raw": "2020 to 2024",
+    "qualifiers": {
+     "geography": "global"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "The Technical Barriers to Trade (TBT) affect 31.6 per cent of the product lines, covering 67.1 per cent of the global trade (as of December 2024).",
+    "kind": "numeric",
+    "metric": "share of product lines affected by Technical Barriers to Trade (TBT)",
+    "subject": "product lines",
+    "value_raw": "31.6",
+    "unit_raw": "per cent",
+    "period_raw": "December 2024",
+    "qualifiers": {
+     "measure_type": "Technical Barriers to Trade (TBT)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "The Technical Barriers to Trade (TBT) affect 31.6 per cent of the product lines, covering 67.1 per cent of the global trade (as of December 2024).",
+    "kind": "numeric",
+    "metric": "share of global trade covered by Technical Barriers to Trade (TBT)",
+    "subject": "global trade",
+    "value_raw": "67.1",
+    "unit_raw": "per cent",
+    "period_raw": "December 2024",
+    "qualifiers": {
+     "measure_type": "Technical Barriers to Trade (TBT)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "This is followed by export-related measures, affecting 19.3 per cent of the product lines and covering 31.2 per cent of the global trade.29",
+    "kind": "numeric",
+    "metric": "share of product lines affected by export-related measures",
+    "subject": "product lines",
+    "value_raw": "19.3",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {
+     "measure_type": "export-related measures"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "This is followed by export-related measures, affecting 19.3 per cent of the product lines and covering 31.2 per cent of the global trade.29",
+    "kind": "numeric",
+    "metric": "share of global trade covered by export-related measures",
+    "subject": "global trade",
+    "value_raw": "31.2",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {
+     "measure_type": "export-related measures"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "The share of CBAM exports in total Indian exports to the EU has increased substantially from 6.3 per cent in 2014 to 10.5 per cent in 2023.38",
+    "kind": "numeric",
+    "metric": "share of CBAM exports in total Indian exports to the EU",
+    "subject": "Indian exports to the EU",
+    "value_raw": "6.3",
+    "unit_raw": "per cent",
+    "period_raw": "2014",
+    "qualifiers": {
+     "geography": "india",
+     "destination": "european union"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "The share of CBAM exports in total Indian exports to the EU has increased substantially from 6.3 per cent in 2014 to 10.5 per cent in 2023.38",
+    "kind": "numeric",
+    "metric": "share of CBAM exports in total Indian exports to the EU",
+    "subject": "Indian exports to the EU",
+    "value_raw": "10.5",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {
+     "geography": "india",
+     "destination": "european union"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "2962.6",
+    "kind": "numeric",
+    "metric": "value of exports of iron and steel to the EU likely to be impacted by CBAM",
+    "subject": "Iron and steel",
+    "value_raw": "2962.6",
+    "unit_raw": "USD million",
+    "period_raw": "2014",
+    "qualifiers": {
+     "geography": "india",
+     "destination": "european union"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "5557.1",
+    "kind": "numeric",
+    "metric": "value of exports of iron and steel to the EU likely to be impacted by CBAM",
+    "subject": "Iron and steel",
+    "value_raw": "5557.1",
+    "unit_raw": "USD million",
+    "period_raw": "2023",
+    "qualifiers": {
+     "geography": "india",
+     "destination": "european union"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "151.4",
+    "kind": "numeric",
+    "metric": "value of exports of aluminium to the EU likely to be impacted by CBAM",
+    "subject": "Aluminium",
+    "value_raw": "151.4",
+    "unit_raw": "USD million",
+    "period_raw": "2014",
+    "qualifiers": {
+     "geography": "india",
+     "destination": "european union"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "1801",
+    "kind": "numeric",
+    "metric": "value of exports of aluminium to the EU likely to be impacted by CBAM",
+    "subject": "Aluminium",
+    "value_raw": "1801",
+    "unit_raw": "USD million",
+    "period_raw": "2023",
+    "qualifiers": {
+     "geography": "india",
+     "destination": "european union"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "4.2",
+    "kind": "numeric",
+    "metric": "value of exports of cement to the EU likely to be impacted by CBAM",
+    "subject": "Cement",
+    "value_raw": "4.2",
+    "unit_raw": "USD million",
+    "period_raw": "2014",
+    "qualifiers": {
+     "geography": "india",
+     "destination": "european union"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "8.3",
+    "kind": "numeric",
+    "metric": "value of exports of cement to the EU likely to be impacted by CBAM",
+    "subject": "Cement",
+    "value_raw": "8.3",
+    "unit_raw": "USD million",
+    "period_raw": "2023",
+    "qualifiers": {
+     "geography": "india",
+     "destination": "european union"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "0.7",
+    "kind": "numeric",
+    "metric": "value of exports of fertilisers to the EU likely to be impacted by CBAM",
+    "subject": "Fertilisers",
+    "value_raw": "0.7",
+    "unit_raw": "USD million",
+    "period_raw": "2014",
+    "qualifiers": {
+     "geography": "india",
+     "destination": "european union"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "2",
+    "kind": "numeric",
+    "metric": "value of exports of fertilisers to the EU likely to be impacted by CBAM",
+    "subject": "Fertilisers",
+    "value_raw": "2",
+    "unit_raw": "USD million",
+    "period_raw": "2023",
+    "qualifiers": {
+     "geography": "india",
+     "destination": "european union"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "According to the World Bank’s Relative CBAM Exposure Index39, India has a score of 0.03, reflecting a high exposure to CBAM.40",
+    "kind": "numeric",
+    "metric": "Relative CBAM Exposure Index score",
+    "subject": "India",
+    "value_raw": "0.03",
+    "unit_raw": null,
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "india",
+     "source": "World Bank"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "For example, if the average number of NTMs applied to a product increases from 2.5 to 3.5 NTMs per product, FDI could increase by 12 per cent.",
+    "kind": "numeric",
+    "metric": "increase in FDI when the average number of NTMs applied to a product increases from 2.5 to 3.5",
+    "subject": "foreign direct investment (FDI)",
+    "value_raw": "12",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {
+     "ntm_change": "2.5 to 3.5 NTMs per product"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "India's total exports (merchandise+services) have shown positive momentum in the first nine months of FY25, reaching USD 602.6 billion, witnessing a YoY growth of 6 per cent.",
+    "kind": "numeric",
+    "metric": "total exports (merchandise + services)",
+    "subject": "India",
+    "value_raw": "602.6",
+    "unit_raw": "USD billion",
+    "period_raw": "first nine months of FY25",
+    "qualifiers": {
+     "geography": "india",
+     "yoy_growth": "6 per cent"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "Total imports during April-December 2024 reached USD 682.2 billion, registering a YoY growth of 6.9 per cent.",
+    "kind": "numeric",
+    "metric": "total imports (merchandise + services)",
+    "subject": "India",
+    "value_raw": "682.2",
+    "unit_raw": "USD billion",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "geography": "india",
+     "yoy_growth": "6.9 per cent"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "A more significant increase in overall imports compared to exports led to a rise in the overall trade deficit from USD 69.7 billion during April-December 2023 to USD 79.5 billion in the corresponding period of FY25.",
+    "kind": "numeric",
+    "metric": "overall trade deficit",
+    "subject": "India",
+    "value_raw": "69.7",
+    "unit_raw": "USD billion",
+    "period_raw": "April-December 2023",
+    "qualifiers": {
+     "geography": "india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "A more significant increase in overall imports compared to exports led to a rise in the overall trade deficit from USD 69.7 billion during April-December 2023 to USD 79.5 billion in the corresponding period of FY25.",
+    "kind": "numeric",
+    "metric": "overall trade deficit",
+    "subject": "India",
+    "value_raw": "79.5",
+    "unit_raw": "USD billion",
+    "period_raw": "April-December FY25",
+    "qualifiers": {
+     "geography": "india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "During April-December 2024, non-petroleum exports were up by 7.1 per cent.",
+    "kind": "numeric",
+    "metric": "non-petroleum exports growth",
+    "subject": "India non-petroleum exports",
+    "value_raw": "7.1",
+    "unit_raw": "per cent",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "geography": "india",
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "Over the same period, non-petroleum and non-gems and jewellery exports rose by 9.1 per cent.",
+    "kind": "numeric",
+    "metric": "non-petroleum and non-gems and jewellery exports growth",
+    "subject": "India exports",
+    "value_raw": "9.1",
+    "unit_raw": "per cent",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "geography": "india",
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "Specific sectors like drugs and pharmaceuticals, electronic goods, engineering goods, and chemicals saw an increase in exports, growing by 6.4 per cent, 28.6 per cent, 9.9 per cent, and 5 per cent, respectively, during April-December 2024 on a YoY basis.",
+    "kind": "numeric",
+    "metric": "exports growth of drugs and pharmaceuticals",
+    "subject": "drugs and pharmaceuticals",
+    "value_raw": "6.4",
+    "unit_raw": "per cent",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "geography": "india",
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "Specific sectors like drugs and pharmaceuticals, electronic goods, engineering goods, and chemicals saw an increase in exports, growing by 6.4 per cent, 28.6 per cent, 9.9 per cent, and 5 per cent, respectively, during April-December 2024 on a YoY basis.",
+    "kind": "numeric",
+    "metric": "exports growth of electronic goods",
+    "subject": "electronic goods",
+    "value_raw": "28.6",
+    "unit_raw": "per cent",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "geography": "india",
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "Specific sectors like drugs and pharmaceuticals, electronic goods, engineering goods, and chemicals saw an increase in exports, growing by 6.4 per cent, 28.6 per cent, 9.9 per cent, and 5 per cent, respectively, during April-December 2024 on a YoY basis.",
+    "kind": "numeric",
+    "metric": "exports growth of engineering goods",
+    "subject": "engineering goods",
+    "value_raw": "9.9",
+    "unit_raw": "per cent",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "geography": "india",
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "Specific sectors like drugs and pharmaceuticals, electronic goods, engineering goods, and chemicals saw an increase in exports, growing by 6.4 per cent, 28.6 per cent, 9.9 per cent, and 5 per cent, respectively, during April-December 2024 on a YoY basis.",
+    "kind": "numeric",
+    "metric": "exports growth of chemicals",
+    "subject": "chemicals",
+    "value_raw": "5",
+    "unit_raw": "per cent",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "geography": "india",
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "Textile exports53 also saw a YoY increase of 7.6 per cent during the same period.",
+    "kind": "numeric",
+    "metric": "textile exports growth",
+    "subject": "textiles",
+    "value_raw": "7.6",
+    "unit_raw": "per cent",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "geography": "india",
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "Overall, merchandise exports registered a modest growth of 1.6 per cent (YoY basis)",
+    "kind": "numeric",
+    "metric": "merchandise exports growth",
+    "subject": "merchandise exports",
+    "value_raw": "1.6",
+    "unit_raw": "per cent",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "geography": "india",
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "Merchandise imports grew by 5.2 per cent during April-December 2024.",
+    "kind": "numeric",
+    "metric": "merchandise imports growth",
+    "subject": "merchandise imports",
+    "value_raw": "5.2",
+    "unit_raw": "per cent",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "geography": "india",
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "This increase was largely due to a rise in non-oil, non-gold imports, which reached USD 352.1 billion in the first nine months of FY25 compared to USD 340.5 billion during the same period last year",
+    "kind": "numeric",
+    "metric": "non-oil, non-gold imports",
+    "subject": "non-oil, non-gold imports",
+    "value_raw": "352.1",
+    "unit_raw": "USD billion",
+    "period_raw": "first nine months of FY25",
+    "qualifiers": {
+     "geography": "india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "This increase was largely due to a rise in non-oil, non-gold imports, which reached USD 352.1 billion in the first nine months of FY25 compared to USD 340.5 billion during the same period last year",
+    "kind": "numeric",
+    "metric": "non-oil, non-gold imports",
+    "subject": "non-oil, non-gold imports",
+    "value_raw": "340.5",
+    "unit_raw": "USD billion",
+    "period_raw": "first nine months of FY24",
+    "qualifiers": {
+     "geography": "india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "The faster pace of increase in merchandise imports compared to exports contributed to the widening of the merchandise trade deficit to USD 210.8 billion in April-December 2024, compared to USD 189.7 billion in the same period last year.",
+    "kind": "numeric",
+    "metric": "merchandise trade deficit",
+    "subject": "merchandise trade",
+    "value_raw": "210.8",
+    "unit_raw": "USD billion",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "geography": "india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "The faster pace of increase in merchandise imports compared to exports contributed to the widening of the merchandise trade deficit to USD 210.8 billion in April-December 2024, compared to USD 189.7 billion in the same period last year.",
+    "kind": "numeric",
+    "metric": "merchandise trade deficit",
+    "subject": "merchandise trade",
+    "value_raw": "189.7",
+    "unit_raw": "USD billion",
+    "period_raw": "April-December 2023",
+    "qualifiers": {
+     "geography": "india"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 37,\n      \"quote\": \"a one standard deviation increase in uncertainty correlates with a 0.4 to 1.3 percentage point decrease in output growth.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"decrease in output growth per one standard deviation increase in uncertainty\",\n      \"subject\": \"output growth\",\n      \"value_raw\": \"0.4 to 1.3\",\n      \"unit_raw\": \"percentage point\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"source\": \"International Monetary Fund (IMF)\",\n        \"uncertainty_change\": \"one standard deviation increase\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 37,\n      \"quote\": \"These indices capture changes occurring in economies constituting about 71 per cent of global output.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of global output constituted by economies captured by global economic policy uncertainty indices\",\n      \"subject\": \"global output\",\n      \"value_raw\": \"71\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"basis\": \"purchasing power parity\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 37,\n      \"quote\": \"If the economies are accounted at market exchange rates the economies constitute roughly 80 per cent of the global economy.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of the global economy constituted by economies captured by global economic policy uncertainty indices\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"80\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"basis\": \"market exchange rates\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 39,\n      \"quote\": \"as 40 per cent of this trade passes through the Red Sea region.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of trade between Asia and Europe passing through the Red Sea region\",\n      \"subject\": \"trade between Asia and Europe\",\n      \"value_raw\": \"40\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 39,\n      \"quote\": \"Hormuz Strait, which channels 21 per cent of global petroleum liquid consumption, has disrupted energy trade and increased prices.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of global petroleum liquid consumption channeled through the Hormuz Strait\",\n      \"subject\": \"global petroleum liquid consumption\",\n      \"value_raw\": \"21\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 39,\n      \"quote\": \"affecting approximately 5 per cent of global maritime trade volumes that transit through it.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of global maritime trade volumes transiting through the Panama Canal\",\n      \"subject\": \"global maritime trade volumes\",\n      \"value_raw\": \"5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 39,\n      \"quote\": \"A report by the United Nations Conference on Trade and Development (UNCTAD)18 indicates that technical NTMs impact over 30 per cent of products and nearly 70 per cent of global trade.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of products impacted by technical NTMs\",\n      \"subject\": \"products\",\n      \"value_raw\": \"30\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"measure_type\": \"technical NTMs\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 39,\n      \"quote\": \"A report by the United Nations Conference on Trade and Development (UNCTAD)18 indicates that technical NTMs impact over 30 per cent of products and nearly 70 per cent of global trade.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of global trade impacted by technical NTMs\",\n      \"subject\": \"global trade\",\n      \"value_raw\": \"70\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"measure_type\": \"technical NTMs\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 40,\n      \"quote\": \"The World Trade Organisation (WTO) database shows a year-on-year (YoY) growth of 3.5 per cent and 3 per cent, respectively, in global merchandise export and import indices in Q3 of 2024 (seasonally adjusted, 2005 Q1=100).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"year-on-year growth in global merchandise export indices\",\n      \"subject\": \"global merchandise exports\",\n      \"value_raw\": \"3.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q3 2024\",\n      \"qualifiers\": {\n        \"seasonally_adjusted\": true,\n        \"base_period\": \"2005 Q1=100\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 40,\n      \"quote\": \"The World Trade Organisation (WTO) database shows a year-on-year (YoY) growth of 3.5 per cent and 3 per cent, respectively, in global merchandise export and import indices in Q3 of 2024 (seasonally adjusted, 2005 Q1=100).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"year-on-year growth in global merchandise import indices\",\n      \"subject\": \"global merchandise imports\",\n      \"value_raw\": \"3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q3 2024\",\n      \"qualifiers\": {\n        \"seasonally_adjusted\": true,\n        \"base_period\": \"2005 Q1=100\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 40,\n      \"quote\": \"Further, the global services exports and imports grew by 7.9 per cent and 6.7 per cent (YoY) during the same period.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"year-on-year growth in global services exports\",\n      \"subject\": \"global services exports\",\n      \"value_raw\": \"7.9\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q3 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 40,\n      \"quote\": \"Further, the global services exports and imports grew by 7.9 per cent and 6.7 per cent (YoY) during the same period.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"year-on-year growth in global services imports\",\n      \"subject\": \"global services imports\",\n      \"value_raw\": \"6.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q3 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 40,\n      \"quote\": \"As a result, global trade is set to exceed its 2022 record, reaching nearly USD 33 trillion in 2024.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"total global trade value\",\n      \"subject\": \"global trade\",\n      \"value_raw\": \"33\",\n      \"unit_raw\": \"USD trillion\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"status\": \"projection\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 40,\n      \"quote\": \"This record high is likely to be driven by a 7 per cent increase in services trade (YoY), while goods trade is projected to grow by about 2 per cent in 2024 but remain below its 2022 peak.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"year-on-year increase in services trade\",\n      \"subject\": \"services trade\",\n      \"value_raw\": \"7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"status\": \"projection\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"The number of regional trade agreements (RTAs) in effect has grown substantially, increasing from 22 in 1990 to 369 as of August 2024.21\",\n      \"kind\": \"numeric\",\n      \"metric\": \"number of regional trade agreements in effect\",\n      \"subject\": \"regional trade agreements\",\n      \"value_raw\": \"22\",\n      \"unit_raw\": null,\n      \"period_raw\": \"1990\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"The number of regional trade agreements (RTAs) in effect has grown substantially, increasing from 22 in 1990 to 369 as of August 2024.21\",\n      \"kind\": \"numeric\",\n      \"metric\": \"number of regional trade agreements in effect\",\n      \"subject\": \"regional trade agreements\",\n      \"value_raw\": \"369\",\n      \"unit_raw\": null,\n      \"period_raw\": \"August 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"For instance, between 2000 and 2024, the average tariff rates on dutiable items in India decreased from 48.9 per cent to 17.3 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"average tariff rates on dutiable items in India\",\n      \"subject\": \"dutiable items\",\n      \"value_raw\": \"48.9\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2000\",\n      \"qualifiers\": {\n        \"geography\": \"india\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"For instance, between 2000 and 2024, the average tariff rates on dutiable items in India decreased from 48.9 per cent to 17.3 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"average tariff rates on dutiable items in India\",\n      \"subject\": \"dutiable items\",\n      \"value_raw\": \"17.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"geography\": \"india\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"while in China, they fell from 16.4 per cent to 8.3 per cent.22\",\n      \"kind\": \"numeric\",\n      \"metric\": \"average tariff rates on dutiable items in China\",\n      \"subject\": \"dutiable items\",\n      \"value_raw\": \"16.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2000\",\n      \"qualifiers\": {\n        \"geography\": \"china\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"while in China, they fell from 16.4 per cent to 8.3 per cent.22\",\n      \"kind\": \"numeric\",\n      \"metric\": \"average tariff rates on dutiable items in China\",\n      \"subject\": \"dutiable items\",\n      \"value_raw\": \"8.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"geography\": \"china\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"Globally, the simple average MFN and preferential tariffs for agriculture dropped by approximately 3 per cent and 1.4 per cent, respectively, between 2012 and 2022.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"decline in simple average MFN tariffs for agriculture\",\n      \"subject\": \"agriculture\",\n      \"value_raw\": \"3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2012 to 2022\",\n      \"qualifiers\": {\n        \"tariff_type\": \"simple average MFN\",\n        \"geography\": \"global\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"Globally, the simple average MFN and preferential tariffs for agriculture dropped by approximately 3 per cent and 1.4 per cent, respectively, between 2012 and 2022.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"decline in simple average preferential tariffs for agriculture\",\n      \"subject\": \"agriculture\",\n      \"value_raw\": \"1.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2012 to 2022\",\n      \"qualifiers\": {\n        \"tariff_type\": \"simple average preferential\",\n        \"geography\": \"global\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"The simple average preferential tariffs decreased by about 1 per cent in the manufacturing sector.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"decrease in simple average preferential tariffs in the manufacturing sector\",\n      \"subject\": \"manufacturing sector\",\n      \"value_raw\": \"1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2012 to 2022\",\n      \"qualifiers\": {\n        \"tariff_type\": \"simple average preferential\",\n        \"geography\": \"global\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"The Global Trade Alert database28 shows that between 2020 and 2024, over 26,000 new restrictions related to trade and investments have been globally imposed.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"number of new restrictions related to trade and investments globally imposed\",\n      \"subject\": \"trade and investments restrictions\",\n      \"value_raw\": \"26,000\",\n      \"unit_raw\": null,\n      \"period_raw\": \"2020 to 2024\",\n      \"qualifiers\": {\n        \"geography\": \"global\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"The Technical Barriers to Trade (TBT) affect 31.6 per cent of the product lines, covering 67.1 per cent of the global trade (as of December 2024).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of product lines affected by Technical Barriers to Trade (TBT)\",\n      \"subject\": \"product lines\",\n      \"value_raw\": \"31.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"December 2024\",\n      \"qualifiers\": {\n        \"measure_type\": \"Technical Barriers to Trade (TBT)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"The Technical Barriers to Trade (TBT) affect 31.6 per cent of the product lines, covering 67.1 per cent of the global trade (as of December 2024).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of global trade covered by Technical Barriers to Trade (TBT)\",\n      \"subject\": \"global trade\",\n      \"value_raw\": \"67.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"December 2024\",\n      \"qualifiers\": {\n        \"measure_type\": \"Technical Barriers to Trade (TBT)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"This is followed by export-related measures, affecting 19.3 per cent of the product lines and covering 31.2 per cent of the global trade.29\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of product lines affected by export-related measures\",\n      \"subject\": \"product lines\",\n      \"value_raw\": \"19.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"measure_type\": \"export-related measures\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"This is followed by export-related measures, affecting 19.3 per cent of the product lines and covering 31.2 per cent of the global trade.29\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of global trade covered by export-related measures\",\n      \"subject\": \"global trade\",\n      \"value_raw\": \"31.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"measure_type\": \"export-related measures\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"The share of CBAM exports in total Indian exports to the EU has increased substantially from 6.3 per cent in 2014 to 10.5 per cent in 2023.38\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of CBAM exports in total Indian exports to the EU\",\n      \"subject\": \"Indian exports to the EU\",\n      \"value_raw\": \"6.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2014\",\n      \"qualifiers\": {\n        \"geography\": \"india\",\n        \"destination\": \"european union\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"The share of CBAM exports in total Indian exports to the EU has increased substantially from 6.3 per cent in 2014 to 10.5 per cent in 2023.38\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of CBAM exports in total Indian exports to the EU\",\n      \"subject\": \"Indian exports to the EU\",\n      \"value_raw\": \"10.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {\n        \"geography\": \"india\",\n        \"destination\": \"european union\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"2962.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"value of exports of iron and steel to the EU likely to be impacted by CBAM\",\n      \"subject\": \"Iron and steel\",\n      \"value_raw\": \"2962.6\",\n      \"unit_raw\": \"USD million\",\n      \"period_raw\": \"2014\",\n      \"qualifiers\": {\n        \"geography\": \"india\",\n        \"destination\": \"european union\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"5557.1\",\n      \"kind\": \"numeric\",\n      \"metric\": \"value of exports of iron and steel to the EU likely to be impacted by CBAM\",\n      \"subject\": \"Iron and steel\",\n      \"value_raw\": \"5557.1\",\n      \"unit_raw\": \"USD million\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {\n        \"geography\": \"india\",\n        \"destination\": \"european union\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"151.4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"value of exports of aluminium to the EU likely to be impacted by CBAM\",\n      \"subject\": \"Aluminium\",\n      \"value_raw\": \"151.4\",\n      \"unit_raw\": \"USD million\",\n      \"period_raw\": \"2014\",\n      \"qualifiers\": {\n        \"geography\": \"india\",\n        \"destination\": \"european union\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"1801\",\n      \"kind\": \"numeric\",\n      \"metric\": \"value of exports of aluminium to the EU likely to be impacted by CBAM\",\n      \"subject\": \"Aluminium\",\n      \"value_raw\": \"1801\",\n      \"unit_raw\": \"USD million\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {\n        \"geography\": \"india\",\n        \"destination\": \"european union\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"4.2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"value of exports of cement to the EU likely to be impacted by CBAM\",\n      \"subject\": \"Cement\",\n      \"value_raw\": \"4.2\",\n      \"unit_raw\": \"USD million\",\n      \"period_raw\": \"2014\",\n      \"qualifiers\": {\n        \"geography\": \"india\",\n        \"destination\": \"european union\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"8.3\",\n      \"kind\": \"numeric\",\n      \"metric\": \"value of exports of cement to the EU likely to be impacted by CBAM\",\n      \"subject\": \"Cement\",\n      \"value_raw\": \"8.3\",\n      \"unit_raw\": \"USD million\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {\n        \"geography\": \"india\",\n        \"destination\": \"european union\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"0.7\",\n      \"kind\": \"numeric\",\n      \"metric\": \"value of exports of fertilisers to the EU likely to be impacted by CBAM\",\n      \"subject\": \"Fertilisers\",\n      \"value_raw\": \"0.7\",\n      \"unit_raw\": \"USD million\",\n      \"period_raw\": \"2014\",\n      \"qualifiers\": {\n        \"geography\": \"india\",\n        \"destination\": \"european union\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"value of exports of fertilisers to the EU likely to be impacted by CBAM\",\n      \"subject\": \"Fertilisers\",\n      \"value_raw\": \"2\",\n      \"unit_raw\": \"USD million\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {\n        \"geography\": \"india\",\n        \"destination\": \"european union\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"According to the World Bank’s Relative CBAM Exposure Index39, India has a score of 0.03, reflecting a high exposure to CBAM.40\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Relative CBAM Exposure Index score\",\n      \"subject\": \"India\",\n      \"value_raw\": \"0.03\",\n      \"unit_raw\": null,\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"india\",\n        \"source\": \"World Bank\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 49,\n      \"quote\": \"For example, if the average number of NTMs applied to a product increases from 2.5 to 3.5 NTMs per product, FDI could increase by 12 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"increase in FDI when the average number of NTMs applied to a product increases from 2.5 to 3.5\",\n      \"subject\": \"foreign direct investment (FDI)\",\n      \"value_raw\": \"12\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"ntm_change\": \"2.5 to 3.5 NTMs per product\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 49,\n      \"quote\": \"India's total exports (merchandise+services) have shown positive momentum in the first nine months of FY25, reaching USD 602.6 billion, witnessing a YoY growth of 6 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"total exports (merchandise + services)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"602.6\",\n      \"",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:01-india-economic-survey-2024-25-excerpt-86f2e79a:b37"
+}

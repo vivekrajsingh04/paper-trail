@@ -20,6 +20,7 @@ import hashlib
 import json
 import os
 import threading
+import time
 from pathlib import Path
 
 import numpy as np
@@ -59,24 +60,48 @@ def _key(provider: str, model: str, text: str) -> str:
 def _embed_gemini(model: str, texts: list[str]) -> list[list[float]]:
     from google import genai
 
-    # Use the same key pool as completions. Reading GEMINI_API_KEY directly
-    # meant a run configured through the plural GEMINI_API_KEYS silently had no
-    # embeddings at all -- and because the caller swallowed the error, the whole
-    # semantic tier disappeared without a word.
-    from .llm import key_pool
+    # Embeddings are metered separately from completions and just as tightly,
+    # so they get the same treatment: rotate across every configured key, and
+    # back off rather than giving up on the first 429. A silent embedding
+    # failure disables the whole semantic tier, which is expensive to lose.
+    from .llm import _is_rate_limit, _retry_delay_from, key_pool
 
     pool = key_pool()
-    api_key = pool.keys[0] if len(pool) else (
-        os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
-    )
-    if not api_key:
+    keys = list(pool.keys) or [
+        k for k in (os.environ.get("GEMINI_API_KEY"), os.environ.get("GOOGLE_API_KEY")) if k
+    ]
+    if not keys:
         raise EmbeddingsUnavailable("no Gemini API key configured")
-    client = genai.Client(api_key=api_key)
+
+    # One client per key, built once: constructing them inside the loop left
+    # each one closed by the time the next batch used it.
+    clients = {k: genai.Client(api_key=k) for k in keys}
+
     out: list[list[float]] = []
     for i in range(0, len(texts), 100):
         batch = texts[i : i + 100]
-        resp = client.models.embed_content(model=model, contents=batch)
-        out.extend(list(e.values) for e in resp.embeddings)
+        last: Exception | None = None
+        for attempt in range(2):
+            for api_key in keys:
+                try:
+                    resp = clients[api_key].models.embed_content(
+                        model=model, contents=batch
+                    )
+                    out.extend(list(e.values) for e in resp.embeddings)
+                    last = None
+                    break
+                except Exception as exc:  # noqa: BLE001
+                    last = exc
+                    if not _is_rate_limit(exc):
+                        raise
+            if last is None:
+                break
+            if attempt == 0:
+                time.sleep(min(_retry_delay_from(last, 0), 30.0))
+        if last is not None:
+            raise EmbeddingsUnavailable(
+                f"every key rate-limited on embeddings: {str(last)[:120]}"
+            )
     return out
 
 
@@ -141,7 +166,7 @@ LAST_ERROR: str | None = None
 
 
 def semantic_pairs(
-    keys: list[str], threshold: float = 0.80, top_k: int = 10
+    keys: list[str], threshold: float = 0.70, top_k: int = 16
 ) -> list[tuple[str, str, float]]:
     """Pairs of metric names that are close in meaning.
 

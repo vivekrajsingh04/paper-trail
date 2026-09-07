@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "The terms 'employees' and 'workers' are used interchangeably in this context to measure the same percentage of personnel undergoing performance and career development reviews."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"The terms 'employees' and 'workers' are used interchangeably in this context to measure the same percentage of personnel undergoing performance and career development reviews.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

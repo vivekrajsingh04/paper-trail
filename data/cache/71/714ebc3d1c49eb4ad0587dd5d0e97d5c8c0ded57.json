@@ -1,0 +1,244 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 98,
+    "quote": "Within India\n81,355.38",
+    "kind": "numeric",
+    "metric": "Revenue from operations within India",
+    "subject": "Group",
+    "value_raw": "81,355.38",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "geography": "within india",
+     "segment": "logistics services"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "Within India\n72,212.15",
+    "kind": "numeric",
+    "metric": "Revenue from operations within India",
+    "subject": "Group",
+    "value_raw": "72,212.15",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "geography": "within india",
+     "segment": "logistics services"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "Outside India\n94.13",
+    "kind": "numeric",
+    "metric": "Revenue from operations outside India",
+    "subject": "Group",
+    "value_raw": "94.13",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "geography": "outside india",
+     "segment": "logistics services"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "Outside India\n380.42",
+    "kind": "numeric",
+    "metric": "Revenue from operations outside India",
+    "subject": "Group",
+    "value_raw": "380.42",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "geography": "outside india",
+     "segment": "logistics services"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "81,415.38",
+    "kind": "numeric",
+    "metric": "Total revenue from operations after adjustment and elimination",
+    "subject": "Group",
+    "value_raw": "81,415.38",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "segment": "logistics services"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "72,253.01",
+    "kind": "numeric",
+    "metric": "Total revenue from operations after adjustment and elimination",
+    "subject": "Group",
+    "value_raw": "72,253.01",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "segment": "logistics services"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "56,617.65",
+    "kind": "numeric",
+    "metric": "Non-current operating assets within India",
+    "subject": "Group",
+    "value_raw": "56,617.65",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "geography": "within india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "43,781.04",
+    "kind": "numeric",
+    "metric": "Non-current operating assets within India",
+    "subject": "Group",
+    "value_raw": "43,781.04",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "geography": "within india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "55,028.35",
+    "kind": "numeric",
+    "metric": "Total non-current operating assets after adjustment and elimination",
+    "subject": "Group",
+    "value_raw": "55,028.35",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "42,504.27",
+    "kind": "numeric",
+    "metric": "Total non-current operating assets after adjustment and elimination",
+    "subject": "Group",
+    "value_raw": "42,504.27",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "3,209.76",
+    "kind": "numeric",
+    "metric": "Carrying amount of the investment",
+    "subject": "FALCON AUTOTECH Private Limited",
+    "value_raw": "3,209.76",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "2,622.46",
+    "kind": "numeric",
+    "metric": "Carrying amount of the investment",
+    "subject": "FALCON AUTOTECH Private Limited",
+    "value_raw": "2,622.46",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "40.98%",
+    "kind": "numeric",
+    "metric": "Proportion of the Group's ownership",
+    "subject": "FALCON AUTOTECH Private Limited",
+    "value_raw": "40.98",
+    "unit_raw": "%",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "basis": "non-diluted basis"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 99,
+    "quote": "96,195.00",
+    "kind": "numeric",
+    "metric": "Net Assets, i.e., total assets minus total liabilities amount",
+    "subject": "Delhivery Limited",
+    "value_raw": "96,195.00",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "entity_type": "parent"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 99,
+    "quote": "95,703.27",
+    "kind": "numeric",
+    "metric": "Net Assets, i.e., total assets minus total liabilities amount",
+    "subject": "Delhivery Limited",
+    "value_raw": "95,703.27",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "entity_type": "parent"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 99,
+    "quote": "91,446.46",
+    "kind": "numeric",
+    "metric": "Total net assets, i.e., total assets minus total liabilities amount",
+    "subject": "Group",
+    "value_raw": "91,446.46",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "total": "consolidated"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 99,
+    "quote": "91,771.37",
+    "kind": "numeric",
+    "metric": "Total net assets, i.e., total assets minus total liabilities amount",
+    "subject": "Group",
+    "value_raw": "91,771.37",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "total": "consolidated"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 98,\n      \"quote\": \"Within India\\n81,355.38\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from operations within India\",\n      \"subject\": \"Group\",\n      \"value_raw\": \"81,355.38\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"geography\": \"within india\",\n        \"segment\": \"logistics services\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"Within India\\n72,212.15\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from operations within India\",\n      \"subject\": \"Group\",\n      \"value_raw\": \"72,212.15\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"geography\": \"within india\",\n        \"segment\": \"logistics services\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"Outside India\\n94.13\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from operations outside India\",\n      \"subject\": \"Group\",\n      \"value_raw\": \"94.13\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"geography\": \"outside india\",\n        \"segment\": \"logistics services\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"Outside India\\n380.42\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from operations outside India\",\n      \"subject\": \"Group\",\n      \"value_raw\": \"380.42\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"geography\": \"outside india\",\n        \"segment\": \"logistics services\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"81,415.38\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total revenue from operations after adjustment and elimination\",\n      \"subject\": \"Group\",\n      \"value_raw\": \"81,415.38\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"segment\": \"logistics services\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"72,253.01\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total revenue from operations after adjustment and elimination\",\n      \"subject\": \"Group\",\n      \"value_raw\": \"72,253.01\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"segment\": \"logistics services\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"56,617.65\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Non-current operating assets within India\",\n      \"subject\": \"Group\",\n      \"value_raw\": \"56,617.65\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"geography\": \"within india\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"43,781.04\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Non-current operating assets within India\",\n      \"subject\": \"Group\",\n      \"value_raw\": \"43,781.04\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"geography\": \"within india\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"55,028.35\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total non-current operating assets after adjustment and elimination\",\n      \"subject\": \"Group\",\n      \"value_raw\": \"55,028.35\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"42,504.27\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total non-current operating assets after adjustment and elimination\",\n      \"subject\": \"Group\",\n      \"value_raw\": \"42,504.27\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"3,209.76\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Carrying amount of the investment\",\n      \"subject\": \"FALCON AUTOTECH Private Limited\",\n      \"value_raw\": \"3,209.76\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"2,622.46\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Carrying amount of the investment\",\n      \"subject\": \"FALCON AUTOTECH Private Limited\",\n      \"value_raw\": \"2,622.46\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"40.98%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Proportion of the Group's ownership\",\n      \"subject\": \"FALCON AUTOTECH Private Limited\",\n      \"value_raw\": \"40.98\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"basis\": \"non-diluted basis\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 99,\n      \"quote\": \"96,195.00\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net Assets, i.e., total assets minus total liabilities amount\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"96,195.00\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"entity_type\": \"parent\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 99,\n      \"quote\": \"95,703.27\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net Assets, i.e., total assets minus total liabilities amount\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"95,703.27\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"entity_type\": \"parent\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 99,\n      \"quote\": \"91,446.46\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total net assets, i.e., total assets minus total liabilities amount\",\n      \"subject\": \"Group\",\n      \"value_raw\": \"91,446.46\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"total\": \"consolidated\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 99,\n      \"quote\": \"91,771.37\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total net assets, i.e., total assets minus total liabilities amount\",\n      \"subject\": \"Group\",\n      \"value_raw\": \"91,771.37\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"total\": \"consolidated\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-delhivery-annual-report-fy24-excerpt-de6d79ad:b98"
+}

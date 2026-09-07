@@ -1,0 +1,210 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 43,
+    "quote": "3,638",
+    "kind": "numeric",
+    "metric": "Nominal GDP",
+    "subject": "India",
+    "value_raw": "3,638",
+    "unit_raw": "in billions of U.S. dollars",
+    "period_raw": "2023/24",
+    "qualifiers": {
+     "frequency": "annual",
+     "fiscal_year": "April-March"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "2,530",
+    "kind": "numeric",
+    "metric": "GDP per capita",
+    "subject": "India",
+    "value_raw": "2,530",
+    "unit_raw": "U.S. dollars",
+    "period_raw": "2023/24",
+    "qualifiers": {
+     "basis": "IMF staff est.",
+     "fiscal_year": "April-March"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "1.44",
+    "kind": "numeric",
+    "metric": "Total population",
+    "subject": "India",
+    "value_raw": "1.44",
+    "unit_raw": "in billions",
+    "period_raw": "2023/24",
+    "qualifiers": {
+     "fiscal_year": "April-March"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "36.4",
+    "kind": "numeric",
+    "metric": "Urban population",
+    "subject": "India",
+    "value_raw": "36.4",
+    "unit_raw": "percent of total",
+    "period_raw": "2023/24",
+    "qualifiers": {
+     "fiscal_year": "April-March"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "72.0",
+    "kind": "numeric",
+    "metric": "Life expectancy at birth",
+    "subject": "India",
+    "value_raw": "72.0",
+    "unit_raw": "years",
+    "period_raw": "2023/24",
+    "qualifiers": {
+     "fiscal_year": "April-March"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "5.3",
+    "kind": "numeric",
+    "metric": "Poverty rate $3 a day",
+    "subject": "India",
+    "value_raw": "5.3",
+    "unit_raw": "percent of population",
+    "period_raw": "2022",
+    "qualifiers": {
+     "ppp_base": "2021 PPP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "13.7",
+    "kind": "numeric",
+    "metric": "Undernourished",
+    "subject": "India",
+    "value_raw": "13.7",
+    "unit_raw": "percent of population",
+    "period_raw": "2022",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "25.5",
+    "kind": "numeric",
+    "metric": "Gini index",
+    "subject": "India",
+    "value_raw": "25.5",
+    "unit_raw": null,
+    "period_raw": "2022",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "9.7",
+    "kind": "numeric",
+    "metric": "Real GDP (at market prices) growth",
+    "subject": "India",
+    "value_raw": "9.7",
+    "unit_raw": "in percent",
+    "period_raw": "2021/22",
+    "qualifiers": {
+     "status": "Est.",
+     "fiscal_year": "April-March"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "7.6",
+    "kind": "numeric",
+    "metric": "Real GDP (at market prices) growth",
+    "subject": "India",
+    "value_raw": "7.6",
+    "unit_raw": "in percent",
+    "period_raw": "2022/23",
+    "qualifiers": {
+     "status": "Est.",
+     "fiscal_year": "April-March"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "9.2",
+    "kind": "numeric",
+    "metric": "Real GDP (at market prices) growth",
+    "subject": "India",
+    "value_raw": "9.2",
+    "unit_raw": "in percent",
+    "period_raw": "2023/24",
+    "qualifiers": {
+     "status": "Est.",
+     "fiscal_year": "April-March"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 43,
+    "quote": "6.5",
+    "kind": "numeric",
+    "metric": "Real GDP (at market prices) growth",
+    "subject": "India",
+    "value_raw": "6.5",
+    "unit_raw": "in percent",
+    "period_raw": "2024/25",
+    "qualifiers": {
+     "status": "Projections",
+     "fiscal_year": "April-March"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 44,
+    "quote": "-38.7",
+    "kind": "numeric",
+    "metric": "Current account balance",
+    "subject": "India",
+    "value_raw": "-38.7",
+    "unit_raw": "In billions of U.S. dollars",
+    "period_raw": "2021/22",
+    "qualifiers": {
+     "fiscal_year": "April-March",
+     "basis": "BPM6"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 44,
+    "quote": "-67.0",
+    "kind": "numeric",
+    "metric": "Current account balance",
+    "subject": "India",
+    "value_raw": "-67.0",
+    "unit_raw": "In billions of U.S. dollars",
+    "period_raw": "2022/23",
+    "qualifiers": {
+     "fiscal_year": "April-March",
+     "basis": "BPM6"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 43,\n      \"quote\": \"3,638\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Nominal GDP\",\n      \"subject\": \"India\",\n      \"value_raw\": \"3,638\",\n      \"unit_raw\": \"in billions of U.S. dollars\",\n      \"period_raw\": \"2023/24\",\n      \"qualifiers\": {\n        \"frequency\": \"annual\",\n        \"fiscal_year\": \"April-March\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"2,530\",\n      \"kind\": \"numeric\",\n      \"metric\": \"GDP per capita\",\n      \"subject\": \"India\",\n      \"value_raw\": \"2,530\",\n      \"unit_raw\": \"U.S. dollars\",\n      \"period_raw\": \"2023/24\",\n      \"qualifiers\": {\n        \"basis\": \"IMF staff est.\",\n        \"fiscal_year\": \"April-March\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"1.44\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total population\",\n      \"subject\": \"India\",\n      \"value_raw\": \"1.44\",\n      \"unit_raw\": \"in billions\",\n      \"period_raw\": \"2023/24\",\n      \"qualifiers\": {\n        \"fiscal_year\": \"April-March\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"36.4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Urban population\",\n      \"subject\": \"India\",\n      \"value_raw\": \"36.4\",\n      \"unit_raw\": \"percent of total\",\n      \"period_raw\": \"2023/24\",\n      \"qualifiers\": {\n        \"fiscal_year\": \"April-March\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"72.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Life expectancy at birth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"72.0\",\n      \"unit_raw\": \"years\",\n      \"period_raw\": \"2023/24\",\n      \"qualifiers\": {\n        \"fiscal_year\": \"April-March\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"5.3\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Poverty rate $3 a day\",\n      \"subject\": \"India\",\n      \"value_raw\": \"5.3\",\n      \"unit_raw\": \"percent of population\",\n      \"period_raw\": \"2022\",\n      \"qualifiers\": {\n        \"ppp_base\": \"2021 PPP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"13.7\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Undernourished\",\n      \"subject\": \"India\",\n      \"value_raw\": \"13.7\",\n      \"unit_raw\": \"percent of population\",\n      \"period_raw\": \"2022\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"25.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Gini index\",\n      \"subject\": \"India\",\n      \"value_raw\": \"25.5\",\n      \"unit_raw\": null,\n      \"period_raw\": \"2022\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"9.7\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Real GDP (at market prices) growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"9.7\",\n      \"unit_raw\": \"in percent\",\n      \"period_raw\": \"2021/22\",\n      \"qualifiers\": {\n        \"status\": \"Est.\",\n        \"fiscal_year\": \"April-March\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"7.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Real GDP (at market prices) growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"7.6\",\n      \"unit_raw\": \"in percent\",\n      \"period_raw\": \"2022/23\",\n      \"qualifiers\": {\n        \"status\": \"Est.\",\n        \"fiscal_year\": \"April-March\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"9.2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Real GDP (at market prices) growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"9.2\",\n      \"unit_raw\": \"in percent\",\n      \"period_raw\": \"2023/24\",\n      \"qualifiers\": {\n        \"status\": \"Est.\",\n        \"fiscal_year\": \"April-March\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 43,\n      \"quote\": \"6.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Real GDP (at market prices) growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.5\",\n      \"unit_raw\": \"in percent\",\n      \"period_raw\": \"2024/25\",\n      \"qualifiers\": {\n        \"status\": \"Projections\",\n        \"fiscal_year\": \"April-March\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 44,\n      \"quote\": \"-38.7\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Current account balance\",\n      \"subject\": \"India\",\n      \"value_raw\": \"-38.7\",\n      \"unit_raw\": \"In billions of U.S. dollars\",\n      \"period_raw\": \"2021/22\",\n      \"qualifiers\": {\n        \"fiscal_year\": \"April-March\",\n        \"basis\": \"BPM6\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 44,\n      \"quote\": \"-67.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Current account balance\",\n      \"subject\": \"India\",\n      \"value_raw\": \"-67.0\",\n      \"unit_raw\": \"In billions of U.S. dollars\",\n      \"period_raw\": \"2022/23\",\n      \"qualifiers\": {\n        \"fiscal_year\": \"April-March\",\n        \"basis\": \"BPM6\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:03-imf-india-2025-article-iv-excerpt-f6d3cfec:b39"
+}

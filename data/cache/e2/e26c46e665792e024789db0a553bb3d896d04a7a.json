@@ -1,0 +1,220 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 94,
+    "quote": "6.8",
+    "kind": "numeric",
+    "metric": "Consumer Price Index (CPI) [All India] Rural General Index (All Groups) y-o-y change",
+    "subject": "Consumer Price Index (CPI) [All India] Rural",
+    "value_raw": "6.8",
+    "unit_raw": "%",
+    "period_raw": "2022-23",
+    "qualifiers": {
+     "area": "rural",
+     "index_type": "general index (all groups)",
+     "geography": "all india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 94,
+    "quote": "5.6",
+    "kind": "numeric",
+    "metric": "Consumer Price Index (CPI) [All India] Rural General Index (All Groups) y-o-y change",
+    "subject": "Consumer Price Index (CPI) [All India] Rural",
+    "value_raw": "5.6",
+    "unit_raw": "%",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "area": "rural",
+     "index_type": "general index (all groups)",
+     "geography": "all india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 94,
+    "quote": "5.0",
+    "kind": "numeric",
+    "metric": "Consumer Price Index (CPI) [All India] Rural General Index (All Groups) y-o-y change",
+    "subject": "Consumer Price Index (CPI) [All India] Rural",
+    "value_raw": "5.0",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "area": "rural",
+     "index_type": "general index (all groups)",
+     "geography": "all india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 94,
+    "quote": "1.7",
+    "kind": "numeric",
+    "metric": "Wholesale Price Index (2011-12=100) All Commodities y-o-y change",
+    "subject": "Wholesale Price Index",
+    "value_raw": "1.7",
+    "unit_raw": "%",
+    "period_raw": "2016-17",
+    "qualifiers": {
+     "index_type": "all commodities",
+     "base_period": "2011-12=100"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 94,
+    "quote": "2.9",
+    "kind": "numeric",
+    "metric": "Wholesale Price Index (2011-12=100) All Commodities y-o-y change",
+    "subject": "Wholesale Price Index",
+    "value_raw": "2.9",
+    "unit_raw": "%",
+    "period_raw": "2017-18",
+    "qualifiers": {
+     "index_type": "all commodities",
+     "base_period": "2011-12=100"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 94,
+    "quote": "-12.9",
+    "kind": "numeric",
+    "metric": "Reserve Money (RM) y-o-y change",
+    "subject": "Reserve Money (RM)",
+    "value_raw": "-12.9",
+    "unit_raw": "%",
+    "period_raw": "2016-17^",
+    "qualifiers": {
+     "note": "March 31, 2017, over April 1, 2016, barring RM and its components"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 94,
+    "quote": "27.3",
+    "kind": "numeric",
+    "metric": "Reserve Money (RM) y-o-y change",
+    "subject": "Reserve Money (RM)",
+    "value_raw": "27.3",
+    "unit_raw": "%",
+    "period_raw": "2017-18",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 95,
+    "quote": "97,284.2",
+    "kind": "numeric",
+    "metric": "Private Sector Public and Rights Issues Amount",
+    "subject": "Private Sector",
+    "value_raw": "97,284.2",
+    "unit_raw": "₹ crore",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "market": "primary market",
+     "category": "public and rights issues",
+     "sector": "private sector"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 95,
+    "quote": "218,120.1",
+    "kind": "numeric",
+    "metric": "Private Sector Public and Rights Issues Amount",
+    "subject": "Private Sector",
+    "value_raw": "218,120.1",
+    "unit_raw": "₹ crore",
+    "period_raw": "2024-25 (P)",
+    "qualifiers": {
+     "market": "primary market",
+     "category": "public and rights issues",
+     "sector": "private sector",
+     "status": "provisional"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 95,
+    "quote": "77,414.9",
+    "kind": "numeric",
+    "metric": "BSE Sensex End-Period",
+    "subject": "BSE Sensex",
+    "value_raw": "77,414.9",
+    "unit_raw": null,
+    "period_raw": "2024-25 (P)",
+    "qualifiers": {
+     "exchange": "BSE",
+     "indicator": "sensex end-period"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 96,
+    "quote": "7.6",
+    "kind": "numeric",
+    "metric": "Centre Gross Fiscal Deficit as per cent of GDP",
+    "subject": "Centre",
+    "value_raw": "7.6",
+    "unit_raw": "%",
+    "period_raw": "1990-91",
+    "qualifiers": {
+     "level": "centre",
+     "indicator": "gross fiscal deficit"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 96,
+    "quote": "5.5",
+    "kind": "numeric",
+    "metric": "Centre Gross Fiscal Deficit as per cent of GDP",
+    "subject": "Centre",
+    "value_raw": "5.5",
+    "unit_raw": "%",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "level": "centre",
+     "indicator": "gross fiscal deficit"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 97,
+    "quote": "5,411",
+    "kind": "numeric",
+    "metric": "Total Disbursements of Central and State Governments",
+    "subject": "Central and State Governments",
+    "value_raw": "5,411",
+    "unit_raw": "₹ thousand crore",
+    "period_raw": "2019-20",
+    "qualifiers": {
+     "aggregate": "combined receipts and disbursements"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 98,
+    "quote": "296,300",
+    "kind": "numeric",
+    "metric": "Exports, f.o.b.",
+    "subject": "India",
+    "value_raw": "296,300",
+    "unit_raw": "US$ million",
+    "period_raw": "2020-21",
+    "qualifiers": {
+     "account": "current account"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 94,\n      \"quote\": \"6.8\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Consumer Price Index (CPI) [All India] Rural General Index (All Groups) y-o-y change\",\n      \"subject\": \"Consumer Price Index (CPI) [All India] Rural\",\n      \"value_raw\": \"6.8\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2022-23\",\n      \"qualifiers\": {\n        \"area\": \"rural\",\n        \"index_type\": \"general index (all groups)\",\n        \"geography\": \"all india\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 94,\n      \"quote\": \"5.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Consumer Price Index (CPI) [All India] Rural General Index (All Groups) y-o-y change\",\n      \"subject\": \"Consumer Price Index (CPI) [All India] Rural\",\n      \"value_raw\": \"5.6\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"area\": \"rural\",\n        \"index_type\": \"general index (all groups)\",\n        \"geography\": \"all india\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 94,\n      \"quote\": \"5.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Consumer Price Index (CPI) [All India] Rural General Index (All Groups) y-o-y change\",\n      \"subject\": \"Consumer Price Index (CPI) [All India] Rural\",\n      \"value_raw\": \"5.0\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"area\": \"rural\",\n        \"index_type\": \"general index (all groups)\",\n        \"geography\": \"all india\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 94,\n      \"quote\": \"1.7\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Wholesale Price Index (2011-12=100) All Commodities y-o-y change\",\n      \"subject\": \"Wholesale Price Index\",\n      \"value_raw\": \"1.7\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2016-17\",\n      \"qualifiers\": {\n        \"index_type\": \"all commodities\",\n        \"base_period\": \"2011-12=100\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 94,\n      \"quote\": \"2.9\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Wholesale Price Index (2011-12=100) All Commodities y-o-y change\",\n      \"subject\": \"Wholesale Price Index\",\n      \"value_raw\": \"2.9\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2017-18\",\n      \"qualifiers\": {\n        \"index_type\": \"all commodities\",\n        \"base_period\": \"2011-12=100\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 94,\n      \"quote\": \"-12.9\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Reserve Money (RM) y-o-y change\",\n      \"subject\": \"Reserve Money (RM)\",\n      \"value_raw\": \"-12.9\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2016-17^\",\n      \"qualifiers\": {\n        \"note\": \"March 31, 2017, over April 1, 2016, barring RM and its components\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 94,\n      \"quote\": \"27.3\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Reserve Money (RM) y-o-y change\",\n      \"subject\": \"Reserve Money (RM)\",\n      \"value_raw\": \"27.3\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2017-18\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 95,\n      \"quote\": \"97,284.2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Private Sector Public and Rights Issues Amount\",\n      \"subject\": \"Private Sector\",\n      \"value_raw\": \"97,284.2\",\n      \"unit_raw\": \"₹ crore\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"market\": \"primary market\",\n        \"category\": \"public and rights issues\",\n        \"sector\": \"private sector\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 95,\n      \"quote\": \"218,120.1\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Private Sector Public and Rights Issues Amount\",\n      \"subject\": \"Private Sector\",\n      \"value_raw\": \"218,120.1\",\n      \"unit_raw\": \"₹ crore\",\n      \"period_raw\": \"2024-25 (P)\",\n      \"qualifiers\": {\n        \"market\": \"primary market\",\n        \"category\": \"public and rights issues\",\n        \"sector\": \"private sector\",\n        \"status\": \"provisional\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 95,\n      \"quote\": \"77,414.9\",\n      \"kind\": \"numeric\",\n      \"metric\": \"BSE Sensex End-Period\",\n      \"subject\": \"BSE Sensex\",\n      \"value_raw\": \"77,414.9\",\n      \"unit_raw\": null,\n      \"period_raw\": \"2024-25 (P)\",\n      \"qualifiers\": {\n        \"exchange\": \"BSE\",\n        \"indicator\": \"sensex end-period\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 96,\n      \"quote\": \"7.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Centre Gross Fiscal Deficit as per cent of GDP\",\n      \"subject\": \"Centre\",\n      \"value_raw\": \"7.6\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"1990-91\",\n      \"qualifiers\": {\n        \"level\": \"centre\",\n        \"indicator\": \"gross fiscal deficit\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 96,\n      \"quote\": \"5.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Centre Gross Fiscal Deficit as per cent of GDP\",\n      \"subject\": \"Centre\",\n      \"value_raw\": \"5.5\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"level\": \"centre\",\n        \"indicator\": \"gross fiscal deficit\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 97,\n      \"quote\": \"5,411\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total Disbursements of Central and State Governments\",\n      \"subject\": \"Central and State Governments\",\n      \"value_raw\": \"5,411\",\n      \"unit_raw\": \"₹ thousand crore\",\n      \"period_raw\": \"2019-20\",\n      \"qualifiers\": {\n        \"aggregate\": \"combined receipts and disbursements\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 98,\n      \"quote\": \"296,300\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Exports, f.o.b.\",\n      \"subject\": \"India\",\n      \"value_raw\": \"296,300\",\n      \"unit_raw\": \"US$ million\",\n      \"period_raw\": \"2020-21\",\n      \"qualifiers\": {\n        \"account\": \"current account\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-rbi-annual-report-2024-25-excerpt-73209a2c:b94"
+}

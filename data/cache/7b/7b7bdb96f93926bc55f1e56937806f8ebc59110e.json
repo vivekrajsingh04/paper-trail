@@ -1,0 +1,766 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 83,
+    "quote": "Vehicle loan from bank (Secured) (refer note (a) below)\n401.84\n1,144.07",
+    "kind": "numeric",
+    "metric": "Non-current borrowings - Vehicle loan from bank (Secured)",
+    "subject": "Delhivery Limited",
+    "value_raw": "401.84",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "classification": "non-current",
+     "secured": "yes"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Vehicle loan from bank (Secured) (refer note (a) below)\n401.84\n1,144.07",
+    "kind": "numeric",
+    "metric": "Non-current borrowings - Vehicle loan from bank (Secured)",
+    "subject": "Delhivery Limited",
+    "value_raw": "1,144.07",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "classification": "non-current",
+     "secured": "yes"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Vehicle loan from bank (refer note (a) below)\n851.82\n844.67",
+    "kind": "numeric",
+    "metric": "Current maturity of long term borrowings - Vehicle loan from bank",
+    "subject": "Delhivery Limited",
+    "value_raw": "851.82",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "classification": "current maturity of long term borrowings"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Vehicle loan from bank (refer note (a) below)\n851.82\n844.67",
+    "kind": "numeric",
+    "metric": "Current maturity of long term borrowings - Vehicle loan from bank",
+    "subject": "Delhivery Limited",
+    "value_raw": "844.67",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "classification": "current maturity of long term borrowings"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Working capital demand loan\n2.32",
+    "kind": "numeric",
+    "metric": "Current maturity of long term borrowings - Working capital demand loan",
+    "subject": "Delhivery Limited",
+    "value_raw": "2.32",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "classification": "current maturity of long term borrowings"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Secured Loan\n2,249.10\n2,919.10",
+    "kind": "numeric",
+    "metric": "Unused line of credit - Secured Loan",
+    "subject": "Delhivery Limited Group",
+    "value_raw": "2,249.10",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "facility_type": "secured loan"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Secured Loan\n2,249.10\n2,919.10",
+    "kind": "numeric",
+    "metric": "Unused line of credit - Secured Loan",
+    "subject": "Delhivery Limited Group",
+    "value_raw": "2,919.10",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "facility_type": "secured loan"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Bill discounting\n500.00\n750.00",
+    "kind": "numeric",
+    "metric": "Unused line of credit - Bill discounting",
+    "subject": "Delhivery Limited Group",
+    "value_raw": "500.00",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "facility_type": "bill discounting"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Bill discounting\n500.00\n750.00",
+    "kind": "numeric",
+    "metric": "Unused line of credit - Bill discounting",
+    "subject": "Delhivery Limited Group",
+    "value_raw": "750.00",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "facility_type": "bill discounting"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Interest accrued and not due on borrowings\n5.66\n7.68",
+    "kind": "numeric",
+    "metric": "Other financial liabilities - Interest accrued and not due on borrowings",
+    "subject": "Delhivery Limited",
+    "value_raw": "5.66",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Interest accrued and not due on borrowings\n5.66\n7.68",
+    "kind": "numeric",
+    "metric": "Other financial liabilities - Interest accrued and not due on borrowings",
+    "subject": "Delhivery Limited",
+    "value_raw": "7.68",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Capital creditors\n425.85\n228.74",
+    "kind": "numeric",
+    "metric": "Other financial liabilities - Capital creditors",
+    "subject": "Delhivery Limited",
+    "value_raw": "425.85",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Capital creditors\n425.85\n228.74",
+    "kind": "numeric",
+    "metric": "Other financial liabilities - Capital creditors",
+    "subject": "Delhivery Limited",
+    "value_raw": "228.74",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Employee welfare fund*\n30.35\n27.14",
+    "kind": "numeric",
+    "metric": "Other financial liabilities - Employee welfare fund",
+    "subject": "Delhivery Limited",
+    "value_raw": "30.35",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Advance from Customers\n397.51\n408.28",
+    "kind": "numeric",
+    "metric": "Other current liabilities - Advance from Customers",
+    "subject": "Delhivery Limited",
+    "value_raw": "397.51",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Advance from Customers\n397.51\n408.28",
+    "kind": "numeric",
+    "metric": "Other current liabilities - Advance from Customers",
+    "subject": "Delhivery Limited",
+    "value_raw": "408.28",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Withholding tax payable\n201.81\n331.29",
+    "kind": "numeric",
+    "metric": "Other current liabilities - Withholding tax payable",
+    "subject": "Delhivery Limited",
+    "value_raw": "201.81",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Withholding tax payable\n201.81\n331.29",
+    "kind": "numeric",
+    "metric": "Other current liabilities - Withholding tax payable",
+    "subject": "Delhivery Limited",
+    "value_raw": "331.29",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Provident Fund payable\n102.44\n87.74",
+    "kind": "numeric",
+    "metric": "Other current liabilities - Provident Fund payable",
+    "subject": "Delhivery Limited",
+    "value_raw": "102.44",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Provident Fund payable\n102.44\n87.74",
+    "kind": "numeric",
+    "metric": "Other current liabilities - Provident Fund payable",
+    "subject": "Delhivery Limited",
+    "value_raw": "87.74",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Total outstanding dues of micro and small enterprises\n24.41\n31.24",
+    "kind": "numeric",
+    "metric": "Trade payables - Total outstanding dues of micro and small enterprises",
+    "subject": "Delhivery Limited",
+    "value_raw": "24.41",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Total outstanding dues of micro and small enterprises\n24.41\n31.24",
+    "kind": "numeric",
+    "metric": "Trade payables - Total outstanding dues of micro and small enterprises",
+    "subject": "Delhivery Limited",
+    "value_raw": "31.24",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Total outstanding dues of creditors other than micro and small enterprises\n7,949.32\n7,842.32",
+    "kind": "numeric",
+    "metric": "Trade payables - Total outstanding dues of creditors other than micro and small enterprises",
+    "subject": "Delhivery Limited",
+    "value_raw": "7,949.32",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Total outstanding dues of creditors other than micro and small enterprises\n7,949.32\n7,842.32",
+    "kind": "numeric",
+    "metric": "Trade payables - Total outstanding dues of creditors other than micro and small enterprises",
+    "subject": "Delhivery Limited",
+    "value_raw": "7,842.32",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Revenue from services*\n81,415.38\n72,236.47",
+    "kind": "numeric",
+    "metric": "Revenue from contracts with customers - Sale of services",
+    "subject": "Delhivery Limited",
+    "value_raw": "81,415.38",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "revenue_type": "sale of services"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Revenue from services*\n81,415.38\n72,236.47",
+    "kind": "numeric",
+    "metric": "Revenue from contracts with customers - Sale of services",
+    "subject": "Delhivery Limited",
+    "value_raw": "72,236.47",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "revenue_type": "sale of services"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Revenue from Express Parcel services\n50,765.87\n45,522.22",
+    "kind": "numeric",
+    "metric": "Revenue from Express Parcel services",
+    "subject": "Delhivery Limited",
+    "value_raw": "50,765.87",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "service_type": "express parcel"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Revenue from Express Parcel services\n50,765.87\n45,522.22",
+    "kind": "numeric",
+    "metric": "Revenue from Express Parcel services",
+    "subject": "Delhivery Limited",
+    "value_raw": "45,522.22",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "service_type": "express parcel"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Revenue from Part Truck Load services\n15,174.05\n11,565.38",
+    "kind": "numeric",
+    "metric": "Revenue from Part Truck Load services",
+    "subject": "Delhivery Limited",
+    "value_raw": "15,174.05",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "service_type": "part truck load"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Revenue from Part Truck Load services\n15,174.05\n11,565.38",
+    "kind": "numeric",
+    "metric": "Revenue from Part Truck Load services",
+    "subject": "Delhivery Limited",
+    "value_raw": "11,565.38",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "service_type": "part truck load"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 85,
+    "quote": "Bank deposits at amortised cost\n2,407.20\n1,958.36",
+    "kind": "numeric",
+    "metric": "Finance income - Interest Income on Bank deposits at amortised cost",
+    "subject": "Delhivery Limited",
+    "value_raw": "2,407.20",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "income_type": "interest income on bank deposits"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 85,
+    "quote": "Bank deposits at amortised cost\n2,407.20\n1,958.36",
+    "kind": "numeric",
+    "metric": "Finance income - Interest Income on Bank deposits at amortised cost",
+    "subject": "Delhivery Limited",
+    "value_raw": "1,958.36",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "income_type": "interest income on bank deposits"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 85,
+    "quote": "Line haul expenses\n26,836.40\n25,173.80",
+    "kind": "numeric",
+    "metric": "Freight, handling and servicing costs - Line haul expenses",
+    "subject": "Delhivery Limited",
+    "value_raw": "26,836.40",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "expense_type": "line haul expenses"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 85,
+    "quote": "Line haul expenses\n26,836.40\n25,173.80",
+    "kind": "numeric",
+    "metric": "Freight, handling and servicing costs - Line haul expenses",
+    "subject": "Delhivery Limited",
+    "value_raw": "25,173.80",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "expense_type": "line haul expenses"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 85,
+    "quote": "Contractual manpower expenses\n9,950.34\n8,930.90",
+    "kind": "numeric",
+    "metric": "Freight, handling and servicing costs - Contractual manpower expenses",
+    "subject": "Delhivery Limited",
+    "value_raw": "9,950.34",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "expense_type": "contractual manpower expenses"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 85,
+    "quote": "Contractual manpower expenses\n9,950.34\n8,930.90",
+    "kind": "numeric",
+    "metric": "Freight, handling and servicing costs - Contractual manpower expenses",
+    "subject": "Delhivery Limited",
+    "value_raw": "8,930.90",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "expense_type": "contractual manpower expenses"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 85,
+    "quote": "Salaries, wages and bonus\n10,483.94\n9,668.22",
+    "kind": "numeric",
+    "metric": "Employee benefits expense - Salaries, wages and bonus",
+    "subject": "Delhivery Limited",
+    "value_raw": "10,483.94",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "expense_type": "salaries, wages and bonus"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 85,
+    "quote": "Salaries, wages and bonus\n10,483.94\n9,668.22",
+    "kind": "numeric",
+    "metric": "Employee benefits expense - Salaries, wages and bonus",
+    "subject": "Delhivery Limited",
+    "value_raw": "9,668.22",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "expense_type": "salaries, wages and bonus"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 86,
+    "quote": "Loss attributable to equity holders of the parent\n(2,491.86)\n(10,077.79)",
+    "kind": "numeric",
+    "metric": "Earnings Per Share - Loss attributable to equity holders of the parent",
+    "subject": "Delhivery Limited",
+    "value_raw": "(2,491.86)",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "attribution": "equity holders of the parent"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 86,
+    "quote": "Loss attributable to equity holders of the parent\n(2,491.86)\n(10,077.79)",
+    "kind": "numeric",
+    "metric": "Earnings Per Share - Loss attributable to equity holders of the parent",
+    "subject": "Delhivery Limited",
+    "value_raw": "(10,077.79)",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "attribution": "equity holders of the parent"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 86,
+    "quote": "Basic Loss Equity per share\n(3.40)\n(14.09)",
+    "kind": "numeric",
+    "metric": "Basic Loss Equity per share",
+    "subject": "Delhivery Limited",
+    "value_raw": "(3.40)",
+    "unit_raw": "Indian Rupees",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "computation": "basic"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 86,
+    "quote": "Basic Loss Equity per share\n(3.40)\n(14.09)",
+    "kind": "numeric",
+    "metric": "Basic Loss Equity per share",
+    "subject": "Delhivery Limited",
+    "value_raw": "(14.09)",
+    "unit_raw": "Indian Rupees",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "computation": "basic"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 86,
+    "quote": "Diluted Loss Equity per share\n(3.40)\n(14.09)",
+    "kind": "numeric",
+    "metric": "Diluted Loss Equity per share",
+    "subject": "Delhivery Limited",
+    "value_raw": "(3.40)",
+    "unit_raw": "Indian Rupees",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "computation": "diluted"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 86,
+    "quote": "Diluted Loss Equity per share\n(3.40)\n(14.09)",
+    "kind": "numeric",
+    "metric": "Diluted Loss Equity per share",
+    "subject": "Delhivery Limited",
+    "value_raw": "(14.09)",
+    "unit_raw": "Indian Rupees",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "computation": "diluted"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "Accounting profit before income tax\n(2,444.48)\n(10,530.60)",
+    "kind": "numeric",
+    "metric": "Accounting profit before income tax",
+    "subject": "Delhivery Limited",
+    "value_raw": "(2,444.48)",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "profit_type": "before income tax"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "Accounting profit before income tax\n(2,444.48)\n(10,530.60)",
+    "kind": "numeric",
+    "metric": "Accounting profit before income tax",
+    "subject": "Delhivery Limited",
+    "value_raw": "(10,530.60)",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "profit_type": "before income tax"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 89,
+    "quote": "As at April 01, 2023\n6,667.45",
+    "kind": "numeric",
+    "metric": "Carrying amounts of right-of-use assets",
+    "subject": "Delhivery Limited",
+    "value_raw": "6,667.45",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "April 01, 2023",
+    "qualifiers": {
+     "asset_type": "right-of-use assets"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 89,
+    "quote": "As at March 31, 2024\n9,881.78",
+    "kind": "numeric",
+    "metric": "Carrying amounts of right-of-use assets",
+    "subject": "Delhivery Limited",
+    "value_raw": "9,881.78",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "asset_type": "right-of-use assets"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 90,
+    "quote": "Current\n2,001.02\n1,902.69",
+    "kind": "numeric",
+    "metric": "Lease liabilities - Current",
+    "subject": "Delhivery Limited",
+    "value_raw": "2,001.02",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 90,
+    "quote": "Current\n2,001.02\n1,902.69",
+    "kind": "numeric",
+    "metric": "Lease liabilities - Current",
+    "subject": "Delhivery Limited",
+    "value_raw": "1,902.69",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "classification": "current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 90,
+    "quote": "Non-current\n8,436.40\n5,343.00",
+    "kind": "numeric",
+    "metric": "Lease liabilities - Non-current",
+    "subject": "Delhivery Limited",
+    "value_raw": "8,436.40",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "classification": "non-current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 90,
+    "quote": "Non-current\n8,436.40\n5,343.00",
+    "kind": "numeric",
+    "metric": "Lease liabilities - Non-current",
+    "subject": "Delhivery Limited",
+    "value_raw": "5,343.00",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "classification": "non-current"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 90,
+    "quote": "Mrs. Pooja Gupta\nChief People Officer (Resigned w.e.f. January 15, 2024)",
+    "kind": "semantic",
+    "metric": "Key Management Personnel status",
+    "subject": "Mrs. Pooja Gupta",
+    "state": "resigned",
+    "period_raw": "January 15, 2024",
+    "qualifiers": {
+     "role": "Chief People Officer"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 90,
+    "quote": "Mr. Sunil Kumar Bansal\nCompany Secretary and Compliance Officer (Resigned w.e.f.\nMay 31, 2023)",
+    "kind": "semantic",
+    "metric": "Key Management Personnel status",
+    "subject": "Mr. Sunil Kumar Bansal",
+    "state": "resigned",
+    "period_raw": "May 31, 2023",
+    "qualifiers": {
+     "role": "Company Secretary and Compliance Officer"
+    },
+    "confidence": 0.95
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 83,\n      \"quote\": \"Vehicle loan from bank (Secured) (refer note (a) below)\\n401.84\\n1,144.07\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Non-current borrowings - Vehicle loan from bank (Secured)\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"401.84\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"classification\": \"non-current\",\n        \"secured\": \"yes\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Vehicle loan from bank (Secured) (refer note (a) below)\\n401.84\\n1,144.07\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Non-current borrowings - Vehicle loan from bank (Secured)\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"1,144.07\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"classification\": \"non-current\",\n        \"secured\": \"yes\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Vehicle loan from bank (refer note (a) below)\\n851.82\\n844.67\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Current maturity of long term borrowings - Vehicle loan from bank\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"851.82\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"classification\": \"current maturity of long term borrowings\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Vehicle loan from bank (refer note (a) below)\\n851.82\\n844.67\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Current maturity of long term borrowings - Vehicle loan from bank\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"844.67\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"classification\": \"current maturity of long term borrowings\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Working capital demand loan\\n2.32\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Current maturity of long term borrowings - Working capital demand loan\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"2.32\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"classification\": \"current maturity of long term borrowings\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Secured Loan\\n2,249.10\\n2,919.10\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Unused line of credit - Secured Loan\",\n      \"subject\": \"Delhivery Limited Group\",\n      \"value_raw\": \"2,249.10\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"facility_type\": \"secured loan\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Secured Loan\\n2,249.10\\n2,919.10\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Unused line of credit - Secured Loan\",\n      \"subject\": \"Delhivery Limited Group\",\n      \"value_raw\": \"2,919.10\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"facility_type\": \"secured loan\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Bill discounting\\n500.00\\n750.00\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Unused line of credit - Bill discounting\",\n      \"subject\": \"Delhivery Limited Group\",\n      \"value_raw\": \"500.00\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"facility_type\": \"bill discounting\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Bill discounting\\n500.00\\n750.00\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Unused line of credit - Bill discounting\",\n      \"subject\": \"Delhivery Limited Group\",\n      \"value_raw\": \"750.00\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"facility_type\": \"bill discounting\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Interest accrued and not due on borrowings\\n5.66\\n7.68\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Other financial liabilities - Interest accrued and not due on borrowings\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"5.66\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Interest accrued and not due on borrowings\\n5.66\\n7.68\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Other financial liabilities - Interest accrued and not due on borrowings\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"7.68\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Capital creditors\\n425.85\\n228.74\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Other financial liabilities - Capital creditors\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"425.85\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Capital creditors\\n425.85\\n228.74\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Other financial liabilities - Capital creditors\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"228.74\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Employee welfare fund*\\n30.35\\n27.14\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Other financial liabilities - Employee welfare fund\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"30.35\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Advance from Customers\\n397.51\\n408.28\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Other current liabilities - Advance from Customers\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"397.51\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Advance from Customers\\n397.51\\n408.28\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Other current liabilities - Advance from Customers\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"408.28\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Withholding tax payable\\n201.81\\n331.29\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Other current liabilities - Withholding tax payable\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"201.81\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Withholding tax payable\\n201.81\\n331.29\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Other current liabilities - Withholding tax payable\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"331.29\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Provident Fund payable\\n102.44\\n87.74\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Other current liabilities - Provident Fund payable\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"102.44\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Provident Fund payable\\n102.44\\n87.74\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Other current liabilities - Provident Fund payable\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"87.74\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Total outstanding dues of micro and small enterprises\\n24.41\\n31.24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Trade payables - Total outstanding dues of micro and small enterprises\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"24.41\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Total outstanding dues of micro and small enterprises\\n24.41\\n31.24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Trade payables - Total outstanding dues of micro and small enterprises\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"31.24\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Total outstanding dues of creditors other than micro and small enterprises\\n7,949.32\\n7,842.32\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Trade payables - Total outstanding dues of creditors other than micro and small enterprises\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"7,949.32\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Total outstanding dues of creditors other than micro and small enterprises\\n7,949.32\\n7,842.32\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Trade payables - Total outstanding dues of creditors other than micro and small enterprises\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"7,842.32\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"classification\": \"current\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Revenue from services*\\n81,415.38\\n72,236.47\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from contracts with customers - Sale of services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"81,415.38\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"revenue_type\": \"sale of services\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Revenue from services*\\n81,415.38\\n72,236.47\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from contracts with customers - Sale of services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"72,236.47\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"revenue_type\": \"sale of services\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Revenue from Express Parcel services\\n50,765.87\\n45,522.22\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from Express Parcel services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"50,765.87\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"service_type\": \"express parcel\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Revenue from Express Parcel services\\n50,765.87\\n45,522.22\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from Express Parcel services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"45,522.22\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"service_type\": \"express parcel\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Revenue from Part Truck Load services\\n15,174.05\\n11,565.38\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from Part Truck Load services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"15,174.05\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"service_type\": \"part truck load\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Revenue from Part Truck Load services\\n15,174.05\\n11,565.38\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from Part Truck Load services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"11,565.38\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"service_type\": \"part truck load\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Bank deposits at amortised cost\\n2,407.20\\n1,958.36\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Finance income - Interest Income on Bank deposits at amortised cost\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"2,407.20\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"income_type\": \"interest income on bank deposits\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Bank deposits at amortised cost\\n2,407.20\\n1,958.36\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Finance income - Interest Income on Bank deposits at amortised cost\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"1,958.36\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"income_type\": \"interest income on bank deposits\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Line haul expenses\\n26,836.40\\n25,173.80\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Freight, handling and servicing costs - Line haul expenses\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"26,836.40\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"expense_type\": \"line haul expenses\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Line haul expenses\\n26,836.40\\n25,173.80\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Freight, handling and servicing costs - Line haul expenses\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"25,173.80\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"expense_type\": \"line haul expenses\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Contractual manpower expenses\\n9,950.34\\n8,930.90\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Freight, handling and servicing costs - Contractual manpower expenses\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"9,950.34\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"expense_type\": \"contractual manpower expenses\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Contractual manpower expenses\\n9,950.34\\n8,930.90\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Freight, handling and servicing costs - Contractual manpower expenses\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"8,930.90\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"expense_type\": \"contractual manpower expenses\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Salaries, wages and bonus\\n10,483.94\\n9,668.22\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Employee benefits expense - Salaries, wages and bonus\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"10,483.94\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"expense_type\": \"salaries, wages and bonus\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Salaries, wages and bonus\\n10,483.94\\n9,668.22\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Employee benefits expense - Salaries, wages and bonus\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"9,668.22\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"expense_type\": \"salaries, wages and bonus\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"Loss attributable to equity holders of the parent\\n(2,491.86)\\n(10,077.79)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Earnings Per Share - Loss attributable to equity holders of the parent\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(2,491.86)\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"attribution\": \"equity holders of the parent\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"Loss attributable to equity holders of the parent\\n(2,491.86)\\n(10,077.79)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Earnings Per Share - Loss attributable to equity holders of the parent\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(10,077.79)\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"attribution\": \"equity holders of the parent\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"Basic Loss Equity per share\\n(3.40)\\n(14.09)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Basic Loss Equity per share\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(3.40)\",\n      \"unit_raw\": \"Indian Rupees\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"computation\": \"basic\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"Basic Loss Equity per share\\n(3.40)\\n(14.09)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Basic Loss Equity per share\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(14.09)\",\n      \"unit_raw\": \"Indian Rupees\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"computation\": \"basic\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"Diluted Loss Equity per share\\n(3.40)\\n(14.09)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Diluted Loss Equity per share\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(3.40)\",\n      \"unit_raw\": \"Indian Rupees\",\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"computation\": \"diluted\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"Diluted Loss Equity per share\\n(3.40)\\n(14.09)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Diluted Loss Equity per share\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(14.09)\",\n      \"unit_raw\": \"Indian Rupees\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"computation\": \"diluted\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"Accounting profit before income tax\\n(2,444.48)\\n(10,530.60)\",\n      \"kind\": \"",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-delhivery-annual-report-fy24-excerpt-de6d79ad:b83"
+}

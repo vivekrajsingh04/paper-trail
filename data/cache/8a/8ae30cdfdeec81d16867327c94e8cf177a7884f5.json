@@ -1,0 +1,246 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 4,
+    "quote": "The global economy grew by 3.3 per cent in 2023.",
+    "kind": "numeric",
+    "metric": "global economic growth rate",
+    "subject": "global economy",
+    "value_raw": "3.3",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "The International Monetary Fund (IMF) has\nprojected growth of 3.2 per cent and 3.3 per cent for 2024 and 2025, respectively.",
+    "kind": "numeric",
+    "metric": "projected global economic growth rate",
+    "subject": "global economy",
+    "value_raw": "3.2",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {
+     "source": "IMF",
+     "type": "projection"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "The International Monetary Fund (IMF) has\nprojected growth of 3.2 per cent and 3.3 per cent for 2024 and 2025, respectively.",
+    "kind": "numeric",
+    "metric": "projected global economic growth rate",
+    "subject": "global economy",
+    "value_raw": "3.3",
+    "unit_raw": "per cent",
+    "period_raw": "2025",
+    "qualifiers": {
+     "source": "IMF",
+     "type": "projection"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "Over\nthe next five years, global growth is expected to average around 3.2 per cent, which is\nmodest by historical standards.",
+    "kind": "numeric",
+    "metric": "average projected global economic growth rate",
+    "subject": "global economy",
+    "value_raw": "3.2",
+    "unit_raw": "per cent",
+    "period_raw": "next five years",
+    "qualifiers": {
+     "type": "expectation"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 5,
+    "quote": "Growth in the US is expected to remain strong\nat 2.8 per cent in 2024 and may decline slightly in 2025, reflecting a moderation in\nconsumption and exports.",
+    "kind": "numeric",
+    "metric": "expected economic growth rate",
+    "subject": "United States",
+    "value_raw": "2.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {
+     "type": "expectation"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 5,
+    "quote": "In the Euro area, growth is expected to improve from 0.4 per cent in 2023 to\n0.8 per cent in 2024 and further to 1.0 per cent in 2025",
+    "kind": "numeric",
+    "metric": "economic growth rate",
+    "subject": "Euro area",
+    "value_raw": "0.4",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 5,
+    "quote": "In the Euro area, growth is expected to improve from 0.4 per cent in 2023 to\n0.8 per cent in 2024 and further to 1.0 per cent in 2025",
+    "kind": "numeric",
+    "metric": "economic growth rate",
+    "subject": "Euro area",
+    "value_raw": "0.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {
+     "type": "expectation"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 5,
+    "quote": "In the Euro area, growth is expected to improve from 0.4 per cent in 2023 to\n0.8 per cent in 2024 and further to 1.0 per cent in 2025",
+    "kind": "numeric",
+    "metric": "economic growth rate",
+    "subject": "Euro area",
+    "value_raw": "1.0",
+    "unit_raw": "per cent",
+    "period_raw": "2025",
+    "qualifiers": {
+     "type": "expectation"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 6,
+    "quote": "The global composite Purchasing Managers’ Index (PMI) has stayed in the\nexpansion zone for the fourteenth month in a row (as of December 2024).",
+    "kind": "semantic",
+    "metric": "global composite Purchasing Managers Index status",
+    "subject": "global composite PMI",
+    "state": "stayed in the expansion zone for the fourteenth month in a row",
+    "period_raw": "as of December 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 6,
+    "quote": "Following four months of gradual\ndeclines, the global manufacturing sector stabilised in November with an index value of\n50.0, indicating no overall change in operating conditions.",
+    "kind": "numeric",
+    "metric": "global manufacturing PMI index value",
+    "subject": "global manufacturing sector",
+    "value_raw": "50.0",
+    "unit_raw": null,
+    "period_raw": "November",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 7,
+    "quote": "Production rose in 13 of the 30 nations for which December PMI data were available.",
+    "kind": "numeric",
+    "metric": "number of nations with rising production",
+    "subject": "nations",
+    "value_raw": "13",
+    "unit_raw": "nations",
+    "period_raw": "December",
+    "qualifiers": {
+     "total_available_nations": "30"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 10,
+    "quote": "About 15 per cent of global maritime trade volume\nnormally passes through the Suez Canal.",
+    "kind": "numeric",
+    "metric": "share of global maritime trade volume normally passing through the Suez Canal",
+    "subject": "global maritime trade volume",
+    "value_raw": "15",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "The real GVA grew by 6.2 per cent in H1 FY25.",
+    "kind": "numeric",
+    "metric": "real GVA growth rate",
+    "subject": "india",
+    "value_raw": "6.2",
+    "unit_raw": "per cent",
+    "period_raw": "H1 FY25",
+    "qualifiers": {
+     "geography": "india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "Agriculture growth remained steady in H1 FY25, with Q2 recording a growth rate\nof 3.5 per cent, marking an improvement over the previous four quarters.",
+    "kind": "numeric",
+    "metric": "agriculture growth rate",
+    "subject": "india",
+    "value_raw": "3.5",
+    "unit_raw": "per cent",
+    "period_raw": "Q2 H1 FY25",
+    "qualifiers": {
+     "geography": "india",
+     "sector": "agriculture"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "As per the first advanced estimates of agricultural production for\n2024-25, total Kharif food grain production is estimated at a record 1647.05 lakh metric\ntonnes (LMT), higher by 5.7 per cent compared to 2023-24 and 8.2 per cent higher\nthan the average food grain production in the past five years.",
+    "kind": "numeric",
+    "metric": "total Kharif food grain production",
+    "subject": "india",
+    "value_raw": "1647.05",
+    "unit_raw": "lakh metric tonnes (LMT)",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "estimate_type": "first advanced estimates",
+     "crop": "Kharif food grain",
+     "geography": "india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "As per the first advanced estimates of agricultural production for\n2024-25, total Kharif food grain production is estimated at a record 1647.05 lakh metric\ntonnes (LMT), higher by 5.7 per cent compared to 2023-24 and 8.2 per cent higher\nthan the average food grain production in the past five years.",
+    "kind": "numeric",
+    "metric": "total Kharif food grain production growth compared to previous year",
+    "subject": "india",
+    "value_raw": "5.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25 vs 2023-24",
+    "qualifiers": {
+     "estimate_type": "first advanced estimates",
+     "crop": "Kharif food grain",
+     "geography": "india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "As per the first advanced estimates of agricultural production for\n2024-25, total Kharif food grain production is estimated at a record 1647.05 lakh metric\ntonnes (LMT), higher by 5.7 per cent compared to 2023-24 and 8.2 per cent higher\nthan the average food grain production in the past five years.",
+    "kind": "numeric",
+    "metric": "total Kharif food grain production growth compared to past five years average",
+    "subject": "india",
+    "value_raw": "8.2",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25 vs past five years average",
+    "qualifiers": {
+     "estimate_type": "first advanced estimates",
+     "crop": "Kharif food grain",
+     "geography": "india"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 4,\n      \"quote\": \"The global economy grew by 3.3 per cent in 2023.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global economic growth rate\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"3.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"The International Monetary Fund (IMF) has\\nprojected growth of 3.2 per cent and 3.3 per cent for 2024 and 2025, respectively.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"projected global economic growth rate\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"3.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"source\": \"IMF\",\n        \"type\": \"projection\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"The International Monetary Fund (IMF) has\\nprojected growth of 3.2 per cent and 3.3 per cent for 2024 and 2025, respectively.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"projected global economic growth rate\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"3.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025\",\n      \"qualifiers\": {\n        \"source\": \"IMF\",\n        \"type\": \"projection\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"Over\\nthe next five years, global growth is expected to average around 3.2 per cent, which is\\nmodest by historical standards.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"average projected global economic growth rate\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"3.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"next five years\",\n      \"qualifiers\": {\n        \"type\": \"expectation\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 5,\n      \"quote\": \"Growth in the US is expected to remain strong\\nat 2.8 per cent in 2024 and may decline slightly in 2025, reflecting a moderation in\\nconsumption and exports.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"expected economic growth rate\",\n      \"subject\": \"United States\",\n      \"value_raw\": \"2.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"type\": \"expectation\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 5,\n      \"quote\": \"In the Euro area, growth is expected to improve from 0.4 per cent in 2023 to\\n0.8 per cent in 2024 and further to 1.0 per cent in 2025\",\n      \"kind\": \"numeric\",\n      \"metric\": \"economic growth rate\",\n      \"subject\": \"Euro area\",\n      \"value_raw\": \"0.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 5,\n      \"quote\": \"In the Euro area, growth is expected to improve from 0.4 per cent in 2023 to\\n0.8 per cent in 2024 and further to 1.0 per cent in 2025\",\n      \"kind\": \"numeric\",\n      \"metric\": \"economic growth rate\",\n      \"subject\": \"Euro area\",\n      \"value_raw\": \"0.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"type\": \"expectation\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 5,\n      \"quote\": \"In the Euro area, growth is expected to improve from 0.4 per cent in 2023 to\\n0.8 per cent in 2024 and further to 1.0 per cent in 2025\",\n      \"kind\": \"numeric\",\n      \"metric\": \"economic growth rate\",\n      \"subject\": \"Euro area\",\n      \"value_raw\": \"1.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025\",\n      \"qualifiers\": {\n        \"type\": \"expectation\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 6,\n      \"quote\": \"The global composite Purchasing Managers’ Index (PMI) has stayed in the\\nexpansion zone for the fourteenth month in a row (as of December 2024).\",\n      \"kind\": \"semantic\",\n      \"metric\": \"global composite Purchasing Managers Index status\",\n      \"subject\": \"global composite PMI\",\n      \"state\": \"stayed in the expansion zone for the fourteenth month in a row\",\n      \"period_raw\": \"as of December 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 6,\n      \"quote\": \"Following four months of gradual\\ndeclines, the global manufacturing sector stabilised in November with an index value of\\n50.0, indicating no overall change in operating conditions.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global manufacturing PMI index value\",\n      \"subject\": \"global manufacturing sector\",\n      \"value_raw\": \"50.0\",\n      \"unit_raw\": null,\n      \"period_raw\": \"November\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 7,\n      \"quote\": \"Production rose in 13 of the 30 nations for which December PMI data were available.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"number of nations with rising production\",\n      \"subject\": \"nations\",\n      \"value_raw\": \"13\",\n      \"unit_raw\": \"nations\",\n      \"period_raw\": \"December\",\n      \"qualifiers\": {\n        \"total_available_nations\": \"30\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 10,\n      \"quote\": \"About 15 per cent of global maritime trade volume\\nnormally passes through the Suez Canal.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of global maritime trade volume normally passing through the Suez Canal\",\n      \"subject\": \"global maritime trade volume\",\n      \"value_raw\": \"15\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"The real GVA grew by 6.2 per cent in H1 FY25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real GVA growth rate\",\n      \"subject\": \"india\",\n      \"value_raw\": \"6.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"H1 FY25\",\n      \"qualifiers\": {\n        \"geography\": \"india\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"Agriculture growth remained steady in H1 FY25, with Q2 recording a growth rate\\nof 3.5 per cent, marking an improvement over the previous four quarters.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"agriculture growth rate\",\n      \"subject\": \"india\",\n      \"value_raw\": \"3.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q2 H1 FY25\",\n      \"qualifiers\": {\n        \"geography\": \"india\",\n        \"sector\": \"agriculture\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"As per the first advanced estimates of agricultural production for\\n2024-25, total Kharif food grain production is estimated at a record 1647.05 lakh metric\\ntonnes (LMT), higher by 5.7 per cent compared to 2023-24 and 8.2 per cent higher\\nthan the average food grain production in the past five years.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"total Kharif food grain production\",\n      \"subject\": \"india\",\n      \"value_raw\": \"1647.05\",\n      \"unit_raw\": \"lakh metric tonnes (LMT)\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"estimate_type\": \"first advanced estimates\",\n        \"crop\": \"Kharif food grain\",\n        \"geography\": \"india\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"As per the first advanced estimates of agricultural production for\\n2024-25, total Kharif food grain production is estimated at a record 1647.05 lakh metric\\ntonnes (LMT), higher by 5.7 per cent compared to 2023-24 and 8.2 per cent higher\\nthan the average food grain production in the past five years.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"total Kharif food grain production growth compared to previous year\",\n      \"subject\": \"india\",\n      \"value_raw\": \"5.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25 vs 2023-24\",\n      \"qualifiers\": {\n        \"estimate_type\": \"first advanced estimates\",\n        \"crop\": \"Kharif food grain\",\n        \"geography\": \"india\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"As per the first advanced estimates of agricultural production for\\n2024-25, total Kharif food grain production is estimated at a record 1647.05 lakh metric\\ntonnes (LMT), higher by 5.7 per cent compared to 2023-24 and 8.2 per cent higher\\nthan the average food grain production in the past five years.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"total Kharif food grain production growth compared to past five years average\",\n      \"subject\": \"india\",\n      \"value_raw\": \"8.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25 vs past five years average\",\n      \"qualifiers\": {\n        \"estimate_type\": \"first advanced estimates\",\n        \"crop\": \"Kharif food grain\",\n        \"geography\": \"india\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:01-india-economic-survey-2024-25-excerpt-86f2e79a:b4"
+}

@@ -1,0 +1,336 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 80,
+    "quote": "On an average, during 2022-2024, India experienced heatwaves on 18 per cent of days compared to 5 per cent of days in 2020 and 2021.",
+    "kind": "numeric",
+    "metric": "percentage of days experiencing heatwaves",
+    "subject": "india",
+    "value_raw": "18",
+    "unit_raw": "%",
+    "period_raw": "2022-2024",
+    "qualifiers": {
+     "comparison_period": "2020 and 2021",
+     "comparison_value": "5 per cent"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "On an average, during 2022-2024, India experienced heatwaves on 18 per cent of days compared to 5 per cent of days in 2020 and 2021.",
+    "kind": "numeric",
+    "metric": "percentage of days experiencing heatwaves",
+    "subject": "india",
+    "value_raw": "5",
+    "unit_raw": "%",
+    "period_raw": "2020 and 2021",
+    "qualifiers": {
+     "comparison_period": "2022-2024",
+     "comparison_value": "18 per cent"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 84,
+    "quote": "Also, onion exports averaged more than 6 per cent of domestic production during FY20 to FY24.",
+    "kind": "numeric",
+    "metric": "onion exports as a percentage of domestic production",
+    "subject": "onion",
+    "value_raw": "6",
+    "unit_raw": "%",
+    "period_raw": "FY20 to FY24",
+    "qualifiers": {
+     "direction": "averaged more than"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 84,
+    "quote": "Given that India and China contribute about half of the total production of onion10, the import options for India during periods of demand-supply imbalances are quite limited.",
+    "kind": "numeric",
+    "metric": "share of total production of onion",
+    "subject": "India and China",
+    "value_raw": "half",
+    "unit_raw": null,
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 84,
+    "quote": "The next eight major producing countries only contribute around 18 per cent of the production.",
+    "kind": "numeric",
+    "metric": "share of total production of onion",
+    "subject": "next eight major producing countries",
+    "value_raw": "18",
+    "unit_raw": "%",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 85,
+    "quote": "Onion 30% Kharif Jul-Aug Oct-Dec",
+    "kind": "numeric",
+    "metric": "share in production of onion",
+    "subject": "onion",
+    "value_raw": "30",
+    "unit_raw": "%",
+    "period_raw": null,
+    "qualifiers": {
+     "season": "Kharif",
+     "transplanting_period": "Jul-Aug",
+     "harvesting_period": "Oct-Dec"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 85,
+    "quote": "Onion 70% Rabi Dec-Jan End of Mar to May",
+    "kind": "numeric",
+    "metric": "share in production of onion",
+    "subject": "onion",
+    "value_raw": "70",
+    "unit_raw": "%",
+    "period_raw": null,
+    "qualifiers": {
+     "season": "Rabi",
+     "transplanting_period": "Dec-Jan",
+     "harvesting_period": "End of Mar to May"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 85,
+    "quote": "Tomato 33% Kharif May-Jul Jul- Sept",
+    "kind": "numeric",
+    "metric": "share in production of tomato",
+    "subject": "tomato",
+    "value_raw": "33",
+    "unit_raw": "%",
+    "period_raw": null,
+    "qualifiers": {
+     "season": "Kharif",
+     "transplanting_period": "May-Jul",
+     "harvesting_period": "Jul-Sept"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 85,
+    "quote": "Tomato 67% Rabi Oct-Nov, Jan-Feb Dec-Jun",
+    "kind": "numeric",
+    "metric": "share in production of tomato",
+    "subject": "tomato",
+    "value_raw": "67",
+    "unit_raw": "%",
+    "period_raw": null,
+    "qualifiers": {
+     "season": "Rabi",
+     "transplanting_period": "Oct-Nov, Jan-Feb",
+     "harvesting_period": "Dec-Jun"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 85,
+    "quote": "Production declined by 13.6 per cent in 2022-23 and 10.8 per cent in 2023-24 compared to the last 5-year average, affecting the supply.",
+    "kind": "numeric",
+    "metric": "tur production decline compared to last 5-year average",
+    "subject": "tur",
+    "value_raw": "13.6",
+    "unit_raw": "%",
+    "period_raw": "2022-23",
+    "qualifiers": {
+     "comparison": "last 5-year average"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 85,
+    "quote": "Production declined by 13.6 per cent in 2022-23 and 10.8 per cent in 2023-24 compared to the last 5-year average, affecting the supply.",
+    "kind": "numeric",
+    "metric": "tur production decline compared to last 5-year average",
+    "subject": "tur",
+    "value_raw": "10.8",
+    "unit_raw": "%",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "comparison": "last 5-year average"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 85,
+    "quote": "Over the past decade, there has been a strong negative correlation (-0.8) between the annual inflation rate and the 1-year lagged production",
+    "kind": "numeric",
+    "metric": "correlation between annual inflation rate and 1-year lagged production",
+    "subject": "tur",
+    "value_raw": "-0.8",
+    "unit_raw": null,
+    "period_raw": "past decade",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "Further, to meet the demand for tur, the country imported 7.7 lakh tonnes of tur in FY24, mainly from Mozambique, Tanzania, Malawi, and Myanmar.",
+    "kind": "numeric",
+    "metric": "imports of tur",
+    "subject": "tur",
+    "value_raw": "7.7",
+    "unit_raw": "lakh tonnes",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "sources": "Mozambique, Tanzania, Malawi, and Myanmar"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "In the December 2024 RBI’s Monetary Policy Committee report revised its inflation projection from 4.5 per cent to 4.8 per cent in FY25.",
+    "kind": "numeric",
+    "metric": "inflation projection",
+    "subject": "consumer price inflation",
+    "value_raw": "4.5",
+    "unit_raw": "%",
+    "period_raw": "FY25",
+    "qualifiers": {
+     "source": "RBI's Monetary Policy Committee report",
+     "date": "December 2024",
+     "status": "previous projection"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "In the December 2024 RBI’s Monetary Policy Committee report revised its inflation projection from 4.5 per cent to 4.8 per cent in FY25.",
+    "kind": "numeric",
+    "metric": "inflation projection",
+    "subject": "consumer price inflation",
+    "value_raw": "4.8",
+    "unit_raw": "%",
+    "period_raw": "FY25",
+    "qualifiers": {
+     "source": "RBI's Monetary Policy Committee report",
+     "date": "December 2024",
+     "status": "revised projection"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "Assuming a normal monsoon and no further external or policy shocks, the RBI expects headline inflation to be 4.2 per cent in FY26.",
+    "kind": "numeric",
+    "metric": "headline inflation expectation",
+    "subject": "RBI",
+    "value_raw": "4.2",
+    "unit_raw": "%",
+    "period_raw": "FY26",
+    "qualifiers": {
+     "assumption": "normal monsoon and no further external or policy shocks"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "IMF has projected an inflation rate of 4.4 per cent in FY25 and 4.1 per cent in FY26 for India.",
+    "kind": "numeric",
+    "metric": "inflation rate projection",
+    "subject": "IMF",
+    "value_raw": "4.4",
+    "unit_raw": "%",
+    "period_raw": "FY25",
+    "qualifiers": {
+     "geography": "india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "IMF has projected an inflation rate of 4.4 per cent in FY25 and 4.1 per cent in FY26 for India.",
+    "kind": "numeric",
+    "metric": "inflation rate projection",
+    "subject": "IMF",
+    "value_raw": "4.1",
+    "unit_raw": "%",
+    "period_raw": "FY26",
+    "qualifiers": {
+     "geography": "india"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "As per World Bank’s Commodity Markets Outlook12, October 2024, commodity prices are expected to decrease by 5.1 per cent in 2025 and 1.7 per cent in 2026.",
+    "kind": "numeric",
+    "metric": "commodity prices expected decrease",
+    "subject": "commodity prices",
+    "value_raw": "5.1",
+    "unit_raw": "%",
+    "period_raw": "2025",
+    "qualifiers": {
+     "source": "World Bank's Commodity Markets Outlook, October 2024"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "As per World Bank’s Commodity Markets Outlook12, October 2024, commodity prices are expected to decrease by 5.1 per cent in 2025 and 1.7 per cent in 2026.",
+    "kind": "numeric",
+    "metric": "commodity prices expected decrease",
+    "subject": "commodity prices",
+    "value_raw": "1.7",
+    "unit_raw": "%",
+    "period_raw": "2026",
+    "qualifiers": {
+     "source": "World Bank's Commodity Markets Outlook, October 2024"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 87,
+    "quote": "As per the first advanced estimates of agricultural production for 2024-25, Kharif food grain production is expected to increase by 5.7 per cent.",
+    "kind": "numeric",
+    "metric": "Kharif food grain production expected increase",
+    "subject": "Kharif food grain",
+    "value_raw": "5.7",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "source": "first advanced estimates of agricultural production"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 87,
+    "quote": "The production of rice and tur, the most important Kharif food grains, is expected to increase by 5.9 per cent and 2.5 per cent, respectively, as compared to 2023-24.",
+    "kind": "numeric",
+    "metric": "production expected increase",
+    "subject": "rice",
+    "value_raw": "5.9",
+    "unit_raw": "%",
+    "period_raw": "2024-25 compared to 2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 87,
+    "quote": "The production of rice and tur, the most important Kharif food grains, is expected to increase by 5.9 per cent and 2.5 per cent, respectively, as compared to 2023-24.",
+    "kind": "numeric",
+    "metric": "production expected increase",
+    "subject": "tur",
+    "value_raw": "2.5",
+    "unit_raw": "%",
+    "period_raw": "2024-25 compared to 2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 80,\n      \"quote\": \"On an average, during 2022-2024, India experienced heatwaves on 18 per cent of days compared to 5 per cent of days in 2020 and 2021.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"percentage of days experiencing heatwaves\",\n      \"subject\": \"india\",\n      \"value_raw\": \"18\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2022-2024\",\n      \"qualifiers\": {\n        \"comparison_period\": \"2020 and 2021\",\n        \"comparison_value\": \"5 per cent\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"On an average, during 2022-2024, India experienced heatwaves on 18 per cent of days compared to 5 per cent of days in 2020 and 2021.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"percentage of days experiencing heatwaves\",\n      \"subject\": \"india\",\n      \"value_raw\": \"5\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2020 and 2021\",\n      \"qualifiers\": {\n        \"comparison_period\": \"2022-2024\",\n        \"comparison_value\": \"18 per cent\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Also, onion exports averaged more than 6 per cent of domestic production during FY20 to FY24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"onion exports as a percentage of domestic production\",\n      \"subject\": \"onion\",\n      \"value_raw\": \"6\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY20 to FY24\",\n      \"qualifiers\": {\n        \"direction\": \"averaged more than\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Given that India and China contribute about half of the total production of onion10, the import options for India during periods of demand-supply imbalances are quite limited.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of total production of onion\",\n      \"subject\": \"India and China\",\n      \"value_raw\": \"half\",\n      \"unit_raw\": null,\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"The next eight major producing countries only contribute around 18 per cent of the production.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of total production of onion\",\n      \"subject\": \"next eight major producing countries\",\n      \"value_raw\": \"18\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Onion 30% Kharif Jul-Aug Oct-Dec\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share in production of onion\",\n      \"subject\": \"onion\",\n      \"value_raw\": \"30\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"season\": \"Kharif\",\n        \"transplanting_period\": \"Jul-Aug\",\n        \"harvesting_period\": \"Oct-Dec\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Onion 70% Rabi Dec-Jan End of Mar to May\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share in production of onion\",\n      \"subject\": \"onion\",\n      \"value_raw\": \"70\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"season\": \"Rabi\",\n        \"transplanting_period\": \"Dec-Jan\",\n        \"harvesting_period\": \"End of Mar to May\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Tomato 33% Kharif May-Jul Jul- Sept\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share in production of tomato\",\n      \"subject\": \"tomato\",\n      \"value_raw\": \"33\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"season\": \"Kharif\",\n        \"transplanting_period\": \"May-Jul\",\n        \"harvesting_period\": \"Jul-Sept\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Tomato 67% Rabi Oct-Nov, Jan-Feb Dec-Jun\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share in production of tomato\",\n      \"subject\": \"tomato\",\n      \"value_raw\": \"67\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"season\": \"Rabi\",\n        \"transplanting_period\": \"Oct-Nov, Jan-Feb\",\n        \"harvesting_period\": \"Dec-Jun\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Production declined by 13.6 per cent in 2022-23 and 10.8 per cent in 2023-24 compared to the last 5-year average, affecting the supply.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"tur production decline compared to last 5-year average\",\n      \"subject\": \"tur\",\n      \"value_raw\": \"13.6\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2022-23\",\n      \"qualifiers\": {\n        \"comparison\": \"last 5-year average\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Production declined by 13.6 per cent in 2022-23 and 10.8 per cent in 2023-24 compared to the last 5-year average, affecting the supply.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"tur production decline compared to last 5-year average\",\n      \"subject\": \"tur\",\n      \"value_raw\": \"10.8\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"comparison\": \"last 5-year average\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"Over the past decade, there has been a strong negative correlation (-0.8) between the annual inflation rate and the 1-year lagged production\",\n      \"kind\": \"numeric\",\n      \"metric\": \"correlation between annual inflation rate and 1-year lagged production\",\n      \"subject\": \"tur\",\n      \"value_raw\": \"-0.8\",\n      \"unit_raw\": null,\n      \"period_raw\": \"past decade\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"Further, to meet the demand for tur, the country imported 7.7 lakh tonnes of tur in FY24, mainly from Mozambique, Tanzania, Malawi, and Myanmar.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"imports of tur\",\n      \"subject\": \"tur\",\n      \"value_raw\": \"7.7\",\n      \"unit_raw\": \"lakh tonnes\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"sources\": \"Mozambique, Tanzania, Malawi, and Myanmar\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"In the December 2024 RBI’s Monetary Policy Committee report revised its inflation projection from 4.5 per cent to 4.8 per cent in FY25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"inflation projection\",\n      \"subject\": \"consumer price inflation\",\n      \"value_raw\": \"4.5\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY25\",\n      \"qualifiers\": {\n        \"source\": \"RBI's Monetary Policy Committee report\",\n        \"date\": \"December 2024\",\n        \"status\": \"previous projection\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"In the December 2024 RBI’s Monetary Policy Committee report revised its inflation projection from 4.5 per cent to 4.8 per cent in FY25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"inflation projection\",\n      \"subject\": \"consumer price inflation\",\n      \"value_raw\": \"4.8\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY25\",\n      \"qualifiers\": {\n        \"source\": \"RBI's Monetary Policy Committee report\",\n        \"date\": \"December 2024\",\n        \"status\": \"revised projection\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"Assuming a normal monsoon and no further external or policy shocks, the RBI expects headline inflation to be 4.2 per cent in FY26.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"headline inflation expectation\",\n      \"subject\": \"RBI\",\n      \"value_raw\": \"4.2\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY26\",\n      \"qualifiers\": {\n        \"assumption\": \"normal monsoon and no further external or policy shocks\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"IMF has projected an inflation rate of 4.4 per cent in FY25 and 4.1 per cent in FY26 for India.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"inflation rate projection\",\n      \"subject\": \"IMF\",\n      \"value_raw\": \"4.4\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY25\",\n      \"qualifiers\": {\n        \"geography\": \"india\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"IMF has projected an inflation rate of 4.4 per cent in FY25 and 4.1 per cent in FY26 for India.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"inflation rate projection\",\n      \"subject\": \"IMF\",\n      \"value_raw\": \"4.1\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY26\",\n      \"qualifiers\": {\n        \"geography\": \"india\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"As per World Bank’s Commodity Markets Outlook12, October 2024, commodity prices are expected to decrease by 5.1 per cent in 2025 and 1.7 per cent in 2026.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"commodity prices expected decrease\",\n      \"subject\": \"commodity prices\",\n      \"value_raw\": \"5.1\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2025\",\n      \"qualifiers\": {\n        \"source\": \"World Bank's Commodity Markets Outlook, October 2024\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"As per World Bank’s Commodity Markets Outlook12, October 2024, commodity prices are expected to decrease by 5.1 per cent in 2025 and 1.7 per cent in 2026.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"commodity prices expected decrease\",\n      \"subject\": \"commodity prices\",\n      \"value_raw\": \"1.7\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2026\",\n      \"qualifiers\": {\n        \"source\": \"World Bank's Commodity Markets Outlook, October 2024\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"As per the first advanced estimates of agricultural production for 2024-25, Kharif food grain production is expected to increase by 5.7 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Kharif food grain production expected increase\",\n      \"subject\": \"Kharif food grain\",\n      \"value_raw\": \"5.7\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"source\": \"first advanced estimates of agricultural production\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"The production of rice and tur, the most important Kharif food grains, is expected to increase by 5.9 per cent and 2.5 per cent, respectively, as compared to 2023-24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"production expected increase\",\n      \"subject\": \"rice\",\n      \"value_raw\": \"5.9\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2024-25 compared to 2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"The production of rice and tur, the most important Kharif food grains, is expected to increase by 5.9 per cent and 2.5 per cent, respectively, as compared to 2023-24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"production expected increase\",\n      \"subject\": \"tur\",\n      \"value_raw\": \"2.5\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2024-25 compared to 2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:01-india-economic-survey-2024-25-excerpt-86f2e79a:b80"
+}

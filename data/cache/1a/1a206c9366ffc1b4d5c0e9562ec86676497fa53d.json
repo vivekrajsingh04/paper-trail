@@ -1,0 +1,301 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 16,
+    "quote": "-4.5",
+    "kind": "numeric",
+    "metric": "Overall Balance, Baseline (percent of GDP) Centre",
+    "subject": "Centre",
+    "value_raw": "-4.5",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2025/26",
+    "qualifiers": {
+     "scenario": "baseline",
+     "level_of_government": "centre",
+     "fiscal_measure": "overall balance"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 16,
+    "quote": "-3.1",
+    "kind": "numeric",
+    "metric": "Overall Balance, Baseline (percent of GDP) State",
+    "subject": "State",
+    "value_raw": "-3.1",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2025/26",
+    "qualifiers": {
+     "scenario": "baseline",
+     "level_of_government": "state",
+     "fiscal_measure": "overall balance"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 16,
+    "quote": "-7.1",
+    "kind": "numeric",
+    "metric": "Overall Balance, Baseline (percent of GDP) General",
+    "subject": "General",
+    "value_raw": "-7.1",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2025/26",
+    "qualifiers": {
+     "scenario": "baseline",
+     "level_of_government": "general",
+     "fiscal_measure": "overall balance"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 16,
+    "quote": "56.2",
+    "kind": "numeric",
+    "metric": "Debt, Baseline (percent of GDP) Centre",
+    "subject": "Centre",
+    "value_raw": "56.2",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2025/26",
+    "qualifiers": {
+     "scenario": "baseline",
+     "level_of_government": "centre",
+     "fiscal_measure": "debt"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 16,
+    "quote": "28.3",
+    "kind": "numeric",
+    "metric": "Debt, Baseline (percent of GDP) State",
+    "subject": "State",
+    "value_raw": "28.3",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2025/26",
+    "qualifiers": {
+     "scenario": "baseline",
+     "level_of_government": "state",
+     "fiscal_measure": "debt"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 16,
+    "quote": "81.1",
+    "kind": "numeric",
+    "metric": "Debt, Baseline (percent of GDP) General",
+    "subject": "General",
+    "value_raw": "81.1",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2025/26",
+    "qualifiers": {
+     "scenario": "baseline",
+     "level_of_government": "general",
+     "fiscal_measure": "debt"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 16,
+    "quote": "-3.8",
+    "kind": "numeric",
+    "metric": "Overall Balance, Baseline (percent of GDP) Centre",
+    "subject": "Centre",
+    "value_raw": "-3.8",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2030/31",
+    "qualifiers": {
+     "scenario": "baseline",
+     "level_of_government": "centre",
+     "fiscal_measure": "overall balance"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 16,
+    "quote": "-3.0",
+    "kind": "numeric",
+    "metric": "Overall Balance, Baseline (percent of GDP) State",
+    "subject": "State",
+    "value_raw": "-3.0",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2030/31",
+    "qualifiers": {
+     "scenario": "baseline",
+     "level_of_government": "state",
+     "fiscal_measure": "overall balance"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 16,
+    "quote": "-6.6",
+    "kind": "numeric",
+    "metric": "Overall Balance, Baseline (percent of GDP) General",
+    "subject": "General",
+    "value_raw": "-6.6",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2030/31",
+    "qualifiers": {
+     "scenario": "baseline",
+     "level_of_government": "general",
+     "fiscal_measure": "overall balance"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 16,
+    "quote": "50.3",
+    "kind": "numeric",
+    "metric": "Debt, Baseline (percent of GDP) Centre",
+    "subject": "Centre",
+    "value_raw": "50.3",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2030/31",
+    "qualifiers": {
+     "scenario": "baseline",
+     "level_of_government": "centre",
+     "fiscal_measure": "debt"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 16,
+    "quote": "28.4",
+    "kind": "numeric",
+    "metric": "Debt, Baseline (percent of GDP) State",
+    "subject": "State",
+    "value_raw": "28.4",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2030/31",
+    "qualifiers": {
+     "scenario": "baseline",
+     "level_of_government": "state",
+     "fiscal_measure": "debt"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 16,
+    "quote": "76.9",
+    "kind": "numeric",
+    "metric": "Debt, Baseline (percent of GDP) General",
+    "subject": "General",
+    "value_raw": "76.9",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2030/31",
+    "qualifiers": {
+     "scenario": "baseline",
+     "level_of_government": "general",
+     "fiscal_measure": "debt"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 19,
+    "quote": "5.5",
+    "kind": "numeric",
+    "metric": "policy rate",
+    "subject": "RBI",
+    "value_raw": "5.5",
+    "unit_raw": "percent",
+    "period_raw": "June 2025",
+    "qualifiers": {
+     "event": "lowered cumulatively by 100 basis points since February 2025"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 19,
+    "quote": "1.6",
+    "kind": "numeric",
+    "metric": "real policy rate",
+    "subject": "RBI",
+    "value_raw": "1.6",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "description": "declined to around the neutral rate"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 19,
+    "quote": "3",
+    "kind": "numeric",
+    "metric": "cash reserve requirement (CRR) ratio",
+    "subject": "RBI",
+    "value_raw": "3",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "event": "100-bp cut"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 22,
+    "quote": "0.07",
+    "kind": "numeric",
+    "metric": "disbursed incentives as share of GDP",
+    "subject": "authorities",
+    "value_raw": "0.07",
+    "unit_raw": "percent of GDP",
+    "period_raw": "March 2025",
+    "qualifiers": {
+     "program": "PLIs for large-scale electronics, pharmaceuticals, and drones"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 29,
+    "quote": "42.4",
+    "kind": "numeric",
+    "metric": "share of workers employed in agricultural sector",
+    "subject": "agricultural sector",
+    "value_raw": "42.4",
+    "unit_raw": "percent",
+    "period_raw": "2024",
+    "qualifiers": {
+     "source": "Current Weekly Status data from the Periodic Labour Force Survey"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 29,
+    "quote": "18",
+    "kind": "numeric",
+    "metric": "cumulative adaptation costs",
+    "subject": "India",
+    "value_raw": "18",
+    "unit_raw": "percent",
+    "period_raw": "through 2030",
+    "qualifiers": {
+     "measured_relative_to": "2024/25 GDP",
+     "source": "authorities' estimate in 2023"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 29,
+    "quote": "74",
+    "kind": "numeric",
+    "metric": "share of electricity generation from coal",
+    "subject": "India",
+    "value_raw": "74",
+    "unit_raw": "percent",
+    "period_raw": "2023",
+    "qualifiers": {
+     "source": "IEA country profile"
+    },
+    "confidence": 0.95
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 16,\n      \"quote\": \"-4.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Overall Balance, Baseline (percent of GDP) Centre\",\n      \"subject\": \"Centre\",\n      \"value_raw\": \"-4.5\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2025/26\",\n      \"qualifiers\": {\n        \"scenario\": \"baseline\",\n        \"level_of_government\": \"centre\",\n        \"fiscal_measure\": \"overall balance\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"-3.1\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Overall Balance, Baseline (percent of GDP) State\",\n      \"subject\": \"State\",\n      \"value_raw\": \"-3.1\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2025/26\",\n      \"qualifiers\": {\n        \"scenario\": \"baseline\",\n        \"level_of_government\": \"state\",\n        \"fiscal_measure\": \"overall balance\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"-7.1\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Overall Balance, Baseline (percent of GDP) General\",\n      \"subject\": \"General\",\n      \"value_raw\": \"-7.1\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2025/26\",\n      \"qualifiers\": {\n        \"scenario\": \"baseline\",\n        \"level_of_government\": \"general\",\n        \"fiscal_measure\": \"overall balance\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"56.2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Debt, Baseline (percent of GDP) Centre\",\n      \"subject\": \"Centre\",\n      \"value_raw\": \"56.2\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2025/26\",\n      \"qualifiers\": {\n        \"scenario\": \"baseline\",\n        \"level_of_government\": \"centre\",\n        \"fiscal_measure\": \"debt\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"28.3\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Debt, Baseline (percent of GDP) State\",\n      \"subject\": \"State\",\n      \"value_raw\": \"28.3\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2025/26\",\n      \"qualifiers\": {\n        \"scenario\": \"baseline\",\n        \"level_of_government\": \"state\",\n        \"fiscal_measure\": \"debt\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"81.1\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Debt, Baseline (percent of GDP) General\",\n      \"subject\": \"General\",\n      \"value_raw\": \"81.1\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2025/26\",\n      \"qualifiers\": {\n        \"scenario\": \"baseline\",\n        \"level_of_government\": \"general\",\n        \"fiscal_measure\": \"debt\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"-3.8\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Overall Balance, Baseline (percent of GDP) Centre\",\n      \"subject\": \"Centre\",\n      \"value_raw\": \"-3.8\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2030/31\",\n      \"qualifiers\": {\n        \"scenario\": \"baseline\",\n        \"level_of_government\": \"centre\",\n        \"fiscal_measure\": \"overall balance\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"-3.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Overall Balance, Baseline (percent of GDP) State\",\n      \"subject\": \"State\",\n      \"value_raw\": \"-3.0\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2030/31\",\n      \"qualifiers\": {\n        \"scenario\": \"baseline\",\n        \"level_of_government\": \"state\",\n        \"fiscal_measure\": \"overall balance\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"-6.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Overall Balance, Baseline (percent of GDP) General\",\n      \"subject\": \"General\",\n      \"value_raw\": \"-6.6\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2030/31\",\n      \"qualifiers\": {\n        \"scenario\": \"baseline\",\n        \"level_of_government\": \"general\",\n        \"fiscal_measure\": \"overall balance\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"50.3\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Debt, Baseline (percent of GDP) Centre\",\n      \"subject\": \"Centre\",\n      \"value_raw\": \"50.3\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2030/31\",\n      \"qualifiers\": {\n        \"scenario\": \"baseline\",\n        \"level_of_government\": \"centre\",\n        \"fiscal_measure\": \"debt\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"28.4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Debt, Baseline (percent of GDP) State\",\n      \"subject\": \"State\",\n      \"value_raw\": \"28.4\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2030/31\",\n      \"qualifiers\": {\n        \"scenario\": \"baseline\",\n        \"level_of_government\": \"state\",\n        \"fiscal_measure\": \"debt\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"76.9\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Debt, Baseline (percent of GDP) General\",\n      \"subject\": \"General\",\n      \"value_raw\": \"76.9\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2030/31\",\n      \"qualifiers\": {\n        \"scenario\": \"baseline\",\n        \"level_of_government\": \"general\",\n        \"fiscal_measure\": \"debt\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 19,\n      \"quote\": \"5.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"policy rate\",\n      \"subject\": \"RBI\",\n      \"value_raw\": \"5.5\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"June 2025\",\n      \"qualifiers\": {\n        \"event\": \"lowered cumulatively by 100 basis points since February 2025\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 19,\n      \"quote\": \"1.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real policy rate\",\n      \"subject\": \"RBI\",\n      \"value_raw\": \"1.6\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"description\": \"declined to around the neutral rate\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 19,\n      \"quote\": \"3\",\n      \"kind\": \"numeric\",\n      \"metric\": \"cash reserve requirement (CRR) ratio\",\n      \"subject\": \"RBI\",\n      \"value_raw\": \"3\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"event\": \"100-bp cut\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 22,\n      \"quote\": \"0.07\",\n      \"kind\": \"numeric\",\n      \"metric\": \"disbursed incentives as share of GDP\",\n      \"subject\": \"authorities\",\n      \"value_raw\": \"0.07\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"March 2025\",\n      \"qualifiers\": {\n        \"program\": \"PLIs for large-scale electronics, pharmaceuticals, and drones\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 29,\n      \"quote\": \"42.4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of workers employed in agricultural sector\",\n      \"subject\": \"agricultural sector\",\n      \"value_raw\": \"42.4\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"source\": \"Current Weekly Status data from the Periodic Labour Force Survey\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 29,\n      \"quote\": \"18\",\n      \"kind\": \"numeric\",\n      \"metric\": \"cumulative adaptation costs\",\n      \"subject\": \"India\",\n      \"value_raw\": \"18\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"through 2030\",\n      \"qualifiers\": {\n        \"measured_relative_to\": \"2024/25 GDP\",\n        \"source\": \"authorities' estimate in 2023\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 29,\n      \"quote\": \"74\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of electricity generation from coal\",\n      \"subject\": \"India\",\n      \"value_raw\": \"74\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {\n        \"source\": \"IEA country profile\"\n      },\n      \"confidence\": 0.95\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:03-imf-india-2025-article-iv-excerpt-f6d3cfec:b16"
+}

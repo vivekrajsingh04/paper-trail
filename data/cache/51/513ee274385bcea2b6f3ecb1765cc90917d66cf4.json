@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Revenue expenditure growth measures the annual percentage change in expenditure, whereas revenue expenditure as a per cent of GDP measures expenditure relative to total economic output."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Revenue expenditure growth measures the annual percentage change in expenditure, whereas revenue expenditure as a per cent of GDP measures expenditure relative to total economic output.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

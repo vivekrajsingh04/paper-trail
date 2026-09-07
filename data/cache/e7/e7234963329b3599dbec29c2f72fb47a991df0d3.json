@@ -1,0 +1,16 @@
+{
+ "data": {
+  "title": "INDIA: 2025 Article IV Consultation—Press Release; Staff Report; Staff Statement; and Statement by the Executive Director for India",
+  "publisher": "International Monetary Fund",
+  "doc_type": "staff report",
+  "primary_entity": "India",
+  "published": "2025-11-26",
+  "as_of": "2025-11-06",
+  "default_qualifiers": {},
+  "notes": "Staff report completed on November 6, 2025, following discussions ending September 18, 2025. Executive Board consideration took place on November 21, 2025, and the press release was issued on November 26, 2025."
+ },
+ "raw": "{\n  \"title\": \"INDIA: 2025 Article IV Consultation—Press Release; Staff Report; Staff Statement; and Statement by the Executive Director for India\",\n  \"publisher\": \"International Monetary Fund\",\n  \"doc_type\": \"staff report\",\n  \"primary_entity\": \"India\",\n  \"published\": \"2025-11-26\",\n  \"as_of\": \"2025-11-06\",\n  \"default_qualifiers\": {},\n  \"notes\": \"Staff report completed on November 6, 2025, following discussions ending September 18, 2025. Executive Board consideration took place on November 21, 2025, and the press release was issued on November 26, 2025.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "profile:03-imf-india-2025-article-iv-excerpt-f6d3cfec"
+}

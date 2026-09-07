@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Although both measure economic growth in percentage units, they apply to different geographic and economic subjects ('AEs' versus 'Euro area')."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Although both measure economic growth in percentage units, they apply to different geographic and economic subjects ('AEs' versus 'Euro area').\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

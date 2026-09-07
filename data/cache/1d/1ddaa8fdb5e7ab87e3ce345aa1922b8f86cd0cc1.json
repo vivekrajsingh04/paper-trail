@@ -1,0 +1,604 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 51,
+    "quote": "contributes 2.3 per cent of GDP, 13 per cent to industrial production, and 12 per cent to exports",
+    "kind": "numeric",
+    "metric": "contribution to GDP, industrial production, and exports",
+    "subject": "textile and apparel industry",
+    "value_raw": "2.3",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {
+     "share_type": "gdp"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 51,
+    "quote": "over 45 million people employed directly, including many women and the rural population.",
+    "kind": "numeric",
+    "metric": "direct employment",
+    "subject": "textile and apparel industry",
+    "value_raw": "45",
+    "unit_raw": "million",
+    "period_raw": null,
+    "qualifiers": {
+     "employment_type": "direct"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 51,
+    "quote": "nearly 80 per cent of its capacity is spread across Micro, Small and Medium Enterprises (MSME) clusters",
+    "kind": "numeric",
+    "metric": "capacity share in MSME clusters",
+    "subject": "textile and apparel industry",
+    "value_raw": "80",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 51,
+    "quote": "India exported textile items worth USD 34 billion in 2023",
+    "kind": "numeric",
+    "metric": "textile items export value",
+    "subject": "india",
+    "value_raw": "34",
+    "unit_raw": "USD billion",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 51,
+    "quote": "apparel constituting 42 per cent of the export basket (USD 14.6 billion)",
+    "kind": "numeric",
+    "metric": "apparel export share",
+    "subject": "india textile exports",
+    "value_raw": "42",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 51,
+    "quote": "apparel constituting 42 per cent of the export basket (USD 14.6 billion)",
+    "kind": "numeric",
+    "metric": "apparel export value",
+    "subject": "india textile exports",
+    "value_raw": "14.6",
+    "unit_raw": "USD billion",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 51,
+    "quote": "raw materials/semi-finished materials at 34 per cent (USD 11.7 billion)",
+    "kind": "numeric",
+    "metric": "raw materials/semi-finished materials export share",
+    "subject": "india textile exports",
+    "value_raw": "34",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 51,
+    "quote": "raw materials/semi-finished materials at 34 per cent (USD 11.7 billion)",
+    "kind": "numeric",
+    "metric": "raw materials/semi-finished materials export value",
+    "subject": "india textile exports",
+    "value_raw": "11.7",
+    "unit_raw": "USD billion",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 51,
+    "quote": "finished non-apparel goods at 30 per cent (USD 7.8 billion)",
+    "kind": "numeric",
+    "metric": "finished non-apparel goods export share",
+    "subject": "india textile exports",
+    "value_raw": "30",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 51,
+    "quote": "finished non-apparel goods at 30 per cent (USD 7.8 billion)",
+    "kind": "numeric",
+    "metric": "finished non-apparel goods export value",
+    "subject": "india textile exports",
+    "value_raw": "7.8",
+    "unit_raw": "USD billion",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 52,
+    "quote": "the country enjoyed a market share of 2.8 per cent globally in 2023.",
+    "kind": "numeric",
+    "metric": "global apparel market share",
+    "subject": "india",
+    "value_raw": "2.8",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {
+     "sector": "apparel"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 52,
+    "quote": "China (30 per cent), Bangladesh (9 per cent), and Vietnam (7 per cent).",
+    "kind": "numeric",
+    "metric": "global apparel market share",
+    "subject": "china",
+    "value_raw": "30",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {
+     "sector": "apparel"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 52,
+    "quote": "China (30 per cent), Bangladesh (9 per cent), and Vietnam (7 per cent).",
+    "kind": "numeric",
+    "metric": "global apparel market share",
+    "subject": "bangladesh",
+    "value_raw": "9",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {
+     "sector": "apparel"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 52,
+    "quote": "China (30 per cent), Bangladesh (9 per cent), and Vietnam (7 per cent).",
+    "kind": "numeric",
+    "metric": "global apparel market share",
+    "subject": "vietnam",
+    "value_raw": "7",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {
+     "sector": "apparel"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 54,
+    "quote": "As of 2024, 168 research projects (worth ₹509 crore) were approved under the NTTM mission.",
+    "kind": "numeric",
+    "metric": "approved research projects count",
+    "subject": "National Technical Textiles Mission (NTTM)",
+    "value_raw": "168",
+    "unit_raw": null,
+    "period_raw": "2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 54,
+    "quote": "As of 2024, 168 research projects (worth ₹509 crore) were approved under the NTTM mission.",
+    "kind": "numeric",
+    "metric": "approved research projects value",
+    "subject": "National Technical Textiles Mission (NTTM)",
+    "value_raw": "509",
+    "unit_raw": "₹ crore",
+    "period_raw": "2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 55,
+    "quote": "optical items had an export value of USD 16.6 million from April to November 2024 and were exported to 14 new markets",
+    "kind": "numeric",
+    "metric": "export value",
+    "subject": "optical items",
+    "value_raw": "16.6",
+    "unit_raw": "USD million",
+    "period_raw": "April to November 2024",
+    "qualifiers": {
+     "market_type": "new markets"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 55,
+    "quote": "export of cranes, lifts and winches had a value of USD 23.1 million from April to November 2024, which has been exported to 12 new markets",
+    "kind": "numeric",
+    "metric": "export value",
+    "subject": "cranes, lifts and winches",
+    "value_raw": "23.1",
+    "unit_raw": "USD million",
+    "period_raw": "April to November 2024",
+    "qualifiers": {
+     "market_type": "new markets"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 55,
+    "quote": "office equipment & medical-scientific instruments have an export value of USD 10.7 million (exported to 12 new markets)",
+    "kind": "numeric",
+    "metric": "export value",
+    "subject": "office equipment",
+    "value_raw": "10.7",
+    "unit_raw": "USD million",
+    "period_raw": "April to November 2024",
+    "qualifiers": {
+     "market_type": "new markets"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 55,
+    "quote": "medical-scientific instruments have an export value of [...] USD 62.7 million (exported to",
+    "kind": "numeric",
+    "metric": "export value",
+    "subject": "medical-scientific instruments",
+    "value_raw": "62.7",
+    "unit_raw": "USD million",
+    "period_raw": "April to November 2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 57,
+    "quote": "India’s share in global services exports has more than doubled, reaching around 4.3 per cent in 2023 from 1.9 per cent in 2005.",
+    "kind": "numeric",
+    "metric": "share in global services exports",
+    "subject": "india",
+    "value_raw": "4.3",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 57,
+    "quote": "reaching around 4.3 per cent in 2023 from 1.9 per cent in 2005.",
+    "kind": "numeric",
+    "metric": "share in global services exports",
+    "subject": "india",
+    "value_raw": "1.9",
+    "unit_raw": "per cent",
+    "period_raw": "2005",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 57,
+    "quote": "In ‘Telecommunications, Computer, & Information Services’, India commands 10.2 per cent of the global exports market",
+    "kind": "numeric",
+    "metric": "global exports market share",
+    "subject": "Telecommunications, Computer, & Information Services",
+    "value_raw": "10.2",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 57,
+    "quote": "The ‘Other Business Services sector’ also plays a crucial role, with India holding 7.2 per cent of the world share",
+    "kind": "numeric",
+    "metric": "world share",
+    "subject": "Other Business Services sector",
+    "value_raw": "7.2",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 57,
+    "quote": "at 2.1 per cent and 2.2 per cent, respectively",
+    "kind": "numeric",
+    "metric": "share in global exports",
+    "subject": "Travel",
+    "value_raw": "2.1",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 57,
+    "quote": "at 2.1 per cent and 2.2 per cent, respectively",
+    "kind": "numeric",
+    "metric": "share in global exports",
+    "subject": "Transport",
+    "value_raw": "2.2",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 57,
+    "quote": "with a global share of 3.4 per cent in 'Personal, Cultural, & Recreational' services and 3.5 per cent in 'Construction services,'",
+    "kind": "numeric",
+    "metric": "global share",
+    "subject": "Personal, Cultural, & Recreational services",
+    "value_raw": "3.4",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 57,
+    "quote": "with a global share of 3.4 per cent in 'Personal, Cultural, & Recreational' services and 3.5 per cent in 'Construction services,'",
+    "kind": "numeric",
+    "metric": "global share",
+    "subject": "Construction services",
+    "value_raw": "3.5",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 58,
+    "quote": "global B2C e-commerce market is expected to grow from USD 5.7 trillion in 2022 to USD 8.1 trillion by 2026 at a CAGR of 9.1 per cent.",
+    "kind": "numeric",
+    "metric": "market size",
+    "subject": "global B2C e-commerce market",
+    "value_raw": "5.7",
+    "unit_raw": "USD trillion",
+    "period_raw": "2022",
+    "qualifiers": {
+     "type": "projection"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 58,
+    "quote": "global B2C e-commerce market is expected to grow from USD 5.7 trillion in 2022 to USD 8.1 trillion by 2026 at a CAGR of 9.1 per cent.",
+    "kind": "numeric",
+    "metric": "market size",
+    "subject": "global B2C e-commerce market",
+    "value_raw": "8.1",
+    "unit_raw": "USD trillion",
+    "period_raw": "2026",
+    "qualifiers": {
+     "type": "projection"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 58,
+    "quote": "global B2C e-commerce market is expected to grow from USD 5.7 trillion in 2022 to USD 8.1 trillion by 2026 at a CAGR of 9.1 per cent.",
+    "kind": "numeric",
+    "metric": "CAGR",
+    "subject": "global B2C e-commerce market",
+    "value_raw": "9.1",
+    "unit_raw": "per cent",
+    "period_raw": "2022 to 2026",
+    "qualifiers": {
+     "type": "projection"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 58,
+    "quote": "India's B2C e-commerce market was worth USD 83 billion in 2022, and it is anticipated to grow to USD 150 billion by 2026, showing a CAGR of 15.9 per cent.",
+    "kind": "numeric",
+    "metric": "market size",
+    "subject": "India's B2C e-commerce market",
+    "value_raw": "83",
+    "unit_raw": "USD billion",
+    "period_raw": "2022",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 58,
+    "quote": "India's B2C e-commerce market was worth USD 83 billion in 2022, and it is anticipated to grow to USD 150 billion by 2026, showing a CAGR of 15.9 per cent.",
+    "kind": "numeric",
+    "metric": "market size",
+    "subject": "India's B2C e-commerce market",
+    "value_raw": "150",
+    "unit_raw": "USD billion",
+    "period_raw": "2026",
+    "qualifiers": {
+     "type": "projection"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 58,
+    "quote": "India's B2C e-commerce market was worth USD 83 billion in 2022, and it is anticipated to grow to USD 150 billion by 2026, showing a CAGR of 15.9 per cent.",
+    "kind": "numeric",
+    "metric": "CAGR",
+    "subject": "India's B2C e-commerce market",
+    "value_raw": "15.9",
+    "unit_raw": "per cent",
+    "period_raw": "2022 to 2026",
+    "qualifiers": {
+     "type": "projection"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 58,
+    "quote": "India’s e-commerce market makes up a small fraction, about 1.5 per cent of the global market, and it is projected to stay around 2 per cent in the coming years.",
+    "kind": "numeric",
+    "metric": "share of global market",
+    "subject": "India’s e-commerce market",
+    "value_raw": "1.5",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 58,
+    "quote": "These exports generated an estimated USD 4 to 5 billion in exports during FY23 and are expected to increase to USD 200 to USD 300 billion by 2030.",
+    "kind": "numeric",
+    "metric": "exports value",
+    "subject": "India's e-commerce exports",
+    "value_raw": "4",
+    "unit_raw": "USD billion",
+    "period_raw": "FY23",
+    "qualifiers": {
+     "estimate": true
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 61,
+    "quote": "India’s current account deficit (CAD) moderated slightly to 1.2 per cent of GDP in Q2 of FY25 against 1.3 per cent of the GDP recorded in Q2 of FY24.",
+    "kind": "numeric",
+    "metric": "current account deficit as % of GDP",
+    "subject": "india",
+    "value_raw": "1.2",
+    "unit_raw": "per cent",
+    "period_raw": "Q2 FY25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 61,
+    "quote": "India’s current account deficit (CAD) moderated slightly to 1.2 per cent of GDP in Q2 of FY25 against 1.3 per cent of the GDP recorded in Q2 of FY24.",
+    "kind": "numeric",
+    "metric": "current account deficit as % of GDP",
+    "subject": "india",
+    "value_raw": "1.3",
+    "unit_raw": "per cent",
+    "period_raw": "Q2 FY24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 61,
+    "quote": "merchandise trade deficit, which rose to USD 75.3 billion in Q2 of FY25 from USD 64.5 billion in the corresponding quarter of the previous year.",
+    "kind": "numeric",
+    "metric": "merchandise trade deficit",
+    "subject": "india",
+    "value_raw": "75.3",
+    "unit_raw": "USD billion",
+    "period_raw": "Q2 FY25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 61,
+    "quote": "merchandise trade deficit, which rose to USD 75.3 billion in Q2 of FY25 from USD 64.5 billion in the corresponding quarter of the previous year.",
+    "kind": "numeric",
+    "metric": "merchandise trade deficit",
+    "subject": "india",
+    "value_raw": "64.5",
+    "unit_raw": "USD billion",
+    "period_raw": "Q2 FY24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 61,
+    "quote": "Net service receipts increased to USD 44.5 billion in Q2 of FY25 from USD 39.9 billion in the corresponding quarter in FY24.",
+    "kind": "numeric",
+    "metric": "net service receipts",
+    "subject": "india",
+    "value_raw": "44.5",
+    "unit_raw": "USD billion",
+    "period_raw": "Q2 FY25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 61,
+    "quote": "Net service receipts increased to USD 44.5 billion in Q2 of FY25 from USD 39.9 billion in the corresponding quarter in FY24.",
+    "kind": "numeric",
+    "metric": "net service receipts",
+    "subject": "india",
+    "value_raw": "39.9",
+    "unit_raw": "USD billion",
+    "period_raw": "Q2 FY24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 63,
+    "quote": "In Q2 of FY25, net capital inflows stood at USD 30.5 billion, a significant increase from the USD 12.8 billion recorded during the same period in the previous year.",
+    "kind": "numeric",
+    "metric": "net capital inflows",
+    "subject": "india",
+    "value_raw": "30.5",
+    "unit_raw": "USD billion",
+    "period_raw": "Q2 FY25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 63,
+    "quote": "In Q2 of FY25, net capital inflows stood at USD 30.5 billion, a significant increase from the USD 12.8 billion recorded during the same period in the previous year.",
+    "kind": "numeric",
+    "metric": "net capital inflows",
+    "subject": "india",
+    "value_raw": "12.8",
+    "unit_raw": "USD billion",
+    "period_raw": "Q2 FY24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 63,
+    "quote": "gross FDI inflows88 increasing from USD 47.2 billion in the first eight months of FY24 to USD 55.6 billion in the same period of FY25, a YoY growth of 17.9 per cent.",
+    "kind": "numeric",
+    "metric": "gross FDI inflows",
+    "subject": "india",
+    "value_raw": "47.2",
+    "unit_raw": "USD billion",
+    "period_raw": "first eight months of FY24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 63,
+    "quote": "gross FDI inflows88 increasing from USD 47.2 billion in the first eight months of FY24 to USD 55.6 billion in the same period of FY25, a YoY growth of 17.9 per cent.",
+    "kind": "numeric",
+    "metric": "gross FDI inflows",
+    "subject": "india",
+    "value_raw": "55.6",
+    "unit_raw": "USD billion",
+    "period_raw": "first eight months of FY25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 63,
+    "quote": "gross FDI inflows88 increasing from USD 47.2 billion in the first eight months of FY24 to USD 55.6 billion in the same period of FY25, a YoY growth of 17.9 per cent.",
+    "kind": "numeric",
+    "metric": "gross FDI inflows YoY growth",
+    "subject": "india",
+    "value_raw": "17.9",
+    "unit_raw": "per cent",
+    "period_raw": "first eight months of FY25",
+    "qualifiers": {},
+    "confidence": 0.95
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 51,\n      \"quote\": \"contributes 2.3 per cent of GDP, 13 per cent to industrial production, and 12 per cent to exports\",\n      \"kind\": \"numeric\",\n      \"metric\": \"contribution to GDP, industrial production, and exports\",\n      \"subject\": \"textile and apparel industry\",\n      \"value_raw\": \"2.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"share_type\": \"gdp\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"over 45 million people employed directly, including many women and the rural population.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"direct employment\",\n      \"subject\": \"textile and apparel industry\",\n      \"value_raw\": \"45\",\n      \"unit_raw\": \"million\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"employment_type\": \"direct\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"nearly 80 per cent of its capacity is spread across Micro, Small and Medium Enterprises (MSME) clusters\",\n      \"kind\": \"numeric\",\n      \"metric\": \"capacity share in MSME clusters\",\n      \"subject\": \"textile and apparel industry\",\n      \"value_raw\": \"80\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"India exported textile items worth USD 34 billion in 2023\",\n      \"kind\": \"numeric\",\n      \"metric\": \"textile items export value\",\n      \"subject\": \"india\",\n      \"value_raw\": \"34\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"apparel constituting 42 per cent of the export basket (USD 14.6 billion)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"apparel export share\",\n      \"subject\": \"india textile exports\",\n      \"value_raw\": \"42\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"apparel constituting 42 per cent of the export basket (USD 14.6 billion)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"apparel export value\",\n      \"subject\": \"india textile exports\",\n      \"value_raw\": \"14.6\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"raw materials/semi-finished materials at 34 per cent (USD 11.7 billion)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"raw materials/semi-finished materials export share\",\n      \"subject\": \"india textile exports\",\n      \"value_raw\": \"34\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"raw materials/semi-finished materials at 34 per cent (USD 11.7 billion)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"raw materials/semi-finished materials export value\",\n      \"subject\": \"india textile exports\",\n      \"value_raw\": \"11.7\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"finished non-apparel goods at 30 per cent (USD 7.8 billion)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"finished non-apparel goods export share\",\n      \"subject\": \"india textile exports\",\n      \"value_raw\": \"30\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"finished non-apparel goods at 30 per cent (USD 7.8 billion)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"finished non-apparel goods export value\",\n      \"subject\": \"india textile exports\",\n      \"value_raw\": \"7.8\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 52,\n      \"quote\": \"the country enjoyed a market share of 2.8 per cent globally in 2023.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global apparel market share\",\n      \"subject\": \"india\",\n      \"value_raw\": \"2.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {\n        \"sector\": \"apparel\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 52,\n      \"quote\": \"China (30 per cent), Bangladesh (9 per cent), and Vietnam (7 per cent).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global apparel market share\",\n      \"subject\": \"china\",\n      \"value_raw\": \"30\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {\n        \"sector\": \"apparel\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 52,\n      \"quote\": \"China (30 per cent), Bangladesh (9 per cent), and Vietnam (7 per cent).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global apparel market share\",\n      \"subject\": \"bangladesh\",\n      \"value_raw\": \"9\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {\n        \"sector\": \"apparel\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 52,\n      \"quote\": \"China (30 per cent), Bangladesh (9 per cent), and Vietnam (7 per cent).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global apparel market share\",\n      \"subject\": \"vietnam\",\n      \"value_raw\": \"7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {\n        \"sector\": \"apparel\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 54,\n      \"quote\": \"As of 2024, 168 research projects (worth ₹509 crore) were approved under the NTTM mission.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"approved research projects count\",\n      \"subject\": \"National Technical Textiles Mission (NTTM)\",\n      \"value_raw\": \"168\",\n      \"unit_raw\": null,\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 54,\n      \"quote\": \"As of 2024, 168 research projects (worth ₹509 crore) were approved under the NTTM mission.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"approved research projects value\",\n      \"subject\": \"National Technical Textiles Mission (NTTM)\",\n      \"value_raw\": \"509\",\n      \"unit_raw\": \"₹ crore\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"optical items had an export value of USD 16.6 million from April to November 2024 and were exported to 14 new markets\",\n      \"kind\": \"numeric\",\n      \"metric\": \"export value\",\n      \"subject\": \"optical items\",\n      \"value_raw\": \"16.6\",\n      \"unit_raw\": \"USD million\",\n      \"period_raw\": \"April to November 2024\",\n      \"qualifiers\": {\n        \"market_type\": \"new markets\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"export of cranes, lifts and winches had a value of USD 23.1 million from April to November 2024, which has been exported to 12 new markets\",\n      \"kind\": \"numeric\",\n      \"metric\": \"export value\",\n      \"subject\": \"cranes, lifts and winches\",\n      \"value_raw\": \"23.1\",\n      \"unit_raw\": \"USD million\",\n      \"period_raw\": \"April to November 2024\",\n      \"qualifiers\": {\n        \"market_type\": \"new markets\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"office equipment & medical-scientific instruments have an export value of USD 10.7 million (exported to 12 new markets)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"export value\",\n      \"subject\": \"office equipment\",\n      \"value_raw\": \"10.7\",\n      \"unit_raw\": \"USD million\",\n      \"period_raw\": \"April to November 2024\",\n      \"qualifiers\": {\n        \"market_type\": \"new markets\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"medical-scientific instruments have an export value of [...] USD 62.7 million (exported to\",\n      \"kind\": \"numeric\",\n      \"metric\": \"export value\",\n      \"subject\": \"medical-scientific instruments\",\n      \"value_raw\": \"62.7\",\n      \"unit_raw\": \"USD million\",\n      \"period_raw\": \"April to November 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 57,\n      \"quote\": \"India’s share in global services exports has more than doubled, reaching around 4.3 per cent in 2023 from 1.9 per cent in 2005.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share in global services exports\",\n      \"subject\": \"india\",\n      \"value_raw\": \"4.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 57,\n      \"quote\": \"reaching around 4.3 per cent in 2023 from 1.9 per cent in 2005.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share in global services exports\",\n      \"subject\": \"india\",\n      \"value_raw\": \"1.9\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2005\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 57,\n      \"quote\": \"In ‘Telecommunications, Computer, & Information Services’, India commands 10.2 per cent of the global exports market\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global exports market share\",\n      \"subject\": \"Telecommunications, Computer, & Information Services\",\n      \"value_raw\": \"10.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 57,\n      \"quote\": \"The ‘Other Business Services sector’ also plays a crucial role, with India holding 7.2 per cent of the world share\",\n      \"kind\": \"numeric\",\n      \"metric\": \"world share\",\n      \"subject\": \"Other Business Services sector\",\n      \"value_raw\": \"7.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 57,\n      \"quote\": \"at 2.1 per cent and 2.2 per cent, respectively\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share in global exports\",\n      \"subject\": \"Travel\",\n      \"value_raw\": \"2.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 57,\n      \"quote\": \"at 2.1 per cent and 2.2 per cent, respectively\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share in global exports\",\n      \"subject\": \"Transport\",\n      \"value_raw\": \"2.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 57,\n      \"quote\": \"with a global share of 3.4 per cent in 'Personal, Cultural, & Recreational' services and 3.5 per cent in 'Construction services,'\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global share\",\n      \"subject\": \"Personal, Cultural, & Recreational services\",\n      \"value_raw\": \"3.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 57,\n      \"quote\": \"with a global share of 3.4 per cent in 'Personal, Cultural, & Recreational' services and 3.5 per cent in 'Construction services,'\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global share\",\n      \"subject\": \"Construction services\",\n      \"value_raw\": \"3.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"global B2C e-commerce market is expected to grow from USD 5.7 trillion in 2022 to USD 8.1 trillion by 2026 at a CAGR of 9.1 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"market size\",\n      \"subject\": \"global B2C e-commerce market\",\n      \"value_raw\": \"5.7\",\n      \"unit_raw\": \"USD trillion\",\n      \"period_raw\": \"2022\",\n      \"qualifiers\": {\n        \"type\": \"projection\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"global B2C e-commerce market is expected to grow from USD 5.7 trillion in 2022 to USD 8.1 trillion by 2026 at a CAGR of 9.1 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"market size\",\n      \"subject\": \"global B2C e-commerce market\",\n      \"value_raw\": \"8.1\",\n      \"unit_raw\": \"USD trillion\",\n      \"period_raw\": \"2026\",\n      \"qualifiers\": {\n        \"type\": \"projection\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"global B2C e-commerce market is expected to grow from USD 5.7 trillion in 2022 to USD 8.1 trillion by 2026 at a CAGR of 9.1 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"CAGR\",\n      \"subject\": \"global B2C e-commerce market\",\n      \"value_raw\": \"9.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2022 to 2026\",\n      \"qualifiers\": {\n        \"type\": \"projection\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"India's B2C e-commerce market was worth USD 83 billion in 2022, and it is anticipated to grow to USD 150 billion by 2026, showing a CAGR of 15.9 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"market size\",\n      \"subject\": \"India's B2C e-commerce market\",\n      \"value_raw\": \"83\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"2022\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"India's B2C e-commerce market was worth USD 83 billion in 2022, and it is anticipated to grow to USD 150 billion by 2026, showing a CAGR of 15.9 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"market size\",\n      \"subject\": \"India's B2C e-commerce market\",\n      \"value_raw\": \"150\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"2026\",\n      \"qualifiers\": {\n        \"type\": \"projection\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"India's B2C e-commerce market was worth USD 83 billion in 2022, and it is anticipated to grow to USD 150 billion by 2026, showing a CAGR of 15.9 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"CAGR\",\n      \"subject\": \"India's B2C e-commerce market\",\n      \"value_raw\": \"15.9\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2022 to 2026\",\n      \"qualifiers\": {\n        \"type\": \"projection\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"India’s e-commerce market makes up a small fraction, about 1.5 per cent of the global market, and it is projected to stay around 2 per cent in the coming years.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of global market\",\n      \"subject\": \"India’s e-commerce market\",\n      \"value_raw\": \"1.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 58,\n      \"quote\": \"These exports generated an estimated USD 4 to 5 billion in exports during FY23 and are expected to increase to USD 200 to USD 300 billion by 2030.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"exports value\",\n      \"subject\": \"India's e-commerce exports\",\n      \"value_raw\": \"4\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"FY23\",\n      \"qualifiers\": {\n        \"estimate\": true\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 61,\n      \"quote\": \"India’s current account deficit (CAD) moderated slightly to 1.2 per cent of GDP in Q2 of FY25 against 1.3 per cent of the GDP recorded in Q2 of FY24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"current account deficit as % of GDP\",\n      \"subject\": \"india\",\n      \"value_raw\": \"1.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q2 FY25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 61,\n      \"quote\": \"India’s current account deficit (CAD) moderated slightly to 1.2 per cent of GDP in Q2 of FY25 against 1.3 per cent of the GDP recorded in Q2 of FY24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"current account deficit as % of GDP\",\n      \"subject\": \"india\",\n      \"value_raw\": \"1.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q2 FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 61,\n      \"quote\": \"merchandise trade deficit, which rose to USD 75.3 billion in Q2 of FY25 from USD 64.5 billion in the corresponding quarter of the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"merchandise trade deficit\",\n      \"subject\": \"india\",\n      \"value_raw\": \"75.3\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"Q2 FY25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 61,\n      \"quote\": \"merchandise trade deficit, which rose to USD 75.3 billion in Q2 of FY25 from USD 64.5 billion in the corresponding quarter of the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"merchandise trade deficit\",\n      \"subject\": \"india\",\n      \"value_raw\": \"64.5\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"Q2 FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 61,\n      \"quote\": \"Net service receipts increased to USD 44.5 billion in Q2 of FY25 from USD 39.9 billion in the corresponding quarter in FY24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net service receipts\",\n      \"subject\": \"india\",\n      \"value_raw\": \"44.5\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"Q2 FY25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 61,\n      \"quote\": \"Net service receipts increased to USD 44.5 billion in Q2 of FY25 from USD 39.9 billion in the corresponding quarter in FY24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net service receipts\",\n      \"subject\": \"india\",\n      \"value_raw\": \"39.9\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"Q2 FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"In Q2 of FY25, net capital inflows stood at USD 30.5 billion, a significant increase from the USD 12.8 billion recorded during the same period in the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net capital inflows\",\n      \"subject\": \"india\",\n      \"value_raw\": \"30.5\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"Q2 FY25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"In Q2 of FY25, net capital inflows stood at USD 30.5 billion, a significant increase from the USD 12.8 billion recorded during the same period in the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net capital inflows\",\n      \"subject\": \"india\",\n      \"value_raw\": \"12.8\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"Q2 FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"gross FDI inflows88 increasing from USD 47.2 billion in the first eight months of FY24 to USD 55.6 billion in the same period of FY25, a YoY growth of 17.9 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross FDI inflows\",\n      \"subject\": \"india\",\n      \"value_raw\": \"47.2\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"first eight months of FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"gross FDI inflows88 increasing from USD 47.2 billion in the first eight months of FY24 to USD 55.6 billion in the same period of FY25, a YoY growth of 17.9 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross FDI inflows\",\n      \"subject\": \"india\",\n      \"value_raw\": \"55.6\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"first eight months of FY25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"gross FDI inflows88 increasing from USD 47.2 billion in the first eight months of FY24 to USD 55.6 billion in the same period of FY25, a YoY growth of 17.9 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross FDI inflows YoY growth\",\n      \"subject\": \"india\",\n      \"value_raw\": \"17.9\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"first eight months of FY25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:01-india-economic-survey-2024-25-excerpt-86f2e79a:b51"
+}

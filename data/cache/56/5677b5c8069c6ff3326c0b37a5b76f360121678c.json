@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": null,
+  "reason": "Metric A measures trade payables to creditors other than micro and small enterprises, while Metric B measures trade payables to micro and small enterprises, representing two distinct components of total trade payables."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures trade payables to creditors other than micro and small enterprises, while Metric B measures trade payables to micro and small enterprises, representing two distinct components of total trade payables.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

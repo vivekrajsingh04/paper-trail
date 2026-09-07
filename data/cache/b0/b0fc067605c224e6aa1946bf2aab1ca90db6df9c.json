@@ -1,0 +1,923 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 49,
+    "quote": "Mr. Deepak Kapoor\n00162957\n22/11/2017",
+    "kind": "semantic",
+    "metric": "Director Appointment Date",
+    "subject": "Mr. Deepak Kapoor",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "appointed",
+    "period_raw": "22/11/2017",
+    "qualifiers": {
+     "din": "00162957"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "Mr. Romesh Sobti\n00031034\n01/10/2021",
+    "kind": "semantic",
+    "metric": "Director Appointment Date",
+    "subject": "Mr. Romesh Sobti",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "appointed",
+    "period_raw": "01/10/2021",
+    "qualifiers": {
+     "din": "00031034"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "Mr. Saugata Gupta\n05251806\n01/10/2021",
+    "kind": "semantic",
+    "metric": "Director Appointment Date",
+    "subject": "Mr. Saugata Gupta",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "appointed",
+    "period_raw": "01/10/2021",
+    "qualifiers": {
+     "din": "05251806"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "Mr. Srivatsan Rajan\n00754512\n01/03/2016",
+    "kind": "semantic",
+    "metric": "Director Appointment Date",
+    "subject": "Mr. Srivatsan Rajan",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "appointed",
+    "period_raw": "01/03/2016",
+    "qualifiers": {
+     "din": "00754512"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "Ms. Aruna Sundararajan\n03523267\n08/07/2022",
+    "kind": "semantic",
+    "metric": "Director Appointment Date",
+    "subject": "Ms. Aruna Sundararajan",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "appointed",
+    "period_raw": "08/07/2022",
+    "qualifiers": {
+     "din": "03523267"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "Mr. Anindya Ghose\n10243913\n04/08/2023",
+    "kind": "semantic",
+    "metric": "Director Appointment Date",
+    "subject": "Mr. Anindya Ghose",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "appointed",
+    "period_raw": "04/08/2023",
+    "qualifiers": {
+     "din": "10243913"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "Mr. Sahil Barua\n05131571\n19/12/2011",
+    "kind": "semantic",
+    "metric": "Director Appointment Date",
+    "subject": "Mr. Sahil Barua",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "appointed",
+    "period_raw": "19/12/2011",
+    "qualifiers": {
+     "din": "05131571"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "Mr. Sandeep Kumar Barasia\n01432123\n01/07/2015",
+    "kind": "semantic",
+    "metric": "Director Appointment Date",
+    "subject": "Mr. Sandeep Kumar Barasia",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "appointed",
+    "period_raw": "01/07/2015",
+    "qualifiers": {
+     "din": "01432123"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 49,
+    "quote": "Mr. Kapil Bharati\n02227607\n19/08/2021",
+    "kind": "semantic",
+    "metric": "Director Appointment Date",
+    "subject": "Mr. Kapil Bharati",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "appointed",
+    "period_raw": "19/08/2021",
+    "qualifiers": {
+     "din": "02227607"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "June 22, 2011",
+    "kind": "semantic",
+    "metric": "Year of incorporation",
+    "subject": "Delhivery Limited",
+    "value_raw": null,
+    "unit_raw": null,
+    "state": "incorporated",
+    "period_raw": "June 22, 2011",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "₹736,785,255",
+    "kind": "numeric",
+    "metric": "Paid-up Capital",
+    "subject": "Delhivery Limited",
+    "value_raw": "736,785,255",
+    "unit_raw": "₹",
+    "period_raw": "as on March 31, 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "91.65%",
+    "kind": "numeric",
+    "metric": "Percentage of Turnover of the entity",
+    "subject": "Land transport via road",
+    "value_raw": "91.65",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {
+     "description_of_main_activity": "Transportation & Storage",
+     "description_of_business_activity": "Land transport via road"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "4.58%",
+    "kind": "numeric",
+    "metric": "Percentage of Turnover of the entity",
+    "subject": "Warehousing & storage",
+    "value_raw": "4.58",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {
+     "description_of_main_activity": "Transportation & Storage",
+     "description_of_business_activity": "Warehousing & storage"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "1.15%",
+    "kind": "numeric",
+    "metric": "Percentage of Turnover of the entity",
+    "subject": "Air transport",
+    "value_raw": "1.15",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {
+     "description_of_main_activity": "Transportation & Storage",
+     "description_of_business_activity": "Air transport"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "1.78%",
+    "kind": "numeric",
+    "metric": "Percentage of Turnover of the entity",
+    "subject": "Postal & Courier Activities",
+    "value_raw": "1.78",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {
+     "description_of_main_activity": "Transportation & Storage",
+     "description_of_business_activity": "Postal & Courier Activities"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "0.71%",
+    "kind": "numeric",
+    "metric": "Percentage of Turnover of the entity",
+    "subject": "Water Transport",
+    "value_raw": "0.71",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {
+     "description_of_main_activity": "Transportation & Storage",
+     "description_of_business_activity": "Water Transport"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "0.13%",
+    "kind": "numeric",
+    "metric": "Percentage of Turnover of the entity",
+    "subject": "Service incidental to land, water & air transportation",
+    "value_raw": "0.13",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {
+     "description_of_main_activity": "Transportation & Storage",
+     "description_of_business_activity": "Service incidental to land, water & air transportation"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "3,834",
+    "kind": "numeric",
+    "metric": "Number of plants",
+    "subject": "National operations",
+    "value_raw": "3,834",
+    "unit_raw": null,
+    "period_raw": "fy24",
+    "qualifiers": {
+     "location_type": "National",
+     "note": "Includes Gateways, Fulfillment Centres, Processing Centres, and Last Mile Centres"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "17",
+    "kind": "numeric",
+    "metric": "Number of offices",
+    "subject": "National operations",
+    "value_raw": "17",
+    "unit_raw": null,
+    "period_raw": "fy24",
+    "qualifiers": {
+     "location_type": "National"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "3,851",
+    "kind": "numeric",
+    "metric": "Total plants and offices",
+    "subject": "National operations",
+    "value_raw": "3,851",
+    "unit_raw": null,
+    "period_raw": "fy24",
+    "qualifiers": {
+     "location_type": "National"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "0",
+    "kind": "numeric",
+    "metric": "Number of plants",
+    "subject": "International operations",
+    "value_raw": "0",
+    "unit_raw": null,
+    "period_raw": "fy24",
+    "qualifiers": {
+     "location_type": "International"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "4",
+    "kind": "numeric",
+    "metric": "Number of offices",
+    "subject": "International operations",
+    "value_raw": "4",
+    "unit_raw": null,
+    "period_raw": "fy24",
+    "qualifiers": {
+     "location_type": "International"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "4",
+    "kind": "numeric",
+    "metric": "Total plants and offices",
+    "subject": "International operations",
+    "value_raw": "4",
+    "unit_raw": null,
+    "period_raw": "fy24",
+    "qualifiers": {
+     "location_type": "International"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "36",
+    "kind": "numeric",
+    "metric": "Number of locations served",
+    "subject": "National (No. of States and Union Territories)",
+    "value_raw": "36",
+    "unit_raw": null,
+    "period_raw": "fy24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "220",
+    "kind": "numeric",
+    "metric": "Number of locations served",
+    "subject": "International (No. of Countries)",
+    "value_raw": "220",
+    "unit_raw": null,
+    "period_raw": "fy24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 50,
+    "quote": "0.18%",
+    "kind": "numeric",
+    "metric": "Contribution of exports as a percentage of total turnover",
+    "subject": "Delhivery Limited",
+    "value_raw": "0.18",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 51,
+    "quote": "35.69%",
+    "kind": "numeric",
+    "metric": "Turnover rate for permanent employees",
+    "subject": "Male permanent employees",
+    "value_raw": "35.69",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "category": "Permanent Employees"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 51,
+    "quote": "45.15%",
+    "kind": "numeric",
+    "metric": "Turnover rate for permanent employees",
+    "subject": "Female permanent employees",
+    "value_raw": "45.15",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "category": "Permanent Employees"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 51,
+    "quote": "36.36%",
+    "kind": "numeric",
+    "metric": "Turnover rate for permanent employees",
+    "subject": "Total permanent employees",
+    "value_raw": "36.36",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "category": "Permanent Employees"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 51,
+    "quote": "32.02%",
+    "kind": "numeric",
+    "metric": "Turnover rate for permanent workers",
+    "subject": "Male permanent workers",
+    "value_raw": "32.02",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "category": "Permanent Workers"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 51,
+    "quote": "33.82%",
+    "kind": "numeric",
+    "metric": "Turnover rate for permanent workers",
+    "subject": "Female permanent workers",
+    "value_raw": "33.82",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "category": "Permanent Workers"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 51,
+    "quote": "32.24%",
+    "kind": "numeric",
+    "metric": "Turnover rate for permanent workers",
+    "subject": "Total permanent workers",
+    "value_raw": "32.24",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "category": "Permanent Workers"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 51,
+    "quote": "100.00%",
+    "kind": "numeric",
+    "metric": "% of shares held by listed entity",
+    "subject": "Spoton Logistics Private Limited",
+    "value_raw": "100.00",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {
+     "subsidiary_type": "Subsidiary"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 51,
+    "quote": "₹ 12,842,738/-",
+    "kind": "numeric",
+    "metric": "Voluntary CSR spend",
+    "subject": "Delhivery Limited",
+    "value_raw": "12,842,738",
+    "unit_raw": "₹",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 51,
+    "quote": "J81,415.38",
+    "kind": "numeric",
+    "metric": "Turnover",
+    "subject": "Delhivery Limited",
+    "value_raw": "81,415.38",
+    "unit_raw": "₹ million",
+    "period_raw": "fy24",
+    "qualifiers": {},
+    "confidence": 0.9
+   },
+   {
+    "page": 51,
+    "quote": "J85,466.74",
+    "kind": "numeric",
+    "metric": "Net worth",
+    "subject": "Delhivery Limited",
+    "value_raw": "85,466.74",
+    "unit_raw": "₹ million",
+    "period_raw": "fy24",
+    "qualifiers": {},
+    "confidence": 0.9
+   },
+   {
+    "page": 55,
+    "quote": "55%",
+    "kind": "numeric",
+    "metric": "Percentage of inputs sourced sustainably",
+    "subject": "Delhivery Limited",
+    "value_raw": "55",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {
+     "basis": "responses received from vendors catering to the top 75% of the spend & their percentage contribution has been calculated out of the total input value"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "18,527",
+    "kind": "numeric",
+    "metric": "Total permanent employees",
+    "subject": "Permanent employees",
+    "value_raw": "18,527",
+    "unit_raw": null,
+    "period_raw": "fy24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "100.00%",
+    "kind": "numeric",
+    "metric": "% of permanent employees covered by health insurance",
+    "subject": "Permanent employees (Total)",
+    "value_raw": "100.00",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "100.00%",
+    "kind": "numeric",
+    "metric": "% of permanent employees covered by accident insurance",
+    "subject": "Permanent employees (Total)",
+    "value_raw": "100.00",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "7.85%",
+    "kind": "numeric",
+    "metric": "% of permanent employees covered by maternity benefits",
+    "subject": "Permanent employees (Total)",
+    "value_raw": "7.85",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "92.47%",
+    "kind": "numeric",
+    "metric": "% of permanent employees covered by paternity benefits",
+    "subject": "Permanent employees (Total)",
+    "value_raw": "92.47",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "7.85%",
+    "kind": "numeric",
+    "metric": "% of permanent employees covered by day care facilities",
+    "subject": "Permanent employees (Total)",
+    "value_raw": "7.85",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "0.34%",
+    "kind": "numeric",
+    "metric": "Cost incurred on well-being measures as a % of total turnover of the company",
+    "subject": "Employees and workers (including permanent and other than permanent)",
+    "value_raw": "0.34",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "0.21%",
+    "kind": "numeric",
+    "metric": "Cost incurred on well-being measures as a % of total turnover of the company",
+    "subject": "Employees and workers (including permanent and other than permanent)",
+    "value_raw": "0.21",
+    "unit_raw": "%",
+    "period_raw": "FY23",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 56,
+    "quote": "94.35%",
+    "kind": "numeric",
+    "metric": "Return to work rate",
+    "subject": "Permanent employees (Total)",
+    "value_raw": "94.35",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {
+     "category": "Permanent employees",
+     "metric_type": "parental leave return to work rate"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 56,
+    "quote": "92.76%",
+    "kind": "numeric",
+    "metric": "Retention rate",
+    "subject": "Permanent employees (Total)",
+    "value_raw": "92.76",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {
+     "category": "Permanent employees",
+     "metric_type": "parental leave retention rate"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 56,
+    "quote": "92.71%",
+    "kind": "numeric",
+    "metric": "Return to work rate",
+    "subject": "Permanent workers (Total)",
+    "value_raw": "92.71",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {
+     "category": "Permanent workers",
+     "metric_type": "parental leave return to work rate"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 56,
+    "quote": "91.43%",
+    "kind": "numeric",
+    "metric": "Retention rate",
+    "subject": "Permanent workers (Total)",
+    "value_raw": "91.43",
+    "unit_raw": "%",
+    "period_raw": "fy24",
+    "qualifiers": {
+     "category": "Permanent workers",
+     "metric_type": "parental leave retention rate"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 56,
+    "quote": "16.15%",
+    "kind": "numeric",
+    "metric": "Percentage of employees trained on health and safety measures",
+    "subject": "Employees (Total)",
+    "value_raw": "16.15",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 56,
+    "quote": "75.67%",
+    "kind": "numeric",
+    "metric": "Percentage of employees trained on skill upgradation",
+    "subject": "Employees (Total)",
+    "value_raw": "75.67",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 56,
+    "quote": "38.12%",
+    "kind": "numeric",
+    "metric": "Percentage of workers trained on health and safety measures",
+    "subject": "Workers (Total)",
+    "value_raw": "38.12",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 56,
+    "quote": "22.86%",
+    "kind": "numeric",
+    "metric": "Percentage of workers trained on skill upgradation",
+    "subject": "Workers (Total)",
+    "value_raw": "22.86",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 56,
+    "quote": "85.44%",
+    "kind": "numeric",
+    "metric": "Percentage of employees undergoing performance and career development reviews",
+    "subject": "Employees (Total)",
+    "value_raw": "85.44",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 56,
+    "quote": "41.68%",
+    "kind": "numeric",
+    "metric": "Percentage of workers undergoing performance and career development reviews",
+    "subject": "Workers (Total)",
+    "value_raw": "41.68",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "81.59%",
+    "kind": "numeric",
+    "metric": "% of employees covered by human rights training",
+    "subject": "Total Employees",
+    "value_raw": "81.59",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "69.27%",
+    "kind": "numeric",
+    "metric": "% of workers covered by human rights training",
+    "subject": "Total Workers",
+    "value_raw": "69.27",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "8,350,000",
+    "kind": "numeric",
+    "metric": "Median remuneration/salary/wages of respective category",
+    "subject": "Board of Directors (BoD) Male",
+    "value_raw": "8,350,000",
+    "unit_raw": "In K",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "7,600,000",
+    "kind": "numeric",
+    "metric": "Median remuneration/salary/wages of respective category",
+    "subject": "Board of Directors (BoD) Female",
+    "value_raw": "7,600,000",
+    "unit_raw": "In K",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "31,021,406",
+    "kind": "numeric",
+    "metric": "Median remuneration/salary/wages of respective category",
+    "subject": "Key Managerial Personnel Male",
+    "value_raw": "31,021,406",
+    "unit_raw": "In K",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "note": "Does not include perquisite income earned through exercise of ESOPs."
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "283,495",
+    "kind": "numeric",
+    "metric": "Median remuneration/salary/wages of respective category",
+    "subject": "Employees other than BoD and KMP Male",
+    "value_raw": "283,495",
+    "unit_raw": "In K",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "eligibility": "For Employees/Workers who have been with the organisation for the entire FY24"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "421,308",
+    "kind": "numeric",
+    "metric": "Median remuneration/salary/wages of respective category",
+    "subject": "Employees other than BoD and KMP Female",
+    "value_raw": "421,308",
+    "unit_raw": "In K",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "eligibility": "For Employees/Workers who have been with the organisation for the entire FY24"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "186,286",
+    "kind": "numeric",
+    "metric": "Median remuneration/salary/wages of respective category",
+    "subject": "Workers Male",
+    "value_raw": "186,286",
+    "unit_raw": "In K",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "eligibility": "For Employees/Workers who have been with the organisation for the entire FY24"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "197,409",
+    "kind": "numeric",
+    "metric": "Median remuneration/salary/wages of respective category",
+    "subject": "Workers Female",
+    "value_raw": "197,409",
+    "unit_raw": "In K",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "eligibility": "For Employees/Workers who have been with the organisation for the entire FY24"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "8.67%",
+    "kind": "numeric",
+    "metric": "Gross wages paid to females as % of total wages paid by the entity",
+    "subject": "Delhivery Limited",
+    "value_raw": "8.67",
+    "unit_raw": "%",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "7.94%",
+    "kind": "numeric",
+    "metric": "Gross wages paid to females as % of total wages paid by the entity",
+    "subject": "Delhivery Limited",
+    "value_raw": "7.94",
+    "unit_raw": "%",
+    "period_raw": "FY23",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "50",
+    "kind": "numeric",
+    "metric": "Number of complaints filed during the year",
+    "subject": "Sexual Harassment",
+    "value_raw": "50",
+    "unit_raw": null,
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 58,
+    "quote": "74",
+    "kind": "numeric",
+    "metric": "Number of complaints filed during the year",
+    "subject": "Wages",
+    "value_raw": "74",
+    "unit_raw": null,
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 49,\n      \"quote\": \"Mr. Deepak Kapoor\\n00162957\\n22/11/2017\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Director Appointment Date\",\n      \"subject\": \"Mr. Deepak Kapoor\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"appointed\",\n      \"period_raw\": \"22/11/2017\",\n      \"qualifiers\": {\n        \"din\": \"00162957\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 49,\n      \"quote\": \"Mr. Romesh Sobti\\n00031034\\n01/10/2021\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Director Appointment Date\",\n      \"subject\": \"Mr. Romesh Sobti\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"appointed\",\n      \"period_raw\": \"01/10/2021\",\n      \"qualifiers\": {\n        \"din\": \"00031034\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 49,\n      \"quote\": \"Mr. Saugata Gupta\\n05251806\\n01/10/2021\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Director Appointment Date\",\n      \"subject\": \"Mr. Saugata Gupta\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"appointed\",\n      \"period_raw\": \"01/10/2021\",\n      \"qualifiers\": {\n        \"din\": \"05251806\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 49,\n      \"quote\": \"Mr. Srivatsan Rajan\\n00754512\\n01/03/2016\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Director Appointment Date\",\n      \"subject\": \"Mr. Srivatsan Rajan\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"appointed\",\n      \"period_raw\": \"01/03/2016\",\n      \"qualifiers\": {\n        \"din\": \"00754512\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 49,\n      \"quote\": \"Ms. Aruna Sundararajan\\n03523267\\n08/07/2022\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Director Appointment Date\",\n      \"subject\": \"Ms. Aruna Sundararajan\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"appointed\",\n      \"period_raw\": \"08/07/2022\",\n      \"qualifiers\": {\n        \"din\": \"03523267\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 49,\n      \"quote\": \"Mr. Anindya Ghose\\n10243913\\n04/08/2023\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Director Appointment Date\",\n      \"subject\": \"Mr. Anindya Ghose\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"appointed\",\n      \"period_raw\": \"04/08/2023\",\n      \"qualifiers\": {\n        \"din\": \"10243913\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 49,\n      \"quote\": \"Mr. Sahil Barua\\n05131571\\n19/12/2011\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Director Appointment Date\",\n      \"subject\": \"Mr. Sahil Barua\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"appointed\",\n      \"period_raw\": \"19/12/2011\",\n      \"qualifiers\": {\n        \"din\": \"05131571\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 49,\n      \"quote\": \"Mr. Sandeep Kumar Barasia\\n01432123\\n01/07/2015\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Director Appointment Date\",\n      \"subject\": \"Mr. Sandeep Kumar Barasia\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"appointed\",\n      \"period_raw\": \"01/07/2015\",\n      \"qualifiers\": {\n        \"din\": \"01432123\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 49,\n      \"quote\": \"Mr. Kapil Bharati\\n02227607\\n19/08/2021\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Director Appointment Date\",\n      \"subject\": \"Mr. Kapil Bharati\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"appointed\",\n      \"period_raw\": \"19/08/2021\",\n      \"qualifiers\": {\n        \"din\": \"02227607\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"June 22, 2011\",\n      \"kind\": \"semantic\",\n      \"metric\": \"Year of incorporation\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": null,\n      \"unit_raw\": null,\n      \"state\": \"incorporated\",\n      \"period_raw\": \"June 22, 2011\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"₹736,785,255\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Paid-up Capital\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"736,785,255\",\n      \"unit_raw\": \"₹\",\n      \"period_raw\": \"as on March 31, 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"91.65%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of Turnover of the entity\",\n      \"subject\": \"Land transport via road\",\n      \"value_raw\": \"91.65\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"description_of_main_activity\": \"Transportation & Storage\",\n        \"description_of_business_activity\": \"Land transport via road\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"4.58%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of Turnover of the entity\",\n      \"subject\": \"Warehousing & storage\",\n      \"value_raw\": \"4.58\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"description_of_main_activity\": \"Transportation & Storage\",\n        \"description_of_business_activity\": \"Warehousing & storage\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"1.15%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of Turnover of the entity\",\n      \"subject\": \"Air transport\",\n      \"value_raw\": \"1.15\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"description_of_main_activity\": \"Transportation & Storage\",\n        \"description_of_business_activity\": \"Air transport\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"1.78%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of Turnover of the entity\",\n      \"subject\": \"Postal & Courier Activities\",\n      \"value_raw\": \"1.78\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"description_of_main_activity\": \"Transportation & Storage\",\n        \"description_of_business_activity\": \"Postal & Courier Activities\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"0.71%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of Turnover of the entity\",\n      \"subject\": \"Water Transport\",\n      \"value_raw\": \"0.71\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"description_of_main_activity\": \"Transportation & Storage\",\n        \"description_of_business_activity\": \"Water Transport\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"0.13%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of Turnover of the entity\",\n      \"subject\": \"Service incidental to land, water & air transportation\",\n      \"value_raw\": \"0.13\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"description_of_main_activity\": \"Transportation & Storage\",\n        \"description_of_business_activity\": \"Service incidental to land, water & air transportation\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"3,834\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Number of plants\",\n      \"subject\": \"National operations\",\n      \"value_raw\": \"3,834\",\n      \"unit_raw\": null,\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"location_type\": \"National\",\n        \"note\": \"Includes Gateways, Fulfillment Centres, Processing Centres, and Last Mile Centres\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"17\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Number of offices\",\n      \"subject\": \"National operations\",\n      \"value_raw\": \"17\",\n      \"unit_raw\": null,\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"location_type\": \"National\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"3,851\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total plants and offices\",\n      \"subject\": \"National operations\",\n      \"value_raw\": \"3,851\",\n      \"unit_raw\": null,\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"location_type\": \"National\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Number of plants\",\n      \"subject\": \"International operations\",\n      \"value_raw\": \"0\",\n      \"unit_raw\": null,\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"location_type\": \"International\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Number of offices\",\n      \"subject\": \"International operations\",\n      \"value_raw\": \"4\",\n      \"unit_raw\": null,\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"location_type\": \"International\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total plants and offices\",\n      \"subject\": \"International operations\",\n      \"value_raw\": \"4\",\n      \"unit_raw\": null,\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"location_type\": \"International\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"36\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Number of locations served\",\n      \"subject\": \"National (No. of States and Union Territories)\",\n      \"value_raw\": \"36\",\n      \"unit_raw\": null,\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"220\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Number of locations served\",\n      \"subject\": \"International (No. of Countries)\",\n      \"value_raw\": \"220\",\n      \"unit_raw\": null,\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 50,\n      \"quote\": \"0.18%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Contribution of exports as a percentage of total turnover\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"0.18\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"35.69%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Turnover rate for permanent employees\",\n      \"subject\": \"Male permanent employees\",\n      \"value_raw\": \"35.69\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"category\": \"Permanent Employees\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"45.15%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Turnover rate for permanent employees\",\n      \"subject\": \"Female permanent employees\",\n      \"value_raw\": \"45.15\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"category\": \"Permanent Employees\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"36.36%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Turnover rate for permanent employees\",\n      \"subject\": \"Total permanent employees\",\n      \"value_raw\": \"36.36\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"category\": \"Permanent Employees\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"32.02%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Turnover rate for permanent workers\",\n      \"subject\": \"Male permanent workers\",\n      \"value_raw\": \"32.02\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"category\": \"Permanent Workers\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"33.82%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Turnover rate for permanent workers\",\n      \"subject\": \"Female permanent workers\",\n      \"value_raw\": \"33.82\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"category\": \"Permanent Workers\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"32.24%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Turnover rate for permanent workers\",\n      \"subject\": \"Total permanent workers\",\n      \"value_raw\": \"32.24\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"category\": \"Permanent Workers\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"100.00%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"% of shares held by listed entity\",\n      \"subject\": \"Spoton Logistics Private Limited\",\n      \"value_raw\": \"100.00\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"subsidiary_type\": \"Subsidiary\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"₹ 12,842,738/-\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Voluntary CSR spend\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"12,842,738\",\n      \"unit_raw\": \"₹\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"J81,415.38\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Turnover\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"81,415.38\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.9\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"J85,466.74\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net worth\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"85,466.74\",\n      \"unit_raw\": \"₹ million\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.9\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"55%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of inputs sourced sustainably\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"55\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"basis\": \"responses received from vendors catering to the top 75% of the spend & their percentage contribution has been calculated out of the total input value\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"18,527\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total permanent employees\",\n      \"subject\": \"Permanent employees\",\n      \"value_raw\": \"18,527\",\n      \"unit_raw\": null,\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"100.00%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"% of permanent employees covered by health insurance\",\n      \"subject\": \"Permanent employees (Total)\",\n      \"value_raw\": \"100.00\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"100.00%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"% of permanent employees covered by accident insurance\",\n      \"subject\": \"Permanent employees (Total)\",\n      \"value_raw\": \"100.00\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"7.85%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"% of permanent employees covered by maternity benefits\",\n      \"subject\": \"Permanent employees (Total)\",\n      \"value_raw\": \"7.85\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"92.47%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"% of permanent employees covered by paternity benefits\",\n      \"subject\": \"Permanent employees (Total)\",\n      \"value_raw\": \"92.47\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"7.85%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"% of permanent employees covered by day care facilities\",\n      \"subject\": \"Permanent employees (Total)\",\n      \"value_raw\": \"7.85\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"0.34%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Cost incurred on well-being measures as a % of total turnover of the company\",\n      \"subject\": \"Employees and workers (including permanent and other than permanent)\",\n      \"value_raw\": \"0.34\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"0.21%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Cost incurred on well-being measures as a % of total turnover of the company\",\n      \"subject\": \"Employees and workers (including permanent and other than permanent)\",\n      \"value_raw\": \"0.21\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY23\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 56,\n      \"quote\": \"94.35%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Return to work rate\",\n      \"subject\": \"Permanent employees (Total)\",\n      \"value_raw\": \"94.35\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"category\": \"Permanent employees\",\n        \"metric_type\": \"parental leave return to work rate\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 56,\n      \"quote\": \"92.76%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Retention rate\",\n      \"subject\": \"Permanent employees (Total)\",\n      \"value_raw\": \"92.76\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"category\": \"Permanent employees\",\n        \"metric_type\": \"parental leave retention rate\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 56,\n      \"quote\": \"92.71%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Return to work rate\",\n      \"subject\": \"Permanent workers (Total)\",\n      \"value_raw\": \"92.71\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"category\": \"Permanent workers\",\n        \"metric_type\": \"parental leave return to work rate\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 56,\n      \"quote\": \"91.43%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Retention rate\",\n      \"subject\": \"Permanent workers (Total)\",\n      \"value_raw\": \"91.43\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"fy24\",\n      \"qualifiers\": {\n        \"category\": \"Permanent workers\",\n        \"metric_type\": \"parental leave retention rate\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 56,\n      \"quote\": \"16.15%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of employees trained on health and safety measures\",\n      \"subject\": \"Employees (Total)\",\n      \"value_raw\": \"16.15\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 56,\n      \"quote\": \"75.67%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of employees trained on skill upgradation\",\n      \"subject\": \"Employees (Total)\",\n      \"value_raw\": \"75.67\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 56,\n      \"quote\": \"38.12%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of workers trained on health and safety measures\",\n      \"subject\": \"Workers (Total)\",\n      \"value_raw\": \"38.12\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 56,\n      \"quote\": \"22.86%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of workers trained on skill upgradation\",\n      \"subject\": \"Workers (Total)\",\n      \"value_raw\": \"22.86\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 56,\n      \"quote\": \"85.44%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of employees undergoing performance and career development reviews\",\n      \"subject\": \"Employees (Total)\",\n      \"value_raw\": \"85.44\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 56,\n      \"quote\": \"41.68%\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Percentage of workers undergoing performance and career development reviews\",\n      \"subject\": \"Workers (Total)\",\n      \"value_raw\": \"41.68\",\n      \"unit_raw",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-delhivery-annual-report-fy24-excerpt-de6d79ad:b49"
+}

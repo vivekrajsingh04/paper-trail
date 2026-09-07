@@ -1,0 +1,234 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 67,
+    "quote": "Revenue from contracts with customers\n21\n81,415.38\n72,253.01",
+    "kind": "numeric",
+    "metric": "Revenue from contracts with customers",
+    "subject": "Delhivery Limited",
+    "value_raw": "81,415.38",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "for the year ended March 31, 2024",
+    "qualifiers": {
+     "statement_type": "consolidated",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 67,
+    "quote": "Revenue from contracts with customers\n21\n81,415.38\n72,253.01",
+    "kind": "numeric",
+    "metric": "Revenue from contracts with customers",
+    "subject": "Delhivery Limited",
+    "value_raw": "72,253.01",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "for the year ended March 31, 2023",
+    "qualifiers": {
+     "statement_type": "consolidated",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 67,
+    "quote": "Loss for the year (IX= VII-VIII)\n(2,491.86)\n(10,077.79)",
+    "kind": "numeric",
+    "metric": "Loss for the year",
+    "subject": "Delhivery Limited",
+    "value_raw": "(2,491.86)",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "for the year ended March 31, 2024",
+    "qualifiers": {
+     "statement_type": "consolidated",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 67,
+    "quote": "Loss for the year (IX= VII-VIII)\n(2,491.86)\n(10,077.79)",
+    "kind": "numeric",
+    "metric": "Loss for the year",
+    "subject": "Delhivery Limited",
+    "value_raw": "(10,077.79)",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "for the year ended March 31, 2023",
+    "qualifiers": {
+     "statement_type": "consolidated",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 67,
+    "quote": "Total Assets\n114,530.20\n112,134.30",
+    "kind": "numeric",
+    "metric": "Total Assets",
+    "subject": "Delhivery Limited",
+    "value_raw": "114,530.20",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "As at March 31, 2024",
+    "qualifiers": {
+     "statement_type": "consolidated",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 67,
+    "quote": "Total Assets\n114,530.20\n112,134.30",
+    "kind": "numeric",
+    "metric": "Total Assets",
+    "subject": "Delhivery Limited",
+    "value_raw": "112,134.30",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "As at March 31, 2023",
+    "qualifiers": {
+     "statement_type": "consolidated",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 67,
+    "quote": "Total Equity\n91,446.46\n91,771.37",
+    "kind": "numeric",
+    "metric": "Total Equity",
+    "subject": "Delhivery Limited",
+    "value_raw": "91,446.46",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "As at March 31, 2024",
+    "qualifiers": {
+     "statement_type": "consolidated",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 67,
+    "quote": "Total Equity\n91,446.46\n91,771.37",
+    "kind": "numeric",
+    "metric": "Total Equity",
+    "subject": "Delhivery Limited",
+    "value_raw": "91,771.37",
+    "unit_raw": "Indian Rupees in million",
+    "period_raw": "As at March 31, 2023",
+    "qualifiers": {
+     "statement_type": "consolidated",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 68,
+    "quote": "Net cash from/(used in) operating activities (A)\n4,724.02\n(296.99)",
+    "kind": "numeric",
+    "metric": "Net cash from/(used in) operating activities",
+    "subject": "Delhivery Limited",
+    "value_raw": "4,724.02",
+    "unit_raw": "Indian Rupees in millions",
+    "period_raw": "for the year ended March 31, 2024",
+    "qualifiers": {
+     "statement_type": "consolidated cash flow",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 68,
+    "quote": "Net cash from/(used in) operating activities (A)\n4,724.02\n(296.99)",
+    "kind": "numeric",
+    "metric": "Net cash from/(used in) operating activities",
+    "subject": "Delhivery Limited",
+    "value_raw": "(296.99)",
+    "unit_raw": "Indian Rupees in millions",
+    "period_raw": "for the year ended March 31, 2023",
+    "qualifiers": {
+     "statement_type": "consolidated cash flow",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 68,
+    "quote": "Net cash used in investing activities (B)\n(990.92)\n(34,107.48)",
+    "kind": "numeric",
+    "metric": "Net cash used in investing activities",
+    "subject": "Delhivery Limited",
+    "value_raw": "(990.92)",
+    "unit_raw": "Indian Rupees in millions",
+    "period_raw": "for the year ended March 31, 2024",
+    "qualifiers": {
+     "statement_type": "consolidated cash flow",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 68,
+    "quote": "Net cash (used in)/ from financing activities (C)\n(3,660.83)\n35,384.83",
+    "kind": "numeric",
+    "metric": "Net cash (used in)/ from financing activities",
+    "subject": "Delhivery Limited",
+    "value_raw": "(3,660.83)",
+    "unit_raw": "Indian Rupees in millions",
+    "period_raw": "for the year ended March 31, 2024",
+    "qualifiers": {
+     "statement_type": "consolidated cash flow",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 69,
+    "quote": "Balance as at March 31, 2024\n155,644.44\n5,670.83\n272.29\n(70,914.48)\n36.59\n90,709.67",
+    "kind": "numeric",
+    "metric": "Total other equity",
+    "subject": "Delhivery Limited",
+    "value_raw": "90,709.67",
+    "unit_raw": "Indian Rupees in millions",
+    "period_raw": "As at March 31, 2024",
+    "qualifiers": {
+     "statement_type": "consolidated statement of changes in equity",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 69,
+    "quote": "Balance as at March 31, 2023\n153,857.93\n5,341.00\n272.29\n(68,463.37)\n34.80\n91,042.65",
+    "kind": "numeric",
+    "metric": "Total other equity",
+    "subject": "Delhivery Limited",
+    "value_raw": "91,042.65",
+    "unit_raw": "Indian Rupees in millions",
+    "period_raw": "As at March 31, 2023",
+    "qualifiers": {
+     "statement_type": "consolidated statement of changes in equity",
+     "currency": "INR",
+     "scale": "million"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 67,\n      \"quote\": \"Revenue from contracts with customers\\n21\\n81,415.38\\n72,253.01\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from contracts with customers\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"81,415.38\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"for the year ended March 31, 2024\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"Revenue from contracts with customers\\n21\\n81,415.38\\n72,253.01\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from contracts with customers\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"72,253.01\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"for the year ended March 31, 2023\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"Loss for the year (IX= VII-VIII)\\n(2,491.86)\\n(10,077.79)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Loss for the year\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(2,491.86)\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"for the year ended March 31, 2024\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"Loss for the year (IX= VII-VIII)\\n(2,491.86)\\n(10,077.79)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Loss for the year\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(10,077.79)\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"for the year ended March 31, 2023\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"Total Assets\\n114,530.20\\n112,134.30\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total Assets\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"114,530.20\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"As at March 31, 2024\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"Total Assets\\n114,530.20\\n112,134.30\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total Assets\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"112,134.30\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"As at March 31, 2023\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"Total Equity\\n91,446.46\\n91,771.37\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total Equity\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"91,446.46\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"As at March 31, 2024\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"Total Equity\\n91,446.46\\n91,771.37\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total Equity\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"91,771.37\",\n      \"unit_raw\": \"Indian Rupees in million\",\n      \"period_raw\": \"As at March 31, 2023\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 68,\n      \"quote\": \"Net cash from/(used in) operating activities (A)\\n4,724.02\\n(296.99)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net cash from/(used in) operating activities\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"4,724.02\",\n      \"unit_raw\": \"Indian Rupees in millions\",\n      \"period_raw\": \"for the year ended March 31, 2024\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated cash flow\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 68,\n      \"quote\": \"Net cash from/(used in) operating activities (A)\\n4,724.02\\n(296.99)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net cash from/(used in) operating activities\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(296.99)\",\n      \"unit_raw\": \"Indian Rupees in millions\",\n      \"period_raw\": \"for the year ended March 31, 2023\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated cash flow\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 68,\n      \"quote\": \"Net cash used in investing activities (B)\\n(990.92)\\n(34,107.48)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net cash used in investing activities\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(990.92)\",\n      \"unit_raw\": \"Indian Rupees in millions\",\n      \"period_raw\": \"for the year ended March 31, 2024\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated cash flow\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 68,\n      \"quote\": \"Net cash (used in)/ from financing activities (C)\\n(3,660.83)\\n35,384.83\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net cash (used in)/ from financing activities\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"(3,660.83)\",\n      \"unit_raw\": \"Indian Rupees in millions\",\n      \"period_raw\": \"for the year ended March 31, 2024\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated cash flow\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 69,\n      \"quote\": \"Balance as at March 31, 2024\\n155,644.44\\n5,670.83\\n272.29\\n(70,914.48)\\n36.59\\n90,709.67\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total other equity\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"90,709.67\",\n      \"unit_raw\": \"Indian Rupees in millions\",\n      \"period_raw\": \"As at March 31, 2024\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated statement of changes in equity\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 69,\n      \"quote\": \"Balance as at March 31, 2023\\n153,857.93\\n5,341.00\\n272.29\\n(68,463.37)\\n34.80\\n91,042.65\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total other equity\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"91,042.65\",\n      \"unit_raw\": \"Indian Rupees in millions\",\n      \"period_raw\": \"As at March 31, 2023\",\n      \"qualifiers\": {\n        \"statement_type\": \"consolidated statement of changes in equity\",\n        \"currency\": \"INR\",\n        \"scale\": \"million\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-delhivery-annual-report-fy24-excerpt-de6d79ad:b67"
+}

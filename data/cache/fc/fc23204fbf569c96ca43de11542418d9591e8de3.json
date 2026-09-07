@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures bank credit growth to the commercial sector, whereas Metric B measures net bank credit growth to the government, representing two distinct economic subjects."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures bank credit growth to the commercial sector, whereas Metric B measures net bank credit growth to the government, representing two distinct economic subjects.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

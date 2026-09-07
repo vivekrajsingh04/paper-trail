@@ -1,0 +1,358 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 4,
+    "quote": "9.7",
+    "kind": "numeric",
+    "metric": "Real GDP (at market prices) growth",
+    "subject": "India",
+    "value_raw": "9.7",
+    "unit_raw": "percent",
+    "period_raw": "2021/22",
+    "qualifiers": {
+     "status": "estimate",
+     "price_basis": "market prices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "7.6",
+    "kind": "numeric",
+    "metric": "Real GDP (at market prices) growth",
+    "subject": "India",
+    "value_raw": "7.6",
+    "unit_raw": "percent",
+    "period_raw": "2022/23",
+    "qualifiers": {
+     "status": "estimate",
+     "price_basis": "market prices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "9.2",
+    "kind": "numeric",
+    "metric": "Real GDP (at market prices) growth",
+    "subject": "India",
+    "value_raw": "9.2",
+    "unit_raw": "percent",
+    "period_raw": "2023/24",
+    "qualifiers": {
+     "status": "estimate",
+     "price_basis": "market prices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "6.5",
+    "kind": "numeric",
+    "metric": "Real GDP (at market prices) growth",
+    "subject": "India",
+    "value_raw": "6.5",
+    "unit_raw": "percent",
+    "period_raw": "2024/25",
+    "qualifiers": {
+     "status": "estimate",
+     "price_basis": "market prices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "6.6",
+    "kind": "numeric",
+    "metric": "Real GDP (at market prices) growth",
+    "subject": "India",
+    "value_raw": "6.6",
+    "unit_raw": "percent",
+    "period_raw": "2025/26",
+    "qualifiers": {
+     "status": "projection",
+     "price_basis": "market prices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "6.2",
+    "kind": "numeric",
+    "metric": "Real GDP (at market prices) growth",
+    "subject": "India",
+    "value_raw": "6.2",
+    "unit_raw": "percent",
+    "period_raw": "2026/27",
+    "qualifiers": {
+     "status": "projection",
+     "price_basis": "market prices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "5.5",
+    "kind": "numeric",
+    "metric": "Consumer prices - Combined",
+    "subject": "India",
+    "value_raw": "5.5",
+    "unit_raw": "percent",
+    "period_raw": "2021/22",
+    "qualifiers": {
+     "measure": "percent change, period average"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "6.7",
+    "kind": "numeric",
+    "metric": "Consumer prices - Combined",
+    "subject": "India",
+    "value_raw": "6.7",
+    "unit_raw": "percent",
+    "period_raw": "2022/23",
+    "qualifiers": {
+     "measure": "percent change, period average"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "5.4",
+    "kind": "numeric",
+    "metric": "Consumer prices - Combined",
+    "subject": "India",
+    "value_raw": "5.4",
+    "unit_raw": "percent",
+    "period_raw": "2023/24",
+    "qualifiers": {
+     "measure": "percent change, period average"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "4.6",
+    "kind": "numeric",
+    "metric": "Consumer prices - Combined",
+    "subject": "India",
+    "value_raw": "4.6",
+    "unit_raw": "percent",
+    "period_raw": "2024/25",
+    "qualifiers": {
+     "measure": "percent change, period average"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "2.8",
+    "kind": "numeric",
+    "metric": "Consumer prices - Combined",
+    "subject": "India",
+    "value_raw": "2.8",
+    "unit_raw": "percent",
+    "period_raw": "2025/26",
+    "qualifiers": {
+     "measure": "percent change, period average",
+     "status": "projection"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 4,
+    "quote": "4.0",
+    "kind": "numeric",
+    "metric": "Consumer prices - Combined",
+    "subject": "India",
+    "value_raw": "4.0",
+    "unit_raw": "percent",
+    "period_raw": "2026/27",
+    "qualifiers": {
+     "measure": "percent change, period average",
+     "status": "projection"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 8,
+    "quote": "5.3 percent",
+    "kind": "numeric",
+    "metric": "share of the population in extreme poverty",
+    "subject": "population",
+    "value_raw": "5.3",
+    "unit_raw": "percent",
+    "period_raw": "FY2022/23",
+    "qualifiers": {
+     "poverty_level": "extreme poverty"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 9,
+    "quote": "6.5 percent",
+    "kind": "numeric",
+    "metric": "real GDP growth",
+    "subject": "India",
+    "value_raw": "6.5",
+    "unit_raw": "percent",
+    "period_raw": "FY2024/25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 9,
+    "quote": "7.2 percent",
+    "kind": "numeric",
+    "metric": "Private consumption growth",
+    "subject": "India",
+    "value_raw": "7.2",
+    "unit_raw": "percent",
+    "period_raw": "FY2024/25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 9,
+    "quote": "7.1 percent",
+    "kind": "numeric",
+    "metric": "Investment growth",
+    "subject": "India",
+    "value_raw": "7.1",
+    "unit_raw": "percent",
+    "period_raw": "FY2024/25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 9,
+    "quote": "7.8 percent",
+    "kind": "numeric",
+    "metric": "real GDP growth",
+    "subject": "India",
+    "value_raw": "7.8",
+    "unit_raw": "percent",
+    "period_raw": "2025Q2",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 9,
+    "quote": "8.8 percent",
+    "kind": "numeric",
+    "metric": "Nominal GDP growth",
+    "subject": "India",
+    "value_raw": "8.8",
+    "unit_raw": "percent",
+    "period_raw": "2025Q2",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 9,
+    "quote": "1.5 percent",
+    "kind": "numeric",
+    "metric": "Headline inflation",
+    "subject": "India",
+    "value_raw": "1.5",
+    "unit_raw": "percent",
+    "period_raw": "September 2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 9,
+    "quote": "4.6 percent",
+    "kind": "numeric",
+    "metric": "Headline inflation average",
+    "subject": "India",
+    "value_raw": "4.6",
+    "unit_raw": "percent",
+    "period_raw": "FY2024/25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 9,
+    "quote": "4.6 percent",
+    "kind": "numeric",
+    "metric": "Core inflation",
+    "subject": "India",
+    "value_raw": "4.6",
+    "unit_raw": "percent",
+    "period_raw": "September 2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 9,
+    "quote": "3.5 percent",
+    "kind": "numeric",
+    "metric": "Core inflation average",
+    "subject": "India",
+    "value_raw": "3.5",
+    "unit_raw": "percent",
+    "period_raw": "FY2024/25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 9,
+    "quote": "56.2 percent",
+    "kind": "numeric",
+    "metric": "labor force participation rate",
+    "subject": "India",
+    "value_raw": "56.2",
+    "unit_raw": "percent",
+    "period_raw": "2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 9,
+    "quote": "12.3 percent",
+    "kind": "numeric",
+    "metric": "employment rate of regular wage earners",
+    "subject": "India",
+    "value_raw": "12.3",
+    "unit_raw": "percent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 9,
+    "quote": "12.7 percent",
+    "kind": "numeric",
+    "metric": "employment rate of regular wage earners",
+    "subject": "India",
+    "value_raw": "12.7",
+    "unit_raw": "percent",
+    "period_raw": "2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 9,
+    "quote": "11 percent",
+    "kind": "numeric",
+    "metric": "formal employment",
+    "subject": "India",
+    "value_raw": "11",
+    "unit_raw": "percent",
+    "period_raw": "2023",
+    "qualifiers": {
+     "definition": "social security coverage"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 4,\n      \"quote\": \"9.7\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Real GDP (at market prices) growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"9.7\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2021/22\",\n      \"qualifiers\": {\n        \"status\": \"estimate\",\n        \"price_basis\": \"market prices\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"7.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Real GDP (at market prices) growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"7.6\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2022/23\",\n      \"qualifiers\": {\n        \"status\": \"estimate\",\n        \"price_basis\": \"market prices\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"9.2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Real GDP (at market prices) growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"9.2\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2023/24\",\n      \"qualifiers\": {\n        \"status\": \"estimate\",\n        \"price_basis\": \"market prices\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"6.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Real GDP (at market prices) growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.5\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2024/25\",\n      \"qualifiers\": {\n        \"status\": \"estimate\",\n        \"price_basis\": \"market prices\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"6.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Real GDP (at market prices) growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.6\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2025/26\",\n      \"qualifiers\": {\n        \"status\": \"projection\",\n        \"price_basis\": \"market prices\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"6.2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Real GDP (at market prices) growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.2\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2026/27\",\n      \"qualifiers\": {\n        \"status\": \"projection\",\n        \"price_basis\": \"market prices\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"5.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Consumer prices - Combined\",\n      \"subject\": \"India\",\n      \"value_raw\": \"5.5\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2021/22\",\n      \"qualifiers\": {\n        \"measure\": \"percent change, period average\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"6.7\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Consumer prices - Combined\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.7\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2022/23\",\n      \"qualifiers\": {\n        \"measure\": \"percent change, period average\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"5.4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Consumer prices - Combined\",\n      \"subject\": \"India\",\n      \"value_raw\": \"5.4\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2023/24\",\n      \"qualifiers\": {\n        \"measure\": \"percent change, period average\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"4.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Consumer prices - Combined\",\n      \"subject\": \"India\",\n      \"value_raw\": \"4.6\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2024/25\",\n      \"qualifiers\": {\n        \"measure\": \"percent change, period average\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"2.8\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Consumer prices - Combined\",\n      \"subject\": \"India\",\n      \"value_raw\": \"2.8\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2025/26\",\n      \"qualifiers\": {\n        \"measure\": \"percent change, period average\",\n        \"status\": \"projection\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 4,\n      \"quote\": \"4.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Consumer prices - Combined\",\n      \"subject\": \"India\",\n      \"value_raw\": \"4.0\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2026/27\",\n      \"qualifiers\": {\n        \"measure\": \"percent change, period average\",\n        \"status\": \"projection\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 8,\n      \"quote\": \"5.3 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of the population in extreme poverty\",\n      \"subject\": \"population\",\n      \"value_raw\": \"5.3\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"FY2022/23\",\n      \"qualifiers\": {\n        \"poverty_level\": \"extreme poverty\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 9,\n      \"quote\": \"6.5 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real GDP growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.5\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"FY2024/25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 9,\n      \"quote\": \"7.2 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Private consumption growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"7.2\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"FY2024/25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 9,\n      \"quote\": \"7.1 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Investment growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"7.1\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"FY2024/25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 9,\n      \"quote\": \"7.8 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real GDP growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"7.8\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2025Q2\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 9,\n      \"quote\": \"8.8 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Nominal GDP growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"8.8\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2025Q2\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 9,\n      \"quote\": \"1.5 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Headline inflation\",\n      \"subject\": \"India\",\n      \"value_raw\": \"1.5\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"September 2025\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 9,\n      \"quote\": \"4.6 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Headline inflation average\",\n      \"subject\": \"India\",\n      \"value_raw\": \"4.6\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"FY2024/25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 9,\n      \"quote\": \"4.6 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Core inflation\",\n      \"subject\": \"India\",\n      \"value_raw\": \"4.6\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"September 2025\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 9,\n      \"quote\": \"3.5 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Core inflation average\",\n      \"subject\": \"India\",\n      \"value_raw\": \"3.5\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"FY2024/25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 9,\n      \"quote\": \"56.2 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"labor force participation rate\",\n      \"subject\": \"India\",\n      \"value_raw\": \"56.2\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 9,\n      \"quote\": \"12.3 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"employment rate of regular wage earners\",\n      \"subject\": \"India\",\n      \"value_raw\": \"12.3\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 9,\n      \"quote\": \"12.7 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"employment rate of regular wage earners\",\n      \"subject\": \"India\",\n      \"value_raw\": \"12.7\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 9,\n      \"quote\": \"11 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"formal employment\",\n      \"subject\": \"India\",\n      \"value_raw\": \"11\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {\n        \"definition\": \"social security coverage\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:03-imf-india-2025-article-iv-excerpt-f6d3cfec:b1"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Both 'Centre Gross Fiscal Deficit as per cent of GDP' and 'gross fiscal deficit (GFD) as per cent of GDP' for the Union government refer to the exact same fiscal metric expressed as a percentage of GDP."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Both 'Centre Gross Fiscal Deficit as per cent of GDP' and 'gross fiscal deficit (GFD) as per cent of GDP' for the Union government refer to the exact same fiscal metric expressed as a percentage of GDP.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

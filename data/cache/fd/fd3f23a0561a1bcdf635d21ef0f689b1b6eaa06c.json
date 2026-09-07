@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross investment as a share of GDP measures the total level of investment relative to the economy's size, whereas investment growth measures the annual percentage change in investment."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross investment as a share of GDP measures the total level of investment relative to the economy's size, whereas investment growth measures the annual percentage change in investment.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

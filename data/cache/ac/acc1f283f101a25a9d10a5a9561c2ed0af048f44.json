@@ -1,0 +1,678 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 14,
+    "quote": "The global economy is projected8 to grow by 2.8 per cent in 2025 and 3.0 per cent in 2026 (3.3 per cent in 2024).",
+    "kind": "numeric",
+    "metric": "global economic growth projection",
+    "subject": "global economy",
+    "value_raw": "2.8",
+    "unit_raw": "per cent",
+    "period_raw": "2025",
+    "qualifiers": {
+     "projection_source": "World Economic Outlook, April 2025, IMF"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "The global economy is projected8 to grow by 2.8 per cent in 2025 and 3.0 per cent in 2026 (3.3 per cent in 2024).",
+    "kind": "numeric",
+    "metric": "global economic growth projection",
+    "subject": "global economy",
+    "value_raw": "3.0",
+    "unit_raw": "per cent",
+    "period_raw": "2026",
+    "qualifiers": {
+     "projection_source": "World Economic Outlook, April 2025, IMF"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "The global economy is projected8 to grow by 2.8 per cent in 2025 and 3.0 per cent in 2026 (3.3 per cent in 2024).",
+    "kind": "numeric",
+    "metric": "global economic growth",
+    "subject": "global economy",
+    "value_raw": "3.3",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {
+     "source": "World Economic Outlook, April 2025, IMF"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "The growth in EMDEs is projected at 3.7 per cent in 2025 and is expected to improve marginally to 3.9 per cent in 2026.",
+    "kind": "numeric",
+    "metric": "economic growth projection",
+    "subject": "EMDEs",
+    "value_raw": "3.7",
+    "unit_raw": "per cent",
+    "period_raw": "2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "The growth in EMDEs is projected at 3.7 per cent in 2025 and is expected to improve marginally to 3.9 per cent in 2026.",
+    "kind": "numeric",
+    "metric": "economic growth projection",
+    "subject": "EMDEs",
+    "value_raw": "3.9",
+    "unit_raw": "per cent",
+    "period_raw": "2026",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "The growth rate in AEs is projected to decelerate to 1.4 per cent in 2025 from 1.8 per cent in 2024, before marginally improving to 1.5 per cent in 2026.",
+    "kind": "numeric",
+    "metric": "economic growth projection",
+    "subject": "AEs",
+    "value_raw": "1.4",
+    "unit_raw": "per cent",
+    "period_raw": "2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "The growth rate in AEs is projected to decelerate to 1.4 per cent in 2025 from 1.8 per cent in 2024, before marginally improving to 1.5 per cent in 2026.",
+    "kind": "numeric",
+    "metric": "economic growth",
+    "subject": "AEs",
+    "value_raw": "1.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "The growth rate in AEs is projected to decelerate to 1.4 per cent in 2025 from 1.8 per cent in 2024, before marginally improving to 1.5 per cent in 2026.",
+    "kind": "numeric",
+    "metric": "economic growth projection",
+    "subject": "AEs",
+    "value_raw": "1.5",
+    "unit_raw": "per cent",
+    "period_raw": "2026",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "Global inflation is expected to moderate from 5.7 per cent in 2024 to 4.3 per cent in 2025 and further to 3.6 per cent in 2026.",
+    "kind": "numeric",
+    "metric": "global inflation expectation",
+    "subject": "global inflation",
+    "value_raw": "5.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "Global inflation is expected to moderate from 5.7 per cent in 2024 to 4.3 per cent in 2025 and further to 3.6 per cent in 2026.",
+    "kind": "numeric",
+    "metric": "global inflation expectation",
+    "subject": "global inflation",
+    "value_raw": "4.3",
+    "unit_raw": "per cent",
+    "period_raw": "2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "Global inflation is expected to moderate from 5.7 per cent in 2024 to 4.3 per cent in 2025 and further to 3.6 per cent in 2026.",
+    "kind": "numeric",
+    "metric": "global inflation expectation",
+    "subject": "global inflation",
+    "value_raw": "3.6",
+    "unit_raw": "per cent",
+    "period_raw": "2026",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "Global merchandise trade volume is\nprojected to contract by 0.2 per cent in 20259\nunder the adjusted scenario based on the tariff\nsituation as of April 14, 2025.",
+    "kind": "numeric",
+    "metric": "global merchandise trade volume growth projection",
+    "subject": "global merchandise trade volume",
+    "value_raw": "-0.2",
+    "unit_raw": "per cent",
+    "period_raw": "2025",
+    "qualifiers": {
+     "scenario": "adjusted scenario based on tariff situation as of April 14, 2025",
+     "projection_source": "Global Trade Outlook and Statistics Update, April 2025, WTO"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 23,
+    "quote": "real GDP rose (y-o-y) by 6.5 per cent in Q1:2024-25; growth softened to 5.6 per cent in Q2",
+    "kind": "numeric",
+    "metric": "real GDP growth (y-o-y)",
+    "subject": "real GDP",
+    "value_raw": "6.5",
+    "unit_raw": "per cent",
+    "period_raw": "Q1:2024-25",
+    "qualifiers": {
+     "basis": "y-o-y"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 23,
+    "quote": "growth softened to 5.6 per cent in Q2",
+    "kind": "numeric",
+    "metric": "real GDP growth (y-o-y)",
+    "subject": "real GDP",
+    "value_raw": "5.6",
+    "unit_raw": "per cent",
+    "period_raw": "Q2:2024-25",
+    "qualifiers": {
+     "basis": "y-o-y"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 23,
+    "quote": "The economy, however, picked up momentum in Q3 to grow by 6.2 per cent",
+    "kind": "numeric",
+    "metric": "real GDP growth (y-o-y)",
+    "subject": "real GDP",
+    "value_raw": "6.2",
+    "unit_raw": "per cent",
+    "period_raw": "Q3:2024-25",
+    "qualifiers": {
+     "basis": "y-o-y"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 23,
+    "quote": "Growth in private final consumption\nexpenditure (PFCE) – the main component of\naggregate demand – improved to 7.6 per cent in\n2024-25",
+    "kind": "numeric",
+    "metric": "Private Final Consumption Expenditure growth",
+    "subject": "Private Final Consumption Expenditure (PFCE)",
+    "value_raw": "7.6",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 23,
+    "quote": "The share of PFCE in real GDP\nincreased to 56.7 per cent in 2024-25.",
+    "kind": "numeric",
+    "metric": "share of PFCE in real GDP",
+    "subject": "Private Final Consumption Expenditure (PFCE)",
+    "value_raw": "56.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 23,
+    "quote": "Government final consumption\nexpenditure (GFCE) grew at a modest 3.8 per\ncent in 2024-25, following a robust expansion of\n8.1 per cent during 2023-24.",
+    "kind": "numeric",
+    "metric": "Government Final Consumption Expenditure growth",
+    "subject": "Government Final Consumption Expenditure (GFCE)",
+    "value_raw": "3.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 23,
+    "quote": "Government final consumption\nexpenditure (GFCE) grew at a modest 3.8 per\ncent in 2024-25, following a robust expansion of\n8.1 per cent during 2023-24.",
+    "kind": "numeric",
+    "metric": "Government Final Consumption Expenditure growth",
+    "subject": "Government Final Consumption Expenditure (GFCE)",
+    "value_raw": "8.1",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "The rate of gross domestic investment\nin the Indian economy, measured by the ratio of\ngross capital formation (GCF) to GDP at current\nprices, declined to 31.4 per cent in 2023-24 from\n32.6 per cent in the preceding year",
+    "kind": "numeric",
+    "metric": "ratio of gross capital formation (GCF) to GDP at current prices",
+    "subject": "gross capital formation (GCF)",
+    "value_raw": "31.4",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "price_base": "current prices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "The rate of gross domestic investment\nin the Indian economy, measured by the ratio of\ngross capital formation (GCF) to GDP at current\nprices, declined to 31.4 per cent in 2023-24 from\n32.6 per cent in the preceding year",
+    "kind": "numeric",
+    "metric": "ratio of gross capital formation (GCF) to GDP at current prices",
+    "subject": "gross capital formation (GCF)",
+    "value_raw": "32.6",
+    "unit_raw": "per cent",
+    "period_raw": "2022-23",
+    "qualifiers": {
+     "price_base": "current prices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "which fell to 0.7 per cent of\nGDP in 2023-24 from 2.0 per cent in the previous\nyear.",
+    "kind": "numeric",
+    "metric": "net capital inflow from the rest of the world (ROW) to GDP ratio",
+    "subject": "net capital inflow from the rest of the world (ROW)",
+    "value_raw": "0.7",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "which fell to 0.7 per cent of\nGDP in 2023-24 from 2.0 per cent in the previous\nyear.",
+    "kind": "numeric",
+    "metric": "net capital inflow from the rest of the world (ROW) to GDP ratio",
+    "subject": "net capital inflow from the rest of the world (ROW)",
+    "value_raw": "2.0",
+    "unit_raw": "per cent",
+    "period_raw": "2022-23",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "Growth in gross fixed capital formation (GFCF)\n– a primary component of GCF – moderated to\n6.1 per cent in 2024-25 from 8.8 per cent in the\nprevious year.",
+    "kind": "numeric",
+    "metric": "gross fixed capital formation (GFCF) growth",
+    "subject": "gross fixed capital formation (GFCF)",
+    "value_raw": "6.1",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "Growth in gross fixed capital formation (GFCF)\n– a primary component of GCF – moderated to\n6.1 per cent in 2024-25 from 8.8 per cent in the\nprevious year.",
+    "kind": "numeric",
+    "metric": "gross fixed capital formation (GFCF) growth",
+    "subject": "gross fixed capital formation (GFCF)",
+    "value_raw": "8.8",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "Seasonally adjusted capacity utilisation (CU)\nof the manufacturing sector at 75.3 per cent\nin Q3:2024-25 was higher than the preceding\nquarter and its level in the corresponding quarter\na year ago7.",
+    "kind": "numeric",
+    "metric": "seasonally adjusted capacity utilisation of manufacturing sector",
+    "subject": "manufacturing sector",
+    "value_raw": "75.3",
+    "unit_raw": "per cent",
+    "period_raw": "Q3:2024-25",
+    "qualifiers": {
+     "seasonally_adjusted": "yes"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "Gross domestic saving as per cent\nto gross national disposable income (GNDI)\nremained steady at 30.3 per cent in 2023-24",
+    "kind": "numeric",
+    "metric": "gross domestic saving as per cent of GNDI",
+    "subject": "gross domestic saving",
+    "value_raw": "30.3",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "against the increase in\nhousehold liabilities to 6.1 per cent of GNDI",
+    "kind": "numeric",
+    "metric": "household liabilities as per cent of GNDI",
+    "subject": "household liabilities",
+    "value_raw": "6.1",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "the\ngross financial saving of households increased\nto 11.2 per cent of GNDI in 2023-24 from 10.7\nper cent in the previous year.",
+    "kind": "numeric",
+    "metric": "gross financial saving of households as per cent of GNDI",
+    "subject": "gross financial saving of households",
+    "value_raw": "11.2",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "the\ngross financial saving of households increased\nto 11.2 per cent of GNDI in 2023-24 from 10.7\nper cent in the previous year.",
+    "kind": "numeric",
+    "metric": "gross financial saving of households as per cent of GNDI",
+    "subject": "gross financial saving of households",
+    "value_raw": "10.7",
+    "unit_raw": "per cent",
+    "period_raw": "2022-23",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "Resultantly,\nhousehold financial saving (net) improved to\n5.1 per cent of GNDI in 2023-24 from 4.9 per\ncent in the previous year",
+    "kind": "numeric",
+    "metric": "household financial saving (net) as per cent of GNDI",
+    "subject": "household financial saving (net)",
+    "value_raw": "5.1",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "Resultantly,\nhousehold financial saving (net) improved to\n5.1 per cent of GNDI in 2023-24 from 4.9 per\ncent in the previous year",
+    "kind": "numeric",
+    "metric": "household financial saving (net) as per cent of GNDI",
+    "subject": "household financial saving (net)",
+    "value_raw": "4.9",
+    "unit_raw": "per cent",
+    "period_raw": "2022-23",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 25,
+    "quote": "Aggregate supply – measured by real\ngross value added (GVA) at basic prices –\nexpanded by 6.4 per cent in 2024-25 as compared\nwith 8.6 per cent a year ago.",
+    "kind": "numeric",
+    "metric": "real GVA growth at basic prices",
+    "subject": "real gross value added (GVA)",
+    "value_raw": "6.4",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "price_base": "basic prices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 25,
+    "quote": "Aggregate supply – measured by real\ngross value added (GVA) at basic prices –\nexpanded by 6.4 per cent in 2024-25 as compared\nwith 8.6 per cent a year ago.",
+    "kind": "numeric",
+    "metric": "real GVA growth at basic prices",
+    "subject": "real gross value added (GVA)",
+    "value_raw": "8.6",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "price_base": "basic prices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 25,
+    "quote": "The overall SWM\nrainfall in 2024 (June-September) was 108 per\ncent8 of the long-period average (LPA) at the\nall-India level as against a deficit of six per cent\nin 2023",
+    "kind": "numeric",
+    "metric": "south-west monsoon rainfall as per cent of LPA",
+    "subject": "south-west monsoon rainfall",
+    "value_raw": "108",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {
+     "geography": "all-India",
+     "season": "June-September"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "The SWM rainfall over the monsoon core zone,\nwhich consists of most of the rainfed agriculture\nregions in the country, stood at 122 per cent\nof LPA.",
+    "kind": "numeric",
+    "metric": "south-west monsoon rainfall as per cent of LPA",
+    "subject": "south-west monsoon rainfall",
+    "value_raw": "122",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {
+     "geography": "monsoon core zone"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "Above-normal SWM helped replenish\nreservoir levels to 88 per cent of the capacity by\nthe end of the SWM season from a five-year low\nof 20 per cent in June 2024",
+    "kind": "numeric",
+    "metric": "reservoir levels as per cent of capacity",
+    "subject": "reservoir levels",
+    "value_raw": "88",
+    "unit_raw": "per cent",
+    "period_raw": "end of SWM season 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "Above-normal SWM helped replenish\nreservoir levels to 88 per cent of the capacity by\nthe end of the SWM season from a five-year low\nof 20 per cent in June 2024",
+    "kind": "numeric",
+    "metric": "reservoir levels as per cent of capacity",
+    "subject": "reservoir levels",
+    "value_raw": "20",
+    "unit_raw": "per cent",
+    "period_raw": "June 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "Satisfactory progress of SWM and\ncomfortable reservoir levels aided the expansion\nof the area under foodgrains and oilseeds\n(kharif and rabi) by 2.7 per cent during the year.",
+    "kind": "numeric",
+    "metric": "expansion of area under foodgrains and oilseeds",
+    "subject": "area under foodgrains and oilseeds (kharif and rabi)",
+    "value_raw": "2.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "crops": "foodgrains and oilseeds (kharif and rabi)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "Accordingly, the second advance estimates\n(SAE) of agricultural crops placed foodgrains\nproduction during 2024-25 (kharif and rabi)\nat 3,309.2 lakh tonne, 4.8 per cent higher\nthan the final estimates of 2023-24",
+    "kind": "numeric",
+    "metric": "foodgrains production (second advance estimates)",
+    "subject": "agricultural crops (kharif and rabi)",
+    "value_raw": "3,309.2",
+    "unit_raw": "lakh tonne",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "estimate_type": "second advance estimates"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "Accordingly, the second advance estimates\n(SAE) of agricultural crops placed foodgrains\nproduction during 2024-25 (kharif and rabi)\nat 3,309.2 lakh tonne, 4.8 per cent higher\nthan the final estimates of 2023-24",
+    "kind": "numeric",
+    "metric": "foodgrains production variation over final estimates of 2023-24",
+    "subject": "agricultural crops (kharif and rabi)",
+    "value_raw": "4.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "estimate_type": "second advance estimates compared to 2023-24 final estimates"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "According to the first advance estimates (FAE), the output of horticultural crops\nduring 2024-25 was placed at 3,620.9 lakh tonne,\n2.1 per cent higher than the final estimates (FE)\nof 2023-24",
+    "kind": "numeric",
+    "metric": "output of horticultural crops",
+    "subject": "horticultural crops",
+    "value_raw": "3,620.9",
+    "unit_raw": "lakh tonne",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "estimate_type": "first advance estimates"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "According to the first advance estimates (FAE), the output of horticultural crops\nduring 2024-25 was placed at 3,620.9 lakh tonne,\n2.1 per cent higher than the final estimates (FE)\nof 2023-24",
+    "kind": "numeric",
+    "metric": "output variation of horticultural crops over 2023-24 final estimates",
+    "subject": "horticultural crops",
+    "value_raw": "2.1",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "estimate_type": "first advance estimates compared to 2023-24 final estimates"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "The government announced an increase\nin minimum support prices (MSP) for major\nkharif and rabi crops for 2024-25 in a range of\n1.4 to 12.7 per cent",
+    "kind": "numeric",
+    "metric": "minimum support prices (MSP) increase range for major kharif and rabi crops",
+    "subject": "minimum support prices (MSP) for major kharif and rabi crops",
+    "value_raw": "1.4",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "The government announced an increase\nin minimum support prices (MSP) for major\nkharif and rabi crops for 2024-25 in a range of\n1.4 to 12.7 per cent",
+    "kind": "numeric",
+    "metric": "minimum support prices (MSP) increase range for major kharif and rabi crops",
+    "subject": "minimum support prices (MSP) for major kharif and rabi crops",
+    "value_raw": "12.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "Wheat\nand paddy MSPs provide 105 per cent and 50\nper cent returns over the cost of production,\nrespectively.",
+    "kind": "numeric",
+    "metric": "return over cost of production for wheat MSP",
+    "subject": "wheat MSP",
+    "value_raw": "105",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {
+     "cost_basis": "cost of production (A2+FL)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "Wheat\nand paddy MSPs provide 105 per cent and 50\nper cent returns over the cost of production,\nrespectively.",
+    "kind": "numeric",
+    "metric": "return over cost of production for paddy MSP",
+    "subject": "paddy MSP",
+    "value_raw": "50",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {
+     "cost_basis": "cost of production (A2+FL)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "The overall public stock of foodgrains\nheld by the Food Corporation of India (FCI) stood\nat 749 lakh tonne (as at end-March 2025)",
+    "kind": "numeric",
+    "metric": "overall public stock of foodgrains held by FCI",
+    "subject": "Food Corporation of India (FCI)",
+    "value_raw": "749",
+    "unit_raw": "lakh tonne",
+    "period_raw": "end-March 2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 34,
+    "quote": "In India, the ratio of R&D\nexpenditure in GDP rose marginally from 0.61\nper cent to 0.64 per cent13 between 1995-96 and\n2020-21.",
+    "kind": "numeric",
+    "metric": "ratio of R&D expenditure in GDP",
+    "subject": "R&D expenditure",
+    "value_raw": "0.61",
+    "unit_raw": "per cent",
+    "period_raw": "1995-96",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 34,
+    "quote": "In India, the ratio of R&D\nexpenditure in GDP rose marginally from 0.61\nper cent to 0.64 per cent13 between 1995-96 and\n2020-21.",
+    "kind": "numeric",
+    "metric": "ratio of R&D expenditure in GDP",
+    "subject": "R&D expenditure",
+    "value_raw": "0.64",
+    "unit_raw": "per cent",
+    "period_raw": "2020-21",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 34,
+    "quote": "India’s share in global R&D expenditure\nrose from 2.1 per cent in 2000 to 2.6 per cent in\n2023",
+    "kind": "numeric",
+    "metric": "India's share in global R&D expenditure",
+    "subject": "India",
+    "value_raw": "2.1",
+    "unit_raw": "per cent",
+    "period_raw": "2000",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 34,
+    "quote": "India’s share in global R&D expenditure\nrose from 2.1 per cent in 2000 to 2.6 per cent in\n2023",
+    "kind": "numeric",
+    "metric": "India's share in global R&D expenditure",
+    "subject": "India",
+    "value_raw": "2.6",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 14,\n      \"quote\": \"The global economy is projected8 to grow by 2.8 per cent in 2025 and 3.0 per cent in 2026 (3.3 per cent in 2024).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global economic growth projection\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"2.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025\",\n      \"qualifiers\": {\n        \"projection_source\": \"World Economic Outlook, April 2025, IMF\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"The global economy is projected8 to grow by 2.8 per cent in 2025 and 3.0 per cent in 2026 (3.3 per cent in 2024).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global economic growth projection\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"3.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2026\",\n      \"qualifiers\": {\n        \"projection_source\": \"World Economic Outlook, April 2025, IMF\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"The global economy is projected8 to grow by 2.8 per cent in 2025 and 3.0 per cent in 2026 (3.3 per cent in 2024).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global economic growth\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"3.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"source\": \"World Economic Outlook, April 2025, IMF\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"The growth in EMDEs is projected at 3.7 per cent in 2025 and is expected to improve marginally to 3.9 per cent in 2026.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"economic growth projection\",\n      \"subject\": \"EMDEs\",\n      \"value_raw\": \"3.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"The growth in EMDEs is projected at 3.7 per cent in 2025 and is expected to improve marginally to 3.9 per cent in 2026.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"economic growth projection\",\n      \"subject\": \"EMDEs\",\n      \"value_raw\": \"3.9\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2026\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"The growth rate in AEs is projected to decelerate to 1.4 per cent in 2025 from 1.8 per cent in 2024, before marginally improving to 1.5 per cent in 2026.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"economic growth projection\",\n      \"subject\": \"AEs\",\n      \"value_raw\": \"1.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"The growth rate in AEs is projected to decelerate to 1.4 per cent in 2025 from 1.8 per cent in 2024, before marginally improving to 1.5 per cent in 2026.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"economic growth\",\n      \"subject\": \"AEs\",\n      \"value_raw\": \"1.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"The growth rate in AEs is projected to decelerate to 1.4 per cent in 2025 from 1.8 per cent in 2024, before marginally improving to 1.5 per cent in 2026.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"economic growth projection\",\n      \"subject\": \"AEs\",\n      \"value_raw\": \"1.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2026\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"Global inflation is expected to moderate from 5.7 per cent in 2024 to 4.3 per cent in 2025 and further to 3.6 per cent in 2026.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global inflation expectation\",\n      \"subject\": \"global inflation\",\n      \"value_raw\": \"5.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"Global inflation is expected to moderate from 5.7 per cent in 2024 to 4.3 per cent in 2025 and further to 3.6 per cent in 2026.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global inflation expectation\",\n      \"subject\": \"global inflation\",\n      \"value_raw\": \"4.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"Global inflation is expected to moderate from 5.7 per cent in 2024 to 4.3 per cent in 2025 and further to 3.6 per cent in 2026.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global inflation expectation\",\n      \"subject\": \"global inflation\",\n      \"value_raw\": \"3.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2026\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"Global merchandise trade volume is\\nprojected to contract by 0.2 per cent in 20259\\nunder the adjusted scenario based on the tariff\\nsituation as of April 14, 2025.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global merchandise trade volume growth projection\",\n      \"subject\": \"global merchandise trade volume\",\n      \"value_raw\": \"-0.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025\",\n      \"qualifiers\": {\n        \"scenario\": \"adjusted scenario based on tariff situation as of April 14, 2025\",\n        \"projection_source\": \"Global Trade Outlook and Statistics Update, April 2025, WTO\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 23,\n      \"quote\": \"real GDP rose (y-o-y) by 6.5 per cent in Q1:2024-25; growth softened to 5.6 per cent in Q2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real GDP growth (y-o-y)\",\n      \"subject\": \"real GDP\",\n      \"value_raw\": \"6.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q1:2024-25\",\n      \"qualifiers\": {\n        \"basis\": \"y-o-y\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 23,\n      \"quote\": \"growth softened to 5.6 per cent in Q2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real GDP growth (y-o-y)\",\n      \"subject\": \"real GDP\",\n      \"value_raw\": \"5.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q2:2024-25\",\n      \"qualifiers\": {\n        \"basis\": \"y-o-y\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 23,\n      \"quote\": \"The economy, however, picked up momentum in Q3 to grow by 6.2 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real GDP growth (y-o-y)\",\n      \"subject\": \"real GDP\",\n      \"value_raw\": \"6.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q3:2024-25\",\n      \"qualifiers\": {\n        \"basis\": \"y-o-y\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 23,\n      \"quote\": \"Growth in private final consumption\\nexpenditure (PFCE) – the main component of\\naggregate demand – improved to 7.6 per cent in\\n2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Private Final Consumption Expenditure growth\",\n      \"subject\": \"Private Final Consumption Expenditure (PFCE)\",\n      \"value_raw\": \"7.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 23,\n      \"quote\": \"The share of PFCE in real GDP\\nincreased to 56.7 per cent in 2024-25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of PFCE in real GDP\",\n      \"subject\": \"Private Final Consumption Expenditure (PFCE)\",\n      \"value_raw\": \"56.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 23,\n      \"quote\": \"Government final consumption\\nexpenditure (GFCE) grew at a modest 3.8 per\\ncent in 2024-25, following a robust expansion of\\n8.1 per cent during 2023-24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Government Final Consumption Expenditure growth\",\n      \"subject\": \"Government Final Consumption Expenditure (GFCE)\",\n      \"value_raw\": \"3.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 23,\n      \"quote\": \"Government final consumption\\nexpenditure (GFCE) grew at a modest 3.8 per\\ncent in 2024-25, following a robust expansion of\\n8.1 per cent during 2023-24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Government Final Consumption Expenditure growth\",\n      \"subject\": \"Government Final Consumption Expenditure (GFCE)\",\n      \"value_raw\": \"8.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"The rate of gross domestic investment\\nin the Indian economy, measured by the ratio of\\ngross capital formation (GCF) to GDP at current\\nprices, declined to 31.4 per cent in 2023-24 from\\n32.6 per cent in the preceding year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"ratio of gross capital formation (GCF) to GDP at current prices\",\n      \"subject\": \"gross capital formation (GCF)\",\n      \"value_raw\": \"31.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"price_base\": \"current prices\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"The rate of gross domestic investment\\nin the Indian economy, measured by the ratio of\\ngross capital formation (GCF) to GDP at current\\nprices, declined to 31.4 per cent in 2023-24 from\\n32.6 per cent in the preceding year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"ratio of gross capital formation (GCF) to GDP at current prices\",\n      \"subject\": \"gross capital formation (GCF)\",\n      \"value_raw\": \"32.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2022-23\",\n      \"qualifiers\": {\n        \"price_base\": \"current prices\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"which fell to 0.7 per cent of\\nGDP in 2023-24 from 2.0 per cent in the previous\\nyear.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net capital inflow from the rest of the world (ROW) to GDP ratio\",\n      \"subject\": \"net capital inflow from the rest of the world (ROW)\",\n      \"value_raw\": \"0.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"which fell to 0.7 per cent of\\nGDP in 2023-24 from 2.0 per cent in the previous\\nyear.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net capital inflow from the rest of the world (ROW) to GDP ratio\",\n      \"subject\": \"net capital inflow from the rest of the world (ROW)\",\n      \"value_raw\": \"2.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2022-23\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"Growth in gross fixed capital formation (GFCF)\\n– a primary component of GCF – moderated to\\n6.1 per cent in 2024-25 from 8.8 per cent in the\\nprevious year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross fixed capital formation (GFCF) growth\",\n      \"subject\": \"gross fixed capital formation (GFCF)\",\n      \"value_raw\": \"6.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"Growth in gross fixed capital formation (GFCF)\\n– a primary component of GCF – moderated to\\n6.1 per cent in 2024-25 from 8.8 per cent in the\\nprevious year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross fixed capital formation (GFCF) growth\",\n      \"subject\": \"gross fixed capital formation (GFCF)\",\n      \"value_raw\": \"8.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"Seasonally adjusted capacity utilisation (CU)\\nof the manufacturing sector at 75.3 per cent\\nin Q3:2024-25 was higher than the preceding\\nquarter and its level in the corresponding quarter\\na year ago7.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"seasonally adjusted capacity utilisation of manufacturing sector\",\n      \"subject\": \"manufacturing sector\",\n      \"value_raw\": \"75.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q3:2024-25\",\n      \"qualifiers\": {\n        \"seasonally_adjusted\": \"yes\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"Gross domestic saving as per cent\\nto gross national disposable income (GNDI)\\nremained steady at 30.3 per cent in 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross domestic saving as per cent of GNDI\",\n      \"subject\": \"gross domestic saving\",\n      \"value_raw\": \"30.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"against the increase in\\nhousehold liabilities to 6.1 per cent of GNDI\",\n      \"kind\": \"numeric\",\n      \"metric\": \"household liabilities as per cent of GNDI\",\n      \"subject\": \"household liabilities\",\n      \"value_raw\": \"6.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"the\\ngross financial saving of households increased\\nto 11.2 per cent of GNDI in 2023-24 from 10.7\\nper cent in the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross financial saving of households as per cent of GNDI\",\n      \"subject\": \"gross financial saving of households\",\n      \"value_raw\": \"11.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"the\\ngross financial saving of households increased\\nto 11.2 per cent of GNDI in 2023-24 from 10.7\\nper cent in the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross financial saving of households as per cent of GNDI\",\n      \"subject\": \"gross financial saving of households\",\n      \"value_raw\": \"10.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2022-23\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"Resultantly,\\nhousehold financial saving (net) improved to\\n5.1 per cent of GNDI in 2023-24 from 4.9 per\\ncent in the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"household financial saving (net) as per cent of GNDI\",\n      \"subject\": \"household financial saving (net)\",\n      \"value_raw\": \"5.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"Resultantly,\\nhousehold financial saving (net) improved to\\n5.1 per cent of GNDI in 2023-24 from 4.9 per\\ncent in the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"household financial saving (net) as per cent of GNDI\",\n      \"subject\": \"household financial saving (net)\",\n      \"value_raw\": \"4.9\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2022-23\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 25,\n      \"quote\": \"Aggregate supply – measured by real\\ngross value added (GVA) at basic prices –\\nexpanded by 6.4 per cent in 2024-25 as compared\\nwith 8.6 per cent a year ago.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real GVA growth at basic prices\",\n      \"subject\": \"real gross value added (GVA)\",\n      \"value_raw\": \"6.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"price_base\": \"basic prices\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 25,\n      \"quote\": \"Aggregate supply – measured by real\\ngross value added (GVA) at basic prices –\\nexpanded by 6.4 per cent in 2024-25 as compared\\nwith 8.6 per cent a year ago.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real GVA growth at basic prices\",\n      \"subject\": \"real gross value added (GVA)\",\n      \"value_raw\": \"8.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"price_base\": \"basic prices\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 25,\n      \"quote\": \"The overall SWM\\nrainfall in 2024 (June-September) was 108 per\\ncent8 of the long-period average (LPA) at the\\nall-India level as against a deficit of six per cent\\nin 2023\",\n      \"kind\": \"numeric\",\n      \"metric\": \"south-west monsoon rainfall as per cent of LPA\",\n      \"subject\": \"south-west monsoon rainfall\",\n      \"value_raw\": \"108\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"geography\": \"all-India\",\n        \"season\": \"June-September\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"The SWM rainfall over the monsoon core zone,\\nwhich consists of most of the rainfed agriculture\\nregions in the country, stood at 122 per cent\\nof LPA.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"south-west monsoon rainfall as per cent of LPA\",\n      \"subject\": \"south-west monsoon rainfall\",\n      \"value_raw\": \"122\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"geography\": \"monsoon core zone\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"Above-normal SWM helped replenish\\nreservoir levels to 88 per cent of the capacity by\\nthe end of the SWM season from a five-year low\\nof 20 per cent in June 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"reservoir levels as per cent of capacity\",\n      \"subject\": \"reservoir levels\",\n      \"value_raw\": \"88\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"end of SWM season 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"Above-normal SWM helped replenish\\nreservoir levels to 88 per cent of the capacity by\\nthe end of the SWM season from a five-year low\\nof 20 per cent in June 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"reservoir levels as per cent of capacity\",\n      \"subject\": \"reservoir levels\",\n      \"value_raw\": \"20\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"June 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"Satisfactory progress of SWM and\\ncomfortable reservoir levels aided the expansion\\nof the area under foodgrains and oilseeds\\n(kharif and rabi) by 2.7 per cent during the year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"expansion of area under foodgrains and oilseeds\",\n      \"subject\": \"area under foodgrains and oilseeds (kharif and rabi)\",\n      \"value_raw\": \"2.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"crops\": \"foodgrains and oilseeds (kharif and rabi)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"Accordingly, the second advance estimates\\n(SAE) of agricultural crops placed foodgrains\\nproduction during 2024-25 (kharif and rabi)\\nat 3,309.2 lakh tonne, 4.8 per cent higher\\nthan the final estimates of 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"foodgrains production (second advance estimates)\",\n      \"subject\": \"agricultural crops (kharif and rabi)\",\n      \"value_raw\": \"3,309.2\",\n      \"unit_raw\": \"lakh tonne\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"estimate_type\": \"second advance estimates\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"Accordingly, the second advance estimates\\n(SAE) of agricultural crops placed foodgrains\\nproduction during 2024-25 (kharif and rabi)\\nat 3,309.2 lakh tonne, 4.8 per cent higher\\nthan the final estimates of 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"foodgrains production variation over final estimates of 2023-24\",\n      \"subject\": \"agricultural crops (kharif and rabi)\",\n      \"value_raw\": \"4.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"estimate_type\": \"second advance estimates compared to 2023-24 final estimates\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"According to the first advance estimates (FAE), the output of horticultural crops\\nduring 2024-25 was placed at 3,620.9 lakh tonne,\\n2.1 per cent higher than the final",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-rbi-annual-report-2024-25-excerpt-73209a2c:b14"
+}

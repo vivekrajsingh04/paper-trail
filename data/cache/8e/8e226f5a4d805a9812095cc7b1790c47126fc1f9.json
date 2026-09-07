@@ -1,0 +1,19 @@
+{
+ "data": {
+  "title": "Economic Survey 2024-25",
+  "publisher": "Government of India, Ministry of Finance, Department of Economic Affairs",
+  "doc_type": "survey",
+  "primary_entity": "India",
+  "published": null,
+  "as_of": "FY25",
+  "default_qualifiers": {
+   "geography": "india",
+   "fiscal_year": "fy25"
+  },
+  "notes": "Figures are discussed in the context of the Indian economy with projections and estimates for FY25 and FY26."
+ },
+ "raw": "{\n  \"title\": \"Economic Survey 2024-25\",\n  \"publisher\": \"Government of India, Ministry of Finance, Department of Economic Affairs\",\n  \"doc_type\": \"survey\",\n  \"primary_entity\": \"India\",\n  \"published\": null,\n  \"as_of\": \"FY25\",\n  \"default_qualifiers\": {\n    \"geography\": \"india\",\n    \"fiscal_year\": \"fy25\"\n  },\n  \"notes\": \"Figures are discussed in the context of the Indian economy with projections and estimates for FY25 and FY26.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "profile:01-india-economic-survey-2024-25-excerpt-86f2e79a"
+}

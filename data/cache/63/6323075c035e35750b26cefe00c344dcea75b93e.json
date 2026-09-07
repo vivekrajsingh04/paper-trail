@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Adjusted R-squared penalizes the inclusion of unnecessary variables, making it a different and generally narrower or stricter metric than standard R-squared."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Adjusted R-squared penalizes the inclusion of unnecessary variables, making it a different and generally narrower or stricter metric than standard R-squared.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

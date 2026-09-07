@@ -1,0 +1,18 @@
+{
+ "data": {
+  "title": "Annual Report 2023-24",
+  "publisher": "Delhivery Limited",
+  "doc_type": "annual report",
+  "primary_entity": "Delhivery Limited",
+  "published": null,
+  "as_of": "FY24",
+  "default_qualifiers": {
+   "period": "fy24"
+  },
+  "notes": "Covers standalone and consolidated financial statements; figures as of March 31, 2024 unless otherwise specified."
+ },
+ "raw": "{\n  \"title\": \"Annual Report 2023-24\",\n  \"publisher\": \"Delhivery Limited\",\n  \"doc_type\": \"annual report\",\n  \"primary_entity\": \"Delhivery Limited\",\n  \"published\": null,\n  \"as_of\": \"FY24\",\n  \"default_qualifiers\": {\n    \"period\": \"fy24\"\n  },\n  \"notes\": \"Covers standalone and consolidated financial statements; figures as of March 31, 2024 unless otherwise specified.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "profile:02-delhivery-annual-report-fy24-excerpt-de6d79ad"
+}

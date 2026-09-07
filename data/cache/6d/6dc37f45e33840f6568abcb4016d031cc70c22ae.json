@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures India's share of the global market specifically in Telecommunications, Computer, & Information Services, whereas Metric B measures India's share of total global services exports across all sectors."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures India's share of the global market specifically in Telecommunications, Computer, & Information Services, whereas Metric B measures India's share of total global services exports across all sectors.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

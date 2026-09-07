@@ -1,0 +1,638 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 78,
+    "quote": "India’s R&D expenditure represented only 0.6 percent of GDP in 2020",
+    "kind": "numeric",
+    "metric": "R&D expenditure in percent of GDP",
+    "subject": "India",
+    "value_raw": "0.6",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2020",
+    "qualifiers": {
+     "geography": "India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 78,
+    "quote": "0.9 percent of GDP and the advanced economies average of 2.2 percent of GDP",
+    "kind": "numeric",
+    "metric": "R&D expenditure in percent of GDP",
+    "subject": "G20 emerging market average",
+    "value_raw": "0.9",
+    "unit_raw": "percent of GDP",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "G20 emerging market average"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 78,
+    "quote": "advanced economies average of 2.2 percent of GDP",
+    "kind": "numeric",
+    "metric": "R&D expenditure in percent of GDP",
+    "subject": "advanced economies average",
+    "value_raw": "2.2",
+    "unit_raw": "percent of GDP",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "advanced economies average"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 78,
+    "quote": "fewer than 300 researchers per million inhabitants in India",
+    "kind": "numeric",
+    "metric": "researchers per million inhabitants",
+    "subject": "India",
+    "value_raw": "300",
+    "unit_raw": "per million inhabitants",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India",
+     "inequality": "fewer than"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 78,
+    "quote": "over 1,800 in China",
+    "kind": "numeric",
+    "metric": "researchers per million inhabitants",
+    "subject": "China",
+    "value_raw": "1,800",
+    "unit_raw": "per million inhabitants",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "China",
+     "inequality": "over"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 78,
+    "quote": "around 1,000 in emerging markets",
+    "kind": "numeric",
+    "metric": "researchers per million inhabitants",
+    "subject": "emerging markets average",
+    "value_raw": "1,000",
+    "unit_raw": "per million inhabitants",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "emerging markets",
+     "inequality": "around"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 78,
+    "quote": "over 5,000 in advanced economies on average",
+    "kind": "numeric",
+    "metric": "researchers per million inhabitants",
+    "subject": "advanced economies average",
+    "value_raw": "5,000",
+    "unit_raw": "per million inhabitants",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "advanced economies",
+     "inequality": "over"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 79,
+    "quote": "About 50 percent of research and development spending is executed by the government in India",
+    "kind": "numeric",
+    "metric": "share of research and development spending executed by the government",
+    "subject": "India",
+    "value_raw": "50",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India",
+     "executed_by": "government",
+     "inequality": "about"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 79,
+    "quote": "compared to about 10 percent on average in AEs",
+    "kind": "numeric",
+    "metric": "share of research and development spending executed by the government",
+    "subject": "advanced economies average",
+    "value_raw": "10",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "Advanced Economies",
+     "executed_by": "government",
+     "inequality": "about"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 79,
+    "quote": "Higher education institutions in India account for only 10 percent of total R&D spending",
+    "kind": "numeric",
+    "metric": "share of total R&D spending",
+    "subject": "higher education institutions in India",
+    "value_raw": "10",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India",
+     "spending_by": "higher education institutions"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 79,
+    "quote": "university-industry collaboration in India received a survey score of 3.54",
+    "kind": "numeric",
+    "metric": "university-industry collaboration survey score",
+    "subject": "India",
+    "value_raw": "3.54",
+    "unit_raw": null,
+    "period_raw": "2023",
+    "qualifiers": {
+     "geography": "India",
+     "scale": "1 to 7",
+     "source": "Global Innovation Index"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "Only 4.3 percent of Indian firms report having spent resources on R&D",
+    "kind": "numeric",
+    "metric": "share of firms reporting having spent resources on R&D",
+    "subject": "Indian firms",
+    "value_raw": "4.3",
+    "unit_raw": "percent",
+    "period_raw": "2022",
+    "qualifiers": {
+     "geography": "India",
+     "source": "World Bank Enterprise Survey"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "significantly below the 17 percent average across EMs",
+    "kind": "numeric",
+    "metric": "share of firms reporting having spent resources on R&D",
+    "subject": "emerging market firms",
+    "value_raw": "17",
+    "unit_raw": "percent",
+    "period_raw": "2022",
+    "qualifiers": {
+     "geography": "Emerging Markets",
+     "source": "World Bank Enterprise Survey"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "and 13 percent average across LICs",
+    "kind": "numeric",
+    "metric": "share of firms reporting having spent resources on R&D",
+    "subject": "low income country firms",
+    "value_raw": "13",
+    "unit_raw": "percent",
+    "period_raw": "2022",
+    "qualifiers": {
+     "geography": "Low Income Countries",
+     "source": "World Bank Enterprise Survey"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "Just 5.3 percent of Indian firms launched a new product and 3.3 percent introduced a new process in the preceding three years",
+    "kind": "numeric",
+    "metric": "share of firms that launched a new product",
+    "subject": "Indian firms",
+    "value_raw": "5.3",
+    "unit_raw": "percent",
+    "period_raw": "preceding three years",
+    "qualifiers": {
+     "geography": "India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "3.3 percent introduced a new process in the preceding three years",
+    "kind": "numeric",
+    "metric": "share of firms that introduced a new process",
+    "subject": "Indian firms",
+    "value_raw": "3.3",
+    "unit_raw": "percent",
+    "period_raw": "preceding three years",
+    "qualifiers": {
+     "geography": "India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "compared to EM averages of 27 percent and 16.8 percent",
+    "kind": "numeric",
+    "metric": "share of firms that launched a new product",
+    "subject": "emerging market firms average",
+    "value_raw": "27",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "Emerging Markets"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "and 16.8 percent",
+    "kind": "numeric",
+    "metric": "share of firms that introduced a new process",
+    "subject": "emerging market firms average",
+    "value_raw": "16.8",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "Emerging Markets"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "merely 5.4 percent of firms utilize technology licensed from overseas companies",
+    "kind": "numeric",
+    "metric": "share of firms utilizing technology licensed from overseas companies",
+    "subject": "Indian firms",
+    "value_raw": "5.4",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "India’s stock of inward FDI amounts to 15 percent of GDP",
+    "kind": "numeric",
+    "metric": "stock of inward FDI in percent of GDP",
+    "subject": "India",
+    "value_raw": "15",
+    "unit_raw": "percent of GDP",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "compared to an average of 24.6 percent of GDP across middle income developing economies",
+    "kind": "numeric",
+    "metric": "stock of inward FDI in percent of GDP",
+    "subject": "middle income developing economies average",
+    "value_raw": "24.6",
+    "unit_raw": "percent of GDP",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "middle income developing economies"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "India ranks sixth globally in annual patent applications",
+    "kind": "semantic",
+    "metric": "global rank in annual patent applications",
+    "subject": "India",
+    "state": "ranks sixth globally",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India",
+     "metric_type": "annual patent applications rank"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "Between 2013/14 and 2023/24, patent applications doubled",
+    "kind": "semantic",
+    "metric": "patent applications growth",
+    "subject": "India",
+    "state": "doubled",
+    "period_raw": "Between 2013/14 and 2023/24",
+    "qualifiers": {
+     "geography": "India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "patents granted rose from about 4,000 to over 100,000",
+    "kind": "numeric",
+    "metric": "patents granted",
+    "subject": "India",
+    "value_raw": "4,000",
+    "unit_raw": null,
+    "period_raw": "2013/14",
+    "qualifiers": {
+     "geography": "India",
+     "inequality": "about"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "patents granted rose from about 4,000 to over 100,000",
+    "kind": "numeric",
+    "metric": "patents granted",
+    "subject": "India",
+    "value_raw": "100,000",
+    "unit_raw": null,
+    "period_raw": "2023/24",
+    "qualifiers": {
+     "geography": "India",
+     "inequality": "over"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "India has gradually reduced its income tax weighted deduction on R&D expenditure from 200 percent in FY2010/11 to 100 percent in FY2021/22",
+    "kind": "numeric",
+    "metric": "income tax weighted deduction on R&D expenditure",
+    "subject": "India",
+    "value_raw": "200",
+    "unit_raw": "percent",
+    "period_raw": "FY2010/11",
+    "qualifiers": {
+     "geography": "India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 80,
+    "quote": "India has gradually reduced its income tax weighted deduction on R&D expenditure from 200 percent in FY2010/11 to 100 percent in FY2021/22",
+    "kind": "numeric",
+    "metric": "income tax weighted deduction on R&D expenditure",
+    "subject": "India",
+    "value_raw": "100",
+    "unit_raw": "percent",
+    "period_raw": "FY2021/22",
+    "qualifiers": {
+     "geography": "India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 81,
+    "quote": "The scheme is estimated to cost 0.01 percent of GDP per year",
+    "kind": "numeric",
+    "metric": "estimated cost in percent of GDP per year",
+    "subject": "R&D income tax deduction scheme",
+    "value_raw": "0.01",
+    "unit_raw": "percent of GDP per year",
+    "period_raw": "per year",
+    "qualifiers": {
+     "geography": "India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 81,
+    "quote": "A Patent Box Regime, whereby a concessional 10 percent tax rate is charged on income earned from patents developed and registered in India",
+    "kind": "numeric",
+    "metric": "concessional tax rate on income earned from patents",
+    "subject": "Patent Box Regime",
+    "value_raw": "10",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India",
+     "condition": "developed and registered in India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 81,
+    "quote": "The government of India has launched the Research, Development and Innovation (RDI) Scheme with an allocation worth 0.3 percent of GDP over 6 years",
+    "kind": "numeric",
+    "metric": "scheme allocation in percent of GDP",
+    "subject": "Research, Development and Innovation (RDI) Scheme",
+    "value_raw": "0.3",
+    "unit_raw": "percent of GDP",
+    "period_raw": "over 6 years",
+    "qualifiers": {
+     "geography": "India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 81,
+    "quote": "The Prime Minister’s Research Fellowship Scheme, originally launched in 2018, has so far supported 3,688 scholars",
+    "kind": "numeric",
+    "metric": "scholars supported",
+    "subject": "Prime Minister’s Research Fellowship Scheme",
+    "value_raw": "3,688",
+    "unit_raw": "scholars",
+    "period_raw": "2018 to 2025",
+    "qualifiers": {
+     "geography": "India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "their share relative to GDP stabilizing at around 50 percent after a decline over the past decade",
+    "kind": "numeric",
+    "metric": "share of bank and non-bank credit to NFCs relative to GDP",
+    "subject": "non-financial corporations (NFCs)",
+    "value_raw": "50",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India",
+     "inequality": "around"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "Private equity/venture capital (PE/VC) investments have surged to $43 billion in 2024",
+    "kind": "numeric",
+    "metric": "Private equity/venture capital (PE/VC) investments",
+    "subject": "Private equity/venture capital investments",
+    "value_raw": "43",
+    "unit_raw": "USD billion",
+    "period_raw": "2024",
+    "qualifiers": {
+     "geography": "India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "equivalent to 1.1 percent of GDP",
+    "kind": "numeric",
+    "metric": "Private equity/venture capital (PE/VC) investments in percent of GDP",
+    "subject": "Private equity/venture capital investments",
+    "value_raw": "1.1",
+    "unit_raw": "percent of GDP",
+    "period_raw": "2024",
+    "qualifiers": {
+     "geography": "India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "with an average deal size of around $30 million",
+    "kind": "numeric",
+    "metric": "average deal size for PE/VC investments",
+    "subject": "Private equity/venture capital investments",
+    "value_raw": "30",
+    "unit_raw": "USD million",
+    "period_raw": "2024",
+    "qualifiers": {
+     "geography": "India",
+     "inequality": "around"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "Only 11 percent of Indian firms reported having bank loans",
+    "kind": "numeric",
+    "metric": "share of firms reporting having bank loans",
+    "subject": "Indian firms",
+    "value_raw": "11",
+    "unit_raw": "percent",
+    "period_raw": "2022",
+    "qualifiers": {
+     "geography": "India",
+     "source": "World Bank Enterprise Survey"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "with over-collateralization averaging 185 percent of loan amounts",
+    "kind": "numeric",
+    "metric": "over-collateralization average in percent of loan amounts",
+    "subject": "Indian firms",
+    "value_raw": "185",
+    "unit_raw": "percent of loan amounts",
+    "period_raw": "2022",
+    "qualifiers": {
+     "geography": "India",
+     "source": "World Bank Enterprise Survey"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "corporate bonds are heavily concentrated in high rating categories in India: AAA (86 percent), AA (10 percent), A1-BBB (3 percent), and non-investment grade (0.4 percent)",
+    "kind": "numeric",
+    "metric": "share of corporate bonds in AAA rating category",
+    "subject": "corporate bonds",
+    "value_raw": "86",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India",
+     "rating": "AAA"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "corporate bonds are heavily concentrated in high rating categories in India: AAA (86 percent), AA (10 percent), A1-BBB (3 percent), and non-investment grade (0.4 percent)",
+    "kind": "numeric",
+    "metric": "share of corporate bonds in AA rating category",
+    "subject": "corporate bonds",
+    "value_raw": "10",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India",
+     "rating": "AA"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "corporate bonds are heavily concentrated in high rating categories in India: AAA (86 percent), AA (10 percent), A1-BBB (3 percent), and non-investment grade (0.4 percent)",
+    "kind": "numeric",
+    "metric": "share of corporate bonds in A1-BBB rating category",
+    "subject": "corporate bonds",
+    "value_raw": "3",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India",
+     "rating": "A1-BBB"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "corporate bonds are heavily concentrated in high rating categories in India: AAA (86 percent), AA (10 percent), A1-BBB (3 percent), and non-investment grade (0.4 percent)",
+    "kind": "numeric",
+    "metric": "share of corporate bonds in non-investment grade category",
+    "subject": "corporate bonds",
+    "value_raw": "0.4",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India",
+     "rating": "non-investment grade"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "Life insurers are allowed to invest up to 15% of their portfolios in other investments",
+    "kind": "numeric",
+    "metric": "maximum portfolio investment limit in other investments",
+    "subject": "life insurers",
+    "value_raw": "15",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India",
+     "investor": "life insurers"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 86,
+    "quote": "and pension funds up to 5% in alternative assets",
+    "kind": "numeric",
+    "metric": "maximum portfolio investment limit in alternative assets",
+    "subject": "pension funds",
+    "value_raw": "5",
+    "unit_raw": "percent",
+    "period_raw": null,
+    "qualifiers": {
+     "geography": "India",
+     "investor": "pension funds"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 78,\n      \"quote\": \"India’s R&D expenditure represented only 0.6 percent of GDP in 2020\",\n      \"kind\": \"numeric\",\n      \"metric\": \"R&D expenditure in percent of GDP\",\n      \"subject\": \"India\",\n      \"value_raw\": \"0.6\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2020\",\n      \"qualifiers\": {\n        \"geography\": \"India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 78,\n      \"quote\": \"0.9 percent of GDP and the advanced economies average of 2.2 percent of GDP\",\n      \"kind\": \"numeric\",\n      \"metric\": \"R&D expenditure in percent of GDP\",\n      \"subject\": \"G20 emerging market average\",\n      \"value_raw\": \"0.9\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"G20 emerging market average\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 78,\n      \"quote\": \"advanced economies average of 2.2 percent of GDP\",\n      \"kind\": \"numeric\",\n      \"metric\": \"R&D expenditure in percent of GDP\",\n      \"subject\": \"advanced economies average\",\n      \"value_raw\": \"2.2\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"advanced economies average\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 78,\n      \"quote\": \"fewer than 300 researchers per million inhabitants in India\",\n      \"kind\": \"numeric\",\n      \"metric\": \"researchers per million inhabitants\",\n      \"subject\": \"India\",\n      \"value_raw\": \"300\",\n      \"unit_raw\": \"per million inhabitants\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"inequality\": \"fewer than\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 78,\n      \"quote\": \"over 1,800 in China\",\n      \"kind\": \"numeric\",\n      \"metric\": \"researchers per million inhabitants\",\n      \"subject\": \"China\",\n      \"value_raw\": \"1,800\",\n      \"unit_raw\": \"per million inhabitants\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"China\",\n        \"inequality\": \"over\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 78,\n      \"quote\": \"around 1,000 in emerging markets\",\n      \"kind\": \"numeric\",\n      \"metric\": \"researchers per million inhabitants\",\n      \"subject\": \"emerging markets average\",\n      \"value_raw\": \"1,000\",\n      \"unit_raw\": \"per million inhabitants\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"emerging markets\",\n        \"inequality\": \"around\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 78,\n      \"quote\": \"over 5,000 in advanced economies on average\",\n      \"kind\": \"numeric\",\n      \"metric\": \"researchers per million inhabitants\",\n      \"subject\": \"advanced economies average\",\n      \"value_raw\": \"5,000\",\n      \"unit_raw\": \"per million inhabitants\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"advanced economies\",\n        \"inequality\": \"over\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 79,\n      \"quote\": \"About 50 percent of research and development spending is executed by the government in India\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of research and development spending executed by the government\",\n      \"subject\": \"India\",\n      \"value_raw\": \"50\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"executed_by\": \"government\",\n        \"inequality\": \"about\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 79,\n      \"quote\": \"compared to about 10 percent on average in AEs\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of research and development spending executed by the government\",\n      \"subject\": \"advanced economies average\",\n      \"value_raw\": \"10\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"Advanced Economies\",\n        \"executed_by\": \"government\",\n        \"inequality\": \"about\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 79,\n      \"quote\": \"Higher education institutions in India account for only 10 percent of total R&D spending\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of total R&D spending\",\n      \"subject\": \"higher education institutions in India\",\n      \"value_raw\": \"10\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"spending_by\": \"higher education institutions\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 79,\n      \"quote\": \"university-industry collaboration in India received a survey score of 3.54\",\n      \"kind\": \"numeric\",\n      \"metric\": \"university-industry collaboration survey score\",\n      \"subject\": \"India\",\n      \"value_raw\": \"3.54\",\n      \"unit_raw\": null,\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"scale\": \"1 to 7\",\n        \"source\": \"Global Innovation Index\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"Only 4.3 percent of Indian firms report having spent resources on R&D\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of firms reporting having spent resources on R&D\",\n      \"subject\": \"Indian firms\",\n      \"value_raw\": \"4.3\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2022\",\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"source\": \"World Bank Enterprise Survey\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"significantly below the 17 percent average across EMs\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of firms reporting having spent resources on R&D\",\n      \"subject\": \"emerging market firms\",\n      \"value_raw\": \"17\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2022\",\n      \"qualifiers\": {\n        \"geography\": \"Emerging Markets\",\n        \"source\": \"World Bank Enterprise Survey\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"and 13 percent average across LICs\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of firms reporting having spent resources on R&D\",\n      \"subject\": \"low income country firms\",\n      \"value_raw\": \"13\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2022\",\n      \"qualifiers\": {\n        \"geography\": \"Low Income Countries\",\n        \"source\": \"World Bank Enterprise Survey\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"Just 5.3 percent of Indian firms launched a new product and 3.3 percent introduced a new process in the preceding three years\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of firms that launched a new product\",\n      \"subject\": \"Indian firms\",\n      \"value_raw\": \"5.3\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"preceding three years\",\n      \"qualifiers\": {\n        \"geography\": \"India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"3.3 percent introduced a new process in the preceding three years\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of firms that introduced a new process\",\n      \"subject\": \"Indian firms\",\n      \"value_raw\": \"3.3\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"preceding three years\",\n      \"qualifiers\": {\n        \"geography\": \"India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"compared to EM averages of 27 percent and 16.8 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of firms that launched a new product\",\n      \"subject\": \"emerging market firms average\",\n      \"value_raw\": \"27\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"Emerging Markets\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"and 16.8 percent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of firms that introduced a new process\",\n      \"subject\": \"emerging market firms average\",\n      \"value_raw\": \"16.8\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"Emerging Markets\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"merely 5.4 percent of firms utilize technology licensed from overseas companies\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of firms utilizing technology licensed from overseas companies\",\n      \"subject\": \"Indian firms\",\n      \"value_raw\": \"5.4\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"India’s stock of inward FDI amounts to 15 percent of GDP\",\n      \"kind\": \"numeric\",\n      \"metric\": \"stock of inward FDI in percent of GDP\",\n      \"subject\": \"India\",\n      \"value_raw\": \"15\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"compared to an average of 24.6 percent of GDP across middle income developing economies\",\n      \"kind\": \"numeric\",\n      \"metric\": \"stock of inward FDI in percent of GDP\",\n      \"subject\": \"middle income developing economies average\",\n      \"value_raw\": \"24.6\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"middle income developing economies\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"India ranks sixth globally in annual patent applications\",\n      \"kind\": \"semantic\",\n      \"metric\": \"global rank in annual patent applications\",\n      \"subject\": \"India\",\n      \"state\": \"ranks sixth globally\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"metric_type\": \"annual patent applications rank\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"Between 2013/14 and 2023/24, patent applications doubled\",\n      \"kind\": \"semantic\",\n      \"metric\": \"patent applications growth\",\n      \"subject\": \"India\",\n      \"state\": \"doubled\",\n      \"period_raw\": \"Between 2013/14 and 2023/24\",\n      \"qualifiers\": {\n        \"geography\": \"India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"patents granted rose from about 4,000 to over 100,000\",\n      \"kind\": \"numeric\",\n      \"metric\": \"patents granted\",\n      \"subject\": \"India\",\n      \"value_raw\": \"4,000\",\n      \"unit_raw\": null,\n      \"period_raw\": \"2013/14\",\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"inequality\": \"about\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"patents granted rose from about 4,000 to over 100,000\",\n      \"kind\": \"numeric\",\n      \"metric\": \"patents granted\",\n      \"subject\": \"India\",\n      \"value_raw\": \"100,000\",\n      \"unit_raw\": null,\n      \"period_raw\": \"2023/24\",\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"inequality\": \"over\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"India has gradually reduced its income tax weighted deduction on R&D expenditure from 200 percent in FY2010/11 to 100 percent in FY2021/22\",\n      \"kind\": \"numeric\",\n      \"metric\": \"income tax weighted deduction on R&D expenditure\",\n      \"subject\": \"India\",\n      \"value_raw\": \"200\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"FY2010/11\",\n      \"qualifiers\": {\n        \"geography\": \"India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 80,\n      \"quote\": \"India has gradually reduced its income tax weighted deduction on R&D expenditure from 200 percent in FY2010/11 to 100 percent in FY2021/22\",\n      \"kind\": \"numeric\",\n      \"metric\": \"income tax weighted deduction on R&D expenditure\",\n      \"subject\": \"India\",\n      \"value_raw\": \"100\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"FY2021/22\",\n      \"qualifiers\": {\n        \"geography\": \"India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 81,\n      \"quote\": \"The scheme is estimated to cost 0.01 percent of GDP per year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"estimated cost in percent of GDP per year\",\n      \"subject\": \"R&D income tax deduction scheme\",\n      \"value_raw\": \"0.01\",\n      \"unit_raw\": \"percent of GDP per year\",\n      \"period_raw\": \"per year\",\n      \"qualifiers\": {\n        \"geography\": \"India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 81,\n      \"quote\": \"A Patent Box Regime, whereby a concessional 10 percent tax rate is charged on income earned from patents developed and registered in India\",\n      \"kind\": \"numeric\",\n      \"metric\": \"concessional tax rate on income earned from patents\",\n      \"subject\": \"Patent Box Regime\",\n      \"value_raw\": \"10\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"condition\": \"developed and registered in India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 81,\n      \"quote\": \"The government of India has launched the Research, Development and Innovation (RDI) Scheme with an allocation worth 0.3 percent of GDP over 6 years\",\n      \"kind\": \"numeric\",\n      \"metric\": \"scheme allocation in percent of GDP\",\n      \"subject\": \"Research, Development and Innovation (RDI) Scheme\",\n      \"value_raw\": \"0.3\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"over 6 years\",\n      \"qualifiers\": {\n        \"geography\": \"India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 81,\n      \"quote\": \"The Prime Minister’s Research Fellowship Scheme, originally launched in 2018, has so far supported 3,688 scholars\",\n      \"kind\": \"numeric\",\n      \"metric\": \"scholars supported\",\n      \"subject\": \"Prime Minister’s Research Fellowship Scheme\",\n      \"value_raw\": \"3,688\",\n      \"unit_raw\": \"scholars\",\n      \"period_raw\": \"2018 to 2025\",\n      \"qualifiers\": {\n        \"geography\": \"India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"their share relative to GDP stabilizing at around 50 percent after a decline over the past decade\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of bank and non-bank credit to NFCs relative to GDP\",\n      \"subject\": \"non-financial corporations (NFCs)\",\n      \"value_raw\": \"50\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"inequality\": \"around\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"Private equity/venture capital (PE/VC) investments have surged to $43 billion in 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Private equity/venture capital (PE/VC) investments\",\n      \"subject\": \"Private equity/venture capital investments\",\n      \"value_raw\": \"43\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"geography\": \"India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"equivalent to 1.1 percent of GDP\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Private equity/venture capital (PE/VC) investments in percent of GDP\",\n      \"subject\": \"Private equity/venture capital investments\",\n      \"value_raw\": \"1.1\",\n      \"unit_raw\": \"percent of GDP\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"geography\": \"India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"with an average deal size of around $30 million\",\n      \"kind\": \"numeric\",\n      \"metric\": \"average deal size for PE/VC investments\",\n      \"subject\": \"Private equity/venture capital investments\",\n      \"value_raw\": \"30\",\n      \"unit_raw\": \"USD million\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"inequality\": \"around\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"Only 11 percent of Indian firms reported having bank loans\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of firms reporting having bank loans\",\n      \"subject\": \"Indian firms\",\n      \"value_raw\": \"11\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": \"2022\",\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"source\": \"World Bank Enterprise Survey\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"with over-collateralization averaging 185 percent of loan amounts\",\n      \"kind\": \"numeric\",\n      \"metric\": \"over-collateralization average in percent of loan amounts\",\n      \"subject\": \"Indian firms\",\n      \"value_raw\": \"185\",\n      \"unit_raw\": \"percent of loan amounts\",\n      \"period_raw\": \"2022\",\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"source\": \"World Bank Enterprise Survey\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"corporate bonds are heavily concentrated in high rating categories in India: AAA (86 percent), AA (10 percent), A1-BBB (3 percent), and non-investment grade (0.4 percent)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of corporate bonds in AAA rating category\",\n      \"subject\": \"corporate bonds\",\n      \"value_raw\": \"86\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"rating\": \"AAA\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"corporate bonds are heavily concentrated in high rating categories in India: AAA (86 percent), AA (10 percent), A1-BBB (3 percent), and non-investment grade (0.4 percent)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of corporate bonds in AA rating category\",\n      \"subject\": \"corporate bonds\",\n      \"value_raw\": \"10\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"rating\": \"AA\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"corporate bonds are heavily concentrated in high rating categories in India: AAA (86 percent), AA (10 percent), A1-BBB (3 percent), and non-investment grade (0.4 percent)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of corporate bonds in A1-BBB rating category\",\n      \"subject\": \"corporate bonds\",\n      \"value_raw\": \"3\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"rating\": \"A1-BBB\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"corporate bonds are heavily concentrated in high rating categories in India: AAA (86 percent), AA (10 percent), A1-BBB (3 percent), and non-investment grade (0.4 percent)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of corporate bonds in non-investment grade category\",\n      \"subject\": \"corporate bonds\",\n      \"value_raw\": \"0.4\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"rating\": \"non-investment grade\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"Life insurers are allowed to invest up to 15% of their portfolios in other investments\",\n      \"kind\": \"numeric\",\n      \"metric\": \"maximum portfolio investment limit in other investments\",\n      \"subject\": \"life insurers\",\n      \"value_raw\": \"15\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"investor\": \"life insurers\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"and pension funds up to 5% in alternative assets\",\n      \"kind\": \"numeric\",\n      \"metric\": \"maximum portfolio investment limit in alternative assets\",\n      \"subject\": \"pension funds\",\n      \"value_raw\": \"5\",\n      \"unit_raw\": \"percent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"geography\": \"India\",\n        \"investor\": \"pension funds\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:03-imf-india-2025-article-iv-excerpt-f6d3cfec:b78"
+}

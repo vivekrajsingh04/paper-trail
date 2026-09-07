@@ -1,0 +1,16 @@
+{
+ "data": {
+  "title": "Annual Report 2024-25",
+  "publisher": "Reserve Bank of India",
+  "doc_type": "annual report",
+  "primary_entity": "Reserve Bank of India / Indian Economy",
+  "published": null,
+  "as_of": "2024-25",
+  "default_qualifiers": {},
+  "notes": "Covers the economy review and prospects for 2024-25 and 2025-26, and the working and operations of the Reserve Bank of India for the year ended March 31, 2025."
+ },
+ "raw": "{\n  \"title\": \"Annual Report 2024-25\",\n  \"publisher\": \"Reserve Bank of India\",\n  \"doc_type\": \"annual report\",\n  \"primary_entity\": \"Reserve Bank of India / Indian Economy\",\n  \"published\": null,\n  \"as_of\": \"2024-25\",\n  \"default_qualifiers\": {},\n  \"notes\": \"Covers the economy review and prospects for 2024-25 and 2025-26, and the working and operations of the Reserve Bank of India for the year ended March 31, 2025.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "profile:02-rbi-annual-report-2024-25-excerpt-73209a2c"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Net capital inflows is a broader aggregate that includes Foreign Portfolio Investment (FPI) along with other capital flows like FDI and external debt."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Net capital inflows is a broader aggregate that includes Foreign Portfolio Investment (FPI) along with other capital flows like FDI and external debt.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

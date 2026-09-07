@@ -1,0 +1,14 @@
+{
+ "data": [
+  {
+   "same_metric": false,
+   "relationship": "different",
+   "which_broader": null,
+   "reason": "The metrics measure inflation for entirely different subjects (clothing and footwear versus potatoes)."
+  }
+ ],
+ "raw": "[\n  {\n    \"same_metric\": false,\n    \"relationship\": \"different\",\n    \"which_broader\": null,\n    \"reason\": \"The metrics measure inflation for entirely different subjects (clothing and footwear versus potatoes).\"\n  }\n]",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

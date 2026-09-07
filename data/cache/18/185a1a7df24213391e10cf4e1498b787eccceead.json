@@ -1,0 +1,215 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 91,
+    "quote": "500.40",
+    "kind": "numeric",
+    "metric": "Investment in Associate- Equity Accounting",
+    "subject": "FALCON AUTOTECH Private Limited",
+    "value_raw": "500.40",
+    "unit_raw": null,
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "transaction_type": "investment in associate",
+     "entity_category": "associate"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 91,
+    "quote": "1,583.85",
+    "kind": "numeric",
+    "metric": "Capital Expenditure",
+    "subject": "FALCON AUTOTECH Private Limited",
+    "value_raw": "1,583.85",
+    "unit_raw": null,
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "transaction_type": "capital expenditure",
+     "entity_category": "associate"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 91,
+    "quote": "637.14",
+    "kind": "numeric",
+    "metric": "Capital Expenditure",
+    "subject": "FALCON AUTOTECH Private Limited",
+    "value_raw": "637.14",
+    "unit_raw": null,
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "transaction_type": "capital expenditure",
+     "entity_category": "associate"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 91,
+    "quote": "86.46",
+    "kind": "numeric",
+    "metric": "Services received",
+    "subject": "FALCON AUTOTECH Private Limited",
+    "value_raw": "86.46",
+    "unit_raw": null,
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "transaction_type": "services received",
+     "entity_category": "associate"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 91,
+    "quote": "40.62",
+    "kind": "numeric",
+    "metric": "Services received",
+    "subject": "FALCON AUTOTECH Private Limited",
+    "value_raw": "40.62",
+    "unit_raw": null,
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "transaction_type": "services received",
+     "entity_category": "associate"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 91,
+    "quote": "663.53",
+    "kind": "numeric",
+    "metric": "Remuneration to Key Managerial Personnel Short term employees benefits",
+    "subject": "Mr. Sahil Barua",
+    "value_raw": "663.53",
+    "unit_raw": null,
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "transaction_type": "remuneration",
+     "category": "short term employees benefits"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 91,
+    "quote": "740.64",
+    "kind": "numeric",
+    "metric": "Remuneration to Key Managerial Personnel Short term employees benefits",
+    "subject": "Mr. Sahil Barua",
+    "value_raw": "740.64",
+    "unit_raw": null,
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "transaction_type": "remuneration",
+     "category": "short term employees benefits"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 91,
+    "quote": "256.56",
+    "kind": "numeric",
+    "metric": "Outstanding balance receivable/(payable) Advance to supplier",
+    "subject": "FALCON AUTOTECH Private Limited",
+    "value_raw": "256.56",
+    "unit_raw": null,
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "balance_type": "receivable",
+     "entity_category": "associate"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 91,
+    "quote": "(116.85)",
+    "kind": "numeric",
+    "metric": "Outstanding balance receivable/(payable) Payables",
+    "subject": "FALCON AUTOTECH Private Limited",
+    "value_raw": "(116.85)",
+    "unit_raw": null,
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "balance_type": "payable",
+     "entity_category": "associate"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 92,
+    "quote": "81.36",
+    "kind": "numeric",
+    "metric": "Purchase consideration for acquisition of Algorhythm Tech Private Limited",
+    "subject": "Algorhythm Tech Private Limited",
+    "value_raw": "81.36",
+    "unit_raw": "I",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "business_combination": "100% stake acquisition"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 92,
+    "quote": "74.48",
+    "kind": "numeric",
+    "metric": "Goodwill arising on acquisition",
+    "subject": "Algorhythm Tech Private Limited",
+    "value_raw": "74.48",
+    "unit_raw": "I",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "business_combination": "100% stake acquisition"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 92,
+    "quote": "30.56",
+    "kind": "numeric",
+    "metric": "Potential higher revenue from continuing operations if acquisition had taken place at beginning of the year",
+    "subject": "Algorhythm Tech Private Limited",
+    "value_raw": "30.56",
+    "unit_raw": "I",
+    "period_raw": "March 31, 2023",
+    "qualifiers": {
+     "scenario": "acquisition at beginning of year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 93,
+    "quote": "3,032.19",
+    "kind": "numeric",
+    "metric": "Carrying value at amortised cost for Cash and cash equivalents",
+    "subject": "Cash and cash equivalents",
+    "value_raw": "3,032.19",
+    "unit_raw": null,
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "category": "amortised cost"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 93,
+    "quote": "1,000.00",
+    "kind": "numeric",
+    "metric": "Carrying value at amortised cost for Other bank balances",
+    "subject": "Other bank balances",
+    "value_raw": "1,000.00",
+    "unit_raw": null,
+    "period_raw": "March 31, 2024",
+    "qualifiers": {
+     "category": "amortised cost"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 91,\n      \"quote\": \"500.40\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Investment in Associate- Equity Accounting\",\n      \"subject\": \"FALCON AUTOTECH Private Limited\",\n      \"value_raw\": \"500.40\",\n      \"unit_raw\": null,\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"transaction_type\": \"investment in associate\",\n        \"entity_category\": \"associate\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 91,\n      \"quote\": \"1,583.85\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Capital Expenditure\",\n      \"subject\": \"FALCON AUTOTECH Private Limited\",\n      \"value_raw\": \"1,583.85\",\n      \"unit_raw\": null,\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"transaction_type\": \"capital expenditure\",\n        \"entity_category\": \"associate\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 91,\n      \"quote\": \"637.14\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Capital Expenditure\",\n      \"subject\": \"FALCON AUTOTECH Private Limited\",\n      \"value_raw\": \"637.14\",\n      \"unit_raw\": null,\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"transaction_type\": \"capital expenditure\",\n        \"entity_category\": \"associate\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 91,\n      \"quote\": \"86.46\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Services received\",\n      \"subject\": \"FALCON AUTOTECH Private Limited\",\n      \"value_raw\": \"86.46\",\n      \"unit_raw\": null,\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"transaction_type\": \"services received\",\n        \"entity_category\": \"associate\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 91,\n      \"quote\": \"40.62\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Services received\",\n      \"subject\": \"FALCON AUTOTECH Private Limited\",\n      \"value_raw\": \"40.62\",\n      \"unit_raw\": null,\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"transaction_type\": \"services received\",\n        \"entity_category\": \"associate\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 91,\n      \"quote\": \"663.53\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Remuneration to Key Managerial Personnel Short term employees benefits\",\n      \"subject\": \"Mr. Sahil Barua\",\n      \"value_raw\": \"663.53\",\n      \"unit_raw\": null,\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"transaction_type\": \"remuneration\",\n        \"category\": \"short term employees benefits\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 91,\n      \"quote\": \"740.64\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Remuneration to Key Managerial Personnel Short term employees benefits\",\n      \"subject\": \"Mr. Sahil Barua\",\n      \"value_raw\": \"740.64\",\n      \"unit_raw\": null,\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"transaction_type\": \"remuneration\",\n        \"category\": \"short term employees benefits\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 91,\n      \"quote\": \"256.56\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Outstanding balance receivable/(payable) Advance to supplier\",\n      \"subject\": \"FALCON AUTOTECH Private Limited\",\n      \"value_raw\": \"256.56\",\n      \"unit_raw\": null,\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"balance_type\": \"receivable\",\n        \"entity_category\": \"associate\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 91,\n      \"quote\": \"(116.85)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Outstanding balance receivable/(payable) Payables\",\n      \"subject\": \"FALCON AUTOTECH Private Limited\",\n      \"value_raw\": \"(116.85)\",\n      \"unit_raw\": null,\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"balance_type\": \"payable\",\n        \"entity_category\": \"associate\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 92,\n      \"quote\": \"81.36\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Purchase consideration for acquisition of Algorhythm Tech Private Limited\",\n      \"subject\": \"Algorhythm Tech Private Limited\",\n      \"value_raw\": \"81.36\",\n      \"unit_raw\": \"I\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"business_combination\": \"100% stake acquisition\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 92,\n      \"quote\": \"74.48\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Goodwill arising on acquisition\",\n      \"subject\": \"Algorhythm Tech Private Limited\",\n      \"value_raw\": \"74.48\",\n      \"unit_raw\": \"I\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"business_combination\": \"100% stake acquisition\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 92,\n      \"quote\": \"30.56\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Potential higher revenue from continuing operations if acquisition had taken place at beginning of the year\",\n      \"subject\": \"Algorhythm Tech Private Limited\",\n      \"value_raw\": \"30.56\",\n      \"unit_raw\": \"I\",\n      \"period_raw\": \"March 31, 2023\",\n      \"qualifiers\": {\n        \"scenario\": \"acquisition at beginning of year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 93,\n      \"quote\": \"3,032.19\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Carrying value at amortised cost for Cash and cash equivalents\",\n      \"subject\": \"Cash and cash equivalents\",\n      \"value_raw\": \"3,032.19\",\n      \"unit_raw\": null,\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"category\": \"amortised cost\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 93,\n      \"quote\": \"1,000.00\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Carrying value at amortised cost for Other bank balances\",\n      \"subject\": \"Other bank balances\",\n      \"value_raw\": \"1,000.00\",\n      \"unit_raw\": null,\n      \"period_raw\": \"March 31, 2024\",\n      \"qualifiers\": {\n        \"category\": \"amortised cost\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-delhivery-annual-report-fy24-excerpt-de6d79ad:b91"
+}

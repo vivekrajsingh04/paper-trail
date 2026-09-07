@@ -1,0 +1,188 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 76,
+    "quote": "India’s merchandise exports increased\nmarginally by 0.1 per cent year-on-year (y-o-y)\nto US$ 437.4 billion in 2024-25",
+    "kind": "numeric",
+    "metric": "Merchandise exports value",
+    "subject": "India",
+    "value_raw": "437.4",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "growth_rate_yoy": "0.1 per cent"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 76,
+    "quote": "Merchandise imports expanded by 6.2 per\ncent (y-o-y) to US$ 720.2 billion during 2024-25",
+    "kind": "numeric",
+    "metric": "Merchandise imports value",
+    "subject": "India",
+    "value_raw": "720.2",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "growth_rate_yoy": "6.2 per cent"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 76,
+    "quote": "Exports of engineering goods (accounting\nfor 26.7 per cent of the total merchandise exports)\nTable II.7.1: India’s Merchandise Trade\nValue in US$ billion\nGrowth Rate\n(y-o-y, per cent)\n2021-\n22\n2022-\n23\n2023-\n24\n2024-\n25\n2021-\n22\n2022-\n23\n2023-\n24\n2024-\n25\n1\n2\n3\n4\n5\n6\n7\n8\n9\nExports\nQ1\n95.5",
+    "kind": "numeric",
+    "metric": "Merchandise exports share of total merchandise exports",
+    "subject": "Engineering goods",
+    "value_raw": "26.7",
+    "unit_raw": "%",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 0.9
+   },
+   {
+    "page": 77,
+    "quote": "increased by 6.7 per cent in 2024-25.",
+    "kind": "numeric",
+    "metric": "Exports growth rate",
+    "subject": "Engineering goods",
+    "value_raw": "6.7",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 77,
+    "quote": "Agricultural exports rose by 6.4 per cent\n(y-o-y) in 2024-25 (up to February 2025).",
+    "kind": "numeric",
+    "metric": "Agricultural exports growth rate y-o-y",
+    "subject": "Agricultural exports",
+    "value_raw": "6.4",
+    "unit_raw": "%",
+    "period_raw": "2024-25 (up to February 2025)",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 77,
+    "quote": "On a cumulative\nbasis, rice exports rose by 19.7 per cent (y-o-y)\nin 2024-25.",
+    "kind": "numeric",
+    "metric": "Rice exports cumulative growth rate y-o-y",
+    "subject": "Rice",
+    "value_raw": "19.7",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 77,
+    "quote": "Exports of electronic goods expanded\nby 32.5 per cent (y-o-y) in 2024-25.",
+    "kind": "numeric",
+    "metric": "Electronic goods exports expansion rate y-o-y",
+    "subject": "Electronic goods",
+    "value_raw": "32.5",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 77,
+    "quote": "Mobile phones,\ncontributing 61.7 per cent of electronic goods\nexports during 2024-25 (up to February 2025),",
+    "kind": "numeric",
+    "metric": "Share of electronic goods exports",
+    "subject": "Mobile phones",
+    "value_raw": "61.7",
+    "unit_raw": "%",
+    "period_raw": "2024-25 (up to February 2025)",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 77,
+    "quote": "rose by 54.3 per cent (y-o-y) to US$ 21.0 billion\n(Chart II.7.8).",
+    "kind": "numeric",
+    "metric": "Mobile phone exports value",
+    "subject": "Mobile phones",
+    "value_raw": "21.0",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25 (up to February 2025)",
+    "qualifiers": {
+     "growth_rate_yoy": "54.3 per cent"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 77,
+    "quote": "Exports of drugs and pharmaceuticals,\naccounting for 7.0 per cent of India’s merchandise\nexports, expanded by 9.4 per cent (y-o-y) in\n2024-25.",
+    "kind": "numeric",
+    "metric": "Share of total merchandise exports",
+    "subject": "Drugs and pharmaceuticals",
+    "value_raw": "7.0",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 77,
+    "quote": "expanded by 9.4 per cent (y-o-y) in\n2024-25.",
+    "kind": "numeric",
+    "metric": "Exports growth rate y-o-y",
+    "subject": "Drugs and pharmaceuticals",
+    "value_raw": "9.4",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 79,
+    "quote": "Value of gold imports rose by 27.4 per\ncent (y-o-y) in 2024-25 to US$ 58.0 billion,",
+    "kind": "numeric",
+    "metric": "Gold imports value",
+    "subject": "Gold",
+    "value_raw": "58.0",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "growth_rate_yoy": "27.4 per cent"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 79,
+    "quote": "driven by higher international prices (30.0\nper cent) even as total volume contracted\n(Chart II.7.14).",
+    "kind": "numeric",
+    "metric": "International prices increase rate",
+    "subject": "Gold",
+    "value_raw": "30.0",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 79,
+    "quote": "Imports of electronic goods expanded\nby 12.4 per cent (y-o-y) to US$ 98.7 billion in\n2024-25 (Chart II.7.15).",
+    "kind": "numeric",
+    "metric": "Electronic goods imports value",
+    "subject": "Electronic goods",
+    "value_raw": "98.7",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "growth_rate_yoy": "12.4 per cent"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 76,\n      \"quote\": \"India’s merchandise exports increased\\nmarginally by 0.1 per cent year-on-year (y-o-y)\\nto US$ 437.4 billion in 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Merchandise exports value\",\n      \"subject\": \"India\",\n      \"value_raw\": \"437.4\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"growth_rate_yoy\": \"0.1 per cent\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 76,\n      \"quote\": \"Merchandise imports expanded by 6.2 per\\ncent (y-o-y) to US$ 720.2 billion during 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Merchandise imports value\",\n      \"subject\": \"India\",\n      \"value_raw\": \"720.2\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"growth_rate_yoy\": \"6.2 per cent\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 76,\n      \"quote\": \"Exports of engineering goods (accounting\\nfor 26.7 per cent of the total merchandise exports)\\nTable II.7.1: India’s Merchandise Trade\\nValue in US$ billion\\nGrowth Rate\\n(y-o-y, per cent)\\n2021-\\n22\\n2022-\\n23\\n2023-\\n24\\n2024-\\n25\\n2021-\\n22\\n2022-\\n23\\n2023-\\n24\\n2024-\\n25\\n1\\n2\\n3\\n4\\n5\\n6\\n7\\n8\\n9\\nExports\\nQ1\\n95.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Merchandise exports share of total merchandise exports\",\n      \"subject\": \"Engineering goods\",\n      \"value_raw\": \"26.7\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": null,\n      \"qualifiers\": {},\n      \"confidence\": 0.9\n    },\n    {\n      \"page\": 77,\n      \"quote\": \"increased by 6.7 per cent in 2024-25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Exports growth rate\",\n      \"subject\": \"Engineering goods\",\n      \"value_raw\": \"6.7\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 77,\n      \"quote\": \"Agricultural exports rose by 6.4 per cent\\n(y-o-y) in 2024-25 (up to February 2025).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Agricultural exports growth rate y-o-y\",\n      \"subject\": \"Agricultural exports\",\n      \"value_raw\": \"6.4\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2024-25 (up to February 2025)\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 77,\n      \"quote\": \"On a cumulative\\nbasis, rice exports rose by 19.7 per cent (y-o-y)\\nin 2024-25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Rice exports cumulative growth rate y-o-y\",\n      \"subject\": \"Rice\",\n      \"value_raw\": \"19.7\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 77,\n      \"quote\": \"Exports of electronic goods expanded\\nby 32.5 per cent (y-o-y) in 2024-25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Electronic goods exports expansion rate y-o-y\",\n      \"subject\": \"Electronic goods\",\n      \"value_raw\": \"32.5\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 77,\n      \"quote\": \"Mobile phones,\\ncontributing 61.7 per cent of electronic goods\\nexports during 2024-25 (up to February 2025),\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Share of electronic goods exports\",\n      \"subject\": \"Mobile phones\",\n      \"value_raw\": \"61.7\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2024-25 (up to February 2025)\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 77,\n      \"quote\": \"rose by 54.3 per cent (y-o-y) to US$ 21.0 billion\\n(Chart II.7.8).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Mobile phone exports value\",\n      \"subject\": \"Mobile phones\",\n      \"value_raw\": \"21.0\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25 (up to February 2025)\",\n      \"qualifiers\": {\n        \"growth_rate_yoy\": \"54.3 per cent\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 77,\n      \"quote\": \"Exports of drugs and pharmaceuticals,\\naccounting for 7.0 per cent of India’s merchandise\\nexports, expanded by 9.4 per cent (y-o-y) in\\n2024-25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Share of total merchandise exports\",\n      \"subject\": \"Drugs and pharmaceuticals\",\n      \"value_raw\": \"7.0\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 77,\n      \"quote\": \"expanded by 9.4 per cent (y-o-y) in\\n2024-25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Exports growth rate y-o-y\",\n      \"subject\": \"Drugs and pharmaceuticals\",\n      \"value_raw\": \"9.4\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 79,\n      \"quote\": \"Value of gold imports rose by 27.4 per\\ncent (y-o-y) in 2024-25 to US$ 58.0 billion,\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Gold imports value\",\n      \"subject\": \"Gold\",\n      \"value_raw\": \"58.0\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"growth_rate_yoy\": \"27.4 per cent\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 79,\n      \"quote\": \"driven by higher international prices (30.0\\nper cent) even as total volume contracted\\n(Chart II.7.14).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"International prices increase rate\",\n      \"subject\": \"Gold\",\n      \"value_raw\": \"30.0\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 79,\n      \"quote\": \"Imports of electronic goods expanded\\nby 12.4 per cent (y-o-y) to US$ 98.7 billion in\\n2024-25 (Chart II.7.15).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Electronic goods imports value\",\n      \"subject\": \"Electronic goods\",\n      \"value_raw\": \"98.7\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"growth_rate_yoy\": \"12.4 per cent\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-rbi-annual-report-2024-25-excerpt-73209a2c:b76"
+}

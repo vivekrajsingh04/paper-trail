@@ -1,0 +1,649 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 65,
+    "quote": "touching a new high of 85,836 on September 26, 2024",
+    "kind": "numeric",
+    "metric": "BSE Sensex peak level",
+    "subject": "BSE Sensex",
+    "value_raw": "85,836",
+    "unit_raw": null,
+    "period_raw": "September 26, 2024",
+    "qualifiers": {
+     "index": "BSE Sensex"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 65,
+    "quote": "The broader market indices, viz., the BSE MidCap and BSE SmallCap, increased by 5.6 per cent and 8 per cent, respectively",
+    "kind": "numeric",
+    "metric": "percentage increase of BSE MidCap index",
+    "subject": "BSE MidCap",
+    "value_raw": "5.6",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "index": "BSE MidCap"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 65,
+    "quote": "The broader market indices, viz., the BSE MidCap and BSE SmallCap, increased by 5.6 per cent and 8 per cent, respectively",
+    "kind": "numeric",
+    "metric": "percentage increase of BSE SmallCap index",
+    "subject": "BSE SmallCap",
+    "value_raw": "8",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "index": "BSE SmallCap"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 65,
+    "quote": "FPIs made net sales of ₹1.4 lakh crore in the domestic equity market during 2024-25",
+    "kind": "numeric",
+    "metric": "net sales in the domestic equity market",
+    "subject": "Foreign Portfolio Investors (FPIs)",
+    "value_raw": "1.4",
+    "unit_raw": "lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "market": "domestic equity market",
+     "flow_type": "net sales"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 66,
+    "quote": "as against net purchases of ₹2.1 lakh crore in the previous year",
+    "kind": "numeric",
+    "metric": "net purchases in the domestic equity market",
+    "subject": "Foreign Portfolio Investors (FPIs)",
+    "value_raw": "2.1",
+    "unit_raw": "lakh crore",
+    "period_raw": "previous year",
+    "qualifiers": {
+     "market": "domestic equity market",
+     "flow_type": "net purchases"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 66,
+    "quote": "Mutual funds made net purchases of ₹4.7 lakh crore in 2024-25",
+    "kind": "numeric",
+    "metric": "net purchases",
+    "subject": "Mutual funds",
+    "value_raw": "4.7",
+    "unit_raw": "lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "flow_type": "net purchases"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 66,
+    "quote": "as against ₹2.0 lakh crore in the previous year",
+    "kind": "numeric",
+    "metric": "net purchases",
+    "subject": "Mutual funds",
+    "value_raw": "2.0",
+    "unit_raw": "lakh crore",
+    "period_raw": "previous year",
+    "qualifiers": {
+     "flow_type": "net purchases"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 66,
+    "quote": "resource mobilisation through preferential allotments and qualified institutional placements (QIPs) rose to ₹2.2 lakh crore during 2024-25",
+    "kind": "numeric",
+    "metric": "primary segment resource mobilisation through preferential allotments and QIPs",
+    "subject": "equity market primary segment",
+    "value_raw": "2.2",
+    "unit_raw": "lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "segment": "preferential allotments and qualified institutional placements (QIPs)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 66,
+    "quote": "from ₹1.1 lakh crore during the previous year",
+    "kind": "numeric",
+    "metric": "primary segment resource mobilisation through preferential allotments and QIPs",
+    "subject": "equity market primary segment",
+    "value_raw": "1.1",
+    "unit_raw": "lakh crore",
+    "period_raw": "previous year",
+    "qualifiers": {
+     "segment": "preferential allotments and qualified institutional placements (QIPs)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 66,
+    "quote": "Resource mobilisation through initial public offerings (IPOs), follow-on public offers (FPOs) and rights issues also increased to ₹2.1 lakh crore",
+    "kind": "numeric",
+    "metric": "primary segment resource mobilisation through IPOs, FPOs and rights issues",
+    "subject": "equity market primary segment",
+    "value_raw": "2.1",
+    "unit_raw": "lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "segment": "IPOs, FPOs and rights issues"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 66,
+    "quote": "from ₹0.8 lakh crore during the previous year",
+    "kind": "numeric",
+    "metric": "primary segment resource mobilisation through IPOs, FPOs and rights issues",
+    "subject": "equity market primary segment",
+    "value_raw": "0.8",
+    "unit_raw": "lakh crore",
+    "period_raw": "previous year",
+    "qualifiers": {
+     "segment": "IPOs, FPOs and rights issues"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 66,
+    "quote": "raising ₹9,961 crore during 2024-25",
+    "kind": "numeric",
+    "metric": "resource mobilisation by small and medium enterprises (SMEs)",
+    "subject": "small and medium enterprises (SMEs)",
+    "value_raw": "9,961",
+    "unit_raw": "crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "segment": "SME issuances"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 66,
+    "quote": "as compared to mobilisation of ₹6,122 crore in the previous year",
+    "kind": "numeric",
+    "metric": "resource mobilisation by small and medium enterprises (SMEs)",
+    "subject": "small and medium enterprises (SMEs)",
+    "value_raw": "6,122",
+    "unit_raw": "crore",
+    "period_raw": "previous year",
+    "qualifiers": {
+     "segment": "SME issuances"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 66,
+    "quote": "Net resources mobilised by mutual funds increased to ₹8.2 lakh crore during 2024-25",
+    "kind": "numeric",
+    "metric": "net resources mobilised by mutual funds",
+    "subject": "mutual funds",
+    "value_raw": "8.2",
+    "unit_raw": "lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "resource_type": "net resources"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 67,
+    "quote": "Overall, the INR closed at ₹85.46 per US dollar on March 28, 2025, 0.2 per cent higher from its level at end-December 2024.",
+    "kind": "numeric",
+    "metric": "INR exchange rate against US dollar",
+    "subject": "INR",
+    "value_raw": "85.46",
+    "unit_raw": "per US dollar",
+    "period_raw": "March 28, 2025",
+    "qualifiers": {
+     "currency": "INR",
+     "pegged_to": "US dollar"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 67,
+    "quote": "The 40-currency nominal effective exchange rate (NEER) and real effective exchange rate (REER) appreciated (y-o-y) by 0.3 per cent and 1.5 per cent, respectively, during 2024-25.",
+    "kind": "numeric",
+    "metric": "nominal effective exchange rate (NEER) appreciation",
+    "subject": "40-currency nominal effective exchange rate (NEER)",
+    "value_raw": "0.3",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "basis": "y-o-y",
+     "basket": "40-currency"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 67,
+    "quote": "The 40-currency nominal effective exchange rate (NEER) and real effective exchange rate (REER) appreciated (y-o-y) by 0.3 per cent and 1.5 per cent, respectively, during 2024-25.",
+    "kind": "numeric",
+    "metric": "real effective exchange rate (REER) appreciation",
+    "subject": "real effective exchange rate (REER)",
+    "value_raw": "1.5",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "basis": "y-o-y",
+     "basket": "40-currency"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 68,
+    "quote": "During 2024-25 (RE), the Union government contained the gross fiscal deficit (GFD) to 4.7 per cent of GDP",
+    "kind": "numeric",
+    "metric": "gross fiscal deficit (GFD) as per cent of GDP",
+    "subject": "Union government",
+    "value_raw": "4.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25 (RE)",
+    "qualifiers": {
+     "level": "Union government",
+     "measure": "gross fiscal deficit",
+     "denominator": "GDP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 68,
+    "quote": "Revenue expenditure rose by 5.8 per cent in 2024-25 (RE)",
+    "kind": "numeric",
+    "metric": "revenue expenditure growth",
+    "subject": "Union government",
+    "value_raw": "5.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25 (RE)",
+    "qualifiers": {
+     "level": "Union government",
+     "expense_type": "revenue expenditure"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 68,
+    "quote": "The expenditure on pensions and retirement benefits increased to 0.83 per cent of GDP in 2024-25 (RE) from 0.79 per cent in",
+    "kind": "numeric",
+    "metric": "expenditure on pensions and retirement benefits as per cent of GDP",
+    "subject": "Union government",
+    "value_raw": "0.83",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25 (RE)",
+    "qualifiers": {
+     "level": "Union government",
+     "expense_type": "pensions and retirement benefits",
+     "denominator": "GDP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 68,
+    "quote": "from 0.79 per cent in",
+    "kind": "numeric",
+    "metric": "expenditure on pensions and retirement benefits as per cent of GDP",
+    "subject": "Union government",
+    "value_raw": "0.79",
+    "unit_raw": "per cent",
+    "period_raw": "previous year",
+    "qualifiers": {
+     "level": "Union government",
+     "expense_type": "pensions and retirement benefits",
+     "denominator": "GDP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 70,
+    "quote": "Net tax revenue to the Centre grew by 9.9 per cent",
+    "kind": "numeric",
+    "metric": "net tax revenue growth",
+    "subject": "Centre",
+    "value_raw": "9.9",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25 (RE)",
+    "qualifiers": {
+     "level": "Centre",
+     "revenue_type": "net tax revenue"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 70,
+    "quote": "the non-tax revenue grew by 32.2 per cent in 2024-25 (RE) over 2023-24",
+    "kind": "numeric",
+    "metric": "non-tax revenue growth",
+    "subject": "Centre",
+    "value_raw": "32.2",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25 (RE) over 2023-24",
+    "qualifiers": {
+     "level": "Centre",
+     "revenue_type": "non-tax revenue"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 70,
+    "quote": "Total non-debt receipts of the Centre recorded a healthy growth of 12.8 per cent, on top of 13.6 per cent growth attained in 2023-24.",
+    "kind": "numeric",
+    "metric": "total non-debt receipts growth",
+    "subject": "Centre",
+    "value_raw": "12.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25 (RE)",
+    "qualifiers": {
+     "level": "Centre",
+     "receipt_type": "total non-debt receipts"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 70,
+    "quote": "Total non-debt receipts of the Centre recorded a healthy growth of 12.8 per cent, on top of 13.6 per cent growth attained in 2023-24.",
+    "kind": "numeric",
+    "metric": "total non-debt receipts growth",
+    "subject": "Centre",
+    "value_raw": "13.6",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "level": "Centre",
+     "receipt_type": "total non-debt receipts"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 70,
+    "quote": "targeting a GFD of 4.4 per cent of GDP (Table II.6.1 and Appendix Table 6).",
+    "kind": "numeric",
+    "metric": "gross fiscal deficit (GFD) target as per cent of GDP",
+    "subject": "Union Budget",
+    "value_raw": "4.4",
+    "unit_raw": "per cent",
+    "period_raw": "2025-26 (BE)",
+    "qualifiers": {
+     "level": "Union government",
+     "measure": "gross fiscal deficit target",
+     "denominator": "GDP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 70,
+    "quote": "moderation in the revenue expenditure to 11.0 per cent of GDP in 2025-26 (BE) from 11.2 per cent in the previous year.",
+    "kind": "numeric",
+    "metric": "revenue expenditure as per cent of GDP",
+    "subject": "Union government",
+    "value_raw": "11.0",
+    "unit_raw": "per cent",
+    "period_raw": "2025-26 (BE)",
+    "qualifiers": {
+     "level": "Union government",
+     "expense_type": "revenue expenditure",
+     "denominator": "GDP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 70,
+    "quote": "moderation in the revenue expenditure to 11.0 per cent of GDP in 2025-26 (BE) from 11.2 per cent in the previous year.",
+    "kind": "numeric",
+    "metric": "revenue expenditure as per cent of GDP",
+    "subject": "Union government",
+    "value_raw": "11.2",
+    "unit_raw": "per cent",
+    "period_raw": "previous year",
+    "qualifiers": {
+     "level": "Union government",
+     "expense_type": "revenue expenditure",
+     "denominator": "GDP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 70,
+    "quote": "interest payments are expected to rise by 12.2 per cent.",
+    "kind": "numeric",
+    "metric": "expected rise in interest payments",
+    "subject": "Union government",
+    "value_raw": "12.2",
+    "unit_raw": "per cent",
+    "period_raw": "2025-26 (BE)",
+    "qualifiers": {
+     "expense_type": "interest payments"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 71,
+    "quote": "Capital expenditure is budgeted to grow by 10.1 per cent and is estimated at 3.1 per cent of GDP in 2025-26 (BE).",
+    "kind": "numeric",
+    "metric": "capital expenditure growth",
+    "subject": "Union government",
+    "value_raw": "10.1",
+    "unit_raw": "per cent",
+    "period_raw": "2025-26 (BE)",
+    "qualifiers": {
+     "expense_type": "capital expenditure"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 71,
+    "quote": "Capital expenditure is budgeted to grow by 10.1 per cent and is estimated at 3.1 per cent of GDP in 2025-26 (BE).",
+    "kind": "numeric",
+    "metric": "capital expenditure as per cent of GDP",
+    "subject": "Union government",
+    "value_raw": "3.1",
+    "unit_raw": "per cent",
+    "period_raw": "2025-26 (BE)",
+    "qualifiers": {
+     "expense_type": "capital expenditure",
+     "denominator": "GDP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 71,
+    "quote": "the effective capital expenditure would be 4.3 per cent of GDP as compared with 4.0 per cent in the previous year.",
+    "kind": "numeric",
+    "metric": "effective capital expenditure as per cent of GDP",
+    "subject": "Union government",
+    "value_raw": "4.3",
+    "unit_raw": "per cent",
+    "period_raw": "2025-26 (BE)",
+    "qualifiers": {
+     "expense_type": "effective capital expenditure",
+     "denominator": "GDP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 71,
+    "quote": "the effective capital expenditure would be 4.3 per cent of GDP as compared with 4.0 per cent in the previous year.",
+    "kind": "numeric",
+    "metric": "effective capital expenditure as per cent of GDP",
+    "subject": "Union government",
+    "value_raw": "4.0",
+    "unit_raw": "per cent",
+    "period_raw": "previous year",
+    "qualifiers": {
+     "expense_type": "effective capital expenditure",
+     "denominator": "GDP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 71,
+    "quote": "The ratio of revenue expenditure to capital outlay (RECO) continues to remain low at 4.4",
+    "kind": "numeric",
+    "metric": "ratio of revenue expenditure to capital outlay (RECO)",
+    "subject": "Union government",
+    "value_raw": "4.4",
+    "unit_raw": null,
+    "period_raw": "2025-26 (BE)",
+    "qualifiers": {
+     "measure": "RECO"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 71,
+    "quote": "The buoyancy of gross tax revenue is budgeted at 1.1 in 2025-26 (BE), with direct taxes at 1.2 [1.5 in 2024-25 (RE)] and indirect taxes at 0.8 [0.7 in 2024-25 (RE)].",
+    "kind": "numeric",
+    "metric": "gross tax revenue buoyancy",
+    "subject": "Union government",
+    "value_raw": "1.1",
+    "unit_raw": null,
+    "period_raw": "2025-26 (BE)",
+    "qualifiers": {
+     "tax_type": "gross tax revenue"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 73,
+    "quote": "In 2024-25 (BE), the GFD of the general government moderated to 7.6 per cent of GDP from 8.8 per cent in 2023-24 (RE).",
+    "kind": "numeric",
+    "metric": "gross fiscal deficit (GFD) as per cent of GDP",
+    "subject": "general government",
+    "value_raw": "7.6",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25 (BE)",
+    "qualifiers": {
+     "level": "general government",
+     "measure": "gross fiscal deficit",
+     "denominator": "GDP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 73,
+    "quote": "In 2024-25 (BE), the GFD of the general government moderated to 7.6 per cent of GDP from 8.8 per cent in 2023-24 (RE).",
+    "kind": "numeric",
+    "metric": "gross fiscal deficit (GFD) as per cent of GDP",
+    "subject": "general government",
+    "value_raw": "8.8",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24 (RE)",
+    "qualifiers": {
+     "level": "general government",
+     "measure": "gross fiscal deficit",
+     "denominator": "GDP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 73,
+    "quote": "General government debt stood at 81.9 per cent of GDP in 2024-25 (BE) as compared to 81.8 per cent in 2023-24 (RE).",
+    "kind": "numeric",
+    "metric": "general government debt as per cent of GDP",
+    "subject": "general government",
+    "value_raw": "81.9",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25 (BE)",
+    "qualifiers": {
+     "level": "general government",
+     "measure": "debt",
+     "denominator": "GDP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 73,
+    "quote": "External liabilities of the Centre remained low at 2.5 per cent of GDP",
+    "kind": "numeric",
+    "metric": "external liabilities as per cent of GDP",
+    "subject": "Centre",
+    "value_raw": "2.5",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25 (BE)",
+    "qualifiers": {
+     "level": "Centre",
+     "measure": "external liabilities",
+     "denominator": "GDP"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 75,
+    "quote": "world trade volume (goods and services) growth recovered from 1.0 per cent in 2023 to 3.8 per cent in 2024",
+    "kind": "numeric",
+    "metric": "world trade volume (goods and services) growth",
+    "subject": "world",
+    "value_raw": "1.0",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {
+     "measure": "world trade volume growth",
+     "component": "goods and services"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 75,
+    "quote": "world trade volume (goods and services) growth recovered from 1.0 per cent in 2023 to 3.8 per cent in 2024",
+    "kind": "numeric",
+    "metric": "world trade volume (goods and services) growth",
+    "subject": "world",
+    "value_raw": "3.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {
+     "measure": "world trade volume growth",
+     "component": "goods and services"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 75,
+    "quote": "Emerging market economies (EMEs) recorded net portfolio inflows of US$ 255.7 billion during 2024-25 as compared with US$ 220.1 billion during 2023-24",
+    "kind": "numeric",
+    "metric": "net portfolio inflows",
+    "subject": "Emerging market economies (EMEs)",
+    "value_raw": "255.7",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "geography": "Emerging market economies (EMEs)",
+     "flow_type": "net portfolio inflows"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 75,
+    "quote": "Emerging market economies (EMEs) recorded net portfolio inflows of US$ 255.7 billion during 2024-25 as compared with US$ 220.1 billion during 2023-24",
+    "kind": "numeric",
+    "metric": "net portfolio inflows",
+    "subject": "Emerging market economies (EMEs)",
+    "value_raw": "220.1",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "geography": "Emerging market economies (EMEs)",
+     "flow_type": "net portfolio inflows"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 65,\n      \"quote\": \"touching a new high of 85,836 on September 26, 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"BSE Sensex peak level\",\n      \"subject\": \"BSE Sensex\",\n      \"value_raw\": \"85,836\",\n      \"unit_raw\": null,\n      \"period_raw\": \"September 26, 2024\",\n      \"qualifiers\": {\n        \"index\": \"BSE Sensex\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 65,\n      \"quote\": \"The broader market indices, viz., the BSE MidCap and BSE SmallCap, increased by 5.6 per cent and 8 per cent, respectively\",\n      \"kind\": \"numeric\",\n      \"metric\": \"percentage increase of BSE MidCap index\",\n      \"subject\": \"BSE MidCap\",\n      \"value_raw\": \"5.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"index\": \"BSE MidCap\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 65,\n      \"quote\": \"The broader market indices, viz., the BSE MidCap and BSE SmallCap, increased by 5.6 per cent and 8 per cent, respectively\",\n      \"kind\": \"numeric\",\n      \"metric\": \"percentage increase of BSE SmallCap index\",\n      \"subject\": \"BSE SmallCap\",\n      \"value_raw\": \"8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"index\": \"BSE SmallCap\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 65,\n      \"quote\": \"FPIs made net sales of ₹1.4 lakh crore in the domestic equity market during 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net sales in the domestic equity market\",\n      \"subject\": \"Foreign Portfolio Investors (FPIs)\",\n      \"value_raw\": \"1.4\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"market\": \"domestic equity market\",\n        \"flow_type\": \"net sales\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"as against net purchases of ₹2.1 lakh crore in the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net purchases in the domestic equity market\",\n      \"subject\": \"Foreign Portfolio Investors (FPIs)\",\n      \"value_raw\": \"2.1\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"previous year\",\n      \"qualifiers\": {\n        \"market\": \"domestic equity market\",\n        \"flow_type\": \"net purchases\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"Mutual funds made net purchases of ₹4.7 lakh crore in 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net purchases\",\n      \"subject\": \"Mutual funds\",\n      \"value_raw\": \"4.7\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"flow_type\": \"net purchases\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"as against ₹2.0 lakh crore in the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net purchases\",\n      \"subject\": \"Mutual funds\",\n      \"value_raw\": \"2.0\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"previous year\",\n      \"qualifiers\": {\n        \"flow_type\": \"net purchases\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"resource mobilisation through preferential allotments and qualified institutional placements (QIPs) rose to ₹2.2 lakh crore during 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"primary segment resource mobilisation through preferential allotments and QIPs\",\n      \"subject\": \"equity market primary segment\",\n      \"value_raw\": \"2.2\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"segment\": \"preferential allotments and qualified institutional placements (QIPs)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"from ₹1.1 lakh crore during the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"primary segment resource mobilisation through preferential allotments and QIPs\",\n      \"subject\": \"equity market primary segment\",\n      \"value_raw\": \"1.1\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"previous year\",\n      \"qualifiers\": {\n        \"segment\": \"preferential allotments and qualified institutional placements (QIPs)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"Resource mobilisation through initial public offerings (IPOs), follow-on public offers (FPOs) and rights issues also increased to ₹2.1 lakh crore\",\n      \"kind\": \"numeric\",\n      \"metric\": \"primary segment resource mobilisation through IPOs, FPOs and rights issues\",\n      \"subject\": \"equity market primary segment\",\n      \"value_raw\": \"2.1\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"segment\": \"IPOs, FPOs and rights issues\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"from ₹0.8 lakh crore during the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"primary segment resource mobilisation through IPOs, FPOs and rights issues\",\n      \"subject\": \"equity market primary segment\",\n      \"value_raw\": \"0.8\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"previous year\",\n      \"qualifiers\": {\n        \"segment\": \"IPOs, FPOs and rights issues\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"raising ₹9,961 crore during 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"resource mobilisation by small and medium enterprises (SMEs)\",\n      \"subject\": \"small and medium enterprises (SMEs)\",\n      \"value_raw\": \"9,961\",\n      \"unit_raw\": \"crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"segment\": \"SME issuances\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"as compared to mobilisation of ₹6,122 crore in the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"resource mobilisation by small and medium enterprises (SMEs)\",\n      \"subject\": \"small and medium enterprises (SMEs)\",\n      \"value_raw\": \"6,122\",\n      \"unit_raw\": \"crore\",\n      \"period_raw\": \"previous year\",\n      \"qualifiers\": {\n        \"segment\": \"SME issuances\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"Net resources mobilised by mutual funds increased to ₹8.2 lakh crore during 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net resources mobilised by mutual funds\",\n      \"subject\": \"mutual funds\",\n      \"value_raw\": \"8.2\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"resource_type\": \"net resources\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"Overall, the INR closed at ₹85.46 per US dollar on March 28, 2025, 0.2 per cent higher from its level at end-December 2024.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"INR exchange rate against US dollar\",\n      \"subject\": \"INR\",\n      \"value_raw\": \"85.46\",\n      \"unit_raw\": \"per US dollar\",\n      \"period_raw\": \"March 28, 2025\",\n      \"qualifiers\": {\n        \"currency\": \"INR\",\n        \"pegged_to\": \"US dollar\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"The 40-currency nominal effective exchange rate (NEER) and real effective exchange rate (REER) appreciated (y-o-y) by 0.3 per cent and 1.5 per cent, respectively, during 2024-25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"nominal effective exchange rate (NEER) appreciation\",\n      \"subject\": \"40-currency nominal effective exchange rate (NEER)\",\n      \"value_raw\": \"0.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"basis\": \"y-o-y\",\n        \"basket\": \"40-currency\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"The 40-currency nominal effective exchange rate (NEER) and real effective exchange rate (REER) appreciated (y-o-y) by 0.3 per cent and 1.5 per cent, respectively, during 2024-25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real effective exchange rate (REER) appreciation\",\n      \"subject\": \"real effective exchange rate (REER)\",\n      \"value_raw\": \"1.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"basis\": \"y-o-y\",\n        \"basket\": \"40-currency\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 68,\n      \"quote\": \"During 2024-25 (RE), the Union government contained the gross fiscal deficit (GFD) to 4.7 per cent of GDP\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross fiscal deficit (GFD) as per cent of GDP\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"4.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25 (RE)\",\n      \"qualifiers\": {\n        \"level\": \"Union government\",\n        \"measure\": \"gross fiscal deficit\",\n        \"denominator\": \"GDP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 68,\n      \"quote\": \"Revenue expenditure rose by 5.8 per cent in 2024-25 (RE)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"revenue expenditure growth\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"5.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25 (RE)\",\n      \"qualifiers\": {\n        \"level\": \"Union government\",\n        \"expense_type\": \"revenue expenditure\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 68,\n      \"quote\": \"The expenditure on pensions and retirement benefits increased to 0.83 per cent of GDP in 2024-25 (RE) from 0.79 per cent in\",\n      \"kind\": \"numeric\",\n      \"metric\": \"expenditure on pensions and retirement benefits as per cent of GDP\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"0.83\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25 (RE)\",\n      \"qualifiers\": {\n        \"level\": \"Union government\",\n        \"expense_type\": \"pensions and retirement benefits\",\n        \"denominator\": \"GDP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 68,\n      \"quote\": \"from 0.79 per cent in\",\n      \"kind\": \"numeric\",\n      \"metric\": \"expenditure on pensions and retirement benefits as per cent of GDP\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"0.79\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"previous year\",\n      \"qualifiers\": {\n        \"level\": \"Union government\",\n        \"expense_type\": \"pensions and retirement benefits\",\n        \"denominator\": \"GDP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 70,\n      \"quote\": \"Net tax revenue to the Centre grew by 9.9 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net tax revenue growth\",\n      \"subject\": \"Centre\",\n      \"value_raw\": \"9.9\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25 (RE)\",\n      \"qualifiers\": {\n        \"level\": \"Centre\",\n        \"revenue_type\": \"net tax revenue\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 70,\n      \"quote\": \"the non-tax revenue grew by 32.2 per cent in 2024-25 (RE) over 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"non-tax revenue growth\",\n      \"subject\": \"Centre\",\n      \"value_raw\": \"32.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25 (RE) over 2023-24\",\n      \"qualifiers\": {\n        \"level\": \"Centre\",\n        \"revenue_type\": \"non-tax revenue\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 70,\n      \"quote\": \"Total non-debt receipts of the Centre recorded a healthy growth of 12.8 per cent, on top of 13.6 per cent growth attained in 2023-24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"total non-debt receipts growth\",\n      \"subject\": \"Centre\",\n      \"value_raw\": \"12.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25 (RE)\",\n      \"qualifiers\": {\n        \"level\": \"Centre\",\n        \"receipt_type\": \"total non-debt receipts\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 70,\n      \"quote\": \"Total non-debt receipts of the Centre recorded a healthy growth of 12.8 per cent, on top of 13.6 per cent growth attained in 2023-24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"total non-debt receipts growth\",\n      \"subject\": \"Centre\",\n      \"value_raw\": \"13.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"level\": \"Centre\",\n        \"receipt_type\": \"total non-debt receipts\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 70,\n      \"quote\": \"targeting a GFD of 4.4 per cent of GDP (Table II.6.1 and Appendix Table 6).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross fiscal deficit (GFD) target as per cent of GDP\",\n      \"subject\": \"Union Budget\",\n      \"value_raw\": \"4.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025-26 (BE)\",\n      \"qualifiers\": {\n        \"level\": \"Union government\",\n        \"measure\": \"gross fiscal deficit target\",\n        \"denominator\": \"GDP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 70,\n      \"quote\": \"moderation in the revenue expenditure to 11.0 per cent of GDP in 2025-26 (BE) from 11.2 per cent in the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"revenue expenditure as per cent of GDP\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"11.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025-26 (BE)\",\n      \"qualifiers\": {\n        \"level\": \"Union government\",\n        \"expense_type\": \"revenue expenditure\",\n        \"denominator\": \"GDP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 70,\n      \"quote\": \"moderation in the revenue expenditure to 11.0 per cent of GDP in 2025-26 (BE) from 11.2 per cent in the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"revenue expenditure as per cent of GDP\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"11.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"previous year\",\n      \"qualifiers\": {\n        \"level\": \"Union government\",\n        \"expense_type\": \"revenue expenditure\",\n        \"denominator\": \"GDP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 70,\n      \"quote\": \"interest payments are expected to rise by 12.2 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"expected rise in interest payments\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"12.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025-26 (BE)\",\n      \"qualifiers\": {\n        \"expense_type\": \"interest payments\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 71,\n      \"quote\": \"Capital expenditure is budgeted to grow by 10.1 per cent and is estimated at 3.1 per cent of GDP in 2025-26 (BE).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"capital expenditure growth\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"10.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025-26 (BE)\",\n      \"qualifiers\": {\n        \"expense_type\": \"capital expenditure\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 71,\n      \"quote\": \"Capital expenditure is budgeted to grow by 10.1 per cent and is estimated at 3.1 per cent of GDP in 2025-26 (BE).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"capital expenditure as per cent of GDP\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"3.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025-26 (BE)\",\n      \"qualifiers\": {\n        \"expense_type\": \"capital expenditure\",\n        \"denominator\": \"GDP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 71,\n      \"quote\": \"the effective capital expenditure would be 4.3 per cent of GDP as compared with 4.0 per cent in the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"effective capital expenditure as per cent of GDP\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"4.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025-26 (BE)\",\n      \"qualifiers\": {\n        \"expense_type\": \"effective capital expenditure\",\n        \"denominator\": \"GDP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 71,\n      \"quote\": \"the effective capital expenditure would be 4.3 per cent of GDP as compared with 4.0 per cent in the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"effective capital expenditure as per cent of GDP\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"4.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"previous year\",\n      \"qualifiers\": {\n        \"expense_type\": \"effective capital expenditure\",\n        \"denominator\": \"GDP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 71,\n      \"quote\": \"The ratio of revenue expenditure to capital outlay (RECO) continues to remain low at 4.4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"ratio of revenue expenditure to capital outlay (RECO)\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"4.4\",\n      \"unit_raw\": null,\n      \"period_raw\": \"2025-26 (BE)\",\n      \"qualifiers\": {\n        \"measure\": \"RECO\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 71,\n      \"quote\": \"The buoyancy of gross tax revenue is budgeted at 1.1 in 2025-26 (BE), with direct taxes at 1.2 [1.5 in 2024-25 (RE)] and indirect taxes at 0.8 [0.7 in 2024-25 (RE)].\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross tax revenue buoyancy\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"1.1\",\n      \"unit_raw\": null,\n      \"period_raw\": \"2025-26 (BE)\",\n      \"qualifiers\": {\n        \"tax_type\": \"gross tax revenue\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 73,\n      \"quote\": \"In 2024-25 (BE), the GFD of the general government moderated to 7.6 per cent of GDP from 8.8 per cent in 2023-24 (RE).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross fiscal deficit (GFD) as per cent of GDP\",\n      \"subject\": \"general government\",\n      \"value_raw\": \"7.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25 (BE)\",\n      \"qualifiers\": {\n        \"level\": \"general government\",\n        \"measure\": \"gross fiscal deficit\",\n        \"denominator\": \"GDP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 73,\n      \"quote\": \"In 2024-25 (BE), the GFD of the general government moderated to 7.6 per cent of GDP from 8.8 per cent in 2023-24 (RE).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross fiscal deficit (GFD) as per cent of GDP\",\n      \"subject\": \"general government\",\n      \"value_raw\": \"8.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24 (RE)\",\n      \"qualifiers\": {\n        \"level\": \"general government\",\n        \"measure\": \"gross fiscal deficit\",\n        \"denominator\": \"GDP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 73,\n      \"quote\": \"General government debt stood at 81.9 per cent of GDP in 2024-25 (BE) as compared to 81.8 per cent in 2023-24 (RE).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"general government debt as per cent of GDP\",\n      \"subject\": \"general government\",\n      \"value_raw\": \"81.9\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25 (BE)\",\n      \"qualifiers\": {\n        \"level\": \"general government\",\n        \"measure\": \"debt\",\n        \"denominator\": \"GDP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 73,\n      \"quote\": \"External liabilities of the Centre remained low at 2.5 per cent of GDP\",\n      \"kind\": \"numeric\",\n      \"metric\": \"external liabilities as per cent of GDP\",\n      \"subject\": \"Centre\",\n      \"value_raw\": \"2.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25 (BE)\",\n      \"qualifiers\": {\n        \"level\": \"Centre\",\n        \"measure\": \"external liabilities\",\n        \"denominator\": \"GDP\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 75,\n      \"quote\": \"world trade volume (goods and services) growth recovered from 1.0 per cent in 2023 to 3.8 per cent in 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"world trade volume (goods and services) growth\",\n      \"subject\": \"world\",\n      \"value_raw\": \"1.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {\n        \"measure\": \"world trade volume growth\",\n        \"component\": \"goods and services\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 75,\n      \"quote\": \"world trade volume (goods and services) growth recovered from 1.0 per cent in 2023 to 3.8 per cent in 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"world trade volume (goods and services) growth\",\n      \"subject\": \"world\",\n      \"value",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-rbi-annual-report-2024-25-excerpt-73209a2c:b65"
+}

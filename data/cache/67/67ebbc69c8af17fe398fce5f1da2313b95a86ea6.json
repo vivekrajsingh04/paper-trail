@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "B",
+  "reason": "Metric A measures historical or realized economic growth, whereas Metric B explicitly measures projected or forecasted growth, which refers to a different temporal and epistemological category."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Metric A measures historical or realized economic growth, whereas Metric B explicitly measures projected or forecasted growth, which refers to a different temporal and epistemological category.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

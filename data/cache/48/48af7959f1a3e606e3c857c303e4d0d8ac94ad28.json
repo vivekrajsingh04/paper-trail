@@ -1,0 +1,18 @@
+{
+ "data": {
+  "title": "Earnings Presentation Q4 & FY24",
+  "publisher": "Delhivery Limited",
+  "doc_type": "earnings presentation",
+  "primary_entity": "Delhivery Limited",
+  "published": "2024-05-17",
+  "as_of": "quarter and financial year ended March 31, 2024",
+  "default_qualifiers": {
+   "basis": "audited standalone and consolidated financial results"
+  },
+  "notes": "Includes both standalone and consolidated financial results; figures may be forward-looking."
+ },
+ "raw": "{\n  \"title\": \"Earnings Presentation Q4 & FY24\",\n  \"publisher\": \"Delhivery Limited\",\n  \"doc_type\": \"earnings presentation\",\n  \"primary_entity\": \"Delhivery Limited\",\n  \"published\": \"2024-05-17\",\n  \"as_of\": \"quarter and financial year ended March 31, 2024\",\n  \"default_qualifiers\": {\n    \"basis\": \"audited standalone and consolidated financial results\"\n  },\n  \"notes\": \"Includes both standalone and consolidated financial results; figures may be forward-looking.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "profile:03-delhivery-q4-fy24-earnings-presentation-5ca30708"
+}

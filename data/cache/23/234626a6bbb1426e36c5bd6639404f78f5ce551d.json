@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Capital expenditure growth measures the annual percentage increase in capital expenditure, whereas capital expenditure as a percentage of GDP measures the ratio of capital expenditure to the gross domestic product."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Capital expenditure growth measures the annual percentage increase in capital expenditure, whereas capital expenditure as a percentage of GDP measures the ratio of capital expenditure to the gross domestic product.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

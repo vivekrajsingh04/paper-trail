@@ -1,0 +1,546 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 19,
+    "quote": "India’s GDP at constant (2011-12) prices grew by 6.7 per cent and 5.4 per cent in Q1 and Q2 FY25, respectively.",
+    "kind": "numeric",
+    "metric": "GDP growth at constant (2011-12) prices",
+    "subject": "India",
+    "value_raw": "6.7",
+    "unit_raw": "per cent",
+    "period_raw": "Q1 FY25",
+    "qualifiers": {
+     "price_base": "constant (2011-12) prices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 19,
+    "quote": "India’s GDP at constant (2011-12) prices grew by 6.7 per cent and 5.4 per cent in Q1 and Q2 FY25, respectively.",
+    "kind": "numeric",
+    "metric": "GDP growth at constant (2011-12) prices",
+    "subject": "India",
+    "value_raw": "5.4",
+    "unit_raw": "per cent",
+    "period_raw": "Q2 FY25",
+    "qualifiers": {
+     "price_base": "constant (2011-12) prices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 19,
+    "quote": "This implied a real GDP growth of 6.0 per cent in the first half of the current fiscal.",
+    "kind": "numeric",
+    "metric": "real GDP growth",
+    "subject": "India",
+    "value_raw": "6.0",
+    "unit_raw": "per cent",
+    "period_raw": "first half of FY25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 19,
+    "quote": "Private Final Consumption Expenditure (PFCE) firmed up in H1 FY25, growing by 6.7 per cent YoY.",
+    "kind": "numeric",
+    "metric": "Private Final Consumption Expenditure (PFCE) growth YoY",
+    "subject": "India",
+    "value_raw": "6.7",
+    "unit_raw": "per cent",
+    "period_raw": "H1 FY25",
+    "qualifiers": {
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 19,
+    "quote": "78.5 per cent of rural households reported an increase in their consumption expenditure during the last year.",
+    "kind": "numeric",
+    "metric": "share of rural households reporting an increase in consumption expenditure",
+    "subject": "rural households",
+    "value_raw": "78.5",
+    "unit_raw": "per cent",
+    "period_raw": "last year",
+    "qualifiers": {
+     "survey": "NABARD Rural Economic Conditions and Sentiments Survey",
+     "survey_round": "January 2025"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 20,
+    "quote": "passenger vehicle sales has slowed to 4.2 per YoY cent in April – November 2024",
+    "kind": "numeric",
+    "metric": "passenger vehicle sales growth YoY",
+    "subject": "passenger vehicles",
+    "value_raw": "4.2",
+    "unit_raw": "per cent",
+    "period_raw": "April - November 2024",
+    "qualifiers": {
+     "source": "Federation of Automobile Dealers Associations (FADA)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 20,
+    "quote": "compared to 9.2 per cent in the corresponding period of the previous year.",
+    "kind": "numeric",
+    "metric": "passenger vehicle sales growth YoY",
+    "subject": "passenger vehicles",
+    "value_raw": "9.2",
+    "unit_raw": "per cent",
+    "period_raw": "April - November 2023",
+    "qualifiers": {
+     "source": "Federation of Automobile Dealers Associations (FADA)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 20,
+    "quote": "steady growth of 7.7 per cent YoY in air passenger traffic in April – November 2024.",
+    "kind": "numeric",
+    "metric": "air passenger traffic growth YoY",
+    "subject": "air passenger traffic",
+    "value_raw": "7.7",
+    "unit_raw": "per cent",
+    "period_raw": "April - November 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 20,
+    "quote": "The 7.3 per cent YoY growth indicated by the First Advance Estimates for PFCE at constant prices for FY25",
+    "kind": "numeric",
+    "metric": "Private Final Consumption Expenditure (PFCE) growth YoY",
+    "subject": "India",
+    "value_raw": "7.3",
+    "unit_raw": "per cent",
+    "period_raw": "FY25",
+    "qualifiers": {
+     "estimate_type": "First Advance Estimates",
+     "price_base": "constant prices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 20,
+    "quote": "softening of growth in Gross Fixed Capital Formation (GFCF) from 10.1 per cent in H1 FY24 to 6.4 per cent in H1 FY25.",
+    "kind": "numeric",
+    "metric": "Gross Fixed Capital Formation (GFCF) growth",
+    "subject": "India",
+    "value_raw": "10.1",
+    "unit_raw": "per cent",
+    "period_raw": "H1 FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 20,
+    "quote": "softening of growth in Gross Fixed Capital Formation (GFCF) from 10.1 per cent in H1 FY24 to 6.4 per cent in H1 FY25.",
+    "kind": "numeric",
+    "metric": "Gross Fixed Capital Formation (GFCF) growth",
+    "subject": "India",
+    "value_raw": "6.4",
+    "unit_raw": "per cent",
+    "period_raw": "H1 FY25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 21,
+    "quote": "Union government capex is up 8.2 per cent in July – November 2024",
+    "kind": "numeric",
+    "metric": "Union government capex growth",
+    "subject": "Union government",
+    "value_raw": "8.2",
+    "unit_raw": "per cent",
+    "period_raw": "July - November 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 21,
+    "quote": "seasonally adjusted capacity utilisation (CU) in manufacturing firms was 74.7 per cent in Q2 FY25",
+    "kind": "numeric",
+    "metric": "seasonally adjusted capacity utilisation (CU)",
+    "subject": "manufacturing firms",
+    "value_raw": "74.7",
+    "unit_raw": "per cent",
+    "period_raw": "Q2 FY25",
+    "qualifiers": {
+     "survey": "RBI Order Books, Inventory, and Capacity Utilisation Survey (OBICUS)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 21,
+    "quote": "above the long-term average of 73.8 per cent.",
+    "kind": "numeric",
+    "metric": "seasonally adjusted capacity utilisation (CU) long-term average",
+    "subject": "manufacturing firms",
+    "value_raw": "73.8",
+    "unit_raw": "per cent",
+    "period_raw": "long-term",
+    "qualifiers": {
+     "survey": "RBI Order Books, Inventory, and Capacity Utilisation Survey (OBICUS)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "Retail headline inflation, as measured by the change in the Consumer Price Index (CPI), has softened from 5.4 per cent in FY24 to 4.9 per cent in April – December 2024.",
+    "kind": "numeric",
+    "metric": "retail headline inflation (CPI change)",
+    "subject": "India",
+    "value_raw": "5.4",
+    "unit_raw": "per cent",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "measure": "Consumer Price Index (CPI)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "Retail headline inflation, as measured by the change in the Consumer Price Index (CPI), has softened from 5.4 per cent in FY24 to 4.9 per cent in April – December 2024.",
+    "kind": "numeric",
+    "metric": "retail headline inflation (CPI change)",
+    "subject": "India",
+    "value_raw": "4.9",
+    "unit_raw": "per cent",
+    "period_raw": "April - December 2024",
+    "qualifiers": {
+     "measure": "Consumer Price Index (CPI)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "The decline is attributed to a 0.9 percentage point reduction in core (non-food, non-fuel) inflation between FY24 and April – December 2024.",
+    "kind": "numeric",
+    "metric": "core (non-food, non-fuel) inflation reduction",
+    "subject": "India",
+    "value_raw": "0.9",
+    "unit_raw": "percentage point",
+    "period_raw": "between FY24 and April - December 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "Food inflation, measured by the Consumer Food Price Index (CFPI), has increased from 7.5 per cent in FY24 to 8.4 per cent in FY25 (April-December),",
+    "kind": "numeric",
+    "metric": "food inflation (CFPI)",
+    "subject": "India",
+    "value_raw": "7.5",
+    "unit_raw": "per cent",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "measure": "Consumer Food Price Index (CFPI)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "Food inflation, measured by the Consumer Food Price Index (CFPI), has increased from 7.5 per cent in FY24 to 8.4 per cent in FY25 (April-December),",
+    "kind": "numeric",
+    "metric": "food inflation (CFPI)",
+    "subject": "India",
+    "value_raw": "8.4",
+    "unit_raw": "per cent",
+    "period_raw": "FY25 (April-December)",
+    "qualifiers": {
+     "measure": "Consumer Food Price Index (CFPI)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "These commodities together constitute 2.2 per cent of the CPI basket.",
+    "kind": "numeric",
+    "metric": "share of TOP commodities in CPI basket",
+    "subject": "tomato, onion and potato",
+    "value_raw": "2.2",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {
+     "commodities": "tomato, onion and potato"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 28,
+    "quote": "Data on merchandise trade shows that India’s merchandise exports grew by 1.6 per cent YoY in April – December 2024.",
+    "kind": "numeric",
+    "metric": "merchandise exports growth YoY",
+    "subject": "India",
+    "value_raw": "1.6",
+    "unit_raw": "per cent",
+    "period_raw": "April - December 2024",
+    "qualifiers": {
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 28,
+    "quote": "However, non-petroleum exports (on the same comparison basis) were up by 7.1 per cent.",
+    "kind": "numeric",
+    "metric": "non-petroleum exports growth YoY",
+    "subject": "India",
+    "value_raw": "7.1",
+    "unit_raw": "per cent",
+    "period_raw": "April - December 2024",
+    "qualifiers": {
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 28,
+    "quote": "Non-petroleum and non-gems and jewellery exports rose by 9.1 per cent.",
+    "kind": "numeric",
+    "metric": "non-petroleum and non-gems and jewellery exports growth YoY",
+    "subject": "India",
+    "value_raw": "9.1",
+    "unit_raw": "per cent",
+    "period_raw": "April - December 2024",
+    "qualifiers": {
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 28,
+    "quote": "Merchandise imports rose by 5.2 per cent.",
+    "kind": "numeric",
+    "metric": "merchandise imports growth YoY",
+    "subject": "India",
+    "value_raw": "5.2",
+    "unit_raw": "per cent",
+    "period_raw": "April - December 2024",
+    "qualifiers": {
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 30,
+    "quote": "Net FPI inflows slowed to USD 10.6 billion in April – December 2024 from USD 31.7 billion during the same period the previous year.",
+    "kind": "numeric",
+    "metric": "Net FPI inflows",
+    "subject": "India",
+    "value_raw": "10.6",
+    "unit_raw": "USD billion",
+    "period_raw": "April - December 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 30,
+    "quote": "Net FPI inflows slowed to USD 10.6 billion in April – December 2024 from USD 31.7 billion during the same period the previous year.",
+    "kind": "numeric",
+    "metric": "Net FPI inflows",
+    "subject": "India",
+    "value_raw": "31.7",
+    "unit_raw": "USD billion",
+    "period_raw": "April - December 2023",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 30,
+    "quote": "India’s foreign exchange reserves increased from USD 616.7 billion at the end of January 2024 to USD 704.9 billion in September 2024 before moderating to USD 634.6 billion as on 3 January 2025.",
+    "kind": "numeric",
+    "metric": "foreign exchange reserves",
+    "subject": "India",
+    "value_raw": "616.7",
+    "unit_raw": "USD billion",
+    "period_raw": "end of January 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 30,
+    "quote": "India’s foreign exchange reserves increased from USD 616.7 billion at the end of January 2024 to USD 704.9 billion in September 2024 before moderating to USD 634.6 billion as on 3 January 2025.",
+    "kind": "numeric",
+    "metric": "foreign exchange reserves",
+    "subject": "India",
+    "value_raw": "704.9",
+    "unit_raw": "USD billion",
+    "period_raw": "September 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 30,
+    "quote": "India’s foreign exchange reserves increased from USD 616.7 billion at the end of January 2024 to USD 704.9 billion in September 2024 before moderating to USD 634.6 billion as on 3 January 2025.",
+    "kind": "numeric",
+    "metric": "foreign exchange reserves",
+    "subject": "India",
+    "value_raw": "634.6",
+    "unit_raw": "USD billion",
+    "period_raw": "3 January 2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 31,
+    "quote": "the gross non-performing assets (NPAs) in the banking system have declined to a 12-year low of 2.6 per cent of gross loans and advances.",
+    "kind": "numeric",
+    "metric": "gross non-performing assets (NPAs) as share of gross loans and advances",
+    "subject": "banking system",
+    "value_raw": "2.6",
+    "unit_raw": "per cent",
+    "period_raw": "December 2024",
+    "qualifiers": {
+     "source": "RBI Financial Stability Report"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 31,
+    "quote": "The capital-to-risk-weighted assets ratio (CRAR) for SCBs stands at 16.7 per cent as of September 2024, well above the norm.",
+    "kind": "numeric",
+    "metric": "capital-to-risk-weighted assets ratio (CRAR)",
+    "subject": "scheduled commercial banks (SCBs)",
+    "value_raw": "16.7",
+    "unit_raw": "per cent",
+    "period_raw": "September 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 31,
+    "quote": "profit after tax (PAT) surging by 22.2 per cent YoY",
+    "kind": "numeric",
+    "metric": "profit after tax (PAT) growth YoY",
+    "subject": "scheduled commercial banks (SCBs)",
+    "value_raw": "22.2",
+    "unit_raw": "per cent",
+    "period_raw": "H1 FY25",
+    "qualifiers": {
+     "comparison": "YoY"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 33,
+    "quote": "the unemployment rate for individuals aged 15 years and above has steadily declined from 6 per cent in 2017-18 to 3.2 per cent in 2023-24.",
+    "kind": "numeric",
+    "metric": "unemployment rate for individuals aged 15 years and above",
+    "subject": "individuals aged 15 years and above",
+    "value_raw": "6",
+    "unit_raw": "per cent",
+    "period_raw": "2017-18",
+    "qualifiers": {
+     "survey": "Periodic Labour Force Survey (PLFS)",
+     "status": "usual status"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 33,
+    "quote": "the unemployment rate for individuals aged 15 years and above has steadily declined from 6 per cent in 2017-18 to 3.2 per cent in 2023-24.",
+    "kind": "numeric",
+    "metric": "unemployment rate for individuals aged 15 years and above",
+    "subject": "individuals aged 15 years and above",
+    "value_raw": "3.2",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "survey": "Periodic Labour Force Survey (PLFS)",
+     "status": "usual status"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 33,
+    "quote": "In Q2 FY25, the urban unemployment rate for people aged 15 years and above improved slightly to 6.4 per cent compared to 6.6 per cent in Q2 FY24.",
+    "kind": "numeric",
+    "metric": "urban unemployment rate for people aged 15 years and above",
+    "subject": "people aged 15 years and above",
+    "value_raw": "6.4",
+    "unit_raw": "per cent",
+    "period_raw": "Q2 FY25",
+    "qualifiers": {
+     "geography": "urban",
+     "status": "usual status"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 33,
+    "quote": "In Q2 FY25, the urban unemployment rate for people aged 15 years and above improved slightly to 6.4 per cent compared to 6.6 per cent in Q2 FY24.",
+    "kind": "numeric",
+    "metric": "urban unemployment rate for people aged 15 years and above",
+    "subject": "people aged 15 years and above",
+    "value_raw": "6.6",
+    "unit_raw": "per cent",
+    "period_raw": "Q2 FY24",
+    "qualifiers": {
+     "geography": "urban",
+     "status": "usual status"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 33,
+    "quote": "net Employees’ Provident Fund Organisation (EPFO) subscriptions more than doubling from 61 lakh in FY19 to 131 lakh in FY24.",
+    "kind": "numeric",
+    "metric": "net Employees’ Provident Fund Organisation (EPFO) subscriptions",
+    "subject": "Employees’ Provident Fund Organisation (EPFO)",
+    "value_raw": "61",
+    "unit_raw": "lakh",
+    "period_raw": "FY19",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 33,
+    "quote": "net Employees’ Provident Fund Organisation (EPFO) subscriptions more than doubling from 61 lakh in FY19 to 131 lakh in FY24.",
+    "kind": "numeric",
+    "metric": "net Employees’ Provident Fund Organisation (EPFO) subscriptions",
+    "subject": "Employees’ Provident Fund Organisation (EPFO)",
+    "value_raw": "131",
+    "unit_raw": "lakh",
+    "period_raw": "FY24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 33,
+    "quote": "In April -November 2024, net additions reached 95.6 lakh, driven largely by youth.",
+    "kind": "numeric",
+    "metric": "net payroll additions to EPFO",
+    "subject": "Employees’ Provident Fund Organisation (EPFO)",
+    "value_raw": "95.6",
+    "unit_raw": "lakh",
+    "period_raw": "April - November 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 33,
+    "quote": "Workers aged 18-25 years contributed to 47 per cent of the net payroll additions.",
+    "kind": "numeric",
+    "metric": "share of net payroll additions contributed by workers aged 18-25 years",
+    "subject": "EPFO net payroll additions",
+    "value_raw": "47",
+    "unit_raw": "per cent",
+    "period_raw": "April - November 2024",
+    "qualifiers": {
+     "age_group": "18-25 years"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 19,\n      \"quote\": \"India’s GDP at constant (2011-12) prices grew by 6.7 per cent and 5.4 per cent in Q1 and Q2 FY25, respectively.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"GDP growth at constant (2011-12) prices\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q1 FY25\",\n      \"qualifiers\": {\n        \"price_base\": \"constant (2011-12) prices\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 19,\n      \"quote\": \"India’s GDP at constant (2011-12) prices grew by 6.7 per cent and 5.4 per cent in Q1 and Q2 FY25, respectively.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"GDP growth at constant (2011-12) prices\",\n      \"subject\": \"India\",\n      \"value_raw\": \"5.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q2 FY25\",\n      \"qualifiers\": {\n        \"price_base\": \"constant (2011-12) prices\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 19,\n      \"quote\": \"This implied a real GDP growth of 6.0 per cent in the first half of the current fiscal.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real GDP growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"first half of FY25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 19,\n      \"quote\": \"Private Final Consumption Expenditure (PFCE) firmed up in H1 FY25, growing by 6.7 per cent YoY.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Private Final Consumption Expenditure (PFCE) growth YoY\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"H1 FY25\",\n      \"qualifiers\": {\n        \"comparison\": \"YoY\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 19,\n      \"quote\": \"78.5 per cent of rural households reported an increase in their consumption expenditure during the last year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of rural households reporting an increase in consumption expenditure\",\n      \"subject\": \"rural households\",\n      \"value_raw\": \"78.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"last year\",\n      \"qualifiers\": {\n        \"survey\": \"NABARD Rural Economic Conditions and Sentiments Survey\",\n        \"survey_round\": \"January 2025\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 20,\n      \"quote\": \"passenger vehicle sales has slowed to 4.2 per YoY cent in April – November 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"passenger vehicle sales growth YoY\",\n      \"subject\": \"passenger vehicles\",\n      \"value_raw\": \"4.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April - November 2024\",\n      \"qualifiers\": {\n        \"source\": \"Federation of Automobile Dealers Associations (FADA)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 20,\n      \"quote\": \"compared to 9.2 per cent in the corresponding period of the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"passenger vehicle sales growth YoY\",\n      \"subject\": \"passenger vehicles\",\n      \"value_raw\": \"9.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April - November 2023\",\n      \"qualifiers\": {\n        \"source\": \"Federation of Automobile Dealers Associations (FADA)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 20,\n      \"quote\": \"steady growth of 7.7 per cent YoY in air passenger traffic in April – November 2024.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"air passenger traffic growth YoY\",\n      \"subject\": \"air passenger traffic\",\n      \"value_raw\": \"7.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April - November 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 20,\n      \"quote\": \"The 7.3 per cent YoY growth indicated by the First Advance Estimates for PFCE at constant prices for FY25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Private Final Consumption Expenditure (PFCE) growth YoY\",\n      \"subject\": \"India\",\n      \"value_raw\": \"7.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"FY25\",\n      \"qualifiers\": {\n        \"estimate_type\": \"First Advance Estimates\",\n        \"price_base\": \"constant prices\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 20,\n      \"quote\": \"softening of growth in Gross Fixed Capital Formation (GFCF) from 10.1 per cent in H1 FY24 to 6.4 per cent in H1 FY25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Gross Fixed Capital Formation (GFCF) growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"10.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"H1 FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 20,\n      \"quote\": \"softening of growth in Gross Fixed Capital Formation (GFCF) from 10.1 per cent in H1 FY24 to 6.4 per cent in H1 FY25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Gross Fixed Capital Formation (GFCF) growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"H1 FY25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 21,\n      \"quote\": \"Union government capex is up 8.2 per cent in July – November 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Union government capex growth\",\n      \"subject\": \"Union government\",\n      \"value_raw\": \"8.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"July - November 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 21,\n      \"quote\": \"seasonally adjusted capacity utilisation (CU) in manufacturing firms was 74.7 per cent in Q2 FY25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"seasonally adjusted capacity utilisation (CU)\",\n      \"subject\": \"manufacturing firms\",\n      \"value_raw\": \"74.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q2 FY25\",\n      \"qualifiers\": {\n        \"survey\": \"RBI Order Books, Inventory, and Capacity Utilisation Survey (OBICUS)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 21,\n      \"quote\": \"above the long-term average of 73.8 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"seasonally adjusted capacity utilisation (CU) long-term average\",\n      \"subject\": \"manufacturing firms\",\n      \"value_raw\": \"73.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"long-term\",\n      \"qualifiers\": {\n        \"survey\": \"RBI Order Books, Inventory, and Capacity Utilisation Survey (OBICUS)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"Retail headline inflation, as measured by the change in the Consumer Price Index (CPI), has softened from 5.4 per cent in FY24 to 4.9 per cent in April – December 2024.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"retail headline inflation (CPI change)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"5.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"measure\": \"Consumer Price Index (CPI)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"Retail headline inflation, as measured by the change in the Consumer Price Index (CPI), has softened from 5.4 per cent in FY24 to 4.9 per cent in April – December 2024.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"retail headline inflation (CPI change)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"4.9\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April - December 2024\",\n      \"qualifiers\": {\n        \"measure\": \"Consumer Price Index (CPI)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"The decline is attributed to a 0.9 percentage point reduction in core (non-food, non-fuel) inflation between FY24 and April – December 2024.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"core (non-food, non-fuel) inflation reduction\",\n      \"subject\": \"India\",\n      \"value_raw\": \"0.9\",\n      \"unit_raw\": \"percentage point\",\n      \"period_raw\": \"between FY24 and April - December 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"Food inflation, measured by the Consumer Food Price Index (CFPI), has increased from 7.5 per cent in FY24 to 8.4 per cent in FY25 (April-December),\",\n      \"kind\": \"numeric\",\n      \"metric\": \"food inflation (CFPI)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"7.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"measure\": \"Consumer Food Price Index (CFPI)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"Food inflation, measured by the Consumer Food Price Index (CFPI), has increased from 7.5 per cent in FY24 to 8.4 per cent in FY25 (April-December),\",\n      \"kind\": \"numeric\",\n      \"metric\": \"food inflation (CFPI)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"8.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"FY25 (April-December)\",\n      \"qualifiers\": {\n        \"measure\": \"Consumer Food Price Index (CFPI)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"These commodities together constitute 2.2 per cent of the CPI basket.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of TOP commodities in CPI basket\",\n      \"subject\": \"tomato, onion and potato\",\n      \"value_raw\": \"2.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"commodities\": \"tomato, onion and potato\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 28,\n      \"quote\": \"Data on merchandise trade shows that India’s merchandise exports grew by 1.6 per cent YoY in April – December 2024.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"merchandise exports growth YoY\",\n      \"subject\": \"India\",\n      \"value_raw\": \"1.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April - December 2024\",\n      \"qualifiers\": {\n        \"comparison\": \"YoY\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 28,\n      \"quote\": \"However, non-petroleum exports (on the same comparison basis) were up by 7.1 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"non-petroleum exports growth YoY\",\n      \"subject\": \"India\",\n      \"value_raw\": \"7.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April - December 2024\",\n      \"qualifiers\": {\n        \"comparison\": \"YoY\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 28,\n      \"quote\": \"Non-petroleum and non-gems and jewellery exports rose by 9.1 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"non-petroleum and non-gems and jewellery exports growth YoY\",\n      \"subject\": \"India\",\n      \"value_raw\": \"9.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April - December 2024\",\n      \"qualifiers\": {\n        \"comparison\": \"YoY\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 28,\n      \"quote\": \"Merchandise imports rose by 5.2 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"merchandise imports growth YoY\",\n      \"subject\": \"India\",\n      \"value_raw\": \"5.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April - December 2024\",\n      \"qualifiers\": {\n        \"comparison\": \"YoY\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 30,\n      \"quote\": \"Net FPI inflows slowed to USD 10.6 billion in April – December 2024 from USD 31.7 billion during the same period the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net FPI inflows\",\n      \"subject\": \"India\",\n      \"value_raw\": \"10.6\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"April - December 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 30,\n      \"quote\": \"Net FPI inflows slowed to USD 10.6 billion in April – December 2024 from USD 31.7 billion during the same period the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net FPI inflows\",\n      \"subject\": \"India\",\n      \"value_raw\": \"31.7\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"April - December 2023\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 30,\n      \"quote\": \"India’s foreign exchange reserves increased from USD 616.7 billion at the end of January 2024 to USD 704.9 billion in September 2024 before moderating to USD 634.6 billion as on 3 January 2025.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"foreign exchange reserves\",\n      \"subject\": \"India\",\n      \"value_raw\": \"616.7\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"end of January 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 30,\n      \"quote\": \"India’s foreign exchange reserves increased from USD 616.7 billion at the end of January 2024 to USD 704.9 billion in September 2024 before moderating to USD 634.6 billion as on 3 January 2025.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"foreign exchange reserves\",\n      \"subject\": \"India\",\n      \"value_raw\": \"704.9\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"September 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 30,\n      \"quote\": \"India’s foreign exchange reserves increased from USD 616.7 billion at the end of January 2024 to USD 704.9 billion in September 2024 before moderating to USD 634.6 billion as on 3 January 2025.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"foreign exchange reserves\",\n      \"subject\": \"India\",\n      \"value_raw\": \"634.6\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"3 January 2025\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 31,\n      \"quote\": \"the gross non-performing assets (NPAs) in the banking system have declined to a 12-year low of 2.6 per cent of gross loans and advances.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross non-performing assets (NPAs) as share of gross loans and advances\",\n      \"subject\": \"banking system\",\n      \"value_raw\": \"2.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"December 2024\",\n      \"qualifiers\": {\n        \"source\": \"RBI Financial Stability Report\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 31,\n      \"quote\": \"The capital-to-risk-weighted assets ratio (CRAR) for SCBs stands at 16.7 per cent as of September 2024, well above the norm.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"capital-to-risk-weighted assets ratio (CRAR)\",\n      \"subject\": \"scheduled commercial banks (SCBs)\",\n      \"value_raw\": \"16.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"September 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 31,\n      \"quote\": \"profit after tax (PAT) surging by 22.2 per cent YoY\",\n      \"kind\": \"numeric\",\n      \"metric\": \"profit after tax (PAT) growth YoY\",\n      \"subject\": \"scheduled commercial banks (SCBs)\",\n      \"value_raw\": \"22.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"H1 FY25\",\n      \"qualifiers\": {\n        \"comparison\": \"YoY\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 33,\n      \"quote\": \"the unemployment rate for individuals aged 15 years and above has steadily declined from 6 per cent in 2017-18 to 3.2 per cent in 2023-24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"unemployment rate for individuals aged 15 years and above\",\n      \"subject\": \"individuals aged 15 years and above\",\n      \"value_raw\": \"6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2017-18\",\n      \"qualifiers\": {\n        \"survey\": \"Periodic Labour Force Survey (PLFS)\",\n        \"status\": \"usual status\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 33,\n      \"quote\": \"the unemployment rate for individuals aged 15 years and above has steadily declined from 6 per cent in 2017-18 to 3.2 per cent in 2023-24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"unemployment rate for individuals aged 15 years and above\",\n      \"subject\": \"individuals aged 15 years and above\",\n      \"value_raw\": \"3.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"survey\": \"Periodic Labour Force Survey (PLFS)\",\n        \"status\": \"usual status\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 33,\n      \"quote\": \"In Q2 FY25, the urban unemployment rate for people aged 15 years and above improved slightly to 6.4 per cent compared to 6.6 per cent in Q2 FY24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"urban unemployment rate for people aged 15 years and above\",\n      \"subject\": \"people aged 15 years and above\",\n      \"value_raw\": \"6.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q2 FY25\",\n      \"qualifiers\": {\n        \"geography\": \"urban\",\n        \"status\": \"usual status\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 33,\n      \"quote\": \"In Q2 FY25, the urban unemployment rate for people aged 15 years and above improved slightly to 6.4 per cent compared to 6.6 per cent in Q2 FY24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"urban unemployment rate for people aged 15 years and above\",\n      \"subject\": \"people aged 15 years and above\",\n      \"value_raw\": \"6.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q2 FY24\",\n      \"qualifiers\": {\n        \"geography\": \"urban\",\n        \"status\": \"usual status\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 33,\n      \"quote\": \"net Employees’ Provident Fund Organisation (EPFO) subscriptions more than doubling from 61 lakh in FY19 to 131 lakh in FY24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net Employees’ Provident Fund Organisation (EPFO) subscriptions\",\n      \"subject\": \"Employees’ Provident Fund Organisation (EPFO)\",\n      \"value_raw\": \"61\",\n      \"unit_raw\": \"lakh\",\n      \"period_raw\": \"FY19\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 33,\n      \"quote\": \"net Employees’ Provident Fund Organisation (EPFO) subscriptions more than doubling from 61 lakh in FY19 to 131 lakh in FY24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net Employees’ Provident Fund Organisation (EPFO) subscriptions\",\n      \"subject\": \"Employees’ Provident Fund Organisation (EPFO)\",\n      \"value_raw\": \"131\",\n      \"unit_raw\": \"lakh\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 33,\n      \"quote\": \"In April -November 2024, net additions reached 95.6 lakh, driven largely by youth.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net payroll additions to EPFO\",\n      \"subject\": \"Employees’ Provident Fund Organisation (EPFO)\",\n      \"value_raw\": \"95.6\",\n      \"unit_raw\": \"lakh\",\n      \"period_raw\": \"April - November 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 33,\n      \"quote\": \"Workers aged 18-25 years contributed to 47 per cent of the net payroll additions.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of net payroll additions contributed by workers aged 18-25 years\",\n      \"subject\": \"EPFO net payroll additions\",\n      \"value_raw\": \"47\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April - November 2024\",\n      \"qualifiers\": {\n        \"age_group\": \"18-25 years\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:01-india-economic-survey-2024-25-excerpt-86f2e79a:b19"
+}

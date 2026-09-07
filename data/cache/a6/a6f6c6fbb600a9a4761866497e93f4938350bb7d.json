@@ -1,0 +1,377 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 46,
+    "quote": "inflation in clothing and footwear fell to 2.7 per cent during 2024-25 from 4.7 per cent a year ago",
+    "kind": "numeric",
+    "metric": "inflation rate",
+    "subject": "clothing and footwear",
+    "value_raw": "2.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "comparison_period": "a year ago"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "Inflation in transport and communication rose marginally to 2.4 per cent in 2024-25 from 1.9 per cent a year ago",
+    "kind": "numeric",
+    "metric": "inflation rate",
+    "subject": "transport and communication",
+    "value_raw": "2.4",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "comparison_period": "a year ago"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "Housing inflation fell from 3.9 per cent during 2023-24 to 2.8 per cent during 2024-25",
+    "kind": "numeric",
+    "metric": "inflation rate",
+    "subject": "housing",
+    "value_raw": "2.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "comparison_period": "2023-24"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 46,
+    "quote": "Inflation in personal care and effects rose to 9.8 per cent during 2024-25 from 7.8 per cent a year ago",
+    "kind": "numeric",
+    "metric": "inflation rate",
+    "subject": "personal care and effects",
+    "value_raw": "9.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "comparison_period": "a year ago"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 47,
+    "quote": "inflation measured by the CPI for industrial workers (CPI-IW) moderated to 3.4 per cent during 2024-25 from 5.2 per cent a year ago",
+    "kind": "numeric",
+    "metric": "inflation rate",
+    "subject": "CPI for industrial workers (CPI-IW)",
+    "value_raw": "3.4",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "comparison_period": "a year ago"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 47,
+    "quote": "Inflation based on the CPI for agricultural labourers (CPI-AL) and rural labourers (CPI-RL) moderated to 5.7 per cent, each, during 2024-25 from 7.1 per cent and 6.9 per cent, respectively, a year ago",
+    "kind": "numeric",
+    "metric": "inflation rate",
+    "subject": "CPI for agricultural labourers (CPI-AL)",
+    "value_raw": "5.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "comparison_period": "a year ago"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 47,
+    "quote": "Inflation based on the CPI for agricultural labourers (CPI-AL) and rural labourers (CPI-RL) moderated to 5.7 per cent, each, during 2024-25 from 7.1 per cent and 6.9 per cent, respectively, a year ago",
+    "kind": "numeric",
+    "metric": "inflation rate",
+    "subject": "CPI for rural labourers (CPI-RL)",
+    "value_raw": "5.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "comparison_period": "a year ago"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 47,
+    "quote": "Inflation measured by the wholesale price index (WPI) increased to 2.3 per cent during 2024-25 from a deflation of (-) 0.7 per cent a year ago",
+    "kind": "numeric",
+    "metric": "WPI inflation",
+    "subject": "wholesale price index (WPI)",
+    "value_raw": "2.3",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "comparison_period": "a year ago"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 47,
+    "quote": "WPI inflation in primary articles (weight of 22.6 per cent in the WPI basket) increased to 5.1 per cent during 2024-25 from 3.5 per cent a year ago",
+    "kind": "numeric",
+    "metric": "WPI inflation",
+    "subject": "primary articles",
+    "value_raw": "5.1",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "weight_in_wpi_basket": "22.6 per cent",
+     "comparison_period": "a year ago"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 47,
+    "quote": "Inflation in manufactured products (weight of 64.2 per cent) increased to 1.7 per cent during 2024-25 from a deflation of (-) 1.7 per cent a year ago",
+    "kind": "numeric",
+    "metric": "WPI inflation",
+    "subject": "manufactured products",
+    "value_raw": "1.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "weight_in_wpi_basket": "64.2 per cent",
+     "comparison_period": "a year ago"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 47,
+    "quote": "gross domestic product (GDP) deflator inflation increased to 3.0 per cent during April-December 2024 from 2.3 per cent in the corresponding period of the previous year",
+    "kind": "numeric",
+    "metric": "GDP deflator inflation",
+    "subject": "gross domestic product (GDP)",
+    "value_raw": "3.0",
+    "unit_raw": "per cent",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "comparison_period": "corresponding period of the previous year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 47,
+    "quote": "Nominal rural wage growth decelerated marginally to 5.9 per cent during 2024-25 from 6.0 per cent during the previous year",
+    "kind": "numeric",
+    "metric": "nominal rural wage growth",
+    "subject": "rural wages",
+    "value_raw": "5.9",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "comparison_period": "previous year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 48,
+    "quote": "The Reserve Bank’s balance sheet size moderated to 22.8 per cent of GDP as at end-March 2025 from 23.5 per cent as at end-March 2024",
+    "kind": "numeric",
+    "metric": "balance sheet size",
+    "subject": "Reserve Bank",
+    "value_raw": "22.8",
+    "unit_raw": "per cent of GDP",
+    "period_raw": "end-March 2025",
+    "qualifiers": {
+     "comparison_period": "end-March 2024"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 48,
+    "quote": "The RM growth, adjusted for the first-round impact of change in CRR, stood at 5.8 per cent in 2024-25 as compared with 6.7 per cent a year ago",
+    "kind": "numeric",
+    "metric": "reserve money growth",
+    "subject": "Reserve Money (RM)",
+    "value_raw": "5.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "adjustment": "adjusted for the first-round impact of change in CRR",
+     "comparison_period": "a year ago"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 51,
+    "quote": "M3 recorded a growth of 9.6 per cent as on March 21, 2025 as compared with 11.2 per cent a year ago",
+    "kind": "numeric",
+    "metric": "money supply growth",
+    "subject": "M3",
+    "value_raw": "9.6",
+    "unit_raw": "per cent",
+    "period_raw": "March 21, 2025",
+    "qualifiers": {
+     "comparison_period": "a year ago"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 52,
+    "quote": "bank credit to the commercial sector, which grew by 11.8 per cent in 2024-25 (15.6 per cent a year ago)",
+    "kind": "numeric",
+    "metric": "bank credit growth",
+    "subject": "commercial sector",
+    "value_raw": "11.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "comparison_period": "a year ago"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 52,
+    "quote": "Net bank credit to government increased by 11.2 per cent in 2024-25 (5.7 per cent a year ago)",
+    "kind": "numeric",
+    "metric": "net bank credit growth",
+    "subject": "government",
+    "value_raw": "11.2",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "comparison_period": "a year ago"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 52,
+    "quote": "The excess holdings of statutory liquidity ratio (SLR) securities of SCBs were 10.3 per cent of NDTL as on March 21, 2025",
+    "kind": "numeric",
+    "metric": "excess holdings of statutory liquidity ratio (SLR) securities",
+    "subject": "scheduled commercial banks (SCBs)",
+    "value_raw": "10.3",
+    "unit_raw": "per cent of NDTL",
+    "period_raw": "March 21, 2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 52,
+    "quote": "The currency-deposit ratio at 15.4 per cent as on March 21, 2025 moderated further from 15.9 per cent as on March 22, 2024",
+    "kind": "numeric",
+    "metric": "currency-deposit ratio",
+    "subject": "public",
+    "value_raw": "15.4",
+    "unit_raw": "per cent",
+    "period_raw": "March 21, 2025",
+    "qualifiers": {
+     "comparison_period": "March 22, 2024"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 52,
+    "quote": "The money multiplier (MM), which increased to 5.7 as on March 21, 2025 from 5.4 as on March 22, 2024",
+    "kind": "numeric",
+    "metric": "money multiplier (MM)",
+    "subject": "banking system",
+    "value_raw": "5.7",
+    "unit_raw": null,
+    "period_raw": "March 21, 2025",
+    "qualifiers": {
+     "comparison_period": "March 22, 2024"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 53,
+    "quote": "Reserve Money (RM) | 48.4* | 9.7 (7.4) | 6.7 (6.7) | 3.3 (5.8)",
+    "kind": "numeric",
+    "metric": "Reserve Money (RM) Outstanding",
+    "subject": "Reserve Money (RM)",
+    "value_raw": "48.4",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "March 21, 2025",
+    "qualifiers": {
+     "note": "Data for RM pertain to March 28, 2025"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 53,
+    "quote": "Money Supply (M3) | 272.1 | 9.0 | 11.2 | 9.6",
+    "kind": "numeric",
+    "metric": "Money Supply (M3) Outstanding",
+    "subject": "Money Supply (M3)",
+    "value_raw": "272.1",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "March 21, 2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 53,
+    "quote": "Currency with the Public | 36.2 | 7.9 | 4.3 | 5.9",
+    "kind": "numeric",
+    "metric": "Currency with the Public Outstanding",
+    "subject": "Currency with the Public",
+    "value_raw": "36.2",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "March 21, 2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 53,
+    "quote": "Aggregate Deposits | 234.8 | 9.1 | 12.3 | 10.1",
+    "kind": "numeric",
+    "metric": "Aggregate Deposits Outstanding",
+    "subject": "Aggregate Deposits",
+    "value_raw": "234.8",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "March 21, 2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 53,
+    "quote": "Net Bank Credit to Government | 81.4 | 11.5 | 5.7 | 11.2",
+    "kind": "numeric",
+    "metric": "Net Bank Credit to Government Outstanding",
+    "subject": "Net Bank Credit to Government",
+    "value_raw": "81.4",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "March 21, 2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 53,
+    "quote": "Bank Credit to Commercial Sector | 186.4 | 14.4 | 15.6 | 11.8",
+    "kind": "numeric",
+    "metric": "Bank Credit to Commercial Sector Outstanding",
+    "subject": "Bank Credit to Commercial Sector",
+    "value_raw": "186.4",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "March 21, 2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 53,
+    "quote": "Net Foreign Assets of the Banking Sector | 59.8 | -0.6 | 12.2 | 8.0",
+    "kind": "numeric",
+    "metric": "Net Foreign Assets of the Banking Sector Outstanding",
+    "subject": "Net Foreign Assets of the Banking Sector",
+    "value_raw": "59.8",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "March 21, 2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 46,\n      \"quote\": \"inflation in clothing and footwear fell to 2.7 per cent during 2024-25 from 4.7 per cent a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"inflation rate\",\n      \"subject\": \"clothing and footwear\",\n      \"value_raw\": \"2.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"comparison_period\": \"a year ago\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"Inflation in transport and communication rose marginally to 2.4 per cent in 2024-25 from 1.9 per cent a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"inflation rate\",\n      \"subject\": \"transport and communication\",\n      \"value_raw\": \"2.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"comparison_period\": \"a year ago\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"Housing inflation fell from 3.9 per cent during 2023-24 to 2.8 per cent during 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"inflation rate\",\n      \"subject\": \"housing\",\n      \"value_raw\": \"2.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"comparison_period\": \"2023-24\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 46,\n      \"quote\": \"Inflation in personal care and effects rose to 9.8 per cent during 2024-25 from 7.8 per cent a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"inflation rate\",\n      \"subject\": \"personal care and effects\",\n      \"value_raw\": \"9.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"comparison_period\": \"a year ago\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"inflation measured by the CPI for industrial workers (CPI-IW) moderated to 3.4 per cent during 2024-25 from 5.2 per cent a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"inflation rate\",\n      \"subject\": \"CPI for industrial workers (CPI-IW)\",\n      \"value_raw\": \"3.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"comparison_period\": \"a year ago\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"Inflation based on the CPI for agricultural labourers (CPI-AL) and rural labourers (CPI-RL) moderated to 5.7 per cent, each, during 2024-25 from 7.1 per cent and 6.9 per cent, respectively, a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"inflation rate\",\n      \"subject\": \"CPI for agricultural labourers (CPI-AL)\",\n      \"value_raw\": \"5.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"comparison_period\": \"a year ago\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"Inflation based on the CPI for agricultural labourers (CPI-AL) and rural labourers (CPI-RL) moderated to 5.7 per cent, each, during 2024-25 from 7.1 per cent and 6.9 per cent, respectively, a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"inflation rate\",\n      \"subject\": \"CPI for rural labourers (CPI-RL)\",\n      \"value_raw\": \"5.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"comparison_period\": \"a year ago\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"Inflation measured by the wholesale price index (WPI) increased to 2.3 per cent during 2024-25 from a deflation of (-) 0.7 per cent a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"WPI inflation\",\n      \"subject\": \"wholesale price index (WPI)\",\n      \"value_raw\": \"2.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"comparison_period\": \"a year ago\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"WPI inflation in primary articles (weight of 22.6 per cent in the WPI basket) increased to 5.1 per cent during 2024-25 from 3.5 per cent a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"WPI inflation\",\n      \"subject\": \"primary articles\",\n      \"value_raw\": \"5.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"weight_in_wpi_basket\": \"22.6 per cent\",\n        \"comparison_period\": \"a year ago\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"Inflation in manufactured products (weight of 64.2 per cent) increased to 1.7 per cent during 2024-25 from a deflation of (-) 1.7 per cent a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"WPI inflation\",\n      \"subject\": \"manufactured products\",\n      \"value_raw\": \"1.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"weight_in_wpi_basket\": \"64.2 per cent\",\n        \"comparison_period\": \"a year ago\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"gross domestic product (GDP) deflator inflation increased to 3.0 per cent during April-December 2024 from 2.3 per cent in the corresponding period of the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"GDP deflator inflation\",\n      \"subject\": \"gross domestic product (GDP)\",\n      \"value_raw\": \"3.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April-December 2024\",\n      \"qualifiers\": {\n        \"comparison_period\": \"corresponding period of the previous year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 47,\n      \"quote\": \"Nominal rural wage growth decelerated marginally to 5.9 per cent during 2024-25 from 6.0 per cent during the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"nominal rural wage growth\",\n      \"subject\": \"rural wages\",\n      \"value_raw\": \"5.9\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"comparison_period\": \"previous year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 48,\n      \"quote\": \"The Reserve Bank’s balance sheet size moderated to 22.8 per cent of GDP as at end-March 2025 from 23.5 per cent as at end-March 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"balance sheet size\",\n      \"subject\": \"Reserve Bank\",\n      \"value_raw\": \"22.8\",\n      \"unit_raw\": \"per cent of GDP\",\n      \"period_raw\": \"end-March 2025\",\n      \"qualifiers\": {\n        \"comparison_period\": \"end-March 2024\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 48,\n      \"quote\": \"The RM growth, adjusted for the first-round impact of change in CRR, stood at 5.8 per cent in 2024-25 as compared with 6.7 per cent a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"reserve money growth\",\n      \"subject\": \"Reserve Money (RM)\",\n      \"value_raw\": \"5.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"adjustment\": \"adjusted for the first-round impact of change in CRR\",\n        \"comparison_period\": \"a year ago\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 51,\n      \"quote\": \"M3 recorded a growth of 9.6 per cent as on March 21, 2025 as compared with 11.2 per cent a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"money supply growth\",\n      \"subject\": \"M3\",\n      \"value_raw\": \"9.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"March 21, 2025\",\n      \"qualifiers\": {\n        \"comparison_period\": \"a year ago\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 52,\n      \"quote\": \"bank credit to the commercial sector, which grew by 11.8 per cent in 2024-25 (15.6 per cent a year ago)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"bank credit growth\",\n      \"subject\": \"commercial sector\",\n      \"value_raw\": \"11.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"comparison_period\": \"a year ago\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 52,\n      \"quote\": \"Net bank credit to government increased by 11.2 per cent in 2024-25 (5.7 per cent a year ago)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net bank credit growth\",\n      \"subject\": \"government\",\n      \"value_raw\": \"11.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"comparison_period\": \"a year ago\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 52,\n      \"quote\": \"The excess holdings of statutory liquidity ratio (SLR) securities of SCBs were 10.3 per cent of NDTL as on March 21, 2025\",\n      \"kind\": \"numeric\",\n      \"metric\": \"excess holdings of statutory liquidity ratio (SLR) securities\",\n      \"subject\": \"scheduled commercial banks (SCBs)\",\n      \"value_raw\": \"10.3\",\n      \"unit_raw\": \"per cent of NDTL\",\n      \"period_raw\": \"March 21, 2025\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 52,\n      \"quote\": \"The currency-deposit ratio at 15.4 per cent as on March 21, 2025 moderated further from 15.9 per cent as on March 22, 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"currency-deposit ratio\",\n      \"subject\": \"public\",\n      \"value_raw\": \"15.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"March 21, 2025\",\n      \"qualifiers\": {\n        \"comparison_period\": \"March 22, 2024\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 52,\n      \"quote\": \"The money multiplier (MM), which increased to 5.7 as on March 21, 2025 from 5.4 as on March 22, 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"money multiplier (MM)\",\n      \"subject\": \"banking system\",\n      \"value_raw\": \"5.7\",\n      \"unit_raw\": null,\n      \"period_raw\": \"March 21, 2025\",\n      \"qualifiers\": {\n        \"comparison_period\": \"March 22, 2024\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 53,\n      \"quote\": \"Reserve Money (RM) | 48.4* | 9.7 (7.4) | 6.7 (6.7) | 3.3 (5.8)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Reserve Money (RM) Outstanding\",\n      \"subject\": \"Reserve Money (RM)\",\n      \"value_raw\": \"48.4\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"March 21, 2025\",\n      \"qualifiers\": {\n        \"note\": \"Data for RM pertain to March 28, 2025\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 53,\n      \"quote\": \"Money Supply (M3) | 272.1 | 9.0 | 11.2 | 9.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Money Supply (M3) Outstanding\",\n      \"subject\": \"Money Supply (M3)\",\n      \"value_raw\": \"272.1\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"March 21, 2025\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 53,\n      \"quote\": \"Currency with the Public | 36.2 | 7.9 | 4.3 | 5.9\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Currency with the Public Outstanding\",\n      \"subject\": \"Currency with the Public\",\n      \"value_raw\": \"36.2\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"March 21, 2025\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 53,\n      \"quote\": \"Aggregate Deposits | 234.8 | 9.1 | 12.3 | 10.1\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Aggregate Deposits Outstanding\",\n      \"subject\": \"Aggregate Deposits\",\n      \"value_raw\": \"234.8\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"March 21, 2025\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 53,\n      \"quote\": \"Net Bank Credit to Government | 81.4 | 11.5 | 5.7 | 11.2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net Bank Credit to Government Outstanding\",\n      \"subject\": \"Net Bank Credit to Government\",\n      \"value_raw\": \"81.4\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"March 21, 2025\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 53,\n      \"quote\": \"Bank Credit to Commercial Sector | 186.4 | 14.4 | 15.6 | 11.8\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Bank Credit to Commercial Sector Outstanding\",\n      \"subject\": \"Bank Credit to Commercial Sector\",\n      \"value_raw\": \"186.4\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"March 21, 2025\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 53,\n      \"quote\": \"Net Foreign Assets of the Banking Sector | 59.8 | -0.6 | 12.2 | 8.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net Foreign Assets of the Banking Sector Outstanding\",\n      \"subject\": \"Net Foreign Assets of the Banking Sector\",\n      \"value_raw\": \"59.8\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"March 21, 2025\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-rbi-annual-report-2024-25-excerpt-73209a2c:b46"
+}

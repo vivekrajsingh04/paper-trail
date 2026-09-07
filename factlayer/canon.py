@@ -81,12 +81,19 @@ class MetricResolver:
     # token, which is exactly the distinction that must not be lost.
     CERTAIN_LEXICAL = 95.0
 
+    # The semantic gate is set for RECALL, not precision. Measured on this
+    # corpus, true matches span 0.75-0.93 and false ones sit at 0.83-0.85 --
+    # the ranges overlap, so no threshold separates them. Trying to make the
+    # gate decide was doing the adjudicator's job badly: at 0.80 it silently
+    # dropped "revenue from services" against "revenue from contracts with
+    # customers" (0.748), which is the corpus's clearest cross-document
+    # corroboration. The gate proposes; the model disposes.
     def __init__(
         self,
         fuzzy_threshold: float = 80.0,
-        semantic_threshold: float = 0.80,
+        semantic_threshold: float = 0.70,
         use_llm: bool = True,
-        adjudication_budget: int = 120,
+        adjudication_budget: int = 500,
     ):
         self.fuzzy_threshold = fuzzy_threshold
         self.semantic_threshold = semantic_threshold

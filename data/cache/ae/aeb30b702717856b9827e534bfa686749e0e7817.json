@@ -1,0 +1,215 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 11,
+    "quote": "TL Service revenue\n(₹ Cr)\n188\n173\n234\nQ4 FY23\nQ3 FY24\nQ4 FY24",
+    "kind": "numeric",
+    "metric": "TL Service revenue",
+    "subject": "TL Service",
+    "value_raw": "234",
+    "unit_raw": "₹ Cr",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results",
+     "service": "TL"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 11,
+    "quote": "Cross Border Services revenue\n(₹ Cr)\n109\n153\n174\nQ4 FY23\nQ3 FY24\nQ4 FY24",
+    "kind": "numeric",
+    "metric": "Cross Border Services revenue",
+    "subject": "Cross Border Services",
+    "value_raw": "174",
+    "unit_raw": "₹ Cr",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results",
+     "service": "Cross Border Services"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 11,
+    "quote": "1,860\n2,194\n2,076\nQ4 FY23\nQ3 FY24\nQ4 FY24\nExpress Parcel\nPTL\nTL\nSCS\nCross Border\nRevenue from services(1)\n(₹ Cr)",
+    "kind": "numeric",
+    "metric": "Revenue from services",
+    "subject": "Delhivery Limited",
+    "value_raw": "2,076",
+    "unit_raw": "₹ Cr",
+    "period_raw": "Q4 FY24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results",
+     "exclusion": "excludes revenue from traded goods"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 13,
+    "quote": "7,225\n8,142\nFY23\nFY24\nRevenue from customers(1)",
+    "kind": "numeric",
+    "metric": "Revenue from customers",
+    "subject": "Delhivery Limited",
+    "value_raw": "8,142",
+    "unit_raw": "₹ Cr",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results",
+     "includes": "revenue from services and traded goods"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 13,
+    "quote": "422\n941\nFY23\nFY24\nService EBITDA",
+    "kind": "numeric",
+    "metric": "Service EBITDA",
+    "subject": "Delhivery Limited",
+    "value_raw": "941",
+    "unit_raw": "₹ Cr",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results",
+     "definition": "EBITDA generated after accounting for direct variable and fixed costs of operations, excluding corporate overheads"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 13,
+    "quote": "826\n866\nFY23\nFY24\nLess: Corporate overheads",
+    "kind": "numeric",
+    "metric": "Corporate overheads",
+    "subject": "Delhivery Limited",
+    "value_raw": "866",
+    "unit_raw": "₹ Cr",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 13,
+    "quote": "(404)\n76\nFY23\nFY24\nAdjusted EBITDA",
+    "kind": "numeric",
+    "metric": "Adjusted EBITDA",
+    "subject": "Delhivery Limited",
+    "value_raw": "76",
+    "unit_raw": "₹ Cr",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 14,
+    "quote": "636\n934\nFY23\nFY24\nExpress Parcel",
+    "kind": "numeric",
+    "metric": "Express Parcel Service EBITDA",
+    "subject": "Express Parcel",
+    "value_raw": "934",
+    "unit_raw": "₹ Cr",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 14,
+    "quote": "(237)\n(46)\nFY23\nFY24\nPart Truckload",
+    "kind": "numeric",
+    "metric": "Part Truckload Service EBITDA",
+    "subject": "Part Truckload",
+    "value_raw": "(46)",
+    "unit_raw": "₹ Cr",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 14,
+    "quote": "25\n53\nFY23\nFY24\nSupply Chain Services",
+    "kind": "numeric",
+    "metric": "Supply Chain Services Service EBITDA",
+    "subject": "Supply Chain Services",
+    "value_raw": "53",
+    "unit_raw": "₹ Cr",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 15,
+    "quote": "37\nMar '23\nMar '24\nReceivable days",
+    "kind": "numeric",
+    "metric": "Receivable days",
+    "subject": "Delhivery Limited",
+    "value_raw": "37",
+    "unit_raw": "Days",
+    "period_raw": "Mar '24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results",
+     "definition": "(Trade receivables + Unbilled receivables) * 365 / Annualized revenue from operations basis the last quarter of the period"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 15,
+    "quote": "35\nMar '23\nMar '24\nPayable days",
+    "kind": "numeric",
+    "metric": "Payable days",
+    "subject": "Delhivery Limited",
+    "value_raw": "35",
+    "unit_raw": "Days",
+    "period_raw": "Mar '24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results",
+     "definition": "Trade payables * 365 / Annualized revenue from operations basis the last quarter of the period"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 16,
+    "quote": "7,224\n8,142\nFY23\nFY24\nRevenue for services (A)",
+    "kind": "numeric",
+    "metric": "Revenue for services",
+    "subject": "Delhivery Limited",
+    "value_raw": "8,142",
+    "unit_raw": "₹ Cr",
+    "period_raw": "FY24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 19,
+    "quote": "5,508\n5,444\nMar ’23\nMar ’24\nCash and cash equivalents(1) (B)",
+    "kind": "numeric",
+    "metric": "Cash and cash equivalents",
+    "subject": "Delhivery Limited",
+    "value_raw": "5,444",
+    "unit_raw": "₹ Cr",
+    "period_raw": "Mar ’24",
+    "qualifiers": {
+     "basis": "audited standalone and consolidated financial results",
+     "includes": "investments, other bank balances, margin money deposits and deposits with original maturity for >12 months",
+     "excludes": "₹145 Cr of accrued interest In Mar ‘24"
+    },
+    "confidence": 0.95
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 11,\n      \"quote\": \"TL Service revenue\\n(₹ Cr)\\n188\\n173\\n234\\nQ4 FY23\\nQ3 FY24\\nQ4 FY24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"TL Service revenue\",\n      \"subject\": \"TL Service\",\n      \"value_raw\": \"234\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\",\n        \"service\": \"TL\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 11,\n      \"quote\": \"Cross Border Services revenue\\n(₹ Cr)\\n109\\n153\\n174\\nQ4 FY23\\nQ3 FY24\\nQ4 FY24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Cross Border Services revenue\",\n      \"subject\": \"Cross Border Services\",\n      \"value_raw\": \"174\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\",\n        \"service\": \"Cross Border Services\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 11,\n      \"quote\": \"1,860\\n2,194\\n2,076\\nQ4 FY23\\nQ3 FY24\\nQ4 FY24\\nExpress Parcel\\nPTL\\nTL\\nSCS\\nCross Border\\nRevenue from services(1)\\n(₹ Cr)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"2,076\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"Q4 FY24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\",\n        \"exclusion\": \"excludes revenue from traded goods\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 13,\n      \"quote\": \"7,225\\n8,142\\nFY23\\nFY24\\nRevenue from customers(1)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue from customers\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"8,142\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\",\n        \"includes\": \"revenue from services and traded goods\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 13,\n      \"quote\": \"422\\n941\\nFY23\\nFY24\\nService EBITDA\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Service EBITDA\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"941\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\",\n        \"definition\": \"EBITDA generated after accounting for direct variable and fixed costs of operations, excluding corporate overheads\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 13,\n      \"quote\": \"826\\n866\\nFY23\\nFY24\\nLess: Corporate overheads\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Corporate overheads\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"866\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 13,\n      \"quote\": \"(404)\\n76\\nFY23\\nFY24\\nAdjusted EBITDA\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Adjusted EBITDA\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"76\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"636\\n934\\nFY23\\nFY24\\nExpress Parcel\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Express Parcel Service EBITDA\",\n      \"subject\": \"Express Parcel\",\n      \"value_raw\": \"934\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"(237)\\n(46)\\nFY23\\nFY24\\nPart Truckload\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Part Truckload Service EBITDA\",\n      \"subject\": \"Part Truckload\",\n      \"value_raw\": \"(46)\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"25\\n53\\nFY23\\nFY24\\nSupply Chain Services\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Supply Chain Services Service EBITDA\",\n      \"subject\": \"Supply Chain Services\",\n      \"value_raw\": \"53\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 15,\n      \"quote\": \"37\\nMar '23\\nMar '24\\nReceivable days\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Receivable days\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"37\",\n      \"unit_raw\": \"Days\",\n      \"period_raw\": \"Mar '24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\",\n        \"definition\": \"(Trade receivables + Unbilled receivables) * 365 / Annualized revenue from operations basis the last quarter of the period\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 15,\n      \"quote\": \"35\\nMar '23\\nMar '24\\nPayable days\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Payable days\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"35\",\n      \"unit_raw\": \"Days\",\n      \"period_raw\": \"Mar '24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\",\n        \"definition\": \"Trade payables * 365 / Annualized revenue from operations basis the last quarter of the period\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"7,224\\n8,142\\nFY23\\nFY24\\nRevenue for services (A)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Revenue for services\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"8,142\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"FY24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 19,\n      \"quote\": \"5,508\\n5,444\\nMar ’23\\nMar ’24\\nCash and cash equivalents(1) (B)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Cash and cash equivalents\",\n      \"subject\": \"Delhivery Limited\",\n      \"value_raw\": \"5,444\",\n      \"unit_raw\": \"₹ Cr\",\n      \"period_raw\": \"Mar ’24\",\n      \"qualifiers\": {\n        \"basis\": \"audited standalone and consolidated financial results\",\n        \"includes\": \"investments, other bank balances, margin money deposits and deposits with original maturity for >12 months\",\n        \"excludes\": \"₹145 Cr of accrued interest In Mar ‘24\"\n      },\n      \"confidence\": 0.95\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:03-delhivery-q4-fy24-earnings-presentation-5ca30708:b11"
+}

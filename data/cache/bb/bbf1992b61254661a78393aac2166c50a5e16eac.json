@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The facts refer to different entities ('Delhivery Robotics' versus 'Delhivery Freight Services Private Limited') and distinct metrics ('incorporation' status/event versus 'incorporation date')."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The facts refer to different entities ('Delhivery Robotics' versus 'Delhivery Freight Services Private Limited') and distinct metrics ('incorporation' status/event versus 'incorporation date').\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

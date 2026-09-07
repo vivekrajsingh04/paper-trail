@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures nominal effective exchange rate (NEER) appreciation, while Fact B measures real effective exchange rate (REER) appreciation, which are two different economic indicators."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures nominal effective exchange rate (NEER) appreciation, while Fact B measures real effective exchange rate (REER) appreciation, which are two different economic indicators.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}
