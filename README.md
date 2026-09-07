@@ -320,6 +320,21 @@ is built from whatever the corpus actually contains.
 
 ### Engineering decisions and trade-offs
 
+**The interface is deliberately quiet.** Warm paper ground, low-chroma accents,
+a serif for headings and a monospace for every figure and quote — because the
+only thing on screen that should be loud is the data. The one chart that does
+argumentative work (the range plot showing whether two implied intervals
+intersect) was built to spec rather than to taste: point estimates with their
+implied ranges on a shared axis, marks under 24px, hairline axes, a legend, and
+values in text ink rather than series colour.
+
+The chart colours were *validated, not eyeballed*. The two series clear the
+chroma floor, colour-vision-deficiency separation (ΔE 15.5 light / 17.1 dark
+against a target of 8) and the normal-vision floor (ΔE 24.0 / 22.3 against a
+floor of 15) on their own surfaces; dark mode is a separately stepped palette
+rather than an inverted one, and every status colour passes WCAG AA for text in
+both modes.
+
 **SQLite over a graph database.** The brief notes that a graph database is not
 the solution, and it is right: the interesting content is the *reasoning
 attached to each edge*, not the topology. A graph store would have added

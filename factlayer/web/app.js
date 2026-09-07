@@ -41,43 +41,91 @@ async function loadSummary() {
   ].map(([k, v]) => `<div class="stat"><b>${Number(v).toLocaleString()}</b><i>${k}</i></div>`).join('');
 }
 
-// ---------------------------------------------------------------- interval bars
-// Two figures agree when the ranges implied by how they were *written* overlap.
-// Drawing them on one axis makes that judgement visible rather than asserted.
-function intervalViz(v) {
+// ---------------------------------------------------------------- range chart
+// The chart that carries the argument: each fact is a point estimate with the
+// interval its digits imply, drawn on one axis so "do these overlap?" is
+// something you see rather than something the prose asserts.
+
+function niceTicks(lo, hi, count = 5) {
+  const span = hi - lo;
+  if (!(span > 0)) return [lo];
+  const raw = span / (count - 1);
+  const mag = Math.pow(10, Math.floor(Math.log10(raw)));
+  const norm = raw / mag;
+  const step = (norm <= 1 ? 1 : norm <= 2 ? 2 : norm <= 5 ? 5 : 10) * mag;
+  const first = Math.ceil(lo / step) * step;
+  const out = [];
+  for (let v = first; v <= hi + step * 1e-9; v += step) out.push(v);
+  return out.length >= 2 ? out : [lo, hi];
+}
+
+function tickLabel(v, span) {
+  const dp = span > 0 ? Math.max(0, Math.min(6, Math.ceil(-Math.log10(span / 4)) + 1)) : 0;
+  return v.toLocaleString(undefined, { minimumFractionDigits: dp, maximumFractionDigits: dp });
+}
+
+function rangeChart(v) {
   if (!v || v.mode !== 'interval') return '';
   const [a0, a1] = v.left_interval, [b0, b1] = v.right_interval;
-  if (![a0, a1, b0, b1].every(isFinite)) return '';
+  const av = v.left_value, bv = v.right_value;
+  if (![a0, a1, b0, b1, av, bv].every(Number.isFinite)) return '';
 
-  // Both intervals share one axis, and the region where they meet (or the gap
-  // between them) is shaded. The verdict is then something you can see rather
-  // than something the text asserts.
+  const W = 760, PADL = 10, PADR = 10;
+  const ROW_A = 28, ROW_B = 60, BAR = 14, AXIS = 92, H = 116;
+  const x0 = PADL, x1 = W - PADR;
+
   const lo = Math.min(a0, b0), hi = Math.max(a1, b1);
   const span = (hi - lo) || Math.max(Math.abs(hi), 1) * 1e-6;
-  const pad = span * 0.12;
-  const L = lo - pad, S = span + 2 * pad;
-  const pct = (x) => ((x - L) / S) * 100;
-  const w = (x0, x1) => Math.max(pct(x1) - pct(x0), 0.9);
+  const pad = span * 0.14;
+  const dLo = lo - pad, dHi = hi + pad, dSpan = dHi - dLo;
+  const X = (val) => x0 + ((val - dLo) / dSpan) * (x1 - x0);
+
+  // A range narrower than a couple of pixels still has to be visible.
+  const bar = (v0, v1, y, cls) => {
+    const px0 = X(v0);
+    const w = Math.max(X(v1) - px0, 3);
+    return `<rect class="${cls}" x="${px0.toFixed(1)}" y="${y}" width="${w.toFixed(1)}"
+            height="${BAR}" rx="4" ry="4"/>`;
+  };
 
   const iLo = Math.max(a0, b0), iHi = Math.min(a1, b1);
   const overlaps = iHi > iLo;
-  const band = overlaps
-    ? `<div class="iv-band overlap" style="left:${pct(iLo)}%;width:${w(iLo, iHi)}%"></div>`
-    : `<div class="iv-band gap" style="left:${pct(iHi)}%;width:${w(iHi, iLo)}%"></div>`;
+  const bandLo = overlaps ? iLo : iHi, bandHi = overlaps ? iHi : iLo;
+  const bandW = Math.max(X(bandHi) - X(bandLo), 2);
+  const band = `<rect class="${overlaps ? 'rc-band-ok' : 'rc-band-gap'}"
+      x="${X(bandLo).toFixed(1)}" y="14" width="${bandW.toFixed(1)}" height="${AXIS - 14}" rx="2"/>`;
 
-  return `<div class="interval-viz">
-    <div class="iv-axis">
+  const ticks = niceTicks(dLo, dHi, 5).map((t) => {
+    const x = X(t);
+    if (x < x0 - 1 || x > x1 + 1) return '';
+    return `<line class="rc-grid" x1="${x.toFixed(1)}" y1="${AXIS}" x2="${x.toFixed(1)}" y2="${AXIS + 5}"/>
+            <text class="rc-tick" x="${x.toFixed(1)}" y="${AXIS + 17}" text-anchor="middle">${tickLabel(t, dSpan)}</text>`;
+  }).join('');
+
+  return `<div class="rangechart">
+    <svg viewBox="0 0 ${W} ${H}" role="img"
+         aria-label="Implied precision ranges for both figures on a shared axis">
       ${band}
-      <div class="iv-seg a" style="left:${pct(a0)}%;width:${w(a0, a1)}%"><span>A</span></div>
-      <div class="iv-seg b" style="left:${pct(b0)}%;width:${w(b0, b1)}%"><span>B</span></div>
+      ${bar(a0, a1, ROW_A, 'rc-bar-a')}
+      ${bar(b0, b1, ROW_B, 'rc-bar-b')}
+      <circle class="rc-dot rc-dot-a" cx="${X(av).toFixed(1)}" cy="${ROW_A + BAR / 2}" r="5"/>
+      <circle class="rc-dot rc-dot-b" cx="${X(bv).toFixed(1)}" cy="${ROW_B + BAR / 2}" r="5"/>
+      <text class="rc-label" x="${x0}" y="${ROW_A - 6}">A</text>
+      <text class="rc-label" x="${x0}" y="${ROW_B - 6}">B</text>
+      <line class="rc-grid" x1="${x0}" y1="${AXIS}" x2="${x1}" y2="${AXIS}"/>
+      ${ticks}
+    </svg>
+    <div class="rc-legend">
+      <span><i class="sw a"></i>A stated ${fmtNum(av)} <span class="rng">· implied ${fmtNum(a0)}–${fmtNum(a1)}</span></span>
+      <span><i class="sw b"></i>B stated ${fmtNum(bv)} <span class="rng">· implied ${fmtNum(b0)}–${fmtNum(b1)}</span></span>
     </div>
-    <div class="iv-legend">
-      <span><i class="sw a"></i>A ${fmtNum(a0)} – ${fmtNum(a1)}</span>
-      <span><i class="sw b"></i>B ${fmtNum(b0)} – ${fmtNum(b1)}</span>
-      <span class="${overlaps ? 'ok' : 'no'}">${overlaps
-        ? 'ranges intersect → difference is within what rounding allows'
-        : 'ranges are disjoint → difference is larger than rounding can explain'}</span>
-    </div></div>`;
+    <div class="rc-caption">
+      <span class="verdict ${overlaps ? 'ok' : 'no'}">${overlaps ? 'Ranges intersect' : 'Ranges are disjoint'}</span>
+      <span class="muted">${overlaps
+        ? '— the difference is within what the rounding of these figures allows.'
+        : '— the difference is larger than rounding can account for.'}</span>
+    </div>
+  </div>`;
 }
 
 // ---------------------------------------------------------------- fact box
@@ -90,13 +138,13 @@ function dimChips(dims, conflict, agree) {
 
 function factBox(side, brief, dims, conflict, agree) {
   const page = brief.page_label ? `p.${esc(brief.page_label)}` : `page ${brief.page + 1}`;
-  return `<div class="factbox">
+  return `<div class="factbox side-${side.toLowerCase()}">
     <div class="src"><b>${side}</b> · ${esc(brief.doc_title || brief.doc_id)} · ${page}</div>
     <div class="val">${esc(brief.raw ?? fmtNum(brief.value))}</div>
     <div class="met">${esc(brief.metric)}${brief.period ? ` · <b>${esc(brief.period)}</b>` : ''}</div>
     <div class="quote">${esc(brief.quote || '')}</div>
     <div class="dims">${dimChips(dims, conflict, agree)}</div>
-    <button class="btn small" style="margin-top:9px;padding:4px 10px;font-size:12px"
+    <button class="btn tiny" style="margin-top:11px"
       onclick="showEvidence('${brief.id}')">Show on page →</button>
   </div>`;
 }
@@ -124,9 +172,9 @@ function relationCard(rel, label) {
       </div>
       <div class="reasoning">
         <h4>How the system reached this</h4>
-        ${esc(rel.explanation)}
-        ${intervalViz(r.values)}
-        <div class="small muted" style="margin-top:9px">
+        <div class="prose">${esc(rel.explanation)}</div>
+        ${rangeChart(r.values)}
+        <div class="provenance">
           Metric match: <code>${esc(mm.source || '?')}</code> — ${esc(mm.reason || '')}
         </div>
       </div>
@@ -247,12 +295,12 @@ async function loadDiagnostics() {
         corpus — not declared in advance. This is what lets the schema grow.</span>
     </div><div class="card-body">`;
   html += rows.length ? rows.map(([k, pairs, diff, power]) => `
-      <div style="margin-bottom:9px">
-        <div style="display:flex;justify-content:space-between;font-size:12.5px">
-          <span class="mono">${esc(k)}</span>
-          <span class="muted">${(power * 100).toFixed(0)}% · ${diff}/${pairs} pairs</span>
+      <div class="meter-row">
+        <div class="lab">
+          <span class="k">${esc(k)}</span>
+          <span class="v">${(power * 100).toFixed(0)}% of ${pairs} pair${pairs === 1 ? '' : 's'}</span>
         </div>
-        <div class="bar"><div style="width:${(power * 100).toFixed(0)}%"></div></div>
+        <div class="meter"><div style="width:${(power * 100).toFixed(0)}%"></div></div>
       </div>`).join('')
     : '<span class="muted">No dimension statistics yet.</span>';
   html += '</div></div>';
