@@ -67,6 +67,11 @@ def main() -> int:
         except KeyboardInterrupt:
             print("\n  interrupted; progress so far is saved in the cache")
             return 130
+        except Exception as exc:  # noqa: BLE001
+            # One bad document must not abandon the rest of the corpus.
+            print(f"\n    FAILED: {type(exc).__name__}: {str(exc)[:200]}")
+            print("    continuing with remaining documents")
+            continue
         print()
         if res["status"] == "already_ingested":
             print(f"    already ingested as {res['doc_id']}")

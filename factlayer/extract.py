@@ -49,8 +49,8 @@ SNIPPET_PAD = 220
 # which keeps a 500-page corpus inside free-tier request quotas and makes large
 # PDFs practical; it also gives the model the neighbouring pages it needs when a
 # table's column headers sit on the page before its rows.
-BATCH_PAGES = int(os.environ.get("FACTLAYER_BATCH_PAGES", "5"))
-BATCH_CHARS = int(os.environ.get("FACTLAYER_BATCH_CHARS", "22000"))
+BATCH_PAGES = int(os.environ.get("FACTLAYER_BATCH_PAGES", "8"))
+BATCH_CHARS = int(os.environ.get("FACTLAYER_BATCH_CHARS", "45000"))
 
 
 @dataclass
@@ -119,7 +119,9 @@ def profile_document(doc: Document, pages: list[IngestedPage], n_pages: int = 4)
     try:
         res = complete_json(prompt, tag=f"profile:{doc.doc_id}")
         d = res.data if isinstance(res.data, dict) else {}
-    except (LLMUnavailable, ValueError):
+    except Exception:  # noqa: BLE001
+        # Profiling is best-effort context, not a hard dependency: extraction
+        # still works without it, just with fewer document-wide qualifiers.
         return DocProfile(title=doc.title, primary_entity="", publisher="")
 
     dq = d.get("default_qualifiers") or {}

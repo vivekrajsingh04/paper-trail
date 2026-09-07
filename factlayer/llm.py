@@ -81,6 +81,24 @@ def _is_rate_limit(exc: Exception) -> bool:
     return "429" in text or "RESOURCE_EXHAUSTED" in text or "rate limit" in text.lower()
 
 
+def _is_transient(exc: Exception) -> bool:
+    """Retryable server-side conditions, as opposed to a bad request.
+
+    A 503 "model is experiencing high demand" is not a programming error and
+    not a quota problem -- it is weather.  Treating it as fatal killed a full
+    corpus run on its first document, so transient server errors get the same
+    backoff as rate limits.
+    """
+    text = str(exc)
+    if _is_rate_limit(exc):
+        return True
+    return any(
+        marker in text
+        for marker in ("500", "502", "503", "504", "UNAVAILABLE", "INTERNAL",
+                       "DEADLINE_EXCEEDED", "Timeout", "timed out", "Connection")
+    )
+
+
 def _retry_delay_from(exc: Exception, attempt: int) -> float:
     """Honour a server-supplied retry delay when present, else back off."""
     m = re.search(r"retryDelay['\"]?\s*[:=]\s*['\"]?(\d+(?:\.\d+)?)s", str(exc))
@@ -274,7 +292,7 @@ _PROVIDERS = {
 }
 
 _DEFAULT_MODELS = {
-    "gemini": "gemini-2.5-flash",
+    "gemini": "gemini-3.8-flash",
     "openai": "gpt-4.1-mini",
     "anthropic": "claude-sonnet-4-5",
 }
@@ -323,7 +341,7 @@ def complete_json(prompt: str, *, temperature: float = 0.0, tag: str = "") -> LL
             break
         except Exception as exc:  # noqa: BLE001
             last = exc
-            if not _is_rate_limit(exc) or attempt == attempts - 1:
+            if not _is_transient(exc) or attempt == attempts - 1:
                 raise
             time.sleep(_retry_delay_from(exc, attempt))
     else:
