@@ -48,27 +48,35 @@ function intervalViz(v) {
   if (!v || v.mode !== 'interval') return '';
   const [a0, a1] = v.left_interval, [b0, b1] = v.right_interval;
   if (![a0, a1, b0, b1].every(isFinite)) return '';
+
+  // Both intervals share one axis, and the region where they meet (or the gap
+  // between them) is shaded. The verdict is then something you can see rather
+  // than something the text asserts.
   const lo = Math.min(a0, b0), hi = Math.max(a1, b1);
-  const span = (hi - lo) || 1;
-  const pad = span * 0.08;
+  const span = (hi - lo) || Math.max(Math.abs(hi), 1) * 1e-6;
+  const pad = span * 0.12;
   const L = lo - pad, S = span + 2 * pad;
-  const pos = (x) => ((x - L) / S) * 100;
-  const bar = (x0, x1, cls) => {
-    const left = pos(x0);
-    const w = Math.max(pos(x1) - left, 1.2);
-    return `<div class="iv-bar ${cls}" style="left:${left}%;width:${w}%"></div>`;
-  };
+  const pct = (x) => ((x - L) / S) * 100;
+  const w = (x0, x1) => Math.max(pct(x1) - pct(x0), 0.9);
+
+  const iLo = Math.max(a0, b0), iHi = Math.min(a1, b1);
+  const overlaps = iHi > iLo;
+  const band = overlaps
+    ? `<div class="iv-band overlap" style="left:${pct(iLo)}%;width:${w(iLo, iHi)}%"></div>`
+    : `<div class="iv-band gap" style="left:${pct(iHi)}%;width:${w(iHi, iLo)}%"></div>`;
+
   return `<div class="interval-viz">
-    <div class="iv-row"><span class="iv-label">A</span>
-      <span class="iv-track">${bar(a0, a1, 'a')}</span>
-      <span class="iv-num">${fmtNum(a0)} – ${fmtNum(a1)}</span></div>
-    <div class="iv-row"><span class="iv-label">B</span>
-      <span class="iv-track">${bar(b0, b1, 'b')}</span>
-      <span class="iv-num">${fmtNum(b0)} – ${fmtNum(b1)}</span></div>
-    <div class="small muted" style="margin-top:5px">
-      ${v.agree
-        ? 'Ranges overlap → the difference is within what the rounding of these figures allows.'
-        : 'Ranges are disjoint → the difference is larger than rounding can account for.'}
+    <div class="iv-axis">
+      ${band}
+      <div class="iv-seg a" style="left:${pct(a0)}%;width:${w(a0, a1)}%"><span>A</span></div>
+      <div class="iv-seg b" style="left:${pct(b0)}%;width:${w(b0, b1)}%"><span>B</span></div>
+    </div>
+    <div class="iv-legend">
+      <span><i class="sw a"></i>A ${fmtNum(a0)} – ${fmtNum(a1)}</span>
+      <span><i class="sw b"></i>B ${fmtNum(b0)} – ${fmtNum(b1)}</span>
+      <span class="${overlaps ? 'ok' : 'no'}">${overlaps
+        ? 'ranges intersect → difference is within what rounding allows'
+        : 'ranges are disjoint → difference is larger than rounding can explain'}</span>
     </div></div>`;
 }
 

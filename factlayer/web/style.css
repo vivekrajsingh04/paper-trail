@@ -219,14 +219,50 @@ main { max-width: 1360px; margin: 0 auto; padding: 22px; }
   letter-spacing: 0.07em;
   color: var(--ink-3);
 }
-.interval-viz { margin: 12px 0 4px; }
-.iv-row { display: flex; align-items: center; gap: 9px; margin-bottom: 5px; font-family: var(--mono); font-size: 11px; }
-.iv-label { width: 18px; color: var(--ink-3); font-weight: 700; }
-.iv-track { flex: 1; height: 20px; position: relative; background: var(--line-2); border-radius: 4px; }
-.iv-bar { position: absolute; top: 3px; height: 14px; border-radius: 3px; min-width: 3px; }
-.iv-bar.a { background: var(--corroborate); opacity: 0.75; }
-.iv-bar.b { background: #6b7fd7; opacity: 0.75; }
-.iv-num { width: auto; color: var(--ink-2); white-space: nowrap; }
+.interval-viz { margin: 13px 0 2px; }
+.iv-axis {
+  position: relative;
+  height: 44px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.iv-band { position: absolute; top: 0; bottom: 0; min-width: 2px; }
+.iv-band.overlap { background: rgba(21, 128, 61, 0.16); border-left: 1px dashed var(--corroborate); border-right: 1px dashed var(--corroborate); }
+.iv-band.gap     { background: rgba(180, 35, 24, 0.13); border-left: 1px dashed var(--contradict); border-right: 1px dashed var(--contradict); }
+.iv-seg {
+  position: absolute;
+  height: 15px;
+  border-radius: 3px;
+  min-width: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iv-seg span {
+  font: 700 9.5px/1 var(--mono);
+  color: #fff;
+  opacity: 0.95;
+  letter-spacing: 0.04em;
+}
+.iv-seg.a { top: 6px;  background: var(--corroborate); }
+.iv-seg.b { top: 24px; background: #6b7fd7; }
+.iv-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  margin-top: 7px;
+  font-family: var(--mono);
+  font-size: 10.8px;
+  color: var(--ink-2);
+  align-items: center;
+}
+.iv-legend .sw { width: 9px; height: 9px; border-radius: 2px; display: inline-block; margin-right: 5px; vertical-align: -1px; }
+.iv-legend .sw.a { background: var(--corroborate); }
+.iv-legend .sw.b { background: #6b7fd7; }
+.iv-legend .ok { color: var(--corroborate); font-weight: 600; }
+.iv-legend .no { color: var(--contradict); font-weight: 600; }
 
 /* ---------------------------------------------------------------- tables */
 table { width: 100%; border-collapse: collapse; font-size: 13px; }
