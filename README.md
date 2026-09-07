@@ -161,48 +161,69 @@ because it shows the mechanism is general rather than tuned to vintages:
 metric, same year) and **period** (`₹8,142 Cr` for FY24 vs `₹2,076 Cr` for
 Q4 FY24).
 
-### 4. A failure I found, and how it is handled
+### 4. Failures I found, and how they are handled
 
-**Spatial layout carries meaning that linear text extraction destroys.**
+Two failure modes, pulling in opposite directions. `scripts/diagnose.py` finds
+both by querying the layer for its own inconsistencies.
 
-On slide 8 of the earnings deck, four charts sit side by side. Extracted to
+**(a) Strict grounding rejects facts that were right.**
+
+On slide 8 of the earnings deck, four charts sit side by side. Flattened to
 text, the page reads:
 
 ```
-... 582 663 740  FY22 FY23 FY24  4,191 4,552 5,077  FY22 FY23 FY24
-Express Parcel revenue   PTL freight revenue(2)   1,579 1,101 1,429 ...
+… 582 663 740  FY22 FY23 FY24  4,191 4,552 5,077  FY22 FY23 FY24
+Express Parcel revenue   PTL freight revenue(2)   1,579 1,101 1,429 …
 ```
 
 The values arrive *before* their own chart title and interleaved with the
-neighbouring chart's. The model handled this correctly in substance — it
-proposed the fact `Express Parcel revenue = 4,191` — but quoted it as
-`"Express Parcel revenue\n4,191\n4,552\n5,077"`, grouping the label with its
-values. That string does not occur on the page, so **the verifier rejected a
-fact that was semantically right**.
+neighbouring chart's. The model read this correctly in substance — it proposed
+`Express Parcel revenue = 4,191` — but quoted the label together with its
+values, and that exact string does not occur on the page. **The verifier
+rejected a fact that was semantically right.** The deck's verification pass rate
+is 53.6% against 89–99% for the prose-heavy documents, and that gap is almost
+entirely this.
 
-That is the honest cost of strict grounding: it trades recall for the guarantee
+That is the honest cost of strict grounding: recall traded for the guarantee
 that no citation ever points at the wrong ink. I kept the strictness, because a
-fact layer whose evidence is occasionally wrong is worse than one that admits
-what it missed — but the cost is real and it is the largest single contributor
-to the coverage gap reported in **Diagnostics**.
+fact layer whose evidence is sometimes wrong is worse than one that admits what
+it missed.
 
-The same failure has a second face inside statutory filings, where a table line
-carries four figures (standalone and consolidated × current and prior year) with
-headers on a different line. There a wrong column binding produces a fact that
-*is* verbatim on the page and therefore passes verification — a false positive
-rather than a false negative. The system catches those downstream, as
-contradictions between two facts from the *same* document, which in a statutory
-filing almost always means a misread table rather than an inconsistent document.
-They are surfaced at reduced confidence with both page spans attached, so a
-reviewer can open each side and settle it in seconds. `scripts/diagnose.py`
-ranks them.
+**(b) A wrong binding can still be verbatim — so it passes.**
 
-**The fix I would build:** reconstruct the table and chart grid from the word
-geometry that ingestion already captures, and hand the model a cell together
+The mirror image, and the more dangerous one. In the prospectus:
+
+```
+metric:  "Proforma Consolidated Total current liabilities"
+  A = 12,168.01   quote: 'Total current liabilities … 12,168.01'
+  B = 10,123.08   quote: 'Total non- current liabilities … 10,123.08'
+```
+
+The extractor read the **non-current** row and labelled it *current*. Both quotes
+are genuinely on the page, so verification cannot catch it. The same shape
+recurs wherever one sentence or row holds two figures separated by a qualifier
+the extractor did not record:
+
+```
+'The Offer and the Net Offer constitute 14.84% and 14.78%, respectively…'
+    → both figures extracted under one metric name
+'foreign exchange reserves increased from USD 616.7 billion … to 704.9'
+    → a from/to pair collapsed into one metric and period
+```
+
+**How the system handles it.** These surface downstream as contradictions
+between two facts from the *same* document — which in a statutory filing almost
+always means a misread table rather than an inconsistent document. They are
+reported with both page spans attached, so a reviewer opens each side and settles
+it in seconds, and `scripts/diagnose.py` ranks them. The system cannot tell
+whether the document or its own reading is at fault; what it can do is refuse to
+present the pair as settled fact.
+
+**The fix, which is not built.** Reconstruct the table and chart grid from the
+word geometry ingestion already captures, and hand the model a cell together
 with its full header path instead of a flattened line. The coordinates are
-already stored on every word; nothing new needs extracting. That single change
-addresses both faces of this failure, and it is why it is first on the
-next-steps list.
+already stored on every word — nothing new needs extracting. That single change
+addresses both failure modes, which is why it is first on the next-steps list.
 
 ---
 
