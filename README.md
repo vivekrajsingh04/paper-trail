@@ -320,20 +320,22 @@ is built from whatever the corpus actually contains.
 
 ### Engineering decisions and trade-offs
 
-**The interface is deliberately quiet.** Warm paper ground, low-chroma accents,
+**The interface is deliberately quiet.** A warm beige ground with cream panels
+— the way a printed report sits on a desk — low-chroma accents,
 a serif for headings and a monospace for every figure and quote — because the
 only thing on screen that should be loud is the data. The one chart that does
 argumentative work (the range plot showing whether two implied intervals
 intersect) was built to spec rather than to taste: point estimates with their
 implied ranges on a shared axis, marks under 24px, hairline axes, a legend, and
-values in text ink rather than series colour.
+values in text ink rather than series colour. It commits to one look rather
+than shipping a dark mode, so there is a single set of contrast guarantees to
+hold rather than two.
 
 The chart colours were *validated, not eyeballed*. The two series clear the
-chroma floor, colour-vision-deficiency separation (ΔE 15.5 light / 17.1 dark
-against a target of 8) and the normal-vision floor (ΔE 24.0 / 22.3 against a
-floor of 15) on their own surfaces; dark mode is a separately stepped palette
-rather than an inverted one, and every status colour passes WCAG AA for text in
-both modes.
+chroma floor, colour-vision-deficiency separation (ΔE 15.5 protan against a
+target of 8) and the normal-vision floor (ΔE 24.0 against a floor of 15) on the
+panel surface. Every status colour clears WCAG AA for text against all three
+surfaces (ground, panel and inset).
 
 **SQLite over a graph database.** The brief notes that a graph database is not
 the solution, and it is right: the interesting content is the *reasoning

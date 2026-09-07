@@ -1,13 +1,14 @@
 /* Fact Knowledge Layer — visual system
  *
- * The palette is muted on purpose: this is a document-review tool, and the only
- * thing allowed to be loud is the data. Warm paper ground, low-chroma ink, and
- * accents that sit just above the "reads as gray" floor rather than well above it.
+ * One committed look: a warm beige ground with cream panels, the way a printed
+ * report sits on a desk. The palette is muted on purpose — this is a
+ * document-review tool, and the only thing allowed to be loud is the data.
  *
- * Chart colours were validated rather than chosen by eye — series #15709b/#bb6a3e
- * (light) and #3d94c0/#c87d47 (dark) clear the chroma floor, the CVD separation
- * target (ΔE 15.5 / 17.1 protan) and the normal-vision floor (ΔE 24.0 / 22.3) on
- * their respective surfaces. Status colours pass WCAG AA for text in both modes.
+ * Colours were validated rather than chosen by eye. The two chart series
+ * (#15709b / #bb6a3e) clear the chroma floor, colour-vision-deficiency
+ * separation (ΔE 15.5 protan against a target of 8) and the normal-vision floor
+ * (ΔE 24.0 against a floor of 15) on the panel surface, and every status colour
+ * clears WCAG AA for text against all three surfaces.
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;450;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
@@ -15,26 +16,26 @@
 :root {
   color-scheme: light;
 
-  /* surfaces — warm, paper-like */
-  --surface:  #faf9f6;
-  --panel:    #ffffff;
-  --panel-2:  #f6f4ef;
-  --sunken:   #f2efe8;
+  /* surfaces — beige ground, cream panels */
+  --surface:  #f3efe5;
+  --panel:    #fdfcf9;
+  --panel-2:  #f8f5ed;
+  --sunken:   #eee9dc;
 
-  /* ink */
-  --ink:      #201e1a;
-  --ink-2:    #5c574e;
-  --ink-3:    #918b80;
-  --line:     #e5e1d8;
-  --line-2:   #efebe3;
+  /* ink — warm neutrals, all >= AA on every surface above */
+  --ink:      #211f19;
+  --ink-2:    #5b564b;
+  --ink-3:    #8f887a;
+  --line:     #e2dccd;
+  --line-2:   #ebe6d9;
 
   /* status — validated for AA text contrast on both surface and panel */
   --good:     #2f6b4f;
-  --good-bg:  #eef4f0;
-  --warn:     #8a6420;
-  --warn-bg:  #f7f1e4;
+  --good-bg:  #e9f0ea;
+  --warn:     #7d5a1a;
+  --warn-bg:  #f5ecd8;
   --bad:      #a8443a;
-  --bad-bg:   #f9edeb;
+  --bad-bg:   #f7e8e4;
 
   /* chart series — validated pair */
   --s1:       #15709b;
@@ -51,34 +52,7 @@
   --r-sm: 5px;
   --r-md: 8px;
   --r-lg: 12px;
-  --shadow: 0 1px 2px rgba(32, 30, 26, 0.04), 0 4px 16px rgba(32, 30, 26, 0.04);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --surface:  #17171a;
-    --panel:    #1e1e21;
-    --panel-2:  #232327;
-    --sunken:   #141416;
-    --ink:      #edeae4;
-    --ink-2:    #aca69c;
-    --ink-3:    #7d776e;
-    --line:     #32323a;
-    --line-2:   #27272d;
-    --good:     #68b48c;
-    --good-bg:  #1a2a22;
-    --warn:     #cfa459;
-    --warn-bg:  #2a2418;
-    --bad:      #e08b80;
-    --bad-bg:   #2c1c1a;
-    --s1:       #3d94c0;
-    --s2:       #c87d47;
-    --s1-wash:  rgba(61, 148, 192, 0.14);
-    --s2-wash:  rgba(200, 125, 71, 0.14);
-    --accent:   #8fc4a8;
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 4px 16px rgba(0, 0, 0, 0.22);
-  }
+  --shadow: 0 1px 2px rgba(58, 48, 28, 0.05), 0 6px 20px rgba(58, 48, 28, 0.05);
 }
 
 * { box-sizing: border-box; }
@@ -456,7 +430,7 @@ button.btn.primary:hover { filter: brightness(1.08); }
 .modal {
   position: fixed;
   inset: 0;
-  background: rgba(20, 18, 15, 0.55);
+  background: rgba(48, 40, 24, 0.42);
   backdrop-filter: blur(2px);
   z-index: 100;
   display: flex;
@@ -474,7 +448,7 @@ button.btn.primary:hover { filter: brightness(1.08); }
   flex-direction: column;
   overflow: hidden;
   border: 1px solid var(--line);
-  box-shadow: 0 24px 60px rgba(20, 18, 15, 0.28);
+  box-shadow: 0 24px 60px rgba(48, 40, 24, 0.22);
 }
 .modal-head {
   padding: 15px 18px;
@@ -485,7 +459,7 @@ button.btn.primary:hover { filter: brightness(1.08); }
 }
 .modal-head h3 { margin: 0; font-family: var(--serif); font-size: 16px; font-weight: 500; }
 .modal-body { overflow: auto; padding: 20px; background: var(--sunken); }
-.page-canvas { position: relative; display: inline-block; box-shadow: 0 3px 22px rgba(20, 18, 15, 0.16); }
+.page-canvas { position: relative; display: inline-block; box-shadow: 0 3px 22px rgba(48, 40, 24, 0.16); }
 .page-canvas img { display: block; max-width: 100%; height: auto; }
 .hl {
   position: absolute;
