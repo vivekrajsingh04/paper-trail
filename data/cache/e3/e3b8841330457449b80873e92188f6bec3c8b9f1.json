@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A ('Net FDI') and Metric B ('Net Inward FDI') represent different components of foreign direct investment flows (total net FDI versus net inward FDI specifically)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A ('Net FDI') and Metric B ('Net Inward FDI') represent different components of foreign direct investment flows (total net FDI versus net inward FDI specifically).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

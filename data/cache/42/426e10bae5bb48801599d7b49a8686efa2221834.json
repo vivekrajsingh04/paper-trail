@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Capital expenditure as a percentage of GDP measures government spending on assets, whereas Net Capital Flows/GDP measures the net movement of capital into or out of an economy, representing two distinct economic concepts."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Capital expenditure as a percentage of GDP measures government spending on assets, whereas Net Capital Flows/GDP measures the net movement of capital into or out of an economy, representing two distinct economic concepts.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

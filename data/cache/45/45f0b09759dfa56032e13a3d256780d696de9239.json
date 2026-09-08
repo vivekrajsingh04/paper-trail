@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "CPI headline inflation measures the general price level of a broad basket of goods and services, whereas tomato price inflation is a specific commodity-level metric."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"CPI headline inflation measures the general price level of a broad basket of goods and services, whereas tomato price inflation is a specific commodity-level metric.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

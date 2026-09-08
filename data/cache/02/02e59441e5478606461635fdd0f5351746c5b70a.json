@@ -1,0 +1,197 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 66,
+    "quote": "Mutual funds made net purchases of ₹4.7 lakh crore in 2024-25 as against ₹2.0 lakh crore in the previous year.",
+    "kind": "numeric",
+    "metric": "net purchases by mutual funds",
+    "subject": "Mutual funds",
+    "value_raw": "4.7",
+    "unit_raw": "lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "currency": "INR",
+     "market": "equity"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 66,
+    "quote": "resource mobilisation through preferential allotments and qualified institutional placements (QIPs) rose to ₹2.2 lakh crore during 2024-25 from ₹1.1 lakh crore during the previous year.",
+    "kind": "numeric",
+    "metric": "resource mobilisation through preferential allotments and QIPs",
+    "subject": "primary segment of the equity market",
+    "value_raw": "2.2",
+    "unit_raw": "lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "currency": "INR",
+     "instrument": "preferential allotments and qualified institutional placements"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 66,
+    "quote": "Resource mobilisation through initial public offerings (IPOs), follow-on public offers (FPOs) and rights issues also increased to ₹2.1 lakh crore from ₹0.8 lakh crore during the previous year",
+    "kind": "numeric",
+    "metric": "resource mobilisation through IPOs, FPOs and rights issues",
+    "subject": "primary segment of the equity market",
+    "value_raw": "2.1",
+    "unit_raw": "lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "currency": "INR",
+     "instrument": "initial public offerings, follow-on public offers and rights issues"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 66,
+    "quote": "Issuances by small and medium enterprises (SMEs) remained robust, raising ₹9,961 crore during 2024-25 as compared to mobilisation of ₹6,122 crore in the previous year.",
+    "kind": "numeric",
+    "metric": "resource mobilisation through issuances by small and medium enterprises (SMEs)",
+    "subject": "small and medium enterprises",
+    "value_raw": "9,961",
+    "unit_raw": "crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 66,
+    "quote": "Net resources mobilised by mutual funds increased to ₹8.2 lakh crore during 2024-25 from ₹3.6 lakh crore during the previous year.",
+    "kind": "numeric",
+    "metric": "net resources mobilised by mutual funds",
+    "subject": "mutual funds",
+    "value_raw": "8.2",
+    "unit_raw": "lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 66,
+    "quote": "Net mobilisation by equity-oriented mutual fund schemes rose to ₹4.2 lakh crore from ₹1.8 lakh crore during the previous year.",
+    "kind": "numeric",
+    "metric": "net mobilisation by equity-oriented mutual fund schemes",
+    "subject": "equity-oriented mutual fund schemes",
+    "value_raw": "4.2",
+    "unit_raw": "lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 66,
+    "quote": "Debt-oriented schemes witnessed net inflows of ₹1.4 lakh crore during 2024-25 as compared with net outflows of ₹0.3 lakh crore during the previous year.",
+    "kind": "numeric",
+    "metric": "net inflows of debt-oriented schemes",
+    "subject": "debt-oriented mutual fund schemes",
+    "value_raw": "1.4",
+    "unit_raw": "lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 66,
+    "quote": "Average monthly contribution to mutual funds through the systematic investment plan (SIP) route increased to ₹24,113 crore in 2024-25 from ₹16,602 crore during the previous year",
+    "kind": "numeric",
+    "metric": "average monthly contribution to mutual funds through systematic investment plan (SIP) route",
+    "subject": "mutual funds",
+    "value_raw": "24,113",
+    "unit_raw": "crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "currency": "INR"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 66,
+    "quote": "Overall, the INR closed almost flat at ₹83.38 per US dollar by end-June 2024",
+    "kind": "numeric",
+    "metric": "exchange rate",
+    "subject": "INR",
+    "value_raw": "83.38",
+    "unit_raw": "per US dollar",
+    "period_raw": "end-June 2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 67,
+    "quote": "Overall, the INR closed the Q2 at ₹83.79 per US dollar, lower by 0.5 per cent from its level at end-June 2024.",
+    "kind": "numeric",
+    "metric": "exchange rate",
+    "subject": "INR",
+    "value_raw": "83.79",
+    "unit_raw": "per US dollar",
+    "period_raw": "Q2:2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 67,
+    "quote": "Equity segment witnessed net FPI outflow of more than US$ 11 billion during October 2024.",
+    "kind": "numeric",
+    "metric": "net FPI outflow",
+    "subject": "equity segment",
+    "value_raw": "11",
+    "unit_raw": "billion US$",
+    "period_raw": "October 2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 67,
+    "quote": "Overall, the INR closed the quarter at ₹85.62 per US dollar, lower by 2.1 per cent from its level at end-September 2024.",
+    "kind": "numeric",
+    "metric": "exchange rate",
+    "subject": "INR",
+    "value_raw": "85.62",
+    "unit_raw": "per US dollar",
+    "period_raw": "Q3:2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 67,
+    "quote": "During this period, outflows from the equity segment exceeded US$ 13 billion.",
+    "kind": "numeric",
+    "metric": "outflows from equity segment",
+    "subject": "equity segment",
+    "value_raw": "13",
+    "unit_raw": "billion US$",
+    "period_raw": "Q4:2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 67,
+    "quote": "Overall, the INR closed at ₹85.46 per US dollar on March 28, 2025, 0.2 per cent higher from its level at end-December 2024.",
+    "kind": "numeric",
+    "metric": "exchange rate",
+    "subject": "INR",
+    "value_raw": "85.46",
+    "unit_raw": "per US dollar",
+    "period_raw": "March 28, 2025",
+    "qualifiers": {},
+    "confidence": 0.95
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 66,\n      \"quote\": \"Mutual funds made net purchases of ₹4.7 lakh crore in 2024-25 as against ₹2.0 lakh crore in the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net purchases by mutual funds\",\n      \"subject\": \"Mutual funds\",\n      \"value_raw\": \"4.7\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"currency\": \"INR\",\n        \"market\": \"equity\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"resource mobilisation through preferential allotments and qualified institutional placements (QIPs) rose to ₹2.2 lakh crore during 2024-25 from ₹1.1 lakh crore during the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"resource mobilisation through preferential allotments and QIPs\",\n      \"subject\": \"primary segment of the equity market\",\n      \"value_raw\": \"2.2\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"currency\": \"INR\",\n        \"instrument\": \"preferential allotments and qualified institutional placements\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"Resource mobilisation through initial public offerings (IPOs), follow-on public offers (FPOs) and rights issues also increased to ₹2.1 lakh crore from ₹0.8 lakh crore during the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"resource mobilisation through IPOs, FPOs and rights issues\",\n      \"subject\": \"primary segment of the equity market\",\n      \"value_raw\": \"2.1\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"currency\": \"INR\",\n        \"instrument\": \"initial public offerings, follow-on public offers and rights issues\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"Issuances by small and medium enterprises (SMEs) remained robust, raising ₹9,961 crore during 2024-25 as compared to mobilisation of ₹6,122 crore in the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"resource mobilisation through issuances by small and medium enterprises (SMEs)\",\n      \"subject\": \"small and medium enterprises\",\n      \"value_raw\": \"9,961\",\n      \"unit_raw\": \"crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"Net resources mobilised by mutual funds increased to ₹8.2 lakh crore during 2024-25 from ₹3.6 lakh crore during the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net resources mobilised by mutual funds\",\n      \"subject\": \"mutual funds\",\n      \"value_raw\": \"8.2\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"Net mobilisation by equity-oriented mutual fund schemes rose to ₹4.2 lakh crore from ₹1.8 lakh crore during the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net mobilisation by equity-oriented mutual fund schemes\",\n      \"subject\": \"equity-oriented mutual fund schemes\",\n      \"value_raw\": \"4.2\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"Debt-oriented schemes witnessed net inflows of ₹1.4 lakh crore during 2024-25 as compared with net outflows of ₹0.3 lakh crore during the previous year.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net inflows of debt-oriented schemes\",\n      \"subject\": \"debt-oriented mutual fund schemes\",\n      \"value_raw\": \"1.4\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"Average monthly contribution to mutual funds through the systematic investment plan (SIP) route increased to ₹24,113 crore in 2024-25 from ₹16,602 crore during the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"average monthly contribution to mutual funds through systematic investment plan (SIP) route\",\n      \"subject\": \"mutual funds\",\n      \"value_raw\": \"24,113\",\n      \"unit_raw\": \"crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"currency\": \"INR\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 66,\n      \"quote\": \"Overall, the INR closed almost flat at ₹83.38 per US dollar by end-June 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"exchange rate\",\n      \"subject\": \"INR\",\n      \"value_raw\": \"83.38\",\n      \"unit_raw\": \"per US dollar\",\n      \"period_raw\": \"end-June 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"Overall, the INR closed the Q2 at ₹83.79 per US dollar, lower by 0.5 per cent from its level at end-June 2024.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"exchange rate\",\n      \"subject\": \"INR\",\n      \"value_raw\": \"83.79\",\n      \"unit_raw\": \"per US dollar\",\n      \"period_raw\": \"Q2:2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"Equity segment witnessed net FPI outflow of more than US$ 11 billion during October 2024.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net FPI outflow\",\n      \"subject\": \"equity segment\",\n      \"value_raw\": \"11\",\n      \"unit_raw\": \"billion US$\",\n      \"period_raw\": \"October 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"Overall, the INR closed the quarter at ₹85.62 per US dollar, lower by 2.1 per cent from its level at end-September 2024.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"exchange rate\",\n      \"subject\": \"INR\",\n      \"value_raw\": \"85.62\",\n      \"unit_raw\": \"per US dollar\",\n      \"period_raw\": \"Q3:2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"During this period, outflows from the equity segment exceeded US$ 13 billion.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"outflows from equity segment\",\n      \"subject\": \"equity segment\",\n      \"value_raw\": \"13\",\n      \"unit_raw\": \"billion US$\",\n      \"period_raw\": \"Q4:2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 67,\n      \"quote\": \"Overall, the INR closed at ₹85.46 per US dollar on March 28, 2025, 0.2 per cent higher from its level at end-December 2024.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"exchange rate\",\n      \"subject\": \"INR\",\n      \"value_raw\": \"85.46\",\n      \"unit_raw\": \"per US dollar\",\n      \"period_raw\": \"March 28, 2025\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-rbi-annual-report-2024-25-excerpt-73209a2c:b66"
+}

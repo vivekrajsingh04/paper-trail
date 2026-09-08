@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Government final consumption expenditure (GFCE) and private final consumption expenditure (PFCE) measure different components of aggregate demand."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Government final consumption expenditure (GFCE) and private final consumption expenditure (PFCE) measure different components of aggregate demand.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

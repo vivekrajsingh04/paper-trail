@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The Current Account Deficit includes trade in services, income, and transfers, whereas the merchandise trade deficit is limited specifically to the trade of physical goods."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The Current Account Deficit includes trade in services, income, and transfers, whereas the merchandise trade deficit is limited specifically to the trade of physical goods.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "FPI investment in debt instruments covers all debt securities, whereas investments in corporate bonds represent only a specific segment of debt instruments."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"FPI investment in debt instruments covers all debt securities, whereas investments in corporate bonds represent only a specific segment of debt instruments.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

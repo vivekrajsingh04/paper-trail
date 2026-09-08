@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net ECB inflows refer to External Commercial Borrowings, while Net FDI flows refer to Foreign Direct Investment, which are distinct categories of capital inflows."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net ECB inflows refer to External Commercial Borrowings, while Net FDI flows refer to Foreign Direct Investment, which are distinct categories of capital inflows.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

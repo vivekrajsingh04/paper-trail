@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "External debt to GDP measures the stock of liabilities owed to non-residents, whereas net capital inflow measures the net flow of financial assets and liabilities during a specific period."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"External debt to GDP measures the stock of liabilities owed to non-residents, whereas net capital inflow measures the net flow of financial assets and liabilities during a specific period.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

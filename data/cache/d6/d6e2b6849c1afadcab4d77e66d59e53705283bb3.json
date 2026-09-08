@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Government final consumption expenditure is a specific national accounting aggregate, whereas revenue expenditure refers to a budgetary classification of government spending, representing distinct economic concepts."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Government final consumption expenditure is a specific national accounting aggregate, whereas revenue expenditure refers to a budgetary classification of government spending, representing distinct economic concepts.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

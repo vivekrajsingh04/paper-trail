@@ -1,0 +1,185 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 74,
+    "quote": "Global economic growth moderated to\n3.3 per cent in 2024 (3.5 per cent in 2023)",
+    "kind": "numeric",
+    "metric": "Global economic growth",
+    "subject": "global economy",
+    "value_raw": "3.3",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 74,
+    "quote": "Global economic growth moderated to\n3.3 per cent in 2024 (3.5 per cent in 2023)",
+    "kind": "numeric",
+    "metric": "Global economic growth",
+    "subject": "global economy",
+    "value_raw": "3.5",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 74,
+    "quote": "expected to be even lower in 2025 (2.8 per cent)41",
+    "kind": "numeric",
+    "metric": "Global economic growth expected",
+    "subject": "global economy",
+    "value_raw": "2.8",
+    "unit_raw": "per cent",
+    "period_raw": "2025",
+    "qualifiers": {
+     "forecast": "true",
+     "source": "IMF World Economic Outlook April 2025"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 75,
+    "quote": "Output\ngrowth in advanced economies (AEs) increased\nmarginally to 1.8 per cent in 2024 as compared\nwith 1.7 per cent in 2023",
+    "kind": "numeric",
+    "metric": "Output growth in advanced economies",
+    "subject": "advanced economies",
+    "value_raw": "1.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 75,
+    "quote": "Output\ngrowth in advanced economies (AEs) increased\nmarginally to 1.8 per cent in 2024 as compared\nwith 1.7 per cent in 2023",
+    "kind": "numeric",
+    "metric": "Output growth in advanced economies",
+    "subject": "advanced economies",
+    "value_raw": "1.7",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 75,
+    "quote": "while that in emerging\nmarket and developing economies (EMDEs)\nmoderated to 4.3 per cent from 4.7 per cent.",
+    "kind": "numeric",
+    "metric": "Output growth in emerging market and developing economies",
+    "subject": "emerging market and developing economies",
+    "value_raw": "4.3",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 75,
+    "quote": "world trade volume (goods and\nservices) growth recovered from 1.0 per cent in\n2023 to 3.8 per cent in 2024",
+    "kind": "numeric",
+    "metric": "World trade volume (goods and services) growth",
+    "subject": "world trade",
+    "value_raw": "1.0",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 75,
+    "quote": "world trade volume (goods and\nservices) growth recovered from 1.0 per cent in\n2023 to 3.8 per cent in 2024",
+    "kind": "numeric",
+    "metric": "World trade volume (goods and services) growth",
+    "subject": "world trade",
+    "value_raw": "3.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 75,
+    "quote": "Emerging market economies (EMEs)\nrecorded net portfolio inflows of US$ 255.7\nbillion during 2024-25 as compared with US$\n220.1 billion during 2023-24",
+    "kind": "numeric",
+    "metric": "Net portfolio inflows",
+    "subject": "Emerging market economies (EMEs)",
+    "value_raw": "255.7",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 75,
+    "quote": "Emerging market economies (EMEs)\nrecorded net portfolio inflows of US$ 255.7\nbillion during 2024-25 as compared with US$\n220.1 billion during 2023-24",
+    "kind": "numeric",
+    "metric": "Net portfolio inflows",
+    "subject": "Emerging market economies (EMEs)",
+    "value_raw": "220.1",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 76,
+    "quote": "India’s merchandise exports increased\nmarginally by 0.1 per cent year-on-year (y-o-y)\nto US$ 437.4 billion in 2024-25",
+    "kind": "numeric",
+    "metric": "Merchandise exports value",
+    "subject": "India",
+    "value_raw": "437.4",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 76,
+    "quote": "India’s merchandise exports increased\nmarginally by 0.1 per cent year-on-year (y-o-y)\nto US$ 437.4 billion in 2024-25, recovering from\na contraction of 3.1 per cent witnessed in 2023-\n24.",
+    "kind": "numeric",
+    "metric": "Merchandise exports growth rate",
+    "subject": "India",
+    "value_raw": "-3.1",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "yoy": "true"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 76,
+    "quote": "Merchandise imports expanded by 6.2 per\ncent (y-o-y) to US$ 720.2 billion during 2024-25\nvis-à-vis a contraction of 5.3 per cent during the\nprevious year",
+    "kind": "numeric",
+    "metric": "Merchandise imports value",
+    "subject": "India",
+    "value_raw": "720.2",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 76,
+    "quote": "Merchandise imports expanded by 6.2 per\ncent (y-o-y) to US$ 720.2 billion during 2024-25\nvis-à-vis a contraction of 5.3 per cent during the\nprevious year",
+    "kind": "numeric",
+    "metric": "Merchandise imports growth rate",
+    "subject": "India",
+    "value_raw": "-5.3",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "yoy": "true"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 74,\n      \"quote\": \"Global economic growth moderated to\\n3.3 per cent in 2024 (3.5 per cent in 2023)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Global economic growth\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"3.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 74,\n      \"quote\": \"Global economic growth moderated to\\n3.3 per cent in 2024 (3.5 per cent in 2023)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Global economic growth\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"3.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 74,\n      \"quote\": \"expected to be even lower in 2025 (2.8 per cent)41\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Global economic growth expected\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"2.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025\",\n      \"qualifiers\": {\n        \"forecast\": \"true\",\n        \"source\": \"IMF World Economic Outlook April 2025\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 75,\n      \"quote\": \"Output\\ngrowth in advanced economies (AEs) increased\\nmarginally to 1.8 per cent in 2024 as compared\\nwith 1.7 per cent in 2023\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Output growth in advanced economies\",\n      \"subject\": \"advanced economies\",\n      \"value_raw\": \"1.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 75,\n      \"quote\": \"Output\\ngrowth in advanced economies (AEs) increased\\nmarginally to 1.8 per cent in 2024 as compared\\nwith 1.7 per cent in 2023\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Output growth in advanced economies\",\n      \"subject\": \"advanced economies\",\n      \"value_raw\": \"1.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 75,\n      \"quote\": \"while that in emerging\\nmarket and developing economies (EMDEs)\\nmoderated to 4.3 per cent from 4.7 per cent.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Output growth in emerging market and developing economies\",\n      \"subject\": \"emerging market and developing economies\",\n      \"value_raw\": \"4.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 75,\n      \"quote\": \"world trade volume (goods and\\nservices) growth recovered from 1.0 per cent in\\n2023 to 3.8 per cent in 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"World trade volume (goods and services) growth\",\n      \"subject\": \"world trade\",\n      \"value_raw\": \"1.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 75,\n      \"quote\": \"world trade volume (goods and\\nservices) growth recovered from 1.0 per cent in\\n2023 to 3.8 per cent in 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"World trade volume (goods and services) growth\",\n      \"subject\": \"world trade\",\n      \"value_raw\": \"3.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 75,\n      \"quote\": \"Emerging market economies (EMEs)\\nrecorded net portfolio inflows of US$ 255.7\\nbillion during 2024-25 as compared with US$\\n220.1 billion during 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net portfolio inflows\",\n      \"subject\": \"Emerging market economies (EMEs)\",\n      \"value_raw\": \"255.7\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 75,\n      \"quote\": \"Emerging market economies (EMEs)\\nrecorded net portfolio inflows of US$ 255.7\\nbillion during 2024-25 as compared with US$\\n220.1 billion during 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net portfolio inflows\",\n      \"subject\": \"Emerging market economies (EMEs)\",\n      \"value_raw\": \"220.1\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 76,\n      \"quote\": \"India’s merchandise exports increased\\nmarginally by 0.1 per cent year-on-year (y-o-y)\\nto US$ 437.4 billion in 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Merchandise exports value\",\n      \"subject\": \"India\",\n      \"value_raw\": \"437.4\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 76,\n      \"quote\": \"India’s merchandise exports increased\\nmarginally by 0.1 per cent year-on-year (y-o-y)\\nto US$ 437.4 billion in 2024-25, recovering from\\na contraction of 3.1 per cent witnessed in 2023-\\n24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Merchandise exports growth rate\",\n      \"subject\": \"India\",\n      \"value_raw\": \"-3.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"yoy\": \"true\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 76,\n      \"quote\": \"Merchandise imports expanded by 6.2 per\\ncent (y-o-y) to US$ 720.2 billion during 2024-25\\nvis-à-vis a contraction of 5.3 per cent during the\\nprevious year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Merchandise imports value\",\n      \"subject\": \"India\",\n      \"value_raw\": \"720.2\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 76,\n      \"quote\": \"Merchandise imports expanded by 6.2 per\\ncent (y-o-y) to US$ 720.2 billion during 2024-25\\nvis-à-vis a contraction of 5.3 per cent during the\\nprevious year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Merchandise imports growth rate\",\n      \"subject\": \"India\",\n      \"value_raw\": \"-5.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"yoy\": \"true\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-rbi-annual-report-2024-25-excerpt-73209a2c:b74"
+}

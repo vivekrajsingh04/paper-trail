@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures net foreign portfolio investment for a specific country or entity, while Fact B measures net portfolio inflows across all emerging market economies globally."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures net foreign portfolio investment for a specific country or entity, while Fact B measures net portfolio inflows across all emerging market economies globally.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

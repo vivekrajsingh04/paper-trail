@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Current Account Balance includes trade in goods and services, income, and current transfers, whereas Trade Balance measures only the difference between a country's exports and imports of goods and services."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Current Account Balance includes trade in goods and services, income, and current transfers, whereas Trade Balance measures only the difference between a country's exports and imports of goods and services.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

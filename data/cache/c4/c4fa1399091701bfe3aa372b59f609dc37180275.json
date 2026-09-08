@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the utilisation limit specifically for the FAR (Fully Accessible Route) FPI investment, whereas Metric B measures it for the General Route, making them two distinct investment channels."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the utilisation limit specifically for the FAR (Fully Accessible Route) FPI investment, whereas Metric B measures it for the General Route, making them two distinct investment channels.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

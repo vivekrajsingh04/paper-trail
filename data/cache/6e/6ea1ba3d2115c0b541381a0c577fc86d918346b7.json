@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the share denominated in INR, whereas Metric B measures the share that is explicitly hedged, which are two distinct attributes of the ECB agreement amount."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the share denominated in INR, whereas Metric B measures the share that is explicitly hedged, which are two distinct attributes of the ECB agreement amount.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

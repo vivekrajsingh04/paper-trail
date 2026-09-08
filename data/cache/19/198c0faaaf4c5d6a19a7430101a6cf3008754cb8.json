@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net FDI (Foreign Direct Investment) flows and Net FPI (Foreign Portfolio Investment) inflows measure two entirely different types of international capital investments."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net FDI (Foreign Direct Investment) flows and Net FPI (Foreign Portfolio Investment) inflows measure two entirely different types of international capital investments.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

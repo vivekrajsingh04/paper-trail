@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure different economic indicators: one focuses on the destination of India's outward investment, while the other measures the contribution of a specific group of countries to global FDI outflows."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure different economic indicators: one focuses on the destination of India's outward investment, while the other measures the contribution of a specific group of countries to global FDI outflows.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

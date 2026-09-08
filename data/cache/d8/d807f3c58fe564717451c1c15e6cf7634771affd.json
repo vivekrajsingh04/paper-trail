@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "CPI headline inflation measures actual realized price changes for India, whereas headline inflation expectation represents a forecasted rate by the RBI."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"CPI headline inflation measures actual realized price changes for India, whereas headline inflation expectation represents a forecasted rate by the RBI.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

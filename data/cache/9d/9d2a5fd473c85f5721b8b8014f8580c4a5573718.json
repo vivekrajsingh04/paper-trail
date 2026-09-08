@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Government Final Consumption Expenditure measures current spending on goods and services, whereas capital outlay measures investment spending on assets, representing two distinct categories of government expenditure."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Government Final Consumption Expenditure measures current spending on goods and services, whereas capital outlay measures investment spending on assets, representing two distinct categories of government expenditure.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

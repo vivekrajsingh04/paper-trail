@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics refer to different reporting stages (second advance estimates for 2024-25 versus final estimates for 2023-24) and represent distinct temporal datasets."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics refer to different reporting stages (second advance estimates for 2024-25 versus final estimates for 2023-24) and represent distinct temporal datasets.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

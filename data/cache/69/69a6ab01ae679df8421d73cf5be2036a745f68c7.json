@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Non-Resident Deposits (1+2+3) represents a broader aggregate of multiple deposit types, whereas Non-Resident External (Rupee) Account flows refers to a specific sub-category of those deposits."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Non-Resident Deposits (1+2+3) represents a broader aggregate of multiple deposit types, whereas Non-Resident External (Rupee) Account flows refers to a specific sub-category of those deposits.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,459 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 10,
+    "quote": "gross fiscal deficit (GFD) declining to 4.7 per cent of GDP in 2024-25 [revised estimates (RE)]",
+    "kind": "numeric",
+    "metric": "gross fiscal deficit (GFD) as per cent of GDP",
+    "subject": "central government",
+    "value_raw": "4.7",
+    "unit_raw": "per cent of GDP",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "estimate_type": "revised estimates (RE)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 10,
+    "quote": "from 5.5 per cent of GDP in 2023-24",
+    "kind": "numeric",
+    "metric": "gross fiscal deficit (GFD) as per cent of GDP",
+    "subject": "central government",
+    "value_raw": "5.5",
+    "unit_raw": "per cent of GDP",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 10,
+    "quote": "effective capital expenditure5 registered a growth of 5.2 per cent",
+    "kind": "numeric",
+    "metric": "growth in effective capital expenditure",
+    "subject": "central government",
+    "value_raw": "5.2",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "estimate_type": "revised estimates (RE)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 10,
+    "quote": "aggregate WMA limit of the state governments/UTs was revised to ₹60,118 crore",
+    "kind": "numeric",
+    "metric": "aggregate ways and means advances (WMA) limit",
+    "subject": "state governments/union territories (UTs)",
+    "value_raw": "60,118",
+    "unit_raw": "₹ crore",
+    "period_raw": "effective from July 1, 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 10,
+    "quote": "merchandise exports grew marginally by 0.1 per cent in 2024-25",
+    "kind": "numeric",
+    "metric": "growth in merchandise exports",
+    "subject": "India",
+    "value_raw": "0.1",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 10,
+    "quote": "merchandise trade deficit widened to US$ 282.8 billion during 2024-25",
+    "kind": "numeric",
+    "metric": "merchandise trade deficit",
+    "subject": "India",
+    "value_raw": "282.8",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "global economy is projected8 to grow by 2.8 per cent in 2025",
+    "kind": "numeric",
+    "metric": "projected global economic growth",
+    "subject": "global economy",
+    "value_raw": "2.8",
+    "unit_raw": "per cent",
+    "period_raw": "2025",
+    "qualifiers": {
+     "source": "IMF World Economic Outlook, April 2025"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "growth in EMDEs is projected at 3.7 per cent in 2025",
+    "kind": "numeric",
+    "metric": "projected economic growth",
+    "subject": "EMDEs",
+    "value_raw": "3.7",
+    "unit_raw": "per cent",
+    "period_raw": "2025",
+    "qualifiers": {
+     "source": "IMF World Economic Outlook, April 2025"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "Global inflation is expected to moderate from 5.7 per cent in 2024",
+    "kind": "numeric",
+    "metric": "global inflation",
+    "subject": "global economy",
+    "value_raw": "5.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 14,
+    "quote": "Global merchandise trade volume is projected to contract by 0.2 per cent in 20259",
+    "kind": "numeric",
+    "metric": "projected contraction in global merchandise trade volume",
+    "subject": "global trade",
+    "value_raw": "0.2",
+    "unit_raw": "per cent",
+    "period_raw": "2025",
+    "qualifiers": {
+     "scenario": "adjusted scenario based on the tariff situation as of April 14, 2025",
+     "source": "WTO Global Trade Outlook and Statistics Update, April 2025"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "real GDP growth for 2025-26 is projected at 6.5 per cent",
+    "kind": "numeric",
+    "metric": "projected real GDP growth",
+    "subject": "India",
+    "value_raw": "6.5",
+    "unit_raw": "per cent",
+    "period_raw": "2025-26",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "target of 100 gigawatt (GW) of nuclear power capacity by 2047",
+    "kind": "numeric",
+    "metric": "target nuclear power capacity",
+    "subject": "India",
+    "value_raw": "100",
+    "unit_raw": "gigawatt (GW)",
+    "period_raw": "by 2047",
+    "qualifiers": {
+     "source": "Union Budget 2025-26"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "India’s relatively low share of research & development (R&D) expenditure in GDP (0.6 per cent)",
+    "kind": "numeric",
+    "metric": "share of research & development (R&D) expenditure in GDP",
+    "subject": "India",
+    "value_raw": "0.6",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {
+     "source": "World Development Indicators, World Bank"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "headline inflation eased by 73 bps to 4.6 per cent in 2024-25",
+    "kind": "numeric",
+    "metric": "headline inflation",
+    "subject": "India",
+    "value_raw": "4.6",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "change": "eased by 73 bps"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "CPI inflation for 2025-26 is projected at 4.0 per cent",
+    "kind": "numeric",
+    "metric": "projected CPI inflation",
+    "subject": "India",
+    "value_raw": "4.0",
+    "unit_raw": "per cent",
+    "period_raw": "2025-26",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 16,
+    "quote": "MPC in its April 2025 meeting unanimously voted to reduce the policy repo rate by 25 bps to 6.0 per cent",
+    "kind": "numeric",
+    "metric": "policy repo rate",
+    "subject": "Reserve Bank of India",
+    "value_raw": "6.0",
+    "unit_raw": "per cent",
+    "period_raw": "April 2025",
+    "qualifiers": {
+     "change": "reduced by 25 bps"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 21,
+    "quote": "Global GDP grew by 3.3 per cent in 2024",
+    "kind": "numeric",
+    "metric": "global GDP growth",
+    "subject": "global economy",
+    "value_raw": "3.3",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {
+     "source": "IMF World Economic Outlook, April 2025"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 21,
+    "quote": "Global inflation eased to 5.7 per cent in 2024",
+    "kind": "numeric",
+    "metric": "global inflation",
+    "subject": "global economy",
+    "value_raw": "5.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 21,
+    "quote": "Global goods and services trade volume growth recovered to 3.8 per cent in 2024",
+    "kind": "numeric",
+    "metric": "global goods and services trade volume growth",
+    "subject": "global trade",
+    "value_raw": "3.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024",
+    "qualifiers": {
+     "source": "IMF World Economic Outlook, April 2025"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 21,
+    "quote": "real gross domestic product (GDP) growth moderated to 6.5 per cent4 in 2024-25",
+    "kind": "numeric",
+    "metric": "real GDP growth",
+    "subject": "India",
+    "value_raw": "6.5",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 23,
+    "quote": "real GDP rose (y-o-y) by 6.5 per cent in Q1:2024-25",
+    "kind": "numeric",
+    "metric": "real GDP growth (y-o-y)",
+    "subject": "India",
+    "value_raw": "6.5",
+    "unit_raw": "per cent",
+    "period_raw": "Q1:2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 23,
+    "quote": "Growth in private final consumption expenditure (PFCE) – the main component of aggregate demand – improved to 7.6 per cent in 2024-25",
+    "kind": "numeric",
+    "metric": "growth in private final consumption expenditure (PFCE)",
+    "subject": "India",
+    "value_raw": "7.6",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 23,
+    "quote": "share of PFCE in real GDP increased to 56.7 per cent in 2024-25",
+    "kind": "numeric",
+    "metric": "share of PFCE in real GDP",
+    "subject": "India",
+    "value_raw": "56.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 23,
+    "quote": "Government final consumption expenditure (GFCE) grew at a modest 3.8 per cent in 2024-25",
+    "kind": "numeric",
+    "metric": "growth in government final consumption expenditure (GFCE)",
+    "subject": "India",
+    "value_raw": "3.8",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 23,
+    "quote": "rate of gross domestic investment in the Indian economy, measured by the ratio of gross capital formation (GCF) to GDP at current prices, declined to 31.4 per cent in 2023-24",
+    "kind": "numeric",
+    "metric": "rate of gross domestic investment (GCF to GDP at current prices)",
+    "subject": "India",
+    "value_raw": "31.4",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "net capital inflow from the rest of the world (ROW), which fell to 0.7 per cent of GDP in 2023-24",
+    "kind": "numeric",
+    "metric": "net capital inflow from the rest of the world (ROW) as per cent of GDP",
+    "subject": "India",
+    "value_raw": "0.7",
+    "unit_raw": "per cent of GDP",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "government capital outlay (Centre and states6 combined) declined by 2.7 per cent (y-o-y) during 2024-25 (up to February 2025)",
+    "kind": "numeric",
+    "metric": "growth in combined government capital outlay (y-o-y)",
+    "subject": "central and state governments combined",
+    "value_raw": "-2.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25 (up to February 2025)",
+    "qualifiers": {
+     "states_included": "20 states"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "capacity utilisation (CU) of the manufacturing sector at 75.3 per cent in Q3:2024-25",
+    "kind": "numeric",
+    "metric": "seasonally adjusted capacity utilisation (CU) of the manufacturing sector",
+    "subject": "manufacturing sector",
+    "value_raw": "75.3",
+    "unit_raw": "per cent",
+    "period_raw": "Q3:2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "Gross domestic saving as per cent to gross national disposable income (GNDI) remained steady at 30.3 per cent in 2023-24",
+    "kind": "numeric",
+    "metric": "gross domestic saving as per cent of gross national disposable income (GNDI)",
+    "subject": "India",
+    "value_raw": "30.3",
+    "unit_raw": "per cent of GNDI",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 24,
+    "quote": "household financial saving (net) improved to 5.1 per cent of GNDI in 2023-24",
+    "kind": "numeric",
+    "metric": "net household financial saving as per cent of GNDI",
+    "subject": "household sector",
+    "value_raw": "5.1",
+    "unit_raw": "per cent of GNDI",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 25,
+    "quote": "real gross value added (GVA) at basic prices – expanded by 6.4 per cent in 2024-25",
+    "kind": "numeric",
+    "metric": "real GVA growth at basic prices",
+    "subject": "India",
+    "value_raw": "6.4",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 25,
+    "quote": "overall SWM rainfall in 2024 (June-September) was 108 per cent8 of the long-period average (LPA)",
+    "kind": "numeric",
+    "metric": "south-west monsoon (SWM) rainfall as per cent of long-period average (LPA)",
+    "subject": "India",
+    "value_raw": "108",
+    "unit_raw": "per cent of LPA",
+    "period_raw": "2024 (June-September)",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "replenish reservoir levels to 88 per cent of the capacity by the end of the SWM season",
+    "kind": "numeric",
+    "metric": "reservoir levels as per cent of capacity",
+    "subject": "India",
+    "value_raw": "88",
+    "unit_raw": "per cent of the capacity",
+    "period_raw": "end of SWM season 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "placed foodgrains production during 2024-25 (kharif and rabi) at 3,309.2 lakh tonne",
+    "kind": "numeric",
+    "metric": "foodgrains production (kharif and rabi)",
+    "subject": "India",
+    "value_raw": "3,309.2",
+    "unit_raw": "lakh tonne",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "estimate_type": "second advance estimates (SAE)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 26,
+    "quote": "output of horticultural crops during 2024-25 was placed at 3,620.9 lakh tonne",
+    "kind": "numeric",
+    "metric": "output of horticultural crops",
+    "subject": "India",
+    "value_raw": "3,620.9",
+    "unit_raw": "lakh tonne",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "estimate_type": "first advance estimates (FAE)"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 10,\n      \"quote\": \"gross fiscal deficit (GFD) declining to 4.7 per cent of GDP in 2024-25 [revised estimates (RE)]\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross fiscal deficit (GFD) as per cent of GDP\",\n      \"subject\": \"central government\",\n      \"value_raw\": \"4.7\",\n      \"unit_raw\": \"per cent of GDP\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"estimate_type\": \"revised estimates (RE)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 10,\n      \"quote\": \"from 5.5 per cent of GDP in 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross fiscal deficit (GFD) as per cent of GDP\",\n      \"subject\": \"central government\",\n      \"value_raw\": \"5.5\",\n      \"unit_raw\": \"per cent of GDP\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 10,\n      \"quote\": \"effective capital expenditure5 registered a growth of 5.2 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"growth in effective capital expenditure\",\n      \"subject\": \"central government\",\n      \"value_raw\": \"5.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"estimate_type\": \"revised estimates (RE)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 10,\n      \"quote\": \"aggregate WMA limit of the state governments/UTs was revised to ₹60,118 crore\",\n      \"kind\": \"numeric\",\n      \"metric\": \"aggregate ways and means advances (WMA) limit\",\n      \"subject\": \"state governments/union territories (UTs)\",\n      \"value_raw\": \"60,118\",\n      \"unit_raw\": \"₹ crore\",\n      \"period_raw\": \"effective from July 1, 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 10,\n      \"quote\": \"merchandise exports grew marginally by 0.1 per cent in 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"growth in merchandise exports\",\n      \"subject\": \"India\",\n      \"value_raw\": \"0.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 10,\n      \"quote\": \"merchandise trade deficit widened to US$ 282.8 billion during 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"merchandise trade deficit\",\n      \"subject\": \"India\",\n      \"value_raw\": \"282.8\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"global economy is projected8 to grow by 2.8 per cent in 2025\",\n      \"kind\": \"numeric\",\n      \"metric\": \"projected global economic growth\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"2.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025\",\n      \"qualifiers\": {\n        \"source\": \"IMF World Economic Outlook, April 2025\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"growth in EMDEs is projected at 3.7 per cent in 2025\",\n      \"kind\": \"numeric\",\n      \"metric\": \"projected economic growth\",\n      \"subject\": \"EMDEs\",\n      \"value_raw\": \"3.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025\",\n      \"qualifiers\": {\n        \"source\": \"IMF World Economic Outlook, April 2025\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"Global inflation is expected to moderate from 5.7 per cent in 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global inflation\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"5.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 14,\n      \"quote\": \"Global merchandise trade volume is projected to contract by 0.2 per cent in 20259\",\n      \"kind\": \"numeric\",\n      \"metric\": \"projected contraction in global merchandise trade volume\",\n      \"subject\": \"global trade\",\n      \"value_raw\": \"0.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025\",\n      \"qualifiers\": {\n        \"scenario\": \"adjusted scenario based on the tariff situation as of April 14, 2025\",\n        \"source\": \"WTO Global Trade Outlook and Statistics Update, April 2025\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"real GDP growth for 2025-26 is projected at 6.5 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"projected real GDP growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025-26\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"target of 100 gigawatt (GW) of nuclear power capacity by 2047\",\n      \"kind\": \"numeric\",\n      \"metric\": \"target nuclear power capacity\",\n      \"subject\": \"India\",\n      \"value_raw\": \"100\",\n      \"unit_raw\": \"gigawatt (GW)\",\n      \"period_raw\": \"by 2047\",\n      \"qualifiers\": {\n        \"source\": \"Union Budget 2025-26\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"India’s relatively low share of research & development (R&D) expenditure in GDP (0.6 per cent)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of research & development (R&D) expenditure in GDP\",\n      \"subject\": \"India\",\n      \"value_raw\": \"0.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"source\": \"World Development Indicators, World Bank\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"headline inflation eased by 73 bps to 4.6 per cent in 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"headline inflation\",\n      \"subject\": \"India\",\n      \"value_raw\": \"4.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"change\": \"eased by 73 bps\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"CPI inflation for 2025-26 is projected at 4.0 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"projected CPI inflation\",\n      \"subject\": \"India\",\n      \"value_raw\": \"4.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2025-26\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 16,\n      \"quote\": \"MPC in its April 2025 meeting unanimously voted to reduce the policy repo rate by 25 bps to 6.0 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"policy repo rate\",\n      \"subject\": \"Reserve Bank of India\",\n      \"value_raw\": \"6.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April 2025\",\n      \"qualifiers\": {\n        \"change\": \"reduced by 25 bps\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 21,\n      \"quote\": \"Global GDP grew by 3.3 per cent in 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global GDP growth\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"3.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"source\": \"IMF World Economic Outlook, April 2025\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 21,\n      \"quote\": \"Global inflation eased to 5.7 per cent in 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global inflation\",\n      \"subject\": \"global economy\",\n      \"value_raw\": \"5.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 21,\n      \"quote\": \"Global goods and services trade volume growth recovered to 3.8 per cent in 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global goods and services trade volume growth\",\n      \"subject\": \"global trade\",\n      \"value_raw\": \"3.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"source\": \"IMF World Economic Outlook, April 2025\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 21,\n      \"quote\": \"real gross domestic product (GDP) growth moderated to 6.5 per cent4 in 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real GDP growth\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 23,\n      \"quote\": \"real GDP rose (y-o-y) by 6.5 per cent in Q1:2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real GDP growth (y-o-y)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q1:2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 23,\n      \"quote\": \"Growth in private final consumption expenditure (PFCE) – the main component of aggregate demand – improved to 7.6 per cent in 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"growth in private final consumption expenditure (PFCE)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"7.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 23,\n      \"quote\": \"share of PFCE in real GDP increased to 56.7 per cent in 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of PFCE in real GDP\",\n      \"subject\": \"India\",\n      \"value_raw\": \"56.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 23,\n      \"quote\": \"Government final consumption expenditure (GFCE) grew at a modest 3.8 per cent in 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"growth in government final consumption expenditure (GFCE)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"3.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 23,\n      \"quote\": \"rate of gross domestic investment in the Indian economy, measured by the ratio of gross capital formation (GCF) to GDP at current prices, declined to 31.4 per cent in 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"rate of gross domestic investment (GCF to GDP at current prices)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"31.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"net capital inflow from the rest of the world (ROW), which fell to 0.7 per cent of GDP in 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net capital inflow from the rest of the world (ROW) as per cent of GDP\",\n      \"subject\": \"India\",\n      \"value_raw\": \"0.7\",\n      \"unit_raw\": \"per cent of GDP\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"government capital outlay (Centre and states6 combined) declined by 2.7 per cent (y-o-y) during 2024-25 (up to February 2025)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"growth in combined government capital outlay (y-o-y)\",\n      \"subject\": \"central and state governments combined\",\n      \"value_raw\": \"-2.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25 (up to February 2025)\",\n      \"qualifiers\": {\n        \"states_included\": \"20 states\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"capacity utilisation (CU) of the manufacturing sector at 75.3 per cent in Q3:2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"seasonally adjusted capacity utilisation (CU) of the manufacturing sector\",\n      \"subject\": \"manufacturing sector\",\n      \"value_raw\": \"75.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q3:2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"Gross domestic saving as per cent to gross national disposable income (GNDI) remained steady at 30.3 per cent in 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross domestic saving as per cent of gross national disposable income (GNDI)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"30.3\",\n      \"unit_raw\": \"per cent of GNDI\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 24,\n      \"quote\": \"household financial saving (net) improved to 5.1 per cent of GNDI in 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net household financial saving as per cent of GNDI\",\n      \"subject\": \"household sector\",\n      \"value_raw\": \"5.1\",\n      \"unit_raw\": \"per cent of GNDI\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 25,\n      \"quote\": \"real gross value added (GVA) at basic prices – expanded by 6.4 per cent in 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"real GVA growth at basic prices\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 25,\n      \"quote\": \"overall SWM rainfall in 2024 (June-September) was 108 per cent8 of the long-period average (LPA)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"south-west monsoon (SWM) rainfall as per cent of long-period average (LPA)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"108\",\n      \"unit_raw\": \"per cent of LPA\",\n      \"period_raw\": \"2024 (June-September)\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"replenish reservoir levels to 88 per cent of the capacity by the end of the SWM season\",\n      \"kind\": \"numeric\",\n      \"metric\": \"reservoir levels as per cent of capacity\",\n      \"subject\": \"India\",\n      \"value_raw\": \"88\",\n      \"unit_raw\": \"per cent of the capacity\",\n      \"period_raw\": \"end of SWM season 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"placed foodgrains production during 2024-25 (kharif and rabi) at 3,309.2 lakh tonne\",\n      \"kind\": \"numeric\",\n      \"metric\": \"foodgrains production (kharif and rabi)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"3,309.2\",\n      \"unit_raw\": \"lakh tonne\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"estimate_type\": \"second advance estimates (SAE)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 26,\n      \"quote\": \"output of horticultural crops during 2024-25 was placed at 3,620.9 lakh tonne\",\n      \"kind\": \"numeric\",\n      \"metric\": \"output of horticultural crops\",\n      \"subject\": \"India\",\n      \"value_raw\": \"3,620.9\",\n      \"unit_raw\": \"lakh tonne\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"estimate_type\": \"first advance estimates (FAE)\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "extract:02-rbi-annual-report-2024-25-excerpt-73209a2c:b10"
+}

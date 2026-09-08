@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net capital inflow measures the flow of all financial assets over a specific period, whereas stock of inward FDI measures the cumulative value of foreign direct investment holdings."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net capital inflow measures the flow of all financial assets over a specific period, whereas stock of inward FDI measures the cumulative value of foreign direct investment holdings.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The current account deficit is a specific component of the broader balance of payments, and the trade balance is a separate component of the current account, making them distinct metrics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The current account deficit is a specific component of the broader balance of payments, and the trade balance is a separate component of the current account, making them distinct metrics.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

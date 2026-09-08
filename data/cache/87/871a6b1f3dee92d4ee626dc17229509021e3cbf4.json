@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Global economic growth and global GDP growth are standard synonyms used interchangeably in economic reporting to describe the same aggregate output metric."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Global economic growth and global GDP growth are standard synonyms used interchangeably in economic reporting to describe the same aggregate output metric.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

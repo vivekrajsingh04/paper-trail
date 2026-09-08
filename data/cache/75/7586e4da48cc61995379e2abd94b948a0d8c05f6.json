@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "They measure rice production for two different time periods and estimation rounds (2023-24 Final Estimates versus 2024-25 Second Advance Estimates)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"They measure rice production for two different time periods and estimation rounds (2023-24 Final Estimates versus 2024-25 Second Advance Estimates).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

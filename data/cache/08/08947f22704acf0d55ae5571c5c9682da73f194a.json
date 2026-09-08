@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "B",
+  "reason": "Net purchases by mutual funds is a broader category that includes equity-oriented schemes as well as other asset classes like debt or hybrid funds."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Net purchases by mutual funds is a broader category that includes equity-oriented schemes as well as other asset classes like debt or hybrid funds.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

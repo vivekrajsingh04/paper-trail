@@ -1,0 +1,1255 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 55,
+    "quote": "13,260",
+    "kind": "numeric",
+    "metric": "Number of Observations",
+    "subject": "All Sectors - Borrowings from Banks",
+    "value_raw": "13,260",
+    "unit_raw": null,
+    "period_raw": "2013-14 to 2023-24",
+    "qualifiers": {
+     "sector": "all sectors",
+     "borrowing_type": "borrowings from banks",
+     "data_source": "CMIE Prowess and DBIE, RBI"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "15,362",
+    "kind": "numeric",
+    "metric": "Number of Observations",
+    "subject": "All Sectors - Total Borrowings",
+    "value_raw": "15,362",
+    "unit_raw": null,
+    "period_raw": "2013-14 to 2023-24",
+    "qualifiers": {
+     "sector": "all sectors",
+     "borrowing_type": "total borrowings",
+     "data_source": "CMIE Prowess and DBIE, RBI"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "4,243",
+    "kind": "numeric",
+    "metric": "Number of Observations",
+    "subject": "Services Sector - Borrowings from Banks",
+    "value_raw": "4,243",
+    "unit_raw": null,
+    "period_raw": "2013-14 to 2023-24",
+    "qualifiers": {
+     "sector": "services sector",
+     "borrowing_type": "borrowings from banks",
+     "data_source": "CMIE Prowess and DBIE, RBI"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 55,
+    "quote": "5,456",
+    "kind": "numeric",
+    "metric": "Number of Observations",
+    "subject": "Services Sector - Total Borrowings",
+    "value_raw": "5,456",
+    "unit_raw": null,
+    "period_raw": "2013-14 to 2023-24",
+    "qualifiers": {
+     "sector": "services sector",
+     "borrowing_type": "total borrowings",
+     "data_source": "CMIE Prowess and DBIE, RBI"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 59,
+    "quote": "10",
+    "kind": "numeric",
+    "metric": "Increase in average daily volume in the money market",
+    "subject": "money market",
+    "value_raw": "10",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "comparison": "previous year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 59,
+    "quote": "5.5",
+    "kind": "numeric",
+    "metric": "Average daily volume in the money market",
+    "subject": "money market",
+    "value_raw": "5.5",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 59,
+    "quote": "2",
+    "kind": "numeric",
+    "metric": "Share of call/notice money in the money market",
+    "subject": "call/notice money",
+    "value_raw": "2",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "market_segment": "collateralised segment",
+     "status": "mostly stable"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 59,
+    "quote": "66",
+    "kind": "numeric",
+    "metric": "Share of triparty repo within the collateralised segment",
+    "subject": "triparty repo",
+    "value_raw": "66",
+    "unit_raw": "per cent",
+    "period_raw": "Q1:2024-25",
+    "qualifiers": {
+     "market_segment": "collateralised segment"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 59,
+    "quote": "72",
+    "kind": "numeric",
+    "metric": "Share of triparty repo within the collateralised segment",
+    "subject": "triparty repo",
+    "value_raw": "72",
+    "unit_raw": "per cent",
+    "period_raw": "Q3:2024-25",
+    "qualifiers": {
+     "market_segment": "collateralised segment"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 59,
+    "quote": "68",
+    "kind": "numeric",
+    "metric": "Share of triparty repo within the collateralised segment",
+    "subject": "triparty repo",
+    "value_raw": "68",
+    "unit_raw": "per cent",
+    "period_raw": "Q4:2024-25",
+    "qualifiers": {
+     "market_segment": "collateralised segment"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 59,
+    "quote": "2.8",
+    "kind": "numeric",
+    "metric": "Fresh issuance of CDs",
+    "subject": "certificates of deposit (CDs)",
+    "value_raw": "2.8",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "Q2:2024-25",
+    "qualifiers": {
+     "market_type": "primary market"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 59,
+    "quote": "2.5",
+    "kind": "numeric",
+    "metric": "Fresh issuance of CDs",
+    "subject": "certificates of deposit (CDs)",
+    "value_raw": "2.5",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "Q1:2024-25",
+    "qualifiers": {
+     "market_type": "primary market"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 59,
+    "quote": "2.9",
+    "kind": "numeric",
+    "metric": "Fresh issuance of CDs",
+    "subject": "certificates of deposit (CDs)",
+    "value_raw": "2.9",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "Q3:2024-25",
+    "qualifiers": {
+     "market_type": "primary market"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 59,
+    "quote": "3.7",
+    "kind": "numeric",
+    "metric": "Fresh issuance of CDs",
+    "subject": "certificates of deposit (CDs)",
+    "value_raw": "3.7",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "Q4:2024-25",
+    "qualifiers": {
+     "market_type": "primary market"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 59,
+    "quote": "11.9",
+    "kind": "numeric",
+    "metric": "Total CD issuances",
+    "subject": "certificates of deposit (CDs)",
+    "value_raw": "11.9",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 59,
+    "quote": "8.7",
+    "kind": "numeric",
+    "metric": "Total CD issuances",
+    "subject": "certificates of deposit (CDs)",
+    "value_raw": "8.7",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "comparison": "previous year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 61,
+    "quote": "907",
+    "kind": "numeric",
+    "metric": "Total Observations",
+    "subject": "GARCH (1,1) Estimation Results",
+    "value_raw": "907",
+    "unit_raw": null,
+    "period_raw": null,
+    "qualifiers": {
+     "model": "GARCH (1,1) estimation"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 62,
+    "quote": "3.7",
+    "kind": "numeric",
+    "metric": "New issuances of CPs in the primary market",
+    "subject": "commercial papers (CPs)",
+    "value_raw": "3.7",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "Q2:2024-25",
+    "qualifiers": {
+     "market_type": "primary market"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 62,
+    "quote": "3.8",
+    "kind": "numeric",
+    "metric": "New issuances of CPs in the primary market",
+    "subject": "commercial papers (CPs)",
+    "value_raw": "3.8",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "Q1:2024-25",
+    "qualifiers": {
+     "market_type": "primary market"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 62,
+    "quote": "3.8",
+    "kind": "numeric",
+    "metric": "New issuances of CPs in the primary market",
+    "subject": "commercial papers (CPs)",
+    "value_raw": "3.8",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "Q3:2024-25",
+    "qualifiers": {
+     "market_type": "primary market"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 62,
+    "quote": "4.4",
+    "kind": "numeric",
+    "metric": "New issuances of CPs in the primary market",
+    "subject": "commercial papers (CPs)",
+    "value_raw": "4.4",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "Q4:2024-25",
+    "qualifiers": {
+     "market_type": "primary market"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 62,
+    "quote": "15.7",
+    "kind": "numeric",
+    "metric": "Fresh issuances of CPs",
+    "subject": "commercial papers (CPs)",
+    "value_raw": "15.7",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 62,
+    "quote": "13.8",
+    "kind": "numeric",
+    "metric": "Fresh issuances of CPs",
+    "subject": "commercial papers (CPs)",
+    "value_raw": "13.8",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "comparison": "previous year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 62,
+    "quote": "7.01",
+    "kind": "numeric",
+    "metric": "10-year generic G-sec yield",
+    "subject": "10-year generic G-sec",
+    "value_raw": "7.01",
+    "unit_raw": "per cent",
+    "period_raw": "Q1:2024-25",
+    "qualifiers": {
+     "tenor": "10-year",
+     "timing": "end of Q1:2024-25"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 62,
+    "quote": "5",
+    "kind": "numeric",
+    "metric": "Decline in 10-year generic G-sec yield",
+    "subject": "10-year generic G-sec",
+    "value_raw": "5",
+    "unit_raw": "bps",
+    "period_raw": "Q1:2024-25",
+    "qualifiers": {
+     "tenor": "10-year",
+     "comparison": "level as at end-March 2024"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 62,
+    "quote": "6.75",
+    "kind": "numeric",
+    "metric": "10-year generic G-sec yield",
+    "subject": "10-year generic G-sec",
+    "value_raw": "6.75",
+    "unit_raw": "per cent",
+    "period_raw": "Q2:2024-25",
+    "qualifiers": {
+     "tenor": "10-year",
+     "timing": "end of Q2:2024-25"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 62,
+    "quote": "26",
+    "kind": "numeric",
+    "metric": "Decline in 10-year generic G-sec yield",
+    "subject": "10-year generic G-sec",
+    "value_raw": "26",
+    "unit_raw": "bps",
+    "period_raw": "Q2:2024-25",
+    "qualifiers": {
+     "tenor": "10-year",
+     "comparison": "level at end-June 2024"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 62,
+    "quote": "4.0",
+    "kind": "numeric",
+    "metric": "Lower CPI inflation prints",
+    "subject": "CPI inflation",
+    "value_raw": "4.0",
+    "unit_raw": "per cent",
+    "period_raw": "July and August 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 62,
+    "quote": "6.76",
+    "kind": "numeric",
+    "metric": "10-year generic G-sec yield",
+    "subject": "10-year generic G-sec",
+    "value_raw": "6.76",
+    "unit_raw": "per cent",
+    "period_raw": "end-December 2024",
+    "qualifiers": {
+     "tenor": "10-year",
+     "timing": "end-December 2024"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "6.87",
+    "kind": "numeric",
+    "metric": "10-year generic G-sec yield high",
+    "subject": "10-year generic G-sec",
+    "value_raw": "6.87",
+    "unit_raw": "per cent",
+    "period_raw": "first fortnight of Q4:2024-25",
+    "qualifiers": {
+     "tenor": "10-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "2.83",
+    "kind": "numeric",
+    "metric": "OMO purchases of government securities",
+    "subject": "government securities",
+    "value_raw": "2.83",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "Q4:2024-25",
+    "qualifiers": {
+     "operation_type": "OMO purchases"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "2.18",
+    "kind": "numeric",
+    "metric": "USD/INR buy-sell swaps",
+    "subject": "USD/INR buy-sell swaps",
+    "value_raw": "2.18",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "Q4:2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "25",
+    "kind": "numeric",
+    "metric": "Policy repo rate cut",
+    "subject": "policy repo rate",
+    "value_raw": "25",
+    "unit_raw": "bps",
+    "period_raw": "February bi-monthly meeting 2025",
+    "qualifiers": {
+     "action": "cut"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "6.58",
+    "kind": "numeric",
+    "metric": "10-year generic G-sec yield",
+    "subject": "10-year generic G-sec",
+    "value_raw": "6.58",
+    "unit_raw": "per cent",
+    "period_raw": "end-March 2025",
+    "qualifiers": {
+     "tenor": "10-year",
+     "timing": "end-March 2025"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "18",
+    "kind": "numeric",
+    "metric": "Decline in 10-year generic G-sec yield",
+    "subject": "10-year generic G-sec",
+    "value_raw": "18",
+    "unit_raw": "bps",
+    "period_raw": "Q4:2024-25",
+    "qualifiers": {
+     "tenor": "10-year",
+     "comparison": "level as at end-December 2024"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "48",
+    "kind": "numeric",
+    "metric": "Softening in 10-year generic G-sec yield",
+    "subject": "10-year generic G-sec",
+    "value_raw": "48",
+    "unit_raw": "bps",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "tenor": "10-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "61",
+    "kind": "numeric",
+    "metric": "Softening in 5-year generic G-sec yield",
+    "subject": "5-year generic G-sec",
+    "value_raw": "61",
+    "unit_raw": "bps",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "tenor": "5-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "1.5",
+    "kind": "numeric",
+    "metric": "FPI investment in debt instruments",
+    "subject": "FPIs",
+    "value_raw": "1.5",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "instrument_type": "debt instruments"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "15.4",
+    "kind": "numeric",
+    "metric": "Utilisation limit of General Route FPI investment in debt instruments",
+    "subject": "FPIs",
+    "value_raw": "15.4",
+    "unit_raw": "per cent of limit",
+    "period_raw": "End-March 2023",
+    "qualifiers": {
+     "investment_route": "General Route"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "16.0",
+    "kind": "numeric",
+    "metric": "Utilisation limit of General Route FPI investment in debt instruments",
+    "subject": "FPIs",
+    "value_raw": "16.0",
+    "unit_raw": "per cent of limit",
+    "period_raw": "End-March 2024",
+    "qualifiers": {
+     "investment_route": "General Route"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "14.5",
+    "kind": "numeric",
+    "metric": "Utilisation limit of General Route FPI investment in debt instruments",
+    "subject": "FPIs",
+    "value_raw": "14.5",
+    "unit_raw": "per cent of limit",
+    "period_raw": "End-March 2025",
+    "qualifiers": {
+     "investment_route": "General Route"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "82.0",
+    "kind": "numeric",
+    "metric": "Utilisation limit of VRR FPI investment in debt instruments",
+    "subject": "FPIs",
+    "value_raw": "82.0",
+    "unit_raw": "per cent of limit",
+    "period_raw": "End-March 2023",
+    "qualifiers": {
+     "investment_route": "VRR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "70.1",
+    "kind": "numeric",
+    "metric": "Utilisation limit of VRR FPI investment in debt instruments",
+    "subject": "FPIs",
+    "value_raw": "70.1",
+    "unit_raw": "per cent of limit",
+    "period_raw": "End-March 2024",
+    "qualifiers": {
+     "investment_route": "VRR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "82.1",
+    "kind": "numeric",
+    "metric": "Utilisation limit of VRR FPI investment in debt instruments",
+    "subject": "FPIs",
+    "value_raw": "82.1",
+    "unit_raw": "per cent of limit",
+    "period_raw": "End-March 2025",
+    "qualifiers": {
+     "investment_route": "VRR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "2.8",
+    "kind": "numeric",
+    "metric": "Utilisation limit of FAR FPI investment in debt instruments",
+    "subject": "FPIs",
+    "value_raw": "2.8",
+    "unit_raw": "per cent of limit",
+    "period_raw": "End-March 2023",
+    "qualifiers": {
+     "investment_route": "FAR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "4.5",
+    "kind": "numeric",
+    "metric": "Utilisation limit of FAR FPI investment in debt instruments",
+    "subject": "FPIs",
+    "value_raw": "4.5",
+    "unit_raw": "per cent of limit",
+    "period_raw": "End-March 2024",
+    "qualifiers": {
+     "investment_route": "FAR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 63,
+    "quote": "7.1",
+    "kind": "numeric",
+    "metric": "Utilisation limit of FAR FPI investment in debt instruments",
+    "subject": "FPIs",
+    "value_raw": "7.1",
+    "unit_raw": "per cent of limit",
+    "period_raw": "End-March 2025",
+    "qualifiers": {
+     "investment_route": "FAR"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "15",
+    "kind": "numeric",
+    "metric": "Change in monthly average yield on AAA-rated 3-year bonds",
+    "subject": "PSUs, FIs and Banks",
+    "value_raw": "-15",
+    "unit_raw": "bps",
+    "period_raw": "March 2025 vs March 2024",
+    "qualifiers": {
+     "entity_type": "PSUs, FIs and Banks",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "28",
+    "kind": "numeric",
+    "metric": "Change in monthly average yield on AAA-rated 3-year bonds",
+    "subject": "NBFCs",
+    "value_raw": "-28",
+    "unit_raw": "bps",
+    "period_raw": "March 2025 vs March 2024",
+    "qualifiers": {
+     "entity_type": "NBFCs",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "33",
+    "kind": "numeric",
+    "metric": "Change in monthly average yield on AAA-rated 3-year bonds",
+    "subject": "Corporates",
+    "value_raw": "-33",
+    "unit_raw": "bps",
+    "period_raw": "March 2025 vs March 2024",
+    "qualifiers": {
+     "entity_type": "Corporates",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "7,645",
+    "kind": "numeric",
+    "metric": "Average daily turnover in the secondary market on corporate bonds",
+    "subject": "corporate bonds",
+    "value_raw": "7,645",
+    "unit_raw": "₹ crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "market_type": "secondary market"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "5,722",
+    "kind": "numeric",
+    "metric": "Average daily turnover in the secondary market on corporate bonds",
+    "subject": "corporate bonds",
+    "value_raw": "5,722",
+    "unit_raw": "₹ crore",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "market_type": "secondary market"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "99.2",
+    "kind": "numeric",
+    "metric": "Share of private placements in total resources mobilised through the domestic bond market",
+    "subject": "private placements",
+    "value_raw": "99.2",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "channel": "private placements"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "15.8",
+    "kind": "numeric",
+    "metric": "Utilisation of approved limits for FPI investments in corporate bonds",
+    "subject": "FPIs",
+    "value_raw": "15.8",
+    "unit_raw": "per cent",
+    "period_raw": "End-March 2025",
+    "qualifiers": {
+     "investment_type": "corporate bonds"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "16.2",
+    "kind": "numeric",
+    "metric": "Utilisation of approved limits for FPI investments in corporate bonds",
+    "subject": "FPIs",
+    "value_raw": "16.2",
+    "unit_raw": "per cent",
+    "period_raw": "End-March 2024",
+    "qualifiers": {
+     "investment_type": "corporate bonds"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "7.63",
+    "kind": "numeric",
+    "metric": "Yields (per cent) on AAA-rated 3-year bonds",
+    "subject": "PSUs, FIs and Banks",
+    "value_raw": "7.63",
+    "unit_raw": "per cent",
+    "period_raw": "March 2024",
+    "qualifiers": {
+     "entity_type": "PSUs, FIs and Banks",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "7.48",
+    "kind": "numeric",
+    "metric": "Yields (per cent) on AAA-rated 3-year bonds",
+    "subject": "PSUs, FIs and Banks",
+    "value_raw": "7.48",
+    "unit_raw": "per cent",
+    "period_raw": "March 2025",
+    "qualifiers": {
+     "entity_type": "PSUs, FIs and Banks",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "44",
+    "kind": "numeric",
+    "metric": "Spread over corresponding risk-free rate on AAA-rated 3-year bonds",
+    "subject": "PSUs, FIs and Banks",
+    "value_raw": "44",
+    "unit_raw": "bps",
+    "period_raw": "March 2024",
+    "qualifiers": {
+     "entity_type": "PSUs, FIs and Banks",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "83",
+    "kind": "numeric",
+    "metric": "Spread over corresponding risk-free rate on AAA-rated 3-year bonds",
+    "subject": "PSUs, FIs and Banks",
+    "value_raw": "83",
+    "unit_raw": "bps",
+    "period_raw": "March 2025",
+    "qualifiers": {
+     "entity_type": "PSUs, FIs and Banks",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "39",
+    "kind": "numeric",
+    "metric": "Change in spread over corresponding risk-free rate on AAA-rated 3-year bonds",
+    "subject": "PSUs, FIs and Banks",
+    "value_raw": "39",
+    "unit_raw": "bps",
+    "period_raw": "March 2025 vs March 2024",
+    "qualifiers": {
+     "entity_type": "PSUs, FIs and Banks",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "7.98",
+    "kind": "numeric",
+    "metric": "Yields (per cent) on AAA-rated 3-year bonds",
+    "subject": "NBFCs",
+    "value_raw": "7.98",
+    "unit_raw": "per cent",
+    "period_raw": "March 2024",
+    "qualifiers": {
+     "entity_type": "NBFCs",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "7.70",
+    "kind": "numeric",
+    "metric": "Yields (per cent) on AAA-rated 3-year bonds",
+    "subject": "NBFCs",
+    "value_raw": "7.70",
+    "unit_raw": "per cent",
+    "period_raw": "March 2025",
+    "qualifiers": {
+     "entity_type": "NBFCs",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "80",
+    "kind": "numeric",
+    "metric": "Spread over corresponding risk-free rate on AAA-rated 3-year bonds",
+    "subject": "NBFCs",
+    "value_raw": "80",
+    "unit_raw": "bps",
+    "period_raw": "March 2024",
+    "qualifiers": {
+     "entity_type": "NBFCs",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "106",
+    "kind": "numeric",
+    "metric": "Spread over corresponding risk-free rate on AAA-rated 3-year bonds",
+    "subject": "NBFCs",
+    "value_raw": "106",
+    "unit_raw": "bps",
+    "period_raw": "March 2025",
+    "qualifiers": {
+     "entity_type": "NBFCs",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "26",
+    "kind": "numeric",
+    "metric": "Change in spread over corresponding risk-free rate on AAA-rated 3-year bonds",
+    "subject": "NBFCs",
+    "value_raw": "26",
+    "unit_raw": "bps",
+    "period_raw": "March 2025 vs March 2024",
+    "qualifiers": {
+     "entity_type": "NBFCs",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "7.95",
+    "kind": "numeric",
+    "metric": "Yields (per cent) on AAA-rated 3-year bonds",
+    "subject": "Corporates",
+    "value_raw": "7.95",
+    "unit_raw": "per cent",
+    "period_raw": "March 2024",
+    "qualifiers": {
+     "entity_type": "Corporates",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "7.62",
+    "kind": "numeric",
+    "metric": "Yields (per cent) on AAA-rated 3-year bonds",
+    "subject": "Corporates",
+    "value_raw": "7.62",
+    "unit_raw": "per cent",
+    "period_raw": "March 2025",
+    "qualifiers": {
+     "entity_type": "Corporates",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "77",
+    "kind": "numeric",
+    "metric": "Spread over corresponding risk-free rate on AAA-rated 3-year bonds",
+    "subject": "Corporates",
+    "value_raw": "77",
+    "unit_raw": "bps",
+    "period_raw": "March 2024",
+    "qualifiers": {
+     "entity_type": "Corporates",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "98",
+    "kind": "numeric",
+    "metric": "Spread over corresponding risk-free rate on AAA-rated 3-year bonds",
+    "subject": "Corporates",
+    "value_raw": "98",
+    "unit_raw": "bps",
+    "period_raw": "March 2025",
+    "qualifiers": {
+     "entity_type": "Corporates",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "21",
+    "kind": "numeric",
+    "metric": "Change in spread over corresponding risk-free rate on AAA-rated 3-year bonds",
+    "subject": "Corporates",
+    "value_raw": "21",
+    "unit_raw": "bps",
+    "period_raw": "March 2025 vs March 2024",
+    "qualifiers": {
+     "entity_type": "Corporates",
+     "rating": "AAA-rated",
+     "tenor": "3-year"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "8.6",
+    "kind": "numeric",
+    "metric": "Primary Corporate Bond Issuances",
+    "subject": "corporate bonds",
+    "value_raw": "8.6",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "market_type": "primary corporate bond issuances"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "9.9",
+    "kind": "numeric",
+    "metric": "Primary Corporate Bond Issuances",
+    "subject": "corporate bonds",
+    "value_raw": "9.9",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "market_type": "primary corporate bond issuances"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "16.1",
+    "kind": "numeric",
+    "metric": "Variation (Col. 3 over Col. 2)",
+    "subject": "Primary Corporate Bond Issuances",
+    "value_raw": "16.1",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25 over 2023-24",
+    "qualifiers": {
+     "market_type": "primary corporate bond issuances"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "45.5",
+    "kind": "numeric",
+    "metric": "Outstanding Corporate Bonds",
+    "subject": "corporate bonds",
+    "value_raw": "45.5",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "end-December 2023",
+    "qualifiers": {
+     "timing": "end-December"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "51.6",
+    "kind": "numeric",
+    "metric": "Outstanding Corporate Bonds",
+    "subject": "corporate bonds",
+    "value_raw": "51.6",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "end-December 2024",
+    "qualifiers": {
+     "timing": "end-December"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "13.3",
+    "kind": "numeric",
+    "metric": "Variation (Col. 3 over Col. 2)",
+    "subject": "Outstanding Corporate Bonds",
+    "value_raw": "13.3",
+    "unit_raw": "per cent",
+    "period_raw": "end-December 2024 over end-December 2023",
+    "qualifiers": {
+     "timing": "end-December"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "1.08",
+    "kind": "numeric",
+    "metric": "Investments by FPIs in Corporate Bonds",
+    "subject": "FPIs",
+    "value_raw": "1.08",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "end-March 2024",
+    "qualifiers": {
+     "instrument_type": "corporate bonds",
+     "timing": "end-March"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "1.21",
+    "kind": "numeric",
+    "metric": "Investments by FPIs in Corporate Bonds",
+    "subject": "FPIs",
+    "value_raw": "1.21",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "end-March 2025",
+    "qualifiers": {
+     "instrument_type": "corporate bonds",
+     "timing": "end-March"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 64,
+    "quote": "11.4",
+    "kind": "numeric",
+    "metric": "Variation (Col. 3 over Col. 2)",
+    "subject": "Investments by FPIs in Corporate Bonds",
+    "value_raw": "11.4",
+    "unit_raw": "per cent",
+    "period_raw": "end-March 2025 over end-March 2024",
+    "qualifiers": {
+     "instrument_type": "corporate bonds",
+     "timing": "end-March"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 65,
+    "quote": "5.1",
+    "kind": "numeric",
+    "metric": "BSE Sensex gain",
+    "subject": "BSE Sensex",
+    "value_raw": "5.1",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 65,
+    "quote": "77,415",
+    "kind": "numeric",
+    "metric": "BSE Sensex close value",
+    "subject": "BSE Sensex",
+    "value_raw": "77,415",
+    "unit_raw": null,
+    "period_raw": "end-March 2025",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 65,
+    "quote": "85,836",
+    "kind": "numeric",
+    "metric": "BSE Sensex new high",
+    "subject": "BSE Sensex",
+    "value_raw": "85,836",
+    "unit_raw": null,
+    "period_raw": "September 26, 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 65,
+    "quote": "5.6",
+    "kind": "numeric",
+    "metric": "Increase in BSE MidCap index",
+    "subject": "BSE MidCap",
+    "value_raw": "5.6",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "market_segment": "broader market indices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 65,
+    "quote": "8",
+    "kind": "numeric",
+    "metric": "Increase in BSE SmallCap index",
+    "subject": "BSE SmallCap",
+    "value_raw": "8",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "market_segment": "broader market indices"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 65,
+    "quote": "1.4",
+    "kind": "numeric",
+    "metric": "FPI net sales in the domestic equity market",
+    "subject": "FPIs",
+    "value_raw": "1.4",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "market_type": "domestic equity market",
+     "transaction_type": "net sales"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 65,
+    "quote": "2.1",
+    "kind": "numeric",
+    "metric": "FPI net purchases in the domestic equity market",
+    "subject": "FPIs",
+    "value_raw": "2.1",
+    "unit_raw": "₹ lakh crore",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "market_type": "domestic equity market",
+     "transaction_type": "net purchases"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 55,\n      \"quote\": \"13,260\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Number of Observations\",\n      \"subject\": \"All Sectors - Borrowings from Banks\",\n      \"value_raw\": \"13,260\",\n      \"unit_raw\": null,\n      \"period_raw\": \"2013-14 to 2023-24\",\n      \"qualifiers\": {\n        \"sector\": \"all sectors\",\n        \"borrowing_type\": \"borrowings from banks\",\n        \"data_source\": \"CMIE Prowess and DBIE, RBI\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"15,362\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Number of Observations\",\n      \"subject\": \"All Sectors - Total Borrowings\",\n      \"value_raw\": \"15,362\",\n      \"unit_raw\": null,\n      \"period_raw\": \"2013-14 to 2023-24\",\n      \"qualifiers\": {\n        \"sector\": \"all sectors\",\n        \"borrowing_type\": \"total borrowings\",\n        \"data_source\": \"CMIE Prowess and DBIE, RBI\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"4,243\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Number of Observations\",\n      \"subject\": \"Services Sector - Borrowings from Banks\",\n      \"value_raw\": \"4,243\",\n      \"unit_raw\": null,\n      \"period_raw\": \"2013-14 to 2023-24\",\n      \"qualifiers\": {\n        \"sector\": \"services sector\",\n        \"borrowing_type\": \"borrowings from banks\",\n        \"data_source\": \"CMIE Prowess and DBIE, RBI\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 55,\n      \"quote\": \"5,456\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Number of Observations\",\n      \"subject\": \"Services Sector - Total Borrowings\",\n      \"value_raw\": \"5,456\",\n      \"unit_raw\": null,\n      \"period_raw\": \"2013-14 to 2023-24\",\n      \"qualifiers\": {\n        \"sector\": \"services sector\",\n        \"borrowing_type\": \"total borrowings\",\n        \"data_source\": \"CMIE Prowess and DBIE, RBI\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 59,\n      \"quote\": \"10\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Increase in average daily volume in the money market\",\n      \"subject\": \"money market\",\n      \"value_raw\": \"10\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"comparison\": \"previous year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 59,\n      \"quote\": \"5.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Average daily volume in the money market\",\n      \"subject\": \"money market\",\n      \"value_raw\": \"5.5\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 59,\n      \"quote\": \"2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Share of call/notice money in the money market\",\n      \"subject\": \"call/notice money\",\n      \"value_raw\": \"2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"market_segment\": \"collateralised segment\",\n        \"status\": \"mostly stable\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 59,\n      \"quote\": \"66\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Share of triparty repo within the collateralised segment\",\n      \"subject\": \"triparty repo\",\n      \"value_raw\": \"66\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q1:2024-25\",\n      \"qualifiers\": {\n        \"market_segment\": \"collateralised segment\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 59,\n      \"quote\": \"72\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Share of triparty repo within the collateralised segment\",\n      \"subject\": \"triparty repo\",\n      \"value_raw\": \"72\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q3:2024-25\",\n      \"qualifiers\": {\n        \"market_segment\": \"collateralised segment\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 59,\n      \"quote\": \"68\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Share of triparty repo within the collateralised segment\",\n      \"subject\": \"triparty repo\",\n      \"value_raw\": \"68\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q4:2024-25\",\n      \"qualifiers\": {\n        \"market_segment\": \"collateralised segment\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 59,\n      \"quote\": \"2.8\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Fresh issuance of CDs\",\n      \"subject\": \"certificates of deposit (CDs)\",\n      \"value_raw\": \"2.8\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"Q2:2024-25\",\n      \"qualifiers\": {\n        \"market_type\": \"primary market\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 59,\n      \"quote\": \"2.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Fresh issuance of CDs\",\n      \"subject\": \"certificates of deposit (CDs)\",\n      \"value_raw\": \"2.5\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"Q1:2024-25\",\n      \"qualifiers\": {\n        \"market_type\": \"primary market\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 59,\n      \"quote\": \"2.9\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Fresh issuance of CDs\",\n      \"subject\": \"certificates of deposit (CDs)\",\n      \"value_raw\": \"2.9\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"Q3:2024-25\",\n      \"qualifiers\": {\n        \"market_type\": \"primary market\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 59,\n      \"quote\": \"3.7\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Fresh issuance of CDs\",\n      \"subject\": \"certificates of deposit (CDs)\",\n      \"value_raw\": \"3.7\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"Q4:2024-25\",\n      \"qualifiers\": {\n        \"market_type\": \"primary market\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 59,\n      \"quote\": \"11.9\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total CD issuances\",\n      \"subject\": \"certificates of deposit (CDs)\",\n      \"value_raw\": \"11.9\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 59,\n      \"quote\": \"8.7\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total CD issuances\",\n      \"subject\": \"certificates of deposit (CDs)\",\n      \"value_raw\": \"8.7\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"comparison\": \"previous year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 61,\n      \"quote\": \"907\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Total Observations\",\n      \"subject\": \"GARCH (1,1) Estimation Results\",\n      \"value_raw\": \"907\",\n      \"unit_raw\": null,\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"model\": \"GARCH (1,1) estimation\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 62,\n      \"quote\": \"3.7\",\n      \"kind\": \"numeric\",\n      \"metric\": \"New issuances of CPs in the primary market\",\n      \"subject\": \"commercial papers (CPs)\",\n      \"value_raw\": \"3.7\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"Q2:2024-25\",\n      \"qualifiers\": {\n        \"market_type\": \"primary market\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 62,\n      \"quote\": \"3.8\",\n      \"kind\": \"numeric\",\n      \"metric\": \"New issuances of CPs in the primary market\",\n      \"subject\": \"commercial papers (CPs)\",\n      \"value_raw\": \"3.8\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"Q1:2024-25\",\n      \"qualifiers\": {\n        \"market_type\": \"primary market\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 62,\n      \"quote\": \"3.8\",\n      \"kind\": \"numeric\",\n      \"metric\": \"New issuances of CPs in the primary market\",\n      \"subject\": \"commercial papers (CPs)\",\n      \"value_raw\": \"3.8\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"Q3:2024-25\",\n      \"qualifiers\": {\n        \"market_type\": \"primary market\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 62,\n      \"quote\": \"4.4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"New issuances of CPs in the primary market\",\n      \"subject\": \"commercial papers (CPs)\",\n      \"value_raw\": \"4.4\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"Q4:2024-25\",\n      \"qualifiers\": {\n        \"market_type\": \"primary market\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 62,\n      \"quote\": \"15.7\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Fresh issuances of CPs\",\n      \"subject\": \"commercial papers (CPs)\",\n      \"value_raw\": \"15.7\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 62,\n      \"quote\": \"13.8\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Fresh issuances of CPs\",\n      \"subject\": \"commercial papers (CPs)\",\n      \"value_raw\": \"13.8\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"comparison\": \"previous year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 62,\n      \"quote\": \"7.01\",\n      \"kind\": \"numeric\",\n      \"metric\": \"10-year generic G-sec yield\",\n      \"subject\": \"10-year generic G-sec\",\n      \"value_raw\": \"7.01\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q1:2024-25\",\n      \"qualifiers\": {\n        \"tenor\": \"10-year\",\n        \"timing\": \"end of Q1:2024-25\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 62,\n      \"quote\": \"5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Decline in 10-year generic G-sec yield\",\n      \"subject\": \"10-year generic G-sec\",\n      \"value_raw\": \"5\",\n      \"unit_raw\": \"bps\",\n      \"period_raw\": \"Q1:2024-25\",\n      \"qualifiers\": {\n        \"tenor\": \"10-year\",\n        \"comparison\": \"level as at end-March 2024\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 62,\n      \"quote\": \"6.75\",\n      \"kind\": \"numeric\",\n      \"metric\": \"10-year generic G-sec yield\",\n      \"subject\": \"10-year generic G-sec\",\n      \"value_raw\": \"6.75\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q2:2024-25\",\n      \"qualifiers\": {\n        \"tenor\": \"10-year\",\n        \"timing\": \"end of Q2:2024-25\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 62,\n      \"quote\": \"26\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Decline in 10-year generic G-sec yield\",\n      \"subject\": \"10-year generic G-sec\",\n      \"value_raw\": \"26\",\n      \"unit_raw\": \"bps\",\n      \"period_raw\": \"Q2:2024-25\",\n      \"qualifiers\": {\n        \"tenor\": \"10-year\",\n        \"comparison\": \"level at end-June 2024\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 62,\n      \"quote\": \"4.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Lower CPI inflation prints\",\n      \"subject\": \"CPI inflation\",\n      \"value_raw\": \"4.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"July and August 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 62,\n      \"quote\": \"6.76\",\n      \"kind\": \"numeric\",\n      \"metric\": \"10-year generic G-sec yield\",\n      \"subject\": \"10-year generic G-sec\",\n      \"value_raw\": \"6.76\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"end-December 2024\",\n      \"qualifiers\": {\n        \"tenor\": \"10-year\",\n        \"timing\": \"end-December 2024\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"6.87\",\n      \"kind\": \"numeric\",\n      \"metric\": \"10-year generic G-sec yield high\",\n      \"subject\": \"10-year generic G-sec\",\n      \"value_raw\": \"6.87\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"first fortnight of Q4:2024-25\",\n      \"qualifiers\": {\n        \"tenor\": \"10-year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"2.83\",\n      \"kind\": \"numeric\",\n      \"metric\": \"OMO purchases of government securities\",\n      \"subject\": \"government securities\",\n      \"value_raw\": \"2.83\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"Q4:2024-25\",\n      \"qualifiers\": {\n        \"operation_type\": \"OMO purchases\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"2.18\",\n      \"kind\": \"numeric\",\n      \"metric\": \"USD/INR buy-sell swaps\",\n      \"subject\": \"USD/INR buy-sell swaps\",\n      \"value_raw\": \"2.18\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"Q4:2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Policy repo rate cut\",\n      \"subject\": \"policy repo rate\",\n      \"value_raw\": \"25\",\n      \"unit_raw\": \"bps\",\n      \"period_raw\": \"February bi-monthly meeting 2025\",\n      \"qualifiers\": {\n        \"action\": \"cut\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"6.58\",\n      \"kind\": \"numeric\",\n      \"metric\": \"10-year generic G-sec yield\",\n      \"subject\": \"10-year generic G-sec\",\n      \"value_raw\": \"6.58\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"end-March 2025\",\n      \"qualifiers\": {\n        \"tenor\": \"10-year\",\n        \"timing\": \"end-March 2025\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"18\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Decline in 10-year generic G-sec yield\",\n      \"subject\": \"10-year generic G-sec\",\n      \"value_raw\": \"18\",\n      \"unit_raw\": \"bps\",\n      \"period_raw\": \"Q4:2024-25\",\n      \"qualifiers\": {\n        \"tenor\": \"10-year\",\n        \"comparison\": \"level as at end-December 2024\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"48\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Softening in 10-year generic G-sec yield\",\n      \"subject\": \"10-year generic G-sec\",\n      \"value_raw\": \"48\",\n      \"unit_raw\": \"bps\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"tenor\": \"10-year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"61\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Softening in 5-year generic G-sec yield\",\n      \"subject\": \"5-year generic G-sec\",\n      \"value_raw\": \"61\",\n      \"unit_raw\": \"bps\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"tenor\": \"5-year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"1.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"FPI investment in debt instruments\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"1.5\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"instrument_type\": \"debt instruments\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"15.4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Utilisation limit of General Route FPI investment in debt instruments\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"15.4\",\n      \"unit_raw\": \"per cent of limit\",\n      \"period_raw\": \"End-March 2023\",\n      \"qualifiers\": {\n        \"investment_route\": \"General Route\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"16.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Utilisation limit of General Route FPI investment in debt instruments\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"16.0\",\n      \"unit_raw\": \"per cent of limit\",\n      \"period_raw\": \"End-March 2024\",\n      \"qualifiers\": {\n        \"investment_route\": \"General Route\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"14.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Utilisation limit of General Route FPI investment in debt instruments\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"14.5\",\n      \"unit_raw\": \"per cent of limit\",\n      \"period_raw\": \"End-March 2025\",\n      \"qualifiers\": {\n        \"investment_route\": \"General Route\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"82.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Utilisation limit of VRR FPI investment in debt instruments\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"82.0\",\n      \"unit_raw\": \"per cent of limit\",\n      \"period_raw\": \"End-March 2023\",\n      \"qualifiers\": {\n        \"investment_route\": \"VRR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"70.1\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Utilisation limit of VRR FPI investment in debt instruments\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"70.1\",\n      \"unit_raw\": \"per cent of limit\",\n      \"period_raw\": \"End-March 2024\",\n      \"qualifiers\": {\n        \"investment_route\": \"VRR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"82.1\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Utilisation limit of VRR FPI investment in debt instruments\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"82.1\",\n      \"unit_raw\": \"per cent of limit\",\n      \"period_raw\": \"End-March 2025\",\n      \"qualifiers\": {\n        \"investment_route\": \"VRR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"2.8\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Utilisation limit of FAR FPI investment in debt instruments\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"2.8\",\n      \"unit_raw\": \"per cent of limit\",\n      \"period_raw\": \"End-March 2023\",\n      \"qualifiers\": {\n        \"investment_route\": \"FAR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"4.5\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Utilisation limit of FAR FPI investment in debt instruments\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"4.5\",\n      \"unit_raw\": \"per cent of limit\",\n      \"period_raw\": \"End-March 2024\",\n      \"qualifiers\": {\n        \"investment_route\": \"FAR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 63,\n      \"quote\": \"7.1\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Utilisation limit of FAR FPI investment in debt instruments\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"7.1\",\n      \"unit_raw\": \"per cent of limit\",\n      \"period_raw\": \"End-March 2025\",\n      \"qualifiers\": {\n        \"investment_route\": \"FAR\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 64,\n      \"quote\": \"15\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Change in monthly average yield on AAA-rated 3-year bonds\",\n      \"subject\": \"PSUs, FIs and Banks\",\n      \"value_raw\": \"-15\",\n      \"unit_raw\": \"bps\",\n      \"period_raw\": \"March 2025 vs March 2024\",\n      \"qualifiers\": {\n        \"entity_type\": \"PSUs, FIs and Banks\",\n        \"rating\": \"AAA-rated\",\n        \"tenor\": \"3-year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 64,\n      \"quote\": \"28\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Change in monthly average yield on AAA-rated 3-year bonds\",\n      \"subject\": \"NBFCs\",\n      \"value_raw\": \"-28\",\n      \"unit_raw\": \"bps\",\n      \"period_raw\": \"March 2025 vs March 2024\",\n      \"qualifiers\": {\n        \"entity_type\": \"NBFCs\",\n        \"rating\": \"AAA-rated\",\n        \"tenor\": \"3-year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 64,\n      \"quote\": \"33\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Change in monthly average yield on AAA-rated 3-year bonds\",\n      \"subject\": \"Corporates\",\n      \"value_raw\": \"-33\",\n      \"unit_raw\": \"bps\",\n      \"period_raw\": \"March 2025 vs March 2024\",\n      \"qualifiers\": {\n        \"entity_type\": \"Corporates\",\n        \"rating\": \"AAA-rated\",\n        \"tenor\": \"3-year\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 64,\n      \"quote\": \"7,645\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Average daily turnover in the secondary market on corporate bonds\",\n      \"subject\": \"corporate bonds\",\n      \"value_raw\": \"7,645\",\n      \"unit_raw\": \"₹ crore\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"market_type\": \"secondary market\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 64,\n      \"quote\": \"5,722\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Average daily turnover in the secondary market on corporate bonds\",\n      \"subject\": \"corporate bonds\",\n      \"value_raw\": \"5,722\",\n      \"unit_raw\": \"₹ crore\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"market_type\": \"secondary market\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 64,\n      \"quote\": \"99.2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Share of private placements in total resources mobilised through the domestic bond market\",\n      \"subject\": \"private placements\",\n      \"value_raw\": \"99.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"channel\": \"private placements\"\n      },\n      \"con",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-rbi-annual-report-2024-25-excerpt-73209a2c:b54"
+}

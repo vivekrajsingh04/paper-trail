@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net capital flows represent a flow variable measuring the net movement of capital, whereas the stock of inward FDI is a stock variable measuring the accumulated value of foreign investment."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net capital flows represent a flow variable measuring the net movement of capital, whereas the stock of inward FDI is a stock variable measuring the accumulated value of foreign investment.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure entirely different concepts: one tracks the inflation distribution of core CPI items, while the other tracks the weight of specific commodities in the CPI basket."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure entirely different concepts: one tracks the inflation distribution of core CPI items, while the other tracks the weight of specific commodities in the CPI basket.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

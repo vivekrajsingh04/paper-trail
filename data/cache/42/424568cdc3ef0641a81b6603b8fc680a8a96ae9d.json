@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Outstanding corporate bonds represent the total stock of debt, whereas primary corporate bond issuances represent the flow of new debt issued during a specific period."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Outstanding corporate bonds represent the total stock of debt, whereas primary corporate bond issuances represent the flow of new debt issued during a specific period.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

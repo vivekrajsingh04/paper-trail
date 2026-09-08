@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Both 'growth in merchandise exports' and 'Merchandise exports growth rate' refer to the exact same economic percentage increase measurement for India's merchandise exports in 2024-25."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Both 'growth in merchandise exports' and 'Merchandise exports growth rate' refer to the exact same economic percentage increase measurement for India's merchandise exports in 2024-25.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

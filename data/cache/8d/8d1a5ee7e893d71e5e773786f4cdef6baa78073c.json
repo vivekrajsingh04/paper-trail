@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Both facts describe gross domestic saving as a percentage of gross national disposable income (GNDI), with subject differences (gross domestic saving vs India) representing the same underlying economic measure."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Both facts describe gross domestic saving as a percentage of gross national disposable income (GNDI), with subject differences (gross domestic saving vs India) representing the same underlying economic measure.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "The metrics describe the same financial activity of mutual funds, with the second phrasing being a more descriptive label for the same underlying data point."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics describe the same financial activity of mutual funds, with the second phrasing being a more descriptive label for the same underlying data point.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

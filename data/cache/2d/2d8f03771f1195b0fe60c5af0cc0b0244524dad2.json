@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "BSE Sensex gain measures a percentage change in index value, whereas BSE Sensex new high refers to a specific absolute index point level."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"BSE Sensex gain measures a percentage change in index value, whereas BSE Sensex new high refers to a specific absolute index point level.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure different economic concepts: one tracks India's portion of the total global R&D spend, while the other tracks the ratio of R&D spending relative to India's own domestic GDP."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure different economic concepts: one tracks India's portion of the total global R&D spend, while the other tracks the ratio of R&D spending relative to India's own domestic GDP.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

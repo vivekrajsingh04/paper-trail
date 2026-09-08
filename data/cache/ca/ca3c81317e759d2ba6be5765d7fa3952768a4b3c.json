@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics are expressed in different currencies (US$ vs ₹) and represent different financial perspectives, making them not directly comparable without conversion and specific context."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics are expressed in different currencies (US$ vs ₹) and represent different financial perspectives, making them not directly comparable without conversion and specific context.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

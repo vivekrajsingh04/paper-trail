@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Current Account Deficit measures the net flow of goods, services, and transfers, while External Debt measures the total stock of liabilities owed to non-residents."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Current Account Deficit measures the net flow of goods, services, and transfers, while External Debt measures the total stock of liabilities owed to non-residents.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

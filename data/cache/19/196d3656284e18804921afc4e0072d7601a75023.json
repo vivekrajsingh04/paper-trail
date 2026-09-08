@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures percentage variation in total foodgrains production, whereas Metric B measures absolute production quantity of a specific crop (rice) in Lakh tonnes."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures percentage variation in total foodgrains production, whereas Metric B measures absolute production quantity of a specific crop (rice) in Lakh tonnes.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

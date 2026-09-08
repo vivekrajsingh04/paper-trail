@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "'Total CD issuances' refers to the cumulative or total stock/volume, whereas 'Fresh issuance of CDs' specifically measures new issuances during a period."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"'Total CD issuances' refers to the cumulative or total stock/volume, whereas 'Fresh issuance of CDs' specifically measures new issuances during a period.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

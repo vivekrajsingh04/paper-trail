@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross Fixed Capital Formation measures total investment in fixed assets across the entire economy, whereas government capital outlay refers specifically to public sector spending, making them distinct economic indicators."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross Fixed Capital Formation measures total investment in fixed assets across the entire economy, whereas government capital outlay refers specifically to public sector spending, making them distinct economic indicators.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

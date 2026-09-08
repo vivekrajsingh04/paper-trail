@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics describe entirely different economic indicators, with one referring to the Euro area's overall economic growth and the other to the growth rate of the Reserve Money monetary aggregate."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics describe entirely different economic indicators, with one referring to the Euro area's overall economic growth and the other to the growth rate of the Reserve Money monetary aggregate.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Global economic growth and global GDP growth are commonly used interchangeably in macroeconomic contexts to measure the annual percentage change in total economic output."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Global economic growth and global GDP growth are commonly used interchangeably in macroeconomic contexts to measure the annual percentage change in total economic output.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

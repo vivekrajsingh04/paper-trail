@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net purchases represent the difference between buy and sell transactions in the secondary market, whereas net resources mobilised refers to the net inflow of capital from investors into mutual fund schemes."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net purchases represent the difference between buy and sell transactions in the secondary market, whereas net resources mobilised refers to the net inflow of capital from investors into mutual fund schemes.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the actual and expected economic growth rate for the Euro area, whereas Fact B measures the projected economic growth for Emerging Market and Developing Economies (EMDEs), which apply to different geographic and economic subjects."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the actual and expected economic growth rate for the Euro area, whereas Fact B measures the projected economic growth for Emerging Market and Developing Economies (EMDEs), which apply to different geographic and economic subjects.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The current account deficit measures the net flow of goods, services, and transfers, while the external debt to GDP ratio measures the total stock of outstanding debt owed to non-residents."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The current account deficit measures the net flow of goods, services, and transfers, while the external debt to GDP ratio measures the total stock of outstanding debt owed to non-residents.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Foreign Portfolio Investment (FPI) and Foreign Direct Investment (FDI) are distinct categories of international capital flows."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Foreign Portfolio Investment (FPI) and Foreign Direct Investment (FDI) are distinct categories of international capital flows.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

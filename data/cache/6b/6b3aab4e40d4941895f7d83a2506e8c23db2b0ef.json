@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net Capital Flows/GDP is a ratio representing a broad macroeconomic indicator, while Net FDI flows is an absolute monetary value representing a specific component of the capital account."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net Capital Flows/GDP is a ratio representing a broad macroeconomic indicator, while Net FDI flows is an absolute monetary value representing a specific component of the capital account.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

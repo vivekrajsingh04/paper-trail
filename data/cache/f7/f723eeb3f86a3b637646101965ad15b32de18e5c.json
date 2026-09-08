@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Although both measure foreign portfolio investment in debt, they are reported in different currencies and magnitudes (US$ billion vs ₹ lakh crore) which prevents direct comparability without conversion rates."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Although both measure foreign portfolio investment in debt, they are reported in different currencies and magnitudes (US$ billion vs ₹ lakh crore) which prevents direct comparability without conversion rates.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

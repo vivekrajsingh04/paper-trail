@@ -1,0 +1,298 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 27,
+    "quote": "The overall public stock of foodgrains held by the Food Corporation of India (FCI) stood at 749 lakh tonne (as at end-March 2025)",
+    "kind": "numeric",
+    "metric": "overall public stock of foodgrains held by the Food Corporation of India (FCI)",
+    "subject": "foodgrains",
+    "value_raw": "749",
+    "unit_raw": "lakh tonne",
+    "state": null,
+    "period_raw": "as at end-March 2025",
+    "qualifiers": {
+     "holding_entity": "Food Corporation of India (FCI)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "3,157.7",
+    "kind": "numeric",
+    "metric": "Foodgrains production 2023-24 Final Estimates (FE)",
+    "subject": "Foodgrains",
+    "value_raw": "3,157.7",
+    "unit_raw": "Lakh tonne",
+    "state": null,
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "estimate_type": "Final Estimates (FE)",
+     "crop_category": "Foodgrains"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "3,309.2",
+    "kind": "numeric",
+    "metric": "Foodgrains production 2024-25 Second Advance Estimates (SAE)",
+    "subject": "Foodgrains",
+    "value_raw": "3,309.2",
+    "unit_raw": "Lakh tonne",
+    "state": null,
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "estimate_type": "Second Advance Estimates (SAE)",
+     "crop_category": "Foodgrains"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "4.8",
+    "kind": "numeric",
+    "metric": "Foodgrains production variation over 2023-24 Final Estimates",
+    "subject": "Foodgrains",
+    "value_raw": "4.8",
+    "unit_raw": "per cent",
+    "state": null,
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "estimate_type": "Second Advance Estimates (SAE)",
+     "crop_category": "Foodgrains",
+     "comparison": "over 2023-24 Final Estimates"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "1,278.6",
+    "kind": "numeric",
+    "metric": "Rice production 2023-24 Final Estimates (FE)",
+    "subject": "Rice",
+    "value_raw": "1,278.6",
+    "unit_raw": "Lakh tonne",
+    "state": null,
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "estimate_type": "Final Estimates (FE)",
+     "crop": "Rice"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "1,364.4",
+    "kind": "numeric",
+    "metric": "Rice production 2024-25 Second Advance Estimates (SAE)",
+    "subject": "Rice",
+    "value_raw": "1,364.4",
+    "unit_raw": "Lakh tonne",
+    "state": null,
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "estimate_type": "Second Advance Estimates (SAE)",
+     "crop": "Rice"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "1,132.9",
+    "kind": "numeric",
+    "metric": "Wheat production 2023-24 Final Estimates (FE)",
+    "subject": "Wheat",
+    "value_raw": "1,132.9",
+    "unit_raw": "Lakh tonne",
+    "state": null,
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "estimate_type": "Final Estimates (FE)",
+     "crop": "Wheat"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 27,
+    "quote": "1,154.3",
+    "kind": "numeric",
+    "metric": "Wheat production 2024-25 Second Advance Estimates (SAE)",
+    "subject": "Wheat",
+    "value_raw": "1,154.3",
+    "unit_raw": "Lakh tonne",
+    "state": null,
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "estimate_type": "Second Advance Estimates (SAE)",
+     "crop": "Wheat"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 28,
+    "quote": "rice stock of 631 lakh tonne (4.6 times the buffer requirement)",
+    "kind": "numeric",
+    "metric": "rice stock held by FCI",
+    "subject": "rice",
+    "value_raw": "631",
+    "unit_raw": "lakh tonne",
+    "state": null,
+    "period_raw": null,
+    "qualifiers": {
+     "multiple_of_buffer_requirement": "4.6",
+     "holding_entity": "Food Corporation of India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 28,
+    "quote": "wheat stock at 118 lakh tonne (1.6 times the buffer requirement)",
+    "kind": "numeric",
+    "metric": "wheat stock held by FCI",
+    "subject": "wheat",
+    "value_raw": "118",
+    "unit_raw": "lakh tonne",
+    "state": null,
+    "period_raw": null,
+    "qualifiers": {
+     "multiple_of_buffer_requirement": "1.6",
+     "holding_entity": "Food Corporation of India"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 28,
+    "quote": "Industrial sector GVA growth eased to 4.3 per cent in 2024-25 from 11.0 per cent in the preceding year",
+    "kind": "numeric",
+    "metric": "Industrial sector GVA growth",
+    "subject": "Industrial sector",
+    "value_raw": "4.3",
+    "unit_raw": "per cent",
+    "state": null,
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "metric_type": "GVA growth",
+     "previous_year_value": "11.0 per cent",
+     "previous_year_period": "2023-24"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 28,
+    "quote": "Manufacturing sector, which accounts for 80 per cent of the industrial sector also moderated to 4.3 per cent in 2024-25 over a high base of 12.3 per cent in 2023-24.",
+    "kind": "numeric",
+    "metric": "Manufacturing sector GVA growth",
+    "subject": "Manufacturing sector",
+    "value_raw": "4.3",
+    "unit_raw": "per cent",
+    "state": null,
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "share_of_industrial_sector": "80 per cent",
+     "previous_year_value": "12.3 per cent",
+     "previous_year_period": "2023-24"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 29,
+    "quote": "actual investments of around ₹1.61 lakh crore have been realised, resulting in production and sales of around ₹14 lakh crore, over 11.5 lakh jobs (direct and indirect) and more than ₹5.3 lakh crore of exports in key sectors such as electronics, pharmaceuticals, and food processing",
+    "kind": "numeric",
+    "metric": "actual investments realised under PLI scheme",
+    "subject": "PLI scheme",
+    "value_raw": "1.61",
+    "unit_raw": "₹ lakh crore",
+    "state": null,
+    "period_raw": "By end-November 2024",
+    "qualifiers": {
+     "scheme": "production linked incentive (PLI) scheme"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 29,
+    "quote": "Renewable energy (including large hydro), which accounts for around 20.0 per cent of the total power generation, recorded a healthy growth of 12.2 per cent (y-o-y) during 2024-25 as compared to a contraction of 1.6 per cent in the previous year",
+    "kind": "numeric",
+    "metric": "Renewable energy power generation growth",
+    "subject": "Renewable energy (including large hydro)",
+    "value_raw": "12.2",
+    "unit_raw": "per cent",
+    "state": null,
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "y_o_y": "yes",
+     "share_of_total_power_generation": "around 20.0 per cent",
+     "previous_year_growth": "-1.6 per cent"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 29,
+    "quote": "As at end-March 2025, India’s renewable energy capacity stood at 220.1 gigawatts (GW) [46.3 per cent of the total installed capacity].",
+    "kind": "numeric",
+    "metric": "India's renewable energy capacity",
+    "subject": "India",
+    "value_raw": "220.1",
+    "unit_raw": "gigawatts (GW)",
+    "state": null,
+    "period_raw": "As at end-March 2025",
+    "qualifiers": {
+     "share_of_total_installed_capacity": "46.3 per cent"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 32,
+    "quote": "The average net subscribers added to employees’ provident fund organisation (EPFO) per month stood at 10.8 lakh during 2024-25",
+    "kind": "numeric",
+    "metric": "average net subscribers added to EPFO per month",
+    "subject": "employees’ provident fund organisation (EPFO)",
+    "value_raw": "10.8",
+    "unit_raw": "lakh",
+    "state": null,
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "frequency": "per month"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 34,
+    "quote": "the ratio of R&D expenditure in GDP rose marginally from 0.61 per cent to 0.64 per cent between 1995-96 and 2020-21.",
+    "kind": "numeric",
+    "metric": "ratio of R&D expenditure in GDP",
+    "subject": "India",
+    "value_raw": "0.61",
+    "unit_raw": "per cent",
+    "state": null,
+    "period_raw": "1995-96",
+    "qualifiers": {
+     "comparison_period": "2020-21",
+     "comparison_value": "0.64 per cent"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 34,
+    "quote": "India’s share in global R&D expenditure rose from 2.1 per cent in 2000 to 2.6 per cent in 2023",
+    "kind": "numeric",
+    "metric": "India's share in global R&D expenditure",
+    "subject": "India",
+    "value_raw": "2.1",
+    "unit_raw": "per cent",
+    "state": null,
+    "period_raw": "2000",
+    "qualifiers": {
+     "comparison_period": "2023",
+     "comparison_value": "2.6 per cent"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 27,\n      \"quote\": \"The overall public stock of foodgrains held by the Food Corporation of India (FCI) stood at 749 lakh tonne (as at end-March 2025)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"overall public stock of foodgrains held by the Food Corporation of India (FCI)\",\n      \"subject\": \"foodgrains\",\n      \"value_raw\": \"749\",\n      \"unit_raw\": \"lakh tonne\",\n      \"state\": null,\n      \"period_raw\": \"as at end-March 2025\",\n      \"qualifiers\": {\n        \"holding_entity\": \"Food Corporation of India (FCI)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"3,157.7\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Foodgrains production 2023-24 Final Estimates (FE)\",\n      \"subject\": \"Foodgrains\",\n      \"value_raw\": \"3,157.7\",\n      \"unit_raw\": \"Lakh tonne\",\n      \"state\": null,\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"estimate_type\": \"Final Estimates (FE)\",\n        \"crop_category\": \"Foodgrains\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"3,309.2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Foodgrains production 2024-25 Second Advance Estimates (SAE)\",\n      \"subject\": \"Foodgrains\",\n      \"value_raw\": \"3,309.2\",\n      \"unit_raw\": \"Lakh tonne\",\n      \"state\": null,\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"estimate_type\": \"Second Advance Estimates (SAE)\",\n        \"crop_category\": \"Foodgrains\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"4.8\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Foodgrains production variation over 2023-24 Final Estimates\",\n      \"subject\": \"Foodgrains\",\n      \"value_raw\": \"4.8\",\n      \"unit_raw\": \"per cent\",\n      \"state\": null,\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"estimate_type\": \"Second Advance Estimates (SAE)\",\n        \"crop_category\": \"Foodgrains\",\n        \"comparison\": \"over 2023-24 Final Estimates\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"1,278.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Rice production 2023-24 Final Estimates (FE)\",\n      \"subject\": \"Rice\",\n      \"value_raw\": \"1,278.6\",\n      \"unit_raw\": \"Lakh tonne\",\n      \"state\": null,\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"estimate_type\": \"Final Estimates (FE)\",\n        \"crop\": \"Rice\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"1,364.4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Rice production 2024-25 Second Advance Estimates (SAE)\",\n      \"subject\": \"Rice\",\n      \"value_raw\": \"1,364.4\",\n      \"unit_raw\": \"Lakh tonne\",\n      \"state\": null,\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"estimate_type\": \"Second Advance Estimates (SAE)\",\n        \"crop\": \"Rice\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"1,132.9\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Wheat production 2023-24 Final Estimates (FE)\",\n      \"subject\": \"Wheat\",\n      \"value_raw\": \"1,132.9\",\n      \"unit_raw\": \"Lakh tonne\",\n      \"state\": null,\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"estimate_type\": \"Final Estimates (FE)\",\n        \"crop\": \"Wheat\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 27,\n      \"quote\": \"1,154.3\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Wheat production 2024-25 Second Advance Estimates (SAE)\",\n      \"subject\": \"Wheat\",\n      \"value_raw\": \"1,154.3\",\n      \"unit_raw\": \"Lakh tonne\",\n      \"state\": null,\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"estimate_type\": \"Second Advance Estimates (SAE)\",\n        \"crop\": \"Wheat\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 28,\n      \"quote\": \"rice stock of 631 lakh tonne (4.6 times the buffer requirement)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"rice stock held by FCI\",\n      \"subject\": \"rice\",\n      \"value_raw\": \"631\",\n      \"unit_raw\": \"lakh tonne\",\n      \"state\": null,\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"multiple_of_buffer_requirement\": \"4.6\",\n        \"holding_entity\": \"Food Corporation of India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 28,\n      \"quote\": \"wheat stock at 118 lakh tonne (1.6 times the buffer requirement)\",\n      \"kind\": \"numeric\",\n      \"metric\": \"wheat stock held by FCI\",\n      \"subject\": \"wheat\",\n      \"value_raw\": \"118\",\n      \"unit_raw\": \"lakh tonne\",\n      \"state\": null,\n      \"period_raw\": null,\n      \"qualifiers\": {\n        \"multiple_of_buffer_requirement\": \"1.6\",\n        \"holding_entity\": \"Food Corporation of India\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 28,\n      \"quote\": \"Industrial sector GVA growth eased to 4.3 per cent in 2024-25 from 11.0 per cent in the preceding year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Industrial sector GVA growth\",\n      \"subject\": \"Industrial sector\",\n      \"value_raw\": \"4.3\",\n      \"unit_raw\": \"per cent\",\n      \"state\": null,\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"metric_type\": \"GVA growth\",\n        \"previous_year_value\": \"11.0 per cent\",\n        \"previous_year_period\": \"2023-24\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 28,\n      \"quote\": \"Manufacturing sector, which accounts for 80 per cent of the industrial sector also moderated to 4.3 per cent in 2024-25 over a high base of 12.3 per cent in 2023-24.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Manufacturing sector GVA growth\",\n      \"subject\": \"Manufacturing sector\",\n      \"value_raw\": \"4.3\",\n      \"unit_raw\": \"per cent\",\n      \"state\": null,\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"share_of_industrial_sector\": \"80 per cent\",\n        \"previous_year_value\": \"12.3 per cent\",\n        \"previous_year_period\": \"2023-24\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 29,\n      \"quote\": \"actual investments of around ₹1.61 lakh crore have been realised, resulting in production and sales of around ₹14 lakh crore, over 11.5 lakh jobs (direct and indirect) and more than ₹5.3 lakh crore of exports in key sectors such as electronics, pharmaceuticals, and food processing\",\n      \"kind\": \"numeric\",\n      \"metric\": \"actual investments realised under PLI scheme\",\n      \"subject\": \"PLI scheme\",\n      \"value_raw\": \"1.61\",\n      \"unit_raw\": \"₹ lakh crore\",\n      \"state\": null,\n      \"period_raw\": \"By end-November 2024\",\n      \"qualifiers\": {\n        \"scheme\": \"production linked incentive (PLI) scheme\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 29,\n      \"quote\": \"Renewable energy (including large hydro), which accounts for around 20.0 per cent of the total power generation, recorded a healthy growth of 12.2 per cent (y-o-y) during 2024-25 as compared to a contraction of 1.6 per cent in the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Renewable energy power generation growth\",\n      \"subject\": \"Renewable energy (including large hydro)\",\n      \"value_raw\": \"12.2\",\n      \"unit_raw\": \"per cent\",\n      \"state\": null,\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"y_o_y\": \"yes\",\n        \"share_of_total_power_generation\": \"around 20.0 per cent\",\n        \"previous_year_growth\": \"-1.6 per cent\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 29,\n      \"quote\": \"As at end-March 2025, India’s renewable energy capacity stood at 220.1 gigawatts (GW) [46.3 per cent of the total installed capacity].\",\n      \"kind\": \"numeric\",\n      \"metric\": \"India's renewable energy capacity\",\n      \"subject\": \"India\",\n      \"value_raw\": \"220.1\",\n      \"unit_raw\": \"gigawatts (GW)\",\n      \"state\": null,\n      \"period_raw\": \"As at end-March 2025\",\n      \"qualifiers\": {\n        \"share_of_total_installed_capacity\": \"46.3 per cent\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 32,\n      \"quote\": \"The average net subscribers added to employees’ provident fund organisation (EPFO) per month stood at 10.8 lakh during 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"average net subscribers added to EPFO per month\",\n      \"subject\": \"employees’ provident fund organisation (EPFO)\",\n      \"value_raw\": \"10.8\",\n      \"unit_raw\": \"lakh\",\n      \"state\": null,\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"frequency\": \"per month\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 34,\n      \"quote\": \"the ratio of R&D expenditure in GDP rose marginally from 0.61 per cent to 0.64 per cent between 1995-96 and 2020-21.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"ratio of R&D expenditure in GDP\",\n      \"subject\": \"India\",\n      \"value_raw\": \"0.61\",\n      \"unit_raw\": \"per cent\",\n      \"state\": null,\n      \"period_raw\": \"1995-96\",\n      \"qualifiers\": {\n        \"comparison_period\": \"2020-21\",\n        \"comparison_value\": \"0.64 per cent\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 34,\n      \"quote\": \"India’s share in global R&D expenditure rose from 2.1 per cent in 2000 to 2.6 per cent in 2023\",\n      \"kind\": \"numeric\",\n      \"metric\": \"India's share in global R&D expenditure\",\n      \"subject\": \"India\",\n      \"value_raw\": \"2.1\",\n      \"unit_raw\": \"per cent\",\n      \"state\": null,\n      \"period_raw\": \"2000\",\n      \"qualifiers\": {\n        \"comparison_period\": \"2023\",\n        \"comparison_value\": \"2.6 per cent\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-rbi-annual-report-2024-25-excerpt-73209a2c:b27"
+}

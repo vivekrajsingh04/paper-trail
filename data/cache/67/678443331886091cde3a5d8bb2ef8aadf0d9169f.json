@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Both facts describe the net sales by Foreign Portfolio Investors (FPIs) in the domestic equity market, expressed in the same units, representing the exact same financial measurement."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Both facts describe the net sales by Foreign Portfolio Investors (FPIs) in the domestic equity market, expressed in the same units, representing the exact same financial measurement.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

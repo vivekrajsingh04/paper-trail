@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "The SAE for 2024-25 covers total foodgrains production for the entire year, whereas the Kharif food grain production is only a specific seasonal component of that total."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"The SAE for 2024-25 covers total foodgrains production for the entire year, whereas the Kharif food grain production is only a specific seasonal component of that total.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

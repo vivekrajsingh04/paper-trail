@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net FPI (Foreign Portfolio Investment) and Net FDI (Foreign Direct Investment) represent two distinct categories of capital flows with different economic definitions and investment characteristics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net FPI (Foreign Portfolio Investment) and Net FDI (Foreign Direct Investment) represent two distinct categories of capital flows with different economic definitions and investment characteristics.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

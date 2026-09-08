@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Projected real GDP growth is a forecast for a future period, whereas real GDP growth can refer to a realized measurement for a past or current period."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Projected real GDP growth is a forecast for a future period, whereas real GDP growth can refer to a realized measurement for a past or current period.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

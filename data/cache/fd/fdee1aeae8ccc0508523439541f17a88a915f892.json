@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures gross foreign direct investment inflows while metric B measures net foreign portfolio investment inflows, involving different financial instruments and flow directions."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures gross foreign direct investment inflows while metric B measures net foreign portfolio investment inflows, involving different financial instruments and flow directions.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure fundamentally different concepts: one is the historical contribution of a specific sector to inflation, while the other is a forward-looking forecast of the total headline inflation rate."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure fundamentally different concepts: one is the historical contribution of a specific sector to inflation, while the other is a forward-looking forecast of the total headline inflation rate.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

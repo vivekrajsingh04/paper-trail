@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Average projected global economic growth rate and global GDP growth are synonymous terms used interchangeably to describe the annual percentage increase in the total value of goods and services produced globally."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Average projected global economic growth rate and global GDP growth are synonymous terms used interchangeably to describe the annual percentage increase in the total value of goods and services produced globally.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

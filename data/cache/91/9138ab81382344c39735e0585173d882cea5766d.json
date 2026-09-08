@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "'Decline in' and 'Softening in' both refer to the magnitude of the decrease in the 10-year generic G-sec yield measured in basis points."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"'Decline in' and 'Softening in' both refer to the magnitude of the decrease in the 10-year generic G-sec yield measured in basis points.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

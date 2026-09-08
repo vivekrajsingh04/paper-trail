@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A refers to the utilisation limit for General Route FPI investment, whereas Metric B refers to the separate Voluntary Retention Route (VRR) FPI investment limit."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A refers to the utilisation limit for General Route FPI investment, whereas Metric B refers to the separate Voluntary Retention Route (VRR) FPI investment limit.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

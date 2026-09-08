@@ -1,0 +1,1093 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 82,
+    "quote": "working overseas, posted a y-o-y growth of 16.2\nper cent during April-December 2024.",
+    "kind": "numeric",
+    "metric": "y-o-y growth of remittances working overseas",
+    "subject": "remittances",
+    "value_raw": "16.2",
+    "unit_raw": "per cent",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "basis": "y-o-y"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 82,
+    "quote": "global IT spending is expected to rise to US$\n5.4 trillion in 2025 from US$ 5.1 trillion in 2024",
+    "kind": "numeric",
+    "metric": "global IT spending",
+    "subject": "global IT spending",
+    "value_raw": "5.4",
+    "unit_raw": "US$ trillion",
+    "period_raw": "2025",
+    "qualifiers": {
+     "source": "Gartner"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 82,
+    "quote": "global IT spending is expected to rise to US$\n5.4 trillion in 2025 from US$ 5.1 trillion in 2024",
+    "kind": "numeric",
+    "metric": "global IT spending",
+    "subject": "global IT spending",
+    "value_raw": "5.1",
+    "unit_raw": "US$ trillion",
+    "period_raw": "2024",
+    "qualifiers": {
+     "source": "Gartner"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "India’s total\nremittance receipts stood at US$ 137.7 billion\nduring 2024 (on a calendar year basis).",
+    "kind": "numeric",
+    "metric": "total remittance receipts",
+    "subject": "India",
+    "value_raw": "137.7",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024",
+    "qualifiers": {
+     "basis": "calendar year"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "The\naverage cost of sending remittances of US$ 200\nto India is estimated at 5.3 per cent in Q3:2024",
+    "kind": "numeric",
+    "metric": "average cost of sending remittances of US$ 200",
+    "subject": "India",
+    "value_raw": "5.3",
+    "unit_raw": "per cent",
+    "period_raw": "Q3:2024",
+    "qualifiers": {
+     "remittance_amount": "US$ 200"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "below the global average of 6.6 per cent",
+    "kind": "numeric",
+    "metric": "average cost of sending remittances of US$ 200",
+    "subject": "Global",
+    "value_raw": "6.6",
+    "unit_raw": "per cent",
+    "period_raw": "Q3:2024",
+    "qualifiers": {
+     "remittance_amount": "US$ 200"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "Net outgo in the primary income account\nowing\nto\ndividend\nand\ninterest\nincomes/\npayments stood at US$ 37.3 billion during\nApril-December 2024",
+    "kind": "numeric",
+    "metric": "Net outgo in the primary income account",
+    "subject": "primary income account",
+    "value_raw": "37.3",
+    "unit_raw": "US$ billion",
+    "period_raw": "April-December 2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "higher than US$ 34.9\nbillion during April-December 2023.",
+    "kind": "numeric",
+    "metric": "Net outgo in the primary income account",
+    "subject": "primary income account",
+    "value_raw": "34.9",
+    "unit_raw": "US$ billion",
+    "period_raw": "April-December 2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "India’s\nCAD was contained at US$ 37.1 billion (1.3\nper cent of GDP) in April-December 2024",
+    "kind": "numeric",
+    "metric": "Current Account Deficit (CAD)",
+    "subject": "India",
+    "value_raw": "37.1",
+    "unit_raw": "US$ billion",
+    "period_raw": "April-December 2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "India’s\nCAD was contained at US$ 37.1 billion (1.3\nper cent of GDP) in April-December 2024",
+    "kind": "numeric",
+    "metric": "Current Account Deficit (CAD) as percentage of GDP",
+    "subject": "India",
+    "value_raw": "1.3",
+    "unit_raw": "per cent of GDP",
+    "period_raw": "April-December 2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "as compared with US$ 30.7 billion (1.1\nper cent of GDP) a year ago",
+    "kind": "numeric",
+    "metric": "Current Account Deficit (CAD)",
+    "subject": "India",
+    "value_raw": "30.7",
+    "unit_raw": "US$ billion",
+    "period_raw": "April-December 2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "as compared with US$ 30.7 billion (1.1\nper cent of GDP) a year ago",
+    "kind": "numeric",
+    "metric": "Current Account Deficit (CAD) as percentage of GDP",
+    "subject": "India",
+    "value_raw": "1.1",
+    "unit_raw": "per cent of GDP",
+    "period_raw": "April-December 2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "leading to a depletion in foreign\nexchange reserves of US$ 13.8 billion on a BoP\nbasis (excluding valuation effects) during April-\nDecember 2024",
+    "kind": "numeric",
+    "metric": "depletion in foreign exchange reserves on a BoP basis",
+    "subject": "foreign exchange reserves",
+    "value_raw": "13.8",
+    "unit_raw": "US$ billion",
+    "period_raw": "April-December 2024",
+    "qualifiers": {
+     "basis": "BoP basis",
+     "valuation_effects": "excluding valuation effects"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 83,
+    "quote": "gross\nforeign direct investment (FDI) inflows remained\nresilient, rising by 13.7 per cent y-o-y to US$\n81.0 billion during 2024-25.",
+    "kind": "numeric",
+    "metric": "gross foreign direct investment (FDI) inflows growth",
+    "subject": "gross foreign direct investment",
+    "value_raw": "13.7",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "basis": "y-o-y"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "gross\nforeign direct investment (FDI) inflows remained\nresilient, rising by 13.7 per cent y-o-y to US$\n81.0 billion during 2024-25.",
+    "kind": "numeric",
+    "metric": "gross foreign direct investment (FDI) inflows",
+    "subject": "gross foreign direct investment",
+    "value_raw": "81.0",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Net FDI flows at US$ 0.4 billion\nduring 2024-25 were, however, below US$ 10.1\nbillion a year ago",
+    "kind": "numeric",
+    "metric": "Net FDI flows",
+    "subject": "foreign direct investment",
+    "value_raw": "0.4",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "Net FDI flows at US$ 0.4 billion\nduring 2024-25 were, however, below US$ 10.1\nbillion a year ago",
+    "kind": "numeric",
+    "metric": "Net FDI flows",
+    "subject": "foreign direct investment",
+    "value_raw": "10.1",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "38.6",
+    "kind": "numeric",
+    "metric": "Net FDI (1.1 - 1.2)",
+    "subject": "Foreign Direct Investment",
+    "value_raw": "38.6",
+    "unit_raw": "US$ billion",
+    "period_raw": "2021-22",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "28.0",
+    "kind": "numeric",
+    "metric": "Net FDI (1.1 - 1.2)",
+    "subject": "Foreign Direct Investment",
+    "value_raw": "28.0",
+    "unit_raw": "US$ billion",
+    "period_raw": "2022-23",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "10.1",
+    "kind": "numeric",
+    "metric": "Net FDI (1.1 - 1.2)",
+    "subject": "Foreign Direct Investment",
+    "value_raw": "10.1",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "0.4",
+    "kind": "numeric",
+    "metric": "Net FDI (1.1 - 1.2)",
+    "subject": "Foreign Direct Investment",
+    "value_raw": "0.4",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "56.2",
+    "kind": "numeric",
+    "metric": "Net Inward FDI (1.1.1 - 1.1.2)",
+    "subject": "Foreign Direct Investment",
+    "value_raw": "56.2",
+    "unit_raw": "US$ billion",
+    "period_raw": "2021-22",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "42.0",
+    "kind": "numeric",
+    "metric": "Net Inward FDI (1.1.1 - 1.1.2)",
+    "subject": "Foreign Direct Investment",
+    "value_raw": "42.0",
+    "unit_raw": "US$ billion",
+    "period_raw": "2022-23",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "26.8",
+    "kind": "numeric",
+    "metric": "Net Inward FDI (1.1.1 - 1.1.2)",
+    "subject": "Foreign Direct Investment",
+    "value_raw": "26.8",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "29.6",
+    "kind": "numeric",
+    "metric": "Net Inward FDI (1.1.1 - 1.1.2)",
+    "subject": "Foreign Direct Investment",
+    "value_raw": "29.6",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "84.8",
+    "kind": "numeric",
+    "metric": "Gross Inflows",
+    "subject": "Foreign Direct Investment",
+    "value_raw": "84.8",
+    "unit_raw": "US$ billion",
+    "period_raw": "2021-22",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "71.4",
+    "kind": "numeric",
+    "metric": "Gross Inflows",
+    "subject": "Foreign Direct Investment",
+    "value_raw": "71.4",
+    "unit_raw": "US$ billion",
+    "period_raw": "2022-23",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "71.3",
+    "kind": "numeric",
+    "metric": "Gross Inflows",
+    "subject": "Foreign Direct Investment",
+    "value_raw": "71.3",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 84,
+    "quote": "81.0",
+    "kind": "numeric",
+    "metric": "Gross Inflows",
+    "subject": "Foreign Direct Investment",
+    "value_raw": "81.0",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 85,
+    "quote": "the share of G20-Emerging Market (G20-\nEM) countries in global FDI outflows increasing from 9.7\nper cent in 2009 to 16.5 per cent in 2023.",
+    "kind": "numeric",
+    "metric": "share of G20-Emerging Market (G20-EM) countries in global FDI outflows",
+    "subject": "G20-Emerging Market countries",
+    "value_raw": "9.7",
+    "unit_raw": "per cent",
+    "period_raw": "2009",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 85,
+    "quote": "the share of G20-Emerging Market (G20-\nEM) countries in global FDI outflows increasing from 9.7\nper cent in 2009 to 16.5 per cent in 2023.",
+    "kind": "numeric",
+    "metric": "share of G20-Emerging Market (G20-EM) countries in global FDI outflows",
+    "subject": "G20-Emerging Market countries",
+    "value_raw": "16.5",
+    "unit_raw": "per cent",
+    "period_raw": "2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 85,
+    "quote": "with the average\nshare rising to 51.1 per cent during 2019-2024",
+    "kind": "numeric",
+    "metric": "average share of India's outward investment towards developed economies",
+    "subject": "India",
+    "value_raw": "51.1",
+    "unit_raw": "per cent",
+    "period_raw": "2019-2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 86,
+    "quote": "foreign\nportfolio investment (FPI) registered a net inflow amounting\nto US$ 1.7 billion as compared to net inflows\nof US$ 41.6 billion during the previous year",
+    "kind": "numeric",
+    "metric": "net foreign portfolio investment (FPI) inflow",
+    "subject": "foreign portfolio investment",
+    "value_raw": "1.7",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 86,
+    "quote": "foreign\nportfolio investment (FPI) registered a net inflow amounting\nto US$ 1.7 billion as compared to net inflows\nof US$ 41.6 billion during the previous year",
+    "kind": "numeric",
+    "metric": "net foreign portfolio investment (FPI) inflow",
+    "subject": "foreign portfolio investment",
+    "value_raw": "41.6",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 86,
+    "quote": "The debt segment witnessed\nsteady FPI inflows amounting to US$ 17.4 billion",
+    "kind": "numeric",
+    "metric": "FPI inflows in debt segment",
+    "subject": "foreign portfolio investment",
+    "value_raw": "17.4",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "segment": "debt"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 86,
+    "quote": "Equity FPI flows, however,\nrecorded net outflows of US$ 15.7 billion during\nthe same period as against net inflows of US$\n25.3 billion in 2023-24",
+    "kind": "numeric",
+    "metric": "Equity FPI flows",
+    "subject": "foreign portfolio investment",
+    "value_raw": "15.7",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "segment": "equity"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 86,
+    "quote": "Equity FPI flows, however,\nrecorded net outflows of US$ 15.7 billion during\nthe same period as against net inflows of US$\n25.3 billion in 2023-24",
+    "kind": "numeric",
+    "metric": "Equity FPI flows",
+    "subject": "foreign portfolio investment",
+    "value_raw": "25.3",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "segment": "equity"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "As at end-March\n2025, 15.7 per cent of the limits in central\ngovernment securities (G-secs) were utilised",
+    "kind": "numeric",
+    "metric": "utilization of limits in central government securities (G-secs)",
+    "subject": "central government securities",
+    "value_raw": "15.7",
+    "unit_raw": "per cent",
+    "period_raw": "end-March 2025",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "(18.5 per cent as at end-March 2024).",
+    "kind": "numeric",
+    "metric": "utilization of limits in central government securities (G-secs)",
+    "subject": "central government securities",
+    "value_raw": "18.5",
+    "unit_raw": "per cent",
+    "period_raw": "end-March 2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "Of the\ntotal value of specified central G-secs opened for\nnon-resident investors under the fully accessible\nroute (FAR), 7.1 per cent were held by FPIs as\nat end-March 2025",
+    "kind": "numeric",
+    "metric": "share of specified central G-secs under fully accessible route (FAR) held by FPIs",
+    "subject": "central G-secs under FAR",
+    "value_raw": "7.1",
+    "unit_raw": "per cent",
+    "period_raw": "end-March 2025",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "up from 4.5 per cent\nas at end-March 2024.",
+    "kind": "numeric",
+    "metric": "share of specified central G-secs under fully accessible route (FAR) held by FPIs",
+    "subject": "central G-secs under FAR",
+    "value_raw": "4.5",
+    "unit_raw": "per cent",
+    "period_raw": "end-March 2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "During 2024-25, net ECB inflows to India\nrose significantly to US$ 18.7 billion from US$\n3.6 billion in 2023-24",
+    "kind": "numeric",
+    "metric": "net ECB inflows",
+    "subject": "India",
+    "value_raw": "18.7",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "During 2024-25, net ECB inflows to India\nrose significantly to US$ 18.7 billion from US$\n3.6 billion in 2023-24",
+    "kind": "numeric",
+    "metric": "net ECB inflows",
+    "subject": "India",
+    "value_raw": "3.6",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "The\nshare of rupee denominated loans and bonds in\nthe total agreement amount stood at 5.0 per cent\nduring 2024-25",
+    "kind": "numeric",
+    "metric": "share of rupee denominated loans and bonds in total agreement amount",
+    "subject": "ECB agreement amount",
+    "value_raw": "5.0",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "as compared with 5.3 per cent a\nyear ago.",
+    "kind": "numeric",
+    "metric": "share of rupee denominated loans and bonds in total agreement amount",
+    "subject": "ECB agreement amount",
+    "value_raw": "5.3",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "Of the total ECB agreement amount\nduring 2024-25, 67.6 per cent was explicitly\nhedged, 5.2 per cent was from FDI parent\ncompanies (excluding INR loans) and 5.0 per\ncent was denominated in the INR. The remaining\n22.3 per cent comprised other ECBs",
+    "kind": "numeric",
+    "metric": "share of explicitly hedged ECB agreement amount",
+    "subject": "ECB agreement amount",
+    "value_raw": "67.6",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "Of the total ECB agreement amount\nduring 2024-25, 67.6 per cent was explicitly\nhedged, 5.2 per cent was from FDI parent\ncompanies (excluding INR loans) and 5.0 per\ncent was denominated in the INR. The remaining\n22.3 per cent comprised other ECBs",
+    "kind": "numeric",
+    "metric": "share of ECB agreement amount from FDI parent companies",
+    "subject": "ECB agreement amount",
+    "value_raw": "5.2",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "Of the total ECB agreement amount\nduring 2024-25, 67.6 per cent was explicitly\nhedged, 5.2 per cent was from FDI parent\ncompanies (excluding INR loans) and 5.0 per\ncent was denominated in the INR. The remaining\n22.3 per cent comprised other ECBs",
+    "kind": "numeric",
+    "metric": "share of ECB agreement amount denominated in INR",
+    "subject": "ECB agreement amount",
+    "value_raw": "5.0",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 87,
+    "quote": "Of the total ECB agreement amount\nduring 2024-25, 67.6 per cent was explicitly\nhedged, 5.2 per cent was from FDI parent\ncompanies (excluding INR loans) and 5.0 per\ncent was denominated in the INR. The remaining\n22.3 per cent comprised other ECBs",
+    "kind": "numeric",
+    "metric": "share of other ECBs in agreement amount",
+    "subject": "ECB agreement amount",
+    "value_raw": "22.3",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "Short-term trade credit increased during\nApril-December 2024 in line with the rise in\nmerchandise imports, with a net inflow of US$\n11.1 billion as compared with a net outflow of\nUS$ 1.0 billion during the corresponding period\na year ago.",
+    "kind": "numeric",
+    "metric": "net inflow of short-term trade credit",
+    "subject": "short-term trade credit",
+    "value_raw": "11.1",
+    "unit_raw": "US$ billion",
+    "period_raw": "April-December 2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "Short-term trade credit increased during\nApril-December 2024 in line with the rise in\nmerchandise imports, with a net inflow of US$\n11.1 billion as compared with a net outflow of\nUS$ 1.0 billion during the corresponding period\na year ago.",
+    "kind": "numeric",
+    "metric": "net outflow of short-term trade credit",
+    "subject": "short-term trade credit",
+    "value_raw": "1.0",
+    "unit_raw": "US$ billion",
+    "period_raw": "April-December 2023",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "Around 32 per cent of the trade credit\nwas raised for imports of crude oil, gold, coal and\ncopper.",
+    "kind": "numeric",
+    "metric": "share of trade credit raised for imports of crude oil, gold, coal and copper",
+    "subject": "trade credit",
+    "value_raw": "32",
+    "unit_raw": "per cent",
+    "period_raw": null,
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "Net inflows under non-resident deposits\nincreased to US$ 16.2 billion during 2024-25\nfrom US$ 14.7 billion a year ago",
+    "kind": "numeric",
+    "metric": "Net inflows under non-resident deposits",
+    "subject": "non-resident deposits",
+    "value_raw": "16.2",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "Net inflows under non-resident deposits\nincreased to US$ 16.2 billion during 2024-25\nfrom US$ 14.7 billion a year ago",
+    "kind": "numeric",
+    "metric": "Net inflows under non-resident deposits",
+    "subject": "non-resident deposits",
+    "value_raw": "14.7",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "3.3",
+    "kind": "numeric",
+    "metric": "Non-Resident External (Rupee) Account flows",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "3.3",
+    "unit_raw": "US$ billion",
+    "period_raw": "2021-22",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "2.5",
+    "kind": "numeric",
+    "metric": "Non-Resident External (Rupee) Account flows",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "2.5",
+    "unit_raw": "US$ billion",
+    "period_raw": "2022-23",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "4.2",
+    "kind": "numeric",
+    "metric": "Non-Resident External (Rupee) Account flows",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "4.2",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "4.7",
+    "kind": "numeric",
+    "metric": "Non-Resident External (Rupee) Account flows",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "4.7",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "3.5",
+    "kind": "numeric",
+    "metric": "Non-Resident Ordinary Account flows",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "3.5",
+    "unit_raw": "US$ billion",
+    "period_raw": "2021-22",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "4.0",
+    "kind": "numeric",
+    "metric": "Non-Resident Ordinary Account flows",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "4.0",
+    "unit_raw": "US$ billion",
+    "period_raw": "2022-23",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "4.2",
+    "kind": "numeric",
+    "metric": "Non-Resident Ordinary Account flows",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "4.2",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "4.4",
+    "kind": "numeric",
+    "metric": "Non-Resident Ordinary Account flows",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "4.4",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "-3.6",
+    "kind": "numeric",
+    "metric": "Foreign Currency Non-Resident (B) Account flows",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "-3.6",
+    "unit_raw": "US$ billion",
+    "period_raw": "2021-22",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "2.4",
+    "kind": "numeric",
+    "metric": "Foreign Currency Non-Resident (B) Account flows",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "2.4",
+    "unit_raw": "US$ billion",
+    "period_raw": "2022-23",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "6.4",
+    "kind": "numeric",
+    "metric": "Foreign Currency Non-Resident (B) Account flows",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "6.4",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "7.1",
+    "kind": "numeric",
+    "metric": "Foreign Currency Non-Resident (B) Account flows",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "7.1",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "3.2",
+    "kind": "numeric",
+    "metric": "Non-Resident Deposits (1+2+3)",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "3.2",
+    "unit_raw": "US$ billion",
+    "period_raw": "2021-22",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "9.0",
+    "kind": "numeric",
+    "metric": "Non-Resident Deposits (1+2+3)",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "9.0",
+    "unit_raw": "US$ billion",
+    "period_raw": "2022-23",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "14.7",
+    "kind": "numeric",
+    "metric": "Non-Resident Deposits (1+2+3)",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "14.7",
+    "unit_raw": "US$ billion",
+    "period_raw": "2023-24",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "16.2",
+    "kind": "numeric",
+    "metric": "Non-Resident Deposits (1+2+3)",
+    "subject": "Non-Resident Deposit Accounts",
+    "value_raw": "16.2",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "India’s external debt to GDP ratio\nremained modest at 19.1 per cent as at end-\nDecember 2024 (18.5 per cent as at end-March\n2024)",
+    "kind": "numeric",
+    "metric": "External Debt to GDP Ratio",
+    "subject": "India",
+    "value_raw": "19.1",
+    "unit_raw": "per cent",
+    "period_raw": "end-December 2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 88,
+    "quote": "India’s external debt to GDP ratio\nremained modest at 19.1 per cent as at end-\nDecember 2024 (18.5 per cent as at end-March\n2024)",
+    "kind": "numeric",
+    "metric": "External Debt to GDP Ratio",
+    "subject": "India",
+    "value_raw": "18.5",
+    "unit_raw": "per cent",
+    "period_raw": "end-March 2024",
+    "qualifiers": {},
+    "confidence": 0.95
+   },
+   {
+    "page": 91,
+    "quote": "1.8",
+    "kind": "numeric",
+    "metric": "Merchandise Exports (% change)",
+    "subject": "Balance of Payments",
+    "value_raw": "1.8",
+    "unit_raw": "% change",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "provisional": "true",
+     "months": "April-December 2024"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 91,
+    "quote": "7.8",
+    "kind": "numeric",
+    "metric": "Merchandise Imports (% change)",
+    "subject": "Balance of Payments",
+    "value_raw": "7.8",
+    "unit_raw": "% change",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "provisional": "true",
+     "months": "April-December 2024"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 91,
+    "quote": "-7.9",
+    "kind": "numeric",
+    "metric": "Trade Balance/GDP (%)",
+    "subject": "Balance of Payments",
+    "value_raw": "-7.9",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "provisional": "true",
+     "months": "April-December 2024"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 91,
+    "quote": "6.6",
+    "kind": "numeric",
+    "metric": "Invisible Balance/GDP (%)",
+    "subject": "Balance of Payments",
+    "value_raw": "6.6",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "provisional": "true",
+     "months": "April-December 2024"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 91,
+    "quote": "-1.3",
+    "kind": "numeric",
+    "metric": "Current Account Balance/GDP (%)",
+    "subject": "Balance of Payments",
+    "value_raw": "-1.3",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "provisional": "true",
+     "months": "April-December 2024"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 91,
+    "quote": "0.8",
+    "kind": "numeric",
+    "metric": "Net Capital Flows/GDP (%)",
+    "subject": "Balance of Payments",
+    "value_raw": "0.8",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "provisional": "true",
+     "months": "April-December 2024"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 91,
+    "quote": "13.8",
+    "kind": "numeric",
+    "metric": "Reserve Changes (BoP basis)",
+    "subject": "Balance of Payments",
+    "value_raw": "13.8",
+    "unit_raw": "US $ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "provisional": "true",
+     "months": "April-December 2024",
+     "direction": "Decrease (+)"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 91,
+    "quote": "717.9",
+    "kind": "numeric",
+    "metric": "External Debt Stock (US$ billion)",
+    "subject": "External Debt Indicators",
+    "value_raw": "717.9",
+    "unit_raw": "US$ billion",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "provisional": "true",
+     "date": "end-December 2024"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 91,
+    "quote": "19.1",
+    "kind": "numeric",
+    "metric": "Debt-GDP Ratio (%)",
+    "subject": "External Debt Indicators",
+    "value_raw": "19.1",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "provisional": "true",
+     "date": "end-December 2024"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 91,
+    "quote": "10.5",
+    "kind": "numeric",
+    "metric": "Import Cover of Reserves (in Months)",
+    "subject": "External Debt Indicators",
+    "value_raw": "10.5",
+    "unit_raw": "Months",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "provisional": "true",
+     "date": "end-December 2024"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 91,
+    "quote": "19.4",
+    "kind": "numeric",
+    "metric": "Short-term Debt to Total Debt (%)",
+    "subject": "External Debt Indicators",
+    "value_raw": "19.4",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "provisional": "true",
+     "date": "end-December 2024"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 91,
+    "quote": "6.6",
+    "kind": "numeric",
+    "metric": "Debt Service Ratio (%)",
+    "subject": "External Debt Indicators",
+    "value_raw": "6.6",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "provisional": "true",
+     "date": "end-December 2024"
+    },
+    "confidence": 0.95
+   },
+   {
+    "page": 91,
+    "quote": "88.6",
+    "kind": "numeric",
+    "metric": "Reserves to Debt (%)",
+    "subject": "External Debt Indicators",
+    "value_raw": "88.6",
+    "unit_raw": "%",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "provisional": "true",
+     "date": "end-December 2024"
+    },
+    "confidence": 0.95
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 82,\n      \"quote\": \"working overseas, posted a y-o-y growth of 16.2\\nper cent during April-December 2024.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"y-o-y growth of remittances working overseas\",\n      \"subject\": \"remittances\",\n      \"value_raw\": \"16.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April-December 2024\",\n      \"qualifiers\": {\n        \"basis\": \"y-o-y\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 82,\n      \"quote\": \"global IT spending is expected to rise to US$\\n5.4 trillion in 2025 from US$ 5.1 trillion in 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global IT spending\",\n      \"subject\": \"global IT spending\",\n      \"value_raw\": \"5.4\",\n      \"unit_raw\": \"US$ trillion\",\n      \"period_raw\": \"2025\",\n      \"qualifiers\": {\n        \"source\": \"Gartner\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 82,\n      \"quote\": \"global IT spending is expected to rise to US$\\n5.4 trillion in 2025 from US$ 5.1 trillion in 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"global IT spending\",\n      \"subject\": \"global IT spending\",\n      \"value_raw\": \"5.1\",\n      \"unit_raw\": \"US$ trillion\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"source\": \"Gartner\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"India’s total\\nremittance receipts stood at US$ 137.7 billion\\nduring 2024 (on a calendar year basis).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"total remittance receipts\",\n      \"subject\": \"India\",\n      \"value_raw\": \"137.7\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024\",\n      \"qualifiers\": {\n        \"basis\": \"calendar year\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"The\\naverage cost of sending remittances of US$ 200\\nto India is estimated at 5.3 per cent in Q3:2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"average cost of sending remittances of US$ 200\",\n      \"subject\": \"India\",\n      \"value_raw\": \"5.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q3:2024\",\n      \"qualifiers\": {\n        \"remittance_amount\": \"US$ 200\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"below the global average of 6.6 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"average cost of sending remittances of US$ 200\",\n      \"subject\": \"Global\",\n      \"value_raw\": \"6.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"Q3:2024\",\n      \"qualifiers\": {\n        \"remittance_amount\": \"US$ 200\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"Net outgo in the primary income account\\nowing\\nto\\ndividend\\nand\\ninterest\\nincomes/\\npayments stood at US$ 37.3 billion during\\nApril-December 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net outgo in the primary income account\",\n      \"subject\": \"primary income account\",\n      \"value_raw\": \"37.3\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"April-December 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"higher than US$ 34.9\\nbillion during April-December 2023.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net outgo in the primary income account\",\n      \"subject\": \"primary income account\",\n      \"value_raw\": \"34.9\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"April-December 2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"India’s\\nCAD was contained at US$ 37.1 billion (1.3\\nper cent of GDP) in April-December 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Current Account Deficit (CAD)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"37.1\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"April-December 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"India’s\\nCAD was contained at US$ 37.1 billion (1.3\\nper cent of GDP) in April-December 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Current Account Deficit (CAD) as percentage of GDP\",\n      \"subject\": \"India\",\n      \"value_raw\": \"1.3\",\n      \"unit_raw\": \"per cent of GDP\",\n      \"period_raw\": \"April-December 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"as compared with US$ 30.7 billion (1.1\\nper cent of GDP) a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Current Account Deficit (CAD)\",\n      \"subject\": \"India\",\n      \"value_raw\": \"30.7\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"April-December 2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"as compared with US$ 30.7 billion (1.1\\nper cent of GDP) a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Current Account Deficit (CAD) as percentage of GDP\",\n      \"subject\": \"India\",\n      \"value_raw\": \"1.1\",\n      \"unit_raw\": \"per cent of GDP\",\n      \"period_raw\": \"April-December 2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"leading to a depletion in foreign\\nexchange reserves of US$ 13.8 billion on a BoP\\nbasis (excluding valuation effects) during April-\\nDecember 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"depletion in foreign exchange reserves on a BoP basis\",\n      \"subject\": \"foreign exchange reserves\",\n      \"value_raw\": \"13.8\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"April-December 2024\",\n      \"qualifiers\": {\n        \"basis\": \"BoP basis\",\n        \"valuation_effects\": \"excluding valuation effects\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 83,\n      \"quote\": \"gross\\nforeign direct investment (FDI) inflows remained\\nresilient, rising by 13.7 per cent y-o-y to US$\\n81.0 billion during 2024-25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross foreign direct investment (FDI) inflows growth\",\n      \"subject\": \"gross foreign direct investment\",\n      \"value_raw\": \"13.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"basis\": \"y-o-y\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"gross\\nforeign direct investment (FDI) inflows remained\\nresilient, rising by 13.7 per cent y-o-y to US$\\n81.0 billion during 2024-25.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"gross foreign direct investment (FDI) inflows\",\n      \"subject\": \"gross foreign direct investment\",\n      \"value_raw\": \"81.0\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Net FDI flows at US$ 0.4 billion\\nduring 2024-25 were, however, below US$ 10.1\\nbillion a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net FDI flows\",\n      \"subject\": \"foreign direct investment\",\n      \"value_raw\": \"0.4\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"Net FDI flows at US$ 0.4 billion\\nduring 2024-25 were, however, below US$ 10.1\\nbillion a year ago\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net FDI flows\",\n      \"subject\": \"foreign direct investment\",\n      \"value_raw\": \"10.1\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"38.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net FDI (1.1 - 1.2)\",\n      \"subject\": \"Foreign Direct Investment\",\n      \"value_raw\": \"38.6\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2021-22\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"28.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net FDI (1.1 - 1.2)\",\n      \"subject\": \"Foreign Direct Investment\",\n      \"value_raw\": \"28.0\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2022-23\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"10.1\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net FDI (1.1 - 1.2)\",\n      \"subject\": \"Foreign Direct Investment\",\n      \"value_raw\": \"10.1\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"0.4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net FDI (1.1 - 1.2)\",\n      \"subject\": \"Foreign Direct Investment\",\n      \"value_raw\": \"0.4\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"56.2\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net Inward FDI (1.1.1 - 1.1.2)\",\n      \"subject\": \"Foreign Direct Investment\",\n      \"value_raw\": \"56.2\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2021-22\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"42.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net Inward FDI (1.1.1 - 1.1.2)\",\n      \"subject\": \"Foreign Direct Investment\",\n      \"value_raw\": \"42.0\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2022-23\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"26.8\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net Inward FDI (1.1.1 - 1.1.2)\",\n      \"subject\": \"Foreign Direct Investment\",\n      \"value_raw\": \"26.8\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"29.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Net Inward FDI (1.1.1 - 1.1.2)\",\n      \"subject\": \"Foreign Direct Investment\",\n      \"value_raw\": \"29.6\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"84.8\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Gross Inflows\",\n      \"subject\": \"Foreign Direct Investment\",\n      \"value_raw\": \"84.8\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2021-22\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"71.4\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Gross Inflows\",\n      \"subject\": \"Foreign Direct Investment\",\n      \"value_raw\": \"71.4\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2022-23\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"71.3\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Gross Inflows\",\n      \"subject\": \"Foreign Direct Investment\",\n      \"value_raw\": \"71.3\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 84,\n      \"quote\": \"81.0\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Gross Inflows\",\n      \"subject\": \"Foreign Direct Investment\",\n      \"value_raw\": \"81.0\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"the share of G20-Emerging Market (G20-\\nEM) countries in global FDI outflows increasing from 9.7\\nper cent in 2009 to 16.5 per cent in 2023.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of G20-Emerging Market (G20-EM) countries in global FDI outflows\",\n      \"subject\": \"G20-Emerging Market countries\",\n      \"value_raw\": \"9.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2009\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"the share of G20-Emerging Market (G20-\\nEM) countries in global FDI outflows increasing from 9.7\\nper cent in 2009 to 16.5 per cent in 2023.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of G20-Emerging Market (G20-EM) countries in global FDI outflows\",\n      \"subject\": \"G20-Emerging Market countries\",\n      \"value_raw\": \"16.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 85,\n      \"quote\": \"with the average\\nshare rising to 51.1 per cent during 2019-2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"average share of India's outward investment towards developed economies\",\n      \"subject\": \"India\",\n      \"value_raw\": \"51.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2019-2024\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"foreign\\nportfolio investment (FPI) registered a net inflow amounting\\nto US$ 1.7 billion as compared to net inflows\\nof US$ 41.6 billion during the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net foreign portfolio investment (FPI) inflow\",\n      \"subject\": \"foreign portfolio investment\",\n      \"value_raw\": \"1.7\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"foreign\\nportfolio investment (FPI) registered a net inflow amounting\\nto US$ 1.7 billion as compared to net inflows\\nof US$ 41.6 billion during the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net foreign portfolio investment (FPI) inflow\",\n      \"subject\": \"foreign portfolio investment\",\n      \"value_raw\": \"41.6\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"The debt segment witnessed\\nsteady FPI inflows amounting to US$ 17.4 billion\",\n      \"kind\": \"numeric\",\n      \"metric\": \"FPI inflows in debt segment\",\n      \"subject\": \"foreign portfolio investment\",\n      \"value_raw\": \"17.4\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"segment\": \"debt\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"Equity FPI flows, however,\\nrecorded net outflows of US$ 15.7 billion during\\nthe same period as against net inflows of US$\\n25.3 billion in 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Equity FPI flows\",\n      \"subject\": \"foreign portfolio investment\",\n      \"value_raw\": \"15.7\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"segment\": \"equity\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 86,\n      \"quote\": \"Equity FPI flows, however,\\nrecorded net outflows of US$ 15.7 billion during\\nthe same period as against net inflows of US$\\n25.3 billion in 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Equity FPI flows\",\n      \"subject\": \"foreign portfolio investment\",\n      \"value_raw\": \"25.3\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"segment\": \"equity\"\n      },\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"As at end-March\\n2025, 15.7 per cent of the limits in central\\ngovernment securities (G-secs) were utilised\",\n      \"kind\": \"numeric\",\n      \"metric\": \"utilization of limits in central government securities (G-secs)\",\n      \"subject\": \"central government securities\",\n      \"value_raw\": \"15.7\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"end-March 2025\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"(18.5 per cent as at end-March 2024).\",\n      \"kind\": \"numeric\",\n      \"metric\": \"utilization of limits in central government securities (G-secs)\",\n      \"subject\": \"central government securities\",\n      \"value_raw\": \"18.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"end-March 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"Of the\\ntotal value of specified central G-secs opened for\\nnon-resident investors under the fully accessible\\nroute (FAR), 7.1 per cent were held by FPIs as\\nat end-March 2025\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of specified central G-secs under fully accessible route (FAR) held by FPIs\",\n      \"subject\": \"central G-secs under FAR\",\n      \"value_raw\": \"7.1\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"end-March 2025\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"up from 4.5 per cent\\nas at end-March 2024.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of specified central G-secs under fully accessible route (FAR) held by FPIs\",\n      \"subject\": \"central G-secs under FAR\",\n      \"value_raw\": \"4.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"end-March 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"During 2024-25, net ECB inflows to India\\nrose significantly to US$ 18.7 billion from US$\\n3.6 billion in 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net ECB inflows\",\n      \"subject\": \"India\",\n      \"value_raw\": \"18.7\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"During 2024-25, net ECB inflows to India\\nrose significantly to US$ 18.7 billion from US$\\n3.6 billion in 2023-24\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net ECB inflows\",\n      \"subject\": \"India\",\n      \"value_raw\": \"3.6\",\n      \"unit_raw\": \"US$ billion\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"The\\nshare of rupee denominated loans and bonds in\\nthe total agreement amount stood at 5.0 per cent\\nduring 2024-25\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of rupee denominated loans and bonds in total agreement amount\",\n      \"subject\": \"ECB agreement amount\",\n      \"value_raw\": \"5.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"as compared with 5.3 per cent a\\nyear ago.\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of rupee denominated loans and bonds in total agreement amount\",\n      \"subject\": \"ECB agreement amount\",\n      \"value_raw\": \"5.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"Of the total ECB agreement amount\\nduring 2024-25, 67.6 per cent was explicitly\\nhedged, 5.2 per cent was from FDI parent\\ncompanies (excluding INR loans) and 5.0 per\\ncent was denominated in the INR. The remaining\\n22.3 per cent comprised other ECBs\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of explicitly hedged ECB agreement amount\",\n      \"subject\": \"ECB agreement amount\",\n      \"value_raw\": \"67.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"Of the total ECB agreement amount\\nduring 2024-25, 67.6 per cent was explicitly\\nhedged, 5.2 per cent was from FDI parent\\ncompanies (excluding INR loans) and 5.0 per\\ncent was denominated in the INR. The remaining\\n22.3 per cent comprised other ECBs\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of ECB agreement amount from FDI parent companies\",\n      \"subject\": \"ECB agreement amount\",\n      \"value_raw\": \"5.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"Of the total ECB agreement amount\\nduring 2024-25, 67.6 per cent was explicitly\\nhedged, 5.2 per cent was from FDI parent\\ncompanies (excluding INR loans) and 5.0 per\\ncent was denominated in the INR. The remaining\\n22.3 per cent comprised other ECBs\",\n      \"kind\": \"numeric\",\n      \"metric\": \"share of ECB agreement amount denominated in INR\",\n      \"subject\": \"ECB agreement amount\",\n      \"value_raw\": \"5.0\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {},\n      \"confidence\": 0.95\n    },\n    {\n      \"page\": 87,\n      \"quote\": \"Of the total ECB agreement amount\\nduring 2024-25, 67.6 per cent was explicitly\\nhedged, 5",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-rbi-annual-report-2024-25-excerpt-73209a2c:b82"
+}

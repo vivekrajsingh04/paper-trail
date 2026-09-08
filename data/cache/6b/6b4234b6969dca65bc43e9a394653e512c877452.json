@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Non-Resident External (Rupee) Account flows and Non-Resident Ordinary Account flows represent two distinct types of non-resident bank accounts with different regulatory rules."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Non-Resident External (Rupee) Account flows and Non-Resident Ordinary Account flows represent two distinct types of non-resident bank accounts with different regulatory rules.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

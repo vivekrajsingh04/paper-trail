@@ -1,0 +1,210 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 37,
+    "quote": "4.6 per cent",
+    "kind": "numeric",
+    "metric": "CPI headline inflation average",
+    "subject": "India",
+    "value_raw": "4.6",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "inflation_measure": "headline",
+     "index_type": "CPI-Combined (Rural + Urban)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 37,
+    "quote": "5.4 per cent",
+    "kind": "numeric",
+    "metric": "CPI headline inflation average",
+    "subject": "India",
+    "value_raw": "5.4",
+    "unit_raw": "per cent",
+    "period_raw": "2023-24",
+    "qualifiers": {
+     "inflation_measure": "headline",
+     "index_type": "CPI-Combined (Rural + Urban)"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 37,
+    "quote": "4.9",
+    "kind": "numeric",
+    "metric": "Mean CPI headline inflation",
+    "subject": "India",
+    "value_raw": "4.9",
+    "unit_raw": "Per cent",
+    "period_raw": "2015-16",
+    "qualifiers": {
+     "statistic": "Mean",
+     "index_type": "CPI Headline"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 37,
+    "quote": "4.6",
+    "kind": "numeric",
+    "metric": "Mean CPI headline inflation",
+    "subject": "India",
+    "value_raw": "4.6",
+    "unit_raw": "Per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "statistic": "Mean",
+     "index_type": "CPI Headline"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 38,
+    "quote": "4.8 per cent",
+    "kind": "numeric",
+    "metric": "CPI headline inflation",
+    "subject": "India",
+    "value_raw": "4.8",
+    "unit_raw": "per cent",
+    "period_raw": "April-May 2024",
+    "qualifiers": {
+     "inflation_measure": "headline"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 38,
+    "quote": "3.6 per cent",
+    "kind": "numeric",
+    "metric": "CPI headline inflation",
+    "subject": "India",
+    "value_raw": "3.6",
+    "unit_raw": "per cent",
+    "period_raw": "July 2024",
+    "qualifiers": {
+     "inflation_measure": "headline"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 38,
+    "quote": "6.2 per cent",
+    "kind": "numeric",
+    "metric": "CPI headline inflation",
+    "subject": "India",
+    "value_raw": "6.2",
+    "unit_raw": "per cent",
+    "period_raw": "October 2024",
+    "qualifiers": {
+     "inflation_measure": "headline"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 38,
+    "quote": "3.3 per cent",
+    "kind": "numeric",
+    "metric": "CPI headline inflation",
+    "subject": "India",
+    "value_raw": "3.3",
+    "unit_raw": "per cent",
+    "period_raw": "March 2025",
+    "qualifiers": {
+     "inflation_measure": "headline"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "(-) 2.5 per cent",
+    "kind": "numeric",
+    "metric": "Inflation in fuel and light",
+    "subject": "fuel and light",
+    "value_raw": "(-) 2.5",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "component": "fuel and light"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "1.2 per cent",
+    "kind": "numeric",
+    "metric": "Inflation in fuel and light",
+    "subject": "fuel and light",
+    "value_raw": "1.2",
+    "unit_raw": "per cent",
+    "period_raw": "a year ago",
+    "qualifiers": {
+     "component": "fuel and light"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "3.5 per cent",
+    "kind": "numeric",
+    "metric": "Core inflation (inflation excluding food and fuel)",
+    "subject": "core inflation",
+    "value_raw": "3.5",
+    "unit_raw": "per cent",
+    "period_raw": "2024-25",
+    "qualifiers": {
+     "measure": "core inflation excluding food and fuel"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "4.3 per cent",
+    "kind": "numeric",
+    "metric": "Core inflation (inflation excluding food and fuel)",
+    "subject": "core inflation",
+    "value_raw": "4.3",
+    "unit_raw": "per cent",
+    "period_raw": "a year ago",
+    "qualifiers": {
+     "measure": "core inflation excluding food and fuel"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "7.4 per cent",
+    "kind": "numeric",
+    "metric": "Food and beverages inflation",
+    "subject": "Food and beverages",
+    "value_raw": "7.4",
+    "unit_raw": "per cent",
+    "period_raw": "April 2024-January 2025",
+    "qualifiers": {
+     "group": "Food and beverages"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 41,
+    "quote": "6.9 per cent",
+    "kind": "numeric",
+    "metric": "Food and beverages inflation",
+    "subject": "Food and beverages",
+    "value_raw": "6.9",
+    "unit_raw": "per cent",
+    "period_raw": "corresponding period of 2023-24",
+    "qualifiers": {
+     "group": "Food and beverages"
+    },
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 37,\n      \"quote\": \"4.6 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"CPI headline inflation average\",\n      \"subject\": \"India\",\n      \"value_raw\": \"4.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"inflation_measure\": \"headline\",\n        \"index_type\": \"CPI-Combined (Rural + Urban)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 37,\n      \"quote\": \"5.4 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"CPI headline inflation average\",\n      \"subject\": \"India\",\n      \"value_raw\": \"5.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2023-24\",\n      \"qualifiers\": {\n        \"inflation_measure\": \"headline\",\n        \"index_type\": \"CPI-Combined (Rural + Urban)\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 37,\n      \"quote\": \"4.9\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Mean CPI headline inflation\",\n      \"subject\": \"India\",\n      \"value_raw\": \"4.9\",\n      \"unit_raw\": \"Per cent\",\n      \"period_raw\": \"2015-16\",\n      \"qualifiers\": {\n        \"statistic\": \"Mean\",\n        \"index_type\": \"CPI Headline\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 37,\n      \"quote\": \"4.6\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Mean CPI headline inflation\",\n      \"subject\": \"India\",\n      \"value_raw\": \"4.6\",\n      \"unit_raw\": \"Per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"statistic\": \"Mean\",\n        \"index_type\": \"CPI Headline\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 38,\n      \"quote\": \"4.8 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"CPI headline inflation\",\n      \"subject\": \"India\",\n      \"value_raw\": \"4.8\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April-May 2024\",\n      \"qualifiers\": {\n        \"inflation_measure\": \"headline\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 38,\n      \"quote\": \"3.6 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"CPI headline inflation\",\n      \"subject\": \"India\",\n      \"value_raw\": \"3.6\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"July 2024\",\n      \"qualifiers\": {\n        \"inflation_measure\": \"headline\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 38,\n      \"quote\": \"6.2 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"CPI headline inflation\",\n      \"subject\": \"India\",\n      \"value_raw\": \"6.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"October 2024\",\n      \"qualifiers\": {\n        \"inflation_measure\": \"headline\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 38,\n      \"quote\": \"3.3 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"CPI headline inflation\",\n      \"subject\": \"India\",\n      \"value_raw\": \"3.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"March 2025\",\n      \"qualifiers\": {\n        \"inflation_measure\": \"headline\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"(-) 2.5 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Inflation in fuel and light\",\n      \"subject\": \"fuel and light\",\n      \"value_raw\": \"(-) 2.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"component\": \"fuel and light\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"1.2 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Inflation in fuel and light\",\n      \"subject\": \"fuel and light\",\n      \"value_raw\": \"1.2\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"a year ago\",\n      \"qualifiers\": {\n        \"component\": \"fuel and light\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"3.5 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Core inflation (inflation excluding food and fuel)\",\n      \"subject\": \"core inflation\",\n      \"value_raw\": \"3.5\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"2024-25\",\n      \"qualifiers\": {\n        \"measure\": \"core inflation excluding food and fuel\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"4.3 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Core inflation (inflation excluding food and fuel)\",\n      \"subject\": \"core inflation\",\n      \"value_raw\": \"4.3\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"a year ago\",\n      \"qualifiers\": {\n        \"measure\": \"core inflation excluding food and fuel\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"7.4 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Food and beverages inflation\",\n      \"subject\": \"Food and beverages\",\n      \"value_raw\": \"7.4\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"April 2024-January 2025\",\n      \"qualifiers\": {\n        \"group\": \"Food and beverages\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 41,\n      \"quote\": \"6.9 per cent\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Food and beverages inflation\",\n      \"subject\": \"Food and beverages\",\n      \"value_raw\": \"6.9\",\n      \"unit_raw\": \"per cent\",\n      \"period_raw\": \"corresponding period of 2023-24\",\n      \"qualifiers\": {\n        \"group\": \"Food and beverages\"\n      },\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "extract:02-rbi-annual-report-2024-25-excerpt-73209a2c:b35"
+}

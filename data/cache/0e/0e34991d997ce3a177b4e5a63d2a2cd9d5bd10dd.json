@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "B",
+  "reason": "Metric A represents a monthly average, whereas metric B represents a cumulative total over a specific period, making them different mathematical aggregations of the same underlying data."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Metric A represents a monthly average, whereas metric B represents a cumulative total over a specific period, making them different mathematical aggregations of the same underlying data.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

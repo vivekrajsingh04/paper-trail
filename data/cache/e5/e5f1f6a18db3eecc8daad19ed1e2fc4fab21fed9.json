@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross Fixed Capital Formation measures economy-wide investment by all sectors, whereas central government effective capital expenditure is a specific fiscal policy metric representing only a portion of public sector spending."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross Fixed Capital Formation measures economy-wide investment by all sectors, whereas central government effective capital expenditure is a specific fiscal policy metric representing only a portion of public sector spending.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

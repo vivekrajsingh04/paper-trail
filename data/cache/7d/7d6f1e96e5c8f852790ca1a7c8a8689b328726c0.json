@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics refer to different economic entities, with one representing the global economy and the other specifically representing Emerging Market and Developing Economies (EMDEs)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics refer to different economic entities, with one representing the global economy and the other specifically representing Emerging Market and Developing Economies (EMDEs).\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

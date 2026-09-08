@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Foreign Currency Non-Resident (B) Account flows and Non-Resident External (Rupee) Account flows measure different types of non-resident deposit accounts."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Foreign Currency Non-Resident (B) Account flows and Non-Resident External (Rupee) Account flows measure different types of non-resident deposit accounts.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

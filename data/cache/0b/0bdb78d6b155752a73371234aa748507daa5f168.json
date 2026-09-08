@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Industrial sector GVA growth and Manufacturing sector GVA growth measure different economic segments, as manufacturing is only a component of the broader industrial sector."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Industrial sector GVA growth and Manufacturing sector GVA growth measure different economic segments, as manufacturing is only a component of the broader industrial sector.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}
