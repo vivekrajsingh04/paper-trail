@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Current account balance and Current Account Deficit (CAD) refer to the same economic indicator, where a negative balance is equivalent to a deficit."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Current account balance and Current Account Deficit (CAD) refer to the same economic indicator, where a negative balance is equivalent to a deficit.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

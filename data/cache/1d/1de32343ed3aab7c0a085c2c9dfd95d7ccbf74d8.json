@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Equity FPI flows and debt segment FPI inflows represent two distinct, non-overlapping categories of foreign portfolio investment."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Equity FPI flows and debt segment FPI inflows represent two distinct, non-overlapping categories of foreign portfolio investment.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

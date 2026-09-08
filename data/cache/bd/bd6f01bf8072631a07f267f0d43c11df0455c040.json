@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net capital inflow is a broad macroeconomic aggregate representing the entire capital account, whereas Net FDI flows is a specific sub-component of the capital account."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net capital inflow is a broad macroeconomic aggregate representing the entire capital account, whereas Net FDI flows is a specific sub-component of the capital account.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

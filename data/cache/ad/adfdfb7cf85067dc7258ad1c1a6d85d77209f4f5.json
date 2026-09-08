@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "CPI headline inflation measures the overall price level change for a basket of goods, whereas spices inflation is a specific sub-category index."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"CPI headline inflation measures the overall price level change for a basket of goods, whereas spices inflation is a specific sub-category index.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

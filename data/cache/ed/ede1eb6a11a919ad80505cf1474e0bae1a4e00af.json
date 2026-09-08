@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net FPI outflow refers to foreign portfolio investment flows in the equity market, whereas the primary income account is a distinct component of the balance of payments current account."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net FPI outflow refers to foreign portfolio investment flows in the equity market, whereas the primary income account is a distinct component of the balance of payments current account.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

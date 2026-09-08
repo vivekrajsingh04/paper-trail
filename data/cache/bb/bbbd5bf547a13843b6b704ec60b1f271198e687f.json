@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Current Account Deficit measures external trade and financial flows, whereas Gross Fiscal Deficit measures the government's budgetary shortfall."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Current Account Deficit measures external trade and financial flows, whereas Gross Fiscal Deficit measures the government's budgetary shortfall.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

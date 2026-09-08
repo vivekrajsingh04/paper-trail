@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The BSE Sensex close value represents the index's daily closing level, whereas a new high represents a specific peak value reached during a trading session, making them distinct metrics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The BSE Sensex close value represents the index's daily closing level, whereas a new high represents a specific peak value reached during a trading session, making them distinct metrics.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

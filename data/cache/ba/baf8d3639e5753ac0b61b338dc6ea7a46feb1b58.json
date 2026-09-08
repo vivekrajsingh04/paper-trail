@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "External debt to GDP measures a country's total foreign liabilities, whereas the gross fiscal deficit to GDP measures the Union government's budgetary shortfall."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"External debt to GDP measures a country's total foreign liabilities, whereas the gross fiscal deficit to GDP measures the Union government's budgetary shortfall.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}
