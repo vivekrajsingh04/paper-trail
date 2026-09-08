@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Nominal GDP growth measures the annual percentage change in a country's total economic output, whereas PE/VC investments in percent of GDP measure the share of that output specifically directed toward private equity and venture capital."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Nominal GDP growth measures the annual percentage change in a country's total economic output, whereas PE/VC investments in percent of GDP measure the share of that output specifically directed toward private equity and venture capital.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

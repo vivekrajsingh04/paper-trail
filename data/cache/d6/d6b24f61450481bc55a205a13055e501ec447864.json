@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Consumer price inflation and GDP deflator inflation are two different macroeconomic measures tracking price changes in different baskets of goods and services."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Consumer price inflation and GDP deflator inflation are two different macroeconomic measures tracking price changes in different baskets of goods and services.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

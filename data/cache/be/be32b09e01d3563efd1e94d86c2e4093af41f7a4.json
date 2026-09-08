@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the average cost of acquisition per equity share for CA Swift Investments, whereas Metric B measures the basic loss per equity share for Delhivery Limited, representing entirely different financial concepts and subjects."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the average cost of acquisition per equity share for CA Swift Investments, whereas Metric B measures the basic loss per equity share for Delhivery Limited, representing entirely different financial concepts and subjects.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

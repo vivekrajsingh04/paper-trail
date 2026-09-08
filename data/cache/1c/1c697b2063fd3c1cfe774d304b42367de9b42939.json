@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Both metrics represent the total loss (Profit After Tax loss / loss attributable to equity holders) of Delhivery Limited for FY23, differing only in currency scaling (million Indian Rupees vs Crores)."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Both metrics represent the total loss (Profit After Tax loss / loss attributable to equity holders) of Delhivery Limited for FY23, differing only in currency scaling (million Indian Rupees vs Crores).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

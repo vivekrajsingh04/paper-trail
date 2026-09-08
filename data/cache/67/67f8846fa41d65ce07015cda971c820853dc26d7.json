@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net FPI inflows encompass overall foreign portfolio investments across both equity and debt, whereas net sales in the domestic equity market specifically target equities."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net FPI inflows encompass overall foreign portfolio investments across both equity and debt, whereas net sales in the domestic equity market specifically target equities.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Economic growth projection encompasses overall GDP growth for a group of countries, whereas Gross Fixed Capital Formation (GFCF) growth measures a specific component of investment for a single country."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Economic growth projection encompasses overall GDP growth for a group of countries, whereas Gross Fixed Capital Formation (GFCF) growth measures a specific component of investment for a single country.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

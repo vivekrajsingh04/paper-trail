@@ -103,6 +103,63 @@ four required cases.
 
 ---
 
+## What it produces on the starter corpus
+
+Run with `make build` (45 pages per document; drop the cap to process all 511).
+
+| Document | pages | sent | facts | verified | quantity coverage |
+|---|---|---|---|---|---|
+| Delhivery Prospectus 2022 | 100 | 45 | 182 | 96.8% | 13.1% |
+| Delhivery Annual Report FY24 | 100 | 32 | 162 | 97.0% | 4.7% |
+| Delhivery Q4 FY24 deck | 27 | 16 | 15 | **53.6%** | 3.2% |
+| Economic Survey 2024-25 | 89 | 37 | 173 | 94.0% | 20.3% |
+| RBI Annual Report 2024-25 | 100 | 45 | 176 | 88.9% | 7.0% |
+| IMF Article IV 2025 | 95 | 45 | 127 | 99.2% | 6.0% |
+| **Total** | **511** | | **835** | | |
+
+**835 facts → 862 relations, 231 of them cross-document.** Verdicts: 721
+reconciled, 51 contradictions, 15 corroborations.
+
+Two of those numbers deserve explanation rather than burial.
+
+**Corroborations are rare (15) because the bar is strict.** A corroboration
+requires the same metric, the same period, agreement on every recorded
+dimension, *and* overlapping precision intervals. An earlier version reported 89
+— until it turned out that 74 of them were pairs whose values coincided while a
+dimension differed. Q1 growth of 6.5% and full-year growth of 6.5% are two
+different claims that happen to share a number; presenting that as two sources
+agreeing is exactly the false confidence this layer exists to prevent. Those are
+now reported as `related`, not `corroborates`.
+
+**Coverage is low (3–20%) and that is the weakest part of the system.** The
+scanner detects far more salient quantities than become facts. Some of that gap
+is deliberate — the extractor is told to prefer figures a reader would cite —
+but not all of it, and the honest position is that recall on dense financial
+tables is poor. The deck's 53.6% verification rate against 89–99% elsewhere is
+the same story from the other side, and both are explained in Case 4.
+
+### The schema really does grow
+
+The extractor proposed **145 distinct qualifier keys** across the corpus, none of
+them declared in advance: `geography`, `classification` (current/non-current),
+`statement_type`, `scenario` (baseline/adjusted), `level_of_government`,
+`comparison_period`, and so on.
+
+And the engine learns which of them explain anything:
+
+| dimension | explanatory power | observed |
+|---|---|---|
+| `period` | 0.968 | 428 of 440 pairs |
+| `subject` | 0.887 | 116 of 129 |
+| `status` | **0.300** | 1 of 6 |
+| `scale` | **0.333** | 0 of 2 |
+
+`period` almost always accompanies a change in value; `scale` never does — which
+is correct, because units are normalised before comparison, so scale *should not*
+move a value. Nothing told the system that. It measured it.
+
+---
+
 ## The four required cases
 
 All four are live in the UI under **Required cases**, selected by querying the
@@ -418,12 +475,24 @@ replaying after the default model changes or a run falls back across several.
 
 **What does not work well yet**
 
-- **Coverage is well below detection.** The deterministic scanner finds far more
-  salient quantities than become facts. The extractor is instructed to prefer
-  figures a reader would cite, so some of that gap is intentional — but not all
-  of it, and the honest position is that recall on dense financial tables is the
-  weakest part of the system. Per-page coverage is reported in **Diagnostics**
-  precisely so this is visible rather than hidden.
+- **Coverage is well below detection (3–20%).** The scanner finds far more
+  salient quantities than become facts. Some of that gap is intentional, but not
+  all of it, and recall on dense financial tables is the weakest part of the
+  system. Per-page coverage is reported in **Diagnostics** precisely so this is
+  visible rather than hidden.
+- **The qualifier vocabulary fragments.** 145 keys emerged, and some are the same
+  idea under different names — `statement_type`, `financial_statement_type` and
+  `statement`; `level` and `level_of_government`. Facts that ought to share a
+  dimension therefore sometimes do not. The metric names get canonicalised
+  through the three-tier resolver; qualifier *keys* get no such treatment, and
+  they should.
+- **Some qualifiers echo dimensions already modelled.** `fiscal_year` duplicates
+  the parsed period. Unit echoes (`currency`, `scale`) are dropped, but the
+  period case is not yet, so a stray `fiscal_year` string can add a spurious
+  conflict.
+- **Only one ingest may write at a time.** SQLite takes a single writer, and
+  running two rebuilds concurrently blocks rather than failing loudly. It should
+  take an advisory lock and refuse, instead of queueing invisibly.
 - **Wide tables remain the hardest case.** See "A failure I found", below.
 - **Confidence is principled but uncalibrated.** The score composes real signals
   and is not arbitrary, but no labelled sample has been used to check that 0.8

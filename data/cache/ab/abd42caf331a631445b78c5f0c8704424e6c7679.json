@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Lease liabilities represent obligations to make lease payments, whereas non-current assets represent resources controlled by the entity, making them entirely different financial metrics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Lease liabilities represent obligations to make lease payments, whereas non-current assets represent resources controlled by the entity, making them entirely different financial metrics.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

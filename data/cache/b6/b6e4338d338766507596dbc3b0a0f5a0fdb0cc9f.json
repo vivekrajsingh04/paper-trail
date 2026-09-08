@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The employment rate of regular wage earners measures labor market participation of a specific wage group in India, whereas the return to work rate measures the percentage of permanent employees returning to work after leave or injury, representing entirely different phenomena."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The employment rate of regular wage earners measures labor market participation of a specific wage group in India, whereas the return to work rate measures the percentage of permanent employees returning to work after leave or injury, representing entirely different phenomena.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

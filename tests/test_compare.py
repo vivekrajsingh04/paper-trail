@@ -188,3 +188,22 @@ def test_subject_that_restates_the_metric_is_not_a_dimension():
     e = engine()
     rel = e._judge(e.evaluate(echo, real))
     assert rel.explained_by != "subject"
+
+
+def test_equal_values_across_different_periods_are_not_corroboration():
+    """Q1 growth and full-year growth both reading 6.5% is coincidence."""
+    a = mk("real GDP growth", "6.5", "per cent", "Q1:2024-25", "rbi", subject="India")
+    b = mk("real GDP growth", "6.5", "per cent", "FY2024/25", "imf", subject="India")
+    e = engine()
+    rel = e._judge(e.evaluate(a, b))
+    assert rel.verdict is Verdict.RELATED
+    assert "period" in rel.differing_dims
+    assert "coincide" in rel.explanation
+
+
+def test_equal_values_on_the_same_subject_still_corroborate():
+    a = mk("real GDP growth", "6.5", "per cent", "2024-25", "rbi", subject="India")
+    b = mk("real GDP growth", "6.5", "per cent", "FY2024/25", "imf", subject="India")
+    e = engine()
+    rel = e._judge(e.evaluate(a, b))
+    assert rel.verdict is Verdict.CORROBORATES

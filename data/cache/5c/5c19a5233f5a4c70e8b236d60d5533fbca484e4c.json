@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Revenue from operations outside India measures geographic scope, whereas revenue from services measures the nature of the revenue stream for a specific legal entity."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Revenue from operations outside India measures geographic scope, whereas revenue from services measures the nature of the revenue stream for a specific legal entity.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

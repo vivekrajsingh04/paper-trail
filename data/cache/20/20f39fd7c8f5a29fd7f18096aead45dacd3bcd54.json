@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Consumer Food Price Index (CFPI) inflation and Wholesale Price Index (WPI) inflation measure price changes across different baskets of goods and through different distribution channels."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Consumer Food Price Index (CFPI) inflation and Wholesale Price Index (WPI) inflation measure price changes across different baskets of goods and through different distribution channels.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

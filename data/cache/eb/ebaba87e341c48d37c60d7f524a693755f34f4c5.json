@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Exports growth rate of engineering goods measures a specific sector's international trade performance, whereas GDP growth measures the entire economy's total output."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Exports growth rate of engineering goods measures a specific sector's international trade performance, whereas GDP growth measures the entire economy's total output.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

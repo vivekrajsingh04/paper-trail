@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "A",
+  "reason": "Metric A measures total merchandise exports for the entire country, whereas Metric B measures only a specific component (raw and semi-finished materials) of textile exports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Metric A measures total merchandise exports for the entire country, whereas Metric B measures only a specific component (raw and semi-finished materials) of textile exports.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

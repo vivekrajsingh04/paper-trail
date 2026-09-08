@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the equity shareholding percentage in a subsidiary, whereas Metric B measures the total other equity value in Indian Rupees for the parent company."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the equity shareholding percentage in a subsidiary, whereas Metric B measures the total other equity value in Indian Rupees for the parent company.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

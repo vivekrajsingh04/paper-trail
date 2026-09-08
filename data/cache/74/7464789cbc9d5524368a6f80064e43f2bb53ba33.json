@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "IMF inflation projection is a macroeconomic forecast, whereas WPI inflation measures historical price changes specifically at the wholesale level."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"IMF inflation projection is a macroeconomic forecast, whereas WPI inflation measures historical price changes specifically at the wholesale level.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

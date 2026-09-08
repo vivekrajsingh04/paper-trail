@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures average tariff rates on all dutiable items in China, whereas Metric B measures the decrease in simple average preferential tariffs specifically within the manufacturing sector."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures average tariff rates on all dutiable items in China, whereas Metric B measures the decrease in simple average preferential tariffs specifically within the manufacturing sector.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures global market share percentage in the telecommunications and IT sector, whereas Fact B measures the export value in USD of raw and semi-finished materials in the textile sector."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures global market share percentage in the telecommunications and IT sector, whereas Fact B measures the export value in USD of raw and semi-finished materials in the textile sector.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

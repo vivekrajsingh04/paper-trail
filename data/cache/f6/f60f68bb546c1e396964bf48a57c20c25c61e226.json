@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Economic growth projections for EMDEs (Emerging Markets and Developing Economies as a group) and real GDP growth for India refer to entirely different geographic regions and economic aggregates."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Economic growth projections for EMDEs (Emerging Markets and Developing Economies as a group) and real GDP growth for India refer to entirely different geographic regions and economic aggregates.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

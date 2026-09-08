@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "India's net service receipts represent macroeconomic international trade data, whereas Delhivery Limited's revenue from services represents the company-specific financial performance of a single corporate entity."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"India's net service receipts represent macroeconomic international trade data, whereas Delhivery Limited's revenue from services represents the company-specific financial performance of a single corporate entity.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

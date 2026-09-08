@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Consumer Price Index inflation measures the change in retail prices, whereas nominal wage growth measures the increase in workers' earnings."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Consumer Price Index inflation measures the change in retail prices, whereas nominal wage growth measures the increase in workers' earnings.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

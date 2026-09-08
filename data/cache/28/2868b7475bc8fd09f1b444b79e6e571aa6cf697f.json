@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Mean CPI headline inflation measures the overall consumer price index, whereas Tomato prices average inflation measures the specific price changes of a single food item."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Mean CPI headline inflation measures the overall consumer price index, whereas Tomato prices average inflation measures the specific price changes of a single food item.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

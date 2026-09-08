@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "GDP deflator inflation measures economy-wide price changes, whereas headline inflation typically refers to consumer price index (CPI) inflation."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"GDP deflator inflation measures economy-wide price changes, whereas headline inflation typically refers to consumer price index (CPI) inflation.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

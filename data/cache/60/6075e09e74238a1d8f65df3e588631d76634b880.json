@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the carrying value at amortised cost for other bank balances, whereas Metric B measures the carrying amounts of right-of-use assets for a specific company, representing entirely different financial items."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the carrying value at amortised cost for other bank balances, whereas Metric B measures the carrying amounts of right-of-use assets for a specific company, representing entirely different financial items.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

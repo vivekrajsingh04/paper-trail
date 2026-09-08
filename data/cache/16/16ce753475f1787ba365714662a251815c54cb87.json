@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the acquisition price per share for a specific company in currency, whereas Metric B measures the percentage of post-offer paid-up equity share capital for a different company."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the acquisition price per share for a specific company in currency, whereas Metric B measures the percentage of post-offer paid-up equity share capital for a different company.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

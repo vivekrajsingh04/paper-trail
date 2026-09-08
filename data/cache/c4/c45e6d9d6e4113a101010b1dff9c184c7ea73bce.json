@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the year-on-year growth rate of electronic goods exports as a percentage, whereas Metric B measures the absolute export value of mobile phones in US dollars."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the year-on-year growth rate of electronic goods exports as a percentage, whereas Metric B measures the absolute export value of mobile phones in US dollars.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

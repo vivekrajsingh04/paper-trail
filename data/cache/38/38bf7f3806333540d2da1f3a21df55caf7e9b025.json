@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross foreign direct investment inflows measure a specific type of external capital, whereas gross investment measures total domestic capital formation including both foreign and domestic sources."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross foreign direct investment inflows measure a specific type of external capital, whereas gross investment measures total domestic capital formation including both foreign and domestic sources.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the individual compensation of Kapil Bharati, whereas Fact B measures the aggregate financial amount involved in outstanding material civil litigations against Delhivery Limited."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the individual compensation of Kapil Bharati, whereas Fact B measures the aggregate financial amount involved in outstanding material civil litigations against Delhivery Limited.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

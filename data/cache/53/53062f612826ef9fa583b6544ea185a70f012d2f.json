@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Expected direct spend in the Indian logistics sector measures industry-wide capital/operational outlay, whereas Voluntary CSR spend for Delhivery Limited measures a specific corporate social responsibility expenditure for a single company."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Expected direct spend in the Indian logistics sector measures industry-wide capital/operational outlay, whereas Voluntary CSR spend for Delhivery Limited measures a specific corporate social responsibility expenditure for a single company.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

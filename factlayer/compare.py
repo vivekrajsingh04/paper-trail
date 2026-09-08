@@ -355,9 +355,11 @@ def render_explanation(verdict: Verdict, r: dict) -> str:
                 "Every recorded dimension matches, so nothing in the documents "
                 "explains the difference."
             )
-    elif verdict is Verdict.CORROBORATES and dims.get("conflict"):
+    elif verdict is Verdict.RELATED:
         parts.append(
-            "The values agree even though " + ", ".join(dims["conflict"]) + " differ."
+            "The values coincide, but " + ", ".join(dims.get("conflict", []))
+            + " differ — so these are two different claims that happen to share a "
+            "number, not two sources agreeing."
         )
 
     return " ".join(parts)
@@ -494,8 +496,15 @@ class ComparisonEngine:
         power: float | None = None
         n_obs: int = 0
 
-        if agree:
+        if agree and not conflicts:
             verdict = Verdict.CORROBORATES
+        elif agree:
+            # Values coinciding across a dimension that differs is not
+            # corroboration -- it is a coincidence. Q1 growth of 6.5% and
+            # full-year growth of 6.5% are two different claims that happen to
+            # share a number, and presenting that as two sources agreeing would
+            # be exactly the false confidence this layer exists to prevent.
+            verdict = Verdict.RELATED
         elif not conflicts:
             verdict = Verdict.CONTRADICTS
         else:

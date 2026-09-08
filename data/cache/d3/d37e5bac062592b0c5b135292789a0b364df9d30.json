@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "CRAR measures capital adequacy relative to risk-weighted assets, whereas gross NPAs measure the proportion of distressed loans relative to total gross loans and advances."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"CRAR measures capital adequacy relative to risk-weighted assets, whereas gross NPAs measure the proportion of distressed loans relative to total gross loans and advances.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

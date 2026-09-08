@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Disbursed incentives as a share of GDP and private equity/venture capital investments as a share of GDP measure completely different economic activities and policy targets."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Disbursed incentives as a share of GDP and private equity/venture capital investments as a share of GDP measure completely different economic activities and policy targets.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Inflation in fuel and light specifically measures a single commodity category, whereas consumer price inflation is a broad headline metric covering an entire basket of goods and services."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Inflation in fuel and light specifically measures a single commodity category, whereas consumer price inflation is a broad headline metric covering an entire basket of goods and services.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

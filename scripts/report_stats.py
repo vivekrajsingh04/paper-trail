@@ -44,7 +44,7 @@ def main() -> int:
               f"{(f'{cr:.1%}' if cr is not None else '—'):>9s}")
     print(f"{'TOTAL':46s} {tot_pp:4d} {'':5s} {tot_facts:6d}")
 
-    print(f"\n## Relations\n")
+    print("\n## Relations\n")
     print(f"  total            {rels.get('total', 0)}")
     print(f"  corroborates     {bv.get('corroborates', 0)}")
     print(f"  reconciled       {bv.get('reconciled', 0)}")

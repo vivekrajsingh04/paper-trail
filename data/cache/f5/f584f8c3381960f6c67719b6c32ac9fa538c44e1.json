@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "FY23 PAT loss for Delhivery Limited represents standalone or specific company-level profit after tax loss in Crores, whereas Proforma Consolidated Loss is a group-level proforma figure in millions, making them different financial metrics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"FY23 PAT loss for Delhivery Limited represents standalone or specific company-level profit after tax loss in Crores, whereas Proforma Consolidated Loss is a group-level proforma figure in millions, making them different financial metrics.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

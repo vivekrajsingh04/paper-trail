@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the expansion of the cultivation area for foodgrains and oilseeds, whereas Metric B measures the expected increase in the production volume of Kharif food grains."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the expansion of the cultivation area for foodgrains and oilseeds, whereas Metric B measures the expected increase in the production volume of Kharif food grains.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

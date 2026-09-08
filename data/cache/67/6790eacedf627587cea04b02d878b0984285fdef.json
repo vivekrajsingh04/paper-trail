@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Onion price inflation specifically measures price changes for onions, whereas retail headline inflation (CPI change) measures the average price change of a broad basket of goods and services for the entire economy."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Onion price inflation specifically measures price changes for onions, whereas retail headline inflation (CPI change) measures the average price change of a broad basket of goods and services for the entire economy.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

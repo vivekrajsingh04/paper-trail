@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Agriculture growth rate measures the overall economic growth of the agricultural sector, whereas total Kharif food grain production growth specifically measures the output growth of Kharif food grains compared to a past average."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Agriculture growth rate measures the overall economic growth of the agricultural sector, whereas total Kharif food grain production growth specifically measures the output growth of Kharif food grains compared to a past average.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

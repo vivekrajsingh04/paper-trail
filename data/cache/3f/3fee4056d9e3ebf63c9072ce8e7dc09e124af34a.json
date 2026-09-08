@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the absolute end-period value of the BSE Sensex index, whereas Fact B measures the percentage increase of a completely different index, the BSE SmallCap."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the absolute end-period value of the BSE Sensex index, whereas Fact B measures the percentage increase of a completely different index, the BSE SmallCap.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

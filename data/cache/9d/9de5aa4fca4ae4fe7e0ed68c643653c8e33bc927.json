@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the price increase rate of gold internationally, whereas Metric B measures the year-over-year inflation rate of tomato prices, representing entirely different commodities and economic indicators."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the price increase rate of gold internationally, whereas Metric B measures the year-over-year inflation rate of tomato prices, representing entirely different commodities and economic indicators.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

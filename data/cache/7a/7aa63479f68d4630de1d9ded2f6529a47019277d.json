@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures an equity shareholding percentage in a specific subsidiary, whereas Metric B measures the total indicative number of equity shares to be underwritten for a different corporate entity."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures an equity shareholding percentage in a specific subsidiary, whereas Metric B measures the total indicative number of equity shares to be underwritten for a different corporate entity.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

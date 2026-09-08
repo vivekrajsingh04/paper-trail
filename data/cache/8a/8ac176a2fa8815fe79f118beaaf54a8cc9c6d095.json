@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the authorised share capital of a specific subsidiary in USD, whereas Metric B measures the percentage of the post-offer paid-up equity share capital offered by the parent company."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the authorised share capital of a specific subsidiary in USD, whereas Metric B measures the percentage of the post-offer paid-up equity share capital offered by the parent company.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

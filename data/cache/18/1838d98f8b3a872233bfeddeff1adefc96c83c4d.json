@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Food and beverages inflation measures price changes across a broad category, whereas wheat prices inflation specifically tracks the price changes of wheat."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Food and beverages inflation measures price changes across a broad category, whereas wheat prices inflation specifically tracks the price changes of wheat.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

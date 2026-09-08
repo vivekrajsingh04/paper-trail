@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the fiscal balance of a general government as a percentage of GDP, while Metric B measures specific interest accruals for a private corporate entity in absolute currency units."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the fiscal balance of a general government as a percentage of GDP, while Metric B measures specific interest accruals for a private corporate entity in absolute currency units.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

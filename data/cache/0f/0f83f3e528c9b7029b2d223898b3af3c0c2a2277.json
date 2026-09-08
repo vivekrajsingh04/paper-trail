@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures inflation specifically for the clothing and footwear sector, whereas Fact B measures the broader retail headline inflation (CPI change) for the entire economy of India."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures inflation specifically for the clothing and footwear sector, whereas Fact B measures the broader retail headline inflation (CPI change) for the entire economy of India.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

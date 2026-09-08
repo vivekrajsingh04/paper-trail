@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "B",
+  "reason": "Metric A represents a specific bank vehicle loan, whereas Metric B represents the total proforma consolidated non-current liabilities, of which the vehicle loan is only a component."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Metric A represents a specific bank vehicle loan, whereas Metric B represents the total proforma consolidated non-current liabilities, of which the vehicle loan is only a component.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

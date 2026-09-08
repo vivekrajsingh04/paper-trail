@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Revenue from contracts with customers - Sale of services represents total service revenue, whereas Revenue from Part Truck Load services is a specific narrower segment within it."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Revenue from contracts with customers - Sale of services represents total service revenue, whereas Revenue from Part Truck Load services is a specific narrower segment within it.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

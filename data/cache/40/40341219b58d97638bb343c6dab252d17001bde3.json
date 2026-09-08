@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures India's current account deficit as a percentage of GDP, whereas Metric B measures gross domestic saving as a percentage of gross national disposable income for a different subject."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures India's current account deficit as a percentage of GDP, whereas Metric B measures gross domestic saving as a percentage of gross national disposable income for a different subject.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

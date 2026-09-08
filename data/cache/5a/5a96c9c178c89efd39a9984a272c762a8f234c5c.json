@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Direct employment in the textile and apparel industry measures a specific sector's total workforce, whereas total permanent employees of an unspecified entity measures a different population."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Direct employment in the textile and apparel industry measures a specific sector's total workforce, whereas total permanent employees of an unspecified entity measures a different population.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

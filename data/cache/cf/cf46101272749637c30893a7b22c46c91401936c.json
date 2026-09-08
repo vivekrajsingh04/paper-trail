@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Agriculture growth rate specifically measures the growth of the agricultural sector, whereas real GVA growth at basic prices measures the growth of the entire aggregate supply across all sectors."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Agriculture growth rate specifically measures the growth of the agricultural sector, whereas real GVA growth at basic prices measures the growth of the entire aggregate supply across all sectors.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

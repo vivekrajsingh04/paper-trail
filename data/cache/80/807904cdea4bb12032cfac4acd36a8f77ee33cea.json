@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Global economic growth measures the expansion of the entire global economy, whereas year-on-year growth in global merchandise export indices specifically tracks trade in goods."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Global economic growth measures the expansion of the entire global economy, whereas year-on-year growth in global merchandise export indices specifically tracks trade in goods.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

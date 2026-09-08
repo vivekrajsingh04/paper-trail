@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Headline inflation measures the total inflation of a basket of goods and services in India, whereas wheat price inflation measures the price change specifically for wheat."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Headline inflation measures the total inflation of a basket of goods and services in India, whereas wheat price inflation measures the price change specifically for wheat.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

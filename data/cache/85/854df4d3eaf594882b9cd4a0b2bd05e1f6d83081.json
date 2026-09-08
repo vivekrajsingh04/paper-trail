@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "GDP deflator inflation and CPI headline inflation measure inflation using different price indices (GDP deflator versus Consumer Price Index)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"GDP deflator inflation and CPI headline inflation measure inflation using different price indices (GDP deflator versus Consumer Price Index).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the total absolute monetary value of global trade in USD trillion, whereas Metric B measures a percentage share of global exports specifically for the Travel sector."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the total absolute monetary value of global trade in USD trillion, whereas Metric B measures a percentage share of global exports specifically for the Travel sector.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

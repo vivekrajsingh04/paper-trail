@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the absolute merchandise imports value in US$ billion for India, while Fact B measures the year-on-year growth rate in global merchandise import indices in per cent."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the absolute merchandise imports value in US$ billion for India, while Fact B measures the year-on-year growth rate in global merchandise import indices in per cent.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -136,10 +136,21 @@ function dimChips(dims, conflict, agree) {
   }).join('');
 }
 
+// Real document titles run long — the IMF staff report's is 120 characters —
+// and left whole they wrap the source line and orphan the A/B label.
+const shortTitle = (t) => {
+  const s = String(t || '');
+  if (s.length <= 46) return s;
+  const cut = s.slice(0, 46);
+  const brk = Math.max(cut.lastIndexOf(' '), cut.lastIndexOf(':'), cut.lastIndexOf('—'));
+  return (brk > 24 ? cut.slice(0, brk) : cut).replace(/[\s:—-]+$/, '') + '…';
+};
+
 function factBox(side, brief, dims, conflict, agree) {
   const page = brief.page_label ? `p.${esc(brief.page_label)}` : `page ${brief.page + 1}`;
+  const title = shortTitle(brief.doc_title || brief.doc_id);
   return `<div class="factbox side-${side.toLowerCase()}">
-    <div class="src"><b>${side}</b> · ${esc(brief.doc_title || brief.doc_id)} · ${page}</div>
+    <div class="src" title="${esc(brief.doc_title || '')}"><b>${side}</b> · ${esc(title)} · ${page}</div>
     <div class="val">${esc(brief.raw ?? fmtNum(brief.value))}</div>
     <div class="met">${esc(brief.metric)}${brief.period ? ` · <b>${esc(brief.period)}</b>` : ''}</div>
     <div class="quote">${esc(brief.quote || '')}</div>

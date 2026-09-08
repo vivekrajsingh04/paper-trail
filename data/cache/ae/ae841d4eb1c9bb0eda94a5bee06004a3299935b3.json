@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the authorized share capital of a specific subsidiary in absolute USD currency, whereas Fact B measures a percentage-based offer of the post-Offer paid up equity share capital of the parent company."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the authorized share capital of a specific subsidiary in absolute USD currency, whereas Fact B measures a percentage-based offer of the post-Offer paid up equity share capital of the parent company.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

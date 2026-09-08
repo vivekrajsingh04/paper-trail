@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The employment rate of regular wage earners measures a specific type of employment status, whereas the share of workers in the agricultural sector measures employment distribution across a specific industry."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The employment rate of regular wage earners measures a specific type of employment status, whereas the share of workers in the agricultural sector measures employment distribution across a specific industry.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

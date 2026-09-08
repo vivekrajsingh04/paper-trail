@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Capital Expenditure measures the acquisition of physical assets, whereas Property, plant and equipment measures the total value of existing physical assets, and they belong to different companies."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Capital Expenditure measures the acquisition of physical assets, whereas Property, plant and equipment measures the total value of existing physical assets, and they belong to different companies.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

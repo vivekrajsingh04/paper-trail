@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Debt measures accumulated liabilities of the state, whereas Overall Balance measures the difference between government revenues and expenditures for the general government."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Debt measures accumulated liabilities of the state, whereas Overall Balance measures the difference between government revenues and expenditures for the general government.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

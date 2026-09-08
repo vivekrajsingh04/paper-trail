@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures total merchandise exports for the entire country of India, while Fact B measures the export share of a specific sub-category (raw materials/semi-finished materials) within India's textile exports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures total merchandise exports for the entire country of India, while Fact B measures the export share of a specific sub-category (raw materials/semi-finished materials) within India's textile exports.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

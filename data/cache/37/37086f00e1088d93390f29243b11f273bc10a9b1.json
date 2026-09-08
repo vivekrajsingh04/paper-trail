@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net portfolio inflows to emerging market economies measure cross-border capital flows, whereas net resources mobilised by mutual funds measure domestic or specific fund investments, representing completely different financial metrics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net portfolio inflows to emerging market economies measure cross-border capital flows, whereas net resources mobilised by mutual funds measure domestic or specific fund investments, representing completely different financial metrics.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

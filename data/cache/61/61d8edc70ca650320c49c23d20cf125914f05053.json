@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the fiscal balance as a percentage of GDP for general government, while Metric B measures net portfolio inflows in US dollars for emerging market economies."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the fiscal balance as a percentage of GDP for general government, while Metric B measures net portfolio inflows in US dollars for emerging market economies.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

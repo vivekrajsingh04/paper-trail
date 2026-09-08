@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Advance from Customers represents prepayments received from clients, whereas Capital creditors represent amounts owed for the acquisition of capital assets, making them distinct financial liabilities."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Advance from Customers represents prepayments received from clients, whereas Capital creditors represent amounts owed for the acquisition of capital assets, making them distinct financial liabilities.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures export percentage of turnover for a specific company (Delhivery Limited), while Metric B measures the total export value of textile items for a country (India) in different units."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures export percentage of turnover for a specific company (Delhivery Limited), while Metric B measures the total export value of textile items for a country (India) in different units.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

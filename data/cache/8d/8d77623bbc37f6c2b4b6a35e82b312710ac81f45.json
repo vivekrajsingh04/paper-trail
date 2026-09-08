@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Food and beverages inflation measures price changes specifically for food items, whereas WPI inflation measures the change in the overall wholesale price index across multiple sectors."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Food and beverages inflation measures price changes specifically for food items, whereas WPI inflation measures the change in the overall wholesale price index across multiple sectors.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Basic Loss Equity per share measures a company's per-share earnings loss, whereas the weighted average cost of acquisition per Equity Share measures the price paid by a specific investor to acquire shares."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Basic Loss Equity per share measures a company's per-share earnings loss, whereas the weighted average cost of acquisition per Equity Share measures the price paid by a specific investor to acquire shares.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

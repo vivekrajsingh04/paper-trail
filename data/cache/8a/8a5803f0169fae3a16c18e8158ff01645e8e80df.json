@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures export value in USD millions for optical items, while Metric B measures import quantity in lakh tonnes for tur, representing completely different economic variables and subject matters."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures export value in USD millions for optical items, while Metric B measures import quantity in lakh tonnes for tur, representing completely different economic variables and subject matters.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

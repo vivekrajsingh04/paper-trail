@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross Foreign Assets measure total foreign holdings as a percentage of GDP, whereas net capital inflows measure the net financial flows in USD billion over a specific period."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross Foreign Assets measure total foreign holdings as a percentage of GDP, whereas net capital inflows measure the net financial flows in USD billion over a specific period.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

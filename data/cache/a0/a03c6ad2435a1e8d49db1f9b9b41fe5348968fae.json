@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Agricultural exports growth rate measures the change in exported agricultural goods, whereas Reserve Money y-o-y change measures the growth of central bank reserve money in the economy."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Agricultural exports growth rate measures the change in exported agricultural goods, whereas Reserve Money y-o-y change measures the growth of central bank reserve money in the economy.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

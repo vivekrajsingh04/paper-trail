@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Mean CPI headline inflation measures the broader consumer price index, whereas Spices inflation average measures the inflation of a specific sub-category of goods."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Mean CPI headline inflation measures the broader consumer price index, whereas Spices inflation average measures the inflation of a specific sub-category of goods.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

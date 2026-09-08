@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The facts measure completely different metrics and subjects: one is the share of total R&D spending by higher education institutions, and the other is the share of rural households reporting increased consumption expenditure."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The facts measure completely different metrics and subjects: one is the share of total R&D spending by higher education institutions, and the other is the share of rural households reporting increased consumption expenditure.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

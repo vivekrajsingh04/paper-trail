@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Food inflation (CFPI) measures only the price changes of food items, whereas Headline inflation measures price changes across a comprehensive basket of all consumer goods and services."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Food inflation (CFPI) measures only the price changes of food items, whereas Headline inflation measures price changes across a comprehensive basket of all consumer goods and services.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

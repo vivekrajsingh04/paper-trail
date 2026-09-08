@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the adjusted R-squared for a GII Overall Score regression, whereas Metric B measures the regression standard error for a completely different regression involving GII Creative Outputs Score and TFP average growth."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the adjusted R-squared for a GII Overall Score regression, whereas Metric B measures the regression standard error for a completely different regression involving GII Creative Outputs Score and TFP average growth.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

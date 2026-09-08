@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net capital inflows for India measure macroeconomic capital movements at the country level, whereas net cash flow from investing activities for Delhivery Limited measures corporate cash flows for a specific company."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net capital inflows for India measure macroeconomic capital movements at the country level, whereas net cash flow from investing activities for Delhivery Limited measures corporate cash flows for a specific company.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

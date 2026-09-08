@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "GDP deflator inflation specifically measures inflation based on the gross domestic product, whereas headline inflation measures changes in the total cost of a typical basket of goods and services for a country like India."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"GDP deflator inflation specifically measures inflation based on the gross domestic product, whereas headline inflation measures changes in the total cost of a typical basket of goods and services for a country like India.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

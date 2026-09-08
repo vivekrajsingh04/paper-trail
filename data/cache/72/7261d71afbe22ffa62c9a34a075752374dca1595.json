@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures export growth of non-petroleum and non-gems and jewellery products, while Metric B measures the year-over-year sales growth of passenger vehicles."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures export growth of non-petroleum and non-gems and jewellery products, while Metric B measures the year-over-year sales growth of passenger vehicles.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

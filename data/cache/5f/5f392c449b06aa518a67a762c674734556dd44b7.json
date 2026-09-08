@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Employment rate of regular wage earners specifically targets a sub-category of workers, whereas formal employment encompasses all formal sector workers, which can include self-employed and casual workers meeting formal criteria."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Employment rate of regular wage earners specifically targets a sub-category of workers, whereas formal employment encompasses all formal sector workers, which can include self-employed and casual workers meeting formal criteria.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

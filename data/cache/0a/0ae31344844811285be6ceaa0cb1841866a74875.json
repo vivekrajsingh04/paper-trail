@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net tax revenue growth for the Centre and profit after tax growth for scheduled commercial banks measure entirely different financial metrics and economic subjects."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net tax revenue growth for the Centre and profit after tax growth for scheduled commercial banks measure entirely different financial metrics and economic subjects.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

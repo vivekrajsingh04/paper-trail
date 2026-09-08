@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A represents the regression coefficient for Gross R&D Expenditure, whereas Metric B represents the regression standard error for the GII Overall Score."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A represents the regression coefficient for Gross R&D Expenditure, whereas Metric B represents the regression standard error for the GII Overall Score.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

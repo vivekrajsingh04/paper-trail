@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Current account deficit as a percentage of GDP includes trade in goods and services as well as net transfers and income, whereas overall trade deficit measures only the difference between merchandise exports and imports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Current account deficit as a percentage of GDP includes trade in goods and services as well as net transfers and income, whereas overall trade deficit measures only the difference between merchandise exports and imports.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

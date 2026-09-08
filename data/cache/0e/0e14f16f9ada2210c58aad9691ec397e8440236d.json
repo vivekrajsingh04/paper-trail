@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross tax revenue buoyancy and revenue expenditure as a percentage of GDP are distinct fiscal metrics measuring completely different economic concepts."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross tax revenue buoyancy and revenue expenditure as a percentage of GDP are distinct fiscal metrics measuring completely different economic concepts.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

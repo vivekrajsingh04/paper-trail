@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "General Government expenditure as a percentage of GDP measures macroeconomic fiscal policy, whereas Delhivery Limited's voluntary CSR spend in Indian Rupees measures a specific corporate social responsibility outlay for a single company."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"General Government expenditure as a percentage of GDP measures macroeconomic fiscal policy, whereas Delhivery Limited's voluntary CSR spend in Indian Rupees measures a specific corporate social responsibility outlay for a single company.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

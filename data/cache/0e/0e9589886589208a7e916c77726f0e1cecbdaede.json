@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure economic growth for two entirely different countries (United States vs. India) and use different underlying economic indicators (expected overall economic growth vs. real GVA growth)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure economic growth for two entirely different countries (United States vs. India) and use different underlying economic indicators (expected overall economic growth vs. real GVA growth).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Mean CPI headline inflation measures economy-wide consumer price changes, whereas prepared meals inflation tracks a specific food sub-category."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Mean CPI headline inflation measures economy-wide consumer price changes, whereas prepared meals inflation tracks a specific food sub-category.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

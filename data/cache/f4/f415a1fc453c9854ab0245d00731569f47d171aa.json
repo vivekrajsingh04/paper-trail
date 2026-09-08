@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the compound annual growth rate of total revenue, whereas Fact B measures the percentage of revenue derived from a specific tenure-based customer segment."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the compound annual growth rate of total revenue, whereas Fact B measures the percentage of revenue derived from a specific tenure-based customer segment.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

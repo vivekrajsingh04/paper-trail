@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "FY23 PAT loss and FY24 EBITDA measure different financial metrics (Profit After Tax loss versus Earnings Before Interest, Taxes, Depreciation, and Amortization) for different fiscal years."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"FY23 PAT loss and FY24 EBITDA measure different financial metrics (Profit After Tax loss versus Earnings Before Interest, Taxes, Depreciation, and Amortization) for different fiscal years.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

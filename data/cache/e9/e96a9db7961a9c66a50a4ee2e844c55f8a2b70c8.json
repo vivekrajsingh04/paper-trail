@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Agricultural exports growth rate measures the change in specific sectoral exports, whereas real GVA growth rate measures the growth of total gross value added for the entire economy."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Agricultural exports growth rate measures the change in specific sectoral exports, whereas real GVA growth rate measures the growth of total gross value added for the entire economy.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

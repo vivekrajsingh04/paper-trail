@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Adjusted EBITDA margin as a percentage is financially and conceptually distinct from total revenue from operations expressed in absolute currency values."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Adjusted EBITDA margin as a percentage is financially and conceptually distinct from total revenue from operations expressed in absolute currency values.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

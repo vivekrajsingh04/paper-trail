@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Diluted loss per share measures earnings performance per share for Delhivery Limited, whereas the weighted average cost of acquisition per equity share measures the historical purchase price for CA Swift Investments."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Diluted loss per share measures earnings performance per share for Delhivery Limited, whereas the weighted average cost of acquisition per equity share measures the historical purchase price for CA Swift Investments.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}
