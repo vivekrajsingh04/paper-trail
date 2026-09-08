@@ -174,6 +174,7 @@ function relationCard(rel, label) {
       <span class="badge ${v}">${v}</span>
       ${rel.cross_document ? '<span class="badge plain">cross-document</span>' : '<span class="badge plain">same document</span>'}
       ${rel.explained_by ? `<span class="badge plain">explained by ${esc(rel.explained_by)}</span>` : ''}
+      ${rel.review_reason ? `<span class="badge plain">${esc(rel.review_reason.replace(/_/g, ' '))}</span>` : ''}
       <span class="sub" style="margin-left:auto">confidence ${rel.confidence}</span>
     </div>
     <div class="card-body">
@@ -197,6 +198,7 @@ const CASE_META = [
   ['corroboration', 'Case 1 — corroborated across documents, expressed differently'],
   ['contradiction', 'Case 2 — a genuine or likely contradiction'],
   ['reconciled', 'Case 3 — apparent contradiction explained by context'],
+  ['abstention', 'Also — a comparison the system refused to make'],
 ];
 
 async function loadCases() {

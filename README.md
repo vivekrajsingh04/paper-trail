@@ -490,6 +490,13 @@ replaying after the default model changes or a run falls back across several.
   the parsed period. Unit echoes (`currency`, `scale`) are dropped, but the
   period case is not yet, so a stray `fiscal_year` string can add a spurious
   conflict.
+- **Page density is an imperfect proxy for importance.** With a 45-page budget,
+  the RBI report's key sentence — "real GDP growth for 2025-26 is projected at
+  6.5 per cent" — ranked 55th of 98 pages and was skipped, because one prose
+  sentence carries far fewer quantities than a statistical annexe. The budget
+  saved quota at the cost of the single figure a reader would most want. A
+  better ranking would weight the *rarity* of a page's metrics against the
+  corpus, not just their count.
 - **Only one ingest may write at a time.** SQLite takes a single writer, and
   running two rebuilds concurrently blocks rather than failing loudly. It should
   take an advisory lock and refuse, instead of queueing invisibly.

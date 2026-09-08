@@ -51,6 +51,12 @@ PROVENANCE_DIMS = {"source", "source_table", "table", "note", "page", "document"
 
 MAX_BLOCK = 400  # guard against a pathological metric group
 
+# A dimension missing on one side is only disqualifying if that dimension is the
+# kind of thing that moves values. Whether it is gets measured, not assumed --
+# `period` scores 0.97 on this corpus and `scale` 0.33, so not knowing a period
+# is fatal to a comparison while not knowing a scale is not.
+ABSTAIN_POWER = 0.60
+
 
 @dataclass
 class DimStat:
@@ -355,6 +361,19 @@ def render_explanation(verdict: Verdict, r: dict) -> str:
                 "Every recorded dimension matches, so nothing in the documents "
                 "explains the difference."
             )
+    elif verdict is Verdict.NEEDS_REVIEW:
+        risky = r.get("unspecified_risky") or []
+        dim = risky[0] if risky else "a scoping dimension"
+        da, db = dims.get("left", {}), dims.get("right", {})
+        side = "A" if dim in db and dim not in da else "B"
+        parts.append(
+            f"Nothing recorded distinguishes these two facts, but {dim} is missing "
+            f"from {side}, and on this corpus {dim} accompanies a change in value "
+            f"in {r.get('review_power', 0) * 100:.0f}% of the pairs where it is the "
+            "only thing that differs. Whether these are even the same claim cannot "
+            "be settled from what the documents say, so this is held for review "
+            "rather than reported as a contradiction."
+        )
     elif verdict is Verdict.RELATED:
         parts.append(
             "The values coincide, but " + ", ".join(dims.get("conflict", []))
@@ -421,6 +440,10 @@ class ComparisonEngine:
                 for fb in gb:
                     pairs.append((fa, fb))
         return pairs
+
+    def _dim_power(self, dim: str) -> float:
+        st = self.stats.dim_stats.get(dim)
+        return st.explanatory_power if st else 0.5
 
     # -- single pair ------------------------------------------------------
     def evaluate(self, a: Fact, b: Fact) -> dict | None:
@@ -495,6 +518,17 @@ class ComparisonEngine:
         explained_by: str | None = None
         power: float | None = None
         n_obs: int = 0
+        review_reason: str | None = None
+
+        # Dimensions one fact records and the other does not. We do not know
+        # whether they match; treating silence as agreement is a guess.
+        unspecified = [
+            d for d in dims["unspecified"] if d not in PROVENANCE_DIMS
+        ]
+        risky = sorted(
+            (d for d in unspecified if self._dim_power(d) >= ABSTAIN_POWER),
+            key=lambda d: -self._dim_power(d),
+        )
 
         if agree and not conflicts:
             verdict = Verdict.CORROBORATES
@@ -505,6 +539,14 @@ class ComparisonEngine:
             # share a number, and presenting that as two sources agreeing would
             # be exactly the false confidence this layer exists to prevent.
             verdict = Verdict.RELATED
+        elif not conflicts and risky:
+            # Values differ, nothing recorded distinguishes the facts -- but a
+            # dimension that usually does is simply absent from one of them.
+            # Calling that a contradiction would be asserting something the
+            # documents do not support. In due-diligence work a false
+            # contradiction costs more than an admitted gap, so we abstain.
+            verdict = Verdict.NEEDS_REVIEW
+            review_reason = f"{risky[0]}_unknown_on_one_side"
         elif not conflicts:
             verdict = Verdict.CONTRADICTS
         else:
@@ -524,6 +566,9 @@ class ComparisonEngine:
             verdict = Verdict.RECONCILED
 
         reasoning = {
+            "review_reason": review_reason,
+            "unspecified_risky": risky,
+            "review_power": round(self._dim_power(risky[0]), 3) if risky else None,
             "explanatory_observations": n_obs,
             "metric_match": ev["metric_match"],
             "metric_label": ev["metric_label"],
@@ -544,6 +589,7 @@ class ComparisonEngine:
             explanation=render_explanation(verdict, reasoning),
             differing_dims=conflicts,
             explained_by=explained_by,
+            review_reason=review_reason,
             confidence=confidence,
             cross_document=a.evidence.doc_id != b.evidence.doc_id,
             surface_distance=values.get("relative_gap"),
@@ -575,6 +621,10 @@ class ComparisonEngine:
             c *= 0.5 + 0.5 * power
             if len(ev["conflicts"]) > 1:
                 c *= 0.85
+
+        if verdict is Verdict.NEEDS_REVIEW:
+            # An abstention is a confident statement about our own ignorance.
+            c = min(0.9, c * 0.95)
 
         if verdict is Verdict.CONTRADICTS:
             sep = ev["values"].get("separation_in_ulp")
@@ -612,6 +662,7 @@ def salience(rel: Relation) -> float:
     """
     base = {
         Verdict.CONTRADICTS: 1.0,
+        Verdict.NEEDS_REVIEW: 0.85,   # a human has to look at these
         Verdict.RECONCILED: 0.72,
         Verdict.CORROBORATES: 0.55,
         Verdict.RELATED: 0.3,

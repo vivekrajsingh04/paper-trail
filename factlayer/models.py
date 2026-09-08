@@ -180,7 +180,8 @@ class Verdict(str, Enum):
     CORROBORATES = "corroborates"
     CONTRADICTS = "contradicts"
     RECONCILED = "reconciled"  # apparent contradiction explained by a qualifier
-    RELATED = "related"  # same metric, not directly comparable, values agree anyway
+    RELATED = "related"  # values coincide across a dimension that differs
+    NEEDS_REVIEW = "needs_review"  # not enough context to judge; see `review_reason`
 
 
 class Relation(BaseModel):
@@ -206,6 +207,8 @@ class Relation(BaseModel):
     differing_dims: list[str] = Field(default_factory=list)
     # For RECONCILED: the dimension credited with explaining the gap.
     explained_by: str | None = None
+    # For NEEDS_REVIEW: why the comparison was refused rather than decided.
+    review_reason: str | None = None
 
     confidence: float = 0.5
     cross_document: bool = False

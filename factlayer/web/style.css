@@ -212,6 +212,7 @@ main { max-width: 1400px; margin: 0 auto; padding: 26px; }
 .badge.corroborates { background: var(--good-bg); color: var(--good); border-color: color-mix(in srgb, var(--good) 18%, transparent); }
 .badge.contradicts  { background: var(--bad-bg);  color: var(--bad);  border-color: color-mix(in srgb, var(--bad) 18%, transparent); }
 .badge.reconciled   { background: var(--warn-bg); color: var(--warn); border-color: color-mix(in srgb, var(--warn) 20%, transparent); }
+.badge.needs_review { background: var(--warn-bg); color: var(--warn); border-color: color-mix(in srgb, var(--warn) 22%, transparent); }
 .badge.related      { background: var(--panel-2); color: var(--ink-2); }
 .badge.plain {
   background: transparent;

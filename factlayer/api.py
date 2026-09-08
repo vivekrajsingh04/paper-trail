@@ -166,7 +166,9 @@ def fact_detail(fact_id: str) -> dict:
 
 @app.get("/api/relations")
 def relations(
-    verdict: str | None = Query(None, description="corroborates|contradicts|reconciled"),
+    verdict: str | None = Query(
+        None, description="corroborates|contradicts|reconciled|needs_review|related"
+    ),
     cross_document: bool | None = None,
     min_confidence: float = 0.0,
     limit: int = Query(50, le=300),
@@ -314,6 +316,9 @@ def cases() -> dict:
         "corroboration": best("corroborates"),
         "contradiction": best("contradicts"),
         "reconciled": best("reconciled", exclude_dims={"period"}),
+        # Not one of the four required cases, but the one a due-diligence
+        # reviewer would look at first: comparisons the system refused to make.
+        "abstention": best("needs_review"),
         "failure": (s.get_meta("diagnostics", {}) or {}).get("headline_failure"),
         "note": (
             "Selected by query from the current knowledge layer, not hard-coded. "

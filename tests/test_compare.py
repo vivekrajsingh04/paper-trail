@@ -207,3 +207,52 @@ def test_equal_values_on_the_same_subject_still_corroborate():
     e = engine()
     rel = e._judge(e.evaluate(a, b))
     assert rel.verdict is Verdict.CORROBORATES
+
+
+# ------------------------------------------------- abstention (needs_review)
+def _engine_with_learned_period():
+    """An engine that has seen enough pairs to trust `period` as explanatory."""
+    e = engine()
+    facts = [
+        mk("segment revenue", f"{100 + i * 40}", "Rs. million", yr, "ar", scope="consolidated")
+        for i, yr in enumerate(["FY20", "FY21", "FY22", "FY23", "FY24", "FY25"])
+    ]
+    e.build(facts)
+    return e
+
+
+def test_missing_period_is_abstained_not_called_a_contradiction():
+    """A false contradiction costs more than an admitted gap."""
+    e = _engine_with_learned_period()
+    assert e._dim_power("period") >= 0.6
+
+    a = mk("real GDP growth", "6.0", "per cent", "FY25", "es", subject="India")
+    b = mk("real GDP growth", "7.8", "per cent", None, "imf", subject="India")
+    rel = e._judge(e.evaluate(a, b))
+    assert rel.verdict is Verdict.NEEDS_REVIEW
+    assert rel.review_reason == "period_unknown_on_one_side"
+    assert "held for review" in rel.explanation
+
+
+def test_a_fully_specified_disagreement_is_still_a_contradiction():
+    """Abstention must not swallow genuine conflicts."""
+    e = _engine_with_learned_period()
+    a = mk("real GDP growth", "6.5", "per cent", "FY26", "rbi", subject="India",
+           basis="projection")
+    b = mk("real GDP growth", "6.6", "per cent", "FY2025/26", "imf", subject="India",
+           basis="projection")
+    rel = e._judge(e.evaluate(a, b))
+    assert rel.verdict is Verdict.CONTRADICTS
+
+
+def test_a_weak_missing_dimension_does_not_trigger_abstention():
+    """Only dimensions that measurably move values disqualify a comparison."""
+    e = _engine_with_learned_period()
+    a = mk("real GDP growth", "6.5", "per cent", "FY26", "rbi", subject="India",
+           basis="projection", footnote_marker="3")
+    b = mk("real GDP growth", "6.6", "per cent", "FY2025/26", "imf", subject="India",
+           basis="projection")
+    rel = e._judge(e.evaluate(a, b))
+    # `footnote_marker` has never been seen, so it sits at the 0.5 prior — below
+    # the abstain threshold, and must not be used to duck the verdict.
+    assert rel.verdict is Verdict.CONTRADICTS
