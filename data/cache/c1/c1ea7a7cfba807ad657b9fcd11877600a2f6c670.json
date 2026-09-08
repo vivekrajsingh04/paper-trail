@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Poverty rate at $3 a day uses a specific absolute threshold, whereas extreme poverty typically refers to a different international poverty line (such as $1.90 or $2.15 a day)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Poverty rate at $3 a day uses a specific absolute threshold, whereas extreme poverty typically refers to a different international poverty line (such as $1.90 or $2.15 a day).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

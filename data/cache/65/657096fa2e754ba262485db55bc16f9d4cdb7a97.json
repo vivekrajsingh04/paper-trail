@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Proforma Consolidated Total Equity and Liabilities represents the total of equity and liabilities, whereas Proforma Consolidated Goodwill represents a specific intangible asset, which are distinct financial metrics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Proforma Consolidated Total Equity and Liabilities represents the total of equity and liabilities, whereas Proforma Consolidated Goodwill represents a specific intangible asset, which are distinct financial metrics.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "RBI's headline inflation expectation is a forward-looking forecast held by the central bank, whereas retail headline inflation (CPI change) is an actual macroeconomic outcome measuring realized price changes."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"RBI's headline inflation expectation is a forward-looking forecast held by the central bank, whereas retail headline inflation (CPI change) is an actual macroeconomic outcome measuring realized price changes.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

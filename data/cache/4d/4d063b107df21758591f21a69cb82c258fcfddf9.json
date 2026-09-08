@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Authorised share capital of a US subsidiary and paid-up capital of the Indian parent company represent different financial metrics for distinct legal entities in different currencies."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Authorised share capital of a US subsidiary and paid-up capital of the Indian parent company represent different financial metrics for distinct legal entities in different currencies.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

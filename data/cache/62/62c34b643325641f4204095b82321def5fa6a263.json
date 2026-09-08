@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The Centre's fiscal deficit measures government budgetary imbalance, whereas the current account deficit measures a country's trade and investment balance with the rest of the world."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The Centre's fiscal deficit measures government budgetary imbalance, whereas the current account deficit measures a country's trade and investment balance with the rest of the world.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

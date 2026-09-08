@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Metric A measures total merchandise exports growth, whereas metric B measures a specific subset excluding petroleum, gems, and jewellery."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Metric A measures total merchandise exports growth, whereas metric B measures a specific subset excluding petroleum, gems, and jewellery.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the global share of a specific service sector ('Personal, Cultural, & Recreational services'), whereas Fact B measures India's total share in global services exports across all sectors."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the global share of a specific service sector ('Personal, Cultural, & Recreational services'), whereas Fact B measures India's total share in global services exports across all sectors.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

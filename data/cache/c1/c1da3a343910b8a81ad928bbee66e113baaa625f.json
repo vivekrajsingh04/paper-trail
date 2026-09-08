@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The current account deficit measures a net outflow of funds on current account transactions, whereas net capital inflow measures the balance of capital account transactions."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The current account deficit measures a net outflow of funds on current account transactions, whereas net capital inflow measures the balance of capital account transactions.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

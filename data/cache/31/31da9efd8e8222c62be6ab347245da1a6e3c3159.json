@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures tariffs for agriculture while Metric B measures preferential tariffs in the manufacturing sector, involving different economic sectors and tariff types."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures tariffs for agriculture while Metric B measures preferential tariffs in the manufacturing sector, involving different economic sectors and tariff types.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Consumer prices inflation (period average) and headline inflation both measure the overall percentage change in consumer prices for India."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Consumer prices inflation (period average) and headline inflation both measure the overall percentage change in consumer prices for India.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

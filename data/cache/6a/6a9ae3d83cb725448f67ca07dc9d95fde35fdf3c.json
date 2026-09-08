@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Total non-current operating assets specifically covers non-current operating assets after adjustments, whereas Proforma Consolidated Total Assets encompasses all assets (both current and non-current) for the consolidated entity."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Total non-current operating assets specifically covers non-current operating assets after adjustments, whereas Proforma Consolidated Total Assets encompasses all assets (both current and non-current) for the consolidated entity.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

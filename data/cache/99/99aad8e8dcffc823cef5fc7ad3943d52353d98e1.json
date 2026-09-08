@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Headline inflation average and mean CPI headline inflation both refer to the average rate of change in the Consumer Price Index for India."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Headline inflation average and mean CPI headline inflation both refer to the average rate of change in the Consumer Price Index for India.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "They refer to different individuals (Mrs. Pooja Gupta and Mr. Sahil Barua) and distinct roles or compensation categories."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"They refer to different individuals (Mrs. Pooja Gupta and Mr. Sahil Barua) and distinct roles or compensation categories.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

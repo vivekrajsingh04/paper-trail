@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "B",
+  "reason": "Finished non-apparel goods export value is a specific component of the broader total textile items export value."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Finished non-apparel goods export value is a specific component of the broader total textile items export value.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

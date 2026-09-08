@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Nominal GDP growth includes inflation and taxes minus subsidies, whereas real GVA growth measures the value added by production at constant prices, making them distinct economic indicators."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Nominal GDP growth includes inflation and taxes minus subsidies, whereas real GVA growth measures the value added by production at constant prices, making them distinct economic indicators.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

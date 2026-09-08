@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures absolute net capital inflows in USD billion for India, whereas Metric B measures the net capital inflow to GDP ratio as a percentage."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures absolute net capital inflows in USD billion for India, whereas Metric B measures the net capital inflow to GDP ratio as a percentage.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

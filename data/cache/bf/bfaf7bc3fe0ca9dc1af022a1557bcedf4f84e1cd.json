@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the exports growth rate for a specific sector (Engineering goods), whereas Metric B measures the overall merchandise exports growth year-over-year for an entire country (India)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the exports growth rate for a specific sector (Engineering goods), whereas Metric B measures the overall merchandise exports growth year-over-year for an entire country (India).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

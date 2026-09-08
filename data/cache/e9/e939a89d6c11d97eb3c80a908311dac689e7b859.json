@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "B",
+  "reason": "Metric A represents revenue from a specific service (Part Truck Load), whereas Metric B represents total revenue from services, making B broader than A."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Metric A represents revenue from a specific service (Part Truck Load), whereas Metric B represents total revenue from services, making B broader than A.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

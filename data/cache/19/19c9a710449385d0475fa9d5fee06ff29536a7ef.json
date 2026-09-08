@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the specific agricultural sector growth rate for India, whereas Metric B measures the overall economic growth projection for Emerging Market and Developing Economies (EMDEs)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the specific agricultural sector growth rate for India, whereas Metric B measures the overall economic growth projection for Emerging Market and Developing Economies (EMDEs).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

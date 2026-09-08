@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net capital inflows encompass a broader range of financial flows, whereas net portfolio inflows specifically refer to portfolio investments."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net capital inflows encompass a broader range of financial flows, whereas net portfolio inflows specifically refer to portfolio investments.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

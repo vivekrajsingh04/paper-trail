@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the export value of finished non-apparel goods for Indian textiles in USD billions, while Fact B measures the percentage share of mobile phones in electronic goods exports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the export value of finished non-apparel goods for Indian textiles in USD billions, while Fact B measures the percentage share of mobile phones in electronic goods exports.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

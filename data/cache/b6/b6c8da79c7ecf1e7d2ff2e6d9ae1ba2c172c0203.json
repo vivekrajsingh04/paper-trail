@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures economic growth for advanced economies as a whole, while Metric B specifically measures real GDP growth for India, representing entirely different geographic subjects and distinct economic indicators."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures economic growth for advanced economies as a whole, while Metric B specifically measures real GDP growth for India, representing entirely different geographic subjects and distinct economic indicators.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

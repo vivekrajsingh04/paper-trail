@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Total Kharif food grain production measures annual agricultural output, whereas the overall public stock held by the FCI measures stored inventory at a specific point in time."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Total Kharif food grain production measures annual agricultural output, whereas the overall public stock held by the FCI measures stored inventory at a specific point in time.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

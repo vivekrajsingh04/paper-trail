@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross FDI inflows specifically measure foreign direct investment coming into a country, whereas net capital inflows measure the total net movement of all capital types into and out of a country."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross FDI inflows specifically measure foreign direct investment coming into a country, whereas net capital inflows measure the total net movement of all capital types into and out of a country.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

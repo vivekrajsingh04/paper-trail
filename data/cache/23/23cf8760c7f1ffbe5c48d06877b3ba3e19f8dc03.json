@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A specifically includes adjustments and eliminations for a group, whereas Metric B represents proforma consolidated total non-current assets for a specific entity."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A specifically includes adjustments and eliminations for a group, whereas Metric B represents proforma consolidated total non-current assets for a specific entity.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

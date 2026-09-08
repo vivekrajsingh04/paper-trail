@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Wholesale Price Index y-o-y change and WPI inflation both measure the annual percentage change in the Wholesale Price Index."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Wholesale Price Index y-o-y change and WPI inflation both measure the annual percentage change in the Wholesale Price Index.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

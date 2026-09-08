@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross Fixed Capital Formation (GFCF) measures investment in fixed assets, whereas revenue expenditure measures government spending on day-to-day operations, making them entirely different economic metrics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross Fixed Capital Formation (GFCF) measures investment in fixed assets, whereas revenue expenditure measures government spending on day-to-day operations, making them entirely different economic metrics.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

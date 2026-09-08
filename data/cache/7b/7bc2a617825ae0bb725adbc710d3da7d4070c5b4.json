@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure growth rates for entirely different categories of exports, with one focusing on agricultural goods and the other on non-petroleum and non-gems/jewellery goods."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure growth rates for entirely different categories of exports, with one focusing on agricultural goods and the other on non-petroleum and non-gems/jewellery goods.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

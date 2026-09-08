@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure different financial items for different companies; A refers to outstanding balance receivables/payables for Falcon Autotech, while B refers specifically to dues of micro and small enterprises for Delhivery Limited."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure different financial items for different companies; A refers to outstanding balance receivables/payables for Falcon Autotech, while B refers specifically to dues of micro and small enterprises for Delhivery Limited.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

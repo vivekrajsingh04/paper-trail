@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Food inflation (CFPI) measures the overall price change of a broad basket of food items in India, whereas Wheat prices inflation specifically measures the price change of wheat."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Food inflation (CFPI) measures the overall price change of a broad basket of food items in India, whereas Wheat prices inflation specifically measures the price change of wheat.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

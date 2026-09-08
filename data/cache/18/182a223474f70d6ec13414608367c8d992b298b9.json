@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Headline inflation experienced by the country of India is a different economic metric than the headline inflation expectation forecasted by the Reserve Bank of India (RBI)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Headline inflation experienced by the country of India is a different economic metric than the headline inflation expectation forecasted by the Reserve Bank of India (RBI).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

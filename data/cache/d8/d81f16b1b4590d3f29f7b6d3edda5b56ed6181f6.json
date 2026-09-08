@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures household financial savings as a percentage of GNDI, whereas Fact B measures the Union government's gross fiscal deficit as a percentage of GDP, representing entirely different economic indicators and subjects."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures household financial savings as a percentage of GNDI, whereas Fact B measures the Union government's gross fiscal deficit as a percentage of GDP, representing entirely different economic indicators and subjects.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

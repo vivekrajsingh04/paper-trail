@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures net capital inflow from the rest of the world to GDP ratio, while Metric B measures R&D expenditure as a percentage of GDP, which are completely different economic indicators."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures net capital inflow from the rest of the world to GDP ratio, while Metric B measures R&D expenditure as a percentage of GDP, which are completely different economic indicators.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

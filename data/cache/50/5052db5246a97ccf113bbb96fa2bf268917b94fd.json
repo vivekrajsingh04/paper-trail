@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the growth rate of India's real GDP, whereas Metric B measures the percentage share of Private Final Consumption Expenditure within real GDP."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the growth rate of India's real GDP, whereas Metric B measures the percentage share of Private Final Consumption Expenditure within real GDP.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

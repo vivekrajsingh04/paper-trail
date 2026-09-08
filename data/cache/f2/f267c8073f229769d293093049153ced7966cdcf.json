@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures India's apparel export share within its own export basket, whereas Fact B measures India's global market share in Telecommunications, Computer, & Information Services."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures India's apparel export share within its own export basket, whereas Fact B measures India's global market share in Telecommunications, Computer, & Information Services.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

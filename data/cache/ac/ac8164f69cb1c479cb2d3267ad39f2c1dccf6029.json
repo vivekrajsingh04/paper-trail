@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Total income for a specific corporate entity (Delhivery Limited) in absolute currency units measures fundamentally different economic phenomena than general government revenue expressed as a percentage of GDP."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Total income for a specific corporate entity (Delhivery Limited) in absolute currency units measures fundamentally different economic phenomena than general government revenue expressed as a percentage of GDP.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Metric A includes all non-petroleum exports, whereas Metric B excludes both petroleum and gems and jewellery, making B a narrower subset of A."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Metric A includes all non-petroleum exports, whereas Metric B excludes both petroleum and gems and jewellery, making B a narrower subset of A.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

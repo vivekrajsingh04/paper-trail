@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fuel inflation specifically measures price changes in fuel and light, whereas IMF inflation rate projection represents a macroeconomic forecast for the overall economy."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fuel inflation specifically measures price changes in fuel and light, whereas IMF inflation rate projection represents a macroeconomic forecast for the overall economy.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

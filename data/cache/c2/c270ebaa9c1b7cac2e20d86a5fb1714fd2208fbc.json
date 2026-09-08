@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the gross fiscal deficit target relative to GDP, whereas Metric B measures Research and Development (R&D) expenditure relative to GDP."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the gross fiscal deficit target relative to GDP, whereas Metric B measures Research and Development (R&D) expenditure relative to GDP.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

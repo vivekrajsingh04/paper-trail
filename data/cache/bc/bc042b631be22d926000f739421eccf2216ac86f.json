@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the absolute share capital of Delhivery Corp Limited in GBP, whereas Fact B measures a percentage of the pre-Offer paid-up Equity Share capital for a different subject, SVF Doorbell (Cayman) Ltd."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the absolute share capital of Delhivery Corp Limited in GBP, whereas Fact B measures a percentage of the pre-Offer paid-up Equity Share capital for a different subject, SVF Doorbell (Cayman) Ltd.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

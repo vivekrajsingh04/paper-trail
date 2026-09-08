@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "EMDEs (Emerging Market and Developing Economies) represent a specific subset of the global economy, making the metrics distinct rather than identical or directly comparable."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"EMDEs (Emerging Market and Developing Economies) represent a specific subset of the global economy, making the metrics distinct rather than identical or directly comparable.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Core inflation average measures the broader price change of a general basket excluding volatile items for India, whereas Prepared meals inflation average specifically measures the price change of prepared meals."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Core inflation average measures the broader price change of a general basket excluding volatile items for India, whereas Prepared meals inflation average specifically measures the price change of prepared meals.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

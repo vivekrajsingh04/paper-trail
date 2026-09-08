@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures net proceeds allocated for inorganic growth through acquisitions, whereas Metric B measures allocation for organic growth initiatives, representing two distinct categories of use of funds."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures net proceeds allocated for inorganic growth through acquisitions, whereas Metric B measures allocation for organic growth initiatives, representing two distinct categories of use of funds.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Air passenger traffic growth and merchandise exports growth measure completely different economic activities."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Air passenger traffic growth and merchandise exports growth measure completely different economic activities.\"\n}",
+ "model": "gemini-3.8-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

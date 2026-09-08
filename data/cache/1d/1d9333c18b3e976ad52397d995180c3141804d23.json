@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross FDI inflows measure incoming foreign direct investment in currency units, whereas Gross Foreign Liabilities measure total external obligations relative to GDP."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross FDI inflows measure incoming foreign direct investment in currency units, whereas Gross Foreign Liabilities measure total external obligations relative to GDP.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

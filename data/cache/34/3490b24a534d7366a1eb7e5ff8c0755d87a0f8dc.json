@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "B",
+  "reason": "Lease liabilities - Current is a specific component of Total liabilities rather than the same metric."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Lease liabilities - Current is a specific component of Total liabilities rather than the same metric.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

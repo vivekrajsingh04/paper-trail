@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures a projected growth rate for overall global merchandise trade volume, whereas Metric B measures historical year-on-year growth specifically for global merchandise import indices."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures a projected growth rate for overall global merchandise trade volume, whereas Metric B measures historical year-on-year growth specifically for global merchandise import indices.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

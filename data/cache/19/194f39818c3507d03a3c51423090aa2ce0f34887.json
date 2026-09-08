@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Headline inflation expectation specifically refers to RBI's forecast of a specific index, whereas consumer price inflation projection is a broader measure reflecting overall retail price changes."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Headline inflation expectation specifically refers to RBI's forecast of a specific index, whereas consumer price inflation projection is a broader measure reflecting overall retail price changes.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

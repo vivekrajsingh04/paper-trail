@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures economic output per person in U.S. dollars, whereas Metric B measures the ratio of private equity and venture capital investments relative to GDP as a percentage."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures economic output per person in U.S. dollars, whereas Metric B measures the ratio of private equity and venture capital investments relative to GDP as a percentage.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

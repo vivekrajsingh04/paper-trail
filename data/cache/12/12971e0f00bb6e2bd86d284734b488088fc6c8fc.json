@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Proforma Consolidated Revenue from contract with customers represents total group-level revenue, whereas Revenue from services refers specifically to service-related earnings."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Proforma Consolidated Revenue from contract with customers represents total group-level revenue, whereas Revenue from services refers specifically to service-related earnings.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

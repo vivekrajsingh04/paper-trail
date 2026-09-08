@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures standard standalone or group loss for the year, whereas Metric B specifically measures a 'Proforma Consolidated' loss for the period, which incorporates structural or scope adjustments."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures standard standalone or group loss for the year, whereas Metric B specifically measures a 'Proforma Consolidated' loss for the period, which incorporates structural or scope adjustments.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

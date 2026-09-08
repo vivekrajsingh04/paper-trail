@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Real GDP growth (adjusted for inflation using constant prices) and nominal GDP growth (not adjusted for inflation) measure different economic phenomena."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Real GDP growth (adjusted for inflation using constant prices) and nominal GDP growth (not adjusted for inflation) measure different economic phenomena.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

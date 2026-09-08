@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net FPI (Foreign Portfolio Investment) inflows measure capital flows over a period, whereas inward FDI (Foreign Direct Investment) stock as a percent of GDP measures the accumulated stock of direct investment relative to the economy's size."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net FPI (Foreign Portfolio Investment) inflows measure capital flows over a period, whereas inward FDI (Foreign Direct Investment) stock as a percent of GDP measures the accumulated stock of direct investment relative to the economy's size.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

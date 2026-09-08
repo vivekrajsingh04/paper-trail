@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the goodness of fit (adjusted R-squared) for a regression model, whereas Metric B measures the specific regression coefficient for a single independent variable (TFP average growth)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the goodness of fit (adjusted R-squared) for a regression model, whereas Metric B measures the specific regression coefficient for a single independent variable (TFP average growth).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

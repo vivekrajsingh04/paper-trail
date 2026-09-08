@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Total non-current assets for Delhivery Limited covers all non-current assets globally or entirely, whereas Non-current operating assets within India is geographically restricted to India and specifically limited to operating assets."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Total non-current assets for Delhivery Limited covers all non-current assets globally or entirely, whereas Non-current operating assets within India is geographically restricted to India and specifically limited to operating assets.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

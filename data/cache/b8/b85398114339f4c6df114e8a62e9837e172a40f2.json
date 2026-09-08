@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "The terms 'permanent employees' and 'permanent workers' describe the same demographic group, making the turnover rates directly comparable."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"The terms 'permanent employees' and 'permanent workers' describe the same demographic group, making the turnover rates directly comparable.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "PAT (Profit After Tax) loss and Loss before tax are distinct financial metrics that occur at different levels of the income statement."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"PAT (Profit After Tax) loss and Loss before tax are distinct financial metrics that occur at different levels of the income statement.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

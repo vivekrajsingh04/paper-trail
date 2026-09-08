@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Expenditure on pensions and retirement benefits is a specific category of spending, whereas revenue expenditure represents a broader aggregate of all government spending of a revenue nature."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Expenditure on pensions and retirement benefits is a specific category of spending, whereas revenue expenditure represents a broader aggregate of all government spending of a revenue nature.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

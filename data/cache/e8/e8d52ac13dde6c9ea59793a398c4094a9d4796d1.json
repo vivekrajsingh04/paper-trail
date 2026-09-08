@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the export contribution to a specific company's turnover, whereas Metric B measures an entire industry's contribution to national exports, GDP, and industrial production."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the export contribution to a specific company's turnover, whereas Metric B measures an entire industry's contribution to national exports, GDP, and industrial production.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

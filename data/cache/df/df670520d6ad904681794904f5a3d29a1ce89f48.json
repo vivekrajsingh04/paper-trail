@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "They measure completely different economic variables for different subjects, with A representing electronic goods imports and B representing finished non-apparel goods exports from India's textile sector."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"They measure completely different economic variables for different subjects, with A representing electronic goods imports and B representing finished non-apparel goods exports from India's textile sector.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

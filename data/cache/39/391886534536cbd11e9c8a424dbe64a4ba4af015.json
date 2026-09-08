@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Diluted Loss Equity per share measures loss on a per-share basis, whereas Proforma Consolidated Loss for the period measures the total absolute monetary loss."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Diluted Loss Equity per share measures loss on a per-share basis, whereas Proforma Consolidated Loss for the period measures the total absolute monetary loss.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

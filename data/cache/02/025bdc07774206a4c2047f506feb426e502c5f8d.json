@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Carrying value at amortised cost of cash and cash equivalents is a specific accounting valuation method, whereas total cash and cash equivalents at the end of the period is a broader financial statement line item."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Carrying value at amortised cost of cash and cash equivalents is a specific accounting valuation method, whereas total cash and cash equivalents at the end of the period is a broader financial statement line item.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

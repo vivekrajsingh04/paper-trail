@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the number of equity shares to be underwritten for Delhivery Limited, whereas Metric B measures the paid-up equity share capital in USD for a different legal entity, Delhivery USA, LLC."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the number of equity shares to be underwritten for Delhivery Limited, whereas Metric B measures the paid-up equity share capital in USD for a different legal entity, Delhivery USA, LLC.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

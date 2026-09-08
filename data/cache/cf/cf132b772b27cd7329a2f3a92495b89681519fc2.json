@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Bank credit growth and Gross Fixed Capital Formation (GFCF) growth measure entirely different macroeconomic variables."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Bank credit growth and Gross Fixed Capital Formation (GFCF) growth measure entirely different macroeconomic variables.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

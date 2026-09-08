@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures per-share equity loss, whereas Metric B measures the total consolidated loss for the period in millions, representing fundamentally different financial measures."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures per-share equity loss, whereas Metric B measures the total consolidated loss for the period in millions, representing fundamentally different financial measures.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

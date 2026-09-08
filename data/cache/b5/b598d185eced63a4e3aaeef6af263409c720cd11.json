@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures Sahil Barua's personal equity share percentage, whereas Fact B measures the equity shareholding percentage of Delhivery Freight Services Private Limited."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures Sahil Barua's personal equity share percentage, whereas Fact B measures the equity shareholding percentage of Delhivery Freight Services Private Limited.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

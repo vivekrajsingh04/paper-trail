@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the fiscal balance of the general government as a percentage of GDP, whereas Metric B measures net purchases by mutual funds in lakh crore."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the fiscal balance of the general government as a percentage of GDP, whereas Metric B measures net purchases by mutual funds in lakh crore.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

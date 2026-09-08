@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Proforma Consolidated Loss before tax and Proforma Consolidated Total non-current liabilities represent completely different financial statement items (profitability versus financial position liabilities)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Proforma Consolidated Loss before tax and Proforma Consolidated Total non-current liabilities represent completely different financial statement items (profitability versus financial position liabilities).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

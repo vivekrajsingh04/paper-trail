@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures absolute equity share capital in USD for Delhivery USA, LLC, while Metric B measures a percentage of pre-Offer paid-up equity share capital for a different entity, SVF Doorbell (Cayman) Ltd."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures absolute equity share capital in USD for Delhivery USA, LLC, while Metric B measures a percentage of pre-Offer paid-up equity share capital for a different entity, SVF Doorbell (Cayman) Ltd.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

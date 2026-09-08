@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Capital expenditure growth for the Union government and Private Final Consumption Expenditure growth measure distinct economic activities by different entities, making them incomparable."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Capital expenditure growth for the Union government and Private Final Consumption Expenditure growth measure distinct economic activities by different entities, making them incomparable.\"\n}",
+ "model": "gemini-2.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

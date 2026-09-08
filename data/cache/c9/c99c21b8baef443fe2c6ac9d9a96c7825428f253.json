@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the export share of finished non-apparel goods, whereas Metric B measures the overall growth rate of non-petroleum, non-gems, and non-jewellery exports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the export share of finished non-apparel goods, whereas Metric B measures the overall growth rate of non-petroleum, non-gems, and non-jewellery exports.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

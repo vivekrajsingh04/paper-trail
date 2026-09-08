@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Metric A measures economic growth for all Advanced Economies (AEs) as a group, while Metric B measures it specifically for the United States, making A broader than B."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Metric A measures economic growth for all Advanced Economies (AEs) as a group, while Metric B measures it specifically for the United States, making A broader than B.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

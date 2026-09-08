@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Adjusted EBITDA typically includes specific non-recurring or non-cash adjustments that are not necessarily present in a standard FY23 EBITDA figure."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Adjusted EBITDA typically includes specific non-recurring or non-cash adjustments that are not necessarily present in a standard FY23 EBITDA figure.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

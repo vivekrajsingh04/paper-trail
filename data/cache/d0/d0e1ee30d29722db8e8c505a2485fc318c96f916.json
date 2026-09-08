@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the year-over-year growth rate of India's non-petroleum exports, whereas Metric B measures the year-over-year change in the Wholesale Price Index for all commodities."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the year-over-year growth rate of India's non-petroleum exports, whereas Metric B measures the year-over-year change in the Wholesale Price Index for all commodities.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

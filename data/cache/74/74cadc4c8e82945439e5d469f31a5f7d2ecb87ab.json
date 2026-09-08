@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Government Final Consumption Expenditure measures general government consumption, whereas Union government capex specifically measures capital expenditure by the central government."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Government Final Consumption Expenditure measures general government consumption, whereas Union government capex specifically measures capital expenditure by the central government.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

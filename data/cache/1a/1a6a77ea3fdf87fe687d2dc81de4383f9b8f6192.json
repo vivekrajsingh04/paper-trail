@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Expenditure on pensions and retirement benefits measures a specific category of government spending, whereas the gross fiscal deficit measures the total borrowing requirement of the government."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Expenditure on pensions and retirement benefits measures a specific category of government spending, whereas the gross fiscal deficit measures the total borrowing requirement of the government.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

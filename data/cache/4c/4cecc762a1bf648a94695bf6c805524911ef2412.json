@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Nominal GDP growth measures the entire economy's output expansion, whereas nominal rural wage growth specifically tracks wage increases for rural workers."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Nominal GDP growth measures the entire economy's output expansion, whereas nominal rural wage growth specifically tracks wage increases for rural workers.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

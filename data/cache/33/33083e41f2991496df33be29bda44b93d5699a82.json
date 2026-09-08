@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the year-over-year growth rate of agricultural exports, whereas Metric B measures the year-over-year change in the Consumer Price Index (CPI) for rural areas."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the year-over-year growth rate of agricultural exports, whereas Metric B measures the year-over-year change in the Consumer Price Index (CPI) for rural areas.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

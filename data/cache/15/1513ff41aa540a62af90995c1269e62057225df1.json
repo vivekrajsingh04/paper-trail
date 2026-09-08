@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures India's share of total global R&D expenditure, whereas Fact B measures the share of India's domestic R&D spending that goes specifically to higher education institutions."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures India's share of total global R&D expenditure, whereas Fact B measures the share of India's domestic R&D spending that goes specifically to higher education institutions.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

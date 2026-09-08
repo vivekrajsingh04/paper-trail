@@ -163,3 +163,28 @@ def test_explanatory_power_is_learned_not_declared():
     e = engine()
     e.build(facts)
     assert e.stats.dim_stats["period"].explanatory_power > 0.7
+
+
+# ---------------------------------------------------------------- regressions
+def test_quarter_with_colon_is_not_a_whole_year():
+    """The RBI writes "Q1:2024-25"; parsing it as the year merged quarters into it."""
+    q = parse_period("Q1:2024-25")
+    y = parse_period("2024-25")
+    assert q.granularity == "quarter"
+    assert (q.start, q.end) == ("2024-04-01", "2024-06-30")
+    assert (q.start, q.end) != (y.start, y.end)
+
+
+def test_subject_that_restates_the_metric_is_not_a_dimension():
+    """A subject echoing the metric must not become an explanation for a gap."""
+    from factlayer.compare import dimensions
+
+    echo = mk("real GDP growth", "6.5", "per cent", "FY25", "rbi", subject="real GDP")
+    real = mk("real GDP growth", "7.8", "per cent", "FY25", "imf", subject="India")
+    assert "subject" not in dimensions(echo)
+    assert dimensions(real)["subject"] == "india"
+
+    # With the echoed subject discarded, nothing spurious explains the gap.
+    e = engine()
+    rel = e._judge(e.evaluate(echo, real))
+    assert rel.explained_by != "subject"

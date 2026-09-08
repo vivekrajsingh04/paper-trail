@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures a percentage equity shareholding for an individual, whereas Metric B measures the total monetary value of paid-up equity share capital for a corporate entity."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures a percentage equity shareholding for an individual, whereas Metric B measures the total monetary value of paid-up equity share capital for a corporate entity.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

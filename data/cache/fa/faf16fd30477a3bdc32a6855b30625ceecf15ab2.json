@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "An R-squared value measures the proportion of variance explained in a regression, whereas a regression coefficient measures the slope representing the expected change in the dependent variable per unit change in the independent variable."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"An R-squared value measures the proportion of variance explained in a regression, whereas a regression coefficient measures the slope representing the expected change in the dependent variable per unit change in the independent variable.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "EBITDA measures absolute earnings in currency units, whereas EBITDA margin measures earnings as a percentage of revenue."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"EBITDA measures absolute earnings in currency units, whereas EBITDA margin measures earnings as a percentage of revenue.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

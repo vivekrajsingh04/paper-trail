@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross Fixed Capital Formation (GFCF) growth measures investment in fixed assets, whereas real GVA growth at basic prices measures overall economic output across all sectors."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross Fixed Capital Formation (GFCF) growth measures investment in fixed assets, whereas real GVA growth at basic prices measures overall economic output across all sectors.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

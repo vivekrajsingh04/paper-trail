@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Net Employees' Provident Fund Organisation (EPFO) subscriptions and net payroll additions to EPFO are synonymous terms commonly used interchangeably in official reports to measure net new subscriber growth."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Net Employees' Provident Fund Organisation (EPFO) subscriptions and net payroll additions to EPFO are synonymous terms commonly used interchangeably in official reports to measure net new subscriber growth.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

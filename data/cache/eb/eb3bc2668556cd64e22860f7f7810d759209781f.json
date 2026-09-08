@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A represents a statistical coefficient derived from a regression model, while Metric B represents a raw macroeconomic indicator of R&D intensity."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A represents a statistical coefficient derived from a regression model, while Metric B represents a raw macroeconomic indicator of R&D intensity.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure completely different concepts, with A tracking the overall employment rate of regular wage earners in India and B tracking the turnover rate specifically for male permanent employees."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure completely different concepts, with A tracking the overall employment rate of regular wage earners in India and B tracking the turnover rate specifically for male permanent employees.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

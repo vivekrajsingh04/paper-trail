@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the year-on-year change of India's Wholesale Price Index for all commodities, whereas Fact B measures the year-on-year growth of global merchandise import indices."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the year-on-year change of India's Wholesale Price Index for all commodities, whereas Fact B measures the year-on-year growth of global merchandise import indices.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

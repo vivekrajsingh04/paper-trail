@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Centre Gross Fiscal Deficit measures the total borrowing requirement, whereas revenue expenditure measures only the spending on revenue account."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Centre Gross Fiscal Deficit measures the total borrowing requirement, whereas revenue expenditure measures only the spending on revenue account.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

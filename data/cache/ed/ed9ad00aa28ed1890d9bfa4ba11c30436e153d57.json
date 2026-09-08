@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The two facts measure the incorporation dates of two completely different legal entities (Delhivery Freight Services Private Limited vs. Delhivery Limited)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The two facts measure the incorporation dates of two completely different legal entities (Delhivery Freight Services Private Limited vs. Delhivery Limited).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

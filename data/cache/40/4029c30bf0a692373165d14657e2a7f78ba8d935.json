@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Union government capital expenditure growth measures government spending, whereas Gross Fixed Capital Formation (GFCF) growth measures economy-wide investment by all institutional sectors in India."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Union government capital expenditure growth measures government spending, whereas Gross Fixed Capital Formation (GFCF) growth measures economy-wide investment by all institutional sectors in India.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -39,6 +39,8 @@ import math
 from collections import defaultdict
 from dataclasses import dataclass, field
 
+from rapidfuzz import fuzz
+
 from .canon import MetricResolver, normalise_metric, subject_key
 from .models import Fact, Relation, Verdict
 from .units import intervals_overlap, relative_gap
@@ -102,13 +104,34 @@ class CompareStats:
 # Dimension extraction
 # --------------------------------------------------------------------------
 
+def _subject_is_informative(f: Fact) -> bool:
+    """False when the subject merely restates the metric.
+
+    Extractors sometimes fill `subject` with a fragment of the metric name
+    ("real GDP" for the metric "real GDP growth") instead of the entity the
+    figure is about ("India"). Treating that as a dimension is worse than
+    having no subject at all: two facts about the same thing then appear to
+    differ on subject, and the engine will happily cite that non-difference as
+    the explanation for a real gap in value.
+    """
+    sk = subject_key(f.subject)
+    if not sk:
+        return False
+    mk = normalise_metric(f.metric)
+    if not mk:
+        return True
+    if sk in mk or mk.startswith(sk):
+        return False
+    return fuzz.token_set_ratio(sk, mk) < 85
+
+
 def dimensions(f: Fact) -> dict[str, str]:
     """The full dimension vector of a fact: period, subject, and its qualifiers."""
     dims: dict[str, str] = {}
     if f.period is not None:
         dims["period"] = f.period.key
     sk = subject_key(f.subject)
-    if sk:
+    if sk and _subject_is_informative(f):
         dims["subject"] = sk
     for k, v in f.qualifiers.items():
         key = str(k).strip().lower()
@@ -368,6 +391,8 @@ class ComparisonEngine:
         blocks = self._blocks(facts)
         keys = list(blocks)
 
+        # Within-block pairs first: the metric names are already identical, so
+        # these are free -- no adjudication, no model call.
         pairs: list[tuple[Fact, Fact]] = []
         for k in keys:
             group = blocks[k][:MAX_BLOCK]
@@ -375,14 +400,20 @@ class ComparisonEngine:
                 for j in range(i + 1, len(group)):
                     pairs.append((group[i], group[j]))
 
-        linked = set()
-        for a, b, _ in self.resolver.candidate_pairs(keys):
-            linked.add((a, b))
-        for (a, b) in self.resolver._sem:  # semantic neighbours, if indexed
+        # Cross-block links, each scored by how strongly it was proposed.
+        linked: dict[tuple[str, str], float] = {}
+        for a, b, score in self.resolver.candidate_pairs(keys):
+            linked[(a, b)] = max(linked.get((a, b), 0.0), score / 100.0)
+        for (a, b), score in self.resolver._sem.items():
             if a in blocks and b in blocks:
-                linked.add((a, b))
+                linked[(a, b)] = max(linked.get((a, b), 0.0), score)
 
-        for a, b in linked:
+        # Strongest first. Adjudication is budgeted, and spending that budget in
+        # whatever order pairs happened to be generated meant the cap fell on
+        # arbitrary pairs -- on this corpus it cut off the annual report's
+        # revenue variants at semantic ranks 1, 8 and 15, which is exactly the
+        # cross-document corroboration the layer exists to find.
+        for (a, b), _ in sorted(linked.items(), key=lambda kv: -kv[1]):
             ga, gb = blocks.get(a, [])[:MAX_BLOCK], blocks.get(b, [])[:MAX_BLOCK]
             for fa in ga:
                 for fb in gb:

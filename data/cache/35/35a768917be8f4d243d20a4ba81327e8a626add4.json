@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Core inflation measures price changes excluding volatile food and fuel, whereas global inflation expectation measures the overall anticipated inflation rate globally."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Core inflation measures price changes excluding volatile food and fuel, whereas global inflation expectation measures the overall anticipated inflation rate globally.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

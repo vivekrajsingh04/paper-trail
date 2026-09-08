@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures annual heavy goods shipment volume for specific fiscal years, whereas Metric B measures cumulative total shipments delivered since incorporation."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures annual heavy goods shipment volume for specific fiscal years, whereas Metric B measures cumulative total shipments delivered since incorporation.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

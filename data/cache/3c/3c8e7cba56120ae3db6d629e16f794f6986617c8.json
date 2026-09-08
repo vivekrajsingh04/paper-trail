@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures an advance to a supplier for FALCON AUTOTECH Private Limited, while Metric B measures trade payables to micro and small enterprises for Delhivery Limited."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures an advance to a supplier for FALCON AUTOTECH Private Limited, while Metric B measures trade payables to micro and small enterprises for Delhivery Limited.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

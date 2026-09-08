@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Headline inflation measures the overall price level of a broad basket of goods, whereas tomato price inflation is a specific sub-component of the food index."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Headline inflation measures the overall price level of a broad basket of goods, whereas tomato price inflation is a specific sub-component of the food index.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

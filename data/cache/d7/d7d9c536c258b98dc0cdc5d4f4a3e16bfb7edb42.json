@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Direct spend in the Indian logistics sector and voluntary CSR spend for a specific company (Delhivery Limited) measure completely different financial activities."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Direct spend in the Indian logistics sector and voluntary CSR spend for a specific company (Delhivery Limited) measure completely different financial activities.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

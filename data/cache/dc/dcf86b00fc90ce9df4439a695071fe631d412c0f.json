@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Although both measure savings rates, A is expressed as a percentage of Gross National Disposable Income (GNDI) while B is expressed as a percentage of Gross Domestic Product (GDP), representing different denominators."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Although both measure savings rates, A is expressed as a percentage of Gross National Disposable Income (GNDI) while B is expressed as a percentage of Gross Domestic Product (GDP), representing different denominators.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Proforma Consolidated Total equity measures the total equity of Delhivery Limited, whereas the Weighted average cost of acquisition per Equity Share measures the acquisition cost per share for a specific investor, CA Swift Investments."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Proforma Consolidated Total equity measures the total equity of Delhivery Limited, whereas the Weighted average cost of acquisition per Equity Share measures the acquisition cost per share for a specific investor, CA Swift Investments.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

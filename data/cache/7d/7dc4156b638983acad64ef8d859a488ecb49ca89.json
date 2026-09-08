@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": null,
+  "reason": "Apparel and finished non-apparel goods are distinct, non-overlapping components of the total textile export basket."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": null,\n  \"reason\": \"Apparel and finished non-apparel goods are distinct, non-overlapping components of the total textile export basket.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

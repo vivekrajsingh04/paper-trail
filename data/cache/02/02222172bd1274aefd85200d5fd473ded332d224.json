@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Merchandise trade deficit specifically measures trade in goods, whereas overall trade deficit encompasses a broader scope including both goods and services."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Merchandise trade deficit specifically measures trade in goods, whereas overall trade deficit encompasses a broader scope including both goods and services.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

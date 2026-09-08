@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Apparel export share refers to the proportion of apparel within India's export basket, whereas global apparel market share refers to India's share of the total worldwide apparel market."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Apparel export share refers to the proportion of apparel within India's export basket, whereas global apparel market share refers to India's share of the total worldwide apparel market.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

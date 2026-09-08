@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Merchandise exports growth measures the percentage change in exports over time, whereas merchandise trade deficit measures the absolute monetary difference between imports and exports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Merchandise exports growth measures the percentage change in exports over time, whereas merchandise trade deficit measures the absolute monetary difference between imports and exports.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

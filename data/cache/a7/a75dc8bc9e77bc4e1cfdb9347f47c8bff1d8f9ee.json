@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Core inflation average measures the general price trend in India across a broad basket of goods, whereas tomato prices average inflation specifically tracks the year-over-year price change of tomatoes alone."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Core inflation average measures the general price trend in India across a broad basket of goods, whereas tomato prices average inflation specifically tracks the year-over-year price change of tomatoes alone.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

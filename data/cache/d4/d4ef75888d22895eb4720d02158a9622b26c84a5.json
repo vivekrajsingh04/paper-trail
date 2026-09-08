@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A refers to the weighted average cost of acquisition for Delhivery Limited as a whole, while Metric B refers specifically to the cost of acquisition per Equity Share for a single investor, CA Swift Investments."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A refers to the weighted average cost of acquisition for Delhivery Limited as a whole, while Metric B refers specifically to the cost of acquisition per Equity Share for a single investor, CA Swift Investments.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

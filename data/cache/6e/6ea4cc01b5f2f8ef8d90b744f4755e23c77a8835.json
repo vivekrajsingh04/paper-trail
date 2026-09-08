@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross Foreign Liabilities as a percent of GDP measures total external liabilities of a country, whereas household liabilities as a percent of GNDI measures specifically household debt relative to gross national disposable income."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross Foreign Liabilities as a percent of GDP measures total external liabilities of a country, whereas household liabilities as a percent of GNDI measures specifically household debt relative to gross national disposable income.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

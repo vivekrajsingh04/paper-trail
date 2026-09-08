@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Merchandise exports growth measures international trade performance, whereas Reserve Money y-o-y change measures central bank monetary liabilities."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Merchandise exports growth measures international trade performance, whereas Reserve Money y-o-y change measures central bank monetary liabilities.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

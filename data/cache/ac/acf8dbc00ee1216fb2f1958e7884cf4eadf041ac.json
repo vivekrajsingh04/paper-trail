@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure completely different concepts (exports growth rate vs. profit after tax growth) for different subjects (drugs and pharmaceuticals vs. scheduled commercial banks)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure completely different concepts (exports growth rate vs. profit after tax growth) for different subjects (drugs and pharmaceuticals vs. scheduled commercial banks).\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

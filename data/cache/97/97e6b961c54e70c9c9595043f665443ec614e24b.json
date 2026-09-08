@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Agriculture growth rate measures the annual percentage change in agricultural output, whereas the share of workers employed in the agricultural sector measures the proportion of the workforce in that industry."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Agriculture growth rate measures the annual percentage change in agricultural output, whereas the share of workers employed in the agricultural sector measures the proportion of the workforce in that industry.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

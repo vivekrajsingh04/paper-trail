@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Global economic growth projection measures overall macroeconomic output, whereas year-on-year growth in global services exports specifically measures international trade in services."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Global economic growth projection measures overall macroeconomic output, whereas year-on-year growth in global services exports specifically measures international trade in services.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

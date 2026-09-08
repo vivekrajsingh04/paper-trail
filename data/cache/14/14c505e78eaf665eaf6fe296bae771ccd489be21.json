@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Total equity represents the sum of share capital and all reserves and surplus, whereas Total other equity specifically represents only the reserves and surplus component of equity."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Total equity represents the sum of share capital and all reserves and surplus, whereas Total other equity specifically represents only the reserves and surplus component of equity.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

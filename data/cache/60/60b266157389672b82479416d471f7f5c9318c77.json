@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Non-petroleum and non-gems and jewellery exports growth covers a broad basket excluding specific sectors, whereas textile exports growth measures only the textile sector."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Non-petroleum and non-gems and jewellery exports growth covers a broad basket excluding specific sectors, whereas textile exports growth measures only the textile sector.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

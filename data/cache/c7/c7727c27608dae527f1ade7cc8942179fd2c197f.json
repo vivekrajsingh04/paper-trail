@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures total R&D expenditure as a percentage of the entire GDP, whereas Metric B measures the proportion of R&D spending specifically executed by the government."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures total R&D expenditure as a percentage of the entire GDP, whereas Metric B measures the proportion of R&D spending specifically executed by the government.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

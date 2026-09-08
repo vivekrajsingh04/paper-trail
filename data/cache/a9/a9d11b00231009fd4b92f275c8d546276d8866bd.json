@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Revenue from contracts with customers is a broad category that encompasses multiple revenue streams, whereas revenue from the sale of traded goods is a specific, narrower component of that total."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Revenue from contracts with customers is a broad category that encompasses multiple revenue streams, whereas revenue from the sale of traded goods is a specific, narrower component of that total.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

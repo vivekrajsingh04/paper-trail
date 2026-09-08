@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross FDI inflows measure the flow of foreign direct investment over a period, whereas the stock of inward FDI as a percent of GDP measures the accumulated total relative to economic output."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross FDI inflows measure the flow of foreign direct investment over a period, whereas the stock of inward FDI as a percent of GDP measures the accumulated total relative to economic output.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

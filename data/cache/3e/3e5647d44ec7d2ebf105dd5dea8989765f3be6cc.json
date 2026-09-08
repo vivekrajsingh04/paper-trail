@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the percentage expansion of area under both foodgrains and oilseeds, whereas Metric B measures the total production quantity of Kharif food grains in lakh metric tonnes."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the percentage expansion of area under both foodgrains and oilseeds, whereas Metric B measures the total production quantity of Kharif food grains in lakh metric tonnes.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

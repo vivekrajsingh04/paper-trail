@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures export value in USD millions for optical items, whereas Metric B measures the percentage share of total merchandise exports for drugs and pharmaceuticals."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures export value in USD millions for optical items, whereas Metric B measures the percentage share of total merchandise exports for drugs and pharmaceuticals.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

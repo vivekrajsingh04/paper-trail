@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Food and beverages inflation measures price changes specifically for the food and beverages sector, whereas consumer price inflation projection refers to headline inflation covering a broader basket of goods and services."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Food and beverages inflation measures price changes specifically for the food and beverages sector, whereas consumer price inflation projection refers to headline inflation covering a broader basket of goods and services.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

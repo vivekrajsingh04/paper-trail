@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A specifically measures 'Advance from Customers' within other current liabilities, whereas Metric B measures the 'Proforma Consolidated Total current liabilities' as a grand total."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A specifically measures 'Advance from Customers' within other current liabilities, whereas Metric B measures the 'Proforma Consolidated Total current liabilities' as a grand total.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

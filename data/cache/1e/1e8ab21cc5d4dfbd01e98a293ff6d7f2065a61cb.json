@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross tax revenue buoyancy and net tax revenue growth measure fundamentally different economic concepts (responsiveness of total revenue relative to GDP versus percentage change in revenue after transfers)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross tax revenue buoyancy and net tax revenue growth measure fundamentally different economic concepts (responsiveness of total revenue relative to GDP versus percentage change in revenue after transfers).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

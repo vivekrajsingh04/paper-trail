@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "They measure market shares for two entirely distinct economic sectors: Telecommunications, Computer, & Information Services versus the Other Business Services sector."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"They measure market shares for two entirely distinct economic sectors: Telecommunications, Computer, & Information Services versus the Other Business Services sector.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

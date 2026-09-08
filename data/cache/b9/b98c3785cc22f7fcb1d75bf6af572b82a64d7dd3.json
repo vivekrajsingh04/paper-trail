@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Private consumption growth measures household spending in the wider economy, whereas Union government revenue expenditure growth measures the government's own spending."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Private consumption growth measures household spending in the wider economy, whereas Union government revenue expenditure growth measures the government's own spending.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

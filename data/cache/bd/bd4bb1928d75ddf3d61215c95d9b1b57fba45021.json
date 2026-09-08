@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fuel inflation specifically measures price changes in the fuel and light category, whereas consumer price inflation projection is a broad macroeconomic forecast covering the overall consumer price index."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fuel inflation specifically measures price changes in the fuel and light category, whereas consumer price inflation projection is a broad macroeconomic forecast covering the overall consumer price index.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Total Equity and Liabilities represents the total financial liabilities and equity of the company, whereas Total non-current assets represents only the long-term assets."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Total Equity and Liabilities represents the total financial liabilities and equity of the company, whereas Total non-current assets represents only the long-term assets.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "B",
+  "reason": "Metric A refers to merchandise exports growth generally, whereas Metric B specifically measures global merchandise export indices on a year-on-year basis."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Metric A refers to merchandise exports growth generally, whereas Metric B specifically measures global merchandise export indices on a year-on-year basis.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

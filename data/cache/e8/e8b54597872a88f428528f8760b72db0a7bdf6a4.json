@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Proforma Consolidated Loss before tax and Proforma Consolidated Total non-current assets represent fundamentally different financial concepts, one being an income statement item and the other a balance sheet item."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Proforma Consolidated Loss before tax and Proforma Consolidated Total non-current assets represent fundamentally different financial concepts, one being an income statement item and the other a balance sheet item.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

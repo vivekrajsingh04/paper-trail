@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Current account deficit as a percentage of GDP measures overall external balance relative to the size of the economy, whereas merchandise trade deficit measures only the net physical goods trade in absolute US dollar terms."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Current account deficit as a percentage of GDP measures overall external balance relative to the size of the economy, whereas merchandise trade deficit measures only the net physical goods trade in absolute US dollar terms.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

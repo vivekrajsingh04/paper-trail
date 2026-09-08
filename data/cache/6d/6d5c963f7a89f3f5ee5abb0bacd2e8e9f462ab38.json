@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the macroeconomic growth rate for the entire Euro area, whereas Fact B measures the year-over-year export growth rate for a specific sector (drugs and pharmaceuticals)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the macroeconomic growth rate for the entire Euro area, whereas Fact B measures the year-over-year export growth rate for a specific sector (drugs and pharmaceuticals).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

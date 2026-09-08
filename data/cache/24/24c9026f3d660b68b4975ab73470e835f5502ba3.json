@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "A",
+  "reason": "Total non-debt receipts include non-tax revenue alongside other components such as tax revenue and non-debt capital receipts, making non-tax revenue a component of total non-debt receipts."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Total non-debt receipts include non-tax revenue alongside other components such as tax revenue and non-debt capital receipts, making non-tax revenue a component of total non-debt receipts.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

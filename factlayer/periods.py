@@ -66,7 +66,11 @@ def parse_period(text: str | None) -> Period | None:
     s = re.sub(r"\s+", " ", s)
 
     # --- Quarter: "Q4 FY24", "Q4FY2024", "fourth quarter of 2024-25" ---------
-    m = re.search(r"\bq([1-4])\s*(?:of\s*)?f?y?\s*'?(\d{2,4})(?:\s*-\s*(\d{2,4}))?", s)
+    # The separator may be a colon: the RBI writes "Q1:2024-25" throughout, and
+    # without this the token fell through to the fiscal-year branch and parsed
+    # as the whole year -- silently turning one quarter into four and making
+    # quarterly and annual figures look like they shared a period.
+    m = re.search(r"\bq([1-4])\s*[:.]?\s*(?:of\s*)?f?y?\s*'?(\d{2,4})(?:\s*[-/]\s*(\d{2,4}))?", s)
     if m:
         q = int(m.group(1))
         end_year = _resolve_fy_end(m.group(2), m.group(3))
@@ -82,7 +86,7 @@ def parse_period(text: str | None) -> Period | None:
                       granularity="quarter", calendar="IN_FY")
 
     # --- Half: "H1 FY25", "first half of FY25" ------------------------------
-    m = re.search(r"\b(h[12]|first half|second half)\s*(?:of\s*)?f?y?\s*'?(\d{2,4})(?:\s*-\s*(\d{2,4}))?", s)
+    m = re.search(r"\b(h[12]|first half|second half)\s*[:.]?\s*(?:of\s*)?f?y?\s*'?(\d{2,4})(?:\s*[-/]\s*(\d{2,4}))?", s)
     if m:
         h = 1 if m.group(1) in {"h1", "first half"} else 2
         end_year = _resolve_fy_end(m.group(2), m.group(3))

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net FPI inflows measure foreign portfolio investments in India, whereas net resources mobilised by mutual funds track domestic investments within mutual funds."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net FPI inflows measure foreign portfolio investments in India, whereas net resources mobilised by mutual funds track domestic investments within mutual funds.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

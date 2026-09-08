@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "BSE Sensex End-Period measures the value at the close of a specific time frame, whereas BSE Sensex peak level measures the maximum value reached during that period."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"BSE Sensex End-Period measures the value at the close of a specific time frame, whereas BSE Sensex peak level measures the maximum value reached during that period.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

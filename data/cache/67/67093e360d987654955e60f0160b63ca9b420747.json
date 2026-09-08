@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures Delhivery Freight Services' equity shareholding, while Metric B measures SVF Doorbell (Cayman) Ltd's percentage of the pre-Offer paid-up Equity Share capital."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures Delhivery Freight Services' equity shareholding, while Metric B measures SVF Doorbell (Cayman) Ltd's percentage of the pre-Offer paid-up Equity Share capital.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

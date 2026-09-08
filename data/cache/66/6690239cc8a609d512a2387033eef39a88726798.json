@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Both metrics measure total government debt as a percentage of GDP, with 'general government debt' and 'public debt' referring to the same national debt aggregate in this context."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Both metrics measure total government debt as a percentage of GDP, with 'general government debt' and 'public debt' referring to the same national debt aggregate in this context.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

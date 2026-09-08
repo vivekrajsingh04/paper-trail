@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the monetary amount of a specific secured vehicle loan for a single company, whereas Metric B measures the percentage of firms reporting having bank loans across a population."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the monetary amount of a specific secured vehicle loan for a single company, whereas Metric B measures the percentage of firms reporting having bank loans across a population.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

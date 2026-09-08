@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Both facts measure the EBITDA for Delhivery Limited in ₹ Cr (Rs. Cr), with one explicitly specifying the fiscal year FY24 which is implied by the document context of the other."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Both facts measure the EBITDA for Delhivery Limited in ₹ Cr (Rs. Cr), with one explicitly specifying the fiscal year FY24 which is implied by the document context of the other.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

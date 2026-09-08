@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Private Final Consumption Expenditure growth measures household spending growth, whereas real GDP growth measures the growth of the entire economy's output."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Private Final Consumption Expenditure growth measures household spending growth, whereas real GDP growth measures the growth of the entire economy's output.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

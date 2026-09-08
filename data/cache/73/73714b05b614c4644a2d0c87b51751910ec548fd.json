@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures resource mobilisation through IPOs, FPOs, and rights issues, whereas Metric B measures resource mobilisation through preferential allotments and QIPs, representing two distinct funding channels."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures resource mobilisation through IPOs, FPOs, and rights issues, whereas Metric B measures resource mobilisation through preferential allotments and QIPs, representing two distinct funding channels.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

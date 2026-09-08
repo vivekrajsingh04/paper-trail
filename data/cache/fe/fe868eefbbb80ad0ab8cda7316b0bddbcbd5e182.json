@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Current account deficit measures the net flow of goods, services, and transfers, whereas general government debt measures the total cumulative liabilities of the government."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Current account deficit measures the net flow of goods, services, and transfers, whereas general government debt measures the total cumulative liabilities of the government.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

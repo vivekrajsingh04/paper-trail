@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross FDI inflows measure foreign direct investment capital flows in absolute currency terms, whereas Gross Foreign Assets measure the total stock of foreign assets held as a percentage of GDP."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross FDI inflows measure foreign direct investment capital flows in absolute currency terms, whereas Gross Foreign Assets measure the total stock of foreign assets held as a percentage of GDP.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

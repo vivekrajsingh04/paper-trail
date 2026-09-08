@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Real effective exchange rate appreciation measures the change in a currency's value relative to a basket of other currencies, whereas the real policy rate measures the central bank's interest rate adjusted for inflation."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Real effective exchange rate appreciation measures the change in a currency's value relative to a basket of other currencies, whereas the real policy rate measures the central bank's interest rate adjusted for inflation.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

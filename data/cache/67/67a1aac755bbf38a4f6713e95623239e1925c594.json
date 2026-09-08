@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Real GDP growth and real GVA (Gross Value Added) growth are distinct macroeconomic measures that account for taxes and subsidies differently."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Real GDP growth and real GVA (Gross Value Added) growth are distinct macroeconomic measures that account for taxes and subsidies differently.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

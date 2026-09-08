@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "EBITDA margin measures profitability before interest, taxes, depreciation, and amortization, whereas profit/(loss) after tax margin measures bottom-line profitability after all expenses including taxes."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"EBITDA margin measures profitability before interest, taxes, depreciation, and amortization, whereas profit/(loss) after tax margin measures bottom-line profitability after all expenses including taxes.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

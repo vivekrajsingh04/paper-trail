@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Foreign Direct Investment (FDI) and Foreign Portfolio Investment (FPI) are fundamentally different types of capital flows with distinct economic implications."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Foreign Direct Investment (FDI) and Foreign Portfolio Investment (FPI) are fundamentally different types of capital flows with distinct economic implications.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

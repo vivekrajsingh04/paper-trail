@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure regression coefficients for different independent variables (Gross R&D Expenditure vs. GII Overall Score) across different models and samples."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure regression coefficients for different independent variables (Gross R&D Expenditure vs. GII Overall Score) across different models and samples.\"\n}",
+ "model": "gemini-3.8-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

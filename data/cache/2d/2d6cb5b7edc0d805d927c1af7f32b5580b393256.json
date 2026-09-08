@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The cash reserve requirement (CRR) ratio is set by the RBI for banks, whereas the currency-deposit ratio measures the public's preference for holding currency versus deposits."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The cash reserve requirement (CRR) ratio is set by the RBI for banks, whereas the currency-deposit ratio measures the public's preference for holding currency versus deposits.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

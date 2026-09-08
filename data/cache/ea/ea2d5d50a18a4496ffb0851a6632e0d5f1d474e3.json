@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the projected global economic growth rate, while Fact B measures the economic growth rate specifically for the Euro area, referring to different geographical subjects."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the projected global economic growth rate, while Fact B measures the economic growth rate specifically for the Euro area, referring to different geographical subjects.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

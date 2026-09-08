@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the tax incentive percentage for R&D expenditure, whereas Metric B measures the percentage share of total R&D spending conducted by higher education institutions."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the tax incentive percentage for R&D expenditure, whereas Metric B measures the percentage share of total R&D spending conducted by higher education institutions.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

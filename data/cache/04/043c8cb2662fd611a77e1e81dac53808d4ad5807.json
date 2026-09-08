@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures expected direct spend in the Indian logistics sector in US$ billion, whereas Metric B measures General Government expenditure as a percentage of GDP."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures expected direct spend in the Indian logistics sector in US$ billion, whereas Metric B measures General Government expenditure as a percentage of GDP.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

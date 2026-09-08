@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the absolute peak level of the BSE Sensex index, whereas Metric B measures the percentage increase of a completely different index, the BSE MidCap."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the absolute peak level of the BSE Sensex index, whereas Metric B measures the percentage increase of a completely different index, the BSE MidCap.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

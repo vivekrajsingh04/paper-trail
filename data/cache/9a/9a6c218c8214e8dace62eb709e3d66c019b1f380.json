@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "General Government total revenue as a percent of GDP measures a completely different economic concept than Delhivery Limited's revenue from Part Truck Load services in Indian Rupees."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"General Government total revenue as a percent of GDP measures a completely different economic concept than Delhivery Limited's revenue from Part Truck Load services in Indian Rupees.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

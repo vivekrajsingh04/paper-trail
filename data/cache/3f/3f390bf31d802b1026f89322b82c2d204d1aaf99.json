@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "India's share in global R&D expenditure measures its portion of the world's total R&D spending, whereas R&D expenditure as a percent of GDP measures domestic R&D spending relative to national economic output."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"India's share in global R&D expenditure measures its portion of the world's total R&D spending, whereas R&D expenditure as a percent of GDP measures domestic R&D spending relative to national economic output.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

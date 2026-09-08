@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Finance income from bank deposits represents interest earned on cash assets, whereas non-current borrowings represent a secured debt obligation, making them fundamentally different financial metrics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Finance income from bank deposits represents interest earned on cash assets, whereas non-current borrowings represent a secured debt obligation, making them fundamentally different financial metrics.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

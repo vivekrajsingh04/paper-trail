@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Both metrics refer to headline inflation in India measured as the percentage change in consumer prices (CPI), with 'per cent' and 'percent' being semantic equivalents."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Both metrics refer to headline inflation in India measured as the percentage change in consumer prices (CPI), with 'per cent' and 'percent' being semantic equivalents.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

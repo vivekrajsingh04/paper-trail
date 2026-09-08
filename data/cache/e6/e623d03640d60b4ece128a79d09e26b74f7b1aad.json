@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures general government revenue as a percentage of GDP, whereas Metric B measures revenue from the sale of services for a specific company in Indian Rupees."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures general government revenue as a percentage of GDP, whereas Metric B measures revenue from the sale of services for a specific company in Indian Rupees.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

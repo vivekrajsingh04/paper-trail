@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "B",
+  "reason": "Fact A measures economic growth specifically for Emerging Markets and Developing Economies (EMDEs), whereas Fact B measures the global economic growth rate, making B broader."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Fact A measures economic growth specifically for Emerging Markets and Developing Economies (EMDEs), whereas Fact B measures the global economic growth rate, making B broader.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

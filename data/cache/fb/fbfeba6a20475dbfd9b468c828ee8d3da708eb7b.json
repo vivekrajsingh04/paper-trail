@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the textile and apparel industry's overall contribution to GDP, industrial production, and total exports, whereas Fact B measures the specific export share of finished non-apparel goods within India's textile exports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the textile and apparel industry's overall contribution to GDP, industrial production, and total exports, whereas Fact B measures the specific export share of finished non-apparel goods within India's textile exports.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

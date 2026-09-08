@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Adjusted EBITDA margin and profit after tax margin are distinct financial performance indicators that account for different operating and non-operating expenses."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Adjusted EBITDA margin and profit after tax margin are distinct financial performance indicators that account for different operating and non-operating expenses.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

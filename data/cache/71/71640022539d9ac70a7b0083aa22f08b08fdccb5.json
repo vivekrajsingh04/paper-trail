@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures government budget allocation for an RDI scheme as a percentage of GDP, whereas Metric B measures the share of Private Final Consumption Expenditure (PFCE) in real GDP."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures government budget allocation for an RDI scheme as a percentage of GDP, whereas Metric B measures the share of Private Final Consumption Expenditure (PFCE) in real GDP.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}
