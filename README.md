@@ -113,23 +113,32 @@ Run with `make build` (45 pages per document; drop the cap to process all 511).
 | Delhivery Annual Report FY24 | 100 | 32 | 162 | 97.0% | 4.7% |
 | Delhivery Q4 FY24 deck | 27 | 16 | 15 | **53.6%** | 3.2% |
 | Economic Survey 2024-25 | 89 | 37 | 173 | 94.0% | 20.3% |
-| RBI Annual Report 2024-25 | 100 | 45 | 176 | 88.9% | 7.0% |
+| RBI Annual Report 2024-25 | 100 | 64 | 539 | 97.1% | 10.5% |
 | IMF Article IV 2025 | 95 | 45 | 127 | 99.2% | 6.0% |
-| **Total** | **511** | | **835** | | |
+| **Total** | **511** | | **1,198** | | |
 
-**835 facts → 862 relations, 231 of them cross-document.** Verdicts: 721
-reconciled, 51 contradictions, 15 corroborations.
+**1,198 facts → 1,937 relations, 364 of them cross-document.** Verdicts: 1,607
+reconciled, 122 held for review, 105 related, 83 corroborations, 20
+contradictions.
 
 Two of those numbers deserve explanation rather than burial.
 
-**Corroborations are rare (15) because the bar is strict.** A corroboration
-requires the same metric, the same period, agreement on every recorded
-dimension, *and* overlapping precision intervals. An earlier version reported 89
-— until it turned out that 74 of them were pairs whose values coincided while a
-dimension differed. Q1 growth of 6.5% and full-year growth of 6.5% are two
-different claims that happen to share a number; presenting that as two sources
-agreeing is exactly the false confidence this layer exists to prevent. Those are
-now reported as `related`, not `corroborates`.
+**The system refuses to answer 122 times, and that is the point.** When two
+values differ and nothing recorded distinguishes the facts — but a dimension
+that usually *does* move values is simply absent from one of them — calling it a
+contradiction asserts something the documents do not support. Those are
+`needs_review`, with the reason attached. Adding that verdict cut contradictions
+from 51 to 7 on the smaller corpus; every survivor was a genuine finding rather
+than a guess. Which dimensions disqualify a comparison is not declared: a
+dimension only counts if the corpus shows it moves values, so a missing `period`
+(0.97) is fatal and a missing `scale` (0.33) is not.
+
+**Corroboration is also strict.** It requires the same metric, the same period,
+agreement on every recorded dimension, *and* overlapping precision intervals. An
+earlier version was more generous — until it turned out those extra pairs had
+values that coincided while a dimension differed. Q1 growth of 6.5% and
+full-year growth of 6.5% are two different claims that happen to share a number.
+Those are `related` now, not `corroborates`.
 
 **Coverage is low (3–20%) and that is the weakest part of the system.** The
 scanner detects far more salient quantities than become facts. Some of that gap
@@ -149,8 +158,8 @@ And the engine learns which of them explain anything:
 
 | dimension | explanatory power | observed |
 |---|---|---|
-| `period` | 0.968 | 428 of 440 pairs |
-| `subject` | 0.887 | 116 of 129 |
+| `period` | 0.965 | 780 of 806 pairs |
+| `subject` | 0.887 | measured across the corpus |
 | `status` | **0.300** | 1 of 6 |
 | `scale` | **0.333** | 0 of 2 |
 
@@ -486,6 +495,14 @@ replaying after the default model changes or a run falls back across several.
   dimension therefore sometimes do not. The metric names get canonicalised
   through the three-tier resolver; qualifier *keys* get no such treatment, and
   they should.
+- **The same distinction can live in a metric name or in a qualifier, and the
+  adjudicator only sees the name.** The RBI writes "projected real GDP growth";
+  the IMF writes "Real GDP (at market prices) growth" and puts
+  `status: projection` in its qualifiers. Asked whether those two *names* mean
+  the same thing, the model correctly says no — one is explicitly a forecast and
+  the other is not — so a genuine RBI-vs-IMF comparison of FY26 projections
+  never forms. Passing the qualifier set to the adjudicator alongside the name
+  would fix it, at the cost of re-running every cached verdict.
 - **Some qualifiers echo dimensions already modelled.** `fiscal_year` duplicates
   the parsed period. Unit echoes (`currency`, `scale`) are dropped, but the
   period case is not yet, so a stray `fiscal_year` string can add a spurious
