@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the equity holding percentage in a subsidiary (Delhivery USA), while Metric B measures the total other equity of the parent company (Delhivery Limited) in Indian Rupees."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the equity holding percentage in a subsidiary (Delhivery USA), while Metric B measures the total other equity of the parent company (Delhivery Limited) in Indian Rupees.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

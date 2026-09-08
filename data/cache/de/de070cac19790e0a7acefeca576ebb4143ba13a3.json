@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures merchandise exports while metric B measures services trade, representing two different economic sectors."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures merchandise exports while metric B measures services trade, representing two different economic sectors.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

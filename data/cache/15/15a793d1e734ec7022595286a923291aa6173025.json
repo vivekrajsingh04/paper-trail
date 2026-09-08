@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures equity shareholding percentage while Metric B measures the absolute number of equity shares."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures equity shareholding percentage while Metric B measures the absolute number of equity shares.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

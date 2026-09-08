@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure the designations of two entirely different individuals, Deepak Kapoor and Sahil Barua."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure the designations of two entirely different individuals, Deepak Kapoor and Sahil Barua.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

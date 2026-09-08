@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure economic growth for entirely different economic groups, namely Advanced Economies (AEs) and Emerging Market and Developing Economies (EMDEs)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure economic growth for entirely different economic groups, namely Advanced Economies (AEs) and Emerging Market and Developing Economies (EMDEs).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

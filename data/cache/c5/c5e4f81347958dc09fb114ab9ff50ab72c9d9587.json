@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures merchandise exports growth for India, whereas Metric B measures total world trade volume (goods and services) growth globally."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures merchandise exports growth for India, whereas Metric B measures total world trade volume (goods and services) growth globally.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

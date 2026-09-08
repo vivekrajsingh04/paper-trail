@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "B",
+  "reason": "Metric B measures global trade volume growth for both goods and services, which is broader than Metric A's focus on merchandise (goods only) exports growth for a specific entity."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Metric B measures global trade volume growth for both goods and services, which is broader than Metric A's focus on merchandise (goods only) exports growth for a specific entity.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

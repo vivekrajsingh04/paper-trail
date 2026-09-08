@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Food and beverages is a broader category that includes cereals and products as a subcategory."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Food and beverages is a broader category that includes cereals and products as a subcategory.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

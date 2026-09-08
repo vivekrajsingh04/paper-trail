@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Exports, f.o.b. and merchandise exports value represent conceptually distinct trade measurement definitions and are expressed in different units."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Exports, f.o.b. and merchandise exports value represent conceptually distinct trade measurement definitions and are expressed in different units.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

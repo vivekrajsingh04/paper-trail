@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the regression coefficient for Gross R&D Expenditure on TFP growth, whereas Metric B measures the regression standard error for GII Overall Score on TFP average growth."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the regression coefficient for Gross R&D Expenditure on TFP growth, whereas Metric B measures the regression standard error for GII Overall Score on TFP average growth.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

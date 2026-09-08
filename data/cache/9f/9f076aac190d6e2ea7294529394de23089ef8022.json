@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the share of PFCE in real GDP, whereas Metric B measures the share of higher education institutions in total R&D spending."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the share of PFCE in real GDP, whereas Metric B measures the share of higher education institutions in total R&D spending.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

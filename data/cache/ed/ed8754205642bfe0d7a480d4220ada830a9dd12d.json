@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures capital expenditure as a percentage of GDP for the Union government, whereas Fact B measures GDP per capita for the entire country in US dollars."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures capital expenditure as a percentage of GDP for the Union government, whereas Fact B measures GDP per capita for the entire country in US dollars.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -243,16 +243,22 @@ async function loadFacts() {
   $('#fact-count').textContent = `${d.count} facts`;
   $('#facts-table tbody').innerHTML = d.facts.map((f) => {
     const qy = f.quantity || {};
-    const dims = Object.entries(f.qualifiers || {})
-      .map(([k, v]) => `<span class="dim">${esc(k)}=${esc(v)}</span>`).join(' ');
-    return `<tr class="clickable" onclick="showEvidence('${f.id}')">
-      <td>${esc(f.metric)}</td>
+    const entries = Object.entries(f.qualifiers || {});
+    // Show a few qualifiers and count the rest: a fact can carry a dozen, and
+    // rendering all of them turns every row into a paragraph.
+    const shown = entries.slice(0, 3)
+      .map(([k, v]) => `<span class="dim">${esc(k)}=${esc(String(v).slice(0, 22))}</span>`).join('');
+    const more = entries.length > 3 ? `<span class="more">+${entries.length - 3}</span>` : '';
+    const page = f.evidence.page_label ? 'p.' + esc(f.evidence.page_label)
+                                       : 'pg ' + (f.evidence.page + 1);
+    return `<tr class="clickable" onclick="showEvidence('${f.id}')"
+              title="${esc(f.metric)}">
+      <td><div class="clamp2">${esc(f.metric)}</div></td>
       <td class="num">${esc(qy.raw ?? f.state ?? '')}</td>
-      <td class="small muted">${esc(qy.unit_raw ?? qy.canonical_unit ?? '')}</td>
-      <td class="small">${esc(f.period?.label ?? '')}</td>
-      <td>${dims}</td>
-      <td class="small muted">${esc(f.evidence.doc_title || f.evidence.doc_id)}
-        · ${f.evidence.page_label ? 'p.' + esc(f.evidence.page_label) : 'pg ' + (f.evidence.page + 1)}</td>
+      <td class="small muted"><div class="clamp2">${esc(qy.unit_raw ?? qy.canonical_unit ?? '')}</div></td>
+      <td class="small"><div class="clamp2">${esc(f.period?.label ?? '')}</div></td>
+      <td><div class="chiprow">${shown}${more}</div></td>
+      <td class="small muted"><div class="clamp2">${esc(f.evidence.doc_title || f.evidence.doc_id)} · ${page}</div></td>
       <td class="num">${f.confidence}</td></tr>`;
   }).join('');
 }

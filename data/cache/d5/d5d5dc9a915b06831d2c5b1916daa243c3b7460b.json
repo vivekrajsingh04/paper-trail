@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A is a percentage margin (Adjusted EBITDA margin) while Metric B is an absolute currency value (EBITDA)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A is a percentage margin (Adjusted EBITDA margin) while Metric B is an absolute currency value (EBITDA).\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure global market share for completely different subjects: India in the apparel market versus Personal, Cultural, & Recreational services globally."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure global market share for completely different subjects: India in the apparel market versus Personal, Cultural, & Recreational services globally.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

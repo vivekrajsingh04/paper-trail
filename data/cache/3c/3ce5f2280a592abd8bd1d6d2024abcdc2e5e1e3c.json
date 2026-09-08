@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the export growth rate of drugs and pharmaceuticals, while Fact B measures the sales growth rate of passenger vehicles, representing entirely different economic subjects and metrics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the export growth rate of drugs and pharmaceuticals, while Fact B measures the sales growth rate of passenger vehicles, representing entirely different economic subjects and metrics.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

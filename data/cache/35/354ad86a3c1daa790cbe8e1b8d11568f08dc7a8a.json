@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the share of specific vegetables (tomato, onion, and potato) in the overall CPI basket, whereas Metric B measures the weight of Cereals in the CPI-Food and Beverages sub-index."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the share of specific vegetables (tomato, onion, and potato) in the overall CPI basket, whereas Metric B measures the weight of Cereals in the CPI-Food and Beverages sub-index.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

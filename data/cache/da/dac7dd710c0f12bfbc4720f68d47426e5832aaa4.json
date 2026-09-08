@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "General government debt and public debt as a percentage of GDP are used interchangeably to measure the total indebtedness of the government."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"General government debt and public debt as a percentage of GDP are used interchangeably to measure the total indebtedness of the government.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

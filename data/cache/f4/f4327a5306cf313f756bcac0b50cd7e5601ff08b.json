@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "GDP per capita measures economic output per person in currency units, whereas real GDP growth measures the annual percentage rate of change in total economic output."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"GDP per capita measures economic output per person in currency units, whereas real GDP growth measures the annual percentage rate of change in total economic output.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

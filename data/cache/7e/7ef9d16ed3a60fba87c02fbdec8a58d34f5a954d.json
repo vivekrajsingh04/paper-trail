@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross FDI inflows YoY growth measures percentage change in foreign direct investment, whereas net capital inflows measure the absolute net value of all capital entering the country in USD billion."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross FDI inflows YoY growth measures percentage change in foreign direct investment, whereas net capital inflows measure the absolute net value of all capital entering the country in USD billion.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

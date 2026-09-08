@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "A",
+  "reason": "Private consumption is a major component of GDP, making private consumption growth a component of overall GDP growth."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Private consumption is a major component of GDP, making private consumption growth a component of overall GDP growth.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

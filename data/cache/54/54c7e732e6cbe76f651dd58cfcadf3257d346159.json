@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "B",
+  "reason": "Engineering goods are a specific component of India's broader non-petroleum and non-gems and jewellery exports basket."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Engineering goods are a specific component of India's broader non-petroleum and non-gems and jewellery exports basket.\"\n}",
+ "model": "gemini-3.8-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

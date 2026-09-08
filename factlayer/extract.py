@@ -473,6 +473,20 @@ def extract_batch(
     return kept
 
 
+# Qualifier keys that restate information the quantity already carries. A
+# document-level "currency: inr, scale: millions" gets merged onto every fact,
+# including counts of PIN codes -- where it is simply false, and where it pads
+# the dimension vector with agreement that means nothing. The unit is parsed
+# per fact and compared as a unit; it does not also need to be a dimension.
+_UNIT_ECHO_KEYS = {"currency", "scale", "unit", "units", "denomination", "magnitude"}
+
+
+def _drop_redundant_qualifiers(quals: dict[str, str], quantity) -> dict[str, str]:
+    if quantity is None or quantity.canonical_unit is None:
+        return quals
+    return {k: v for k, v in quals.items() if k.lower() not in _UNIT_ECHO_KEYS}
+
+
 def _assemble_fact(doc, profile, page, rf, span, model):
     """Build a verified Fact, or a marker explaining why it could not be built."""
     cs, ce = span
@@ -508,6 +522,7 @@ def _assemble_fact(doc, profile, page, rf, span, model):
         qualifiers = {}
     merged = {str(k): str(v) for k, v in profile.default_qualifiers.items()}
     merged.update({str(k): str(v) for k, v in qualifiers.items() if v is not None})
+    merged = _drop_redundant_qualifiers(merged, quantity)
 
     return Fact(
         kind=kind,

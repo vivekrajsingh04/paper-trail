@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Government Final Consumption Expenditure (GFCE) growth and real Gross Value Added (GVA) growth measure two distinct macroeconomic aggregates."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Government Final Consumption Expenditure (GFCE) growth and real Gross Value Added (GVA) growth measure two distinct macroeconomic aggregates.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

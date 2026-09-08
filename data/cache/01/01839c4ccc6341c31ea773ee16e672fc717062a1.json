@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "B",
+  "reason": "Wheat price inflation is a specific component of the broader Wholesale Price Index (WPI) inflation."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Wheat price inflation is a specific component of the broader Wholesale Price Index (WPI) inflation.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

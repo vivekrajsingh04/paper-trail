@@ -249,41 +249,72 @@ def page_image(doc_id: str, page: int, dpi: int = Query(130, ge=50, le=300)) -> 
 # The four required cases, selected automatically
 # --------------------------------------------------------------------------
 
+def _example_quality(rel: dict) -> float:
+    """How good an *illustration* a relation is, as distinct from how important.
+
+    Salience ranks relations for review: a shaky contradiction still deserves a
+    human's attention. Choosing a worked example is the opposite problem -- a
+    pair is only illustrative if a reader can check it themselves, so this
+    rewards the things that make a verdict legible and penalises the things
+    that make it arguable.
+    """
+    r = rel.get("reasoning") or {}
+    dims = r.get("dimensions") or {}
+    left, right = r.get("left") or {}, r.get("right") or {}
+    vals = r.get("values") or {}
+
+    score = float(rel.get("confidence") or 0)
+    if rel.get("cross_document"):
+        score += 0.6                      # the whole point is linking documents
+    # Dimensions specified on only one side mean we may simply not know.
+    score -= 0.22 * len(dims.get("unspecified") or [])
+    score += 0.05 * len(dims.get("agree") or [])
+    # A verdict resting on many simultaneous differences is hard to narrate.
+    conflicts = dims.get("conflict") or []
+    if len(conflicts) > 1:
+        score -= 0.3 * (len(conflicts) - 1)
+    # An example is clearer when both sides name a period explicitly.
+    if left.get("period") and right.get("period"):
+        score += 0.25
+    # Prefer pairs whose metric names differ in wording: that is the
+    # interesting case, and the trivial one proves less.
+    if left.get("metric") and right.get("metric") and left["metric"] != right["metric"]:
+        score += 0.2
+    # A visible gap reads better than one buried in the eighth decimal.
+    gap = vals.get("relative_gap")
+    if gap is not None and rel.get("verdict") != "corroborates" and gap > 0.005:
+        score += 0.15
+    return score
+
+
 @app.get("/api/cases")
 def cases() -> dict:
-    """Pick the strongest live example of each case the brief asks for.
+    """Pick the clearest live example of each case the brief asks for.
 
-    Selected by query against whatever is currently stored, not curated by
-    hand -- so the demo reflects a real run, and re-running on new documents
-    surfaces that corpus's own examples.
+    Selected by querying whatever is currently stored -- not curated by hand --
+    so the page reflects a real run, and a different corpus surfaces its own
+    examples. Ranking is by illustrative quality rather than salience; see
+    `_example_quality`.
     """
     s = store()
 
-    def top(verdict: str, cross: bool | None, **kw) -> dict | None:
-        rows = s.list_relations(verdict=verdict, cross_document=cross, limit=1, **kw)
-        return rows[0] if rows else None
+    def best(verdict: str, exclude_dims: set[str] | None = None) -> dict | None:
+        rows = s.list_relations(verdict=verdict, limit=300, min_confidence=0.3)
+        if exclude_dims:
+            filtered = [r for r in rows if r.get("explained_by") not in exclude_dims]
+            rows = filtered or rows
+        cross = [r for r in rows if r.get("cross_document")]
+        pool = cross or rows
+        return max(pool, key=_example_quality) if pool else None
 
-    corroborated = (top("corroborates", True, min_confidence=0.5)
-                    or top("corroborates", None, min_confidence=0.5))
-    contradiction = (top("contradicts", True, min_confidence=0.4)
-                     or top("contradicts", None, min_confidence=0.4))
-
-    # For the reconciled case prefer one explained by a dimension other than
-    # period: a period difference is the least surprising kind of explanation.
-    reconciled = None
-    for r in s.list_relations(verdict="reconciled", limit=120, min_confidence=0.3):
-        if r.get("explained_by") and r["explained_by"] != "period":
-            reconciled = r
-            break
-    reconciled = reconciled or top("reconciled", None)
-
-    diagnostics = s.get_meta("diagnostics", {}) or {}
-
+    # For the reconciled case, prefer an explanation that is not merely a
+    # period difference: "these cover different years" is the least surprising
+    # thing a document can say.
     return {
-        "corroboration": corroborated,
-        "contradiction": contradiction,
-        "reconciled": reconciled,
-        "failure": diagnostics.get("headline_failure"),
+        "corroboration": best("corroborates"),
+        "contradiction": best("contradicts"),
+        "reconciled": best("reconciled", exclude_dims={"period"}),
+        "failure": (s.get_meta("diagnostics", {}) or {}).get("headline_failure"),
         "note": (
             "Selected by query from the current knowledge layer, not hard-coded. "
             "Re-running on a different corpus yields that corpus's own examples."

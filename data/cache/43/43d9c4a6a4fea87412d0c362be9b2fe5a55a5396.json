@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Core inflation measures inflation excluding food and fuel, whereas WPI inflation measures inflation based on the wholesale price index which includes commodities like food and fuel."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Core inflation measures inflation excluding food and fuel, whereas WPI inflation measures inflation based on the wholesale price index which includes commodities like food and fuel.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

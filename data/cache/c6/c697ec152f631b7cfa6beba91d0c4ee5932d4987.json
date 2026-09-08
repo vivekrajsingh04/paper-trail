@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures India's share in the global apparel market, whereas Metric B measures India's share in the world's Other Business Services sector, representing entirely different economic domains."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures India's share in the global apparel market, whereas Metric B measures India's share in the world's Other Business Services sector, representing entirely different economic domains.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

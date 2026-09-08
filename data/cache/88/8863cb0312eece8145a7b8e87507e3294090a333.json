@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "B",
+  "reason": "Proforma Consolidated Goodwill represents a broader, adjusted group-level metric compared to standard Goodwill."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Proforma Consolidated Goodwill represents a broader, adjusted group-level metric compared to standard Goodwill.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

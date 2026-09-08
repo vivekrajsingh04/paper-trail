@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Capital expenditure as a percent of GDP and current account deficit as a percent of GDP are distinct macroeconomic indicators measuring entirely different financial flows."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Capital expenditure as a percent of GDP and current account deficit as a percent of GDP are distinct macroeconomic indicators measuring entirely different financial flows.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

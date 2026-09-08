@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Nominal GDP growth measures the total economic output growth, whereas private consumption growth measures only the growth in household consumption, making them different macroeconomic metrics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Nominal GDP growth measures the total economic output growth, whereas private consumption growth measures only the growth in household consumption, making them different macroeconomic metrics.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

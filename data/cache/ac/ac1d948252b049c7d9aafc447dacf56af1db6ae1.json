@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": null,
+  "reason": "Revenue from contracts with customers represents the total revenue from operations, of which revenue from services is the primary component."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": null,\n  \"reason\": \"Revenue from contracts with customers represents the total revenue from operations, of which revenue from services is the primary component.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

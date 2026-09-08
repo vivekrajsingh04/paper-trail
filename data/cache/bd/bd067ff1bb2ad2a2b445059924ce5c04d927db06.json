@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Bank credit growth and money supply (M3) growth measure two entirely different macroeconomic aggregates and are not directly comparable."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Bank credit growth and money supply (M3) growth measure two entirely different macroeconomic aggregates and are not directly comparable.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

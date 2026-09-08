@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the export share of finished non-apparel goods specifically within India's textile exports, whereas Fact B measures the overall growth rate of general merchandise exports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the export share of finished non-apparel goods specifically within India's textile exports, whereas Fact B measures the overall growth rate of general merchandise exports.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

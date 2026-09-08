@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Retail headline inflation (CPI) and wholesale price index (WPI) inflation measure price changes across different baskets of goods at different stages of the economy."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Retail headline inflation (CPI) and wholesale price index (WPI) inflation measure price changes across different baskets of goods at different stages of the economy.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

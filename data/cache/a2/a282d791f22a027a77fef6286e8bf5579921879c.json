@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the export value of finished non-apparel goods in USD, while Fact B measures the percentage share of drugs and pharmaceuticals in total merchandise exports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the export value of finished non-apparel goods in USD, while Fact B measures the percentage share of drugs and pharmaceuticals in total merchandise exports.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

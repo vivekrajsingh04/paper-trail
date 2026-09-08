@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Nominal GDP growth measures the overall economy, whereas Private Final Consumption Expenditure growth measures only household consumption."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Nominal GDP growth measures the overall economy, whereas Private Final Consumption Expenditure growth measures only household consumption.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Merchandise exports growth is a broad aggregate, whereas non-petroleum and non-gems and jewellery exports growth is a specific component of that total."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Merchandise exports growth is a broad aggregate, whereas non-petroleum and non-gems and jewellery exports growth is a specific component of that total.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

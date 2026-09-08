@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Economic growth rate typically refers to real GDP growth, whereas nominal GDP growth includes the effects of inflation and measures different economic phenomena across two entirely different countries."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Economic growth rate typically refers to real GDP growth, whereas nominal GDP growth includes the effects of inflation and measures different economic phenomena across two entirely different countries.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

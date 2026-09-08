@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Economic growth rate typically refers to GDP for the Euro area, whereas real GVA growth rate measures Gross Value Added for India, representing different economic regions and metrics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Economic growth rate typically refers to GDP for the Euro area, whereas real GVA growth rate measures Gross Value Added for India, representing different economic regions and metrics.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

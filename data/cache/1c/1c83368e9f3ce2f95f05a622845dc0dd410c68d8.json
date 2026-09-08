@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A is an adjusted R-squared measuring overall model fit, whereas Metric B is a regression coefficient measuring the relationship between specific variables."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A is an adjusted R-squared measuring overall model fit, whereas Metric B is a regression coefficient measuring the relationship between specific variables.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

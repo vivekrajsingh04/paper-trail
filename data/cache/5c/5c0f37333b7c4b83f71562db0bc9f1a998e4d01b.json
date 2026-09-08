@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "CRAR measures a bank's capital adequacy relative to its risk-weighted assets, whereas CRR is the percentage of deposits that banks must keep with the central bank."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"CRAR measures a bank's capital adequacy relative to its risk-weighted assets, whereas CRR is the percentage of deposits that banks must keep with the central bank.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

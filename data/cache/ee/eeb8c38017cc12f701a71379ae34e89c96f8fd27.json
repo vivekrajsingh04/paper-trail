@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the percentage share of engineering goods in total merchandise exports, whereas Fact B measures the total merchandise trade deficit in USD billion."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the percentage share of engineering goods in total merchandise exports, whereas Fact B measures the total merchandise trade deficit in USD billion.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

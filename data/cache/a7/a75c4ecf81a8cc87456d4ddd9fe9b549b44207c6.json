@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Passenger vehicle sales growth measures a specific industry sector, whereas private consumption growth is a broader macroeconomic aggregate covering total household spending in an economy."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Passenger vehicle sales growth measures a specific industry sector, whereas private consumption growth is a broader macroeconomic aggregate covering total household spending in an economy.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

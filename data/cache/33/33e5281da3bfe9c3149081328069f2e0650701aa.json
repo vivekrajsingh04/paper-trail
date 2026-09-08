@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures non-petroleum exports growth for India, while Fact B measures non-tax revenue growth for the Centre, representing completely different economic indicators."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures non-petroleum exports growth for India, while Fact B measures non-tax revenue growth for the Centre, representing completely different economic indicators.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

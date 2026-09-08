@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Consumer prices inflation measures the overall price change across a broad basket of goods and services, whereas Onion price inflation measures the price change for a single specific food item."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Consumer prices inflation measures the overall price change across a broad basket of goods and services, whereas Onion price inflation measures the price change for a single specific food item.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

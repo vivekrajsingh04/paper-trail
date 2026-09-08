@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "A measures export value of finished non-apparel goods from India, whereas B measures export value of mobile phones, representing completely different economic sectors and products."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"A measures export value of finished non-apparel goods from India, whereas B measures export value of mobile phones, representing completely different economic sectors and products.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

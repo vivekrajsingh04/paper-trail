@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Foreign exchange reserves are measured in absolute USD value, whereas Gross Foreign Assets as a percent of GDP represent a completely different macroeconomic indicator and unit of measurement."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Foreign exchange reserves are measured in absolute USD value, whereas Gross Foreign Assets as a percent of GDP represent a completely different macroeconomic indicator and unit of measurement.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

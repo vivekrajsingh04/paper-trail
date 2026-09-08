@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Passenger vehicle sales growth and Private Final Consumption Expenditure (PFCE) growth measure completely different economic indicators."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Passenger vehicle sales growth and Private Final Consumption Expenditure (PFCE) growth measure completely different economic indicators.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

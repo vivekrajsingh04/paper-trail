@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Food inflation (CFPI) measures the overall change in consumer food prices, whereas inflation in milk and products is restricted to a single specific sub-category."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Food inflation (CFPI) measures the overall change in consumer food prices, whereas inflation in milk and products is restricted to a single specific sub-category.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "A",
+  "reason": "Mobile phone exports are a specific product component of India's total merchandise exports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Mobile phone exports are a specific product component of India's total merchandise exports.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

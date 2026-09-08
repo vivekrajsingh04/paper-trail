@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Nominal GDP growth includes inflation and taxes minus subsidies, whereas real GVA growth at basic prices measures output at constant prices excluding taxes on products."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Nominal GDP growth includes inflation and taxes minus subsidies, whereas real GVA growth at basic prices measures output at constant prices excluding taxes on products.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

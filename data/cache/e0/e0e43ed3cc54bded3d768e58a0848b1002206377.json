@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "GDP deflator inflation measures the rate of price change of goods and services produced, whereas GDP growth at constant prices measures the percentage change in the physical volume of economic output."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"GDP deflator inflation measures the rate of price change of goods and services produced, whereas GDP growth at constant prices measures the percentage change in the physical volume of economic output.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

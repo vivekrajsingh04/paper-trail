@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "General Government revenue as a percentage of GDP measures a macroeconomic aggregate, whereas Delhivery Limited revenue from contracts with customers in ₹ million measures the specific corporate revenue of a single company."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"General Government revenue as a percentage of GDP measures a macroeconomic aggregate, whereas Delhivery Limited revenue from contracts with customers in ₹ million measures the specific corporate revenue of a single company.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

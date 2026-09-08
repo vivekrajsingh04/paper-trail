@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Non-petroleum exports growth and Private Final Consumption Expenditure (PFCE) growth measure entirely different components of the economy (trade versus domestic consumption)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Non-petroleum exports growth and Private Final Consumption Expenditure (PFCE) growth measure entirely different components of the economy (trade versus domestic consumption).\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

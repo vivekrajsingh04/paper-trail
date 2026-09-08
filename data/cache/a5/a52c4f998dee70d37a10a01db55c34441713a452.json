@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the R-squared for the GII Overall Score regression, while Metric B measures the regression standard error for a specific component (GII Creative Outputs Score) on a different variable."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the R-squared for the GII Overall Score regression, while Metric B measures the regression standard error for a specific component (GII Creative Outputs Score) on a different variable.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

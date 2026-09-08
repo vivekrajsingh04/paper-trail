@@ -1,0 +1,14 @@
+{
+ "data": [
+  {
+   "same_metric": false,
+   "relationship": "different",
+   "which_broader": null,
+   "reason": "Metric A measures health insurance coverage percentage, whereas Metric B measures the turnover rate."
+  }
+ ],
+ "raw": "[\n  {\n    \"same_metric\": false,\n    \"relationship\": \"different\",\n    \"which_broader\": null,\n    \"reason\": \"Metric A measures health insurance coverage percentage, whereas Metric B measures the turnover rate.\"\n  }\n]",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

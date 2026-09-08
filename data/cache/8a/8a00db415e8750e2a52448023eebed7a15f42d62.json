@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Headline inflation covers the entire basket of goods and services, whereas clothing and footwear inflation measures only a specific sub-sector."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Headline inflation covers the entire basket of goods and services, whereas clothing and footwear inflation measures only a specific sub-sector.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

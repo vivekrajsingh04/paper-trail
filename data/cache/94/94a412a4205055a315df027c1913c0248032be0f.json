@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Authorised share capital represents the maximum capital a company is permitted to issue, whereas issued, subscribed and paid-up share capital represents the capital actually issued to and paid for by shareholders."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Authorised share capital represents the maximum capital a company is permitted to issue, whereas issued, subscribed and paid-up share capital represents the capital actually issued to and paid for by shareholders.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

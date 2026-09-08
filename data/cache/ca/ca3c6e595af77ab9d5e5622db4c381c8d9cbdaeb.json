@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the gross fiscal deficit of the Union government as a percentage of GDP, whereas Fact B measures the net capital inflow from the rest of the world to GDP ratio."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the gross fiscal deficit of the Union government as a percentage of GDP, whereas Fact B measures the net capital inflow from the rest of the world to GDP ratio.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

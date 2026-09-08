@@ -33,6 +33,13 @@ from .prompts import METRIC_MATCH_PROMPT
 
 ALIAS_PATH = Path("data/metric_aliases.json")
 
+# The comparison engine never needs the embedding vectors themselves, only the
+# pairwise scores above threshold. Those are a few thousand numbers rather than
+# 21MB of float arrays, so they are what gets committed: a reviewer with no API
+# key still gets the semantic candidate set, and the raw vectors stay a
+# regenerable local cache.
+SEM_PATH = Path("data/semantic_pairs.json")
+
 # Words that carry no discriminating power in a metric name.
 _STOP = {
     "the", "a", "an", "of", "for", "in", "on", "at", "to", "and", "as",
@@ -107,6 +114,28 @@ class MetricResolver:
         self._lock = threading.Lock()
         self._load()
 
+    def _load_semantic_cache(self) -> int:
+        if not SEM_PATH.exists():
+            return 0
+        try:
+            raw = json.loads(SEM_PATH.read_text())
+        except json.JSONDecodeError:
+            return 0
+        n = 0
+        for key, score in raw.items():
+            a, _, b = key.partition("\x1f")
+            if a and b:
+                self._sem[(a, b) if a < b else (b, a)] = float(score)
+                n += 1
+        return n
+
+    def _save_semantic_cache(self) -> None:
+        SEM_PATH.parent.mkdir(parents=True, exist_ok=True)
+        SEM_PATH.write_text(json.dumps(
+            {f"{a}\x1f{b}": round(v, 4) for (a, b), v in sorted(self._sem.items())},
+            indent=0,
+        ))
+
     def index_metrics(self, metrics: list[str]) -> dict:
         """Precompute semantic neighbours for the corpus's metric vocabulary.
 
@@ -117,15 +146,23 @@ class MetricResolver:
         from . import embed as _embed
 
         keys = [normalise_metric(m) for m in metrics if m]
+        with self._lock:
+            restored = self._load_semantic_cache()
+
         pairs = semantic_pairs(keys, threshold=self.semantic_threshold)
         with self._lock:
             for a, b, score in pairs:
                 self._sem[(a, b) if a < b else (b, a)] = score
-            self._sem_ready = bool(pairs)
+            self._sem_ready = bool(self._sem)
+            if pairs:
+                self._save_semantic_cache()
+
         return {
             "unique_metrics": len(set(keys)),
-            "semantic_pairs": len(pairs),
-            "embeddings_available": self._sem_ready,
+            "semantic_pairs": len(self._sem),
+            "computed_now": len(pairs),
+            "restored_from_cache": restored,
+            "embeddings_available": bool(pairs),
             "embeddings_error": _embed.LAST_ERROR,
         }
 

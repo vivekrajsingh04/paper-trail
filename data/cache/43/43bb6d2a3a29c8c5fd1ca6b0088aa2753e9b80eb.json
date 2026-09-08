@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Agriculture growth rate measures the economic expansion of the agricultural sector, whereas Gross Fixed Capital Formation (GFCF) growth measures investment in fixed assets across the economy."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Agriculture growth rate measures the economic expansion of the agricultural sector, whereas Gross Fixed Capital Formation (GFCF) growth measures investment in fixed assets across the economy.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

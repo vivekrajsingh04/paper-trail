@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Total Assets is a balance sheet metric representing resources owned, whereas Loss before exceptional item and tax is an income statement metric representing financial performance."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Total Assets is a balance sheet metric representing resources owned, whereas Loss before exceptional item and tax is an income statement metric representing financial performance.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

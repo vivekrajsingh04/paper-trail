@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Electronic goods imports represent a specific category, whereas non-oil, non-gold imports constitute a much broader aggregate that includes multiple sectors beyond just electronics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Electronic goods imports represent a specific category, whereas non-oil, non-gold imports constitute a much broader aggregate that includes multiple sectors beyond just electronics.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

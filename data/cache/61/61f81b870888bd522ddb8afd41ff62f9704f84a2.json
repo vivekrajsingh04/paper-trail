@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Economic growth projection for a broad group of countries (EMDEs) measures real output growth differently and for a different entity than nominal GDP growth for a specific country (India)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Economic growth projection for a broad group of countries (EMDEs) measures real output growth differently and for a different entity than nominal GDP growth for a specific country (India).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

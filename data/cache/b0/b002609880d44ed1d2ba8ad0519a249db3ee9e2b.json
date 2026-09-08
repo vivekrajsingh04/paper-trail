@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Retention rate and turnover rate measure opposite workforce dynamics (staying vs. leaving) and apply to different demographic groups (total permanent employees versus male permanent workers)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Retention rate and turnover rate measure opposite workforce dynamics (staying vs. leaving) and apply to different demographic groups (total permanent employees versus male permanent workers).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

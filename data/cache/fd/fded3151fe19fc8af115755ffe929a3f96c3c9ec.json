@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Authorised share capital and issued, subscribed and paid-up share capital represent different financial concepts and are denominated in different currencies for different entities."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Authorised share capital and issued, subscribed and paid-up share capital represent different financial concepts and are denominated in different currencies for different entities.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

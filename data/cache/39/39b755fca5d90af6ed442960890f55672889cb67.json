@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Mean CPI headline inflation and WPI inflation measure price changes in different indices (Consumer Price Index vs. Wholesale Price Index)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Mean CPI headline inflation and WPI inflation measure price changes in different indices (Consumer Price Index vs. Wholesale Price Index).\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

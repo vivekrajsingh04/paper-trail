@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the absolute export value of a specific sub-category (finished non-apparel goods), whereas Metric B measures the percentage growth rate of total merchandise exports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the absolute export value of a specific sub-category (finished non-apparel goods), whereas Metric B measures the percentage growth rate of total merchandise exports.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

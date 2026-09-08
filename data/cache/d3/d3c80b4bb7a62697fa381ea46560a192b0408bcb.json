@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "GDP deflator inflation measures the rate of price change in the economy, whereas Nominal GDP growth measures the total economic output growth unadjusted for inflation."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"GDP deflator inflation measures the rate of price change in the economy, whereas Nominal GDP growth measures the total economic output growth unadjusted for inflation.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

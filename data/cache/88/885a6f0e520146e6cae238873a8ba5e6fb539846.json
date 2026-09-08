@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Non-current operating assets within India specifically restricted to a geographic region are not the same as total consolidated non-current assets for the entire entity."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Non-current operating assets within India specifically restricted to a geographic region are not the same as total consolidated non-current assets for the entire entity.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

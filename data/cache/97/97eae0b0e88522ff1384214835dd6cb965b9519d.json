@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Apparel export share measures the proportion of apparel within a specific export basket, whereas textile exports growth measures the year-over-year percentage increase in textile exports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Apparel export share measures the proportion of apparel within a specific export basket, whereas textile exports growth measures the year-over-year percentage increase in textile exports.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A represents total employee benefits expense for the entire company, whereas Metric B represents short-term employee benefits specifically for a single Key Managerial Personnel."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A represents total employee benefits expense for the entire company, whereas Metric B represents short-term employee benefits specifically for a single Key Managerial Personnel.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

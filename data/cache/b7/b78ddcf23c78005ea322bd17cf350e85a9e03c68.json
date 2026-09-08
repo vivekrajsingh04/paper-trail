@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the growth rate of agricultural exports, whereas Fact B measures the growth rate of global services imports, which involve completely different economic sectors and trade categories."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the growth rate of agricultural exports, whereas Fact B measures the growth rate of global services imports, which involve completely different economic sectors and trade categories.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

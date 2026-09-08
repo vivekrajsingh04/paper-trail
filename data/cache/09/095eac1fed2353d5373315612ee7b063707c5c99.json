@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the year-over-year growth of non-petroleum and non-gems and jewellery exports for India, whereas Metric B measures the cumulative year-over-year growth rate specifically for rice exports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the year-over-year growth of non-petroleum and non-gems and jewellery exports for India, whereas Metric B measures the cumulative year-over-year growth rate specifically for rice exports.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

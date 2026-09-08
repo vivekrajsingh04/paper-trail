@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "B",
+  "reason": "Metric A measures the specific apparel export value, whereas Metric B measures the broader merchandise exports value, making apparel a component of total merchandise exports."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Metric A measures the specific apparel export value, whereas Metric B measures the broader merchandise exports value, making apparel a component of total merchandise exports.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

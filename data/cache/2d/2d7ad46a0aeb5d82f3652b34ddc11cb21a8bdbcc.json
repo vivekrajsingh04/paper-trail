@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Consumer prices inflation measures the overall price change across a broad basket of consumer goods and services in India, whereas wheat prices inflation measures the price change specifically for wheat."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Consumer prices inflation measures the overall price change across a broad basket of consumer goods and services in India, whereas wheat prices inflation measures the price change specifically for wheat.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

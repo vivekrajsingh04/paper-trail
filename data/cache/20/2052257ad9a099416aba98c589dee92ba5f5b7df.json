@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Total current liabilities represents obligations owed by the company, whereas Loss before exceptional item and tax is a measure of financial performance from the statement of profit and loss."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Total current liabilities represents obligations owed by the company, whereas Loss before exceptional item and tax is a measure of financial performance from the statement of profit and loss.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

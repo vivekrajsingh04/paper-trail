@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Goodwill arising on the acquisition of a specific private subsidiary is a different financial metric and entity-scope compared to proforma consolidated goodwill for the parent group."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Goodwill arising on the acquisition of a specific private subsidiary is a different financial metric and entity-scope compared to proforma consolidated goodwill for the parent group.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

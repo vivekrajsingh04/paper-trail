@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "A",
+  "reason": "Gross Fixed Capital Formation (GFCF) is a component of Gross Domestic Product (GDP)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Gross Fixed Capital Formation (GFCF) is a component of Gross Domestic Product (GDP).\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross FDI inflows measure foreign direct investment, whereas Gross Fixed Capital Formation (GFCF) measures domestic capital investment in fixed assets."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross FDI inflows measure foreign direct investment, whereas Gross Fixed Capital Formation (GFCF) measures domestic capital investment in fixed assets.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "B",
+  "reason": "Fixed annual remuneration is a specific component of the broader salary and employee benefits category."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"B\",\n  \"reason\": \"Fixed annual remuneration is a specific component of the broader salary and employee benefits category.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

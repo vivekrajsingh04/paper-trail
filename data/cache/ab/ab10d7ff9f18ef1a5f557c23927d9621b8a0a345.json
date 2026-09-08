@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "A",
+  "reason": "Gross Fixed Capital Formation encompasses economy-wide investment across all sectors, whereas Union government capex represents only the central government's portion of capital spending."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Gross Fixed Capital Formation encompasses economy-wide investment across all sectors, whereas Union government capex represents only the central government's portion of capital spending.\"\n}",
+ "model": "gemini-3.8-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

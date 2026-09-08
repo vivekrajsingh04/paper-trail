@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures year-over-year percentage growth of gross foreign direct investment (FDI) inflows, while Metric B measures the absolute net foreign portfolio investment (FPI) inflows in USD billions."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures year-over-year percentage growth of gross foreign direct investment (FDI) inflows, while Metric B measures the absolute net foreign portfolio investment (FPI) inflows in USD billions.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

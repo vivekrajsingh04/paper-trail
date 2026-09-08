@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Agriculture growth rate measures economic output increase in the agricultural sector, whereas decline in preferential tariffs measures trade policy changes."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Agriculture growth rate measures economic output increase in the agricultural sector, whereas decline in preferential tariffs measures trade policy changes.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

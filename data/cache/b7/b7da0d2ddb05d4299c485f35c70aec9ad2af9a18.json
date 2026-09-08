@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures the export contribution to total turnover for a specific company (Delhivery Limited), while Metric B measures the export share for raw and semi-finished materials across the India textile industry."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures the export contribution to total turnover for a specific company (Delhivery Limited), while Metric B measures the export share for raw and semi-finished materials across the India textile industry.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

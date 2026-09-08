@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Global economic growth covers the entire world economy, whereas real GDP growth is specific to India."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Global economic growth covers the entire world economy, whereas real GDP growth is specific to India.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

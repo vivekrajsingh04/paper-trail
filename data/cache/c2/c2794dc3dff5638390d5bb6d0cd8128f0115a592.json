@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net bank credit growth to the government and real GDP growth are entirely different economic indicators measuring credit expansion and economic output respectively."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net bank credit growth to the government and real GDP growth are entirely different economic indicators measuring credit expansion and economic output respectively.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

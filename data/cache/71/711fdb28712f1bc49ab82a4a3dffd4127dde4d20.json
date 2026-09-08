@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Gross Fixed Capital Formation (GFCF) growth measures investment demand, whereas real GVA growth measures total economic output on the supply side."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Gross Fixed Capital Formation (GFCF) growth measures investment demand, whereas real GVA growth measures total economic output on the supply side.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A measures disbursed incentives as a share of GDP, while Metric B measures Private Final Consumption Expenditure (PFCE) as a share of real GDP, representing two entirely different economic indicators."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A measures disbursed incentives as a share of GDP, while Metric B measures Private Final Consumption Expenditure (PFCE) as a share of real GDP, representing two entirely different economic indicators.\"\n}",
+ "model": "gemini-flash-lite-latest",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

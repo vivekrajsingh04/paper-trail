@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Economic growth rate typically refers to real GDP growth, which is adjusted for inflation, whereas nominal GDP growth is not adjusted for inflation."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Economic growth rate typically refers to real GDP growth, which is adjusted for inflation, whereas nominal GDP growth is not adjusted for inflation.\"\n}",
+ "model": "gemini-3.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}
