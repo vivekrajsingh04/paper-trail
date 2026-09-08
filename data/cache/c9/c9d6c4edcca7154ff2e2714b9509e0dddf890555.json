@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics represent different financial concepts (cumulative stock of debt flows versus net periodic inflow) and are denominated in different currencies, making them fundamentally incomparable."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics represent different financial concepts (cumulative stock of debt flows versus net periodic inflow) and are denominated in different currencies, making them fundamentally incomparable.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

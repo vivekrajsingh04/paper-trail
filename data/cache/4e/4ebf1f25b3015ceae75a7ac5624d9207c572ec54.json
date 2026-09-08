@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure fundamentally different concepts: one tracks the total volume of capital inflows in currency, while the other tracks the percentage utilization of a specific investment quota."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure fundamentally different concepts: one tracks the total volume of capital inflows in currency, while the other tracks the percentage utilization of a specific investment quota.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

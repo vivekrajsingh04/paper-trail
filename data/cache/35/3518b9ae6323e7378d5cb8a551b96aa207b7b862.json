@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The INR exchange rate measures the nominal price of one currency in terms of another, while the Real Effective Exchange Rate (REER) is a weighted average of a currency's value relative to a basket of other currencies adjusted for inflation."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The INR exchange rate measures the nominal price of one currency in terms of another, while the Real Effective Exchange Rate (REER) is a weighted average of a currency's value relative to a basket of other currencies adjusted for inflation.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

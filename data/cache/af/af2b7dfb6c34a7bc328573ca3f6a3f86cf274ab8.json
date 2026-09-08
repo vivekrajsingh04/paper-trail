@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure flows into two distinct financial entities, Foreign Portfolio Investors (FPIs) and debt-oriented mutual fund schemes, which represent different segments of the financial market."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure flows into two distinct financial entities, Foreign Portfolio Investors (FPIs) and debt-oriented mutual fund schemes, which represent different segments of the financial market.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

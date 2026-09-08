@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Assets under custody represents a stock value of total holdings, whereas net inflow represents a flow value of the change in holdings over a specific period."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Assets under custody represents a stock value of total holdings, whereas net inflow represents a flow value of the change in holdings over a specific period.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

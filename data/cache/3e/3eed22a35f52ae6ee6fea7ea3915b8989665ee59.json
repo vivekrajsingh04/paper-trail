@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure fundamentally different concepts: one tracks the absolute monetary value of investment flows into a broad debt segment, while the other tracks the percentage share of a specific subset of government securities held by foreign investors."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure fundamentally different concepts: one tracks the absolute monetary value of investment flows into a broad debt segment, while the other tracks the percentage share of a specific subset of government securities held by foreign investors.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

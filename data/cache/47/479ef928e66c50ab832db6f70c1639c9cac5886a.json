@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics describe distinct financial instruments, with one referring to non-resident bank deposits and the other to foreign portfolio investment in specific government bonds."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics describe distinct financial instruments, with one referring to non-resident bank deposits and the other to foreign portfolio investment in specific government bonds.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

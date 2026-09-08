@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Metric A refers to net inflows across all asset classes in India, while Metric B specifically refers to outflows from Indian equities, representing different financial scopes and directions."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Metric A refers to net inflows across all asset classes in India, while Metric B specifically refers to outflows from Indian equities, representing different financial scopes and directions.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

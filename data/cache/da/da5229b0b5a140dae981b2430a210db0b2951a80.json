@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure fundamentally different concepts: one tracks the absolute volume of capital flows in currency units, while the other tracks the percentage utilization of a regulatory investment ceiling."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure fundamentally different concepts: one tracks the absolute volume of capital flows in currency units, while the other tracks the percentage utilization of a regulatory investment ceiling.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

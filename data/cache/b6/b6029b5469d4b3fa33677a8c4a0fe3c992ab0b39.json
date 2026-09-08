@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": true,
+  "relationship": "identical",
+  "which_broader": null,
+  "reason": "Both metrics describe the net flow of foreign portfolio investment into or out of Indian equities measured in US dollars."
+ },
+ "raw": "{\n  \"same_metric\": true,\n  \"relationship\": \"identical\",\n  \"which_broader\": null,\n  \"reason\": \"Both metrics describe the net flow of foreign portfolio investment into or out of Indian equities measured in US dollars.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

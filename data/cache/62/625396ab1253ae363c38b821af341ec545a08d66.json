@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "A",
+  "reason": "Net FPI inflows represent the total investment across all asset classes, whereas net inflows in Indian FAR bonds represent only one specific segment of those total investments."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Net FPI inflows represent the total investment across all asset classes, whereas net inflows in Indian FAR bonds represent only one specific segment of those total investments.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

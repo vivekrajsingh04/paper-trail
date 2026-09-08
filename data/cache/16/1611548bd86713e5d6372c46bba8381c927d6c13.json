@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure different financial instruments (FAR bonds vs. general mutual fund purchases) and involve different subjects (FPIs vs. Mutual funds) with different currency units."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure different financial instruments (FAR bonds vs. general mutual fund purchases) and involve different subjects (FPIs vs. Mutual funds) with different currency units.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

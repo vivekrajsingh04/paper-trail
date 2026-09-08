@@ -1,0 +1,19 @@
+{
+ "data": {
+  "title": "Economic Survey 2024-25",
+  "publisher": "Government of India",
+  "doc_type": "economic survey",
+  "primary_entity": "India",
+  "published": null,
+  "as_of": "December 2024",
+  "default_qualifiers": {
+   "currency": "usd",
+   "reporting_period": "fy25"
+  },
+  "notes": "Figures for FPI inflows are in USD billion unless otherwise specified. Debt segment flows are reported in INR crore. REER/NEER indices use a 2015-16 base year."
+ },
+ "raw": "{\n  \"title\": \"Economic Survey 2024-25\",\n  \"publisher\": \"Government of India\",\n  \"doc_type\": \"economic survey\",\n  \"primary_entity\": \"India\",\n  \"published\": null,\n  \"as_of\": \"December 2024\",\n  \"default_qualifiers\": {\n    \"currency\": \"usd\",\n    \"reporting_period\": \"fy25\"\n  },\n  \"notes\": \"Figures for FPI inflows are in USD billion unless otherwise specified. Debt segment flows are reported in INR crore. REER/NEER indices use a 2015-16 base year.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "profile:demo-upload-economic-survey-3pages-09985d03"
+}

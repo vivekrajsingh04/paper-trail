@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The Real Effective Exchange Rate measures currency value relative to a basket of currencies, whereas the real policy rate measures the interest rate adjusted for inflation."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The Real Effective Exchange Rate measures currency value relative to a basket of currencies, whereas the real policy rate measures the interest rate adjusted for inflation.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

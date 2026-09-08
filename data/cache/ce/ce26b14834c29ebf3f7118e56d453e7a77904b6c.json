@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics are expressed in different currencies (USD vs INR) and represent different financial concepts, as net outflow is a balance of flows while net sales is a specific transaction type."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics are expressed in different currencies (USD vs INR) and represent different financial concepts, as net outflow is a balance of flows while net sales is a specific transaction type.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

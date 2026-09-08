@@ -1,0 +1,205 @@
+{
+ "data": {
+  "facts": [
+   {
+    "page": 0,
+    "quote": "net outflow of USD 11.5 billion and 2.5 billion, respectively",
+    "kind": "numeric",
+    "metric": "net FPI outflow from Indian equities",
+    "subject": "FPIs",
+    "value_raw": "11.5",
+    "unit_raw": "USD billion",
+    "period_raw": "October 2024",
+    "qualifiers": {
+     "asset_class": "equity"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 0,
+    "quote": "net outflow of USD 11.5 billion and 2.5 billion, respectively",
+    "kind": "numeric",
+    "metric": "net FPI outflow from Indian equities",
+    "subject": "FPIs",
+    "value_raw": "2.5",
+    "unit_raw": "USD billion",
+    "period_raw": "first half of November 2024",
+    "qualifiers": {
+     "asset_class": "equity"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 0,
+    "quote": "net inflows amounting to USD 3.1 billion in December 2024",
+    "kind": "numeric",
+    "metric": "net FPI inflows",
+    "subject": "FPIs",
+    "value_raw": "3.1",
+    "unit_raw": "USD billion",
+    "period_raw": "December 2024",
+    "qualifiers": {
+     "asset_class": "equity"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 0,
+    "quote": "net FPI inflows97 into India slowed to USD 10.6 billion from April to December 2024",
+    "kind": "numeric",
+    "metric": "cumulative net FPI inflows",
+    "subject": "FPIs",
+    "value_raw": "10.6",
+    "unit_raw": "USD billion",
+    "period_raw": "April to December 2024",
+    "qualifiers": {
+     "scope": "equity and debt"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 0,
+    "quote": "USD 31.7 billion during the same period the previous year",
+    "kind": "numeric",
+    "metric": "cumulative net FPI inflows",
+    "subject": "FPIs",
+    "value_raw": "31.7",
+    "unit_raw": "USD billion",
+    "period_raw": "April to December 2023",
+    "qualifiers": {
+     "scope": "equity and debt"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 1,
+    "quote": "cumulative flows of ₹ 1.1 lakh crore from October 2023 to June 2024",
+    "kind": "numeric",
+    "metric": "cumulative FPI debt flows",
+    "subject": "FPIs",
+    "value_raw": "1.1",
+    "unit_raw": "lakh crore",
+    "period_raw": "October 2023 to June 2024",
+    "qualifiers": {
+     "asset_class": "debt"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 1,
+    "quote": "FPIs invested ₹ 62,431 crore in the debt segment from July to November 2024",
+    "kind": "numeric",
+    "metric": "FPI investment in debt segment",
+    "subject": "FPIs",
+    "value_raw": "62,431",
+    "unit_raw": "crore",
+    "period_raw": "July to November 2024",
+    "qualifiers": {
+     "asset_class": "debt"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 1,
+    "quote": "net inflow of more than USD 3 billion in Indian FAR bonds",
+    "kind": "numeric",
+    "metric": "net inflow in Indian FAR bonds",
+    "subject": "FPIs",
+    "value_raw": "3",
+    "unit_raw": "USD billion",
+    "period_raw": "FY25, as of 15 December 2024",
+    "qualifiers": {
+     "asset_class": "FAR bonds"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 1,
+    "quote": "assets under custody of India FAR bonds standing at USD 28 billion as of 15 December 2024",
+    "kind": "numeric",
+    "metric": "assets under custody of India FAR bonds",
+    "subject": "FPIs",
+    "value_raw": "28",
+    "unit_raw": "USD billion",
+    "period_raw": "as of 15 December 2024",
+    "qualifiers": {
+     "asset_class": "FAR bonds"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 2,
+    "quote": "The Nominal Effective Exchange Rate (NEER) for the INR remained stable in the 90-92 range from April to November 2024",
+    "kind": "numeric",
+    "metric": "Nominal Effective Exchange Rate (NEER)",
+    "subject": "INR",
+    "value_raw": "90-92",
+    "unit_raw": null,
+    "period_raw": "April to November 2024",
+    "qualifiers": {
+     "base_year": "2015-16=100",
+     "basket": "40-Currency"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 2,
+    "quote": "The Real Effective Exchange Rate (REER), which reflects the real purchasing power of the currency, steadily appreciated from 103.2 in April 2024 to 107.2 in December 2024",
+    "kind": "numeric",
+    "metric": "Real Effective Exchange Rate (REER)",
+    "subject": "INR",
+    "value_raw": "103.2",
+    "unit_raw": null,
+    "period_raw": "April 2024",
+    "qualifiers": {
+     "base_year": "2015-16=100",
+     "basket": "40-Currency"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 2,
+    "quote": "The Real Effective Exchange Rate (REER), which reflects the real purchasing power of the currency, steadily appreciated from 103.2 in April 2024 to 107.2 in December 2024",
+    "kind": "numeric",
+    "metric": "Real Effective Exchange Rate (REER)",
+    "subject": "INR",
+    "value_raw": "107.2",
+    "unit_raw": null,
+    "period_raw": "December 2024",
+    "qualifiers": {
+     "base_year": "2015-16=100",
+     "basket": "40-Currency"
+    },
+    "confidence": 1.0
+   },
+   {
+    "page": 2,
+    "quote": "external debt to GDP ratio rose slightly from 18.8 per cent of the GDP at the end of June 2024 to 19.4 per cent at the end of September 2024",
+    "kind": "numeric",
+    "metric": "external debt to GDP ratio",
+    "subject": "India",
+    "value_raw": "18.8",
+    "unit_raw": "%",
+    "period_raw": "end of June 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   },
+   {
+    "page": 2,
+    "quote": "external debt to GDP ratio rose slightly from 18.8 per cent of the GDP at the end of June 2024 to 19.4 per cent at the end of September 2024",
+    "kind": "numeric",
+    "metric": "external debt to GDP ratio",
+    "subject": "India",
+    "value_raw": "19.4",
+    "unit_raw": "%",
+    "period_raw": "end of September 2024",
+    "qualifiers": {},
+    "confidence": 1.0
+   }
+  ]
+ },
+ "raw": "{\n  \"facts\": [\n    {\n      \"page\": 0,\n      \"quote\": \"net outflow of USD 11.5 billion and 2.5 billion, respectively\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net FPI outflow from Indian equities\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"11.5\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"October 2024\",\n      \"qualifiers\": {\n        \"asset_class\": \"equity\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 0,\n      \"quote\": \"net outflow of USD 11.5 billion and 2.5 billion, respectively\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net FPI outflow from Indian equities\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"2.5\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"first half of November 2024\",\n      \"qualifiers\": {\n        \"asset_class\": \"equity\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 0,\n      \"quote\": \"net inflows amounting to USD 3.1 billion in December 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net FPI inflows\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"3.1\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"December 2024\",\n      \"qualifiers\": {\n        \"asset_class\": \"equity\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 0,\n      \"quote\": \"net FPI inflows97 into India slowed to USD 10.6 billion from April to December 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"cumulative net FPI inflows\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"10.6\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"April to December 2024\",\n      \"qualifiers\": {\n        \"scope\": \"equity and debt\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 0,\n      \"quote\": \"USD 31.7 billion during the same period the previous year\",\n      \"kind\": \"numeric\",\n      \"metric\": \"cumulative net FPI inflows\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"31.7\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"April to December 2023\",\n      \"qualifiers\": {\n        \"scope\": \"equity and debt\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 1,\n      \"quote\": \"cumulative flows of ₹ 1.1 lakh crore from October 2023 to June 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"cumulative FPI debt flows\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"1.1\",\n      \"unit_raw\": \"lakh crore\",\n      \"period_raw\": \"October 2023 to June 2024\",\n      \"qualifiers\": {\n        \"asset_class\": \"debt\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 1,\n      \"quote\": \"FPIs invested ₹ 62,431 crore in the debt segment from July to November 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"FPI investment in debt segment\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"62,431\",\n      \"unit_raw\": \"crore\",\n      \"period_raw\": \"July to November 2024\",\n      \"qualifiers\": {\n        \"asset_class\": \"debt\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 1,\n      \"quote\": \"net inflow of more than USD 3 billion in Indian FAR bonds\",\n      \"kind\": \"numeric\",\n      \"metric\": \"net inflow in Indian FAR bonds\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"3\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"FY25, as of 15 December 2024\",\n      \"qualifiers\": {\n        \"asset_class\": \"FAR bonds\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 1,\n      \"quote\": \"assets under custody of India FAR bonds standing at USD 28 billion as of 15 December 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"assets under custody of India FAR bonds\",\n      \"subject\": \"FPIs\",\n      \"value_raw\": \"28\",\n      \"unit_raw\": \"USD billion\",\n      \"period_raw\": \"as of 15 December 2024\",\n      \"qualifiers\": {\n        \"asset_class\": \"FAR bonds\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 2,\n      \"quote\": \"The Nominal Effective Exchange Rate (NEER) for the INR remained stable in the 90-92 range from April to November 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Nominal Effective Exchange Rate (NEER)\",\n      \"subject\": \"INR\",\n      \"value_raw\": \"90-92\",\n      \"unit_raw\": null,\n      \"period_raw\": \"April to November 2024\",\n      \"qualifiers\": {\n        \"base_year\": \"2015-16=100\",\n        \"basket\": \"40-Currency\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 2,\n      \"quote\": \"The Real Effective Exchange Rate (REER), which reflects the real purchasing power of the currency, steadily appreciated from 103.2 in April 2024 to 107.2 in December 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Real Effective Exchange Rate (REER)\",\n      \"subject\": \"INR\",\n      \"value_raw\": \"103.2\",\n      \"unit_raw\": null,\n      \"period_raw\": \"April 2024\",\n      \"qualifiers\": {\n        \"base_year\": \"2015-16=100\",\n        \"basket\": \"40-Currency\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 2,\n      \"quote\": \"The Real Effective Exchange Rate (REER), which reflects the real purchasing power of the currency, steadily appreciated from 103.2 in April 2024 to 107.2 in December 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"Real Effective Exchange Rate (REER)\",\n      \"subject\": \"INR\",\n      \"value_raw\": \"107.2\",\n      \"unit_raw\": null,\n      \"period_raw\": \"December 2024\",\n      \"qualifiers\": {\n        \"base_year\": \"2015-16=100\",\n        \"basket\": \"40-Currency\"\n      },\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 2,\n      \"quote\": \"external debt to GDP ratio rose slightly from 18.8 per cent of the GDP at the end of June 2024 to 19.4 per cent at the end of September 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"external debt to GDP ratio\",\n      \"subject\": \"India\",\n      \"value_raw\": \"18.8\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"end of June 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    },\n    {\n      \"page\": 2,\n      \"quote\": \"external debt to GDP ratio rose slightly from 18.8 per cent of the GDP at the end of June 2024 to 19.4 per cent at the end of September 2024\",\n      \"kind\": \"numeric\",\n      \"metric\": \"external debt to GDP ratio\",\n      \"subject\": \"India\",\n      \"value_raw\": \"19.4\",\n      \"unit_raw\": \"%\",\n      \"period_raw\": \"end of September 2024\",\n      \"qualifiers\": {},\n      \"confidence\": 1.0\n    }\n  ]\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "extract:demo-upload-economic-survey-3pages-09985d03:b0"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "The debt segment is a broader category that includes corporate bonds as well as other debt instruments like government securities."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"The debt segment is a broader category that includes corporate bonds as well as other debt instruments like government securities.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

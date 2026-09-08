@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "component_of",
+  "which_broader": "A",
+  "reason": "Fact A describes cumulative net FPI inflows across all asset classes, while Fact B specifically describes FPI net purchases only in the domestic equity market, making B a component of A."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"component_of\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Fact A describes cumulative net FPI inflows across all asset classes, while Fact B specifically describes FPI net purchases only in the domestic equity market, making B a component of A.\"\n}",
+ "model": "gemini-2.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

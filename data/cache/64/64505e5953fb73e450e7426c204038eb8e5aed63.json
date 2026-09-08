@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Cumulative net FPI inflows represent the total investment across all asset classes, whereas Equity FPI flows represent only the equity component of those investments."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Cumulative net FPI inflows represent the total investment across all asset classes, whereas Equity FPI flows represent only the equity component of those investments.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

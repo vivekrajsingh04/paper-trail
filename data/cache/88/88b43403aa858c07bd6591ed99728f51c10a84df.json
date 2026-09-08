@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure different financial categories, as cumulative net FPI inflows represent the total net investment across all asset classes, while FPI investment in the debt segment is a specific sub-category."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure different financial categories, as cumulative net FPI inflows represent the total net investment across all asset classes, while FPI investment in the debt segment is a specific sub-category.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Cumulative FPI debt flows refer specifically to debt instruments, whereas FPI net purchases in the equity market refer to a distinct asset class."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Cumulative FPI debt flows refer specifically to debt instruments, whereas FPI net purchases in the equity market refer to a distinct asset class.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The Debt Service Ratio measures the proportion of export earnings used to pay debt obligations, whereas the external debt to GDP ratio measures the total stock of external debt relative to the size of the economy."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The Debt Service Ratio measures the proportion of export earnings used to pay debt obligations, whereas the external debt to GDP ratio measures the total stock of external debt relative to the size of the economy.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Cumulative FPI debt flows encompass all debt instruments, whereas investments in corporate bonds represent only a specific subset of the debt market."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Cumulative FPI debt flows encompass all debt instruments, whereas investments in corporate bonds represent only a specific subset of the debt market.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Fact A measures the level of the Nominal Effective Exchange Rate (NEER) for INR, while Fact B measures the appreciation (rate of change) of a 40-currency NEER."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Fact A measures the level of the Nominal Effective Exchange Rate (NEER) for INR, while Fact B measures the appreciation (rate of change) of a 40-currency NEER.\"\n}",
+ "model": "gemini-2.5-flash",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

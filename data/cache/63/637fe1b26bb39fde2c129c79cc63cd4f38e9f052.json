@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "FPI investment in debt instruments refers to the total stock or specific asset class holdings, whereas net FPI inflows refers to the net flow of capital over a specific period."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"FPI investment in debt instruments refers to the total stock or specific asset class holdings, whereas net FPI inflows refers to the net flow of capital over a specific period.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics are expressed in different units (US$ billion vs. crore) and represent different financial concepts, as inflows are a flow metric while investment can represent a net position or cumulative flow."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics are expressed in different units (US$ billion vs. crore) and represent different financial concepts, as inflows are a flow metric while investment can represent a net position or cumulative flow.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

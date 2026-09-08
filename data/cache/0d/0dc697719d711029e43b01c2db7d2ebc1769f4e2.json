@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "NEER and REER are distinct economic indicators measuring different aspects of currency value, with NEER excluding inflation adjustments and REER including them."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"NEER and REER are distinct economic indicators measuring different aspects of currency value, with NEER excluding inflation adjustments and REER including them.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

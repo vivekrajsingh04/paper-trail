@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "External debt is a specific liability category, whereas Gross Foreign Assets represents the total stock of assets held abroad, making them distinct financial metrics."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"External debt is a specific liability category, whereas Gross Foreign Assets represents the total stock of assets held abroad, making them distinct financial metrics.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

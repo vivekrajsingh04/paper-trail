@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The exchange rate measures the value of one currency against another, while the Nominal Effective Exchange Rate (NEER) is a weighted average of a currency's value against a basket of foreign currencies."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The exchange rate measures the value of one currency against another, while the Nominal Effective Exchange Rate (NEER) is a weighted average of a currency's value against a basket of foreign currencies.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

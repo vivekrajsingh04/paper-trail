@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics differ in their temporal nature, with A representing a cumulative total and B representing a periodic flow, and they refer to different subjects (FPIs as an entity type versus India as a geographic market)."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics differ in their temporal nature, with A representing a cumulative total and B representing a periodic flow, and they refer to different subjects (FPIs as an entity type versus India as a geographic market).\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

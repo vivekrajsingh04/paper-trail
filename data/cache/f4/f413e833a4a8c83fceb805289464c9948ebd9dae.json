@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "broader_narrower",
+  "which_broader": "A",
+  "reason": "Net foreign portfolio investment is a broad category that encompasses various asset classes, whereas Indian FAR bonds represent a specific, narrow subset of those investments."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"broader_narrower\",\n  \"which_broader\": \"A\",\n  \"reason\": \"Net foreign portfolio investment is a broad category that encompasses various asset classes, whereas Indian FAR bonds represent a specific, narrow subset of those investments.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

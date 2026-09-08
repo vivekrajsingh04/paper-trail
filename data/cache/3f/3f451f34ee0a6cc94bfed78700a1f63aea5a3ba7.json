@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "External debt to GDP ratio measures a country's total external obligations relative to its economic output, whereas household liabilities as a percentage of GNDI measures the debt burden of the household sector relative to disposable income."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"External debt to GDP ratio measures a country's total external obligations relative to its economic output, whereas household liabilities as a percentage of GNDI measures the debt burden of the household sector relative to disposable income.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}
