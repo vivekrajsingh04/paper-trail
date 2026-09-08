@@ -103,7 +103,7 @@ python evals/run_evals.py --with-db     # plus invariants over the built layer
 
 ## Video demo
 
-Demo: "https://www.loom.com/share/3d60f2951a5b4d6b97896d0fe7498d24/"
+Demo: <https://www.loom.com/share/3d60f2951a5b4d6b97896d0fe7498d24>
 
 A PDF being ingested, then all four required cases — a corroboration across two
 documents, a genuine contradiction, an apparent contradiction explained by a
@@ -449,10 +449,10 @@ is built from whatever the corpus actually contains.
 
 ### Engineering decisions and trade-offs
 
-**The interface is deliberately quiet.** A warm beige ground with cream panels
-— the way a printed report sits on a desk — low-chroma accents,
-a serif for headings and a monospace for every figure and quote — because the
-only thing on screen that should be loud is the data. The one chart that does
+**The interface is deliberately quiet.** A cool, very light blue ground with
+near-white panels, low-chroma accents, a serif for headings and a monospace for
+every figure and quote — because the only thing on screen that should be loud is
+the data. The one chart that does
 argumentative work (the range plot showing whether two implied intervals
 intersect) was built to spec rather than to taste: point estimates with their
 implied ranges on a shared axis, marks under 24px, hairline axes, a legend, and
@@ -464,7 +464,9 @@ The chart colours were *validated, not eyeballed*. The two series clear the
 chroma floor, colour-vision-deficiency separation (ΔE 15.5 protan against a
 target of 8) and the normal-vision floor (ΔE 24.0 against a floor of 15) on the
 panel surface. Every status colour clears WCAG AA for text against all three
-surfaces (ground, panel and inset).
+surfaces, and the muted ink step was darkened from 3.29:1 to 4.63:1 when the
+ground changed, so it actually meets AA as text rather than merely looking like
+it does.
 
 **SQLite over a graph database.** The brief notes that a graph database is not
 the solution, and it is right: the interesting content is the *reasoning
@@ -510,12 +512,15 @@ replaying after the default model changes or a run falls back across several.
 
 ### AI tools used
 
-- **Gemini 2.5 Flash** for the three model-facing jobs: document profiling,
-  fact proposal, and adjudicating whether two metric names match. Provider is
-  pluggable (`FACTLAYER_LLM=gemini|openai|anthropic|replay`); OpenAI and
-  Anthropic paths are implemented.
-- **`text-embedding-004`** for semantic candidate generation between metric
-  names, cached to `data/embeddings.json`.
+- **Gemini Flash** for the three model-facing jobs: document profiling, fact
+  proposal, and adjudicating whether two metric names match. A fallback chain
+  runs across several Flash models, so the corpus was built by whichever had
+  quota at the time. Provider is pluggable
+  (`FACTLAYER_LLM=gemini|openai|anthropic|replay`); OpenAI and Anthropic paths
+  are implemented.
+- **`gemini-embedding-001`** for semantic candidate generation between metric
+  names. The raw vectors are 21 MB and regenerable, so the derived pairwise
+  scores are what ships, in `data/semantic_pairs.json`.
 - **Claude Code (Opus)** as a pair-programmer throughout: designing the
   precision-interval approach, writing the modules and the evaluation set, and
   finding the rate-limit bug above.
