@@ -103,7 +103,7 @@ python evals/run_evals.py --with-db     # plus invariants over the built layer
 
 ## Video demo
 
-Demo: <" https://www.loom.com/share/3d60f2951a5b4d6b97896d0fe7498d24 ">
+Demo: " https://www.loom.com/share/3d60f2951a5b4d6b97896d0fe7498d24 "
 
 A PDF being ingested, then all four required cases — a corroboration across two
 documents, a genuine contradiction, an apparent contradiction explained by a
