@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Foreign Portfolio Investment (FPI) and short-term trade credit are distinct categories of capital flows with different underlying financial instruments and economic drivers."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Foreign Portfolio Investment (FPI) and short-term trade credit are distinct categories of capital flows with different underlying financial instruments and economic drivers.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

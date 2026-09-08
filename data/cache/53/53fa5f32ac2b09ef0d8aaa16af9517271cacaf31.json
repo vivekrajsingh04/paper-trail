@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "FPI debt investment refers to foreign portfolio investment in debt instruments, whereas net inflows of debt-oriented schemes refer to domestic mutual fund investment flows, representing two distinct financial market segments."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"FPI debt investment refers to foreign portfolio investment in debt instruments, whereas net inflows of debt-oriented schemes refer to domestic mutual fund investment flows, representing two distinct financial market segments.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

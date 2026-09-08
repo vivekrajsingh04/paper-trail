@@ -4373,6 +4373,24 @@
   "source": "llm",
   "which_broader": null
  },
+ "cumulative fpi debt flow fpi debt investment": {
+  "lexical": 37.2093023255814,
+  "reason": "The metrics represent cumulative flows over different, non-overlapping time periods, making them distinct measurements rather than the same metric.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8354957103729248,
+  "source": "llm",
+  "which_broader": null
+ },
+ "cumulative fpi debt flow fpi debt segment investment": {
+  "lexical": 31.372549019607842,
+  "reason": "The metrics cover different time periods and represent distinct investment flow calculations, making them non-comparable.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8036105036735535,
+  "source": "llm",
+  "which_broader": null
+ },
  "cumulative fpi debt flow fpi inflow debt segment": {
   "lexical": 42.553191489361694,
   "reason": "The metrics represent different financial concepts (cumulative debt flows vs. periodic inflows) and are denominated in different currencies, making them non-comparable.",
@@ -6449,6 +6467,24 @@
   "relationship": "different",
   "same": false,
   "semantic": 0.7147384285926819,
+  "source": "llm",
+  "which_broader": null
+ },
+ "equity fpi flow fpi debt investment": {
+  "lexical": 35.29411764705882,
+  "reason": "The metrics measure distinct asset classes (equity vs. debt) within foreign portfolio investment and use different currency units.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7503145933151245,
+  "source": "llm",
+  "which_broader": null
+ },
+ "equity fpi flow fpi debt segment investment": {
+  "lexical": 28.57142857142857,
+  "reason": "The metrics measure different asset classes (equity vs. debt) within foreign portfolio investment and use different currency units.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7424886226654053,
   "source": "llm",
   "which_broader": null
  },
@@ -9125,6 +9161,240 @@
   "source": "llm",
   "which_broader": null
  },
+ "fpi debt investment fpi inflow debt segment": {
+  "lexical": 76.19047619047619,
+  "reason": "The metrics are expressed in different currencies (INR vs USD) and represent different financial concepts (investment amount vs net inflows) that cannot be directly compared without conversion and context.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8387046456336975,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt investment fpi investment debt instrument": {
+  "lexical": 77.55102040816327,
+  "reason": "Both metrics refer to the total investment made by Foreign Portfolio Investors in debt instruments, differing only in the scale of the unit used.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.9497867822647095,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt investment fpi net purchase domestic equity market": {
+  "lexical": 41.379310344827594,
+  "reason": "The metrics measure different asset classes (debt vs. equity) and represent different financial activities (investment vs. net purchases).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7111231088638306,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt investment fpi net sale domestic equity market": {
+  "lexical": 44.44444444444444,
+  "reason": "The metrics describe different financial activities, with one focusing on debt investment and the other on net sales in the equity market.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.704412043094635,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt investment investment by fpi corporate bond": {
+  "lexical": 70.58823529411764,
+  "reason": "The metrics refer to different financial scopes, as 'FPI debt investment' covers the entire debt segment while 'Investments by FPIs in Corporate Bonds' is limited to a specific sub-category of debt.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.844778299331665,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt investment net fpi inflow": {
+  "lexical": 48.484848484848484,
+  "reason": "The metrics measure different financial concepts (debt-specific investment versus total net inflows) and use different currencies, making them non-comparable.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7480291724205017,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt investment net fpi outflow": {
+  "lexical": 47.05882352941176,
+  "reason": "The metrics describe different financial instruments (debt vs. equity) and different types of capital movement (investment vs. outflow).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7496792674064636,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt investment net inflow debt oriented scheme": {
+  "lexical": 52.0,
+  "reason": "FPI debt investment refers to foreign portfolio investment in debt instruments, whereas net inflows of debt-oriented schemes refer to domestic mutual fund investment flows, representing two distinct financial market segments.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7068545818328857,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt investment share specified central g sec under fully accessible route held by fpi": {
+  "lexical": 26.96629213483146,
+  "reason": "Metric A measures the absolute monetary value of total FPI debt investment, while Metric B measures the percentage share of a specific subset of government securities held by FPIs.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7366226315498352,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt investment short term debt debt": {
+  "lexical": 46.15384615384615,
+  "reason": "The metrics measure entirely different financial concepts: one tracks the absolute monetary value of foreign portfolio investment in debt, while the other tracks a percentage ratio of debt maturity structure.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7077900767326355,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt investment utilisation approved limit fpi investment corporate bond": {
+  "lexical": 48.0,
+  "reason": "Metric A measures the absolute monetary value of investments in crore, while Metric B measures the percentage utilization of a regulatory investment limit.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7623669505119324,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt investment utilisation limit far fpi investment debt instrument": {
+  "lexical": 53.52112676056338,
+  "reason": "Metric A measures the absolute monetary value of debt investment in crore, while Metric B measures the percentage utilization of a specific regulatory investment limit.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8286424279212952,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt investment utilisation limit general route fpi investment debt instrument": {
+  "lexical": 46.913580246913575,
+  "reason": "Metric A measures the absolute monetary value of debt investment in crore, while Metric B measures the relative utilization rate of a specific investment limit as a percentage.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8222635984420776,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt investment utilisation limit vrr fpi investment debt instrument": {
+  "lexical": 53.52112676056338,
+  "reason": "Metric A measures the absolute monetary value of debt investment in crore, while Metric B measures the percentage utilization of a specific regulatory investment limit.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8014041185379028,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt segment investment fpi inflow debt segment": {
+  "lexical": 76.0,
+  "reason": "The metrics are expressed in different currencies (INR vs USD) and represent different financial concepts, as one refers to the total investment amount while the other refers to net inflows.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.9255166053771973,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt segment investment fpi investment debt instrument": {
+  "lexical": 80.70175438596492,
+  "reason": "Both metrics refer to the same financial activity of FPIs in debt instruments, with the difference in units being a matter of scale rather than a difference in the underlying concept.",
+  "relationship": "identical",
+  "same": true,
+  "semantic": 0.9198772311210632,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt segment investment fpi net purchase domestic equity market": {
+  "lexical": 45.45454545454546,
+  "reason": "The metrics describe different asset classes, with A focusing on the debt segment and B focusing on the equity market.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7584995031356812,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt segment investment fpi net sale domestic equity market": {
+  "lexical": 48.38709677419355,
+  "reason": "The metrics describe different financial activities, specifically debt segment investment versus net equity market sales.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7423332929611206,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt segment investment investment by fpi corporate bond": {
+  "lexical": 61.01694915254237,
+  "reason": "The metrics refer to different financial scopes, as 'debt segment investment' is a broad category while 'Corporate Bonds' is a specific sub-asset class within the debt segment.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8625735640525818,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt segment investment net fpi inflow": {
+  "lexical": 43.90243902439024,
+  "reason": "The metrics measure different financial concepts (debt segment investment versus total net inflows) and use different currencies, making them fundamentally incomparable.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7474925518035889,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt segment investment net fpi outflow": {
+  "lexical": 42.85714285714286,
+  "reason": "The metrics describe different financial activities (debt investment vs. equity outflow) in different currencies and asset classes.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7419257760047913,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt segment investment share specified central g sec under fully accessible route held by fpi": {
+  "lexical": 32.98969072164949,
+  "reason": "The metrics measure fundamentally different quantities: one is an absolute monetary investment value in the debt segment, while the other is a percentage share of a specific subset of government securities.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7815425992012024,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt segment investment utilisation approved limit fpi investment corporate bond": {
+  "lexical": 50.60240963855422,
+  "reason": "Metric A measures the absolute monetary value of investments in the debt segment, while Metric B measures the percentage utilization of a regulatory investment limit.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7878063917160034,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt segment investment utilisation limit far fpi investment debt instrument": {
+  "lexical": 58.22784810126582,
+  "reason": "Metric A measures the absolute monetary value of investments in crore, while Metric B measures the utilization rate as a percentage of a specific regulatory limit.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8229366540908813,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt segment investment utilisation limit general route fpi investment debt instrument": {
+  "lexical": 51.685393258426956,
+  "reason": "Metric A measures the absolute monetary value of investments in crore, while Metric B measures the utilization rate as a percentage of a regulatory limit.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8360731601715088,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi debt segment investment utilisation limit vrr fpi investment debt instrument": {
+  "lexical": 58.22784810126582,
+  "reason": "The metrics measure different concepts: one tracks the absolute monetary value of debt investments in crore, while the other tracks the percentage utilization of a specific regulatory investment limit.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7980241179466248,
+  "source": "llm",
+  "which_broader": null
+ },
  "fpi inflow debt segment fpi investment debt instrument": {
   "lexical": 64.15094339622642,
   "reason": "Although both measure foreign portfolio investment in debt, they are reported in different currencies and magnitudes (US$ billion vs \u20b9 lakh crore) which prevents direct comparability without conversion rates.",
@@ -9266,6 +9536,15 @@
   "relationship": "different",
   "same": false,
   "semantic": 0.7330711483955383,
+  "source": "llm",
+  "which_broader": null
+ },
+ "fpi investment debt instrument net fpi outflow": {
+  "lexical": 40.0,
+  "reason": "The metrics measure different financial activities (investment in debt instruments versus net outflow) and are denominated in different currencies.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7300570011138916,
   "source": "llm",
   "which_broader": null
  },
@@ -11753,6 +12032,24 @@
   "source": "llm",
   "which_broader": null
  },
+ "gross fdi inflow net fpi outflow": {
+  "lexical": 51.61290322580645,
+  "reason": "The metrics measure different types of capital flows (Foreign Direct Investment vs. Foreign Portfolio Investment) involving different subjects.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7326001524925232,
+  "source": "llm",
+  "which_broader": null
+ },
+ "gross fdi inflow net inflow": {
+  "lexical": 46.15384615384615,
+  "reason": "Gross FDI inflows represent foreign direct investment into the economy, while net inflows into Indian FAR bonds represent portfolio investment in specific debt instruments.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7611979842185974,
+  "source": "llm",
+  "which_broader": null
+ },
  "gross fdi inflow net inward fdi": {
   "lexical": 46.666666666666664,
   "reason": "Gross FDI inflows and net inward FDI measure fundamentally different financial flows (total inflows versus net inflows after accounting for outflows).",
@@ -12464,6 +12761,15 @@
   "source": "llm",
   "which_broader": null
  },
+ "gross foreign direct investment inflow net inflow": {
+  "lexical": 41.666666666666664,
+  "reason": "The metrics describe entirely different financial instruments, with one referring to foreign direct investment and the other to Indian Fully Accessible Route (FAR) bonds.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7765307426452637,
+  "source": "llm",
+  "which_broader": null
+ },
  "gross foreign direct investment inflow net inward fdi": {
   "lexical": 38.46153846153846,
   "reason": "Gross foreign direct investment inflows measure total incoming FDI, whereas net inward FDI accounts for both inflows and outflows, making them fundamentally different metrics.",
@@ -12524,6 +12830,15 @@
   "relationship": "different",
   "same": false,
   "semantic": 0.7708887457847595,
+  "source": "llm",
+  "which_broader": null
+ },
+ "gross inflow net inflow": {
+  "lexical": 54.54545454545454,
+  "reason": "The metrics describe different financial instruments (Foreign Direct Investment versus Indian FAR bonds) and different accounting concepts (gross inflows versus net inflows).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8976166844367981,
   "source": "llm",
   "which_broader": null
  },
@@ -14432,6 +14747,15 @@
   "relationship": "different",
   "same": false,
   "semantic": 0.7709521651268005,
+  "source": "llm",
+  "which_broader": null
+ },
+ "investment by fpi corporate bond net fpi outflow": {
+  "lexical": 34.04255319148937,
+  "reason": "The metrics measure different financial activities (total investment holdings versus net outflow) and are denominated in different currencies.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7522427439689636,
   "source": "llm",
   "which_broader": null
  },
@@ -16601,6 +16925,15 @@
   "source": "llm",
   "which_broader": null
  },
+ "net capital inflow net inflow": {
+  "lexical": 71.42857142857143,
+  "reason": "Net capital inflows represent the total balance of capital entering a country, whereas net inflow into Indian FAR bonds is a specific, narrow subset of capital flows.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8640755414962769,
+  "source": "llm",
+  "which_broader": null
+ },
  "net capital inflow net inflow indian far bond": {
   "lexical": 63.63636363636363,
   "reason": "Net capital inflows represent the total balance of capital entering a country, whereas net inflow in Indian FAR bonds is a specific, narrow asset class investment by a particular group (FPIs).",
@@ -16736,6 +17069,15 @@
   "source": "llm",
   "which_broader": null
  },
+ "net cash flow from investing activitie net inflow": {
+  "lexical": 37.5,
+  "reason": "The metrics describe entirely different financial concepts, entities, and currencies.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7048385143280029,
+  "source": "llm",
+  "which_broader": null
+ },
  "net cash flow from investing activitie net portfolio inflow": {
   "lexical": 37.93103448275862,
   "reason": "Metric A measures the company-specific cash flow from investing activities, whereas Metric B measures macroeconomic portfolio inflows across emerging market economies.",
@@ -16844,6 +17186,15 @@
   "source": "llm",
   "which_broader": null
  },
+ "net ecb inflow net inflow": {
+  "lexical": 83.33333333333334,
+  "reason": "Net ECB inflows refer to External Commercial Borrowings, while net inflows into Indian FAR bonds refer to a specific category of government securities, representing two distinct financial instruments.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8451456427574158,
+  "source": "llm",
+  "which_broader": null
+ },
  "net ecb inflow net inflow indian far bond": {
   "lexical": 60.0,
   "reason": "Net ECB inflows refer to external commercial borrowings, while net inflows in Indian FAR bonds refer to a specific category of foreign portfolio investment, representing two distinct financial instruments.",
@@ -16913,6 +17264,15 @@
   "relationship": "different",
   "same": false,
   "semantic": 0.7340602874755859,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net fdi flow net inflow": {
+  "lexical": 81.81818181818181,
+  "reason": "Foreign direct investment and Indian FAR bonds are distinct financial instruments representing different types of capital flows.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.814907431602478,
   "source": "llm",
   "which_broader": null
  },
@@ -17006,6 +17366,15 @@
   "source": "llm",
   "which_broader": null
  },
+ "net fdi net inflow": {
+  "lexical": 58.82352941176471,
+  "reason": "Foreign Direct Investment and Indian FAR bonds represent distinct financial instruments and asset classes.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7742040157318115,
+  "source": "llm",
+  "which_broader": null
+ },
  "net fdi net inflow indian far bond": {
   "lexical": 42.42424242424242,
   "reason": "Foreign Direct Investment (FDI) and Foreign Portfolio Investment (FPI) represent distinct categories of international capital flows with different economic characteristics and regulatory treatments.",
@@ -17069,6 +17438,15 @@
   "source": "llm",
   "which_broader": null
  },
+ "net foreign portfolio investment inflow net inflow": {
+  "lexical": 40.816326530612244,
+  "reason": "Indian FAR bonds are a specific subset of the broader category of foreign portfolio investment.",
+  "relationship": "broader_narrower",
+  "same": false,
+  "semantic": 0.8308215141296387,
+  "source": "llm",
+  "which_broader": "A"
+ },
  "net foreign portfolio investment inflow net inflow indian far bond": {
   "lexical": 46.15384615384615,
   "reason": "Net foreign portfolio investment is a broad category that encompasses various asset classes, whereas Indian FAR bonds represent a specific, narrow subset of those investments.",
@@ -17120,6 +17498,15 @@
   "relationship": "different",
   "same": false,
   "semantic": 0.8107541799545288,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net fpi inflow net inflow": {
+  "lexical": 83.33333333333334,
+  "reason": "Net FPI inflows represent a broad category of foreign portfolio investment, while Indian FAR bonds are a specific, narrow subset of debt instruments that may or may not be fully captured within the broader FPI metric depending on classifica",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8433513045310974,
   "source": "llm",
   "which_broader": null
  },
@@ -17285,6 +17672,24 @@
   "source": "llm",
   "which_broader": null
  },
+ "net fpi outflow net inflow": {
+  "lexical": 48.0,
+  "reason": "The metrics describe different financial instruments (equity segment vs. Indian FAR bonds) and opposite flow directions (outflow vs. inflow).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7675261497497559,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net fpi outflow net inflow debt oriented scheme": {
+  "lexical": 34.78260869565217,
+  "reason": "The metrics track different financial entities (Foreign Portfolio Investors vs. domestic mutual fund schemes) and use different currencies and units.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.707095742225647,
+  "source": "llm",
+  "which_broader": null
+ },
  "net fpi outflow net inflow indian far bond": {
   "lexical": 39.02439024390244,
   "reason": "The metrics describe different asset classes (equity vs. Indian FAR bonds) and opposite flow directions (outflow vs. inflow).",
@@ -17300,6 +17705,15 @@
   "relationship": "different",
   "same": false,
   "semantic": 0.7733370065689087,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net fpi outflow net outflow short term trade credit": {
+  "lexical": 52.0,
+  "reason": "Foreign Portfolio Investment (FPI) and short-term trade credit are distinct categories of capital flows with different underlying financial instruments and economic drivers.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.760266125202179,
   "source": "llm",
   "which_broader": null
  },
@@ -17321,12 +17735,57 @@
   "source": "llm",
   "which_broader": null
  },
+ "net fpi outflow net purchase by mutual fund": {
+  "lexical": 33.333333333333336,
+  "reason": "The metrics describe different financial entities (Foreign Portfolio Investors vs. Mutual Funds) and use different units of measurement.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.719521164894104,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net fpi outflow net sale domestic equity market": {
+  "lexical": 30.434782608695656,
+  "reason": "The metrics are expressed in different currencies (USD vs INR) and represent different financial scopes, as net FPI outflow is a broader capital flow measure while net sales in the domestic equity market is specific to a single asset class.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7304178476333618,
+  "source": "llm",
+  "which_broader": null
+ },
  "net fpi outflow outflow from equity segment": {
   "lexical": 47.61904761904761,
   "reason": "Net FPI outflow accounts for both inflows and outflows, whereas total outflows only measure the gross movement of funds out of the segment.",
   "relationship": "different",
   "same": false,
   "semantic": 0.7712154984474182,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net fpi outflow share g20 emerging market countrie global fdi outflow": {
+  "lexical": 38.23529411764706,
+  "reason": "The metrics measure different financial concepts (FPI outflow vs. FDI share) and involve different subjects and units.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7135361433029175,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net fpi outflow share specified central g sec under fully accessible route held by fpi": {
+  "lexical": 23.529411764705888,
+  "reason": "The metrics measure entirely different economic concepts: one tracks the net flow of capital (outflow), while the other tracks the percentage of a specific asset class held by a group.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7126860618591309,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net fpi outflow utilisation approved limit fpi investment corporate bond": {
+  "lexical": 33.80281690140845,
+  "reason": "The metrics measure entirely different aspects of FPI activity, with one tracking net capital flow in USD and the other tracking the percentage utilization of investment limits in corporate bonds.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7088963389396667,
   "source": "llm",
   "which_broader": null
  },
@@ -17399,6 +17858,114 @@
   "relationship": "different",
   "same": false,
   "semantic": 0.702033281326294,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net inflow net inflow debt oriented scheme": {
+  "lexical": 48.78048780487805,
+  "reason": "The metrics refer to distinct financial instruments, specifically sovereign bonds (FAR bonds) versus a broad category of mutual fund schemes, which are not subsets of each other.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8041495680809021,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net inflow net inflow short term trade credit": {
+  "lexical": 45.45454545454546,
+  "reason": "The metrics describe net inflows for two distinct financial instruments, Indian FAR bonds and short-term trade credit, which are not subsets or components of each other.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.8054035305976868,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net inflow net inward fdi": {
+  "lexical": 58.33333333333333,
+  "reason": "Indian FAR bonds are a specific category of debt securities, whereas Foreign Direct Investment refers to equity-based long-term capital investment, making them distinct financial metrics.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7843427658081055,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net inflow net lending borrowing": {
+  "lexical": 45.16129032258065,
+  "reason": "The metrics measure entirely different economic concepts: one tracks capital flows into specific financial instruments, while the other measures the fiscal balance of a government.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7201756834983826,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net inflow net outflow short term trade credit": {
+  "lexical": 40.0,
+  "reason": "The metrics describe entirely different financial instruments, with one focusing on Indian FAR bonds and the other on short-term trade credit.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.73625648021698,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net inflow net outgo primary income account": {
+  "lexical": 33.333333333333336,
+  "reason": "The metrics describe entirely different economic concepts, with one focusing on capital inflows into specific bonds and the other on outflows within the primary income account.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7022048234939575,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net inflow net portfolio inflow": {
+  "lexical": 66.66666666666667,
+  "reason": "Indian FAR bonds represent a specific subset of assets within the broader category of emerging market portfolio inflows.",
+  "relationship": "component_of",
+  "same": false,
+  "semantic": 0.9013129472732544,
+  "source": "llm",
+  "which_broader": "B"
+ },
+ "net inflow net purchase": {
+  "lexical": 27.27272727272727,
+  "reason": "The metrics describe different financial activities (inflows vs. purchases) involving different subjects (Indian FAR bonds vs. Mutual funds) and different currencies.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7408485412597656,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net inflow net purchase by mutual fund": {
+  "lexical": 32.432432432432435,
+  "reason": "The metrics describe different financial instruments (Indian FAR bonds vs. mutual fund holdings) and use different units of measurement.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7411544322967529,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net inflow net resource mobilised by mutual fund": {
+  "lexical": 25.531914893617024,
+  "reason": "The metrics describe different financial instruments (Indian FAR bonds versus mutual funds) and use different units of measurement.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7080242037773132,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net inflow net service receipt": {
+  "lexical": 27.586206896551722,
+  "reason": "Net inflow into specific bonds and net service receipts represent distinct financial categories that do not share a direct hierarchical or identical relationship.",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7343323230743408,
+  "source": "llm",
+  "which_broader": null
+ },
+ "net inflow outflow from equity segment": {
+  "lexical": 43.24324324324324,
+  "reason": "The metrics describe different financial flows (net inflow vs. outflows) for different asset classes (FAR bonds vs. equity segment).",
+  "relationship": "different",
+  "same": false,
+  "semantic": 0.7026522159576416,
   "source": "llm",
   "which_broader": null
  },

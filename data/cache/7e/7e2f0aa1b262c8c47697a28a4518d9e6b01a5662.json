@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics are expressed in different currencies (INR vs USD) and represent different financial concepts, as one refers to the total investment amount while the other refers to net inflows."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics are expressed in different currencies (INR vs USD) and represent different financial concepts, as one refers to the total investment amount while the other refers to net inflows.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

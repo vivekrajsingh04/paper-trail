@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net ECB inflows refer to External Commercial Borrowings, while net inflows into Indian FAR bonds refer to a specific category of government securities, representing two distinct financial instruments."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net ECB inflows refer to External Commercial Borrowings, while net inflows into Indian FAR bonds refer to a specific category of government securities, representing two distinct financial instruments.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,19 @@
+{
+ "data": {
+  "title": "Economic Survey 2024-25",
+  "publisher": "Government of India",
+  "doc_type": "survey",
+  "primary_entity": "India",
+  "published": null,
+  "as_of": "December 2024",
+  "default_qualifiers": {
+   "currency": "usd",
+   "reporting_period": "fy25"
+  },
+  "notes": "Net FPI inflows are defined as the sum of equity and debt inflows. Financial year (FY) in India typically runs from April to March."
+ },
+ "raw": "{\n  \"title\": \"Economic Survey 2024-25\",\n  \"publisher\": \"Government of India\",\n  \"doc_type\": \"survey\",\n  \"primary_entity\": \"India\",\n  \"published\": null,\n  \"as_of\": \"December 2024\",\n  \"default_qualifiers\": {\n    \"currency\": \"usd\",\n    \"reporting_period\": \"fy25\"\n  },\n  \"notes\": \"Net FPI inflows are defined as the sum of equity and debt inflows. Financial year (FY) in India typically runs from April to March.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "profile:tmpwzfzcrm7-09985d03"
+}

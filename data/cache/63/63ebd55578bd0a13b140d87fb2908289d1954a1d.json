@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net inflow into specific bonds and net service receipts represent distinct financial categories that do not share a direct hierarchical or identical relationship."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net inflow into specific bonds and net service receipts represent distinct financial categories that do not share a direct hierarchical or identical relationship.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -7,6 +7,11 @@ subtly different things.
 
 Built for the Superjoin engineering intern assignment.
 
+![A corroboration between two documents, with its reasoning](docs/case-corroborates.png)
+
+*The IMF and the RBI report the same figure under different names and different
+fiscal-year notation. The system links them, and shows exactly why.*
+
 ---
 
 ## The idea in one table
@@ -167,6 +172,8 @@ And the engine learns which of them explain anything:
 is correct, because units are normalised before comparison, so scale *should not*
 move a value. Nothing told the system that. It measured it.
 
+![Extraction accounting and learned dimension weights](docs/diagnostics.png)
+
 ---
 
 ## The four required cases
@@ -189,6 +196,11 @@ The same mechanism links `₹127 Cr` to `₹1,266 Mn` (EBITDA) and, in the macro
 corpus, the RBI's "6.5 per cent in 2024-25" to the IMF's "6.5 percent in
 FY2024/25" — which requires the period normaliser to recognise those two
 notations as one window.
+
+Every fact carries its exact character span, so any figure can be shown boxed on
+the page it came from:
+
+![The cited figure boxed on its source page](docs/evidence-on-page.png)
 
 ### 2. A genuine contradiction
 
@@ -220,6 +232,8 @@ B  basis = provisional_estimate     (RBI,    published May 2025)
 
 That is a revision, not a disagreement. The system names the dimension that
 explains it rather than asserting the facts are compatible.
+
+![An apparent contradiction explained by a differing dimension](docs/case-reconciled.png)
 
 Two other kinds of reconciliation appear in the same corpus, which matters
 because it shows the mechanism is general rather than tuned to vintages:
@@ -296,6 +310,31 @@ addresses both failure modes, which is why it is first on the next-steps list.
 ## Approach
 
 ### Architecture
+
+```mermaid
+flowchart TD
+    A[PDF] --> B[ingest.py<br/>text + per-word geometry]
+    B --> C[candidates.py<br/>deterministic quantity scan]
+    C --> D{page worth a call?}
+    D -- no --> Z[skipped, counted]
+    D -- yes --> E[extract.py<br/>model proposes quote + meaning]
+    E --> F{quote verbatim on page?<br/>value inside the quote?}
+    F -- no --> R[rejected, listed in Diagnostics]
+    F -- yes --> G[deterministic:<br/>parse number, normalise unit,<br/>build precision interval,<br/>resolve period, map to boxes]
+    G --> H[(SQLite<br/>facts)]
+    H --> I[canon.py<br/>are these the same metric?<br/>exact → lexical → semantic → model]
+    I --> J[compare.py<br/>intervals overlap?<br/>which dimensions differ?]
+    J --> K{verdict}
+    K --> K1[corroborates]
+    K --> K2[contradicts]
+    K --> K3[reconciled by X]
+    K --> K4[needs review]
+    K --> K5[related]
+    K1 & K2 & K3 & K4 & K5 --> L[(SQLite<br/>relations)]
+    L --> M[FastAPI + UI<br/>reasoning, evidence, diagnostics]
+```
+
+The same pipeline, with the file each stage lives in:
 
 ```
 PDF

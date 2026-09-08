@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "Net FPI inflows represent a broad category of foreign portfolio investment, while Indian FAR bonds are a specific, narrow subset of debt instruments that may or may not be fully captured within the broader FPI metric depending on classification."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"Net FPI inflows represent a broad category of foreign portfolio investment, while Indian FAR bonds are a specific, narrow subset of debt instruments that may or may not be fully captured within the broader FPI metric depending on classification.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

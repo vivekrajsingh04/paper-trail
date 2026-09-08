@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics refer to different financial scopes, as 'FPI debt investment' covers the entire debt segment while 'Investments by FPIs in Corporate Bonds' is limited to a specific sub-category of debt."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics refer to different financial scopes, as 'FPI debt investment' covers the entire debt segment while 'Investments by FPIs in Corporate Bonds' is limited to a specific sub-category of debt.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}

@@ -1,0 +1,12 @@
+{
+ "data": {
+  "same_metric": false,
+  "relationship": "different",
+  "which_broader": null,
+  "reason": "The metrics measure entirely different aspects of FPI activity, with one tracking net capital flow in USD and the other tracking the percentage utilization of investment limits in corporate bonds."
+ },
+ "raw": "{\n  \"same_metric\": false,\n  \"relationship\": \"different\",\n  \"which_broader\": null,\n  \"reason\": \"The metrics measure entirely different aspects of FPI activity, with one tracking net capital flow in USD and the other tracking the percentage utilization of investment limits in corporate bonds.\"\n}",
+ "model": "gemini-3.1-flash-lite",
+ "provider": "gemini",
+ "tag": "metric_match"
+}
