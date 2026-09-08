@@ -103,8 +103,12 @@ python evals/run_evals.py --with-db     # plus invariants over the built layer
 
 ## Video demo
 
-**[link to be added]** — under 3 minutes, showing a PDF being processed and all
-four required cases.
+**https://www.loom.com/share/3d60f2951a5b4d6b97896d0fe7498d24**
+
+Under 3 minutes: a PDF being ingested, then all four required cases — a
+corroboration across two documents, a genuine contradiction, an apparent
+contradiction explained by a differing dimension, and a failure the system found
+in itself.
 
 ---
 
